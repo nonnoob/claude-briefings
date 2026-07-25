@@ -34,7 +34,7 @@ schedule/
 
 ## 云端运行迁移（2026-07-25）
 
-Claude app 支持云端运行定时任务后，任务不再依赖本机开机，但云端读不到本地文件系统。因此本目录整体成为 GitHub 私有仓库 **`nonnoob/claude-briefings`**：云端任务每次运行 clone/pull 仓库读 SKILL.md 与 MEMORY.md，产出后 commit+push 归档与记忆。本地目录只是仓库的一份检出——**本地改完必须 push 才对云端生效**；看云端产出先 `git pull`。DST 注意事项不变：调度若按 UTC cron 解释，3 月中/11 月初需手动调整（PST/PDT）。
+Claude app 支持云端运行定时任务后，任务不再依赖本机开机，但云端读不到本地文件系统。因此本目录整体成为 GitHub 公开仓库 **`nonnoob/claude-briefings`**（公开是为了云端免认证读取；push 仍需授权，内容只有简报归档与任务定义，无敏感信息）：云端任务每次运行 clone/pull 仓库读 SKILL.md 与 MEMORY.md，产出后 commit+push 归档与记忆。本地目录只是仓库的一份检出——**本地改完必须 push 才对云端生效**；看云端产出先 `git pull`。DST 注意事项不变：调度若按 UTC cron 解释，3 月中/11 月初需手动调整（PST/PDT）。
 
 ## 日常使用
 
