@@ -1,5 +1,9 @@
 # claude-briefings
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Built with Claude Code](https://img.shields.io/badge/Built%20with-Claude%20Code-d97757)](https://claude.ai/code)
+[![Runs daily](https://img.shields.io/badge/Runs-daily%20%C2%B7%20cloud-2ea44f)](https://claude.ai/code/routines)
+
 用 Claude Code Routines 每天自动生成主题简报的一套可复用规范。git 仓库承载全部状态——任务定义、跨运行记忆、历史归档都在这里，`main` 即唯一事实；云端定时运行，本机无需开机。
 
 ## 解决什么问题
