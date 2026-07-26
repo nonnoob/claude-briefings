@@ -5,7 +5,7 @@ description: 从一个 topic 自动生成定时简报任务：自主设计板块
 
 # new-briefing — 从 topic 到定时简报任务
 
-> **安装**：把本目录复制到 `~/.claude/skills/new-briefing/`，并替换下文占位符：`<仓库检出路径>`（你本机的仓库 clone 位置）、`<你的仓库>`（如 `you/your-briefings`）；默认受众、语言、时区也可顺手改成自己的。
+> **安装**：把本目录复制到 `~/.claude/skills/new-briefing/`，把下文的 `<仓库检出路径>` 替换为你本机的仓库 clone 位置；默认受众、语言、时区可顺手改成自己的。仓库地址**无需配置**——装配时从检出的 `git remote get-url origin` 自动取。
 
 用户只抛一个 topic，其余全部由你决定，不追问、不让用户操心设计细节。
 
@@ -40,6 +40,6 @@ description: 从一个 topic 自动生成定时简报任务：自主设计板块
    - 打开 claude.ai/code/routines → New routine；
    - Name = `<slug>`（纯 slug）；
    - Instructions = 该 SKILL.md 的**运行时正文，逐字**。边界：跳过 frontmatter（两条 `---`）及紧跟的空行，自第一个非空行起到文件末尾；
-   - Select repositories 绑定 `<你的仓库>`；触发器选 Schedule，默认 Daily 09:00（本地时区，DST 自动处理）；
+   - Select repositories 绑定状态仓库（即检出的 `git remote` 指向的那个）；触发器选 Schedule，默认 Daily 09:00（本地时区，DST 自动处理）；
    - **创建后**进编辑弹窗按最小权限移除不需要的连接器（创建表单里的移除不会生效），并确认模型选择。
 4. 交付时告知用户：首次运行 archive/ 为空、MEMORY.md 缺失是正常初始态，会自举；以后改简报内容直接改 SKILL.md 并 push（自愈机制下次运行生效）；改运行时间只在 Routine 调度里改，永不写入正文。

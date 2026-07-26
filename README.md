@@ -41,7 +41,7 @@
 
 1. Fork 本仓库；
 2. 本机 Claude Code 里跑 `/web-setup`，OAuth 连接 GitHub；
-3. 把 `skills/new-briefing/` 复制到 `~/.claude/skills/` 并按文件头说明填好占位符——之后一句 `/new-briefing 〈主题〉` 即可自动设计板块、装配任务并推送（不装技能则手动照 `_template/SKILL.md` 装配）；
+3. 把 `skills/new-briefing/` 复制到 `~/.claude/skills/` 并填好本机检出路径（仓库地址装配时自动取自 `git remote`，无需配置）——之后一句 `/new-briefing 〈主题〉` 即可自动设计板块、装配任务并推送（不装技能则手动照 `_template/SKILL.md` 装配）；
 4. 在 [claude.ai/code/routines](https://claude.ai/code/routines) 新建 Routine：Instructions = 任务 `SKILL.md` 的运行时正文（逐字，边界定义见模板）、绑定你的仓库、设定时；
 5. 按最小权限原则移除 Routine 上不需要的连接器（创建表单里移除不生效，创建后在编辑弹窗里摘）；
 6. 新增任务时同步 `.github/workflows/auto-merge-briefings.yml` 的目录白名单。
