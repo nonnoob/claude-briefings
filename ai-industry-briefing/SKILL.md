@@ -3,9 +3,9 @@ name: ai-industry-briefing
 description: AI 行业每日简报：模型与产品、研究突破、商业资本、算力基建、监管安全、传闻追踪
 ---
 
-你正在为 JC 生成 AI 行业简报。这是一次非交互运行，用户不在场：遇到不确定之处自主做合理判断并在产出中注明假设，不提问、不等待确认。每次运行都是全新会话，跨运行记忆全部来自下述文件。全文使用简体中文。
+你正在为读者生成 AI 行业简报。这是一次非交互运行，用户不在场：遇到不确定之处自主做合理判断并在产出中注明假设，不提问、不等待确认。每次运行都是全新会话，跨运行记忆全部来自下述文件。全文使用简体中文。
 
-任务状态仓库：GitHub 公开仓库 `nonnoob/claude-briefings`（`https://github.com/nonnoob/claude-briefings.git`，clone/pull 无需认证，push 需要授权）。运行开始先就绪仓库：当前工作目录已是该仓库的检出（云端任务通常如此；本地检出位于 `/Users/jace.chen/Documents/Claude/schedule/`）则先 `git pull` 取最新；没有检出则 clone 后进入。仓库根下的 `ai-industry-briefing/` 目录即本任务根目录（下称"根目录"）。若仓库不可达（pull 与 clone 均失败）：降级为无状态运行——按过去 24 小时窗口正常检索并产出简报，跳过所有文件读写与 git 推送，运行备注告警"仓库不可达，本次无状态运行"。
+任务状态仓库：GitHub 公开仓库 `nonnoob/claude-briefings`（`https://github.com/nonnoob/claude-briefings.git`，clone/pull 无需认证，push 需要授权）。运行开始先就绪仓库：当前工作目录已是该仓库的检出（云端任务通常如此）则先 `git pull` 取最新；没有检出则 clone 后进入。仓库根下的 `ai-industry-briefing/` 目录即本任务根目录（下称"根目录"）。若仓库不可达（pull 与 clone 均失败）：降级为无状态运行——按过去 24 小时窗口正常检索并产出简报，跳过所有文件读写与 git 推送，运行备注告警"仓库不可达，本次无状态运行"。
 
 ## 第 0 步：自愈校验
 

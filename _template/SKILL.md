@@ -7,28 +7,27 @@ description: <一行中文描述，会显示在任务列表里>
 
 本文件是定时简报类任务的唯一规范。当用户要求"按模板新建定时任务"或"严格按照模板修改当前定时任务"时，按以下 checklist 执行，不要另行发挥：
 
-1. **确定 topic-slug**：英文小写连字符（如 `daily-tech-briefing`）。它同时是目录名、taskId、归档文件名前缀。
-2. **建目录**：`/Users/jace.chen/Documents/Claude/schedule/<topic-slug>/` 及其下 `archive/`。
+1. **确定 topic-slug**：英文小写连字符（如 `daily-tech-briefing`）。它同时是目录名、Routine 名、归档文件名前缀。
+2. **建目录**：仓库检出根下 `<topic-slug>/` 及其下 `archive/`。
 3. **实例化任务定义**：把本文件的 frontmatter + 分隔线以下的"运行时正文"写入 `<topic-slug>/SKILL.md`，替换全部 `<占位符>`。装配说明（本部分）不得带入。修改已有任务时，直接改该任务的 SKILL.md，同样只含 frontmatter + 运行时正文。
 4. **自检**，逐项确认：
    - 正文无任何未替换的 `<占位符>`；
    - 正文无任何运行频率/绝对时间描述（"每天 9 点""每周一"之类）——频率只属于调度配置；时间窗口一律用"自上次运行以来"的相对表达；
    - 正文无装配说明、无 frontmatter；
    - 写操作权限一节只列用户明确批准的动作。
-   - 装配/修改完成后 `git add` + commit + push 本仓库（远端 `https://github.com/nonnoob/claude-briefings`）——云端定时任务读的是远端，未 push 的修改不生效。
-5. **推送**：用该产品实际提供的定时任务创建/更新工具（工具名因产品/会话而异，如 `create_scheduled_task`/`create_trigger` 等，功能等价即可，不强求字面工具名）。参数对应关系固定为——任务标识符（taskId/name，视工具而定）= topic-slug；`prompt` = 运行时正文（**不含 frontmatter，不含装配说明**；工具若自己生成 frontmatter 包住 prompt，把 frontmatter 塞进 prompt 会产生嵌套双 frontmatter）。**正文边界精确定义**：从关闭 frontmatter 的第二个 `---` 所在行之后、跳过紧接的那一个空行分隔符，第一个非空行开始，到文件末尾结束；该空行分隔符本身**不计入** `prompt`。末尾是否带一个换行符不影响执行语义，无需纠结。若工具没有独立 `description` 字段：标识符仍保持纯 topic-slug，不要把中文描述拼进去（拼进去后 description 一改就要跟着改标识符，易与本地自愈机制错位）；description 只留在本地 SKILL.md frontmatter 供人阅读，无需强行塞进远端。
-6. **回读校验**：用该产品的查询工具取回已保存内容，与任务 SKILL.md 运行时正文逐字比对，确认只有一层 frontmatter（如工具返回其自动生成的 frontmatter，需与本地 frontmatter 的 description 一致）。若产品支持按路径 Read 校验则用路径读取；不支持（如云端存储、无本地文件）则直接比对工具回显的内容。
-7. **调度频率**：只在调度配置（cronExpression/fireAt 等）里设置，按用户要求换算；**若该工具的 cron 按 UTC 解释**（多数定时任务 API 如此，需求确认或从工具说明/首次 next-run 回显核实），把用户给的本地时间换算成 UTC 再填入，并在确认时报出换算结果（如"北京时间 09:00 = UTC 01:00，cronExpression 用 0 1 * * *"）。用户没给频率就提议一个并确认。
-8. **首次运行前不需要造 MEMORY.md 或归档**——archive/ 为空、MEMORY.md 缺失是正常初始态，运行时机制会自举。
-9. 单次手动执行与定时执行走同一份正文，无需任何改动。
+   - 装配/修改完成后 `git add` + commit + push——云端定时任务读的是远端状态仓库，未 push 的修改不生效。
+5. **创建 Routine**（claude.ai/code/routines 网页操作，CLI 无法代建）：Name = topic-slug（纯 slug，不拼描述）；Instructions = 运行时正文**逐字**——**边界**：从关闭 frontmatter 的第二个 `---` 所在行之后、跳过紧接的那一个空行分隔符，第一个非空行起到文件末尾，该空行不计入，末尾换行有无不影响语义；frontmatter 永不进 Instructions，description 只留在本地供人阅读。绑定状态仓库；触发器选 Schedule（本地时区调度，DST 自动处理；用户没给频率就提议一个并确认）。
+6. **收尾**：创建后进 Routine 编辑弹窗按最小权限移除不需要的连接器（创建表单里的移除不会生效）并确认模型；把任务目录名加入 `.github/workflows/auto-merge-briefings.yml` 的目录白名单。
+7. **首次运行前不需要造 MEMORY.md 或归档**——archive/ 为空、MEMORY.md 缺失是正常初始态，运行时机制会自举。
+8. 单次手动执行（Run now）与定时执行走同一份正文，无需任何改动。
 
 背景与决策记录见 `../README.md`、`../CONTEXT.md`、`../docs/adr/`（操作者可不读，规范以本文件为准）。
 
 ===== 运行时正文（从下一行起是推送为 prompt 的全部内容）=====
 
-你正在为 <受众，如 JC> 生成<主题>简报。这是一次非交互运行，用户不在场：遇到不确定之处自主做合理判断并在产出中注明假设，不提问、不等待确认。每次运行都是全新会话，跨运行记忆全部来自下述文件。全文使用<语言，如简体中文>。
+你正在为<受众>生成<主题>简报。这是一次非交互运行，用户不在场：遇到不确定之处自主做合理判断并在产出中注明假设，不提问、不等待确认。每次运行都是全新会话，跨运行记忆全部来自下述文件。全文使用<语言，如简体中文>。
 
-任务状态仓库：GitHub 公开仓库 `nonnoob/claude-briefings`（`https://github.com/nonnoob/claude-briefings.git`，clone/pull 无需认证，push 需要授权）。运行开始先就绪仓库：当前工作目录已是该仓库的检出（云端任务通常如此；本地检出位于 `/Users/jace.chen/Documents/Claude/schedule/`）则先 `git pull` 取最新；没有检出则 clone 后进入。仓库根下的 `<topic-slug>/` 目录即本任务根目录（下称"根目录"）。若仓库不可达（pull 与 clone 均失败）：降级为无状态运行——按过去 24 小时窗口正常检索并产出简报，跳过所有文件读写与 git 推送，运行备注告警"仓库不可达，本次无状态运行"。
+任务状态仓库：GitHub 仓库 `<owner/repo>`（`https://github.com/<owner/repo>.git`；公开仓库 clone/pull 无需认证，push 需要授权）。运行开始先就绪仓库：当前工作目录已是该仓库的检出（云端任务通常如此）则先 `git pull` 取最新；没有检出则 clone 后进入。仓库根下的 `<topic-slug>/` 目录即本任务根目录（下称"根目录"）。若仓库不可达（pull 与 clone 均失败）：降级为无状态运行——按过去 24 小时窗口正常检索并产出简报，跳过所有文件读写与 git 推送，运行备注告警"仓库不可达，本次无状态运行"。
 
 ## 第 0 步：自愈校验
 
@@ -78,7 +77,7 @@ description: <一行中文描述，会显示在任务列表里>
 
 ## 写操作权限
 
-默认仅允许：写本任务根目录内的文件；对仓库 `nonnoob/claude-briefings` 的 git add/commit/push（仅含本任务根目录内的变更）；第 0 步自愈所需的定时任务更新工具。其余一切外部写操作（发消息、发邮件、发布内容、删改任务目录外的数据）一律禁止。
+默认仅允许：写本任务根目录内的文件；对仓库 `<owner/repo>` 的 git add/commit/push（仅含本任务根目录内的变更）；第 0 步自愈所需的定时任务更新工具。其余一切外部写操作（发消息、发邮件、发布内容、删改任务目录外的数据）一律禁止。
 <如需额外放开，逐条列出用户明确批准的动作；未列出的一律禁止。无则写"无额外授权"。>
 
 ## 运行结束
