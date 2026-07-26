@@ -1,44 +1,61 @@
-# 定时简报任务目录（schedule/）
+# claude-briefings
 
-这是所有"有记忆/连续性需求"的定时检索类任务的统一存放处。**唯一规范性文件是 `_template/SKILL.md`**：新建或修改任务时，操作者（AI 或人）只需读它并照 checklist 执行。本 README 只是背景说明，不再复述协议——两处复述必然漂移（已被实践证实一次）。
+用 Claude Code Routines 每天自动生成主题简报的一套可复用规范。git 仓库承载全部状态——任务定义、跨运行记忆、历史归档都在这里，`main` 即唯一事实；云端定时运行，本机无需开机。
 
-## 目录结构
+## 解决什么问题
+
+简报类定时任务的难点不在检索，在**连续性**：
+
+- 不重复报已报过的事件（按事件级语义去重，换媒体换标题也认得出）；
+- 追踪进行中事件的后续（【续报】机制）；
+- 收录未官宣但有可信度的消息（【传闻】机制，写明信源、跟踪至证实或辟谣）;
+- 断档几天后自动补窗，而不是漏报或重报。
+
+这些机制全部写进一份任务模板，每个新任务只需实例化。
+
+## 仓库结构
 
 ```
-schedule/
-├── README.md            <- 本文件：背景说明（非规范）
-├── CONTEXT.md           <- 术语表：本域概念的唯一定义
-├── docs/adr/            <- 架构决策记录（为什么这么设计）
-├── _template/SKILL.md   <- 唯一规范：装配 checklist + 运行时正文骨架
-└── <topic-slug>/        <- 每个任务一个目录
-    ├── SKILL.md         <- 任务定义（唯一权威源，正文=调度器 prompt）
-    ├── MEMORY.md        <- 运行记忆（机器读写，首次运行前不存在属正常）
-    └── archive/         <- 每次成功运行一份产出快照，只增不改
-        └── <topic-slug>_<YYYY-MM-DD>.md
+├── _template/SKILL.md      # 任务规范（唯一权威）：装配 checklist + 运行时正文骨架
+├── <topic-slug>/           # 每个任务一个目录
+│   ├── SKILL.md            # 任务定义（正文 = Routine 的 prompt，逐字）
+│   ├── MEMORY.md           # 跨运行记忆（机器读写，首次运行前不存在）
+│   └── archive/            # 每期简报快照，只增不改
+├── CONTEXT.md              # 术语表
+├── docs/adr/               # 架构决策记录（为什么这么设计）
+└── .github/workflows/      # claude/* 分支兜底合并 Action
 ```
 
-## 当初为什么建这套规范（痛点回顾）
+## 工作原理
 
-1. 归档散落在系统自动分配的目录里，不在自己管理、备份、同步的文件夹中。
-2. 任务描述里写死运行时间（"每晚 9 点""过去 24 小时"），一改调度频率描述就过时误导。
-3. 去重/记忆/续报逻辑每个任务重新发明一遍，写法不一致、容易遗漏。
-4. 核实与格式没有统一底线，出现过编造倾向和硬凑板块。
-5. 非交互运行的写操作边界不清晰，靠运行时临时判断。
+每天定时，云端 Routine 执行一次完整生命周期：
 
-初版规范（README 复述协议 + 模板 + 人肉双写两份 prompt）运行两周后暴露两个新问题：调度器侧嵌套双 frontmatter（整文件逐字推送与工具机制冲突）、两份拷贝文字漂移（人肉双写不可靠）。由此确立了现行设计，关键决策见 `docs/adr/`：
+1. clone/pull 本仓库；
+2. **自愈校验**：任务 `SKILL.md` 正文与注册 prompt 不一致时，以文件为准执行（改任务只需改文件并 push，无需碰 Routine）；
+3. 读 `MEMORY.md` 计算覆盖窗口（自上次运行至今，封顶 N 天；缺失时从归档重建）;
+4. 分方向检索，按事件级语义去重，逐一核查进行中事件表；
+5. 产出简报 → 写 `archive/` 与 `MEMORY.md` → commit 并 `git push origin HEAD:main`（被拒则退推 `claude/*` 分支，由 Action 自动并入 main）。
 
-- ADR-0001：运行记忆与归档分离（MEMORY.md）
-- ADR-0002：Documents 侧 SKILL.md 为唯一权威源，运行时自愈同步
+## 自己搭一套
 
-术语的准确定义（任务定义、运行时正文、归档、运行记忆、已报条目、进行中事件、续报、覆盖窗口、topic-slug）见 `CONTEXT.md`。
+1. Fork 本仓库（或参照 `_template/SKILL.md` 从零装配任务目录）；
+2. 本机 Claude Code 里跑 `/web-setup`，OAuth 连接 GitHub；
+3. 在 [claude.ai/code/routines](https://claude.ai/code/routines) 新建 Routine：Instructions = 任务 `SKILL.md` 的运行时正文（逐字，边界定义见模板）、绑定你的仓库、设定时；
+4. 按最小权限原则移除 Routine 上不需要的连接器（创建表单里移除不生效，创建后在编辑弹窗里摘）；
+5. 新增任务时同步 `.github/workflows/auto-merge-briefings.yml` 的目录白名单。
 
-## 云端运行迁移（2026-07-25）
+改简报内容 = 改 `SKILL.md` 并 push；改运行时间 = 只改 Routine 调度。两者永不混放。
 
-Claude app 支持云端运行定时任务后，任务不再依赖本机开机，但云端读不到本地文件系统。因此本目录整体成为 GitHub 公开仓库 **`nonnoob/claude-briefings`**（公开是为了云端免认证读取；push 仍需授权，内容只有简报归档与任务定义，无敏感信息）：云端任务每次运行 clone/pull 仓库读 SKILL.md 与 MEMORY.md，产出后 commit+push 归档与记忆。本地目录只是仓库的一份检出——**本地改完必须 push 才对云端生效**；看云端产出先 `git pull`。任务运行在 Claude Code Routines（claude.ai/code/routines，本地时区调度，DST 自动处理）；云端会话只能推 `claude/*` 分支时，`.github/workflows/auto-merge-briefings.yml` 自动把只含任务目录改动的分支合并进 main 并删分支，main 始终是唯一可信状态。DST 注意事项不变：调度若按 UTC cron 解释，3 月中/11 月初需手动调整（PST/PDT）。
+## 设计文档
 
-## 日常使用
+- 术语表：[CONTEXT.md](CONTEXT.md)
+- 决策记录：[docs/adr/](docs/adr/)（记忆与归档分离、文件为唯一权威源 + 自愈、云端 Routines + git 状态仓库）
+- 任务规范：[_template/SKILL.md](_template/SKILL.md)
 
-- **新建任务**：在 Claude Code 里用 `/new-briefing 〈主题〉`（技能位于 `~/.claude/skills/new-briefing/`）：AI 自主设计板块与信息源、装配 `<topic-slug>/SKILL.md`，并给出一段交接 prompt，复制到 Claude app 即完成创建（默认每天 09:00，想改频率在消息里顺口说明）。也可直接对 AI 说"按 `schedule/_template/SKILL.md` 新建一个〈主题〉定时任务"。
-- **修改任务**：直接编辑 `<topic-slug>/SKILL.md` 即可——下次运行会自愈同步到调度器；也可以让 AI"严格按照模板修改"。
-- **改运行时间**：只改调度配置，任务定义永远不含时间/频率。
-- **看历史**：翻 `<topic-slug>/archive/`；看它现在记着什么：翻 `MEMORY.md`。
+## 注意
+
+本仓库公开（云端免认证 clone，见 ADR-0003）：**任何凭据、令牌、敏感信息一律不得入库。**
+
+## License
+
+MIT

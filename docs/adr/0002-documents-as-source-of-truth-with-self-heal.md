@@ -1,5 +1,7 @@
 # Documents 侧 SKILL.md 为唯一权威源，运行时自愈同步
 
+> 部分被 ADR-0003 修订：权威源现位于 git 状态仓库（而非仅本机 Documents 目录）；云端运行无任务更新工具时自愈只"以文件为准执行"、不回推 prompt。本文其余决策依据仍然有效。
+
 任务定义的唯一权威是 `/Users/jace.chen/Documents/Claude/schedule/<topic-slug>/SKILL.md`；调度器里注册的 prompt 只是其运行时正文的推送副本。每次运行的第 0 步做自愈校验：发现副本与权威源不一致时，按权威源执行本次运行，并调用 `update_scheduled_task` 把权威源正文推回调度器。
 
 决策依据：原方案要求两处"逐字一致、人肉双写"，第一个任务上线两周即漂移（两侧开头文字不同、互相指认对方为权威），人肉双写被实践证伪。同时发现"整文件逐字推送"与工具机制冲突——`create/update_scheduled_task` 会用 taskId+description 自动生成 frontmatter 包住 prompt，导致调度器侧出现嵌套双 frontmatter。故推送物固定为：正文 → prompt 参数，description → description 参数，frontmatter 永不进 prompt。
