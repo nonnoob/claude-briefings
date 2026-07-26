@@ -39,12 +39,18 @@
 
 ## 自己搭一套
 
-1. Fork 本仓库；
-2. 本机 Claude Code 里跑 `/web-setup`，OAuth 连接 GitHub；
-3. 安装装配技能（可选）：把 `skills/new-briefing/` 复制到 `~/.claude/skills/`，把文件里的 `<仓库检出路径>` 换成你 clone 到本机的目录——这是**唯一需要手填的配置**；GitHub 仓库地址不用填，装配时自动读该目录的 `git remote`。装好后一句 `/new-briefing 〈主题〉` 即可自动设计板块、装配并推送；不装技能则照 `_template/SKILL.md` 手动装配；
-4. 在 [claude.ai/code/routines](https://claude.ai/code/routines) 新建 Routine：Instructions = 任务 `SKILL.md` 的运行时正文（逐字，边界定义见模板）、绑定你的仓库、设定时；
-5. 按最小权限原则移除 Routine 上不需要的连接器（创建表单里移除不生效，创建后在编辑弹窗里摘）；
-6. 新增任务时同步 `.github/workflows/auto-merge-briefings.yml` 的目录白名单。
+```bash
+# 1. Fork 本仓库，clone 到本机，进目录跑一键配置（安装 new-briefing 技能，路径与仓库地址全自动）
+git clone https://github.com/<你的用户名>/<你的fork>.git && cd <你的fork> && ./setup.sh
+
+# 2. Claude Code 里连接 GitHub（首次一次）
+/web-setup
+
+# 3. 建一个简报任务：自动设计板块、装配、推送，并给出 Routine 创建指引
+/new-briefing 〈主题〉
+```
+
+最后照指引在 [claude.ai/code/routines](https://claude.ai/code/routines) 创建 Routine（网页操作无法自动化）：绑定你的仓库、设定时；创建后在编辑弹窗里移除不需要的连接器（创建表单里移除不生效）。
 
 改简报内容 = 改 `SKILL.md` 并 push；改运行时间 = 只改 Routine 调度。两者永不混放。
 
