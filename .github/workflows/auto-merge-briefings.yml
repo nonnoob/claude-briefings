@@ -1,0 +1,51 @@
+name: auto-merge-briefing-runs
+
+# 云端 Routine 会话只能推 claude/* 分支时的兜底：
+# 只要分支改动全部落在简报任务目录内，就自动合并进 main（冲突取分支侧，即最新一次运行胜出），
+# 然后删除已消化的分支。改动越界（含任务目录外文件）则跳过，留人工处理。
+
+on:
+  push:
+    branches: ['claude/**']
+
+permissions:
+  contents: write
+
+concurrency:
+  group: auto-merge-briefings
+  cancel-in-progress: false
+
+jobs:
+  merge:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Merge briefing branch into main
+        env:
+          BRANCH: ${{ github.ref_name }}
+        run: |
+          set -euo pipefail
+          ALLOWED='^(ai-industry-briefing|app-updates-briefing|automotive-daily-briefing|cloud-native-daily-briefing|daily-tech-briefing|tech-industry-briefing)/'
+          git config user.name "briefing-bot"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git checkout main
+          git pull --ff-only origin main
+          base=$(git merge-base HEAD "origin/$BRANCH")
+          changed=$(git diff --name-only "$base" "origin/$BRANCH")
+          if [ -z "$changed" ]; then
+            echo "分支相对 main 无改动，仅删除分支"
+            git push origin --delete "$BRANCH" || true
+            exit 0
+          fi
+          bad=$(echo "$changed" | grep -Ev "$ALLOWED" || true)
+          if [ -n "$bad" ]; then
+            echo "改动越界，跳过自动合并："
+            echo "$bad"
+            exit 0
+          fi
+          git merge --no-edit -X theirs "origin/$BRANCH" -m "auto-merge: $BRANCH"
+          git push origin main
+          git push origin --delete "$BRANCH" || true
