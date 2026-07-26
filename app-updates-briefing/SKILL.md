@@ -57,7 +57,7 @@ description: VSCode、Claude App（Claude Code/Claude Desktop/claude.ai）等常
   1. 本次运行时刻与实际覆盖窗口；
   2. 已报条目清单：保留最近 14 天，一行一条，格式"日期 | 一句话事件描述（谁+干了什么）| 代表性链接"，描述只写事件本身、不携带"(同日二次运行)"之类的运行批注；
   3. 进行中事件表：预期还有后续、需要跨运行追踪的事件，每条含"事件、最后进展日期、下一步关注点"；事件已闭合或连续 14 天无新进展则移出（可在当期简报注一句）；至多保留 10 条，按重要性取舍。
-- 再提交推送：`git add` 本任务根目录，commit（消息格式 `app-updates-briefing: <YYYY-MM-DD>`）后 `git push`；push 被拒先 `git pull --rebase` 再推，至多重试 2 次；仍失败则运行备注告警——简报已在回复中完整输出，仅状态未持久化，下次运行按窗口机制自动补偿。
+- 再提交推送：`git add` 本任务根目录并 commit（消息格式 `app-updates-briefing: <YYYY-MM-DD>`）。推送目标是 **main**：先 `git push origin HEAD:main`；被拒则 `git pull --rebase origin main` 后重推，至多 2 次；仍被拒（如平台限制只能推 `claude/*` 分支）则退而 `git push` 推当前工作分支，并在运行备注注明"已推送至分支 <分支名>，需合并到 main"——简报已在回复中完整输出，下次运行按窗口机制自动补偿。
 - 归档永久保留：不删除、不清理 `archive/` 下任何文件（非交互运行中删除文件会触发权限请求而中断任务；清理只由用户手动进行）。
 
 ## 写操作权限
