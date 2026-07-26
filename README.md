@@ -21,6 +21,7 @@
 │   ├── SKILL.md            # 任务定义（正文 = Routine 的 prompt，逐字）
 │   ├── MEMORY.md           # 跨运行记忆（机器读写，首次运行前不存在）
 │   └── archive/            # 每期简报快照，只增不改
+├── skills/new-briefing/    # Claude Code 技能：一句话 topic → 自动装配新任务
 ├── CONTEXT.md              # 术语表
 ├── docs/adr/               # 架构决策记录（为什么这么设计）
 └── .github/workflows/      # claude/* 分支兜底合并 Action
@@ -38,11 +39,12 @@
 
 ## 自己搭一套
 
-1. Fork 本仓库（或参照 `_template/SKILL.md` 从零装配任务目录）；
+1. Fork 本仓库；
 2. 本机 Claude Code 里跑 `/web-setup`，OAuth 连接 GitHub；
-3. 在 [claude.ai/code/routines](https://claude.ai/code/routines) 新建 Routine：Instructions = 任务 `SKILL.md` 的运行时正文（逐字，边界定义见模板）、绑定你的仓库、设定时；
-4. 按最小权限原则移除 Routine 上不需要的连接器（创建表单里移除不生效，创建后在编辑弹窗里摘）；
-5. 新增任务时同步 `.github/workflows/auto-merge-briefings.yml` 的目录白名单。
+3. 把 `skills/new-briefing/` 复制到 `~/.claude/skills/` 并按文件头说明填好占位符——之后一句 `/new-briefing 〈主题〉` 即可自动设计板块、装配任务并推送（不装技能则手动照 `_template/SKILL.md` 装配）；
+4. 在 [claude.ai/code/routines](https://claude.ai/code/routines) 新建 Routine：Instructions = 任务 `SKILL.md` 的运行时正文（逐字，边界定义见模板）、绑定你的仓库、设定时；
+5. 按最小权限原则移除 Routine 上不需要的连接器（创建表单里移除不生效，创建后在编辑弹窗里摘）；
+6. 新增任务时同步 `.github/workflows/auto-merge-briefings.yml` 的目录白名单。
 
 改简报内容 = 改 `SKILL.md` 并 push；改运行时间 = 只改 Routine 调度。两者永不混放。
 
