@@ -4,15 +4,27 @@
 [![Built with Claude Code](https://img.shields.io/badge/Built%20with-Claude%20Code-d97757)](https://claude.ai/code)
 [![Runs daily](https://img.shields.io/badge/Runs-daily%20%C2%B7%20cloud-2ea44f)](https://claude.ai/code/routines)
 
+中文 | [English](README.en.md)
+
 用 Claude Code Routines 每天自动生成主题简报的一套可复用规范。git 仓库承载全部状态——任务定义、跨运行记忆、历史归档都在这里，`main` 即唯一事实；云端定时运行，本机无需开机。
+
+**和常见"RSS 抓取 + LLM 摘要"方案的差别：**
+
+- **零基础设施、零 secret**——没有爬虫代码、没有服务器、不需要配任何 API key；fork 之后要建的只有 Routine 本身。
+- **跨运行的事件级语义去重**——去重记忆持久在 git 里，同一事件换媒体、换标题、换链接也认得出；同类项目多为链接哈希，或只在单次运行内去重。
+- **断档补的是覆盖窗口，不只是补跑**——停三天，回来自动补上这三天的内容，而不是从"今天"重新开始。
+- **纯 prompt 规范**——任务定义本身就是 Routine 的 prompt，改行为 = 改 markdown 并 push，没有运行时代码要维护。
+
+**示例产出（真实归档）：** [每日科技简报 · 2026-07-26](daily-tech-briefing/archive/daily-tech-briefing_2026-07-26.md) · [AI 行业简报 · 2026-07-26](ai-industry-briefing/archive/ai-industry-briefing_2026-07-26.md) · [更多归档](daily-tech-briefing/archive/)
 
 ## 解决什么问题
 
 简报类定时任务的难点不在检索，在**连续性**：
 
 - 不重复报已报过的事件（按事件级语义去重，换媒体换标题也认得出）；
-- 追踪进行中事件的后续（【续报】机制）；
-- 收录未官宣但有可信度的消息（【传闻】机制，写明信源、跟踪至证实或辟谣）;
+- 追踪进行中事件的后续（【续报】机制，按每个事件的"下一步关注点"定向检索）；
+- 收录未官宣但有可信度的消息（【传闻】机制，写明信源、跟踪至证实或辟谣）；
+- 标注证据强度（【单源】/【矛盾】），交叉验证不过关的条目不冒充定论；
 - 断档几天后自动补窗，而不是漏报或重报。
 
 这些机制全部写进一份任务模板，每个新任务只需实例化。
@@ -28,10 +40,21 @@
 ├── skills/new-briefing/    # Claude Code 技能：一句话 topic → 自动装配新任务
 ├── CONTEXT.md              # 术语表
 ├── docs/adr/               # 架构决策记录（为什么这么设计）
-└── .github/workflows/      # claude/* 分支兜底合并 Action
 ```
 
-## 工作原理
+## 一次运行的生命周期
+
+```mermaid
+flowchart LR
+    A["定时触发<br/>（云端 Routine）"] --> B["clone/pull<br/>状态仓库"]
+    B --> C["自愈校验<br/>SKILL.md 为准"]
+    C --> D["读 MEMORY.md<br/>算覆盖窗口"]
+    D --> E["分方向检索<br/>语义去重 · 续报 · 传闻"]
+    E --> F["产出简报"]
+    F --> G["写 archive/<br/>重写 MEMORY.md"]
+    G --> H["push main"]
+    H -.下次运行.-> B
+```
 
 每天定时，云端 Routine 执行一次完整生命周期：
 
