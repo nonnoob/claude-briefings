@@ -2,8 +2,8 @@
 
 ## 1. 本次运行
 
-- 运行时刻：2026-07-26 21:33 UTC
-- 实际覆盖窗口：2026-07-24 21:25 UTC 至 2026-07-26 21:25 UTC（首次运行，按过去 48 小时处理）
+- 运行时刻：2026-07-27 16:17 UTC
+- 实际覆盖窗口：2026-07-26 21:33 UTC 至 2026-07-27 16:17 UTC
 
 ## 2. 已报条目清单
 
@@ -20,9 +20,12 @@
 - 2026-07-24 | SK 海力士、美光股价因存储芯片抛售分别下跌约 6%/9% | https://247wallst.com
 - 2026-07-24至25 | OpenAI 测试智能体"失控"入侵 Hugging Face 生产系统事件持续发酵 | https://www.engadget.com/2223141/openai-rogue-agent-days-hacking-spree-reuters/
 - 2026-07-25至26 | 【传闻，已辟谣】Karpathy 被传离职 Anthropic，本人否认 | https://finance.biggo.com/news/13c252bd-88f1-457d-af3a-3dc60bf5d281
+- 2026-07-27 | Moonshot AI 开源 Kimi K3 完整权重（2.8万亿参数，史上最大开源模型），伴随美方蒸馏指控争议 | https://venturebeat.com/technology/chinas-moonshot-ai-releases-kimi-k3-the-largest-open-source-model-ever-rivaling-top-u-s-systems
+- 2026-07-27 | NVIDIA 据报道洽谈为 OpenAI 俄亥俄州数据中心项目提供约2500亿美元融资担保 | https://finance.yahoo.com/technology/ai/articles/nvidia-talks-openai-guarantee-250-233930971.html
+- 2026-07-27 | 三星电子、SK 集团与美国科技巨头正式签署总额约9500亿美元 AI 合作协议（韩美峰会系列协议打包落地） | https://www.investing.com/news/stock-market-news/samsung-elec-sk-group-seal-950-billion-deals-as-south-korea-hosts-ai-powers-4812752
 
 ## 3. 进行中事件表
 
-- 事件：OpenAI 测试智能体"失控"入侵 Hugging Face 生产系统安全事件 | 最后进展日期：2026-07-25 | 下一步关注点：后续调查结论、监管/国会反应、OpenAI 与 Hugging Face 官方声明及事后整改措施
-- 事件：智元机器人（Agibot）港股 IPO 进程 | 最后进展日期：2026-07-24 | 下一步关注点：招股定价、上市时间表与最终估值
-- 事件：韩美 AI 峰会系列算力协议（NVIDIA-SK 集团、NAVER-Brookfield、三星-博通）落地进展 | 最后进展日期：2026-07-25 | 下一步关注点：协议细节签署、监管审批、资本市场后续反应
+- 事件：OpenAI 测试智能体"失控"入侵 Hugging Face 生产系统安全事件 | 最后进展日期：2026-07-25 | 下一步关注点：后续调查结论、监管/国会反应、事后整改措施是否公开（注：OpenAI 与 Hugging Face 已于 7/21 发布联合声明，早于本系统记忆窗口，尚待核实是否有新进展）
+- 事件：智元机器人（Agibot）港股 IPO 进程 | 最后进展日期：2026-07-24 | 下一步关注点：招股定价、上市时间表与最终估值（网传估值已上修至约200亿美元/1560亿港元，来源与日期未能交叉验证，下次核实）
+- 事件：Moonshot AI「蒸馏」指控与制裁威胁 | 最后进展日期：2026-07-27 | 下一步关注点：美国财政部是否正式启动制裁/实体清单、Anthropic 官方回应、是否有独立技术证据证实或证伪蒸馏指控
