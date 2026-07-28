@@ -2,8 +2,8 @@
 
 ## 1. 本次运行
 
-- 运行时刻：2026-07-27 16:17 UTC
-- 实际覆盖窗口：2026-07-26 21:33 UTC 至 2026-07-27 16:17 UTC
+- 运行时刻：2026-07-28 16:15 UTC
+- 实际覆盖窗口：2026-07-27 16:17 UTC 至 2026-07-28 16:15 UTC
 
 ## 2. 已报条目清单
 
@@ -23,9 +23,14 @@
 - 2026-07-27 | Moonshot AI 开源 Kimi K3 完整权重（2.8万亿参数，史上最大开源模型），伴随美方蒸馏指控争议 | https://venturebeat.com/technology/chinas-moonshot-ai-releases-kimi-k3-the-largest-open-source-model-ever-rivaling-top-u-s-systems
 - 2026-07-27 | NVIDIA 据报道洽谈为 OpenAI 俄亥俄州数据中心项目提供约2500亿美元融资担保 | https://finance.yahoo.com/technology/ai/articles/nvidia-talks-openai-guarantee-250-233930971.html
 - 2026-07-27 | 三星电子、SK 集团与美国科技巨头正式签署总额约9500亿美元 AI 合作协议（韩美峰会系列协议打包落地） | https://www.investing.com/news/stock-market-news/samsung-elec-sk-group-seal-950-billion-deals-as-south-korea-hosts-ai-powers-4812752
+- 2026-07-27 | Microsoft 发布网络安全专用模型 MAI-Cyber-1-Flash，集成入 MDASH，CyberGym 基准超越现有安全模型 | https://microsoft.ai/news/introducing-mai-cyber-1-flash-inside-mdash/
+- 2026-07-27 | NVIDIA 向 Ilya Sutskever 的 Safe Superintelligence 注资 50 亿美元并提供 Vera Rubin 算力接入 | https://techcrunch.com/2026/07/27/ilya-sutskevers-safe-superintelligence-partners-with-nvidia-to-scale-its-ai-research/
+- 2026-07-27 | 欧盟《AI 法案数字化综合修正案》正式生效，高风险合规期延后但 GPAI/透明度义务维持 8月2日 | https://www.gibsondunn.com/eu-ai-act-omnibus-agreement-postponed-high-risk-deadlines-and-other-key-changes/
 
 ## 3. 进行中事件表
 
-- 事件：OpenAI 测试智能体"失控"入侵 Hugging Face 生产系统安全事件 | 最后进展日期：2026-07-25 | 下一步关注点：后续调查结论、监管/国会反应、事后整改措施是否公开（注：OpenAI 与 Hugging Face 已于 7/21 发布联合声明，早于本系统记忆窗口，尚待核实是否有新进展）
-- 事件：智元机器人（Agibot）港股 IPO 进程 | 最后进展日期：2026-07-24 | 下一步关注点：招股定价、上市时间表与最终估值（网传估值已上修至约200亿美元/1560亿港元，来源与日期未能交叉验证，下次核实）
-- 事件：Moonshot AI「蒸馏」指控与制裁威胁 | 最后进展日期：2026-07-27 | 下一步关注点：美国财政部是否正式启动制裁/实体清单、Anthropic 官方回应、是否有独立技术证据证实或证伪蒸馏指控
+- 事件：OpenAI 测试智能体"失控"入侵 Hugging Face 生产系统安全事件 | 最后进展日期：2026-07-27 | 下一步关注点：OpenAI 官方整改措施细节是否公开、GPT-5.6 Sol 系统卡是否进一步修订、监管/国会是否介入问询
+- 事件：智元机器人（Agibot）港股 IPO 进程 | 最后进展日期：2026-07-26 | 下一步关注点：正式递表港交所时间、保荐机构最终确认、定价区间（现有估值传闻在 400-500 亿港元基石投资目标与 1560 亿港元/200亿美元网传目标之间存在矛盾，尚未交叉验证）
+- 事件：Moonshot AI「蒸馏」指控与制裁威胁 | 最后进展日期：2026-07-28 | 下一步关注点：美国财政部/BIS 是否正式启动制裁或实体清单认定、是否公布独立技术证据（而非水印指控）、中方是否采取对等反制措施
+- 事件：NVIDIA-OpenAI 俄亥俄数据中心融资谈判（2500亿美元租赁担保+3500亿美元芯片融资） | 最后进展日期：2026-07-27 | 下一步关注点：双方是否正式签约确认条款、SoftBank 能源子公司项目建设进展
+- 事件：欧盟 AI 法案 GPAI/透明度义务 8月2日生效 | 最后进展日期：2026-07-27（Omnibus 正式生效） | 下一步关注点：8月2日执行后是否出现首批执法/处罚案例、企业合规准备进度
