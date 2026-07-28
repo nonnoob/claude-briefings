@@ -2,8 +2,8 @@
 
 ## 1. 本次运行时刻与覆盖窗口
 
-- 运行时刻：2026-07-27 16:17 UTC
-- 覆盖窗口：2026-07-26 21:24 UTC 至 2026-07-27 16:17 UTC（自上次运行以来）
+- 运行时刻：2026-07-28 16:24 UTC
+- 覆盖窗口：2026-07-27 16:17 UTC 至 2026-07-28 16:24 UTC（自上次运行以来）
 
 ## 2. 已报条目清单（最近14天）
 
@@ -32,15 +32,31 @@
 - 2026-07-27 | 宁德时代股价因2026H1净利+42%及400亿回购计划大涨5.4% | https://www.bloomberg.com/news/articles/2026-07-27/catl-surges-after-share-buyback-plan-strong-first-half-profit
 - 2026-07-27 | Jefferies上调福特、通用汽车评级至"买入" | https://www.cnbc.com/2026/07/27/ford-and-general-motors-get-upgraded-by-jefferies-which-sees-sharp-gains-ahead.html
 - 2026-07-27 | 花旗维持比亚迪股份"买入"评级，目标价142港元 | https://finance.sina.com.cn/stock/hkstock/hkgg/2026-07-27/doc-inikfxcf0682071.shtml
+- 2026-07-28 | 奔驰下调2026年销量与营收指引，Q2营业利润同比+22%但中国销量暴跌30% | https://www.bloomberg.com/news/articles/2026-07-28/mercedes-cuts-revenue-outlook-as-china-s-luxury-slump-deepens
+- 2026-07-28 | 比亚迪在日本发布首款纯电Kei-car"Racco"，挑战丰田本田日产本土K-car市场 | https://cnevpost.com/2026/07/28/byd-launches-k-car-racco-japan/
+- 2026-07-28 | 小鹏在澳大利亚重建本地经销商网络，原长城澳洲COO出任小鹏澳洲COO | https://cnevpost.com/2026/07/27/xpeng-restarts-australia-push-after-dealer-fallout/
+- 2026-07-28 | 工信部锂电池标准工作组召开10项固态电池行业标准征求意见讨论会 | https://www.stcn.com/article/detail/4032048.html
+- 2026-07-28 | 百度Apollo Go联合Lyft旗下Freenow在伦敦启动Robotaxi路测，计划2027年开放公众载客 | https://cnevpost.com/2026/07/28/baidu-apollo-go-robotaxi-road-tests-london/
+- 2026-07-28 | Waymo一辆无人车在亚特兰大遭追尾起火，2人受伤 | https://www.fox5atlanta.com/news/2-hurt-after-waymo-driverless-car-catches-fire-atlanta
+- 2026-07-28 | 极氪9X五座版不办发布会直接上市，售价45.19万-58.59万元起 | https://auto.sina.com.cn/newcar/2026-07-28/detail-inikimei2629185.shtml
+- 2026-07-28 | 起亚全新一代赛图斯官宣8月13日国内预售 | https://finance.sina.com.cn/tech/digi/2026-07-28/doc-inikimek9386085.shtml
+- 2026-07-28 | 小米汽车雷军发文预热7月30日"澎程"技术发布会 | https://finance.sina.com.cn/tech/roll/2026-07-28/doc-inikivty8178993.shtml
+- 2026-07-28 | 特朗普在通用密歇根试车场表态，称新关税与被最高法院裁定违法的关税实质相同，倾向直接退出USMCA | https://www.cnbc.com/2026/07/28/trump-usmca-canada-mexico-trade-deal.html
+- 2026-07-28 | 商务部发布万字文件系统驳斥"中国产能过剩"论调 | https://www.news.cn/20260728/558861063fe74feb974b683dd8447a41/c.html
+- 2026-07-28 | 大众中国就"CEO呼吁欧盟对华插混加税"报道进行澄清，称表态口径不一 | https://www.nbd.com.cn/articles/2026-07-28/4524472.html
+- 2026-07-28 | 工信部披露智能网联汽车"十五五"规划编制及L2/NOA渗透率、L3试点最新数据 | https://www.news.cn/tech/20260728/057db72877c646428daa9ed38fc8a6b7/c.html
+- 2026-07-28 | 特斯拉股价跌至304美元附近，逼近52周低点 | https://247wallst.com/investing/2026/07/27/tesla-continues-its-2026-crash-this-prominent-analyst-believes-itll-rise-85-in-12-months/
+- 2026-07-28 | 岱美股份公告拟现金收购茸明汽车科技100%股权 | https://www.nbd.com.cn/articles/2026-07-28/4524519.html
 
 ## 3. 进行中事件表
 
-- 事件：福特-吉利西班牙合资公司 | 最后进展日期：2026-07-26 | 下一步关注点：具体投产车型细节、欧盟对该合资产能的关税/原产地认定
-- 事件：广汽丰田"电池起火厂家全担责"政策 | 最后进展日期：2026-07-26 | 下一步关注点：是否有同行车企跟进类似担责政策（注：奇瑞7月1日已推出"雷神电池安全兜底计划"，但早于广汽丰田此次政策，非跟进）
-- 事件：Uber游说Robotaxi人车混合网络监管（传闻，源自FT报道） | 最后进展日期：2026-07-26 | 下一步关注点：美国各州/联邦监管机构是否回应、Uber官方是否证实或辟谣（注：Uber已就Waymo结束独家合作单独回应，但未涉及本传闻本身）
-- 事件：美国汽车关税替代方案（10%-12.5%）与美墨USMCA谈判 | 最后进展日期：2026-07-26 | 下一步关注点：第四轮USMCA谈判（定于9月华盛顿举行）具体成果及对北美整车成本的实际影响
-- 事件：特斯拉Q2财报后"增收不增利"态势 | 最后进展日期：2026-07-26 | 下一步关注点：FSD入华监管审批进展、Q3交付与利润率指引
+- 事件：特斯拉Q2财报后"增收不增利"态势 | 最后进展日期：2026-07-28 | 下一步关注点：FSD入华监管审批进展（CFO目标Q3全面商业化批准）、股价能否企稳（现处52周低点附近）
 - 事件：大众/奥迪中国竞争应对与5万裁员计划 | 最后进展日期：2026-07-27 | 下一步关注点：裁员计划具体执行时间表、Q3交付数据能否企稳
-- 事件：尊界V800/V680上市 | 最后进展日期：2026-07-27 | 下一步关注点：8月5日实际上市定价与首月交付/大定数据
-- 事件：小米汽车"澎程"N90Max/N70Max技术发布会 | 最后进展日期：2026-07-27 | 下一步关注点：7月30日发布会公布的具体定价与配置
+- 事件：美国汽车关税替代方案（10%-12.5%）与美墨USMCA谈判 | 最后进展日期：2026-07-28 | 下一步关注点：特朗普是否正式提出退出USMCA而非重谈、第四轮谈判（定于9月华盛顿）具体成果
+- 事件：欧盟对华插电混动车加征关税 | 最后进展日期：2026-07-28 | 下一步关注点：欧盟是否正式作出加税决定及税率、大众CEO表态口径分歧能否厘清
 - 事件：本田日产SDV/中央ECU联合开发磋商 | 最后进展日期：2026-07-27 | 下一步关注点：是否于8月正式签署协议、成本分摊条款
+- 事件：尊界V800/V680上市 | 最后进展日期：2026-07-27 | 下一步关注点：8月5日实际上市定价与首月交付/大定数据
+- 事件：小米汽车"澎程"N90Max/N70Max技术发布会 | 最后进展日期：2026-07-28 | 下一步关注点：7月30日发布会公布的具体定价与配置
+- 事件：福特-吉利西班牙合资公司 | 最后进展日期：2026-07-26 | 下一步关注点：具体投产车型细节、欧盟对该合资产能的关税/原产地认定
+- 事件：Waymo亚特兰大车辆遭追尾起火事故 | 最后进展日期：2026-07-28 | 下一步关注点：官方事故调查结论、NHTSA是否介入、Waymo电池应急培训更新
+- 事件：Uber游说Robotaxi人车混合网络监管（传闻，源自TechCrunch/FT报道） | 最后进展日期：2026-07-26 | 下一步关注点：美国各州/联邦监管机构是否回应、Uber官方是否证实或辟谣
