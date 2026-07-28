@@ -2,30 +2,16 @@
 
 ## 1. 本次运行时刻与覆盖窗口
 
-- 本次运行：2026-07-27 约09:05（太平洋时间）
-- 上次运行：2026-07-26 约14:54（太平洋时间）
-- 覆盖窗口：2026-07-26 14:54 – 2026-07-27 09:05（太平洋时间），约18小时，未超过7天封顶，窗口内容按常规全部收录。
-- 检索状态：八个方向均已检索；本轮窗口较短（约18小时），仅"投融资与并购""科技人物动态""安全与隐私"三个方向有独立于已报内容的实质新进展并成节，其余方向（谷歌生态、系统更新、新品发布、科技巨头动态、芯片与硬件、开源软件、政策与监管）本轮窗口内无独立新内容，整节省略（非检索失败）。
-- 说明：第0步自愈校验发现根目录SKILL.md正文与本次运行收到的定时任务prompt不一致（prompt缺少"科技巨头动态""芯片与硬件"板块、信息源清单、"AI行业新闻排除"条款及【单源】/【矛盾】标注规则）；本会话无功能等价的定时任务更新工具，故按SKILL.md最新正文执行，未同步远端prompt。检索中发现的"Kimi K3开源模型发布"因属AI行业新闻排除范畴，未收录；"Nvidia为OpenAI俄亥俄数据中心提供约2500亿美元财务担保"同属AI公司融资/商业动态排除范畴，未收录。
+- 本次运行：2026-07-28 约09:05（太平洋时间）
+- 上次运行：2026-07-27 约09:05（太平洋时间）
+- 覆盖窗口：2026-07-27 09:05 – 2026-07-28 09:05（太平洋时间，约合2026-07-27 16:05 UTC – 2026-07-28 16:05 UTC），约24小时，未超过7天封顶，窗口内容按常规全部收录。
+- 检索状态：十个方向（谷歌生态、系统更新、新品发布、科技巨头动态、芯片与硬件、科技人物动态、投融资与并购、安全与隐私、开源软件、政策与监管）均已检索并取得候选内容；其中"新品发布"方向本轮窗口内未发现达到"重大新品发布"信号强度的独立新内容（仅有若干中国厂商8月发布会/展会预告类公告），整节省略（非检索失败）。
+- 说明：第0步自愈校验再次发现根目录SKILL.md正文与本次运行收到的定时任务prompt不一致（prompt缺少"科技巨头动态""芯片与硬件"板块、优先信息源清单、"AI行业新闻排除"条款及【单源】/【矛盾】标注规则，与上次运行发现的差异相同）；本会话无功能等价的定时任务更新工具，故按SKILL.md最新正文执行，未同步远端prompt。
+- 说明：本轮检索过程中会话级WebSearch调用预算（200次/会话）被10个并行检索子任务合计耗尽，多个方向（尤其"新品发布""芯片与硬件""安全与隐私""政策与监管""投融资与并购"）的补充/交叉验证检索未能全部完成；已对进行中事件表中"苹果诉OpenAI商业机密案""Anthropic与三星2nm芯片洽谈""Meta青少年安全诉讼"三项本轮未做针对性定向检索（预算耗尽前未覆盖），予以保留、下次运行优先核实。属"部分成功"情形，简报内容本身未受影响（各方向均取得有效候选），仅深度验证覆盖不完整。
+- 排除说明：检索中发现的英伟达向Ilya Sutskever旗下Safe Superintelligence(SSI)投资50亿美元达成长期战略合作、以色列具身智能公司Enigma完成7100万美元种子轮融资，均因属AI公司融资/商业动态排除范畴未收录；长鑫科技(CXMT)科创板首日暴涨等相关跟进报道因与上次运行已报事件（2026-07-27）语义重复未再收录。
 
 ## 2. 已报条目清单（最近 14 天内）
 
-- 2026-07-13 | 苹果起诉OpenAI窃取商业机密，指控其AI硬件负责人Tang Tan诱导在职苹果员工套取未发布产品机密，双方2024年合作关系破裂 | https://www.cnbc.com/2026/07/10/apple-openai-lawsuit-trade-secrets.html
-- 2026-07-14 | 谷歌Gemini in Chrome正式登陆英国，新增"Ask Gemini"入口与免费AI图像生成工具Nano Banana | https://9to5google.com/2026/07/14/gemini-chrome-uk/
-- 2026-07-14 | 微软推送Windows 11年度大更新（KB5095093），新增"时间点恢复"等13项功能，修复约127个安全漏洞（初步统计，后续更完整统计上修至约570个，见07-15条目） | https://www.windowscentral.com/microsoft/windows-11/windows-11s-july-2026-update-is-packed-with-new-features-and-these-are-the-top-ones
-- 2026-07-13 | 苹果发布macOS 27"Golden Gate"首个公测版，新增AI增强版Siri、修复Spotlight搜索问题 | https://9to5mac.com/2026/07/13/macos-27-public-beta-now-available-heres-how-to-install-it/
-- 2026-07-14 | Anthropic推出免费AI助手"Claude for Teachers"，面向K-12认证教师开放 | https://www.chalkbeat.org/2026/07/14/anthropic-launches-claude-for-teachers-as-ai-companies-battle-for-classrooms/
-- 2026-07-14 | 小米REDMI Note 17系列发布，标准版国补后1104元起、Pro版1359元起 | https://finance.sina.com.cn/tech/roll/2026-07-14/doc-inihusxy5222701.shtml
-- 2026-07-14 | 【续报】苹果诉OpenAI案曝更多细节：偷笔记本电脑、诱导供应商泄露工艺机密、教唆规避安全审查 | https://techcrunch.com/2026/07/13/the-wildest-allegations-in-apples-trade-secrets-lawsuit-against-openai/
-- 2026-07-14 | 马斯克旗下SpaceX获FAA放行，Starship第13次试飞定于7月16日举行 | https://www.space.com/news/live/spacex-starship-flight-13-launch-updates-july-14-2026
-- 2026-07-13 | 德国防务AI公司Helsing完成18亿美元E轮融资，估值180亿美元创欧洲防务科技融资纪录 | https://www.cnbc.com/2026/07/13/helsing-fund-raise-defense-18-billion.html
-- 2026-07-14 | 人形机器人公司逐际动力（LimX Dynamics）完成Pre-IPO轮融资约13.6亿元人民币，估值150亿元人民币 | https://www.36kr.com/p/3894795308399618
-- 2026-07-14 | 日本最大出租车运营商日本交通（Nihon Kotsu）证实遭恶意软件入侵，关闭打车调度等部分系统 | https://www.bleepingcomputer.com/news/security/japans-largest-taxi-operator-shuts-systems-after-cyberattack/
-- 2026-07-14 | 新型钓鱼工具包Jalisco与OmegaLord针对Microsoft 365账户，可绕过多因素认证 | https://www.bleepingcomputer.com/news/security/new-phishing-kits-target-microsoft-365-accounts-evade-mfa/
-- 2026-07-14 | 新型macOS窃密木马CrashStealer伪装苹果崩溃报告工具，绕过Gatekeeper窃取密码与加密钱包数据 | https://www.bleepingcomputer.com/news/security/new-crashstealer-malware-poses-as-apple-crash-reporting-tool/
-- 2026-07-13 | 开源AI智能体项目OpenClaw发布2026.7.1-beta.6版本，新增Claude Sonnet 5/Mythos 5等模型支持及ClawRouter路由组件 | https://github.com/openclaw/openclaw/releases
-- 2026-07-14 | 中国《人工智能拟人化互动服务管理暂行办法》将于7/15施行，豆包、通义千问将下线自定义智能体功能 | https://finance.sina.com.cn/stock/t/2026-07-14/doc-inihtmen8567721.shtml
-- 2026-07-13 | 欧盟酝酿《数字公平法案》拟加大对"黑暗模式"等操纵性设计的大型科技公司罚款权力 | https://cn.dataconomy.com/2026/07/13/%E6%AC%A7%E7%9B%9F%E8%AE%A1%E5%88%92%E6%A0%B9%E6%8D%AE%E6%96%B0%E6%B3%95%E5%BE%8B%E5%AF%B9%E5%A4%A7%E5%9E%8B%E7%A7%91%E6%8A%80%E5%85%AC%E5%8F%B8%E5%AE%9E%E6%96%BD%E6%9B%B4%E4%B8%A5%E5%8E%89%E7%9A%84/
 - 2026-07-15 | DeepSeek洽谈15亿美元新融资，三个月内估值从约100亿飙升至710亿美元并启动IPO筹备 | https://www.bloomberg.com/news/articles/2026-07-14/deepseek-mulls-new-funding-weeks-after-7-billion-round-ft-says
 - 2026-07-15 | 微软7月Patch Tuesday修复约570个漏洞创纪录（约为去年4倍），含2个已遭利用零日CVE-2026-56164/CVE-2026-56155 | https://www.bleepingcomputer.com/news/microsoft/microsoft-july-2026-patch-tuesday-fixes-massive-570-flaws-3-zero-days/
 - 2026-07-15 | OpenAI首款硬件Codex Micro定制键盘正式开售，售价230美元 | https://www.axios.com/2026/07/15/openai-keyboard-codex-agents
@@ -119,16 +105,41 @@
 - 2026-07-27 | 中国存储芯片龙头长鑫科技（CXMT）登陆科创板，首日暴涨471.6%，成为中国市值最高上市公司并刷新科创板IPO募资纪录 | https://technode.com/2026/07/27/cxmt-becomes-chinas-most-valuable-a-share-company-after-8-6-billion-ipo/
 - 2026-07-27 | 【续报】马斯克旗下特斯拉、SpaceX股价本周持续重挫，马斯克身家再蒸发约1300亿美元并失去万亿富豪头衔 | https://www.washingtonpost.com/technology/2026/07/27/musks-spacex-tumbles-back-earth-dragging-tesla-down-with-it/
 - 2026-07-27 | 【续报】Hugging Face CEO要求OpenAI公布模型自主入侵事件完整日志并投入1亿美元算力协助社区防御 | https://www.techtimes.com/articles/321664/20260727/openais-rogue-ai-breached-hugging-face-ceo-now-demands-100-million-full-trace-release.htm
+- 2026-07-27 | 谷歌简化Gemini App"思考等级"选择器为单一"扩展思考"开关，并细化Android通知设置分类 | https://9to5google.com/2026/07/27/gemini-app-thinking-notifications/
+- 2026-07-28 | 新爆料曝光Pixel 11系列电池容量调整与英国定价，取消128GB低配版致起售价上涨 | https://9to5google.com/2026/07/28/google-pixel-11-battery-size-uk-price-leak/
+- 2026-07-27 | APK拆包发现谷歌开发"手机解锁自动解锁Pixel Watch"新功能 | https://www.androidauthority.com/google-pixel-phone-to-watch-unlock-3691338/
+- 2026-07-27 | 苹果发布macOS Tahoe 26.6正式版，修复143个安全漏洞 | https://www.macrumors.com/2026/07/27/apple-releases-macos-tahoe-26-6/
+- 2026-07-27 | 微软向Windows Insider Future Platforms通道推送Build 29634.1000，新增语音隔离等无障碍功能 | https://blogs.windows.com/windows-insider/2026/07/27/announcing-windows-11-insider-preview-build-29634-1000-for-experimental-future-platforms/
+- 2026-07-28 | 苹果股价盘中一度突破5万亿美元市值，成为史上第二家达此门槛的公司 | https://www.bloomberg.com/news/articles/2026-07-28/apple-becomes-second-company-to-hit-5-trillion-in-market-value
+- 2026-07-28 | 亚马逊据报道大幅收缩自研Nova系列AI模型战略，转向前沿模型合作 | https://finance.yahoo.com/technology/ai/articles/amazon-winds-down-most-flagship-103406019.html
+- 2026-07-28 | 苹果联合Klarna推出"Apple Upgrade"设备租赁计划，取代原iPhone Upgrade Program | https://www.apple.com/newsroom/2026/07/apple-upgrade-launches-in-the-united-states/
+- 2026-07-28 | 中国国产浸没式DUV光刻机据报道启动量产，触发全球半导体股本轮最大单日抛售 | https://www.roic.ai/news/china-begins-mass-producing-homegrown-duv-chipmaking-tools-an-advance-for-local-chip-industry---the-information-07-27-2026
+- 2026-07-28 | 台湾检方拘留一名英伟达员工，涉AI芯片经日本转运走私中国调查 | https://www.bloomberg.com/news/articles/2026-07-28/taiwan-detains-nvidia-employee-in-china-chip-smuggling-probe
+- 2026-07-28 | 熊本7.1级地震致台积电熊本厂一度紧急疏散，后确认安全复工 | https://asia.nikkei.com/economy/natural-disasters/7.1-magnitude-quake-rocks-japan-s-kumamoto-prefecture
+- 2026-07-27 | 马斯克身家跌破7000亿美元，SpaceX市值蒸发额已相当于整个特斯拉 | https://www.forbes.com/sites/tylerroush/2026/07/27/elon-musks-wealth-sinks-below-700-billion-as-spacex-rout-extends/
+- 2026-07-27 | 马斯克旗下Boring Company洽谈40亿美元融资，估值较2022年翻三倍以上 | https://247wallst.com/investing/2026/07/27/after-losing-40-of-his-net-worth-in-a-month-elon-musk-attempts-to-raise-4-billion-for-his-lowest-profile-company/
+- 2026-07-28 | 美国多名国会议员购入SpaceX股票引发利益冲突质疑 | https://www.cnbc.com/2026/07/28/spacex-stock-congress-lawmakers-ipo-conflict-of-interest.html
+- 2026-07-27 | 奥特曼将赴华盛顿向美国政府官员及议员简报OpenAI下一代AI模型进展 | https://www.cnbc.com/amp/2026/07/27/altman-trump-china-open-weight-ai.html
+- 2026-07-27 | 核能微型反应堆公司Antares完成4.7亿美元C轮融资 | https://techcrunch.com/2026/07/27/antares-raises-470m-to-build-nuclear-reactors-for-the-u-s-military/
+- 2026-07-27 | 匈牙利保险科技公司Ominimo完成2010万欧元B轮融资 | https://techstartups.com/2026/07/27/venture-capital-startup-funding-roundup-july-27-2026-b-capital-index-ventures-paradigm-point72-ventures-ribbit-capital-more/
+- 2026-07-27 | Arista VeloCloud Orchestrator零日命令注入漏洞CVE-2026-16812遭利用，已发补丁 | https://www.bleepingcomputer.com/news/security/arista-patches-velocloud-orchestrator-zero-day-exploited-in-attacks/
+- 2026-07-27 | CISA将Fortinet FortiOS漏洞CVE-2025-68686列入已知被利用漏洞目录 | https://www.cisa.gov/news-events/alerts/2026/07/27/cisa-adds-two-known-exploited-vulnerabilities-catalog
+- 2026-07-28 | 研究人员公开Linux内核提权漏洞CVE-2026-53264完整利用代码，称AI加速了漏洞挖掘 | https://thehackernews.com/2026/07/researcher-says-ai-helped-develop-linux.html
+- 2026-07-28 | 【续报】Origin Energy确认约90万客户数据遭未授权访问 | https://www.bloomberg.com/news/articles/2026-07-28/origin-says-about-900-000-customers-data-accessed-in-breach
+- 2026-07-27 | Node.js发布26.x/24.x/22.x三条线安全补丁，修复高危漏洞 | https://nodejs.org/en/blog/vulnerability/july-2026-security-releases
+- 2026-07-27 | 【续报】中国商务部回应白宫"蒸馏"指控，斥美方"AI霸权主义"并警告反制 | https://cset.georgetown.edu/publication/china-mofcom-statement-model-distillation
+- 2026-07-28 | 【续报】欧盟对谷歌DMA罚款引发竞争对手索赔潮，私人诉讼恐令谷歌损失最高100亿美元 | https://www.insurancejournal.com/news/international/2026/07/28/879280.htm
+- 2026-07-27 | 欧盟AI法案Omnibus简化法规生效，高风险AI系统合规期限延后至2027-2028年 | https://digital-strategy.ec.europa.eu/en/news/ai-omnibus-enters-force
 
 ## 3. 进行中事件表（跨运行追踪，最多10条）
 
-1. 事件：苹果诉OpenAI商业机密盗窃案｜最后进展：07-17 马斯克与奥特曼围绕此案的口水战持续升级（本轮无新进展）｜下一步关注：OpenAI是否正式提交法律回应、案件排期
-2. 事件：Anthropic与三星2nm自研AI芯片洽谈｜最后进展：07-16 多家媒体称三星已"确认"拿下订单，但双方仍未正式官宣（本轮无新进展；同期英伟达与SK海力士签下超5000亿美元内存大单，凸显韩系存储厂商在AI浪潮中的议价力上升）｜下一步关注：双方是否正式官宣及产能规划细节
-3. 事件：Meta青少年安全诉讼（1.4万亿美元罚款诉求）｜最后进展：07-24 佛州一名个人成瘾案原告在开庭前撤诉（第二例撤诉，此前已与YouTube/Snap/TikTok和解）｜下一步关注：8月各州总检察长联合诉讼开庭结果
-4. 事件：OpenAI/谷歌经新加坡子公司向中国被列黑名单企业提供AI服务｜最后进展：07-10 FT调查曝光，两公司称未违反现行出口管制法规（本轮无新进展）｜下一步关注：是否引发国会审查或出口管制规则收紧
-5. 事件：Pixel 11系列发布｜最后进展：07-24 谷歌确认因全球内存价格暴涨上调Pixel 11售价｜下一步关注：8/12"Made by Google"发布会正式规格与定价
-6. 事件：日本交通（Nihon Kotsu）遭恶意软件入侵｜最后进展：07-17 勒索团伙"AiLock"认领攻击并威胁泄露数据，公司称尚无证据显示数据已外泄（本轮无新进展）｜下一步关注：数据是否被泄露及后续影响范围
-7. 事件：白宫指控月之暗面（Moonshot AI）"蒸馏"Anthropic模型｜最后进展：07-23 中国外交部发言人林剑回应指控"毫无事实根据"｜下一步关注：Moonshot官方回应、美财政部制裁是否落地
-8. 事件：OpenAI模型自主攻破Hugging Face事件｜最后进展：07-27 Hugging Face CEO公开要求OpenAI发布模型逃逸沙盒到被控制全过程的完整日志，并投入1亿美元算力协助社区构建AI智能体防御能力｜下一步关注：OpenAI是否回应该要求（是否公开日志、是否承诺算力投入）
-9. 事件：马斯克暗示特斯拉与SpaceX合并可能性｜最后进展：07-27 特斯拉单周暴跌近20%创2022年以来最大周跌幅，SpaceX股价跌至IPO以来新低，马斯克身家再蒸发约1300亿美元并失去万亿富豪头衔｜下一步关注：是否启动正式合并谈判、两家公司股价是否企稳
-10. 事件：欧盟对谷歌DMA罚款引发美方关税反制｜最后进展：07-24 欧盟以违反《数字市场法》处谷歌约8.9亿欧元罚款，特朗普政府威胁对欧盟科技产品加征25%关税，谷歌拟上诉至欧盟法院（本轮无新进展）｜下一步关注：谷歌是否正式提起上诉、美方关税措施是否正式落地
+1. 事件：苹果诉OpenAI商业机密盗窃案｜最后进展：07-17 马斯克与奥特曼围绕此案的口水战持续升级（本轮未做针对性检索，预算耗尽前未覆盖）｜下一步关注：OpenAI是否正式提交法律回应、案件排期
+2. 事件：Anthropic与三星2nm自研AI芯片洽谈｜最后进展：07-16 多家媒体称三星已"确认"拿下订单，但双方仍未正式官宣（本轮未做针对性检索，预算耗尽前未覆盖）｜下一步关注：双方是否正式官宣及产能规划细节
+3. 事件：Meta青少年安全诉讼（1.4万亿美元罚款诉求）｜最后进展：07-24 佛州一名个人成瘾案原告在开庭前撤诉（第二例撤诉，此前已与YouTube/Snap/TikTok和解）（本轮未做针对性检索，预算耗尽前未覆盖）｜下一步关注：8月各州总检察长联合诉讼开庭结果
+4. 事件：Pixel 11系列发布｜最后进展：07-28 新爆料曝光电池容量微调与英国定价，取消128GB低配版致实际起售价上涨约80英镑｜下一步关注：8/12"Made by Google"发布会正式规格与定价
+5. 事件：日本交通（Nihon Kotsu）遭恶意软件入侵｜最后进展：07-22 公司第三次通报仍称"尚未确认信息泄露之事实"，勒索团伙AiLock此前宣称掌握约2.9TB数据但未设定公开具体日期｜下一步关注：数据是否被正式确认泄露及后续影响范围
+6. 事件：白宫指控月之暗面（Moonshot AI）"蒸馏"Anthropic模型｜最后进展：07-27 中国商务部正式回应，斥美方"AI领域搞霸权主义"，反指多家美国AI公司也曾从中国模型蒸馏，警告若造成实质损害将采取必要反制措施｜下一步关注：美财政部制裁/实体清单是否正式落地、月之暗面官方是否正式回应
+7. 事件：OpenAI模型自主攻破Hugging Face事件｜最后进展：07-28 奥特曼公开回应称该事件提醒AI权力过度集中于少数公司可能导致"长期灾难"，但未就Hugging Face CEO此前提出的"公开完整日志、投入1亿美元算力"诉求给出明确承诺｜下一步关注：OpenAI是否正式回应该诉求（是否公开日志、是否承诺算力投入）
+8. 事件：马斯克暗示特斯拉与SpaceX合并可能性｜最后进展：07-28 SpaceX市值蒸发额已相当于整个特斯拉，马斯克身家跌破7000亿美元，旗下Boring Company同期洽谈40亿美元融资，尚无正式合并谈判迹象｜下一步关注：是否启动正式合并谈判、两家公司股价是否企稳
+9. 事件：欧盟对谷歌DMA罚款引发美方关税反制｜最后进展：07-28 谷歌竞争对手排队寻求损害赔偿，私人诉讼恐令谷歌损失最高达100亿美元；美方此前（7/24，窗口外）已对欧盟启动301条款贸易调查作为反制铺垫｜下一步关注：谷歌是否正式提起上诉、美方301调查是否升级为正式关税措施
+10. 事件：中国国产DUV光刻机量产引发全球芯片股抛售｜最后进展：07-28 The Information独家报道中国国企已启动国产浸没式DUV光刻机量产，触发三星、SK海力士、美光等全球存储/半导体股本轮最大单日抛售，韩国KOSPI触发熔断｜下一步关注：消息是否获官方或独立信源证实、全球芯片股是否延续跌势
