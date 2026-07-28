@@ -2,8 +2,9 @@
 
 ## 1. 本次运行时刻与实际覆盖窗口
 
-- 本次运行时刻：2026-07-27 16:11 UTC
-- 实际覆盖窗口：2026-07-26 21:12 UTC 至 2026-07-27 16:11 UTC（正常窗口，非首次运行、未超封顶）
+- 本次运行时刻：2026-07-28 16:14 UTC
+- 实际覆盖窗口：2026-07-27 16:11 UTC 至 2026-07-28 16:14 UTC（正常窗口，非首次运行、未超封顶）
+- 本期部分方向检索失败（403）：code.visualstudio.com/updates、code.visualstudio.com/api/release-notes/、anthropic.com/news、releasebot.io、modelcontextprotocol.io/specification/2026-07-28，均已用替代信源交叉核实
 
 ## 2. 已报条目清单（最近 14 天）
 
@@ -14,4 +15,4 @@
 
 ## 3. 进行中事件表
 
-- 事件：MCP（Model Context Protocol）2026-07-28 版本修订即将定稿，据报道含协议自加入授权机制以来最大幅度的改动（移除 initialize 握手与会话机制，转为无状态核心；部分不向后兼容）| 最后进展日期：2026-07-23（The Register 报道，Anthropic 技术人员 David Soria Parra 透露；后续官方博客确认 RC 已于 5/21 锁定，Beta SDK 已于 6/29 发布）| 下一步关注点：核实 7/28 是否如期定稿发布正式版、最终变更内容是否与 RC 一致，以及对 Claude Code / VSCode 的 MCP 集成是否有影响。
+- 事件：MCP（Model Context Protocol）2026-07-28 版本修订预期定稿，据报道为协议自加入授权机制以来最大幅度改动（移除 initialize 握手与会话机制，转为无状态核心；部分不向后兼容）| 最后进展日期：2026-07-28（预期定稿日已到，但 MCP 官方博客与 GitHub Releases 均未见定稿版本发布，最新标签仍为 2026-05-29 的 RC 预发布；modelcontextprotocol.io 规范页面本次无法直接访问核实）| 下一步关注点：核实定稿版本是否已发布（关注 MCP 官方博客新帖、GitHub Releases 新增稳定标签、modelcontextprotocol.io/specification 页面更新），若确认延期则核实新预期日期，并跟踪对 Claude Code / VSCode MCP 集成的影响
