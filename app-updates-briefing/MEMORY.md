@@ -2,19 +2,28 @@
 
 ## 1. 本次运行时刻与实际覆盖窗口
 
-- 本次运行时刻：2026-07-30 12:13 UTC
-- 实际覆盖窗口：2026-07-29 12:11 UTC 至 2026-07-30 12:13 UTC（正常窗口，非首次运行、未超封顶）
-- 本期 VSCode 方向检索发现新内容（VS Code 1.131 正式版）；Claude App 方向检索正常完成，未见窗口内新内容（最新版本仍为 2026-07-25 发布的 v2.1.220）；生态与社区动向未见窗口内新内容。无方向检索失败。
+- 本次运行时刻：2026-08-07 16:39 UTC
+- 上次运行时刻：2026-07-30 12:13 UTC（间隔超过 7 天封顶）
+- 实际覆盖窗口：2026-07-31 16:39 UTC 至 2026-08-07 16:39 UTC（窗口外无仍具报告价值的大事，未额外收录）
+- 本期 VSCode / Claude App / 生态与社区动向三个方向检索均正常完成，无方向检索失败；部分官方一手域名（如 code.visualstudio.com、claude.com、platform.claude.com 的部分页面）因出口代理策略被直接阻断，相关内容已通过多方独立二手信源交叉验证补充，具体见简报各条目标注。
 
 ## 2. 已报条目清单（最近 14 天）
 
-- 2026-07-23 | Claude 语音模式扩展支持 Opus/Sonnet 模型，语言增至 11 种，打通 Gmail/Calendar/Slack 等工具 | https://www.macrumors.com/2026/07/24/claude-voice-mode-opus-sonnet-model-support/
 - 2026-07-24 | Claude Code v2.1.219 发布 Claude Opus 5 并设为默认 Opus 模型，原生 1M 上下文 | https://code.claude.com/docs/en/changelog
 - 2026-07-24 | Claude Code v2.1.219 将子代理默认最大嵌套深度提升至 3 层 | https://code.claude.com/docs/en/changelog
 - 2026-07-25 | Claude Code v2.1.220 发布，仅含稳定性与可靠性修复 | https://code.claude.com/docs/en/changelog
 - 2026-07-28 | MCP 2026-07-28 版本规范正式发布，协议核心改为无状态，弃用 Roots/Sampling/Logging（保留 12 个月兼容），Anthropic 确认 Claude Code/Desktop 将跟进适配 | https://blog.modelcontextprotocol.io/posts/2026-07-28/
 - 2026-07-29 | VS Code 1.131 正式版发布，新增子代理状态可视化、实验性内置听写与实验性混合 Markdown 编辑器 | https://code.visualstudio.com/updates/v1_131
+- 2026-08-03 | Claude Code v2.1.221 发布，新增 VSCode 插件 Focus 视图与 Linux/WSL 沙箱凭据掩码，修复 Bash 权限绕过等安全问题 | https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md
+- 2026-08-04 | Claude Code v2.1.222 发布，修复 worktree 隔离会话可对主检出执行破坏性 git 命令的安全漏洞 | https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md
+- 2026-08-05 | VS Code 1.132 正式版发布，新增集成浏览器元素级评论、Agent Host 架构稳定推广（Claude 为受支持 agent host 之一）、混合 Markdown 编辑器 diff 查看、听写多语言支持 | https://code.visualstudio.com/updates/v1_132
+- 2026-08-05 | Claude Code v2.1.223 发布，市场管理支持组织级通配符，修复权限提示 Unicode 隐藏命令等安全问题 | https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md
+- 2026-08-05 | Claude Enterprise 推出 Inference Hooks 公测，企业可接入自有安全服务器对每次推理请求实时裁决 | https://platform.claude.com/docs/en/release-notes/overview
+- 2026-08-05 | Claude Opus 4.1 模型正式退役，建议迁移至 Claude Opus 5 | https://platform.claude.com/docs/en/release-notes/overview
+- 2026-08-06 | OpenAI/AWS/Cursor/GitHub/VS Code/Vercel 联合发布 Agent Plugins 跨客户端插件标准，Anthropic/Claude Code 未列入首发名单且格式不兼容 | https://explainx.ai/blog/agent-plugins-openai-standard-aws-cursor-github-vscode-2026
+- 2026-08-07 | Claude Code v2.1.224 发布，新增自托管环境公测、archive 插件源、跨会话消息能力 | https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md
 
 ## 3. 进行中事件表
 
-（当前无需跨运行追踪的事件。）
+- 事件：MCP 2026-07-28 版本规范在 Claude 产品线的具体适配进展（协议核心转为无状态，弃用 Roots/Sampling/Logging）；最后进展日期：2026-07-28（Anthropic 官方博客确认将跟进但未给版本号/时间表；本期 2026-07-31~08-07 窗口内检索未发现新进展）；下一步关注点：等 Anthropic 公布 Claude Code/Desktop 具体适配版本号或时间表。
+- 事件：Agent Plugins 跨客户端插件标准与 Claude Code 现有插件格式不兼容，Anthropic 未列入首发维护方名单；最后进展日期：2026-08-06；下一步关注点：等 Anthropic 是否跟进采用该标准、或对不兼容问题公开回应。
