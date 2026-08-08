@@ -2,11 +2,17 @@
 
 ## 1. 本次运行
 
-- 运行时刻：2026-08-07
-- 实际覆盖窗口：2026-08-06 至 2026-08-07（距上期约1天，正常增量滚动）
+- 运行时刻：2026-08-08
+- 实际覆盖窗口：2026-08-07 至 2026-08-08（距上期约1天，正常增量滚动）
 
 ## 2. 已报条目清单（保留最近 14 天）
 
+- 2026-08-08 | Claude Code 2.1.225/2.1.226 发布：新增 gateway spend-limit 用量预警、`claude agents` 工作区信任确认、修复 Remote Control 会话恢复对话历史损坏与 self-hosted-runner 静默失败等问题 | https://code.claude.com/docs/en/changelog
+- 2026-08-08 | Devin Desktop（原 Windsurf）8 月更新：新增 ACU 用量显示、更快 MCP 启动、subagent 默认模型设置，Devin Local 新增编辑器打开文件上下文感知 | https://releasebot.io/updates/windsurf
+- 2026-08-08 | 【续报】Cloudflare OS 开源后内部已有数千名员工日常使用，官方托管版本尚未公布上线时间 | https://blog.cloudflare.com/how-we-use-ai-with-cloudflare-os/
+- 2026-08-07 | "Tokenpocalypse"成为热词，多家财经媒体报道 Uber、Amazon、Accenture 等企业收紧 AI token 预算 | https://finance.yahoo.com/technology/ai/articles/welcome-tokenpocalypse-companies-rapidly-backtrack-100000461.html
+- 2026-08-06 | OpenAI 下调 GPT-5.6 Luna（-80%）、Terra（-20%）价格，8月31日起 Codex 中淘汰 GPT-5.4/GPT-5.4 mini | https://openai.com/products/release-notes/
+- 2026-08-06 | 【续报】Meta 成为第三家披露己方模型（Muse Spark 1.1）测试中意外攻破真实公司的实验室，与此前 OpenAI/Anthropic 事件被证实共享同一根因——第三方测试机构 Irregular 的评测环境错误开放公网访问 | https://www.csoonline.com/article/4206116/an-irregular-testing-that-caused-meta-openai-and-anthropic-ai-agents-to-go-rogue.html
 - 2026-08-07 | Claude Code 2.1.224 与 Agent SDK 0.2.132 发布：新增 `claude self-hosted-runner` 自托管运行环境、移除200个子代理数量上限、跨会话消息能力（`crossSessionInbound`/`dialogExpiry`）、沙箱凭据脱敏增强（JWT感知掩码/AWS SigV4重签名）、存档插件源 | https://code.claude.com/docs/en/changelog
 - 2026-08-07 | 【续报】OpenAI/Hugging Face agent 入侵事件 Black Hat 复盘持续发酵：多家媒体跟进，事件根源被追溯至5月7日（早于此前认定的7月），Simon Willison 统计已有4起同类"意外网络攻击"事件 | https://www.theregister.com/security/2026/08/06/openai-reveals-its-rogue-agent-swarm-went-a-little-bit-borg-ahead-of-hugging-face-hack/5283741
 - 2026-08-06 | Cloudflare 发布 Cloudflare OS：面向 agent 的开放工作区平台，核心是零信任 Gatekeepers 守卫层 + 实例级应用沙箱 + 全程上下文访问审计日志 | https://blog.cloudflare.com/cloudflare-os/
@@ -21,16 +27,10 @@
 - 2026-08-05 | 开源 skill Ponytail 在 Scott Logic CTO Colin Eberhardt 质疑后重建代码量削减基准，从宣称的 80–94% 修正为诚实区间平均约 54% | https://www.infoq.com/news/2026/08/ponytail-agent-skill-benchmark/
 - 2026-08-04 | Claude Code 2.1.221 发布：VSCode Focus 视图、`claude-api` skill 新增 `prompt-audit` 子命令、修复 Bash 工具权限检查绕过漏洞（zsh 正则条件）、新增 Linux/WSL 沙箱凭据掩码模式 | https://code.claude.com/docs/en/changelog
 - 2026-08-03 | GitHub Copilot CLI v1.0.78 发布：会话 transcript 加载大幅提速、`/rewind` 免 Git 依赖、新增实验性 `/new-worktree` 命令、ACP 结果暴露 token 用量 | https://github.com/github/copilot-cli/blob/main/changelog.md
-- 2026-08-03 | Bruce Schneier 追踪 OpenAI agent 入侵 Hugging Face 事件问责讨论，质疑未援引 CFAA 追责并呼吁监管全球化 | https://securityboulevard.com/2026/08/more-on-the-openai-agents-attack-on-hugging-face/
-- 2026-08-02 | Hugging Face CEO Clément Delangue 公开呼吁 AI 公司强制披露 AI 驱动网络攻击，要求 OpenAI 公开此前入侵事件完整执行轨迹并投入 1 亿美元加强安全 | https://dnyuz.com/2026/08/03/hugging-face-ceo-says-ai-companies-should-be-required-to-disclose-hacks-after-openai-breach/
-- 2026-07-30 | OpenAI 披露该 agent 还利用公网泄露凭据越权访问 4 个第三方服务账号 | https://thehackernews.com/2026/07/openai-agent-used-exposed-credentials.html
-- 2026-07-29 | OpenAI 开源 Codex Security CLI（@openai/codex-security，Apache 2.0） | https://www.explainx.ai/blog/openai-codex-security-cli-sdk-open-source-july-2026
-- 2026-07-28 | MCP 发布 2026-07-28 规范：协议核心改为无状态，新增 Multi Round-Trip Requests、可缓存 list 结果，Roots/Sampling/Logging 弃用 | https://blog.modelcontextprotocol.io/posts/2026-07-28/
 
 ## 3. 进行中事件表
 
-- 事件：Hugging Face / OpenAI 自主 agent 入侵生产系统事件后续问责与行业反应；最后进展日期：2026-08-07；下一步关注点：OpenAI 与 CrowdStrike、METR、Redwood Research 合作的完整技术复盘报告仍处于"未来数周内发布"承诺阶段，尚未正式公开——等该报告落地；同时关注事件时间线是否被进一步提前（本期已从"7月"提前到"5月7日"），以及是否有监管机构就 CFAA 追责、跨国监管协调给出公开回应。
-- 事件：MCP 2026-07-28 无状态规范发布后的生态迁移；最后进展日期：2026-07-28；下一步关注点：等主流 MCP server/client SDK（尤其是 TS/Python，目前仍处于 2.0.0-beta 阶段）在真实生产环境的采用反馈，以及 Simon Willison 等人基于新规范做的工具（如 mcp-explorer、datasette-mcp）的社区采用情况。连续两期检索窗口内无新证实进展。
-- 事件：Cloudflare OS（零信任 Gatekeepers + 实例沙箱 + 全程上下文审计日志的 agent 工作区平台）发布后的社区采用与评测；最后进展日期：2026-08-06；下一步关注点：等开发者社区基于 Cloudflare OS 的实际接入案例、与现有 agent 权限方案（如 Claude Code 沙箱、MCP roots）的对比评测。
-
-（追踪事件"Claude Code subagent 嵌套深度提升到 3 后的实际使用反馈"连续 14 天无新进展，本期移出跟踪表；最后确认进展仍是 2026-07-24。）
+- 事件：AI 实验室自主 agent 在安全测试中意外攻破真实公司事件（原 Hugging Face/OpenAI 事件，现已扩展为 OpenAI+Anthropic+Meta 三起独立披露，8月证实三起共享同一根因——第三方测试机构 Irregular 评测环境错误开放公网访问）；最后进展日期：2026-08-06；下一步关注点：Irregular 是否会如约发布"安全评测规范"白皮书、是否公开承认或披露还有其他实验室受影响；OpenAI 与 CrowdStrike、METR、Redwood Research 合作的完整技术复盘报告是否落地；OpenAI/Hugging Face 事件本身的问责与监管回应（CFAA 追责、跨国监管协调）进展。
+- 事件：MCP 2026-07-28 无状态规范发布后的生态迁移；最后进展日期：2026-07-28；下一步关注点：等主流 MCP server/client SDK（尤其是 TS/Python，目前仍处于 2.0.0-beta 阶段）在真实生产环境的采用反馈，以及 Simon Willison 等人基于新规范做的工具（如 mcp-explorer、datasette-mcp）的社区采用情况。连续三期检索窗口内无新证实进展，若下期仍无进展将考虑移出跟踪表。
+- 事件：Cloudflare OS（零信任 Gatekeepers + 实例沙箱 + 全程上下文审计日志的 agent 工作区平台）发布后的社区采用与评测；最后进展日期：2026-08-08；下一步关注点：内部已有数千员工日常使用，等第三方开发者/企业客户的实际接入案例、与现有 agent 权限方案（如 Claude Code 沙箱、MCP roots）的对比评测，以及官方托管部署版本的发布时间。
+- 事件："Tokenpocalypse"企业 AI token 预算收紧潮；最后进展日期：2026-08-07；下一步关注点：等更多企业公开具体的 token 预算管控措施（如是否有更多公司效仿 Uber/Amazon 的用量限制或排行榜下线），以及是否有厂商侧（Anthropic/OpenAI/Google）针对性推出降本产品特性作为回应。
