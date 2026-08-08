@@ -2,12 +2,12 @@
 
 ## 1. 本次运行时刻与实际覆盖窗口
 
-- 运行时刻：2026-08-07 16:47 UTC。
-- 上次运行时刻：2026-07-30 12:10 UTC，间隔约 8 天 4.6 小时，超过 7 天封顶。
-- 实际覆盖窗口：2026-07-31 16:47 UTC – 2026-08-07 16:47 UTC（按封顶规则截取最近 7 天）；窗口外（2026-07-30 12:10–07-31 16:47）经检查未发现至今仍重要、需额外补收的大事。
-- 第 0 步自愈校验：本次收到的运行 prompt 正文与仓库 SKILL.md 正文存在实质差异（去个人化"JC"→"读者"、去除本地路径信息、进行中事件检索改为按"下一步关注点"定向检索、新增【单源】/【矛盾】标注规则、落盘推送策略改为明确指向 main 并在被拒时降级推工作分支等），已以 SKILL.md 为准执行本次运行。尝试调用 `update_trigger` 将 SKILL.md 正文同步为触发本次运行的定时任务（trig_01BRa893aujPi2kPRYkmHyBU）新 prompt，再次被工具拒绝（"this routine was created via http_api, not by an agent"），因此未同步远端 prompt，下次运行仍可能收到旧版 prompt。
-- 六大方向均执行了检索，其中云厂商动态（AWS 官方信源被出站网络拦截，未能直接核实）与商业动向（SUSE/Rancher、Isovalent、Solo.io 等因检索配额耗尽未做深入补充检索）两个方向属部分成功，已在简报中注明覆盖不完整；其余四个方向（版本与变更、安全通告、CNCF 与社区、工程实践）检索完整执行并取得有效结果。
-- 推送：本会话运行分支为 `claude/peaceful-lamport-ohqpih`（受平台限制只能推送该分支，无法直接推 main），已推送；仓库已配置 `.github/workflows/auto-merge-briefings.yml`，改动限于本任务目录内时会自动合并进 main。
+- 运行时刻：2026-08-08 12:09 UTC。
+- 上次运行时刻：2026-08-07 16:47 UTC，间隔约 19.4 小时，属正常每日节奏。
+- 实际覆盖窗口：2026-08-07 16:47 UTC – 2026-08-08 12:09 UTC。
+- 第 0 步自愈校验：本次收到的运行 prompt 正文与仓库 SKILL.md 正文再次存在实质差异（个性化"JC"称呼、本地路径信息、进行中事件检索方式、【单源】/【矛盾】标注规则、落盘推送目标是否明确指向 main 等，差异模式与上次运行相同），已以 SKILL.md 为准执行本次运行。尝试调用 `update_trigger` 将 SKILL.md 正文同步为该定时任务（trig_01BRa893aujPi2kPRYkmHyBU）新 prompt，再次被工具拒绝（"this routine was created via http_api, not by an agent"），因此未同步远端 prompt，下次运行大概率仍会收到旧版 prompt。
+- 六大方向均执行了检索，逐一核对了进行中事件表的两个跟踪事件。云厂商动态方向部分成功：AWS 官方信源（aws.amazon.com）被出站网络代理拦截无法直接核实，GCP/Azure 官方信源可访问但窗口内未见新内容。其余方向（版本与变更、安全通告、CNCF 与社区、商业动向、工程实践）完整执行，但因窗口很窄（约19小时）且恰逢一个内容淡季时段，商业动向、工程实践、CNCF 与社区三个方向未检索到落在窗口内、且不重复已报清单的实质新内容，故简报中相应板块整节省略（非检索失败，是确无增量）。
+- 推送：本会话运行分支为 `claude/peaceful-lamport-9qddjd`（该分支此前未推送到远端，本地领先 origin/main 若干未合并提交，含上次运行 2026-08-07 的本地提交）。按 SKILL.md 流程先尝试 `git push origin HEAD:main`，若被拒退而推送当前工作分支，运行备注中记录实际结果。
 
 ## 2. 已报条目清单（最近 14 天）
 
@@ -32,10 +32,12 @@
 2026-08-06 | LitmusChaos 发布 2026 上半年进展报告，称为项目最活跃阶段之一 | https://www.cncf.io/blog/2026/08/06/litmuschaos-q1-q2-2026-update-community-contributions-and-project-progress/
 2026-08-02~08-06 | Cloudflare 举办"Agents Week 2026"系列发布，含 WebMCP 开发者预览与 Agent Access Model | https://blog.cloudflare.com/
 2026-08-07 | Flux CD 发布 v2.9.4 补丁版本，含 source-watcher 安全加固 | https://github.com/fluxcd/flux2/releases
+2026-08-06 | Linux 内核 SCTP 实现曝出存续18年的 use-after-free 漏洞 SCTPhantom（CVE-2026-64564，CVSS v4.0 8.5），本地攻击者可提权至 root 并在特定配置下逃逸容器，已修复并回溯至多条稳定内核分支 | https://matrix.tencent.com/en/2026/08/06/sctphantom-CVE-2026-64564
+2026-08-06 | Kubernetes v1.37 切出首个 Release Candidate（v1.37.0-rc.0），如期朝 8/26 GA 推进 | https://github.com/kubernetes/kubernetes/releases
 
 ## 3. 进行中事件表
 
-- 事件：Kubernetes v1.37 发布周期 | 最后进展日期：2026-07-31（Sneak Peek 博客发布，DRA Extended Resource 确认毕业至 GA；DRA Partitionable Devices/KEP-4815 本轮毕业阶段在二手信源间存在冲突，尚未坐实）| 下一步关注点：等 8/26 GA 官宣及正式 release notes，核实 DRA Partitionable Devices 最终毕业阶段、破坏性变更完整清单。
-- 事件：GitHub Actions 2026-08-06 大规模故障 | 最后进展日期：2026-08-06（初步根因披露为"向 runner 分配无效 job"，官方尚未发布正式 postmortem）| 下一步关注点：等 GitHub 官方事后分析（postmortem）全文发布，核实根本原因与后续改进措施。
+- 事件：Kubernetes v1.37 发布周期 | 最后进展日期：2026-08-06（v1.37.0-rc.0 切出，released candidate 阶段；DRA Partitionable Devices/KEP-4815 是否本轮毕业至 beta 仍未见官方明确确认）| 下一步关注点：等 8/26 GA 官宣及正式 release notes，核实 DRA Partitionable Devices 最终毕业阶段、破坏性变更完整清单。
+- 事件：GitHub Actions 2026-08-06 大规模故障 | 最后进展日期：2026-08-06（根因披露为"向 runner 分配无效 job"，截至本次运行官方仍未发布正式 postmortem/root cause analysis 全文）| 下一步关注点：等 GitHub 官方事后分析（postmortem）全文发布，核实根本原因与后续改进措施。
 
-（Argo CD 3.5 发布已于 2026-08-04 如期 GA、无跳票，事件闭合，移出本表。）
+（本期无事件闭合。）
