@@ -2,13 +2,13 @@
 
 ## 1. 本次运行时刻与实际覆盖窗口
 
-- 运行时刻：2026-08-09 12:09 UTC。
-- 上次运行时刻：2026-08-08 12:09 UTC，间隔约 24 小时，属正常每日节奏。
-- 实际覆盖窗口：2026-08-08 12:09 UTC – 2026-08-09 12:09 UTC。
-- 第 0 步自愈校验：本次收到的运行 prompt 正文与仓库 SKILL.md 正文再次存在实质差异（个性化"JC"称呼、本地路径信息、进行中事件检索方式表述、推送目标未明确指向 main 等，差异模式与此前多次运行相同），已以 SKILL.md 为准执行本次运行。尝试调用 `update_trigger`（trigger_id: trig_01BRa893aujPi2kPRYkmHyBU）将 SKILL.md 正文同步为该定时任务新 prompt，再次被工具拒绝（"this routine was created via http_api, not by an agent"），因此未同步远端 prompt，下次运行大概率仍会收到旧版 prompt。
-- 六大方向均执行了检索（含对 Kubernetes/Flux/Cilium/Argo CD 等项目 GitHub Releases 与 Security Advisories、CNCF 博客、AWS/GCP/Azure 官方动态的定向核实），全部完整执行、无检索失败。但本期窗口内未发现任何落在窗口内、且不重复已报清单的实质新内容——六个板块均无新增，属确无增量而非检索失败。
-- 进行中事件表两项均已核查：Kubernetes v1.37 发布节奏无新进展（仍为 v1.37.0-rc.0，未见新 RC/GA 消息）；GitHub Actions 8/6 故障官方 postmortem 仍未发布。
-- 推送：工作分支为仓库 `main`（本次运行开始时已切换至 main 并同步至 origin/main 最新）。按 SKILL.md 流程 `git push origin HEAD:main`。
+- 运行时刻：2026-08-10 12:08 UTC。
+- 上次运行时刻：2026-08-09 12:09 UTC，间隔约 24 小时，属正常每日节奏。
+- 实际覆盖窗口：2026-08-09 12:09 UTC – 2026-08-10 12:08 UTC。
+- 第 0 步自愈校验：本次收到的运行 prompt 正文与仓库 SKILL.md 正文再次存在实质差异（个性化"JC"称呼、本地路径信息、去重与传闻标注细则简化、进行中事件检索方式表述、推送目标未明确指向 main 等，差异模式与此前多次运行相同），已以 SKILL.md 为准执行本次运行。尝试调用 `update_trigger`（trigger_id: trig_01BRa893aujPi2kPRYkmHyBU）将 SKILL.md 正文同步为该定时任务新 prompt，再次被工具拒绝（"this routine was created via http_api, not by an agent"），因此未同步远端 prompt，下次运行大概率仍会收到旧版 prompt。
+- 六大方向均执行了检索（含对 Kubernetes/Istio/Envoy/Helm/Cilium/Argo/Flux 等项目 GitHub Releases 与 Security Advisories、CNCF 博客、AWS/GCP/Azure 官方动态、Hacker News/The New Stack 等的定向核实），全部完整执行、无检索失败。但本期窗口内未发现任何落在窗口内、且不重复已报清单的实质新内容——六个板块均无新增，属确无增量而非检索失败，为连续第二个无增量日。
+- 进行中事件表两项均已核查：Kubernetes v1.37 发布节奏无新进展（仍为 v1.37.0-rc.0，未见新 RC/GA 消息，GA 仍定档 8/26）；GitHub Actions 8/6 故障官方 postmortem 仍未发布。
+- 推送：本会话被限定只能推送 `claude/peaceful-lamport-39v4h5` 分支（云端 Routine 会话平台限制，无法直接推 main），按 SKILL.md 兜底流程推当前工作分支，依赖仓库内 auto-merge-briefings 工作流合并进 main。
 
 ## 2. 已报条目清单（最近 14 天）
 
@@ -38,7 +38,7 @@
 
 ## 3. 进行中事件表
 
-- 事件：Kubernetes v1.37 发布周期 | 最后进展日期：2026-08-06（v1.37.0-rc.0 切出，released candidate 阶段；DRA Partitionable Devices/KEP-4815 是否本轮毕业至 beta 仍未见官方明确确认）| 下一步关注点：等 8/26 GA 官宣及正式 release notes，核实 DRA Partitionable Devices 最终毕业阶段、破坏性变更完整清单。（2026-08-09 已核查：无新 RC/GA 消息。）
-- 事件：GitHub Actions 2026-08-06 大规模故障 | 最后进展日期：2026-08-06（根因披露为"向 runner 分配无效 job"，截至本次运行官方仍未发布正式 postmortem/root cause analysis 全文）| 下一步关注点：等 GitHub 官方事后分析（postmortem）全文发布，核实根本原因与后续改进措施。（2026-08-09 已核查：仍未发布。）
+- 事件：Kubernetes v1.37 发布周期 | 最后进展日期：2026-08-06（v1.37.0-rc.0 切出，release candidate 阶段；DRA Partitionable Devices/KEP-4815 本轮细节仍待官方 release notes 明确）| 下一步关注点：等 8/26 GA 官宣及正式 release notes，核实 DRA Partitionable Devices 最终毕业阶段、破坏性变更完整清单。（2026-08-09、2026-08-10 已核查：均无新 RC/GA 消息。）
+- 事件：GitHub Actions 2026-08-06 大规模故障 | 最后进展日期：2026-08-06（根因披露为"向 runner 分配无效 job"，截至本次运行官方仍未发布正式 postmortem/root cause analysis 全文）| 下一步关注点：等 GitHub 官方事后分析（postmortem）全文发布，核实根本原因与后续改进措施。（2026-08-09、2026-08-10 已核查：仍未发布。）
 
 （本期无事件闭合。）
