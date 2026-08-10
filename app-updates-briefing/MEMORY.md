@@ -2,10 +2,10 @@
 
 ## 1. 本次运行时刻与实际覆盖窗口
 
-- 本次运行时刻：2026-08-09 12:14 UTC
-- 上次运行时刻：2026-08-08 12:17 UTC
-- 实际覆盖窗口：2026-08-08 12:17 UTC 至 2026-08-09 12:14 UTC（正常窗口，非补漏）
-- 本期 VSCode / Claude App / 生态与社区动向三个方向检索均正常完成，无方向检索失败；VSCode（当前最新为 1.132 稳定版，1.133 仍在 Insiders 且仅有零散小改动）与生态/社区两个板块在窗口内未发现落在覆盖期内的实质新内容，故当期简报省略。
+- 本次运行时刻：2026-08-10 12:20 UTC
+- 上次运行时刻：2026-08-09 12:14 UTC
+- 实际覆盖窗口：2026-08-09 12:14 UTC 至 2026-08-10 12:20 UTC（正常窗口，非补漏）
+- 本期 VSCode / Claude App / 生态与社区动向三个方向检索均正常完成，均未发现落在覆盖期内的实质新内容（VSCode 稳定版仍为 1.132；Claude Code 最新版本仍为 v2.1.226；Claude Platform release notes 最新条目仍为 2026-08-07），故当期简报三节全部省略，仅作"本期没有值得报告的内容"说明。部分官方一手源（code.visualstudio.com、github.blog、support.claude.com、anthropic.com/news、claude.com）本次被出口网络代理拦截无法直接访问，已通过 GitHub raw CHANGELOG、npm 注册表、WebSearch 摘要等替代渠道交叉验证，确认结论可信，未构成检索失败。
 
 ## 2. 已报条目清单（最近 14 天）
 
@@ -25,5 +25,5 @@
 
 ## 3. 进行中事件表
 
-- 事件：MCP 2026-07-28 版本规范在 Claude 产品线的具体适配进展（协议核心转为无状态，弃用 Roots/Sampling/Logging）；最后进展日期：2026-07-28（Anthropic 官方博客确认将跟进但未给版本号/时间表；2026-08-09 窗口内再次定向检索 Claude Code 最新 CHANGELOG（仍为 v2.1.226）及 Anthropic 官方博客/API release notes，仍未发现具体版本号或时间表）；下一步关注点：等 Anthropic 公布 Claude Code/Desktop 具体适配版本号或时间表。
-- 事件：Agent Plugins 跨客户端插件标准与 Claude Code 现有插件格式不兼容，Anthropic 未列入首发维护方名单；最后进展日期：2026-08-06；下一步关注点：等 Anthropic 是否跟进采用该标准、或对不兼容问题公开回应；2026-08-09 窗口内定向检索仍未发现 Anthropic 官方回应。
+- 事件：MCP 2026-07-28 版本规范在 Claude 产品线的具体适配进展（协议核心转为无状态，弃用 Roots/Sampling/Logging）；最后进展日期：2026-07-28（Anthropic 官方博客确认将跟进但未给版本号/时间表；2026-08-09、2026-08-10 两次窗口内均定向检索 Claude Code 最新 CHANGELOG（仍为 v2.1.226）及 Anthropic 官方博客/API release notes，仍未发现具体版本号或时间表）；下一步关注点：等 Anthropic 公布 Claude Code/Desktop 具体适配版本号或时间表。
+- 事件：Agent Plugins 跨客户端插件标准与 Claude Code 现有插件格式不兼容，Anthropic 未列入首发维护方名单；最后进展日期：2026-08-06；下一步关注点：等 Anthropic 是否跟进采用该标准、或对不兼容问题公开回应（2026-08-09、2026-08-10 窗口内定向检索仍未发现 Anthropic 官方回应；第三方社区解读认为 Agent Plugins 的 CLI 工具可将其格式转译安装进 Claude Code 原生插件系统，但这仅是社区推测非官方声明，不计入进展）。
