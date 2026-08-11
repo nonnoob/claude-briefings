@@ -2,26 +2,11 @@
 
 ## 1. 本次运行时刻与实际覆盖窗口
 
-- 运行时刻：2026-08-10 12:46 UTC
-- 覆盖窗口：2026-08-09 12:21 UTC 至 2026-08-10 12:36 UTC（上次运行为2026-08-09 12:21 UTC，正常日度增量运行）
+- 运行时刻：2026-08-11 12:36 UTC
+- 覆盖窗口：2026-08-10 12:46 UTC 至 2026-08-11 12:36 UTC（上次运行为2026-08-10 12:46 UTC，正常日度增量运行）
 
 ## 2. 已报条目清单（最近14天）
 
-- 2026-07-27 | 大众下调奥迪2026财年营收利润指引，CFO承认应对中国车企欧洲攻势不足，5万裁员计划持续推进 | https://www.bloomberg.com/news/articles/2026-07-27/audi-turns-gloomier-on-sales-outlook-due-to-downturn-in-china
-- 2026-07-27 | 本田日产磋商联合开发下一代SDV中央ECU/车载OS，目标2029年前后量产 | https://www.japantimes.co.jp/business/2026/07/27/companies/honda-nissan-sdv/
-- 2026-07-27 | 马斯克宣布特斯拉拟开源Model S/X整车设计与软件 | https://www.teslarati.com/tesla-open-source-model-s-and-model-x-designs-software/
-- 2026-07-27 | 锂电池材料价格持续暴涨，电解液添加剂VC涨至20万元/吨，行业再投300亿扩产 | https://finance.sina.com.cn/stock/relnews/cn/2026-07-27/doc-inikfxaz3075626.shtml
-- 2026-07-27 | 曹操出行在杭州开放Robotaxi"主驾无安全员"测试，约100辆车队 | https://www.manilatimes.net/2026/07/27/tmt-newswire/globenewswire/caocao-officially-launches-driverless-robotaxi-testing/2391806
-- 2026-07-27 | Uber证实Waymo将于2028年1月起结束奥斯汀、亚特兰大独家Robotaxi合作 | https://www.automotiveworld.com/news/uber-confirms-end-of-tie-up-with-waymo-as-rivalry-heats-up/
-- 2026-07-27 | Waymo奥斯汀车队累计违停罚单超9325美元 | https://www.benzinga.com/markets/tech/26/07/60692365/waymo-says-it-expects-no-special-treatment-after-its-austin-robotaxis-accumulate-more-than-9000-in-parking-fines
-- 2026-07-27 | 尊界V800/V680官宣8月5日上市，预售23天订单破1万台 | https://cnevpost.com/2026/07/27/maextro-aug-5-launch-luxury-mpvs/
-- 2026-07-27 | 小米汽车"澎程"N90Max/N70Max技术发布会定档7月30日 | https://finance.sina.com.cn/tech/roll/2026-07-27/doc-inikezxr0721257.shtml
-- 2026-07-27 | 零跑A05开启盲订，预计8月上市 | https://finance.sina.com.cn/tech/discovery/2026-07-27/doc-inikfsuy8467001.shtml
-- 2026-07-27 | 工信部圆桌会披露智能网联新能源汽车产业"十五五"规划及L3准入试点方向 | https://finance.sina.com.cn/tech/roll/2026-07-27/doc-inikhckx2989034.shtml
-- 2026-07-27 | 大众CEO布鲁姆呼吁欧盟对中国产插混车加征关税 | https://finance.sina.com.cn/tech/roll/2026-07-27/doc-inikfnpm0753307.shtml
-- 2026-07-27 | 宁德时代股价因2026H1净利+42%及400亿回购计划大涨5.4% | https://www.bloomberg.com/news/articles/2026-07-27/catl-surges-after-share-buyback-plan-strong-first-half-profit
-- 2026-07-27 | Jefferies上调福特、通用汽车评级至"买入" | https://www.cnbc.com/2026/07/27/ford-and-general-motors-get-upgraded-by-jefferies-which-sees-sharp-gains-ahead.html
-- 2026-07-27 | 花旗维持比亚迪股份"买入"评级，目标价142港元 | https://finance.sina.com.cn/stock/hkstock/hkgg/2026-07-27/doc-inikfxcf0682071.shtml
 - 2026-07-28 | 奔驰下调2026年销量与营收指引，Q2营业利润同比+22%但中国销量暴跌30% | https://www.bloomberg.com/news/articles/2026-07-28/mercedes-cuts-revenue-outlook-as-china-s-luxury-slump-deepens
 - 2026-07-28 | 比亚迪在日本发布首款纯电Kei-car"Racco"，挑战丰田本田日产本土K-car市场 | https://cnevpost.com/2026/07/28/byd-launches-k-car-racco-japan/
 - 2026-07-28 | 小鹏在澳大利亚重建本地经销商网络，原长城澳洲COO出任小鹏澳洲COO | https://cnevpost.com/2026/07/27/xpeng-restarts-australia-push-after-dealer-fallout/
@@ -69,7 +54,7 @@
 - 2026-08-04 | 美国对加拿大50%第338条关税(含汽车)确认8月19日生效，加方暂未反制 | https://www.csis.org/analysis/understanding-president-trumps-new-tariffs-canadian-imports
 - 2026-08-04 | 大陆集团Q2财报EBIT利润率升至12.9%，同时签约将ContiTech以约40亿欧元出售给Lone Star | https://www.continental.com/en/press/press-releases/results-first-half-2026/
 - 2026-08-04 | 丰田FY2026Q1净利润1.48万亿日元近乎翻倍，上调全年营业利润指引 | https://www.wardsauto.com/news/toyota-q2-2026-full-year-forecast-2026/804711/
-- 2026-08-05 | 尊界V800/V680正式上市，V680起售64.8万元/V80076.6万-101.6万元，1小时大定2115台 | https://cnevpost.com/2026/08/05/maextro-launches-v680-v800-mpvs/
+- 2026-08-05 | 尊界V800/V680正式上市，V680起售64.8万元/V800 76.6万-101.6万元，1小时大定2115台 | https://cnevpost.com/2026/08/05/maextro-launches-v680-v800-mpvs/
 - 2026-08-05 | 长城H10以"长城"母品牌独立上市，售价20.98万-23.18万元，24小时大定破3.18万台 | https://finance.sina.com.cn/tech/roll/2026-08-06/doc-inimknaz3024551.shtml
 - 2026-08-06 | 刚果(金)全面禁止铜精矿、钴精矿出口，伦敦金属交易所铜价应声上涨 | https://finance.eastmoney.com/a/202608063834068777.html
 - 2026-08-06 | 电解液添加剂VC价格续涨至23万元/吨，较6月累计涨超60% | https://www.stcn.com/article/detail/4062772.html
@@ -108,16 +93,24 @@
 - 2026-08-10 | 赛力斯港股市值较上市以来蒸发近七成，7月问界在鸿蒙智行内份额从67%骤降至45.46% | https://finance.sina.com.cn/jjxw/2026-08-10/doc-inimuzxt5014795.shtml
 - 2026-08-09 | 高盛研报预测小米汽车2026年交付50万辆、2028年破百万辆 | https://finance.sina.com.cn/tech/roll/2026-08-09/doc-inimtpwi8700510.shtml
 - 2026-08-10 | 特斯拉股价报约330.44美元，较8月7-8日328美元区间小幅企稳 | https://journalarta.com/en/2026/08/10/tsla-stock-analysis-gains-2-83-momentum-gains/
+- 2026-08-11 | 现代汽车工会中央争议对策委员会决定升级部分罢工，12/13日各4小时、14/18日各6小时，单日上限由8小时增至12小时 | https://www.ajunews.com/view/20260811153427938
+- 2026-08-11 | 零跑A05延期一日后正式上市，指导价6.39万-9.09万元 | https://finance.sina.com.cn/tech/digi/2026-08-11/doc-inimyaai4169290.shtml
+- 2026-08-11 | 小鹏G9L广州全球首秀并开启预售，定位30万级大五座旗舰SUV | https://cnevpost.com/2026/08/10/xpeng-g9l-debut-pre-sales-aug-11/
+- 2026-08-11 | 2027款比亚迪海豹06深圳正式上市，预扣价10.5万-14.5万元 | https://cnevpost.com/2026/08/08/byd-2027-seal-06-aug-11-launch/
+- 2026-08-11 | Strategy&研究：德国汽车零部件供应商负债与利息支出连续四年攀升，2025年利息支出达经营利润102%，成本竞争力持续落后中国同业 | https://www.globalbankingandfinance.com/debt-burden-grows-german-suppliers-embattled-auto-sector/
+- 2026-08-11 | 特斯拉股价8月10日收报330.88美元，连续6日上涨，Roth Capital上调评级至"买入" | https://stockinvest.us/stock-news/tesla-stock-price-ended-at-33088-on-monday-after-gaining-0700-2026-08-10
 
 ## 3. 进行中事件表
 
-- 事件：特斯拉Q2财报后"增收不增利"态势及股价压力，FSD入华动态 | 最后进展日期：2026-08-10 | 下一步关注点：FSD入华全量推送9月预期能否兑现（此前8月目标已传闻延后）；中国大陆FSD订阅定价949元/月传闻待证实（韩国已于8/21起转为全订阅制，约719元/月）；股价8/10报约330美元小幅企稳，能否延续至10月财报前
-- 事件：美国对加拿大第338条关税(50%)及USMCA/临时协议谈判 | 最后进展日期：2026-08-09 | 下一步关注点：8月19日关税生效期限未见推迟迹象；加方争取"临时协议"但尚未签署；加拿大是否取消对美产汽车反制关税仍有【矛盾】说法，下次运行重点核实最终立场及协议进展
-- 事件：欧盟对华插电混动车加征关税 | 最后进展日期：2026-07-28（大众官方澄清声明：仅主张"全面权衡"，若加税不应超过纯电关税水平）| 下一步关注点：欧盟是否正式表决及具体税率，本期未见新进展
-- 事件：小米汽车"澎程"N90Max/N70Max上市定价 | 最后进展日期：2026-08-03（预售价已公布：N90Max 29.99万/N70Max 25.99万元）| 下一步关注点：9月正式上市发布会最终定价与配置；8月21-30日成都车展SkyNomad N90（澎程展示名）公开亮相细节；后续标准版/Pro版信息
-- 事件：刚果(金)铜钴矿出口禁令 | 最后进展日期：2026-08-10 | 下一步关注点：3个月后新税收框架（计税系数55%）生效情况；铜价8/10已从高点回落至108090元/吨(长江现货)，钴价较2月禁令前已翻倍，需持续关注对宁德时代/比亚迪弗迪等电池厂钴原料采购成本的实际影响报道（目前未见点名报道）
+- 事件：特斯拉Q2财报后"增收不增利"态势及股价压力，FSD入华动态 | 最后进展日期：2026-08-11 | 下一步关注点：FSD入华全量推送9月预期能否兑现（此前8月目标已传闻延后）；中国大陆FSD订阅定价949元/月传闻待证实（韩国8/21起转为全订阅制，约719元/月）；股价8/10报330.88美元，连续6日上涨且获Roth Capital上调至"买入"，能否延续至10月财报前
+- 事件：美国对加拿大第338条关税(50%)及USMCA/临时协议谈判 | 最后进展日期：2026-08-09 | 下一步关注点：8月19日关税生效期限未见推迟迹象；双方仍在磋商加拿大取消对美产汽车反制关税等让步方案，尚未签署最终协议，下次运行重点核实是否达成
+- 事件：小米汽车"澎程"N90Max/N70Max上市定价 | 最后进展日期：2026-08-03（预售价已公布：N90Max 29.99万/N70Max 25.99万元）| 下一步关注点：9月正式上市发布会最终定价与配置；8月21-30日成都车展公开亮相细节；后续标准版/Pro版信息
+- 事件：刚果(金)铜钴矿出口禁令 | 最后进展日期：2026-08-10 | 下一步关注点：3个月后新税收框架（计税系数55%）生效情况；铜价8/10已从高点回落至108090元/吨(长江现货)，需持续关注对宁德时代/比亚迪弗迪等电池厂钴原料采购成本的实际影响报道
 - 事件：特斯拉中国业务分拆传闻【传闻，源自WSJ匿名知情人士，马斯克本人及特斯拉中国已公开否认】| 最后进展日期：2026-07-31 | 下一步关注点：是否有进一步官方声明或组织架构变动佐证/证伪该传闻
-- 事件：Uber游说Robotaxi人车混合网络监管（已从传闻升级为官方证实的公开政策立场）| 最后进展日期：2026-08-01 | 下一步关注点：华盛顿特区市议会交通与环境委员会尚未排期表决《2026年自动驾驶车辆部署授权修正法案》(B26-0684)，需持续关注表决日程；可对照Zoox拉斯维加斯8/10已开启付费商业化的行业参照
-- 事件：大众/奔驰/保时捷裁员扩大至白领管理层 | 最后进展日期：2026-08-04 | 下一步关注点：奥迪5万人裁员计划具体执行时间表（此前检索数据与总量不匹配，待核实）；保时捷追加约5000个后台岗位裁员计划（累计约8900个）、宝马约8000个白领岗位自愿离职方案的落地进展；Q3中国交付数据（预计10月公布）能否企稳
-- 事件：NHTSA对约120万辆特斯拉Model 3/Y悬架故障调查 | 最后进展日期：2026-08-05 | 下一步关注点：已正式立案为PE26006（覆盖约119.83万辆，累计156起投诉，尚未发现关联事故/伤亡），是否升级为工程分析(EA)或正式召回；此前"调查可能扩大至转向系统"的传闻经核实系媒体混淆了另一起独立案件（FSD视觉降级调查EA26002），已排除该关注点
-- 事件：赛力斯"问界退潮" | 最后进展日期：2026-08-10 | 下一步关注点：港股市值较上市以来已蒸发近七成(129→43港元)，7月问界在鸿蒙智行内份额从67%骤降至45.46%；新品牌"赛豆"（原蓝电资产+火山引擎智能座舱）放量节奏与首款产品信息，问界份额能否止跌
+- 事件：Uber游说Robotaxi人车混合网络监管（DC） | 最后进展日期：2026-08-01 | 下一步关注点：华盛顿特区市议会交通与环境委员会《2026年自动驾驶车辆部署授权修正法案》(B26-0684)预计今秋或今冬才会最终表决，需持续关注表决日程
+- 事件：大众/奔驰/保时捷裁员扩大至白领管理层 | 最后进展日期：2026-08-04 | 下一步关注点：奥迪裁员计划具体执行时间表；保时捷、宝马白领岗位裁员方案落地进展；Q3中国交付数据（预计10月公布）能否企稳
+- 事件：NHTSA对约120万辆特斯拉Model 3/Y悬架故障调查 | 最后进展日期：2026-08-05 | 下一步关注点：已正式立案为PE26006（覆盖约119.83万辆，累计156起投诉，尚未发现关联事故/伤亡），是否升级为工程分析(EA)或正式召回
+- 事件：赛力斯"问界退潮" | 最后进展日期：2026-08-10 | 下一步关注点：港股市值较上市以来已蒸发近七成，7月问界在鸿蒙智行内份额从67%骤降至45.46%；新品牌"赛豆"放量节奏与首款产品信息，问界份额能否止跌
+- 事件：现代汽车工资谈判与罢工升级 | 最后进展日期：2026-08-11 | 下一步关注点：8月12/13日各4小时、14/18日各6小时部分罢工能否如期执行；下次中央争议对策委员会定于8月18日，关注是否重启正式团体谈判、生产损失规模变化
+
+（已移出：欧盟对华插电混动车加征关税——自2026-07-28大众官方澄清声明后连续14天无新进展，本期从追踪列表移出，后续如有实质进展将重新收录）
