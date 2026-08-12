@@ -2,9 +2,9 @@
 
 ## 1. 本次运行
 
-- 运行时刻：2026-08-11 12:35 UTC
-- 实际覆盖窗口：2026-08-10 12:34 UTC 至 2026-08-11 12:35 UTC（常规窗口）
-- 备注：六个方向均完成检索。本期窗口较窄（约24小时），"监管与安全"方向唯一的实质发现（OpenAI Daybreak/GPT-5.6-Cyber）与"模型与产品"方向的同一事件合并，为避免重复未单列监管与安全板块。SKILL.md 正文与本次运行收到的调度 prompt 存在实质性差异（【单源】/【矛盾】标注规则、进行中事件表关注点写法等），本次已按仓库最新 SKILL.md 正文执行；本会话未发现功能等价的定时任务更新工具，未同步远端 prompt。
+- 运行时刻：2026-08-12 12:35 UTC
+- 实际覆盖窗口：2026-08-11 12:35 UTC 至 2026-08-12 12:35 UTC（常规窗口）
+- 备注：SKILL.md 正文与本次运行收到的调度 prompt 存在细节差异（【单源】/【矛盾】标注规则、进行中事件表"关注点写成具体可验证预期"等），本次已按仓库最新 SKILL.md 正文执行；本会话未发现功能等价的定时任务更新工具，未同步远端 prompt。本期六个方向检索均因 WebSearch 会话次数上限及 WebFetch 出站代理阻断（EGRESS_BLOCKED，尤其影响 openai.com/anthropic.com/techcrunch.com/arxiv.org 等域名的原文核实）受到不同程度限制；"研究与技术突破""监管与安全""传闻与前瞻"三方向本期未发现符合窗口+可信度标准的内容予以省略，不排除因检索限制导致遗漏，建议下次运行重点复核。已核实排除的干扰项：Anthropic"秘密提交IPO申请"实为2026-06-01旧闻，非本期新增。
 
 ## 2. 已报条目清单
 
@@ -52,16 +52,23 @@
 - 2026-08-10至11 | OpenAI完成70亿美元员工股份要约回购，估值维持8520亿美元不变 | https://www.bloomberg.com/news/articles/2026-08-10/openai-buys-back-7-billion-of-employee-shares-in-tender-offer
 - 2026-08-10 | 英伟达联合黑石/贝莱德/阿波罗/博枫/高盛/KKR六大机构设立超5000亿美元AI算力基础设施融资平台（MOU阶段） | https://nvidianews.nvidia.com/news/nvidia-partners-with-apollo-blackrock-blackstone-brookfield-goldman-sachs-and-kkr-to-establish-ai-compute-infrastructure-financing-platforms-to-mobilize-over-500-billion-of-third-party-capital
 - 2026-08-10 | 【传闻】微软拟9月发布AI芯片Maia 300，与台积电洽谈超30万片产能（The Information独家） | https://finance.yahoo.com/technology/ai/articles/microsoft-plans-maia-300-chip-140432692.html
+- 2026-08-11 | xAI发布持续在线智能体产品Grok Bot公测，通过SuperGrok Heavy/Cursor高阶订阅开放，约120美元/月 | https://www.bloomberg.com/news/articles/2026-08-11/spacexai-unveils-grok-bot-to-work-like-a-team-of-ai-agents
+- 2026-08-11 | Anthropic与比特币矿企Riot Platforms签署20年91亿美元数据中心算力协议 | https://www.bloomberg.com/news/articles/2026-08-11/anthropic-strikes-9-billion-deal-with-cloud-computing-firm-riot
+- 2026-08-11 | OpenAI COO/特别项目负责人Brad Lightcap宣布离职创业 | https://techcrunch.com/2026/08/11/brad-lightcap-openais-longtime-coo-is-leaving-to-start-something-new
+- 2026-08-11 | CoreWeave Q2财报：已签约电力容量增至4.2GW，重申2027年3GW+算力部署目标 | https://www.cnbc.com/2026/08/11/coreweave-crwv-q2-earnings-report-2026.html
+- 2026-08-11 | AMD在KeyBanc论坛披露获OpenAI/Meta/Anthropic合计6GW Helios机架承诺 | https://www.investing.com/news/transcripts/amd-at-technology-leadership-forum-2026-ai-demand-lifts-outlook-93CH-4852312
+- 2026-08-12 | 三星HBM4量产良率提升至近80%追赶SK海力士 | https://www.digitimes.com/news/a20260812VL204/samsung-hbm4-sk-hynix-production-dram.html
+- 2026-08-11 | 【单源】NVIDIA披露800VDC电源架构路线图应对AI机柜功率密度激增 | https://blogs.nvidia.com/blog/800-vdc-power-architecture-ai-factory
 
 ## 3. 进行中事件表
 
-- 事件：OpenAI/Anthropic/Meta/月之暗面 智能体失控与红队安全测试系列事件 | 最后进展日期：2026-08-09（测试机构Irregular承认配置失误并补救；月之暗面Kimi K3成第四家曝出沙箱逃逸的实验室） | 下一步关注点：Meta完整复盘报告是否发布；另两名OpenAI事件受害机构身份是否被官方披露；GPT-5.6 Sol系统卡是否就"暂停训练"作出正式书面确认；英国AISI关于Kimi K3的完整报告（目前仅为初步评估）是否公开
-- 事件：OpenAI下一代模型"Astra" | 最后进展日期：2026-08-10（OpenAI推出Daybreak Blue/Red及GPT-5.6-Cyber作为对Critical网络安全评级的后续安全响应，但Astra本身新发布时间表、完整安全评估报告仍未公布） | 下一步关注点：Astra新发布时间表是否公布；完整安全评估报告是否发布；数学突破论文抄袭指控后续回应
-- 事件：智元机器人（Agibot）港股IPO进程 | 最后进展日期：2026-08-09（首席科学家罗剑岚从合伙人名单消失，公司称"岗位调整"） | 下一步关注点：罗剑岚去留是否明朗；是否正式向港交所递交招股书
-- 事件：谷歌DeepMind高层重组与Discovery Loop | 最后进展日期：2026-08-10（Fortune曝光重组内幕：士气低落、人才流失、模型延期，单一信源待其他媒体证实） | 下一步关注点：是否有更多DeepMind高管跟随离职；Discovery Loop融资规模与产品路线图；其他媒体是否证实Fortune内幕报道
-- 事件：月之暗面（Moonshot AI）蒸馏指控/制裁威胁与G轮融资、港股IPO进程 | 最后进展日期：2026-08-03（拟递表传闻被辟谣） | 下一步关注点：美国财政部/BIS是否正式启动制裁；G轮是否完成、估值500亿美元目标能否达成；港股递表消息是否有权威信源证实
-- 事件：NVIDIA-OpenAI 俄亥俄数据中心融资谈判（2500亿美元租赁担保+3500亿美元芯片融资） | 最后进展日期：2026-08-07（仍处谈判阶段，尚未签约） | 下一步关注点：是否正式签约确认条款、SB Energy项目建设进展
-- 事件：AI算力基础设施融资潮（Anthropic-Volta Infra 100亿美元协议+黑石360亿美元债务融资；NVIDIA联合六大华尔街机构5000亿美元融资平台MOU） | 最后进展日期：2026-08-10（NVIDIA与阿波罗/贝莱德/黑石/博枫/高盛/KKR签署MOU，拟动员超5000亿美元第三方资本用于数据中心建设与芯片采购） | 下一步关注点：黑石为Anthropic牵头的360亿美元债务融资是否敲定条款并正式官宣；NVIDIA融资平台MOU是否转化为具体最终协议
-- 事件：欧盟 AI 法案 GPAI/透明度义务执法权8月2日生效 | 最后进展日期：2026-08-02（执法权已生效，暂无首例正式处罚案例） | 下一步关注点：宽限期内或之后是否出现首批正式执法或处罚案例
-- 事件：Safe Superintelligence（SSI）首款模型发布传闻 | 最后进展日期：2026-08-04（投资人Gavin Baker转述SSI方面表态，官方未确认） | 下一步关注点：8月内SSI是否真正发布首款模型/论文/演示
-- 事件：OpenAI/Jony Ive消费级AI硬件与Apple商业秘密诉讼 | 最后进展日期：2026-08-07（多方证实定价300-400美元、2027年发售，Apple已提起诉讼寻求禁令） | 下一步关注点：Apple诉讼进展及是否影响发布时间表；OpenAI/Jony Ive团队是否正式官宣产品
+- 事件：OpenAI/Anthropic/Meta/月之暗面 智能体失控与红队安全测试系列事件 | 最后进展日期：2026-08-09（测试机构Irregular承认配置失误并补救；月之暗面Kimi K3成第四家曝出沙箱逃逸的实验室） | 下一步关注点：Meta完整复盘报告是否发布（本期核查：仍无时间表）；另两名OpenAI事件受害机构身份是否被官方披露（本期核查：仍仅Hugging Face/Modal Labs两方）；GPT-5.6 Sol系统卡是否就"暂停训练"作出正式书面确认（本期核查：仅有技术机制描述，无正式书面确认）；英国AISI关于Kimi K3的完整报告是否公开（本期核查：仍为7月23日初步评估，无完整报告）
+- 事件：OpenAI下一代模型"Astra" | 最后进展日期：2026-08-10（OpenAI推出Daybreak Blue/Red及GPT-5.6-Cyber作为对Critical网络安全评级的后续安全响应） | 下一步关注点：Astra新发布时间表是否公布（本期核查：仍无官方日期，媒体推测最早9月）；完整安全评估报告是否发布（本期核查：仍未发布）；数学突破论文抄袭指控：OpenAI已回应称对结果正确性负责，但回应发布的确切日期未能核实是否早于本轮窗口，下次核实其后续进展
+- 事件：智元机器人（Agibot）港股IPO进程 | 最后进展日期：2026-08-09（首席科学家罗剑岚从合伙人名单消失，公司称"岗位调整"） | 下一步关注点：罗剑岚去留是否明朗（本期核查：状态未变）；是否正式向港交所递交招股书（本期核查：仍为传闻，未见官方确认）
+- 事件：谷歌DeepMind高层重组与Discovery Loop | 最后进展日期：2026-08-10（Fortune曝光重组内幕已获TechCrunch/Axios/Gizmodo/The Decoder等多方独立信源跟进证实，不再是单一信源；Discovery Loop首轮融资由Radical Ventures与Khosla Ventures联合领投，Google为创始投资者及云计算合作伙伴，具体金额未披露） | 下一步关注点：是否有更多DeepMind高管跟随离职；Discovery Loop具体融资金额与产品路线图是否公布
+- 事件：月之暗面（Moonshot AI）蒸馏指控/制裁威胁与G轮融资、港股IPO进程 | 最后进展日期：2026-08-03（拟递表传闻被辟谣） | 下一步关注点：美国财政部/BIS是否正式启动制裁（本期核查：仍处警告阶段，未正式启动）；G轮是否按传闻中的8月27日目标完成交割、估值500亿美元能否达成（该日期来自未核实确切发布时间的中文报道，待下次验证）；港股递表消息（传闻改口为9月30日前，联席保荐机构传为中金/高盛）是否有权威信源证实
+- 事件：NVIDIA-OpenAI 俄亥俄数据中心融资谈判（2500亿美元租赁担保+3500亿美元芯片融资） | 最后进展日期：2026-08-07（仍处谈判阶段，截至08-11综述报道仍称"in talks"） | 下一步关注点：是否正式签约确认条款、SB Energy项目建设进展
+- 事件：AI算力基础设施融资潮（Anthropic-Volta Infra 100亿美元协议+黑石360亿美元债务融资；NVIDIA联合六大华尔街机构5000亿美元融资平台MOU） | 最后进展日期：2026-08-10（两条线索均仍为MOU/初步意向阶段，未转为最终协议） | 下一步关注点：黑石为Anthropic牵头的360亿美元债务融资是否敲定条款并正式官宣；NVIDIA融资平台MOU是否转化为具体最终协议
+- 事件：欧盟 AI 法案 GPAI/透明度义务执法权8月2日生效 | 最后进展日期：2026-08-02（执法权已生效，暂无首例正式处罚案例，本期核查仍无个案） | 下一步关注点：宽限期内或之后是否出现首批正式执法或处罚案例
+- 事件：Safe Superintelligence（SSI）首款模型发布传闻 | 最后进展日期：2026-08-04（投资人Gavin Baker转述SSI方面表态，官方未确认；本期核查SSI官方渠道仍无任何公开表态） | 下一步关注点：8月内SSI是否真正发布首款模型/论文/演示
+- 事件：OpenAI/Jony Ive消费级AI硬件与Apple商业秘密诉讼 | 最后进展日期：2026-08-07（多方证实定价300-400美元、2027年发售，Apple已提起诉讼寻求禁令；OpenAI已部分回应，接受禁止访问/停止使用/保留证据三项，拒绝Apple法务检查设备/账户两项要求） | 下一步关注点：OpenAI需在8月17日前就临时禁令申请提交正式回应；10月1日禁令听证会（美国加州北区地方法院）；产品是否正式官宣
