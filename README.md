@@ -38,9 +38,17 @@
 │   ├── MEMORY.md           # 跨运行记忆（机器读写，首次运行前不存在）
 │   └── archive/            # 每期简报快照，只增不改
 ├── skills/new-briefing/    # Claude Code 技能：一句话 topic → 自动装配新任务
+├── .github/workflows/      # auto-merge（分支兜底合并）+ briefing-watchdog（缺失告警）
 ├── CONTEXT.md              # 术语表
 ├── docs/adr/               # 架构决策记录（为什么这么设计）
 ```
+
+## 缺失告警
+
+调度器可能静默停摆（不触发、无运行记录），单次运行也可能中途失败而不落盘——两种情况都不会自己冒泡。
+`briefing-watchdog` 每天 19:00 UTC 检查各任务当天（周更任务则为其应跑当天）是否落了归档，缺失就开 Issue；
+持续缺失只在同一个 Issue 追加评论，全部恢复后自动关闭。新增或改动任务的更新频率时，同步改该 workflow 里的
+`DAILY` / `WEEKLY` 两个列表。
 
 ## 一次运行的生命周期
 
