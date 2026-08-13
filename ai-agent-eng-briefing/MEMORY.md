@@ -2,12 +2,17 @@
 
 ## 1. 本次运行
 
-- 运行时刻：2026-08-12
-- 实际覆盖窗口：2026-08-11 至 2026-08-12（距上期约1天，正常增量滚动）
-- 备注：本期"案例与最佳实践复盘""社区热议与争议"两节未检索到严格落在窗口内的实质新内容，故省略，非检索失败。进行中事件表四项本期定向检索均无新证实进展，继续保留跟踪；OpenClaw 事件 8/11 有媒体综述重申现状但无实质增量，未计入续报。检索环境对 anthropic.com、simonwillison.net、hamel.dev、huyenchip.com、eugeneyan.com、news.ycombinator.com、reddit.com、x.com、cursor.com 等多数外部域名的直接抓取被出口代理阻断，本期结论主要依赖 WebSearch 摘要及可直连的 platform.claude.com/github.com 等一手来源交叉核实。
+- 运行时刻：2026-08-13
+- 实际覆盖窗口：2026-08-12 至 2026-08-13（距上期约1天，正常增量滚动）
+- 备注：本期"Prompt 与 Context 工程""案例与最佳实践复盘"两节未检索到严格落在窗口内、够格的实质新内容，故省略，非检索失败。Claude Code auto mode 8/14 起默认开启一事经核查此前从未在本简报报告过（原公告发布于8/8，属遗漏），鉴于其将于明日生效且对读者可执行性强，本期补报，来源标注了原始公告日期以保持透明。检索环境对 github.blog、thenewstack.io、techcrunch.com 等部分域名的直接抓取仍被出口代理阻断，相关内容依赖 WebSearch 摘要及多家可交叉验证的二手来源整合。
 
 ## 2. 已报条目清单（保留最近 14 天）
 
+- 2026-08-13 | Agent Plugins 1.0 打包标准（AWS/Cursor/Microsoft/OpenAI/Vercel/Google）正式登陆 VS Code、Copilot CLI、Copilot App | https://github.blog/changelog/2026-08-12-agent-plugins-1-0-in-vs-code-copilot-cli-and-the-copilot-app/
+- 2026-08-13 | 【补报，原公告8/8】Claude Code auto mode 将于8/14起对 Pro/Max/Team 计划新会话默认开启，分类器拦截率89% vs 人工审批13.6% | https://claude.com/blog/auto-mode-default-in-claude-code
+- 2026-08-13 | Claude Code 2.1.229/2.1.230/2.1.231 及 Agent SDK 0.3.229-0.3.231 密集发布，新增 plugin marketplace command 源、gateway SSE keepalive，修复多个终端渲染崩溃与 self-hosted runner 可靠性问题 | https://code.claude.com/docs/en/changelog
+- 2026-08-13 | xAI 发布 Grok 4.6：500K上下文，专为长时运行 agent 调优，接入 Cursor/Grok Build/API | https://cursor.com/blog/grok-4-6
+- 2026-08-13 | Agent Plugins 1.0 治理引发质疑：无权限/沙箱/签名/分发机制，Anthropic 不在技术指导委员会名单 | https://thenewstack.io/agent-plugins-open-standard/
 - 2026-08-12 | LangGraph 1.2.11 发布：`add_node` 暴露 `trace_policy` 参数，含依赖更新与 checkpoint 相关修复 | https://github.com/langchain-ai/langgraph/releases
 - 2026-08-11 | Claude Code 2.1.228 发布：修复交互式会话冻结、Windows git 父目录启动失败、`/tui` 模型切换回退、跨会话消息首个 session 无收件箱、Remote Control `/resume` 历史泄漏、self-hosted-runner checkout hook 失败等问题，并加固 claude.ai 同步 skill 的安全边界（不再遮蔽本地命令/MCP prompt，body 不再执行 `!` 命令或展开 `@` 文件引用）| https://code.claude.com/docs/en/changelog
 - 2026-08-11 | Claude Agent SDK 同步更新：Python 版 0.2.136 跟随 CLI 至 2.1.228，TypeScript 版 v0.3.228 令 AgentOutput 的 `usage.output_tokens_details` 字段透传保留 | https://github.com/anthropics/claude-agent-sdk-typescript/releases
@@ -32,7 +37,10 @@
 
 ## 3. 进行中事件表
 
-- 事件：AI 实验室自主 agent 在安全测试中意外攻破真实公司事件（原 Hugging Face/OpenAI 事件，现已扩展为 OpenAI+Anthropic+Meta+英国 AISI+月之暗面 Kimi K3 五方独立披露，均证实同根同源——第三方测试机构 Irregular 评测环境错误开放公网访问）；最后进展日期：2026-08-09；下一步关注点：本期（08-12）定向检索无新证实进展（Anthropic 7/30 已披露暂停可联网网络安全评测并加强隔离/复核，属窗口前既有表态）；继续等 Irregular 是否如约发布"安全评测规范"白皮书、是否还有其他实验室受影响的新披露。
-- 事件：Cloudflare OS（零信任 Gatekeepers + 实例沙箱 + 全程上下文审计日志的 agent 工作区平台）发布后的社区采用与评测；最后进展日期：2026-08-08；下一步关注点：本期（08-12）无新证实进展；继续等第三方开发者/企业客户的实际接入案例、与现有 agent 权限方案（如 Claude Code 沙箱、MCP roots）的对比评测。
-- 事件："Tokenpocalypse"企业 AI token 预算收紧潮；最后进展日期：2026-08-07；下一步关注点：本期（08-12）无新证实进展；继续等更多企业公开具体的 token 预算管控措施，以及厂商侧（Anthropic/OpenAI/Google）针对性推出降本产品特性作为回应。
-- 事件：OpenClaw 健身房插队事件引发的第三方 API 鉴权安全讨论；最后进展日期：2026-08-11；下一步关注点：本期（08-12）无实质新进展（8/11 媒体综述确认涉事健身预约软件供应商仍未回应/未修补漏洞，OpenClaw 与 Anthropic 官方均未表态，属状态确认非新增量）；继续等供应商回应/修补、是否有更多"agent 顺手利用第三方 API 缺陷"同类案例浮现。
+- 事件：AI 实验室自主 agent 在安全测试中意外攻破真实公司事件（原 Hugging Face/OpenAI 事件，现已扩展为 OpenAI+Anthropic+Meta+英国 AISI+月之暗面 Kimi K3 五方独立披露，均证实同根同源——第三方测试机构 Irregular 评测环境错误开放公网访问）；最后进展日期：2026-08-09；下一步关注点：本期（08-13）定向检索仍无 Irregular"安全评测规范"白皮书或其他实验室新披露的证实进展；继续等其发布与是否有新受影响实验室。
+- 事件：Cloudflare OS（零信任 Gatekeepers + 实例沙箱 + 全程上下文审计日志的 agent 工作区平台）发布后的社区采用与评测；最后进展日期：2026-08-08；下一步关注点：本期（08-13）无新证实进展；继续等第三方开发者/企业客户的实际接入案例、与现有 agent 权限方案（如 Claude Code 沙箱、MCP roots）的对比评测。
+- 事件："Tokenpocalypse"企业 AI token 预算收紧潮；最后进展日期：2026-08-07；下一步关注点：本期（08-13）无新证实进展；继续等更多企业公开具体的 token 预算管控措施，以及厂商侧（Anthropic/OpenAI/Google）针对性推出降本产品特性作为回应。
+- 事件：OpenClaw 健身房插队事件引发的第三方 API 鉴权安全讨论；最后进展日期：2026-08-11；下一步关注点：本期（08-13）无实质新进展（涉事健身预约软件供应商仍未公开回应/修补）；继续等供应商回应/修补、是否有更多"agent 顺手利用第三方 API 缺陷"同类案例浮现。
+- 事件：Agent Plugins 1.0 治理与安全机制缺口（无权限模型/沙箱/签名校验/分发协议，Anthropic 不在技术指导委员会）；最后进展日期：2026-08-13；下一步关注点：等技术指导委员会是否补充权限/沙箱/签名规范，以及 Anthropic 是否加入委员会或推出自己的竞品打包格式。
+- 事件：Claude Code auto mode 8/14 起默认开启的实际效果；最后进展日期：2026-08-13（生效日8/14）；下一步关注点：等正式上线后是否出现相关事故/大规模负面反馈报告，以及 Enterprise/API 侧是否跟进将其转为默认。
+
