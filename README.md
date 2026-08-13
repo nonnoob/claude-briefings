@@ -2,11 +2,11 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Built with Claude Code](https://img.shields.io/badge/Built%20with-Claude%20Code-d97757)](https://claude.ai/code)
-[![Runs daily](https://img.shields.io/badge/Runs-daily%20%C2%B7%20cloud-2ea44f)](https://claude.ai/code/routines)
+[![Runs on a schedule](https://img.shields.io/badge/Runs-scheduled%20%C2%B7%20cloud-2ea44f)](https://claude.ai/code/routines)
 
 中文 | [English](README.en.md)
 
-用 Claude Code Routines 每天自动生成主题简报的一套可复用规范。git 仓库承载全部状态——任务定义、跨运行记忆、历史归档都在这里，`main` 即唯一事实；云端定时运行，本机无需开机。
+用 Claude Code Routines 定时自动生成主题简报的一套可复用规范。git 仓库承载全部状态——任务定义、跨运行记忆、历史归档都在这里，`main` 即唯一事实；云端定时运行，本机无需开机。
 
 **和常见"RSS 抓取 + LLM 摘要"方案的差别：**
 
@@ -15,7 +15,7 @@
 - **断档补的是覆盖窗口，不只是补跑**——停三天，回来自动补上这三天的内容，而不是从"今天"重新开始。
 - **纯 prompt 规范**——任务定义本身就是 Routine 的 prompt，改行为 = 改 markdown 并 push，没有运行时代码要维护。
 
-**示例产出（真实归档）：** [每日科技简报 · 2026-07-26](daily-tech-briefing/archive/daily-tech-briefing_2026-07-26.md) · [AI 行业简报 · 2026-07-26](ai-industry-briefing/archive/ai-industry-briefing_2026-07-26.md) · [更多归档](daily-tech-briefing/archive/)
+**示例产出（真实归档）：** [科技新闻简报 · 2026-07-26](tech-news-briefing/archive/tech-news-briefing_2026-07-26.md) · [AI 行业简报 · 2026-07-26](ai-industry-briefing/archive/ai-industry-briefing_2026-07-26.md) · [更多归档](tech-news-briefing/archive/)
 
 ## 解决什么问题
 
@@ -64,7 +64,7 @@ flowchart LR
     H -.下次运行.-> B
 ```
 
-每天定时，云端 Routine 执行一次完整生命周期：
+每到点，云端 Routine 执行一次完整生命周期（频率按任务而定，日更或周更）：
 
 1. clone/pull 本仓库；
 2. **自愈校验**：任务 `SKILL.md` 正文与注册 prompt 不一致时，以文件为准执行（改任务只需改文件并 push，无需碰 Routine）；

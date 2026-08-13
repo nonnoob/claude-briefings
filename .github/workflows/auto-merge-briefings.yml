@@ -28,7 +28,7 @@ jobs:
           BRANCH: ${{ github.ref_name }}
         run: |
           set -euo pipefail
-          ALLOWED='^(ai-agent-eng-briefing|ai-industry-briefing|app-updates-briefing|automotive-daily-briefing|cloud-native-daily-briefing|daily-tech-briefing)/'
+          ALLOWED='^(agent-engineering-briefing|ai-industry-briefing|app-updates-briefing|automotive-industry-briefing|cloud-native-briefing|tech-news-briefing)/'
           git config user.name "briefing-bot"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git checkout main

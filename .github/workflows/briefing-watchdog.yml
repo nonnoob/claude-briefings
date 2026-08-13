@@ -33,9 +33,9 @@ jobs:
           echo "本地日期 ${TODAY} (周 ${DOW})"
 
           # 日更任务
-          DAILY="daily-tech-briefing automotive-daily-briefing ai-industry-briefing ai-agent-eng-briefing"
+          DAILY="tech-news-briefing automotive-industry-briefing ai-industry-briefing agent-engineering-briefing"
           # 周更任务，格式 任务名:应跑星期几
-          WEEKLY="cloud-native-daily-briefing:1 app-updates-briefing:5"
+          WEEKLY="cloud-native-briefing:1 app-updates-briefing:5"
 
           EXPECTED="$DAILY"
           for pair in $WEEKLY; do

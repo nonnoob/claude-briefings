@@ -1,4 +1,4 @@
-# 运行记忆（daily-tech-briefing）
+# 运行记忆（tech-news-briefing）
 
 ## 1. 本次运行时刻与覆盖窗口
 

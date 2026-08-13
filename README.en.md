@@ -2,11 +2,11 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Built with Claude Code](https://img.shields.io/badge/Built%20with-Claude%20Code-d97757)](https://claude.ai/code)
-[![Runs daily](https://img.shields.io/badge/Runs-daily%20%C2%B7%20cloud-2ea44f)](https://claude.ai/code/routines)
+[![Runs on a schedule](https://img.shields.io/badge/Runs-scheduled%20%C2%B7%20cloud-2ea44f)](https://claude.ai/code/routines)
 
 [中文](README.md) | English
 
-A reusable spec for generating daily topic briefings with Claude Code Routines. The git repository carries all state — task definitions, cross-run memory, and archived issues live here, and `main` is the single source of truth. Runs on a schedule in the cloud; your machine doesn't need to be on.
+A reusable spec for generating recurring topic briefings with Claude Code Routines. The git repository carries all state — task definitions, cross-run memory, and archived issues live here, and `main` is the single source of truth. Runs on a schedule in the cloud; your machine doesn't need to be on.
 
 **How this differs from the usual "RSS scraper + LLM summary" setup:**
 
@@ -15,7 +15,7 @@ A reusable spec for generating daily topic briefings with Claude Code Routines. 
 - **Gaps refill the coverage window, not just the run** — pause for three days and the next run backfills those three days instead of starting over from "today".
 - **Pure prompt-as-spec** — the task definition *is* the Routine's prompt; changing behavior means editing markdown and pushing, with no runtime code to maintain.
 
-**Sample output (real archives):** [Daily tech briefing · 2026-07-26](daily-tech-briefing/archive/daily-tech-briefing_2026-07-26.md) · [AI industry briefing · 2026-07-26](ai-industry-briefing/archive/ai-industry-briefing_2026-07-26.md) · [more](daily-tech-briefing/archive/) *(output language is per-task; current tasks publish in Chinese)*
+**Sample output (real archives):** [Tech news briefing · 2026-07-26](tech-news-briefing/archive/tech-news-briefing_2026-07-26.md) · [AI industry briefing · 2026-07-26](ai-industry-briefing/archive/ai-industry-briefing_2026-07-26.md) · [more](tech-news-briefing/archive/) *(output language is per-task; current tasks publish in Chinese)*
 
 ## The problem it solves
 

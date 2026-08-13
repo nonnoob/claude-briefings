@@ -1,15 +1,15 @@
 ---
-name: ai-agent-eng-briefing
+name: agent-engineering-briefing
 description: AI Agent/Skill 工程实践每日简报：agent 设计模式、prompt/context 工程、开发者工具链、案例复盘、社区热议
 ---
 
 你正在为 AI 工程师读者生成 AI Agent/Skill 工程实践简报，帮助读者跟上 agent 工程方法论与开发效率工具的快速迭代。这是一次非交互运行，用户不在场：遇到不确定之处自主做合理判断并在产出中注明假设，不提问、不等待确认。每次运行都是全新会话，跨运行记忆全部来自下述文件。全文使用简体中文。
 
-任务状态仓库：GitHub 仓库 `nonnoob/claude-briefings`（`https://github.com/nonnoob/claude-briefings.git`；公开仓库 clone/pull 无需认证，push 需要授权）。运行开始先就绪仓库：当前工作目录已是该仓库的检出（云端任务通常如此）则先 `git pull` 取最新；没有检出则 clone 后进入。仓库根下的 `ai-agent-eng-briefing/` 目录即本任务根目录（下称"根目录"）。若仓库不可达（pull 与 clone 均失败）：降级为无状态运行——按过去 24 小时窗口正常检索并产出简报，跳过所有文件读写与 git 推送，运行备注告警"仓库不可达，本次无状态运行"。
+任务状态仓库：GitHub 仓库 `nonnoob/claude-briefings`（`https://github.com/nonnoob/claude-briefings.git`；公开仓库 clone/pull 无需认证，push 需要授权）。运行开始先就绪仓库：当前工作目录已是该仓库的检出（云端任务通常如此）则先 `git pull` 取最新；没有检出则 clone 后进入。仓库根下的 `agent-engineering-briefing/` 目录即本任务根目录（下称"根目录"）。若仓库不可达（pull 与 clone 均失败）：降级为无状态运行——按过去 24 小时窗口正常检索并产出简报，跳过所有文件读写与 git 推送，运行备注告警"仓库不可达，本次无状态运行"。
 
 ## 第 0 步：自愈校验
 
-- 读根目录 `SKILL.md`。**正文的精确定义**：从关闭 frontmatter 的第二个 `---` 行之后、第一个非空行起，到文件末尾；frontmatter 与正文之间的空行只是分隔符，不属于正文，首尾空白差异不算不一致。若正文与你当前执行的这段指令不一致：以该文件为准执行本次运行；若本会话有功能等价的定时任务更新工具（如 `update_scheduled_task`，任务标识符为 `ai-agent-eng-briefing` 或本会话上下文给出的 taskId/trigger_id），把文件正文推送为新 prompt（frontmatter 的 description 若也变了则一并更新），运行备注注明"已自愈同步"；没有此类工具（云端运行常见）则不推送，运行备注注明"已按仓库最新正文执行，未同步远端 prompt"。
+- 读根目录 `SKILL.md`。**正文的精确定义**：从关闭 frontmatter 的第二个 `---` 行之后、第一个非空行起，到文件末尾；frontmatter 与正文之间的空行只是分隔符，不属于正文，首尾空白差异不算不一致。若正文与你当前执行的这段指令不一致：以该文件为准执行本次运行；若本会话有功能等价的定时任务更新工具（如 `update_scheduled_task`，任务标识符为 `agent-engineering-briefing` 或本会话上下文给出的 taskId/trigger_id），把文件正文推送为新 prompt（frontmatter 的 description 若也变了则一并更新），运行备注注明"已自愈同步"；没有此类工具（云端运行常见）则不推送，运行备注注明"已按仓库最新正文执行，未同步远端 prompt"。
 - 若该文件缺失或为空：**不要**推送同步，照当前指令继续执行，并在运行备注中告警。
 
 ## 第 1 步：读取运行记忆，计算覆盖窗口
@@ -37,7 +37,7 @@ description: AI Agent/Skill 工程实践每日简报：agent 设计模式、prom
 
 明确排除项：
 - 纯行业资本/融资并购/商业新闻（归 `ai-industry-briefing` 覆盖范围，本任务不重复）；
-- 泛消费级科技新闻、硬件评测（归 `daily-tech-briefing` 覆盖范围）；
+- 泛消费级科技新闻、硬件评测（归 `tech-news-briefing` 覆盖范围）；
 - 模型发布的纯营销通稿、无具体工程细节的"重磅发布"类内容。
 
 - 只收录发布时间落在覆盖窗口内的内容。
@@ -59,12 +59,12 @@ description: AI Agent/Skill 工程实践每日简报：agent 设计模式、prom
 
 - **完全失败**（检索全挂、未取得任何有效内容）：不写归档、不改 MEMORY.md，在回复中说明失败原因即结束——下次运行的窗口会自动覆盖这段时间，系统自愈。
 - **部分成功**（个别方向检索失败）：照常落盘，但在简报和 MEMORY.md 中注明哪些方向本期未覆盖。
-- 先写归档：`archive/ai-agent-eng-briefing_<YYYY-MM-DD>.md`（运行当天实际日期）；当天已存在同名文件时改用 `ai-agent-eng-briefing_<YYYY-MM-DD>_<HHmm>.md`——**永不覆盖已有归档**。归档内容就是本次回复中输出的简报全文，逐字一致，不要为归档另写更详细或更简略的版本。
+- 先写归档：`archive/agent-engineering-briefing_<YYYY-MM-DD>.md`（运行当天实际日期）；当天已存在同名文件时改用 `agent-engineering-briefing_<YYYY-MM-DD>_<HHmm>.md`——**永不覆盖已有归档**。归档内容就是本次回复中输出的简报全文，逐字一致，不要为归档另写更详细或更简略的版本。
 - 后整体重写 `MEMORY.md`，固定三节：
   1. 本次运行时刻与实际覆盖窗口；
   2. 已报条目清单：保留最近 14 天，一行一条，格式"日期 | 一句话事件描述（谁+干了什么）| 代表性链接"，描述只写事件本身、不携带"(同日二次运行)"之类的运行批注；
-  3. 进行中事件表：预期还有后续、需要跨运行追踪的事件，每条含"事件、最后进展日期、下一步关注点"，关注点写成具体可验证的预期（如"等 X 正式发布""等 Y 社区复现结果"），供下次定向检索；事件已闭合或连续 14 天无新进展则移出（可在当期简报注一句）；至多保留 10 条，按重要性取舍。
-- 再提交推送：`git add` 本任务根目录并 commit（消息格式 `ai-agent-eng-briefing: <YYYY-MM-DD>`）。推送目标是 **main**：先 `git push origin HEAD:main`；被拒则 `git pull --rebase origin main` 后重推，至多 2 次；仍被拒（如平台限制只能推 `claude/*` 分支）则退而 `git push` 推当前工作分支，并在运行备注注明"已推送至分支 <分支名>，需合并到 main"——简报已在回复中完整输出，下次运行按窗口机制自动补偿。
+  3. 进行中事件表：预期还有后续、需要跨运行追踪的事件，每条含"事件、最后进展日期、下一步关注点"，关注点写成具体可验证的预期（如"等 X 正式发布""等 Y 社区复现结果"），供下次定向检索；事件已闭合或连续 14 天无新进展则移出（可在当期简报注一句）；至多保留 10 条，按重要性取舍——因条数上限而踢出仍在推进的事件时，在运行备注注明踢出了哪条、为什么。
+- 再提交推送：`git add` 本任务根目录并 commit（消息格式 `agent-engineering-briefing: <YYYY-MM-DD>`）。推送目标是 **main**：先 `git push origin HEAD:main`；被拒则 `git pull --rebase origin main` 后重推，至多 2 次；仍被拒（如平台限制只能推 `claude/*` 分支）则退而 `git push` 推当前工作分支，并在运行备注注明"已推送至分支 <分支名>，需合并到 main"——简报已在回复中完整输出，下次运行按窗口机制自动补偿。
 - 归档永久保留：不删除、不清理 `archive/` 下任何文件（非交互运行中删除文件会触发权限请求而中断任务；清理只由用户手动进行）。
 
 ## 写操作权限
