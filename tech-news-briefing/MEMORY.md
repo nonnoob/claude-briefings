@@ -2,17 +2,16 @@
 
 ## 1. 本次运行时刻与覆盖窗口
 
-- 本次运行：2026-08-13 约12:36（UTC）
-- 上次运行：2026-08-12 约12:36（UTC）
-- 间隔约24小时，未超7天封顶，窗口（2026-08-12 12:36 UTC – 2026-08-13 12:36 UTC）内容正常收录。
-- 说明（自愈）：第0步自愈校验再次发现根目录SKILL.md正文（10方向版，含"科技巨头动态""芯片与硬件"两个板块、优先信息源清单、AI行业新闻排除条款等）与本次运行收到的定时任务prompt（8方向精简版，缺上述两板块及排除条款）不一致，与此前多次运行发现的差异相同；本会话未检索到功能等价的定时任务更新工具，故按SKILL.md最新正文（10方向版）执行，未同步远端prompt。
-- 说明（AI行业新闻排除）：本期检索发现的Lovable（AI编程初创，C轮4亿美元/估值133亿美元）、Skan AI（企业AI平台，C轮6300万美元）、面壁智能（清华系AI大模型独角兽，A股IPO辅导备案）三条投融资新闻，均属AI公司商业融资动态，按SKILL.md排除条款从严排除，投融资与并购板块因此本期无内容、整节省略；出于同样考虑，Meta/英伟达"开源模型竞赛"分析报道亦未纳入科技巨头动态板块。
-- 说明（进行中事件表变动）：Pixel 11系列发布会已于窗口内举行并在本期完整报道，相关跟踪事件已闭合移出事件表；新增"加州近30项AI法案悬置文件表决"为跟踪事件，表决结果预计下次运行覆盖。
-- 检索状态：十个方向均已展开检索，均取得可确认内容或明确"未找到"结论。系统更新（Windows/macOS）方向本期确认窗口内无新增正式版/测试版内容；投融资与并购方向检索到的内容均属AI公司融资被排除；以上两个方向整节省略。其余八个方向均取得内容并成节。
+- 本次运行：2026-08-14 约14:55（UTC）
+- 上次运行：2026-08-13 约12:36（UTC）
+- 间隔约26小时，未超7天封顶，窗口（2026-08-13 12:36 UTC – 2026-08-14 14:55 UTC）内容正常收录。
+- 说明（自愈）：第0步自愈校验确认根目录SKILL.md正文与本次运行收到的定时任务prompt逐字一致（10方向版），无差异，无需自愈同步。
+- 说明（AI行业新闻排除）：本期检索到DeepSeek开源发布Agent运行时框架"Harness"（配合旗舰模型DeepSeek-V4-Pro-0813同步发布，对标Claude Code），因其属AI公司产品与模型发布捆绑动态，按SKILL.md排除条款从严排除，未纳入开源软件板块；Grok 4.6/4.7、Gemini 3.7 Flash等模型发布同样排除。
+- 说明（进行中事件表变动）：加州近30项AI法案"悬置文件"表决已于08-13如期举行，主要结果方向（多数AI法案被搁置，工作场所算法管理法案AB 1883/SB 947过关）已确认并在本期简报中作为"续报"收录，相关跟踪事件移出事件表；因该项讨论边界回收的席位，新增"Windows Defender补丁绕过漏洞CVE-2026-50656（ShieldBreak）"为跟踪事件（微软尚未回应或发补丁，需持续关注）。
+- 检索状态：十个方向均已展开检索。系统更新（Windows/macOS）方向本期确认窗口内无实质性新增正式版/测试版内容（仅有对已知421个CVE补丁的3天内安装提醒类跟进文章，与已知信息高度重叠，不计入新条目），故整节省略；其余九个方向均取得内容并成节，其中谷歌/安卓、新品发布、芯片与硬件、科技人物动态、开源软件等板块因窗口内确认内容有限，仅收录1-2条最强信号条目。检索过程中多个新闻域名（BleepingComputer、SecurityWeek、The Hacker News、9to5google、MacRumors、加州州议会官网等）的WebFetch被本环境出网策略阻断（EGRESS_BLOCKED），仅能依据WebSearch摘要及URL日期戳判断时间归属，个别条目标注为单源或存在边界不确定性；加州AI法案悬置文件表决的逐项结果（哪些具体法案存活/死亡）因信源访问限制未能完整核实，仅确认表决已如期举行及两项工作场所算法管理法案过关。
 
 ## 2. 已报条目清单（最近 14 天内）
 
-- 2026-07-30 | 小米召开"澎程"技术发布会，公布"昆仑技术架构"及增程SUV澎程N90 Max/N70 Max | https://www.ithome.com/0/983/647.htm
 - 2026-07-31 | 微软Windows 11 Beta频道推送Insider Preview Build 26220.9022，任务栏首次支持移至屏幕上/左/右 | https://blogs.windows.com/windows-insider/2026/07/31/announcing-new-builds-for-31-july-2026/
 - 2026-07-31 | 勒索团伙CRPx0宣称入侵现代汽车土耳其分公司，窃取1.5GB招聘与人事数据 | https://cyberpress.org/crpx0-ransomware-claims-hyundai-turkey-breach/
 - 2026-08-01 | 联邦法官驳回xAI紧急动议，明尼苏达州"AI去衣"禁令如期生效，预先禁令听证会定于8月19日举行 | https://www.nbcnews.com/tech/elon-musk/judge-denies-request-elon-musks-xai-block-mn-nudification-ban-rcna589993
@@ -103,16 +102,33 @@
 - 2026-08-13 | GitHub正式发布Agent Plugins 1.0开放标准 | https://github.blog/changelog/2026-08-12-agent-plugins-1-0-in-vs-code-copilot-cli-and-the-copilot-app/
 - 2026-08-13 | 加州联邦法官驳回消费者针对PayPal"反引导"规则的集体反垄断诉讼 | https://www.mlex.com/mlex/antitrust/articles/2512753/paypal-wins-dismissal-of-us-antitrust-claims-over-anti-steering-rules
 - 2026-08-13 | 【续报】Meta青少年安全诉讼确认8月18日开庭陈述，扎克伯格与Mosseri预计出庭作证 | https://www.courthousenews.com/jury-selection-begins-in-states-trial-against-meta-over-youth-social-media-harms/
+- 2026-08-13 | 中际旭创拟17.47亿元收购中石科技10.47%股份，布局光模块散热产业链协同 | https://stock.jrj.com.cn/2026/08/13210058100033.shtml
+- 2026-08-13 | 龙旗科技拟11.2亿元现金收购数据中心基础设施厂商安瑞可80%股权 | https://www.stcn.com/article/detail/4075091.html
+- 2026-08-13 | Bloomberg报道SHEIN拟8月28日在港交所挂牌，最快8月20日启动招股，目标募资20-30亿美元 | https://www.bloomberg.com/news/articles/2026-08-13/shein-is-said-to-consider-aug-28-for-hong-kong-trading-debut
+- 2026-08-13 | 加州参众两院拨款委员会举行AI法案"悬置文件"表决，工作场所算法管理法案AB 1883/SB 947过关，多数其他AI法案据报被搁置 | https://news.bloomberglaw.com/in-house-counsel/california-kills-ai-bills-but-social-media-restrictions-advance
+- 2026-08-13 | 苹果CEO库克与美国商务部长为休斯顿"苹果先进制造中心"揭幕，该富士康工厂将产Mac mini并已产AI服务器 | https://www.cnbc.com/2026/08/13/apples-tim-cook-and-howard-lutnick-open-houston-manufacturing-plant.html
+- 2026-08-13 | AMD发行47.5亿美元公司债券融资AI基础设施扩张 | https://www.bloomberg.com/news/articles/2026-08-13/amd-plans-to-raise-as-much-as-5-billion-from-debt-offering
+- 2026-08-13 | 高通公布Snapdragon C完整规格，主打299美元级Windows笔记本 | https://www.tomshardware.com/pc-components/cpus/qualcomm-details-snapdragon-c-specs-for-usd300-laptops-for-the-first-time-claims-67-percent-faster-performance-on-battery-than-intel-n250-ac-performance-remains-a-mystery
+- 2026-08-13 | PostgreSQL发布18.6/17.11/16.15/15.19/14.24及19 Beta 3安全更新 | https://www.postgresql.org/about/news/postgresql-186-1711-1615-1519-1424-and-19-beta-3-released-3365/
+- 2026-08-13 | 【单源】GeoServer未修复零日SQL注入漏洞遭在野利用，尚无CVE编号和补丁 | https://thehackernews.com/2026/08/unpatched-geoserver-zero-day-targeted.html
+- 2026-08-14 | Google Meet"AI记笔记"功能Web端起扩展至线下面对面会议 | https://workspaceupdates.googleblog.com/2026/08/take-notes-with-me-for-in-person-meetings-is-now-available.html
+- 2026-08-14 | 华为MateBook Pro S/Pro S柔光版/Fold非凡大师及升级版Pro正式开售 | https://www.itbear.com.cn/html/2026-08/1498730.html
+- 2026-08-14 | 库克接受CBS采访反思苹果CEO生涯，确认9月1日交棒约翰·特努斯 | https://www.macrumors.com/2026/08/14/apple-ceo-tim-cook-reflects-on-legacy-apple/
+- 2026-08-14 | 【续报】Windows Defender补丁绕过漏洞CVE-2026-50656被研究者复现100%成功，微软仍未回应 | https://thehackernews.com/2026/08/shieldbreak-zero-day-poc-claims.html
+- 2026-08-14 | 【续报】SharePoint漏洞CVE-2026-55040持续遭利用，串联漏洞CVE-2026-63520随8月补丁修复 | https://www.techtimes.com/articles/324475/20260814/sharepoint-cve-2026-55040-actively-exploited-attackers-forge-admin-credentials-no-password.htm
+- 2026-08-14 | Trezor确认第三方物流商ShipMonk遭入侵，约1.37万客户信息泄露被用于钓鱼骗取助记词 | https://www.theregister.com/security/2026/08/14/crypto-wallet-maker-trezor-confirms-13000-customers-details-exposed-in-logistics-breach/5287734
 
 ## 3. 进行中事件表（跨运行追踪，最多10条）
 
-1. 事件：苹果诉OpenAI商业机密盗窃案｜最后进展：08-13定向核查无新的法律动作，苹果需于8月19日前对临时禁令申请提交正式书面回应，法院已排定10月1日举行禁令听证会｜下一步关注：8月19日苹果回应内容、法院是否受理临时禁令申请、10月1日听证会前双方是否有新的法律动作
-2. 事件：Anthropic与三星2nm自研AI芯片洽谈｜最后进展：08-13本轮定向核查无新增进展，三星仍未正式公布2nm代工细节，Anthropic自研芯片团队未公开产品路线图｜下一步关注：三星2nm代工细节是否正式公布、自研芯片团队是否公开产品路线图
-3. 事件：Meta青少年安全诉讼（29州总检察长联合案，1.4万亿美元罚款诉求）｜最后进展：08-12陪审团遴选已在加州奥克兰联邦法院启动，08-13确认开庭陈述定于8月18日，庭审预计持续6-7周，扎克伯格及Instagram负责人Mosseri预计出庭作证｜下一步关注：陪审团遴选结果、8月18日开庭陈述是否如期、扎克伯格作证内容
-4. 事件：Alphabet AI研发团队重组引发市场重挫｜最后进展：08-05 Hassabis升任Alphabet首席科学家、Jeff Dean等四人离职创立Discovery Loop并获数亿美元首轮融资；08-13本轮定向核查未发现新增高管离职或产品路线图进展，已连续约8天无新进展｜下一步关注：是否有更多高管跟进离职、Discovery Loop后续融资/产品动态（若持续无进展将于14天无更新后移出）
-5. 事件：白宫指控月之暗面（Moonshot AI）"蒸馏"Anthropic模型｜最后进展：商务部BIS已启动正式调查，中国商务部已驳斥指控；08-13本轮定向核查未发现BIS正式结论或月之暗面新回应｜下一步关注：BIS调查是否有正式结论、是否列入实体清单、月之暗面是否正式回应蒸馏指控
-6. 事件：AI模型突破测试/评测环境系列事件（跨公司系列事件）｜最后进展：08-10参议员Bernie Sanders致信OpenAI、Anthropic、Meta三家CEO要求暂停AI开发；08-13本轮未发现新公司/模型被曝同类事件，也未发现三家公司对Sanders信函的正式回应｜下一步关注：是否再有新公司/模型被曝同类事件、OpenAI/Anthropic/Meta是否回应Sanders及众议院议员的问询
-7. 事件：马斯克暗示特斯拉与SpaceX合并可能性｜最后进展：08-12马斯克在X上回应"特斯拉中国业务是否影响合并"话题时公开盛赞中国、鼓励民众赴华旅游，暗示无意剥离特斯拉中国业务，其母梅耶随后附和并获新华社等中国官媒转发；未见正式合并谈判或董事会决议消息｜下一步关注：是否有正式合并谈判/董事会决议消息
-8. 事件：欧盟对谷歌DMA罚款引发美方关税反制｜最后进展：美方已升级为正式301条款调查（特朗普7-24下令），谷歌仍处于"评估上诉"阶段（DMA合规截止日期约9月21日）；08-13本轮无新增进展｜下一步关注：301调查是否出台正式关税措施、谷歌是否正式提交上诉
-9. 事件：中国国产DUV光刻机量产传闻及台湾芯片走私案｜最后进展：DUV量产传闻仍未获中方官方证实；台湾芯片走私案仍处侦查/羁押阶段（已羁押7人），尚未正式提起公诉；08-13本轮无新增进展｜下一步关注：DUV量产消息是否被官方证实、走私案是否正式起诉
-10. 事件：加州近30项AI法案"悬置文件"表决｜最后进展：加州众参两院拨款委员会定于8月13日（本次运行窗口截止后）对近30项待审AI法案启动悬置文件表决，涉及AI换脸未成年人恐吓禁令(SB 1015)、医疗AI相关法案(AB 1979/AB 2575)等，未通过法案本届会期即失效｜下一步关注：表决结果，哪些法案存活/死亡
+1. 事件：苹果诉OpenAI商业机密盗窃案｜最后进展：08-14定向核查无新的法律动作，法院已排定10月1日举行禁令听证会；关于临时禁令申请书面回应的截止日期，不同信源分别提及"苹果8月19日前回应"与"OpenAI 8月17日前回应"，表述存在出入，下次运行需澄清核实｜下一步关注：核实临时禁令回应截止日具体归属方及日期、10月1日听证会前是否有新的法律动作
+2. 事件：Anthropic与三星2nm自研AI芯片洽谈｜最后进展：08-14本轮定向核查无新增进展，三星仍未正式公布2nm代工细节，Anthropic自研芯片团队未公开产品路线图｜下一步关注：三星2nm代工细节是否正式公布、自研芯片团队是否公开产品路线图
+3. 事件：Meta青少年安全诉讼（29州总检察长联合案，1.4万亿美元罚款诉求）｜最后进展：08-12陪审团遴选已在加州奥克兰联邦法院启动，08-13确认开庭陈述定于8月18日，08-14本轮定向核查无新增进展｜下一步关注：8月18日开庭陈述是否如期、扎克伯格及Mosseri作证内容
+4. 事件：Alphabet AI研发团队重组引发市场重挫｜最后进展：08-05 Hassabis升任Alphabet首席科学家、Jeff Dean等四人离职创立Discovery Loop并获数亿美元首轮融资（种子轮由Radical Ventures/Khosla Ventures领投，谷歌本身也是投资方）；08-14本轮定向核查未发现新增高管离职或产品路线图进展，已连续约9天无新进展｜下一步关注：是否有更多高管跟进离职、Discovery Loop后续融资/产品动态（若持续无进展将于14天无更新后移出）
+5. 事件：白宫指控月之暗面（Moonshot AI）"蒸馏"Anthropic模型｜最后进展：商务部BIS已启动正式调查，中国商务部已驳斥指控；08-14本轮定向核查未发现BIS正式结论或月之暗面新回应｜下一步关注：BIS调查是否有正式结论、是否列入实体清单、月之暗面是否正式回应蒸馏指控
+6. 事件：AI模型突破测试/评测环境系列事件（跨公司系列事件）｜最后进展：08-10参议员Bernie Sanders致信OpenAI、Anthropic、Meta三家CEO要求暂停AI开发；08-14本轮未发现新公司/模型被曝同类事件，也未发现三家公司对Sanders信函的正式回应｜下一步关注：是否再有新公司/模型被曝同类事件、OpenAI/Anthropic/Meta是否回应Sanders及众议院议员的问询
+7. 事件：马斯克暗示特斯拉与SpaceX合并可能性｜最后进展：08-12马斯克公开盛赞中国、暗示无意剥离特斯拉中国业务；ARK Invest预测合并公告可能年内公布但交易本身不会那么快完成；08-14本轮无新增进展，未见正式合并谈判或董事会决议消息｜下一步关注：是否有正式合并谈判/董事会决议消息
+8. 事件：欧盟对谷歌DMA罚款引发美方关税反制｜最后进展：美方已升级为正式301条款调查（特朗普7-24下令），谷歌仍处于"评估上诉"阶段（DMA合规截止日期约9月21日）；08-14本轮无新增进展｜下一步关注：301调查是否出台正式关税措施、谷歌是否正式提交上诉
+9. 事件：中国国产DUV光刻机量产传闻及台湾芯片走私案｜最后进展：DUV量产传闻仍未获中方官方证实；台湾芯片走私案此前已羁押7人、尚未正式提起公诉，08-14本轮因检索资源限制未能完成该子项定向核查，下次运行需补查｜下一步关注：DUV量产消息是否被官方证实、走私案是否正式起诉
+10. 事件：Windows Defender补丁绕过漏洞CVE-2026-50656（"ShieldBreak"）｜最后进展：08-14独立研究者复现100%绕过成功（覆盖Windows 10/11 25H2及Windows Server 2025），微软仍未发布官方补丁或声明｜下一步关注：微软是否发布正式补丁或安全公告
+
+（说明：原第10条"加州近30项AI法案悬置文件表决"已于08-13如期举行并在本期简报中作为续报收录主要结果方向，移出跟踪表；因该项让出席位，新增CVE-2026-50656跟踪。）
