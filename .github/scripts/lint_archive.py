@@ -53,12 +53,12 @@ def lint(path):
 
     for i, l in items:
         n = i + 1
-        # 5. 每条必须标注来源
-        if "来源：" not in l:
+        # 5. 每条必须标注来源（冒号全角半角均可——只管有没有标来源，不管标点宽度）
+        if not re.search(r"来源\s*[：:]", l):
             bad.append(f"第 {n} 行：条目缺 `来源：`：{l[:50]!r}")
             continue
         # 6. 必须有裸链接，或显式声明无公开链接
-        if "http" not in l and "（无公开链接：" not in l:
+        if "http" not in l and "无公开链接" not in l:
             bad.append(f"第 {n} 行：条目既无 URL 也未写「（无公开链接：<原因>）」：{l[:50]!r}")
         # 7. 不得用 markdown 链接语法
         if re.search(r"\]\(https?://", l):
