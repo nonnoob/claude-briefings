@@ -2,9 +2,9 @@
 
 ## 1. 本次运行
 
-- 运行时刻：2026-08-13 12:35 UTC
-- 实际覆盖窗口：2026-08-12 12:35 UTC 至 2026-08-13 12:35 UTC（常规窗口）
-- 备注：本次收到的调度 prompt 与仓库 SKILL.md 正文存在细节差异（去重规则中"逐一检查进行中事件表"是否要求按具体关注点定向检索、【单源】/【矛盾】标注规则、进行中事件表"关注点写成具体可验证预期"的要求），已按仓库最新 SKILL.md 正文执行；本会话未发现功能等价的定时任务更新工具，未同步远端 prompt。本期六个方向检索均受 WebSearch 会话调用配额（各 agent 200 次上限）及 WebFetch 出站代理阻断（EGRESS_BLOCKED，覆盖 openai.com/anthropic.com/bloomberg.com/techcrunch.com 等绝大多数官方与新闻域名）不同程度影响，多数结论只能依赖 WebSearch 摘要交叉印证、未能逐字核对原文，已在对应条目标注【单源】。"传闻与前瞻"方向因 WebSearch 配额在检索中途耗尽，未能有效覆盖，本期简报该节从缺（唯一检索到的相关传闻——英伟达万亿参数模型 Nemotron 4——经核实发布于窗口前 8 月 11 日，未收录）。
+- 运行时刻：2026-08-14 14:49 UTC
+- 实际覆盖窗口：2026-08-13 12:35 UTC 至 2026-08-14 14:49 UTC（常规窗口，约26小时）
+- 备注：SKILL.md 正文与本次执行指令一致，无需自愈同步。六个检索方向均已正常执行；研究与技术、监管与安全、传闻与前瞻三节未发现落在覆盖窗口内且有实质信息增量的内容，按规则整节省略（非检索失败）。
 
 ## 2. 已报条目清单
 
@@ -64,16 +64,27 @@
 - 2026-08-13 | 【续报】【单源】TrendForce：三星/SK海力士HBM4提价成下半年财报焦点，英伟达GPU用HBM4成本近乎翻倍 | https://www.trendforce.com/news/2026/08/13/news-samsung-sk-hynixs-hbm4-push-puts-hbm-general-memory-pricing-in-the-spotlight-for-2h-earnings/
 - 2026-08-12 | Andersen v. Stability AI版权诉讼：北加州法院驳回被告部分动议，案件进入证据开示阶段 | 来源：Lexology/JDSupra（案号3:23-cv-00201）
 - 2026-08-12 | 科罗拉多州《心理治疗人工智能限制法》(HB 1195)正式生效 | 来源：Colorado Senate Democrats官方新闻稿
+- 2026-08-13 | 谷歌发布Gemini 3.7 Flash编程与智能体模型，定价降至上代一半，旗舰3.5 Pro仍未发布 | https://www.bloomberg.com/news/articles/2026-08-13/google-debuts-new-gemini-flash-while-top-ai-model-still-delayed
+- 2026-08-14 | 【续报】路透社：苹果与阿里巴巴合作为中国市场训练自研大模型，双轨部署Apple Intelligence | https://www.guancha.cn/economy/2026_08_14_827311.shtml
+- 2026-08-12至13 | 【续报】DeepSeek V4 Pro 0813正式版公布分时定价机制，8月17日起执行 | https://finance.sina.com.cn/tech/roll/2026-08-13/doc-inineuqm9894249.shtml
+- 2026-08-14 | Anthropic对Claude Code Pro/Max/Team账户默认开启Auto Mode | https://techcrunch.com/2026/08/09/anthropic-is-turning-claude-codes-auto-mode-on-by-default/
+- 2026-08-14 | SpaceX完成600亿美元收购AI编程公司Cursor | https://www.bloomberg.com/news/articles/2026-08-14/spacex-completes-its-60-billion-cursor-acquisition
+- 2026-08-13 | OpenAI首席营收官Denise Dresser离任，由前Wiz总裁Dali Rajic接任，一周内第二位高管出走 | https://www.axios.com/2026/08/13/openai-denise-dresser-replace-chief-revenue-officer
+- 2026-08-13 | Databricks完成50亿美元融资，估值1900亿美元，营收年化超70亿美元 | https://www.bloomberg.com/news/articles/2026-08-13/databricks-raises-5-billion-at-a-190-billion-valuation
+- 2026-08-13 | 【续报】Fortune独家披露谷歌DeepMind"身份危机"：权力从伦敦转向山景城 | https://fortune.com/2026/08/13/googles-deepmind-is-having-an-identity-crisis/
+- 2026-08-13至14 | 【续报】高盛确认为英伟达5000亿美元融资平台唯一贷款行，接洽第三方投资者 | https://www.investing.com/news/stock-market-news/goldman-in-talks-with-investors-on-nvidia-financing-deal-after-landing-prized-role-sources-say-4859677
 
 ## 3. 进行中事件表
 
-- 事件：OpenAI/Anthropic/Meta/月之暗面 智能体失控与红队安全测试系列事件 | 最后进展日期：2026-08-09 | 下一步关注点：Meta完整复盘报告发布时间表（本期核查：仍未发布，无时间表）；OpenAI另两名受害机构身份是否披露（本期核查：仍仅Hugging Face/Modal Labs两方模糊表述）；GPT-5.6 Sol系统卡"暂停训练"是否有正式书面确认（本期核查：未找到独立信源确证，注意到explainx.ai有一篇《AISI Mythos-5 / GPT-5.6 Sol Incident (Aug 2026)》相关文章因访问受阻未能核实，下次优先核实）；英国AISI关于Kimi K3的完整报告是否公开（本期核查：官方页面标题仍为"Preliminary Assessment"，未见完整版）
-- 事件：OpenAI下一代模型"Astra" | 最后进展日期：2026-08-10 | 下一步关注点：Astra发布时间表是否公布（本期核查：仍无官方日期，9月传闻仅为预测市场猜测）；完整安全评估报告是否发布（本期核查：仍未发布）；数学突破论文抄袭指控是否有后续升级或结论（本期核查：窗口内无新进展）
-- 事件：智元机器人（Agibot）港股IPO进程 | 最后进展日期：2026-08-09 | 下一步关注点：罗剑岚去留是否明朗（本期核查：仍是"官方称岗位调整、个人主页已删任职信息"的罗生门状态）；是否正式向港交所递交招股书（本期核查：仍未见递交证据，仅确认已聘任保荐机构启动流程）
-- 事件：谷歌DeepMind高层重组与Discovery Loop | 最后进展日期：2026-08-10 | 下一步关注点：Fortune于8月13日发布《Google's DeepMind is having an identity crisis》一文，因访问受阻未能核实是否披露新增离职人员，下次优先核实该文内容；Discovery Loop具体融资金额与产品路线图是否公布（本期核查：仍仅为媒体转述"约100亿美元估值融资10亿美元"，官方未确认）
-- 事件：月之暗面（Moonshot AI）蒸馏指控/制裁威胁与G轮融资、港股IPO进程 | 最后进展日期：2026-08-03 | 下一步关注点：美国财政部/BIS是否正式启动制裁（本期核查：仍处警告阶段）；KrAsia报道标题《Moonshot AI targets August 27 closing for pre-IPO round ahead of Hong Kong filing》与此前8月27日交割传闻一致，但正文因访问受阻未核实，下次优先核实其独立信源与细节；港股递表消息（传为9月30日前）是否有权威信源证实
+- 事件：OpenAI/Anthropic/Meta/月之暗面 智能体失控与红队安全测试系列事件 | 最后进展日期：2026-08-09 | 下一步关注点：Meta完整复盘报告发布时间表（本期核查：仍未发布，Meta仅表示"确认根因后将发布完整复盘"，无时间表）；OpenAI另两名受害机构身份是否披露（仍仅Hugging Face/Modal Labs两方模糊表述）；英国AISI关于Kimi K3的完整报告是否公开（本期核查：Frontier Security 8月7日报告仍是当前最全信源，未见AISI官方完整版更新）
+- 事件：OpenAI下一代模型"Astra" | 最后进展日期：2026-08-10 | 下一步关注点：Astra发布时间表是否公布（本期核查：仍无官方日期）；完整Critical级安全评估报告是否发布（本期核查：仍未发布）；数学突破论文抄袭指控是否有后续升级或结论（本期核查：窗口内无新进展）
+- 事件：智元机器人（Agibot）港股IPO进程 | 最后进展日期：2026-08-09 | 下一步关注点：罗剑岚去留是否明朗（本期核查：仍是"官方称岗位调整、个人主页已删任职信息"的罗生门状态）；是否正式向港交所递交招股书（本期核查：仍未见递交证据）
+- 事件：谷歌DeepMind高层重组与"身份危机" | 最后进展日期：2026-08-13 | 下一步关注点：本期已核实并收录Fortune《Google's DeepMind is having an identity crisis》全文内容（Gemini 3.6 Flash落后多家对手、权力从伦敦向山景城转移、哈萨比斯淡出一线担忧加剧），该关注点本轮闭合；后续关注Discovery Loop具体融资金额与产品路线图是否正式公布（本期核查：仍仅为媒体转述，官方未确认）
+- 事件：月之暗面（Moonshot AI）蒸馏指控/制裁威胁与G轮融资、港股IPO进程 | 最后进展日期：2026-08-03 | 下一步关注点：美国财政部/BIS是否正式启动制裁（仍处警告阶段）；Pre-IPO融资（目标估值500亿美元）是否于8月内敲定并公布细节（本期核查：多方报道口径不一，暂无权威信源确认具体交割日期）；港股递表消息是否有权威信源证实
 - 事件：NVIDIA-OpenAI 俄亥俄数据中心融资谈判（2500亿美元租赁担保+3500亿美元芯片融资） | 最后进展日期：2026-08-07 | 下一步关注点：是否正式签约确认条款、SB Energy项目建设进展（本期核查：均无更新）
-- 事件：AI算力基础设施融资潮（Anthropic-Volta Infra 100亿美元协议+黑石360亿美元债务融资；NVIDIA联合六大华尔街机构5000亿美元融资平台MOU） | 最后进展日期：2026-08-10 | 下一步关注点：黑石为Anthropic牵头的360亿美元债务融资是否敲定条款并正式官宣（本期核查：仍处摸底/初步接洽阶段）；NVIDIA融资平台MOU是否转化为具体最终协议（本期核查：仍为初步握手协议，未见最终协议）
-- 事件：欧盟AI法案GPAI/透明度义务执法权8月2日生效 | 最后进展日期：2026-08-02 | 下一步关注点：宽限期内或之后是否出现首批正式执法或处罚案例（本期核查：欧盟AI办公室表态优先"技术合规对话"，仍无个案）
-- 事件：Safe Superintelligence（SSI）首款模型发布传闻 | 最后进展日期：2026-08-04 | 下一步关注点：8月内SSI是否真正发布首款模型/论文/演示（本期核查：官方渠道仍无任何公开表态或动作）
-- 事件：OpenAI/Jony Ive消费级AI硬件与Apple商业秘密诉讼 | 最后进展日期：2026-08-07（OpenAI已就临时禁令申请正式回应，早于本次窗口） | 下一步关注点：10月1日禁令听证会（联邦法官Edward Davila审理临时禁令与加速证据开示两项动议）；产品是否正式官宣
+- 事件：AI算力基础设施融资潮（Anthropic-黑石360亿美元债务融资；NVIDIA联合六大机构5000亿美元融资平台） | 最后进展日期：2026-08-14 | 下一步关注点：本期新进展——高盛已确认为NVIDIA融资平台唯一贷款行并开始接洽保险/资管机构等第三方投资者（仍处接洽阶段，未见具体投资者签约）；黑石为Anthropic牵头的360亿美元债务融资条款是否敲定并正式官宣（本期核查：仍处初步接洽阶段）
+- 事件：欧盟AI法案GPAI/透明度义务执法权8月2日生效 | 最后进展日期：2026-08-02 | 下一步关注点：宽限期内或之后是否出现首批正式执法或处罚案例（本期核查：仍无个案）
+- 事件：Safe Superintelligence（SSI）首款模型发布传闻 | 最后进展日期：2026-08-04 | 下一步关注点：8月内SSI是否真正发布首款模型/论文/演示（本期核查：官方渠道仍无任何公开表态或动作，投资人此前预告的"8月发布"窗口未见兑现迹象）
+- 事件：OpenAI/Jony Ive消费级AI硬件与Apple商业秘密诉讼 | 最后进展日期：2026-08-07 | 下一步关注点：10月1日禁令听证会（联邦法官Edward Davila审理临时禁令与加速证据开示两项动议）；产品是否正式官宣
+- 事件：OpenAI高管离职潮 | 最后进展日期：2026-08-13 | 下一步关注点：继COO Brad Lightcap（8/11）、CRO Denise Dresser（8/13）之后是否有更多核心高管跟进离职；公司是否就离职潮给出统一口径解释
+- 事件：苹果与阿里巴巴联合训练中国专属AI大模型 | 最后进展日期：2026-08-14 | 下一步关注点：苹果/阿里官方是否正式确认（目前为路透社援引三名匿名信源转引，尚无双方官方声明）；Apple Intelligence中国版随iOS更新的具体上线时间表
