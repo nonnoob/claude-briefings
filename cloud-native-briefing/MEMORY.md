@@ -2,12 +2,11 @@
 
 ## 1. 本次运行时刻与实际覆盖窗口
 
-- 运行时刻：2026-08-14 18:12 UTC。
-- 上次运行时刻：2026-08-13 12:16 UTC，间隔约 30 小时，属正常节奏（近期实际按近日频率运行，非严格周更）。
-- 实际覆盖窗口：2026-08-13 12:16 UTC – 2026-08-14 18:12 UTC（常规）。
-- 六大方向均执行了充分检索（Kubernetes/Istio/Envoy/Helm/Cilium/Argo/Flux/OpenTelemetry 等项目发布信息、Kubernetes security-announce、CNCF 公告、AWS/GCP/Azure 官方动态、The New Stack/InfoQ/Hacker News 等均已检索，无检索失败）。窗口内仅"安全通告"方向发现一条落窗且未报道过的实质新内容（TeamPCP 3 月 Trivy/LiteLLM 供应链攻击的最新影响评估报道，Hudson Rock/CloudSEK 数据披露，多家媒体 8/11–8/14 密集跟进，核心报道落在本期窗口内）；版本与变更、云厂商动态、CNCF 与社区、商业动向、工程实践五个方向均确无落窗增量（非检索失败），故整节省略。核查确认此前搜到的 ingress-nginx（CVE-2026-1580 等）、Envoy（CVE-2026-47774 等）、Prometheus（CVE-2026-42151/42154）相关 CVE 均为 2026 年 2/4/6 月已披露的旧漏洞，未落入本期窗口，未收录。
-- 进行中事件表两项均已定向核查：Kubernetes v1.37 发布周期无新进展（仍为 v1.37.0-rc.0，未见新 RC/GA 消息，GA 仍定档 8/26）；GitHub Actions 8/6 故障官方 postmortem 全文截至本次运行仍未发布。
-- 维护事项：已按 SKILL.md 现行规则（保留最近 21 天）回补"已报条目清单"——此前受历史 14 天口径影响，2026-07-26～07-30 期间的已报事件（Kubernetes v1.37 冻结、Kata Containers 4.0、Confidential Containers 毕业、CNCF Japan AI Infra SIG、Coinbase 事故复盘、ArgoCon Japan、Linkerd 多集群实践、KubeCon Japan 2026 开闭幕）曾被移出列表；现依据对应归档文件重新纳入，避免未来误判为"未报道过"而重复收录。
+- 运行时刻：2026-08-14 18:22 UTC。
+- 上次运行时刻：2026-08-14 18:12 UTC，间隔约 10 分钟，同日重跑（定时任务短间隔再次触发）。
+- 实际覆盖窗口：2026-08-14 18:12 UTC – 2026-08-14 18:22 UTC（常规）。
+- 六大方向均执行了检索确认，无检索失败；窗口极短（约 10 分钟），未发现任何未报道过的实质新内容，按空期骨架输出。核查要点：Kubernetes v1.37 仍为 v1.37.0-rc.0，未见新 RC/GA 消息，GA 仍定档 8/26；GitHub Actions 8/6 故障官方 postmortem 全文仍未发布；CNCF、三大云厂商、安全通告等方向均无新增可收录事件。
+- 进行中事件表两项已再次核查，均无新进展（详见第 3 节）。
 - 推送：本会话被限定只能推送指定工作分支（云端 Routine 会话平台限制，无法直接推 main），按 SKILL.md 兜底流程推当前工作分支，依赖仓库内 auto-merge 工作流合并进 main。
 
 ## 2. 已报条目清单（最近 21 天）
@@ -47,7 +46,7 @@
 
 ## 3. 进行中事件表
 
-- 事件：Kubernetes v1.37 发布周期 | 最后进展日期：2026-08-06（v1.37.0-rc.0 切出，release candidate 阶段；DRA Partitionable Devices/KEP-4815 本轮细节仍待官方 release notes 明确）| 下一步关注点：等 8/26 GA 官宣及正式 release notes，核实 DRA Partitionable Devices 最终毕业阶段、破坏性变更完整清单。（2026-08-09～08-14 已连续核查：均无新 RC/GA 消息。）
-- 事件：GitHub Actions 2026-08-06 大规模故障 | 最后进展日期：2026-08-06（根因披露为"向 runner 分配无效 job"，截至本次运行官方仍未发布正式 postmortem/root cause analysis 全文）| 下一步关注点：等 GitHub 官方事后分析（postmortem）全文发布，核实根本原因与后续改进措施。（2026-08-09～08-14 已连续核查：仍未发布。）
+- 事件：Kubernetes v1.37 发布周期 | 最后进展日期：2026-08-06（v1.37.0-rc.0 切出，release candidate 阶段；DRA Partitionable Devices/KEP-4815 本轮细节仍待官方 release notes 明确）| 下一步关注点：等 8/26 GA 官宣及正式 release notes，核实 DRA Partitionable Devices 最终毕业阶段、破坏性变更完整清单。（2026-08-09～08-14 已连续核查：均无新 RC/GA 消息，08-14 内两次核查结果一致。）
+- 事件：GitHub Actions 2026-08-06 大规模故障 | 最后进展日期：2026-08-06（根因披露为"向 runner 分配无效 job"，截至本次运行官方仍未发布正式 postmortem/root cause analysis 全文）| 下一步关注点：等 GitHub 官方事后分析（postmortem）全文发布，核实根本原因与后续改进措施。（2026-08-09～08-14 已连续核查：仍未发布，08-14 内两次核查结果一致。）
 
 （本期无事件闭合。）
