@@ -1,10 +1,13 @@
 name: briefing-watchdog
 
-# 简报缺失看门狗：每天检查各任务当天（周更任务则为其应跑当天）是否落了归档。
-# 缺失就开 Issue（GitHub 会发邮件），持续缺失只在同一个 Issue 下追加评论，
-# 全部恢复后自动评论并关闭。用于兜住两类事故：
-#   1. 调度器静默停摆（Routine 完全不触发，无任何运行记录）；
-#   2. 单次运行失败（触发了但中途失败，未落盘）。
+# 简报看门狗：每天检查各任务当天（周更任务则为其应跑当天）的归档
+#   1. 是否存在；
+#   2. 是否满足 _template/SKILL.md 第 3 步格式契约中可机械判定的部分。
+# 任一不合格就开 Issue（GitHub 会发邮件），持续不合格只在同一个 Issue 追加评论，
+# 全部恢复后自动评论并关闭。用于兜住三类事故：
+#   - 调度器静默停摆（Routine 完全不触发，无任何运行记录）；
+#   - 单次运行失败（触发了但中途失败，未落盘）；
+#   - 落盘了但格式漂移（缺链接、粗体当标题、markdown 链接语法等）。
 
 on:
   schedule:
@@ -47,56 +50,86 @@ jobs:
           done
 
           MISSING=""
+          INVALID=""
+          : > /tmp/violations.md
+
           for t in $EXPECTED; do
-            if ls "$t/archive/${t}_${TODAY}"*.md >/dev/null 2>&1; then
-              echo "OK      $t"
-            else
+            f=$(ls "$t/archive/${t}_${TODAY}"*.md 2>/dev/null | head -1 || true)
+            if [ -z "$f" ]; then
               echo "MISSING $t"
               MISSING="$MISSING $t"
+              continue
+            fi
+            out=$(python3 .github/scripts/lint_archive.py "$f" || true)
+            if [ -n "$out" ]; then
+              echo "INVALID $t"
+              echo "$out" | sed 's/^/    /'
+              INVALID="$INVALID $t"
+              {
+                printf '**`%s`**\n\n' "$f"
+                echo "$out" | sed 's/^/- /'
+                printf '\n'
+              } >> /tmp/violations.md
+            else
+              echo "OK      $t"
             fi
           done
 
           MISSING=$(echo "$MISSING" | xargs || true)
+          INVALID=$(echo "$INVALID" | xargs || true)
           echo "today=$TODAY" >> "$GITHUB_OUTPUT"
           echo "missing=$MISSING" >> "$GITHUB_OUTPUT"
+          echo "invalid=$INVALID" >> "$GITHUB_OUTPUT"
 
       - name: Report
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           TODAY: ${{ steps.check.outputs.today }}
           MISSING: ${{ steps.check.outputs.missing }}
+          INVALID: ${{ steps.check.outputs.invalid }}
           REPO: ${{ github.repository }}
         run: |
           set -euo pipefail
           LABEL=briefing-watchdog
-          TITLE="⚠️ 简报缺失告警"
+          TITLE="⚠️ 简报看门狗告警"
 
-          gh label create "$LABEL" --color B60205 --description "简报未按期产出" 2>/dev/null || true
+          gh label create "$LABEL" --color B60205 --description "简报缺失或格式不合规" 2>/dev/null || true
 
           EXISTING=$(gh issue list --repo "$REPO" --state open --label "$LABEL" \
                       --json number --jq '.[0].number // empty')
 
-          if [ -z "$MISSING" ]; then
-            echo "全部任务当天归档齐全"
+          if [ -z "$MISSING" ] && [ -z "$INVALID" ]; then
+            echo "全部任务当天归档齐全且格式合规"
             if [ -n "$EXISTING" ]; then
               gh issue comment "$EXISTING" --repo "$REPO" \
-                --body "✅ $TODAY 全部任务已恢复正常产出，关闭本告警。"
+                --body "✅ $TODAY 全部任务已恢复正常产出且格式合规，关闭本告警。"
               gh issue close "$EXISTING" --repo "$REPO"
             fi
             exit 0
           fi
 
           {
-            printf '**%s** 以下任务当天没有产出归档：\n\n' "$TODAY"
-            for t in $MISSING; do
-              printf -- '- `%s`\n' "$t"
-            done
-            printf '\n排查顺序：\n\n'
-            printf '1. 打开 [Routines](https://claude.ai/code/routines)，看该任务的 Runs 列表——\n'
-            printf '   - **完全没有当天记录** → 调度器静默停摆，手动 Run now 一次即可重新唤醒；\n'
-            printf '   - **有记录但状态 Failed** → 点进去看失败原因（安全策略拦截、检索配额耗尽等）。\n'
-            printf '2. 内容本身不会丢：下次运行的覆盖窗口会自动回补这段时间。\n\n'
-            printf '_由 briefing-watchdog 自动创建；持续缺失只在本 Issue 追加评论，恢复后自动关闭。_\n'
+            printf '## %s\n\n' "$TODAY"
+
+            if [ -n "$MISSING" ]; then
+              printf '### 未产出归档\n\n'
+              for t in $MISSING; do
+                printf -- '- `%s`\n' "$t"
+              done
+              printf '\n打开 [Routines](https://claude.ai/code/routines) 看该任务的 Runs 列表——\n'
+              printf '**完全没有当天记录** → 调度器静默停摆，手动 Run now 一次即可重新唤醒；\n'
+              printf '**有记录但状态 Failed** → 点进去看失败原因（安全策略拦截、检索配额耗尽等）。\n'
+              printf '内容本身不会丢：下次运行的覆盖窗口会自动回补这段时间。\n\n'
+            fi
+
+            if [ -n "$INVALID" ]; then
+              printf '### 格式不合规\n\n'
+              cat /tmp/violations.md
+              printf '规则见 `_template/SKILL.md` 第 3 步格式契约；校验器为 `.github/scripts/lint_archive.py`。\n'
+              printf '若某条规则反复误报，改规则而不是无视告警——被无视的告警等于没有。\n\n'
+            fi
+
+            printf '_由 briefing-watchdog 自动创建；持续不合格只在本 Issue 追加评论，恢复后自动关闭。_\n'
           } > /tmp/watchdog-body.md
 
           if [ -n "$EXISTING" ]; then

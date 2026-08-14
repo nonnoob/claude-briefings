@@ -1,5 +1,7 @@
 # 迁移到云端 Routines + git 状态仓库
 
+> 落盘推送步骤被 ADR-0005 修订：不再直推 main，一律推 `claude/<topic-slug>` 由 Action 并入。其余决策依然有效。
+
 定时任务从 Claude app 触发器（本机运行、依赖开机）迁移到 Claude Code Routines（云端运行），全部状态迁入本 git 仓库并设为公开，main 为唯一可信状态。运行时 clone 仓库读任务定义与记忆，产出后 commit 并显式直推 main（`git push origin HEAD:main`）；被拒时退推 `claude/*` 工作分支，由 `.github/workflows/auto-merge-briefings.yml` 兜底并入 main。
 
 决策依据：app 触发器在云沙箱运行时读不到本地文件系统，记忆、归档、自愈三个核心机制全部失效；其 git 授权机制（`add_repo`）没有用户侧入口，push 永远打不通，实测确认。Routines 原生支持绑定 GitHub 仓库（`/web-setup` OAuth，push 权限不分分支）与本地时区调度（DST 自动处理，消灭了旧方案 3 月/11 月手动改 UTC cron 的问题）。仓库设为公开是为了云端免认证 clone；代价是内容公开，因此仓库内**禁止出现任何凭据与敏感信息**。
