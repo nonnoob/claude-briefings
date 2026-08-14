@@ -2,16 +2,25 @@
 
 ## 1. 本次运行时刻与实际覆盖窗口
 
-- 运行时刻：2026-08-13 12:16 UTC。
-- 上次运行时刻：2026-08-12 12:15 UTC，间隔约 24 小时，属正常每日节奏。
-- 实际覆盖窗口：2026-08-12 12:15 UTC – 2026-08-13 12:16 UTC。
-- 第 0 步自愈校验：本次收到的运行 prompt 正文与仓库 SKILL.md 正文再次存在实质差异（个性化"JC"称呼、本地路径信息、去重与传闻/单源/矛盾标注细则简化、进行中事件检索方式表述、推送目标未明确指向 main 等，差异模式与此前多次运行相同），已以 SKILL.md 为准执行本次运行。再次尝试调用 `update_trigger`（trigger_id: trig_01BRa893aujPi2kPRYkmHyBU）同步 SKILL.md 正文为新 prompt，仍被工具拒绝（"this routine was created via http_api, not by an agent"），因此未同步远端 prompt，下次运行大概率仍会收到旧版 prompt。
-- 六大方向均执行了充分检索（Kubernetes/Istio/Envoy/Helm/Cilium/Argo/Flux/OpenTelemetry 等项目发布信息、Kubernetes security-announce、CNCF 公告、AWS/GCP/Azure 官方动态、GitHub Actions 事故追踪、The New Stack/InfoQ/Hacker News 相关检索均已执行，无检索失败）。窗口内仅"云厂商动态"方向发现一条落窗且未报道过的实质新内容（AWS EKS 控制平面组件参数配置能力）；版本与变更、安全通告、CNCF 与社区、商业动向、工程实践五个方向均确无增量（非检索失败），故简报中整节省略。核查发现 CNCF 于 2026-08-11 宣布的 Cloud Native Buildpacks 毕业公告发布时间早于本期窗口起点，已在简报中注明该条既未被上期也未被本期收录，避免静默遗漏。
-- 进行中事件表两项均已定向核查：Kubernetes v1.37 发布周期无新进展（仍为 v1.37.0-rc.0，未见新 RC/GA 消息，GA 仍定档 8/26）；GitHub Actions 8/6 故障官方 postmortem 仍未发布。
+- 运行时刻：2026-08-14 18:12 UTC。
+- 上次运行时刻：2026-08-13 12:16 UTC，间隔约 30 小时，属正常节奏（近期实际按近日频率运行，非严格周更）。
+- 实际覆盖窗口：2026-08-13 12:16 UTC – 2026-08-14 18:12 UTC（常规）。
+- 六大方向均执行了充分检索（Kubernetes/Istio/Envoy/Helm/Cilium/Argo/Flux/OpenTelemetry 等项目发布信息、Kubernetes security-announce、CNCF 公告、AWS/GCP/Azure 官方动态、The New Stack/InfoQ/Hacker News 等均已检索，无检索失败）。窗口内仅"安全通告"方向发现一条落窗且未报道过的实质新内容（TeamPCP 3 月 Trivy/LiteLLM 供应链攻击的最新影响评估报道，Hudson Rock/CloudSEK 数据披露，多家媒体 8/11–8/14 密集跟进，核心报道落在本期窗口内）；版本与变更、云厂商动态、CNCF 与社区、商业动向、工程实践五个方向均确无落窗增量（非检索失败），故整节省略。核查确认此前搜到的 ingress-nginx（CVE-2026-1580 等）、Envoy（CVE-2026-47774 等）、Prometheus（CVE-2026-42151/42154）相关 CVE 均为 2026 年 2/4/6 月已披露的旧漏洞，未落入本期窗口，未收录。
+- 进行中事件表两项均已定向核查：Kubernetes v1.37 发布周期无新进展（仍为 v1.37.0-rc.0，未见新 RC/GA 消息，GA 仍定档 8/26）；GitHub Actions 8/6 故障官方 postmortem 全文截至本次运行仍未发布。
+- 维护事项：已按 SKILL.md 现行规则（保留最近 21 天）回补"已报条目清单"——此前受历史 14 天口径影响，2026-07-26～07-30 期间的已报事件（Kubernetes v1.37 冻结、Kata Containers 4.0、Confidential Containers 毕业、CNCF Japan AI Infra SIG、Coinbase 事故复盘、ArgoCon Japan、Linkerd 多集群实践、KubeCon Japan 2026 开闭幕）曾被移出列表；现依据对应归档文件重新纳入，避免未来误判为"未报道过"而重复收录。
 - 推送：本会话被限定只能推送指定工作分支（云端 Routine 会话平台限制，无法直接推 main），按 SKILL.md 兜底流程推当前工作分支，依赖仓库内 auto-merge 工作流合并进 main。
 
-## 2. 已报条目清单（最近 14 天）
+## 2. 已报条目清单（最近 21 天）
 
+2026-07-22 | Kubernetes v1.37 完成代码与测试冻结，DRA Partitionable Devices 推进至 beta，Volume Group Snapshot 特性同步推进 | https://www.kubernetes.dev/resources/release/
+2026-07-22 | OpenInfra 基金会发布 Kata Containers 4.0，默认运行时由 Go 重写为 Rust `runtime-rs`，主打更强内存安全与更快启动 | https://cloudnativenow.com/features/rust-rewrite-readies-kata-containers-for-agent-sandboxing/
+2026-07-22 | CNCF 宣布 Confidential Containers 项目升级为 Incubating 项目 | https://www.cncf.io/blog/2026/07/22/confidential-containers-becomes-a-cncf-incubating-project/
+2026-07-23 | CNCF Japan 分会成立 AI Infra SIG，聚焦云原生技术栈支撑 AI 基础设施最佳实践 | https://www.cncf.io/blog/2026/07/23/launch-of-the-ai-infra-sig-under-the-cncf-japan-chapter-first-meetup-and-call-for-speakers/
+2026-07-14（7/26 发布复盘）| Coinbase 公开生产事故复盘：共享 K8s 集群配置变更引发命名冲突，交易服务累计降级约 50 分钟 | https://www.coinbase.com/blog/a-postmortem-of-our-july-14-2026-incident
+2026-07-27 | CNCF 博客发布 Linkerd 多集群零停机架构实践文章（联邦+镜像两种模式组合，3 个 GKE 集群验证）| https://www.cncf.io/blog/2026/07/27/federating-clusters-for-zero-downtime-kubernetes/
+2026-07-28 | ArgoCon Japan 2026 举行，披露 Argo CD 3.5 RC 特性（ApplicationSets 转正、Impersonation 升至 beta、repo-server mTLS 等）| https://www.cncf.io/blog/2026/07/20/argocon-japan-2026-meeting-the-maintainers-enterprise-insights-and-the-road-to-argo-cd-3-5/
+2026-07-28~29 | KubeCon + CloudNativeCon Japan 2026 在横滨开幕，聚焦 K8s GPU 动态资源分配、OpenTelemetry 毕业、Keycloak-MCP 鉴权，CNCF 称 66% 受访组织已将 K8s 视为 AI"操作系统" | https://www.techtimes.com/articles/321774/20260728/kubecon-japan-2026-kubernetes-gpu-scheduling-otel-graduation-converge-ai-era.htm
+2026-07-30 | KubeCon + CloudNativeCon Japan 2026 收官，OpenTelemetry 毕业成果专场及大规模边缘场景实践分享收尾 | https://opentelemetry.io/blog/2026/kubecon-japan/
 2026-07-31 | Kubernetes v1.37 发布 Sneak Peek 博客，DRA Extended Resource 确认毕业至 GA，GA 定档 8/26 不变 | https://kubernetes.io/blog/2026/07/31/kubernetes-v1-37-sneak-peek/
 2026-07-31 | GKE Dataplane V2 扩容支持单集群 1.5 万节点（GA）并保持 Network Policy 全量生效 | https://cloud.google.com/blog/topics/ai-infrastructure/whats-new-in-ai-infrastructure-this-month
 2026-07-31 | GKE 上 llm-d 引入协作式时间分片，强化学习作业加速器利用率从 40% 提至 70% | https://cloud.google.com/blog/topics/ai-infrastructure/whats-new-in-ai-infrastructure-this-month
@@ -34,12 +43,11 @@
 2026-08-10 | Docker docker cp/sbx cp 命令曝出容器逃逸漏洞 CVE-2026-17106（"CopyEscape"），可覆写宿主机文件、特定条件下获得 root 代码执行，Imperva 披露，Docker 已发布修复版本 | https://www.imperva.com/blog/copyescape-taking-over-docker-hosts-with-docker-cp/
 2026-08-11 | Windows Container Isolation FS Filter Driver（unionfs.sys）曝出篡改漏洞 CVE-2026-72971（CVSS 5.5），随微软 8 月补丁星期二修复 | https://www.csoonline.com/article/4208185/patch-tuesday-august-2026-a-zero-day-winsock-driver-hole-under-exploit-and-a-maximum-severity-sap-vulnerability.html
 2026-08-13 | Amazon EKS 新增 Kubernetes 控制平面组件（调度器/controller-manager/API server）参数配置能力，覆盖所有可用区域 | https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-eks-control-plane-configuration-parameters/
-
-（2026-07-30、2026-07-31 早期条目及本次已超 14 天的 2026-07-30 KubeCon Japan 收官条目已移出已报条目清单。）
+2026-08-13~14 | TeamPCP 3 月 Trivy/LiteLLM 供应链攻击（CVE-2026-33634，CVSS 9.4）曝出新影响评估：153GB 被窃数据涉 2,488 企业域名，部分被窃凭据 5 个月后仍可用 | https://www.helpnetsecurity.com/2026/08/13/litellm-breach-stolen-credentials-leak/
 
 ## 3. 进行中事件表
 
-- 事件：Kubernetes v1.37 发布周期 | 最后进展日期：2026-08-06（v1.37.0-rc.0 切出，release candidate 阶段；DRA Partitionable Devices/KEP-4815 本轮细节仍待官方 release notes 明确）| 下一步关注点：等 8/26 GA 官宣及正式 release notes，核实 DRA Partitionable Devices 最终毕业阶段、破坏性变更完整清单。（2026-08-09、08-10、08-11、08-12、08-13 已核查：均无新 RC/GA 消息。）
-- 事件：GitHub Actions 2026-08-06 大规模故障 | 最后进展日期：2026-08-06（根因披露为"向 runner 分配无效 job"，截至本次运行官方仍未发布正式 postmortem/root cause analysis 全文）| 下一步关注点：等 GitHub 官方事后分析（postmortem）全文发布，核实根本原因与后续改进措施。（2026-08-09、08-10、08-11、08-12、08-13 已核查：仍未发布。）
+- 事件：Kubernetes v1.37 发布周期 | 最后进展日期：2026-08-06（v1.37.0-rc.0 切出，release candidate 阶段；DRA Partitionable Devices/KEP-4815 本轮细节仍待官方 release notes 明确）| 下一步关注点：等 8/26 GA 官宣及正式 release notes，核实 DRA Partitionable Devices 最终毕业阶段、破坏性变更完整清单。（2026-08-09～08-14 已连续核查：均无新 RC/GA 消息。）
+- 事件：GitHub Actions 2026-08-06 大规模故障 | 最后进展日期：2026-08-06（根因披露为"向 runner 分配无效 job"，截至本次运行官方仍未发布正式 postmortem/root cause analysis 全文）| 下一步关注点：等 GitHub 官方事后分析（postmortem）全文发布，核实根本原因与后续改进措施。（2026-08-09～08-14 已连续核查：仍未发布。）
 
 （本期无事件闭合。）
