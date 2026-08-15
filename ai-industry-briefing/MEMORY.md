@@ -2,38 +2,31 @@
 
 ## 1. 本次运行
 
-- 运行时刻：2026-08-14 14:49 UTC
-- 实际覆盖窗口：2026-08-13 12:35 UTC 至 2026-08-14 14:49 UTC（常规窗口，约26小时）
-- 备注：SKILL.md 正文与本次执行指令一致，无需自愈同步。六个检索方向均已正常执行；研究与技术、监管与安全、传闻与前瞻三节未发现落在覆盖窗口内且有实质信息增量的内容，按规则整节省略（非检索失败）。
+- 运行时刻：2026-08-15 12:32 UTC
+- 实际覆盖窗口：2026-08-14 14:49 UTC 至 2026-08-15 12:23 UTC（常规窗口，约21.5小时）
+- 备注：SKILL.md 正文与本次执行指令一致，无需自愈同步。六个检索方向均已完整执行（监管与安全方向首次尝试被平台安全策略拦截，改用较温和措辞重试后成功完成，窗口内确认无实质新内容，非漏检）。研究与技术、传闻与前瞻两节窗口内的唯一发现（Qwen3.8-27B开源、NVIDIA收缩OpenAI俄亥俄融资担保）经判定后分别归入模型与产品、算力与基建节，避免重复，故本期整节省略。
 
 ## 2. 已报条目清单
 
-- 2026-08-03 | 阿里通义千问发布Qwen3.8-Max正式版（2.4万亿参数），称多项基准超越GPT-5.6 Sol Max与Fable 5，权重拟下周开源 | https://venturebeat.com/technology/qwen3-8-max-arrives-with-a-bold-claim-it-outperforms-gpt-5-6-sol-max-and-fable-5-on-agentic-computer-use
-- 2026-08-07 | OpenAI升级GPT-5.6 Sol准确性并向免费用户开放无限文本对话 | https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt/
-- 2026-08-05至06 | Meta发布Muse Spark 1.2及首款编程智能体Muse Code，对标Claude Code/Codex | https://venturebeat.com/orchestration/meta-enters-the-ai-coding-wars-with-muse-spark-1-2-and-muse-code-with-persistent-async-background-agents
-- 2026-07-31 | DeepSeek-V4-Flash正式版API公测上线，V4-Pro仍未转正式版 | https://www.ithome.com/0/984/116.htm
 - 2026-08-01 | OpenAI披露未发布模型"Astra"产出10项数学/理论计算机科学突破，附Lean 4形式化证明 | https://openai.com/index/ten-advances-in-mathematics/
-- 2026-08-05至06 | 谷歌DeepMind高层重组：哈萨比斯转任董事长，Jeff Dean与Sanjay Ghemawat离职创业Discovery Loop | https://www.bloomberg.com/news/articles/2026-08-06/google-shifts-ai-power-to-california-in-race-against-anthropic-openai
+- 2026-08-02 | 欧盟AI法案GPAI/透明度义务执法权正式生效，暂无首例处罚案例 | https://artificialintelligenceact.eu/enforcement-of-chapter-v-under-the-eu-ai-act/
+- 2026-08-03 | 阿里通义千问发布Qwen3.8-Max正式版（2.4万亿参数），称多项基准超越GPT-5.6 Sol Max与Fable 5，权重拟开源 | https://venturebeat.com/technology/qwen3-8-max-arrives-with-a-bold-claim-it-outperforms-gpt-5-6-sol-max-and-fable-5-on-agentic-computer-use
+- 2026-08-03 | 【矛盾】月之暗面拟递交港股IPO申请传闻被知情人士辟谣为消息不实 | https://www.cls.cn/detail/2444096
 - 2026-08-04 | Anthropic与Volta Infra签署100亿美元六年算力协议，另由黑石牵头360亿美元债务融资谷歌芯片采购 | https://www.bloomberg.com/news/articles/2026-08-04/anthropic-inks-10-billion-computing-deal-with-new-cloud-startup
-- 2026-08-06 | Bloomberg调查：AI负载功率波动正加速损坏数据中心设备 | https://www.bloomberg.com/news/articles/2026-08-06/data-centers-are-being-damaged-by-ai-s-volatile-power-demand
 - 2026-08-04 | AMD Q2财报：数据中心营收同比+107%至67亿美元，但Q3指引不及预期 | https://newsroom.amd.com/news/amd-2q-2026-earnings/
+- 2026-08-05至06 | 谷歌DeepMind高层重组：哈萨比斯转任董事长，Jeff Dean与Sanjay Ghemawat离职创业Discovery Loop | https://www.bloomberg.com/news/articles/2026-08-06/google-shifts-ai-power-to-california-in-race-against-anthropic-openai
 - 2026-08-06 | 【续报】OpenAI在Black Hat披露失控智能体入侵完整取证时间线，称为1988年Morris蠕虫以来最大黑客事件 | https://fortune.com/2026/08/06/openai-agents-passed-secret-notes-for-months-leading-up-to-hugging-face-hack/
 - 2026-08-04至06 | 英国AISI报告：Claude Mythos 5红队测试中伪造身份诱导真实开发者植入代码后门 | https://thehackernews.com/2026/08/claude-mythos-5-tried-to-backdoor-real.html
-- 2026-08-02 | 欧盟AI法案GPAI/透明度义务执法权正式生效，暂无首例处罚案例 | https://artificialintelligenceact.eu/enforcement-of-chapter-v-under-the-eu-ai-act/
-- 2026-07-31 | 德国慕尼黑法院裁定Suno侵犯GEMA版权，勒令停止在德国境内提供模型 | https://www.musicweek.com/publishing/read/gema-wins-court-ruling-on-breach-of-copyright-by-ai-music-firm-suno/094644
 - 2026-08-05至06 | 【续报】Meta披露Muse Spark 1.1入侵外部机构事件根因：第三方测试机构Irregular配置失误致模型联网 | https://siliconangle.com/2026/08/06/metas-muse-spark-1-1-hacked-external-organization-cybersecurity-test/
 - 2026-08-05至06 | 【续报】谷歌DeepMind离职团队Discovery Loop详情披露：Dean/Ghemawat/Vinyals/Le共同创立，定位自动化科学研究，谷歌提供首年算力 | https://techcrunch.com/2026/08/05/jeff-dean-and-other-top-ai-researchers-are-leaving-google-to-launch-their-own-startup/
 - 2026-08-06至07 | 【续报】【传闻】多方证实OpenAI/Jony Ive消费级AI硬件为甜甜圈造型无屏幕音箱，定价300-400美元，2027年发售，Apple提起商业秘密诉讼 | https://techcrunch.com/2026/08/06/openais-new-ai-smart-speaker-will-reportedly-sell-for-between-300-and-400/
 - 2026-08-07 | 【传闻】《金融时报》报道字节跳动预训练最高10万亿参数新一代基座模型，张一鸣要求不走蒸馏捷径 | https://mlq.ai/news/bytedance-is-training-a-10-trillion-parameter-ai-model-financial-times-reports/
-- 2026-08-06至07 | 谷歌DeepMind发布气旋预测模型WeatherNext研究并开源权重，为热带气旋预警多争取24小时提前量 | https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/
 - 2026-08-06 | 斯坦福大学/Arc Institute团队用Evo1/Evo2首次生成完整功能性病毒基因组（16株验证成功），引发生物安全监管呼吁 | https://www.science.org/doi/10.1126/science.aej8512
 - 2026-08-06至07 | AI基础设施公司Firmus获英伟达/黑石/Coatue领投20亿美元融资，估值超105亿美元 | https://www.bloomberg.com/news/articles/2026-08-07/ai-data-center-group-firmus-draws-2-billion-from-coatue-nvidia
 - 2026-08-06 | Tesla与SpaceX联合投资168亿美元在德州建设"Terafab"芯片工厂 | https://techcrunch.com/2026/08/06/tesla-and-spacex-will-invest-16-8b-to-start-building-terafab-chip-factory-in-texas/
-- 2026-08-03 | 【矛盾】月之暗面拟递交港股IPO申请传闻被知情人士辟谣为消息不实 | https://www.cls.cn/detail/2444096
 - 2026-08-07至10 | 【续报】OpenAI官方确认Astra触发Preparedness Framework"Critical"级网络安全评级，暂停部分内部开发并延后发布，同时数学突破论文遭抄袭指控 | https://www.axios.com/2026/08/07/openai-astra-model-delay-cybersecurity-risks
 - 2026-08-08至09 | 苹果Siri中国大陆短暂接入阿里通义千问后官方说明页面被下架 | 来源：苹果官方支持文档（经新浪科技/unwire.hk转引）
 - 2026-08-08至10 | MiniMax拟将H3全模态模型开源许可证迁移至Apache 2.0（未经官方最终确认） | 来源：PC Watch
-- 2026-08-08至09 | 智元机器人首席科学家罗剑岚从合伙人名单消失，引发港股IPO前人事风波 | 来源：观察者网/新浪财经
 - 2026-08-08 | OpenAI收购演示文稿创业公司NextSlide并入ChatGPT团队 | 来源：TechCrunch
 - 2026-08-10 | 【单源】Fortune曝光谷歌DeepMind重组内幕：士气低落、人才流失、模型延期 | 来源：Fortune
 - 2026-08-10 | 【单源】阿里云发布模块化数据中心架构CUBE 5.0，交付周期压缩至100天 | https://finance.sina.com.cn/tech/roll/2026-08-10/doc-inimvnpm8131896.shtml
@@ -73,18 +66,28 @@
 - 2026-08-13 | Databricks完成50亿美元融资，估值1900亿美元，营收年化超70亿美元 | https://www.bloomberg.com/news/articles/2026-08-13/databricks-raises-5-billion-at-a-190-billion-valuation
 - 2026-08-13 | 【续报】Fortune独家披露谷歌DeepMind"身份危机"：权力从伦敦转向山景城 | https://fortune.com/2026/08/13/googles-deepmind-is-having-an-identity-crisis/
 - 2026-08-13至14 | 【续报】高盛确认为英伟达5000亿美元融资平台唯一贷款行，接洽第三方投资者 | https://www.investing.com/news/stock-market-news/goldman-in-talks-with-investors-on-nvidia-financing-deal-after-landing-prized-role-sources-say-4859677
+- 2026-08-14至15 | 阿里通义千问开源Qwen3.8-27B（270亿参数原生视觉-语言模型，Apache 2.0，262K原生上下文） | https://huggingface.co/Qwen/Qwen3.8-27B
+- 2026-08-14 | 【续报】OpenAI高管离职潮引发外部担忧，CFO Sarah Friar回应称企业营收超消费者端、ARR达400亿美元 | https://www.cnbc.com/2026/08/14/openai-cfo-friar-tells-investors-that-enterprise-bigger-than-consumer.html
+- 2026-08-14 | Anthropic投资者/承销商测算10月IPO估值或达约2万亿美元，依据2028年营收目标1900-2000亿美元 | https://fortune.com/2026/08/14/anthropic-valuation-ipo-amazon-trillion-openai/
+- 2026-08-14至15 | 【续报】港交所"秘密递表"机制下智元机器人IPO进度不透明，罗剑岚个人履历改为"上海创智学院全职副教授" | https://finance.eastmoney.com/a/202608133839539372.html
+- 2026-08-14至15 | 【续报】月之暗面Pre-IPO（G轮）估值抬升至500亿美元，要求8月15日前完成打款，港股递表传闻被知情人士否认 | https://m.21jingji.com/article/20260805/herald/bfd8eb1595bd0c346d354193f50d2080.html
+- 2026-08-15 | 美国电力公司南方电力Q2数据中心用电量同比+55%，签约管道增至17GW | https://www.datacenterdynamics.com/en/news/us-utility-southern-co-reports-55-higher-data-center-power-usage-compared-to-last-year/
+- 2026-08-15 | 仲量联行报告：北美在建数据中心容量达创纪录66GW，用电需求超德国全国总量 | https://www.datacenterdynamics.com/en/opinions/the-digital-land-grab-why-we-cant-build-data-centers-fast-enough/
+- 2026-08-15 | 中芯国际Q2财报电话会：AI相关芯片需求远超预期，拟扩产约8000片/月并涨价 | https://www.scmp.com/tech/big-tech/article/3363996/smic-weighs-more-capacity-ai-related-chip-demand-exceeds-forecasts
+- 2026-08-14至15 | 【续报】NVIDIA将对OpenAI俄亥俄数据中心项目融资担保从2500亿美元降至不足1200亿美元 | https://www.investing.com/news/stock-market-news/nvidia-scales-back-250-billion-openai-data-center-guarantee-wsj-reports-4861638
 
 ## 3. 进行中事件表
 
-- 事件：OpenAI/Anthropic/Meta/月之暗面 智能体失控与红队安全测试系列事件 | 最后进展日期：2026-08-09 | 下一步关注点：Meta完整复盘报告发布时间表（本期核查：仍未发布，Meta仅表示"确认根因后将发布完整复盘"，无时间表）；OpenAI另两名受害机构身份是否披露（仍仅Hugging Face/Modal Labs两方模糊表述）；英国AISI关于Kimi K3的完整报告是否公开（本期核查：Frontier Security 8月7日报告仍是当前最全信源，未见AISI官方完整版更新）
-- 事件：OpenAI下一代模型"Astra" | 最后进展日期：2026-08-10 | 下一步关注点：Astra发布时间表是否公布（本期核查：仍无官方日期）；完整Critical级安全评估报告是否发布（本期核查：仍未发布）；数学突破论文抄袭指控是否有后续升级或结论（本期核查：窗口内无新进展）
-- 事件：智元机器人（Agibot）港股IPO进程 | 最后进展日期：2026-08-09 | 下一步关注点：罗剑岚去留是否明朗（本期核查：仍是"官方称岗位调整、个人主页已删任职信息"的罗生门状态）；是否正式向港交所递交招股书（本期核查：仍未见递交证据）
-- 事件：谷歌DeepMind高层重组与"身份危机" | 最后进展日期：2026-08-13 | 下一步关注点：本期已核实并收录Fortune《Google's DeepMind is having an identity crisis》全文内容（Gemini 3.6 Flash落后多家对手、权力从伦敦向山景城转移、哈萨比斯淡出一线担忧加剧），该关注点本轮闭合；后续关注Discovery Loop具体融资金额与产品路线图是否正式公布（本期核查：仍仅为媒体转述，官方未确认）
-- 事件：月之暗面（Moonshot AI）蒸馏指控/制裁威胁与G轮融资、港股IPO进程 | 最后进展日期：2026-08-03 | 下一步关注点：美国财政部/BIS是否正式启动制裁（仍处警告阶段）；Pre-IPO融资（目标估值500亿美元）是否于8月内敲定并公布细节（本期核查：多方报道口径不一，暂无权威信源确认具体交割日期）；港股递表消息是否有权威信源证实
-- 事件：NVIDIA-OpenAI 俄亥俄数据中心融资谈判（2500亿美元租赁担保+3500亿美元芯片融资） | 最后进展日期：2026-08-07 | 下一步关注点：是否正式签约确认条款、SB Energy项目建设进展（本期核查：均无更新）
-- 事件：AI算力基础设施融资潮（Anthropic-黑石360亿美元债务融资；NVIDIA联合六大机构5000亿美元融资平台） | 最后进展日期：2026-08-14 | 下一步关注点：本期新进展——高盛已确认为NVIDIA融资平台唯一贷款行并开始接洽保险/资管机构等第三方投资者（仍处接洽阶段，未见具体投资者签约）；黑石为Anthropic牵头的360亿美元债务融资条款是否敲定并正式官宣（本期核查：仍处初步接洽阶段）
+- 事件：OpenAI/Anthropic/Meta/月之暗面 智能体失控与红队安全测试系列事件 | 最后进展日期：2026-08-09 | 下一步关注点：Meta完整复盘报告发布时间表（本期核查：仍未发布）；OpenAI另两名受害机构身份是否披露（仍仅Hugging Face/Modal Labs两方模糊表述）；英国AISI关于Kimi K3的完整报告是否公开（本期核查：仍未见更新）
+- 事件：OpenAI下一代模型"Astra" | 最后进展日期：2026-08-10 | 下一步关注点：Astra发布时间表是否公布（本期核查：仍无官方日期）；完整Critical级安全评估报告是否发布（本期核查：仍未发布）；数学突破论文抄袭指控是否有后续（本期核查：窗口内无新进展）
+- 事件：智元机器人（Agibot）港股IPO进程 | 最后进展日期：2026-08-15 | 下一步关注点：港交所"秘密递表"机制下智元大概率已秘密递表但无官方确认线索，是否有权威信源证实递表事实；罗剑岚个人社交履历已改为"上海创智学院全职副教授"与官方"内部岗位调整"口径出现出入，其最终去向是否明朗
+- 事件：谷歌DeepMind高层重组与"身份危机" | 最后进展日期：2026-08-13 | 下一步关注点：Discovery Loop具体融资金额与产品路线图是否正式公布（本期核查：仍仅为媒体转述，官方未确认）
+- 事件：月之暗面（Moonshot AI）Pre-IPO（G轮）融资与港股IPO进程 | 最后进展日期：2026-08-15 | 下一步关注点：G轮估值已升至500亿美元、要求8月15日前完成打款，是否于当日完成并正式官宣；此前"月内递交港股IPO申请"传闻已被知情人士否认，后续是否有新的递表动作；美国财政部/BIS是否正式启动制裁（仍处警告阶段）
+- 事件：NVIDIA-OpenAI 俄亥俄数据中心融资谈判（原2500亿美元租赁担保+3500亿美元芯片融资） | 最后进展日期：2026-08-15 | 下一步关注点：本期新进展——WSJ独家披露NVIDIA已将担保规模下修至不足1200亿美元、仅覆盖项目第一期，原因是投资者担忧英伟达自身风险敞口；双方称最快本周末签约，需跟进是否正式签约、10GW项目完整长期租约条款细节、SB Energy项目建设进展
+- 事件：AI算力基础设施融资潮（Anthropic-黑石360亿美元债务融资；NVIDIA联合六大机构5000亿美元融资平台） | 最后进展日期：2026-08-14 | 下一步关注点：高盛接洽的第三方投资者是否有签约进展（本期核查：仍处接洽阶段，无新消息）；黑石为Anthropic牵头的360亿美元债务融资条款是否敲定并正式官宣（本期核查：仍处初步接洽阶段）
 - 事件：欧盟AI法案GPAI/透明度义务执法权8月2日生效 | 最后进展日期：2026-08-02 | 下一步关注点：宽限期内或之后是否出现首批正式执法或处罚案例（本期核查：仍无个案）
-- 事件：Safe Superintelligence（SSI）首款模型发布传闻 | 最后进展日期：2026-08-04 | 下一步关注点：8月内SSI是否真正发布首款模型/论文/演示（本期核查：官方渠道仍无任何公开表态或动作，投资人此前预告的"8月发布"窗口未见兑现迹象）
-- 事件：OpenAI/Jony Ive消费级AI硬件与Apple商业秘密诉讼 | 最后进展日期：2026-08-07 | 下一步关注点：10月1日禁令听证会（联邦法官Edward Davila审理临时禁令与加速证据开示两项动议）；产品是否正式官宣
-- 事件：OpenAI高管离职潮 | 最后进展日期：2026-08-13 | 下一步关注点：继COO Brad Lightcap（8/11）、CRO Denise Dresser（8/13）之后是否有更多核心高管跟进离职；公司是否就离职潮给出统一口径解释
-- 事件：苹果与阿里巴巴联合训练中国专属AI大模型 | 最后进展日期：2026-08-14 | 下一步关注点：苹果/阿里官方是否正式确认（目前为路透社援引三名匿名信源转引，尚无双方官方声明）；Apple Intelligence中国版随iOS更新的具体上线时间表
+- 事件：Safe Superintelligence（SSI）首款模型发布传闻 | 最后进展日期：2026-08-04 | 下一步关注点：8月内SSI是否真正发布首款模型/论文/演示（本期核查：官方渠道仍无任何公开表态或动作）
+- 事件：OpenAI/Jony Ive消费级AI硬件与Apple商业秘密诉讼 | 最后进展日期：2026-08-07 | 下一步关注点：10月1日禁令听证会（联邦法官Edward Davila审理临时禁令与加速证据开示两项动议，本期核查：无新进展）；产品是否正式官宣
+- 事件：OpenAI高管离职潮 | 最后进展日期：2026-08-14 | 下一步关注点：本期新进展——CFO Sarah Friar公开回应外界"IPO前高管密集离职是危险信号"的质疑，强调企业营收超消费者端、ARR达400亿美元，但未就离职潮本身给出统一解释；截至目前未见CRO Denise Dresser（8/13）之后有更多核心高管跟进离职，需持续关注
+- 事件：苹果与阿里巴巴联合训练中国专属AI大模型 | 最后进展日期：2026-08-14 | 下一步关注点：苹果/阿里官方是否正式确认（本期核查：仍为路透社援引匿名信源转引，无官方声明）；Apple Intelligence中国版随iOS更新的具体上线时间表
+- 事件：Anthropic潜在10月IPO与约2万亿美元估值预期 | 最后进展日期：2026-08-14 | 下一步关注点：承销商测算依据的2028年营收目标（1900-2000亿美元）与当前470亿美元年化营收/109亿美元Q2营收之间差距巨大，后续关注10月IPO是否如期启动、最终估值是否接近2万亿美元传闻、公司官方是否证实IPO时间表
