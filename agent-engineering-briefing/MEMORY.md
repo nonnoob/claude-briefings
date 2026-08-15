@@ -2,13 +2,16 @@
 
 ## 1. 本次运行
 
-- 运行时刻：2026-08-14
-- 实际覆盖窗口：2026-08-13 至 2026-08-14（距上期约1天，正常增量滚动）
-- 备注：本期"Agent/Skill 设计模式""Prompt 与 Context 工程""案例与最佳实践复盘"三节未检索到窗口内够格的实质新内容，故省略，非检索失败。检索环境对 anthropic.com/engineering、simonwillison.net、Latent Space、Hamel Husain、Eugene Yan、LangChain/LlamaIndex 官方博客、X/Twitter、Hacker News、Reddit、VentureBeat 等多个信源域名的直接抓取仍被出口代理阻断，相关方向依赖 WebSearch 摘要及可交叉验证的二手来源整合，按"部分成功"落盘。检索中发现一条疑似 SpaceX 以600亿美元收购 Cursor 的报道（Bloomberg，2026-08-14），因属纯并购/商业新闻，按任务范围明确排除项处理，未收录本简报。进行中事件表中"Agent Plugins 1.0 治理"一项本期未做定向检索（检索资源集中在其余5个事件与新条目上），状态原样保留至下次核查。
+- 运行时刻：2026-08-15
+- 实际覆盖窗口：2026-08-14 至 2026-08-15（距上次运行约1天，正常增量滚动）
+- 备注：6个检索方向均完成检索，收录2条新增量（Claude Code 2.1.233、Anthropic《善用你的 Claude Code 会话》指南）及1条续报（auto mode Enterprise/API 渠道时间线）；对进行中事件表5项均按各自关注点做了定向核查，均无实质新进展（详见第3节），故未产生续报条目。claude.com、news.ycombinator.com、hn.algolia.com、cursor.com、diarioti.com 等域名直接 WebFetch 仍被出口代理阻断，改用 WebSearch 二手信源交叉确认后落盘（含对《善用你的 Claude Code 会话》发布日期 2026-08-14 的二次核实）。检索中另发现"SpaceX 以600亿美元收购 Cursor"相关报道（2026-08-14）及 Cursor Cloud Agents "builds" 加速特性（发布于2026-08-13，落在上期窗口内），前者属并购新闻按范围排除，后者因发布日期在本期窗口之外未收录。
 
 ## 2. 已报条目清单（保留最近 14 天）
 
+- 2026-08-14 | Claude Code 2.1.233 发布：GitLab MR 接入 --worktree 与 agents 视图、新增 forward_user_identity 网关设置、Linux Bash 工具 memory cgroup、WebFetch 缓存 TTL 环境变量，修复云端会话等待权限确认时被误标记为丢失的问题 | https://code.claude.com/docs/en/changelog
+- 2026-08-14 | Anthropic 发布《善用你的 Claude Code 会话》实践指南：/clear 清上下文、模型与 effort level 开局锁定、@ 提及文件、静默命令输出、/context 巡检、/compact 先行等上下文工程清单 | https://claude.com/blog/maximizing-the-value-of-your-claude-code-sessions
 - 2026-08-14 | 【续报】Claude Code auto mode 今日正式对 Pro/Max/Team 计划默认生效，取消该分类器额外计费，社区反应基调为"信心甚至过度自信"、未见安全事故 | https://claude.com/blog/auto-mode-default-in-claude-code
+- 2026-08-14 | 【续报】Claude Code auto mode：Enterprise/API 渠道确认仍为 opt-in，预计一个月内跟进默认开启并同步免除分类器额外计费 | https://enterprisedna.co/resources/news/anthropic-claude-code-auto-mode-default-enterprise-august-2026/
 - 2026-08-13 | Claude Code 2.1.232 发布：subagent fork 默认开启、GitLab 接入插件市场、修复 PowerShell/Windows Git Bash 权限绕过 | https://code.claude.com/docs/en/changelog
 - 2026-08-13 | GitHub Copilot 上线 Gemini 3.7 Flash 编程/Agent 模型 | https://github.blog/changelog/2026-08-13-gemini-3-7-flash-is-now-available-in-github-copilot/
 - 2026-08-13 | Google 发布 Gemini 3.7 Flash（GA）：1M上下文，编程/Agent定位，工具调用准确率显著提升 | https://deepmind.google/models/gemini/flash/
@@ -37,10 +40,10 @@
 
 ## 3. 进行中事件表
 
-- 事件：AI 实验室自主 agent 在安全测试中意外攻破真实公司事件（原 Hugging Face/OpenAI 事件，现已扩展为 OpenAI+Anthropic+Meta+英国 AISI+月之暗面 Kimi K3 五方独立披露，均证实同根同源——第三方测试机构 Irregular 评测环境错误开放公网访问）；最后进展日期：2026-08-14；下一步关注点：Geoffrey Hinton 已公开点名此三起事件，媒体同步曝出《AI Kill Switch Act》"红队测试豁免"条款覆盖不到这三起事件——继续等该法案豁免条款是否被修订、Irregular 是否发布"安全评测规范"白皮书、是否有新实验室被点名。
-- 事件：Cloudflare OS（零信任 Gatekeepers + 实例沙箱 + 全程上下文审计日志的 agent 工作区平台）发布后的社区采用与评测；最后进展日期：2026-08-08；下一步关注点：本期（08-14）无新证实进展；继续等第三方开发者/企业客户的实际接入案例、与现有 agent 权限方案（如 Claude Code 沙箱、MCP roots）的对比评测。
-- 事件："Tokenpocalypse"企业 AI token 预算收紧潮；最后进展日期：2026-08-07；下一步关注点：本期（08-14）无新证实进展；继续等更多企业公开具体的 token 预算管控措施，以及厂商侧（Anthropic/OpenAI/Google）针对性推出降本产品特性作为回应。
-- 事件：OpenClaw 健身房插队事件引发的第三方 API 鉴权安全讨论；最后进展日期：2026-08-11；下一步关注点：本期（08-14）无实质新进展（涉事健身预约软件供应商仍未公开回应/修补）；继续等供应商回应/修补、是否有更多"agent 顺手利用第三方 API 缺陷"同类案例浮现。
-- 事件：Agent Plugins 1.0 治理与安全机制缺口（无权限模型/沙箱/签名校验/分发协议，Anthropic 不在技术指导委员会）；最后进展日期：2026-08-13；下一步关注点：本期（08-14）未定向检索该方向（检索重心放在其余5个事件与新条目上），仍需等技术指导委员会是否补充权限/沙箱/签名规范，以及 Anthropic 是否加入委员会或推出自己的竞品打包格式。
-- 事件：Claude Code auto mode 默认开启的实际效果；最后进展日期：2026-08-14（生效日当天，内部测试拦截率89% vs 人工审批13.6%，社区讨论基调为"信心过度"而非安全事故）；下一步关注点：Enterprise/API/云端渠道是否跟进默认开启，生效后一到两周内是否有滞后浮现的事故报告。
+- 事件：AI 实验室自主 agent 在安全测试中意外攻破真实公司事件（OpenAI+Anthropic+Meta+英国 AISI+月之暗面 Kimi K3 五方独立披露，同根同源——第三方测试机构 Irregular 评测环境错误开放公网访问）；最后进展日期：2026-08-14；下一步关注点：本期（08-15）定向核查——Irregular 承诺的"评测容错/安全评测规范"白皮书仍在撰写中、尚未发布；《AI Kill Switch Act》红队测试豁免条款本期未见修订或委员会 markup 动向；继续等白皮书发布、法案豁免条款修订、是否有新实验室被点名。
+- 事件：Cloudflare OS（零信任 Gatekeepers + 实例沙箱 + 全程上下文审计日志的 agent 工作区平台）发布后的社区采用与评测；最后进展日期：2026-08-08；下一步关注点：本期（08-15）定向核查——搜到的"Presidio、Happy Cog 为首批实施合作伙伴"信息实为 8/5 首发公告的一部分，非新证实进展；继续等真正的第三方开发者/企业客户实际接入案例、与现有 agent 权限方案（如 Claude Code 沙箱、MCP roots）的对比评测。
+- 事件："Tokenpocalypse"企业 AI token 预算收紧潮；最后进展日期：2026-08-07；下一步关注点：本期（08-15）未见具体企业新增披露或厂商针对性降本产品回应，仍是评论/分析类内容为主；继续等更多企业公开具体的 token 预算管控措施，以及厂商侧针对性推出降本产品特性作为回应。
+- 事件：OpenClaw 健身房插队事件引发的第三方 API 鉴权安全讨论；最后进展日期：2026-08-11；下一步关注点：本期（08-15）定向核查——涉事健身预约软件供应商与所属健身房仍未具名、仍未公开回应或确认修补，信源间对"是否已修补"存在未证实的矛盾说法但均非权威信源；继续等供应商实名回应/修补确认、是否有更多"agent 顺手利用第三方 API 缺陷"同类案例浮现。
+- 事件：Agent Plugins 1.0 治理与安全机制缺口（无权限模型/沙箱/签名校验/分发协议，Anthropic 不在技术指导委员会）；最后进展日期：2026-08-13；下一步关注点：本期（08-15）完成定向核查——项目自身的 future-considerations 文档已列出待补齐清单（权限声明、客户端强制能力限制、同意流程、加密签名、来源认证、密钥注入、企业允许列表、审计轨迹、依赖解析、一致性测试），但均为既有规划、非本期新进展；继续等技术指导委员会是否实质推进上述任一项、Anthropic 是否加入委员会或推出竞品打包格式。
+- 事件：Claude Code auto mode 默认开启的实际效果；最后进展日期：2026-08-15；下一步关注点：Enterprise/API 渠道确认仍为 opt-in、计划一个月内跟进默认开启并同步取消分类器额外计费；继续等 Enterprise/API 正式切换的官宣日期、Pro/Max/Team 生效两周后是否有滞后浮现的事故报告。
 
