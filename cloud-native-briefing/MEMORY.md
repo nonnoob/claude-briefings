@@ -2,20 +2,15 @@
 
 ## 1. 本次运行时刻与实际覆盖窗口
 
-- 运行时刻：2026-08-14 18:22 UTC。
-- 上次运行时刻：2026-08-14 18:12 UTC，间隔约 10 分钟，同日重跑（定时任务短间隔再次触发）。
-- 实际覆盖窗口：2026-08-14 18:12 UTC – 2026-08-14 18:22 UTC（常规）。
-- 六大方向均执行了检索确认，无检索失败；窗口极短（约 10 分钟），未发现任何未报道过的实质新内容，按空期骨架输出。核查要点：Kubernetes v1.37 仍为 v1.37.0-rc.0，未见新 RC/GA 消息，GA 仍定档 8/26；GitHub Actions 8/6 故障官方 postmortem 全文仍未发布；CNCF、三大云厂商、安全通告等方向均无新增可收录事件。
-- 进行中事件表两项已再次核查，均无新进展（详见第 3 节）。
+- 运行时刻：2026-08-17 12:49 UTC。
+- 上次运行时刻：2026-08-14 18:22 UTC，间隔约 2 天 18 小时。
+- 实际覆盖窗口：2026-08-14 18:22 UTC – 2026-08-17 12:49 UTC（常规）。
+- 方向 A（watchlist）六项逐一核查：Kubernetes 本体、AWS EKS、Istio、Flux CD 及各 controller/Kustomize/Helm、Kyverno/SOPS、AWS Load Balancer Controller/NLB，均取得有效检索结果（部分官方站点 istio.io/aws.amazon.com/docs.aws.amazon.com 被沙箱出网代理拦截，改用 WebSearch 与 GitHub Releases/Security Advisories 交叉验证补齐，未造成方向缺失）。方向 B/C 全量核查，窗口内无满足门槛内容。方向 D 栈位差表全量刷新。
+- 本期发现两项需要行动：① Istio 1.25（读者主网格版本）经核实官方支持已于 2025-09-22 结束，此前从未在本任务下报告过，属新发现的持续性风险状态；② SOPS 于 2026-08-14 一次性回顾披露 4 个历史安全漏洞（3.13.0/3.13.2 起已修复，无正式 CVE 编号）。
 - 推送：本会话被限定只能推送指定工作分支（云端 Routine 会话平台限制，无法直接推 main），按 SKILL.md 兜底流程推当前工作分支，依赖仓库内 auto-merge 工作流合并进 main。
 
 ## 2. 已报条目清单（最近 21 天）
 
-2026-07-22 | Kubernetes v1.37 完成代码与测试冻结，DRA Partitionable Devices 推进至 beta，Volume Group Snapshot 特性同步推进 | https://www.kubernetes.dev/resources/release/
-2026-07-22 | OpenInfra 基金会发布 Kata Containers 4.0，默认运行时由 Go 重写为 Rust `runtime-rs`，主打更强内存安全与更快启动 | https://cloudnativenow.com/features/rust-rewrite-readies-kata-containers-for-agent-sandboxing/
-2026-07-22 | CNCF 宣布 Confidential Containers 项目升级为 Incubating 项目 | https://www.cncf.io/blog/2026/07/22/confidential-containers-becomes-a-cncf-incubating-project/
-2026-07-23 | CNCF Japan 分会成立 AI Infra SIG，聚焦云原生技术栈支撑 AI 基础设施最佳实践 | https://www.cncf.io/blog/2026/07/23/launch-of-the-ai-infra-sig-under-the-cncf-japan-chapter-first-meetup-and-call-for-speakers/
-2026-07-14（7/26 发布复盘）| Coinbase 公开生产事故复盘：共享 K8s 集群配置变更引发命名冲突，交易服务累计降级约 50 分钟 | https://www.coinbase.com/blog/a-postmortem-of-our-july-14-2026-incident
 2026-07-27 | CNCF 博客发布 Linkerd 多集群零停机架构实践文章（联邦+镜像两种模式组合，3 个 GKE 集群验证）| https://www.cncf.io/blog/2026/07/27/federating-clusters-for-zero-downtime-kubernetes/
 2026-07-28 | ArgoCon Japan 2026 举行，披露 Argo CD 3.5 RC 特性（ApplicationSets 转正、Impersonation 升至 beta、repo-server mTLS 等）| https://www.cncf.io/blog/2026/07/20/argocon-japan-2026-meeting-the-maintainers-enterprise-insights-and-the-road-to-argo-cd-3-5/
 2026-07-28~29 | KubeCon + CloudNativeCon Japan 2026 在横滨开幕，聚焦 K8s GPU 动态资源分配、OpenTelemetry 毕业、Keycloak-MCP 鉴权，CNCF 称 66% 受访组织已将 K8s 视为 AI"操作系统" | https://www.techtimes.com/articles/321774/20260728/kubecon-japan-2026-kubernetes-gpu-scheduling-otel-graduation-converge-ai-era.htm
@@ -43,11 +38,12 @@
 2026-08-11 | Windows Container Isolation FS Filter Driver（unionfs.sys）曝出篡改漏洞 CVE-2026-72971（CVSS 5.5），随微软 8 月补丁星期二修复 | https://www.csoonline.com/article/4208185/patch-tuesday-august-2026-a-zero-day-winsock-driver-hole-under-exploit-and-a-maximum-severity-sap-vulnerability.html
 2026-08-13 | Amazon EKS 新增 Kubernetes 控制平面组件（调度器/controller-manager/API server）参数配置能力，覆盖所有可用区域 | https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-eks-control-plane-configuration-parameters/
 2026-08-13~14 | TeamPCP 3 月 Trivy/LiteLLM 供应链攻击（CVE-2026-33634，CVSS 9.4）曝出新影响评估：153GB 被窃数据涉 2,488 企业域名，部分被窃凭据 5 个月后仍可用 | https://www.helpnetsecurity.com/2026/08/13/litellm-breach-stolen-credentials-leak/
+2025-09-22（2026-08-17 首次核实收录）| Istio 1.25（读者主网格版本）官方支持结束，不再回滲安全与关键缺陷修复 | https://istio.io/latest/news/support/announcing-1.25-eol-final/
+2026-08-14 | SOPS 项目一次性回顾披露 4 个历史安全漏洞（最严重 GHSA-jgf3-f6rg-8x3h，CVSS 7.4，Vault/OpenBao 令牌 SSRF 泄露），均已于 3.13.0/3.13.2 起修复 | https://github.com/getsops/sops/security/advisories/GHSA-jgf3-f6rg-8x3h
 
 ## 3. 进行中事件表
 
-- 事件：Kubernetes v1.37 发布周期 | 最后进展日期：2026-08-06（v1.37.0-rc.0 切出，release candidate 阶段；DRA Partitionable Devices/KEP-4815 本轮细节仍待官方 release notes 明确）| 下一步关注点：等 8/26 GA 官宣及正式 release notes，核实 DRA Partitionable Devices 最终毕业阶段、破坏性变更完整清单。（2026-08-09～08-14 已连续核查：均无新 RC/GA 消息，08-14 内两次核查结果一致。）
-（2026-08-14 任务范围重定义：GitHub Actions 2026-08-06 故障不落在 watchlist 上，也不满足"其他动态"四条门槛，已移出追踪。）
+- 事件：Kubernetes v1.37 发布周期 | 最后进展日期：2026-08-06（v1.37.0-rc.0 切出，release candidate 阶段）| 下一步关注点：等 8/26 GA 官宣及正式 release notes，核实 DRA Partitionable Devices（KEP-4815，目前仍处 alpha 阶段）毕业情况及 v1.37 破坏性变更完整清单。（2026-08-09～08-17 已连续核查：均无新 RC/GA 消息，08-17 核查确认 rc.0 仍为最新，DRA Partitionable Devices 仍处 alpha，GA 仍定档 8/26。）
 
 ## 4. 读者在用的版本清单
 
