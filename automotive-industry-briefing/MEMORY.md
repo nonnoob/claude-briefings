@@ -2,20 +2,16 @@
 
 ## 1. 本次运行时刻与实际覆盖窗口
 
-- 运行时刻：2026-08-18 12:22 UTC
-- 覆盖窗口：2026-08-17 13:02 UTC 至 2026-08-18 12:22 UTC（常规，约23小时）
-- 六个方向均已检索（分派6个并行调研任务分别覆盖）。受各调研任务WebSearch调用配额（多数触及200次/会话上限）及WebFetch出站代理拦截（bloomberg.com、cnevpost.com、electrek.co、247wallst.com、investing.com、cls.cn、eastmoney.com、stcn.com、caijing.com.cn、smm.cn等多域名EGRESS_BLOCKED）限制，多数条目的精确发布时刻未能二次核实，仅凭WebSearch摘要及URL日期戳判断是否落入窗口，存疑条目已从严处理（排除或标注【单源】/说明时间存疑）。
-- 未逐一定向核实"Uber游说Robotaxi人车混合网络监管(DC)"这一进行中事件（本轮调研资源已优先分配至其余9个事件及6个检索方向），该事件按原有"连续5次未查到进展"状态原样保留，未累加计数。
+- 运行时刻：2026-08-19 12:25 UTC
+- 覆盖窗口：2026-08-18 12:22 UTC 至 2026-08-19 12:25 UTC（常规，约24小时）
+- 六个方向均已检索（分派6个并行调研任务分别覆盖）。个别调研任务的 WebFetch 请求被出站代理拦截（bloomberg.com、finance.sina.com.cn、prnewswire.com、cnevpost.com、carnewschina.com、mining.com、tradingpedia.com 等多域名 EGRESS_BLOCKED），精确发布时刻依赖 WebSearch 摘要与 URL 日期戳判断，存疑条目已从严处理。
+- 本期重大更新：美国对加拿大第338条50%关税原定8月19日生效，在生效前不到2小时被特朗普宣布暂缓3天，暂缓截止日期存在【矛盾】说法（8/21 vs 8/22），已在简报中列出两说，未擅自裁决，下次运行需重点核实。
+- 赛力斯半年报（营收降7.87%、由盈转亏净亏17.17亿元）已对"问界退潮"传闻给出官方财务数据印证，该进行中事件视为已闭合，本次移出进行中事件表。
+- 比亚迪方程豹钛7 DM长续航版正式定价已公布，该进行中事件已闭合，移出进行中事件表。
+- Uber游说Robotaxi人车混合网络监管(DC, B26-0684)：本期已定向核实，仍无新进展（连续第2次），按此前计划若8月20日前仍无进展将移出，下次运行为最后核实窗口。
 
 ## 2. 已报条目清单（最近14天）
 
-- 2026-08-04 | 大众/奔驰/保时捷裁员从奥迪产线蓝领扩大至白领管理层，大众委托猎头为400-500名经理寻找出路 | https://germany.news-pravda.com/en/germany/2026/08/03/148238.html
-- 2026-08-03 | 小米汽车"澎程"N90Max/N70Max开启小订，预售价29.99万/25.99万元，上市延后至9月 | https://auto.ifeng.com/c/8vBmHJAHvUI
-- 2026-08-04 | Waymo达拉斯取消排队邀请制，Robotaxi服务全面向公众开放 | https://techcrunch.com/2026/08/04/waymo-opens-up-robotaxi-service-in-dallas-to-everyone/
-- 2026-08-04 | 中国发布首部自动驾驶强制性国标GB44721-2026，2027年7月1日起实施 | https://english.news.cn/20260804/0cdb2d76612e4cec8a7c33dbc73c6fd4/c.html
-- 2026-08-04 | 美国对加拿大50%第338条关税(含汽车)确认8月19日生效，加方暂未反制 | https://www.csis.org/analysis/understanding-president-trumps-new-tariffs-canadian-imports
-- 2026-08-04 | 大陆集团Q2财报EBIT利润率升至12.9%，同时签约将ContiTech以约40亿欧元出售给Lone Star | https://www.continental.com/en/press/press-releases/results-first-half-2026/
-- 2026-08-04 | 丰田FY2026Q1净利润1.48万亿日元近乎翻倍，上调全年营业利润指引 | https://www.wardsauto.com/news/toyota-q2-2026-full-year-forecast-2026/804711/
 - 2026-08-05 | 尊界V800/V680正式上市，V680起售64.8万元/V800 76.6万-101.6万元，1小时大定2115台 | https://cnevpost.com/2026/08/05/maextro-launches-v680-v800-mpvs/
 - 2026-08-05 | 长城H10以"长城"母品牌独立上市，售价20.98万-23.18万元，24小时大定破3.18万台 | https://finance.sina.com.cn/tech/roll/2026-08-06/doc-inimknaz3024551.shtml
 - 2026-08-06 | 刚果(金)全面禁止铜精矿、钴精矿出口，伦敦金属交易所铜价应声上涨 | https://finance.eastmoney.com/a/202608063834068777.html
@@ -34,104 +30,56 @@
 - 2026-08-08 | 长城魏牌V8X定档8月14日发布，超级Hi4混动CLTC综合续航1659km，已开启预订 | https://finance.sina.com.cn/tech/digi/2026-08-08/doc-inimrerp6323264.shtml
 - 2026-08-09 | 零跑A10第10万台量产车下线，上市135天创纯电SUV细分市场最快达成10万辆纪录 | https://finance.sina.com.cn/tech/roll/2026-08-09/doc-inimsnkv9049311.shtml
 - 2026-08-09 | 现代汽车工会8月11日将召开中央争议对策委员会决定是否扩大罢工，起亚同期启动第10次劳资协商 | https://www.mt.co.kr/industry/2026/08/09/2026080710215111620
-- 2026-08-09 | 零跑A05公布全部七种车色，预计8月9日正式上市 | https://finance.sina.com.cn/stock/t/2026-08-09/doc-inimssst8968501.shtml
 - 2026-08-09 | 路透社调查曝荷兰RDW监管机构拒绝公开特斯拉FSD获批依据的安全评估文件 | https://finance.sina.com.cn/tech/digi/2026-08-09/doc-inimtchp8821196.shtml
 - 2026-08-09 | 特斯拉FSD入华全量推送预期由8月推迟至9月(传闻，源自社区博主爆料) | https://www.itbear.com.cn/html/2026-08/1488976.html
-- 2026-08-09 | 比亚迪秦MAX定于8月13日上市，插混版预扣款11.5万-14.5万元/纯电版12.5万-15.5万元 | https://www.autohome.com.cn/news/202608/1316250.html
-- 2026-08-09 | 加拿大加紧争取8月19日前与美国达成"临时协议"避免50%关税生效 | https://www.newstribune.com/news/2026/aug/09/canada-races-for-deal-before-trumps-50-percent/
 - 2026-08-09 | 高盛研报预测小米汽车2026年交付50万辆、2028年破百万辆 | https://finance.sina.com.cn/tech/roll/2026-08-09/doc-inimtpwi8700510.shtml
 - 2026-08-10 | 比亚迪日本"海獭"(RACCO)上市约两周订单破1000台，接近全年1万辆日本市场目标的10% | https://finance.sina.com.cn/stock/t/2026-08-10/doc-inimvsvi2800945.shtml
-- 2026-08-10 | 特斯拉/SpaceX合建168亿美元"Terafab"芯片厂负责人曝光，系清华毕业前英特尔晶圆厂厂长Gary Jiang | https://finance.sina.com.cn/tech/roll/2026-08-10/doc-inimvsvi2809204.shtml
 - 2026-08-10 | 上汽通用合资续约官方通稿发布，合资期限延长20年至2047年，通用以华为出口枢纽 | https://www.news.cn/auto/20260810/8966db33b1d74e619c3984deea3774ad/c.html
 - 2026-08-10 | 宁德时代加入比亚迪行列，将固态电池试生产目标定在2027年 | https://carnewschina.com/2026/08/10/catl-joins-byd-in-targeting-2027-solid-state-battery-trial-production/
-- 2026-08-10 | 国内碳酸锂期货一周内暴涨近万元，主力合约冲高至14.5万元/吨 | https://finance.sina.com.cn/jjxw/2026-08-10/doc-inimuriv2922345.shtml
 - 2026-08-10 | 中国海关数据显示上半年7类管制稀土对日出口同比暴跌51%，电机磁材原料镝/铽对日出口降至零 | https://www.cna.com.tw/news/acn/202608100194.aspx
-- 2026-08-10 | 刚果(金)禁令引发的铜价冲高后高位回落，长江现货1#铜报108090元/吨 | https://copper.ccmn.cn/
 - 2026-08-10 | 亚马逊Zoox在拉斯维加斯正式开启付费Robotaxi服务，为美国首个获批向公众收费的无方向盘/无踏板自动驾驶车辆 | https://www.cnbc.com/2026/08/05/amazon-zoox-paid-robotaxi-rides-las-vegas.html
-- 2026-08-10 | 特斯拉韩国FSD从买断制转为仅限订阅(约719元/月)，中国大陆949元/月订阅定价传闻流出 | https://finance.sina.com.cn/tech/roll/2026-08-10/doc-inimuzxp1281974.shtml
-- 2026-08-10 | 零跑A05因台风"海豚"登陆延期至8月11日18:30上市 | https://cnevpost.com/2026/08/10/leapmotor-a05-debut-pushed-aug-11-typhoon/
-- 2026-08-10 | 小鹏G9L定档8月11日全球首秀并同步开启预售，20万-35万级大五座SUV | http://auto.cnfol.com/xincheshangshi/20260810/32330032.shtml
-- 2026-08-10 | 奇瑞捷豹路虎神行者8预售因台风延期至8月14日，全系标配华为乾崑ADS 5智驾 | https://www.autohome.com.cn/news/202608/1316241.html
-- 2026-08-10 | 宁德时代2026年中期A股现金分红61.80亿元发放，每10股派现14.11元 | https://autonews.gasgoo.com/articles/ev/catl-announces-rmb-618-billion-interim-dividend-2084897832094896129
 - 2026-08-10 | 赛力斯港股市值较上市以来蒸发近七成，7月问界在鸿蒙智行内份额从67%骤降至45.46% | https://finance.sina.com.cn/jjxw/2026-08-10/doc-inimuzxt5014795.shtml
-- 2026-08-10 | 特斯拉股价报约330.44美元，较8月7-8日328美元区间小幅企稳 | https://journalarta.com/en/2026/08/10/tsla-stock-analysis-gains-2-83-momentum-gains/
 - 2026-08-11 | 现代汽车工会中央争议对策委员会决定升级部分罢工，12/13日各4小时、14/18日各6小时，单日上限由8小时增至12小时 | https://www.ajunews.com/view/20260811153427938
-- 2026-08-11 | 零跑A05延期一日后正式上市，指导价6.39万-9.09万元 | https://finance.sina.com.cn/tech/digi/2026-08-11/doc-inimyaai4169290.shtml
-- 2026-08-11 | 小鹏G9L广州全球首秀并开启预售，定位30万级大五座旗舰SUV | https://cnevpost.com/2026/08/10/xpeng-g9l-debut-pre-sales-aug-11/
-- 2026-08-11 | 2027款比亚迪海豹06深圳正式上市，预扣价10.5万-14.5万元 | https://cnevpost.com/2026/08/08/byd-2027-seal-06-aug-11-launch/
 - 2026-08-11 | Strategy&研究：德国汽车零部件供应商负债与利息支出连续四年攀升，2025年利息支出达经营利润102%，成本竞争力持续落后中国同业 | https://www.globalbankingandfinance.com/debt-burden-grows-german-suppliers-embattled-auto-sector/
-- 2026-08-11 | 特斯拉股价8月10日收报330.88美元，连续6日上涨，Roth Capital上调评级至"买入" | https://stockinvest.us/stock-news/tesla-stock-price-ended-at-33088-on-monday-after-gaining-0700-2026-08-10
 - 2026-08-11 | 宝马公布自愿离职方案落地细节，覆盖德国约4万名白领员工，执行期2026年10月至2027年底，目标裁减约8000个岗位 | https://www.motor1.com/news/803349/bmw-8-000-job-cut/
 - 2026-08-11 | 通用汽车将印第安纳35亿美元电池合资项目49.99%股权出售给三星SDI，工厂转产电网级磷酸铁锂储能电池 | https://www.cnbc.com/2026/08/11/south-koreas-samsung-sdi-to-buy-out-gms-battery-venture-stake.html
-- 2026-08-11 | 小鹏预告VLA大模型6.3.0升级版，端侧参数量提升3.5倍、感知灵敏度提速300%，对标特斯拉FSD V14 | https://cnevpost.com/2026/08/11/xpeng-starts-g9l-pre-sales/
-- 2026-08-11 | 特斯拉HW3车型开始推送FSD v14.1 Lite | https://www.teslaoracle.com/2026/08/11/tesla-rolls-out-fsd-v14-1-lite-after-hw3-ecu-overheating-issues-in-fsd-v14-lite/
-- 2026-08-11 | 上汽大众ID.ERA 5S开启预售11.59万-14.59万元，为大众全球首款城市NOA量产轿车 | https://auto.sina.com.cn/newcar/2026-08-11/detail-inimxvui7471875.shtml
-- 2026-08-11 | 长城魏牌V8X官宣运动版车型配色与套件细节，8月14日随主力车型同步上市 | https://finance.sina.com.cn/tech/digi/2026-08-11/doc-inimxvun5832044.shtml
-- 2026-08-11 | 加拿大与美国举行本月第三轮关税谈判，拟以取消对美车反制关税换取美方钢铝车领域降税，尚未达成协议 | https://www.bnnbloomberg.ca/business/politics/2026/08/11/canadian-trade-negotiators-meeting-with-us-counterparts-again-tuesday/
 - 2026-08-11 | 中国自8月1日起对电动汽车充电桩设备实施强制性CCC认证 | http://www.ce.cn/cysc/zljd/gd/202608/t20260811_3139887.shtml
-- 2026-08-11 | 特斯拉股价收报约332.81美元，8月12日盘前331.75美元延续升势 | https://247wallst.com/investing/2026/08/11/nio-drops-5-on-disclosed-blackrock-stake-cut-while-tesla-lucid-rivian-hold-steady/
 - 2026-08-11 | 贝莱德二季度13F增持Lucid翻倍至1200万股、Rivian增至5640万股，同时减持蔚来致蔚来美股跌约5% | https://247wallst.com/investing/2026/08/11/nio-drops-5-on-disclosed-blackrock-stake-cut-while-tesla-lucid-rivian-hold-steady/
 - 2026-08-11 | 丰田在美召回逾50.8万辆2025-2026款凯美瑞混动车型因仪表盘显示故障 | https://money.usnews.com/investing/news/articles/2026-08-11/toyota-to-recall-over-508-000-us-vehicles-over-instrument-cluster-display-issues
 - 2026-08-12 | 特斯拉7月中国交付27,249辆同比降32.91%，上海工厂1-7月出口29.53万辆同比+130.12%超2025全年 | https://cnevpost.com/2026/08/12/tesla-jul-china-deliveries-shanghai-exports/
-- 2026-08-12 | 国产电池级碳酸锂现货价连涨6日报14.8万元/吨，期货主力合约盘中涨超3%至14.98万元/吨 | https://www.stcn.com/article/detail/4072088.html
 - 2026-08-12 | 比亚迪AI团队发布自动驾驶世界模型HyWorldVLA，NAVSIM v1基准获90.59分刷新历史最高 | https://finance.sina.com.cn/tech/digi/2026-08-12/doc-ininaezp3995094.shtml
-- 2026-08-12 | 比亚迪2027款海豹06官方售价公布9.99万-15.59万元，替代此前预扣价10.5万-14.5万元 | https://carnewschina.com/2026/08/12/the-2027-byd-seal-06-launches-in-china-featuring-flash-charging-and-disus-c-starting-from-14700-usd/
 - 2026-08-12 | 中国7月汽车出口104.3万辆同比+81.3%，新能源出口55.3万辆同比+145.5%占比过半 | http://news.china.com.cn/2026-08/12/content_118644529.shtml
 - 2026-08-12 | 中国电解铜箔龙头绿田新能源以每ADS22美元定价IPO并在纽交所挂牌，募资约9430万美元 | https://www.investing.com/news/stock-market-news/londian-wason-prices-ipo-at-22-per-ads-raising-943-million-432SI-4853632
 - 2026-08-13 | 福特因中国产车赴美关税达52.5%，宣布停止从中国进口林肯航海家(Nautilus)SUV，转产美国本土 | https://www.guancha.cn/internation/2026_08_13_827114.shtml
 - 2026-08-13 | 中国7月新能源汽车新车销量占比首次突破60%(60.4%)，前7个月累计占比首次过半 | https://finance.eastmoney.com/a/202608133839530331.html
-- 2026-08-13 | 7月中国新能源汽车出口车企份额比亚迪领跑32.2%，特斯拉升至第三12.3% | https://cnevpost.com/2026/08/13/automakers-share-china-nev-exports-jul-2026/
 - 2026-08-13 | 现代汽车工会8月12/13日如期各进行4小时部分罢工，14/18日将升级至6小时，谈判仍胶着 | https://en.sedaily.com/finance/2026/08/12/hyundai-motor-union-extends-strike-aug-12-18-as-losses-mount
-- 2026-08-13 | 碳酸锂期货主力合约涨2.97%至14.97万元/吨，现货SMM均价涨至14.8万元/吨，另一口径(MMLC)现货报价同日下跌 | https://finance.sina.com.cn/money/future/fmnews/2026-08-13/doc-ininctay0122209.shtml
-- 2026-08-13 | 比亚迪秦MAX晚间正式上市，主打闪充技术+第二代刀片电池，可选装天神之眼B激光雷达 | https://cnevpost.com/2026/08/12/byd-qin-max-launch-aug-13/
 - 2026-08-13 | 比亚迪海狮08开启盲订，纯电CLTC续航最高900km，EV版25万-28万元/DM-i版23万-26万元 | https://cnevpost.com/2026/08/13/byd-opens-pre-orders-sealion-08-suv/
-- 2026-08-13 | 起亚第二代赛图斯(Seltos)入华开启限时预售，8.09万-12.09万元 | https://finance.sina.com.cn/tech/digi/2026-08-13/doc-ininctay0156121.shtml
 - 2026-08-13 | 一汽红旗天工07正式亮相，中大型轿车对标领克10/小鹏P7，8月21日成都车展展示，下半年上市 | https://auto.cnfol.com/xincheshangshi/20260813/32333772.shtml
-- 2026-08-13 | 美国对加拿大第338条50%关税(8月19日生效)谈判陷入胶着，加方警告或致谈判中止，部长勒布朗再赴华盛顿磋商 | https://www.bnnbloomberg.ca/tariffs/2026/08/13/minister-leblanc-in-washington-again-today-as-tariff-deadline-nears/
-- 2026-08-13 | 铜箔龙头绿田新能源纽交所首日交易大涨，据媒体报道开盘上涨约18%，公司估值超17亿美元 | https://www.prnewswire.com/news-releases/londian-wason-raises-94-3-million-ahead-of-trading-debut-nyse-content-update-302849721.html
-- 2026-08-13 | 转向系统供应商耐世特公布2026上半年营收23亿美元创纪录，同比+4% | https://www.prnewswire.com/apac/news-releases/nexteer-reports-record-first-half-2026-results-302849481.html
 - 2026-08-14 | 现代汽车工会同意8月18日重启第16轮薪资谈判，原定当日6小时罢工暂缓 | https://biz.heraldcorp.com/article/10841913
-- 2026-08-14 | 起亚工会收到公司首份薪资方案，未启动罢工维持光复节假期生产 | https://news.nate.com/view/20260814n21306
 - 2026-08-14 | 理想L6累计交付突破40万辆，创20万元以上级别增程车最快达成纪录 | https://finance.sina.com.cn/tech/roll/2026-08-14/doc-ininhaiu2687288.shtml
-- 2026-08-14 | 上汽大众被曝内部匿名长文《置身众内》，官方回应"严重失实" | https://finance.sina.com.cn/tech/roll/2026-08-14/doc-ininhaiv9463921.shtml
 - 2026-08-14 | 宁德时代建夏窝锂矿复产归期仍未定，持续搅动中国碳酸锂期货市场 | https://www.bloomberg.com/news/articles/2026-08-14/catl-mine-s-unclear-future-clouds-china-s-nascent-lithium-market
-- 2026-08-14 | 国内碳酸锂期货早盘/午盘延续涨势，涨幅超2% | https://finance.eastmoney.com/a/202608143841566043.html
-- 2026-08-14 | 刚果金禁令发酵，LME铜现货升水/价差扩大至2021年逼仓以来最高 | https://www.bloomberg.com/news/articles/2026-08-14/copper-crunch-worsens-as-key-spread-heads-for-highest-since-2021
-- 2026-08-14 | 宁德时代宣布年内建成全球百城电池维修网络，维修成本降至十分之一 | https://carnewschina.com/2026/08/14/catl-plans-global-100-city-ev-battery-repair-network-by-end-of-2026/
 - 2026-08-14 | Uber与小马智行扩大合作，计划在欧洲部署超2000辆Robotaxi并延伸至中东 | https://www.cnbc.com/2026/08/14/uber-partners-with-chinas-ponyai-for-2000-robotaxis-in-europe.html
 - 2026-08-14 | 长城魏牌V8X正式上市，超级Hi4混动，CLTC续航1659km，22.68万-30.28万元起 | https://finance.sina.com.cn/tech/digi/2026-08-14/doc-ininhxpm9305346.shtml
-- 2026-08-14 | 荣威家越07全球首秀并开启盲订，搭载Momenta R7世界模型智驾 | http://auto.cnfol.com/xincheshangshi/20260813/32333931.shtml
-- 2026-08-14 | 吉利银河TT后驱版开启预售，14.59万-16.99万元 | https://k.sina.com.cn/article_1958119891_74b689d302701uzeo.html
-- 2026-08-14 | 全新红旗H7开启预售，19.18万-23.18万元，鸿鹄混动系统 | https://auto.sina.com.cn/newcar/x/2026-08-14/detail-inineywf3252237.shtml
-- 2026-08-14 | 美国-加拿大第338条关税谈判持续拉锯，8/19生效期限未变 | https://www.bnnbloomberg.ca/tariffs/2026/08/13/leblanc-says-well-have-as-many-meetings-as-it-takes-as-canada-us-trade-talks-continue/
 - 2026-08-14 | 欧盟汽车循环经济新规正式生效，设定再生塑料强制配额并限制报废车出口 | https://environment.ec.europa.eu/news/new-rules-more-circular-european-automotive-sector-2026-08-12_en
 - 2026-08-14 | 通用/福特/Stellantis就USMCA本土成分门槛拟提至50%向白宫警示成本冲击 | https://www.claimsjournal.com/news/national/2026/08/14/339546.htm
-- 2026-08-14 | 特斯拉股价收涨3.65%至339.96美元，"持有"评级分析师已超"买入"但目标价仍上调 | https://247wallst.com/investing/2026/08/13/more-analysts-say-hold-than-buy-on-tesla-the-price-target-went-up-anyway/
-- 2026-08-14 | 龙电华鑫(绿田新能源)纽交所上市后股价站稳发行价上方，日高较发行价+29% | https://www.prnewswire.com/news-releases/londian-wason-raises-94-3-million-ahead-of-trading-debut-nyse-content-update-302849721.html
-- 2026-08-14 | 中国汽车系统(CAAS)公布2026上半年业绩，净利润同比+98.8% | http://www.prnewswire.com/news-releases/china-automotive-systems-record-earnings-per-share-rose-98-in-the-first-half-of-2026-302850301.html
 - 2026-08-15 | 宁德时代宜春枧下窝锂矿环评8月7日完成公示，据报道有望今年四季度复产 | https://www.jiemian.com/article/14612967.html
 - 2026-08-15 | 加州CPUC批准Waymo将Robotaxi运营范围扩大至18个县、近250座城市，为该州最大规模自动驾驶扩张审批 | https://electrek.co/2026/08/14/waymo-cpuc-approval-california-expansion-18-counties/
 - 2026-08-15 | 岚图追光S正式上市，全系标配华为乾崑智驾四激光雷达方案，限时22.39万-27.39万元 | http://auto.cnfol.com/xincheshangshi/20260815/32336221.shtml
-- 2026-08-15 | 美国对加拿大第338条50%关税8月19日大限逼近，双方谈判陷入僵局，加方称协议"差得远" | https://www.nbd.com.cn/articles/2026-08-15/4542959.html
 - 2026-08-15 | 捷豹路虎公布2026/27财年Q1业绩：营收60亿英镑降9.6%，税前利润1.09亿英镑暴跌68.9% | https://media.jaguarlandrover.com/news/2026/08/notice-release-jaguar-land-rover-automotive-plc-q1-fiscal-202627-results
-- 2026-08-16 | 国内碳酸锂期货主力合约上涨2.24%，现货价格同步反弹，延续8月以来涨势 | https://futures.cngold.org/ruanjian/c10030040.html
 - 2026-08-16 | 加美第338条关税谈判消息人士称加拿大考虑接受10%-15%汽车关税换取撤销反制关税方案，双方拟8月17日向特朗普提交联合方案 | https://www.theglobeandmail.com/world/us-politics/article-ottawa-weighs-proposal-on-auto-tariffs-as-it-presses-us-for-reprieve/
 - 2026-08-17 | 吉利汽车李书福辞任董事会主席由安聪慧接任，淦家阅任新CEO，同日中期业绩核心净利润96.8亿元同比+46% | https://finance.sina.com.cn/jjxw/2026-08-17/doc-ininrqsk9014239.shtml
 - 2026-08-17 | 现代汽车工会暂缓8月18日部分罢工，劳资将于8月18日下午2点重启第16轮正式谈判 | https://www.mt.co.kr/industry/2026/08/17/2026081713443952014
 - 2026-08-17 | 小米汽车SU7系列上市28.5个月累计交付突破50万台 | https://finance.sina.com.cn/jjxw/2026-08-17/doc-ininreap6953663.shtml
 - 2026-08-17 | LME铜价逼近历史高点，现货升水扩大至543.5美元/吨为2021年逼仓以来最大 | https://www.bloomberg.com/news/articles/2026-08-17/copper-heads-toward-record-high-on-lme-as-supply-tensions-build
-- 2026-08-17 | 宁德时代宜春枧下窝锂矿采矿项目环评获"拟受理"公示，公示期8月17-28日 | https://www.stcn.com/article/detail/4081656.html
-- 2026-08-17 | 国内碳酸锂期货主力合约触及15.75万元/吨，较月内低点上涨超17% | https://www.stcn.com/article/detail/4079908.html
 - 2026-08-17 | 大众中国CARIAD与地平线合资酷睿程ADAS系统三季度起在7款新车型落地，2027下半年交付首个L3 | https://technode.com/2026/08/17/volkswagen-china-to-roll-out-full-scenario-driver-assistance-across-three-joint-ventures/
 - 2026-08-17 | 比亚迪方程豹官宣8月18日发布泰7 DM长续航版 | https://cnevpost.com/2026/08/17/byd-fang-cheng-bao-launch-long-range-tai-7-dm-aug-18/
 - 2026-08-17 | 比亚迪旗舰轿车"大汉"确认8月21日成都车展预售，纯电CLTC续航最高1008km | http://auto.cnfol.com/xincheshangshi/20260817/32337115.shtml
 - 2026-08-17 | 宝马发布2027款国产X3官图，成都车展首发、9月开启交付 | https://finance.sina.com.cn/tech/digi/2026-08-17/doc-ininqtns0334414.shtml
 - 2026-08-17 | 小鹏G9L首批展车到店119家门店，预售价确认25.98万元起 | https://carnewschina.com/2026/08/17/xpeng-g9l-arrived-at-119-stores-in-china-ahead-of-launch/
 - 2026-08-17 | 美加第338条关税谈判：LeBlanc与Greer视频会谈"建设性"但未达协议，美方要价加征15%汽车关税，8/19大限临近 | https://www.cbc.ca/news/politics/canada-trump-tariffs-trade-deal-negotiation-sectoral-relief-lumber-auto-steel-9.7309039
-- 2026-08-17 | 特斯拉股价8月17日开盘约342.27美元，中国批发销量连涨9个月支撑股价，但Q2营业利润率降至1.4% | https://247wallst.com/investing/2026/08/17/tesla-stock-is-climbing-again-and-these-6-catalysts-could-push-it-higher/
+- 2026-08-17 | 吉利汽车2026年出口目标从64万辆上调至92万辆，冲刺全年销量100万辆 | https://www.nbd.com.cn/articles/2026-08-17/4544281.html
 - 2026-08-18 | 现代汽车工会第16轮薪资谈判破裂，决定19-20日部分罢工、21日8小时全面罢工(10年来首次)并赴首尔总部抗争 | https://www.mt.co.kr/industry/2026/08/18/2026081818142342330
 - 2026-08-18 | 起亚工会拒绝资方第二份薪资方案，8月19日续谈第10轮 | https://www.edaily.co.kr/News/Read?newsId=04674006645548632
-- 2026-08-17 | 吉利汽车2026年出口目标从64万辆上调至92万辆，冲刺全年销量100万辆 | https://www.nbd.com.cn/articles/2026-08-17/4544281.html
 - 2026-08-18 | 特斯拉上海超级工厂第600万个电池包下线，500万到600万仅耗时约9个月 | https://finance.sina.com.cn/tech/roll/2026-08-18/doc-inintpiu3333899.shtml
 - 2026-08-18 | LME铜"隔夜/次日"价差飙升至110美元/吨，为2021年逼仓以来最高 | https://www.bloomberg.com/news/articles/2026-08-18/supply-crunch-grips-copper-market-as-key-spread-flares-out
 - 2026-08-18 | 国产电池级碳酸锂现货(MMLC口径)早盘报15.375万元/吨，涨1000元/吨 | https://www.cls.cn/detail/2456850
@@ -142,18 +90,38 @@
 - 2026-08-18 | 美加第338条关税谈判核心分歧转向零部件原产地扣除范围，卡尼与特朗普通话，仍未达成协议 | https://www.bloomberg.com/news/articles/2026-08-17/trump-tariffs-on-canada-auto-rules-block-deal-before-aug-19-deadline
 - 2026-08-18 | 小米集团Q2财报：汽车业务收入239亿元，交付10.42万辆同比+28.2%，经营亏损收窄至约3亿元 | https://finance.sina.com.cn/tech/roll/2026-08-18/doc-ininttrk8596804.shtml
 - 2026-08-18 | 浦林成山中期业绩：营收57.86亿元同比+1.42%，净利润4.14亿元同比-18.5% | http://sc.stock.cnfol.com/gushizhibo/20260818/32338912.shtml
+- 2026-08-19 | 现代汽车工会19-20日部分罢工如期举行，21日将进行8小时全面罢工(10年来首次)，预计到8/25损失约6.2万辆产量、2.6万亿韩元 | https://www.koreatimes.co.kr/business/companies/20260819
+- 2026-08-19 | 起亚工会拒绝资方第二次薪资方案(基本工资涨9.5万韩元+绩效奖350%+1150万韩元+45股)，宣布拒绝加班施压 | https://www.edaily.co.kr/News/Read?newsId=04674006645548632
+- 2026-08-19 | 东风、Stellantis等六方出资81.95亿元注册成立"神龙汽车科技(武汉)"，作为"新神龙"运营主体，2027年投产新能源车 | https://finance.sina.com.cn/tech/digi/2026-08-19/doc-ininvmyw2746017.shtml
+- 2026-08-18 | 零跑借力Stellantis渠道，B10/C10增程版车型登陆阿根廷，设12个销售网点/20个售后中心 | https://www.nbd.com.cn/articles/2026-08-18/4545415.html
+- 2026-08-19 | LG新能源美国密歇根Lansing电池工厂正式投产，年产能超35GWh，客户含丰田 | https://www.manilatimes.net/2026/08/18/tmt-newswire/pr-newswire/lg-energy-solution-announces-start-of-production-at-all-new-lansing-battery-plant/2407865
+- 2026-08-19 | 国内碳酸锂期货转跌，报15.165万元/吨较前一交易日跌1.21%，此前连涨行情出现转折 | https://tradingeconomics.com/commodity/lithium
+- 2026-08-19 | 比亚迪二代刀片电池+兆瓦闪充首次外供，联合一汽弗迪获一汽红旗新一代纯电平台定点 | https://finance.sina.com.cn/tech/digi/2026-08-19/doc-ininvwqt9424203.shtml
+- 2026-08-19 | 文远知行与小马智行Q2财报对比：文远营收2.32亿元(+82%)毛利率37.5%明显高于小马(营收2.46亿元+68.8%) | https://finance.sina.com.cn/tech/roll/2026-08-19/doc-ininvwqt9391088.shtml
+- 2026-08-19 | 特斯拉奥斯汀新增80个无线充电位租赁点为Cybercab车队铺垫，公开首发计划仍为The Information单源未证实 | https://www.teslaoracle.com/2026/08/19/
+- 2026-08-19 | 比亚迪方程豹钛7 DM长续航版正式定价19.58万-22.58万元 | https://finance.sina.com.cn/tech/roll/2026-08-19/doc-ininvshu2701075.shtml
+- 2026-08-19 | 东风奕境(与华为合作)首款车型X9开启全国预售，29.98万-37.98万元，全系四激光雷达+乾崑ADS5 | https://cnevpost.com/2026/08/19/epicland-pre-sales-first-model-x9/
+- 2026-08-19 | 广汽埃安全新"钥"系列首车Ray 7全球首发，搭载华为180kW电机与"超级底盘"，价格未公布 | https://cnevpost.com/2026/08/16/gac-aion-debut-ray-7-aug-19-2026/
+- 2026-08-19 | 智己全新一代L6开启预售21.99万-27.99万元，另推Jimmy Choo联名限量版 | https://cnevpost.com/2026/08/18/im-motors-pre-sales-revamped-l6/
+- 2026-08-19 | 特朗普宣布暂缓对加拿大第338条50%关税(含汽车)3天，称双方"已达成协议"待文件敲定，卡尼证实同意暂缓但未称最终协议 | https://www.bloomberg.com/news/articles/2026-08-19/trump-pauses-50-canada-tariffs-for-three-days-subject-to-a-deal-mszgvwa3
+- 2026-08-19 | 暂缓截止日期矛盾说法：中文媒体称8月21日，卡尼表态经英文媒体援引为8月22日 | https://www.tribuneindia.com/news/canada-deal/trump-pauses-50-canada-tariffs-for-three-days-says-us-and-canada-have-a-deal
+- 2026-08-19 | 汽车关税税率谈判：美方拟降至15%(附加条件下或至7.5%)，加方要求10%且争取全北美原产零部件扣除 | https://www.bloomberg.com/news/articles/2026-08-17/trump-tariffs-on-canada-auto-rules-block-deal-before-aug-19-deadline
+- 2026-08-19 | 赛力斯半年报：营收降7.87%至574.93亿元，由盈转亏净亏17.17亿元，问界上半年交付增速放缓至+10.2%；港股盘中创上市以来新低40.06港元 | https://finance.sina.com.cn/stock/bxjj/2026-08-19/doc-ininwawm6991469.shtml
+- 2026-08-19 | 吉利汽车银河品牌上半年仅完成年度销量目标33%，345万辆总目标仅完成4成，存货周转天数延续上升 | https://finance.sina.com.cn/stock/observe/2026-08-19/doc-ininvwqs2656558.shtml
+- 2026-08-18 | 福耀玻璃半年报：净利润同比降17.37%至39.70亿元，主因汇兑损失8.03亿元，剔除汇兑影响实为+4.78% | https://www.nbd.com.cn/articles/2026-08-18/4545337.html
+- 2026-08-19 | 高合汽车(华人运通)预重整期内恢复售后服务，授权悦达智行采购零部件 | https://www.yicai.com/news/102236938.html
 
 ## 3. 进行中事件表
 
-- 事件：美国对加拿大第338条关税(50%)及USMCA/临时协议谈判 | 最后进展日期：2026-08-18 | 下一步关注点：8月19日生效大限已至，核心分歧已细化为零部件原产地扣除范围(美方仅认"美国原产"、加方要求"全北美")，加拿大总理卡尼8月17日与特朗普通话，关税最终税率存在15%/10%/12.5%等矛盾说法(12.5%为Benzinga单源)；下次运行重点核实：关税是否已如期于19日生效/推迟/取消，最终税率与扣除规则的官方确认版本
-- 事件：现代汽车工资谈判与罢工升级 | 最后进展日期：2026-08-18 | 下一步关注点：第16轮谈判8月18日破裂后，工会定于19-20日每日部分罢工(各4小时)、21日实施8小时全面罢工(10年来首次全面罢工)并赴首尔总部抗争；下次运行重点核实：全面罢工是否如期于21日举行、公司是否推出新方案、政府是否介入调解；起亚工会8月19日第10轮谈判结果
-- 事件：Uber与小马智行(Pony.ai)欧洲Robotaxi扩张 | 最后进展日期：2026-08-18 | 下一步关注点：小马智行Q2财报披露与Uber等海外伙伴洽谈中的Robotaxi总数已超4000辆(此前披露为"超2000辆")，车队规模1975辆，全年目标上调至3500辆以上；具体部署城市名单(除已运营的萨格勒布外)及中东市场时间表仍未公布，下次运行重点核实
-- 事件：宁德时代宜春枧下窝锂矿复产 | 最后进展日期：2026-08-18 | 下一步关注点：环评"拟受理"公示期(8/17-8/28)持续中；国内碳酸锂现货(MMLC口径)本期续涨至15.375万元/吨，期货主力合约本期未查到突破15.75万元/吨新高的确认数据；下次运行重点核实公示期结束后的专家评审及采矿权证批文进度，能否如期四季度复产
-- 事件：刚果(金)铜钴矿出口禁令 | 最后进展日期：2026-08-18 | 下一步关注点：LME铜"隔夜/次日"价差本期飙升至110美元/吨(2021年逼仓以来最高)，全球仓库库存较5月中旬已减半，供给紧张持续发酵；宁德时代/比亚迪弗迪等电池厂钴原料采购成本影响仍无官方表态，下次运行继续核实
-- 事件：特斯拉Cybercab奥斯汀公开首发 | 最后进展日期：2026-08-17(The Information独家，单源) | 下一步关注点：特斯拉计划最快8月内在奥斯汀公开推出无方向盘/无踏板Cybercab，先安排员工公开道路试乘、随后并入现有Robotaxi车队；下次运行重点核实是否已实际首发、是否延期、以及第二信源交叉验证
-- 事件：比亚迪方程豹钛7 DM长续航版定价 | 最后进展日期：2026-08-18 | 下一步关注点：8月18日晚发布会已举行但截至检索时官方价格尚未公布，下次运行核实正式售价与续航参数
-- 事件：特斯拉FSD入华定价与股价走势 | 最后进展日期：2026-08-17(股价)/2026-08-10(FSD定价) | 下一步关注点：中国大陆FSD订阅定价传闻(949元/月)本期仍未等到官方口径(维持一次性买断)；韩国订阅制8月21日能否如期上线(信源对上线日期存在矛盾，8/10生效与8/21生效两种说法并存)；Q3中国大陆FSD全量商用许可目标本期无新表态；本期连续第2次未查到该子事件窗口内新进展
-- 事件：小米汽车"澎程"N90Max/N70Max上市定价 | 最后进展日期：2026-08-14(确认8/21-30成都车展参展阵容) | 下一步关注点：9月正式上市发布会最终定价与配置；标准版/Pro版信息仍未公布；本期连续第4次未查到窗口内新进展(小米集团Q2财报仅披露整体汽车业务数字，未涉及该新车型定价)
-- 事件：大众/奔驰/保时捷/宝马裁员扩大至白领管理层 | 最后进展日期：2026-08-11 | 下一步关注点：宝马自愿离职方案(4万白领，执行期2026年10月-2027年底，目标裁减约8000个岗位)10月执行启动进度；奥迪具体执行时间表(2027年前减6000人，2029年底前再减1500人)；保时捷9000岗位方案(至2035年)落地进展；本期连续第3次未查到窗口内新进展
-- 事件：赛力斯"问界退潮" | 最后进展日期：2026-08-10 | 下一步关注点：新品牌AIVA(赛豆科技，联合字节跳动火山引擎打造)首款车型AIVA ME7放量节奏与定价(定价说法存在矛盾，一说10万-20万元、一说全系20万元以上)，港股市值能否止跌；本期连续第4次未查到窗口内新进展
-- 事件：Uber游说Robotaxi人车混合网络监管(DC) | 最后进展日期：2026-08-06 | 下一步关注点：华盛顿特区市议会《2026年自动驾驶车辆部署授权修正法案》(B26-0684)预计今秋才会最终表决，需持续关注表决日程；本期未安排专项检索(资源优先分配至其他事件)，状态原样保留，若8月20日前仍无进展将移出
+- 事件：美国对加拿大第338条关税(50%)及USMCA/临时协议谈判 | 最后进展日期：2026-08-19 | 下一步关注点：原定8月19日生效前不到2小时被特朗普宣布暂缓3天，双方称"已达成协议"但待文件敲定，暂缓截止日期存在【矛盾】说法(8/21 vs 8/22)；汽车关税税率仍未定案(美方15%/加方10%，附加条件下或7.5%)；下次运行重点核实：暂缓期是否如期结束、最终协议是否正式签署、汽车关税最终税率及零部件原产地扣除规则的官方确认版本
+- 事件：现代汽车工资谈判与罢工升级 | 最后进展日期：2026-08-19 | 下一步关注点：19-20日部分罢工已如期举行，21日计划8小时全面罢工(10年来首次)，另追加下周一二罢工延长至5天，预计8/25损失约6.2万辆/2.6万亿韩元；下次运行重点核实：21日全面罢工是否如期举行、公司是否推出新方案、政府是否介入调解
+- 事件：起亚工资谈判 | 最后进展日期：2026-08-19 | 下一步关注点：工会已拒绝资方第二次方案并启动拒绝加班施压，尚未罢工；下次运行核实是否达成协议或升级至罢工
+- 事件：宁德时代宜春枧下窝锂矿复产 | 最后进展日期：2026-08-17(环评公示期起始) | 下一步关注点：环评"拟受理"公示期(8/17-8/28)持续中，本期未查到专家评审或采矿权证批文进度；国内碳酸锂期货本期由涨转跌(15.165万元/吨，-1.21%)；下次运行重点核实公示期结束后的审批进度，能否如期四季度复产；本期连续第1次未查到该子事件实质新进展
+- 事件：刚果(金)铜钴矿出口禁令 | 最后进展日期：2026-08-19 | 下一步关注点：LME铜tom-next价差走阔至75美元/吨升水(1月以来最高)、cash/3m价差545美元/吨升水，现货紧张持续加剧；宁德时代/比亚迪弗迪等电池厂钴原料采购成本影响本期仍无官方表态，下次运行继续核实
+- 事件：特斯拉Cybercab奥斯汀公开首发 | 最后进展日期：2026-08-19(基础设施细节)/2026-08-17(The Information独家，单源) | 下一步关注点：本期新增奥斯汀80个无线充电位租赁点细节，但公开首发本身仍无第二信源交叉验证、也未实际首发；下次运行重点核实是否已实际首发、是否延期、以及第二信源验证；本期连续第1次未查到首发本身的实质新进展
+- 事件：特斯拉FSD入华定价 | 最后进展日期：2026-08-10 | 下一步关注点：中国大陆949元/月订阅定价传闻本期仍未等到官方口径(维持一次性买断)；小米集团Q2财报电话会提及"澎程"系列预计9月上市，与FSD定价无直接关联；本期连续第3次未查到该子事件窗口内新进展
+- 事件：小米汽车"澎程"N90Max/N70Max上市定价 | 最后进展日期：2026-08-14(确认8/21-30成都车展参展阵容) | 下一步关注点：9月正式上市发布会最终定价与配置；标准版/Pro版信息仍未公布；本期连续第5次未查到窗口内新进展
+- 事件：大众/奔驰/保时捷/宝马裁员扩大至白领管理层 | 最后进展日期：2026-08-11 | 下一步关注点：宝马自愿离职方案(4万白领，执行期2026年10月-2027年底，目标裁减约8000个岗位)10月执行启动进度；奥迪具体执行时间表；保时捷9000岗位方案(至2035年)落地进展；本期连续第4次未查到窗口内新进展
+- 事件：Uber与小马智行(Pony.ai)欧洲Robotaxi扩张 | 最后进展日期：2026-08-18 | 下一步关注点：具体部署城市名单(除已运营的萨格勒布外)及中东市场时间表本期仍未公布；本期连续第1次未查到该子事件窗口内新进展
+- 事件：吉利汽车银河品牌销量目标完成度 | 最后进展日期：2026-08-19 | 下一步关注点：银河品牌上半年仅完成年度目标33%，存货周转天数持续上升，345万辆全年目标仅完成4成；下次运行核实下半年冲刺举措及库存去化进展
+- 事件：Uber游说Robotaxi人车混合网络监管(DC) | 最后进展日期：2026-08-06 | 下一步关注点：华盛顿特区市议会《2026年自动驾驶车辆部署授权修正法案》(B26-0684)预计今秋才会最终表决，本期已定向核实仍无新进展(连续第2次)；若下次运行(8月20日前后)仍无进展将移出
