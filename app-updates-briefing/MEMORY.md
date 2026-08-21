@@ -2,10 +2,10 @@
 
 ## 1. 本次运行时刻与实际覆盖窗口
 
-- 本次运行时刻:2026-08-14 12:50 UTC
-- 上次运行时刻:2026-08-13 12:14 UTC
-- 实际覆盖窗口:2026-08-13 12:14 UTC 至 2026-08-14 12:50 UTC(正常窗口)
-- 本期 VSCode / Claude App / 生态与社区动向三个方向检索均正常完成。VSCode:GitHub Releases 核实,最新版本仍为 1.133.0(2026-08-12 09:41 UTC,发布于窗口开启前,已在此前窗口报告),窗口内无 1.133.1 或更新版本,亦无新 Insiders 预览功能披露,故本期省略 VSCode 板块。Claude App:确认 Claude Code v2.1.232(2026-08-13 23:29 UTC,含 subagent fork 默认开启、跨会话 @提及、GitLab 密钥脱敏与插件市场支持等约49项改动)落在窗口内,已收录;Auto Mode 于今日(8/14)起如期对 Pro/Max/Team 默认开启,作为续报收录(原公告 2026-08-07 已报告,不重复细节)。另检索到 Anthropic 发布"Claude Tag now reads even more of the room"(Slack 集成上下文感知增强,2026-08-13)与"Claude Cowork on web and mobile"(2026-07-07 旧闻,非本窗口)两篇博客,前者判定为 Claude Tag(Claude in Slack)产品线,不属于本任务"Claude Code/Claude Desktop/claude.ai网页移动端"覆盖范围,予以排除;"Compliance API coverage extends to Claude Cowork and Claude Code"博客核实为 2026-08-11 已报告事件的博客版本,同一事件不重复收录。生态与社区动向:本期未发现新的直接相关第三方事件;进行中事件表中 Agent Plugins 条目本期第6次定向复查(检索 Anthropic 官方博客/Newsroom、Claude Code Changelog v2.1.232、官方及第三方报道),仍未发现 Anthropic 官方回应或采用该标准的公告,故本期省略生态板块正文,仅保留跟踪表。
+- 本次运行时刻:2026-08-21 12:45 UTC
+- 上次运行时刻:2026-08-14 12:50 UTC
+- 实际覆盖窗口:2026-08-14 12:50 UTC 至 2026-08-21 12:45 UTC(正常窗口)
+- 本期 VSCode / Claude App / 生态与社区动向三个方向检索均正常完成。VSCode:GitHub Releases 核实,1.134 正式版于 2026-08-19 发布(Agent Host 跨窗口会话分组/共享、prompt 时间线、在聊天中查找、集成浏览器设为 HTML 默认预览),落在窗口内,已收录。Claude App:核实 Claude Code v2.1.233(2026-08-14 22:20,晚于上次窗口截止,含 Windows NTLM 凭据泄露修复、新模型默认移除 Todo 工具等)、v2.1.234(08-17)、v2.1.235(08-18)、v2.1.236(08-19)、v2.1.237/v2.1.238(08-20)共 6 个版本落在窗口内,已按主题合并为 3 条收录;另核实 Claude Desktop v1.34493.0(08-20,macOS 多项崩溃/调度修复)落在窗口内已收录。Claude Platform release notes(platform.claude.com)本期新增条目(computer use/browser use 工具转 GA、Files API/Agent Skills API 转 GA、Playground 更名、Managed Agents 相关功能)判定为纯 Claude API/Managed Agents 开发者平台特性,与本任务"Claude Code/Claude Desktop/claude.ai 网页移动端"范围无直接关系,予以排除(与历次运行口径一致,该类条目此前也从未收录)。生态与社区动向:本期未发现与 VSCode/Claude App 直接相关的新第三方事件;进行中事件表中 Agent Plugins 条目本期第7次定向复查(检索 Anthropic 官方博客/Newsroom、Claude Code Changelog(至 v2.1.238)、官方及第三方报道),仍未发现 Anthropic 官方回应或加入该标准指导委员会的公告;检索到第三方媒体 The New Stack 一篇分析文章质疑 Anthropic 未加入五方指导委员会,但属第三方解读非官方声明,不计入进展,故本期省略生态板块正文,仅保留跟踪表。
 
 ## 2. 已报条目清单(最近 21 天)
 
@@ -31,9 +31,16 @@
 - 2026-08-13 | Claude Code v2.1.231 发布,修复 MCP OAuth 对预注册 OAuth 客户端(如 Slack)redirect URI 不匹配问题 | https://github.com/anthropics/claude-code/releases/tag/v2.1.231
 - 2026-08-13 | Claude Code v2.1.232 发布,新增 subagent fork 默认开启、跨会话 @提及消息、GitLab 密钥脱敏与插件市场支持,修复 PowerShell/Windows Git Bash 权限绕过等约49项问题 | https://github.com/anthropics/claude-code/releases/tag/v2.1.232
 - 2026-08-14 | Claude Code Auto Mode 按原计划正式对 Pro/Max/Team 计划新会话默认开启 | https://claude.com/blog/auto-mode-default-in-claude-code
+- 2026-08-14 | Claude Code v2.1.233 发布,修复 Windows NT 设备路径绕过 UNC 校验的 NTLM 凭据泄露漏洞,新增 GitLab MR 支持,新模型默认移除 Todo 任务追踪工具 | https://github.com/anthropics/claude-code/releases/tag/v2.1.233
+- 2026-08-17 | Claude Code v2.1.234 发布,新增用量限额重置后自动续接会话与 GitLab MR 徽标 | https://github.com/anthropics/claude-code/releases/tag/v2.1.234
+- 2026-08-18 | Claude Code v2.1.235 发布,新增可选拼写检查设置 | https://github.com/anthropics/claude-code/releases/tag/v2.1.235
+- 2026-08-19 | Claude Code v2.1.236 发布,新增 ANTHROPIC_DEFAULT_MODEL 环境变量与跨会话消息空闲通知 | https://github.com/anthropics/claude-code/releases/tag/v2.1.236
+- 2026-08-19 | VS Code 1.134 正式版发布,Agent Host 支持跨窗口会话分组与共享、新增 prompt 时间线与"在聊天中查找" | https://code.visualstudio.com/updates/v1_134
+- 2026-08-20 | Claude Code v2.1.237/v2.1.238 发布,新增内置 Concise 输出风格与 keybindingFlavor 设置,修复长会话内存增长问题 | https://github.com/anthropics/claude-code/releases/tag/v2.1.238
+- 2026-08-20 | Claude Desktop v1.34493.0 发布,修复 macOS 启动卡死、周期任务日期错误、Touch ID 崩溃等问题 | https://claude.com/docs/cowork/changelog
 
 ## 3. 进行中事件表
 
-- 事件:Agent Plugins 跨客户端插件标准与 Claude Code 现有插件格式不兼容,Anthropic 未列入首发维护方名单;最后进展日期:2026-08-06;下一步关注点:等 Anthropic 是否跟进采用该标准、或对不兼容问题公开回应(2026-08-09、2026-08-10、2026-08-11、2026-08-12、2026-08-13、2026-08-14 六次窗口内定向检索——含官方博客/Newsroom、Claude Code Changelog(至 v2.1.232)、官方及第三方报道——仍未发现 Anthropic 官方回应;第三方社区解读称 Claude Code 插件系统与该标准事实上兼容/可转译安装、Anthropic 为 Cowork 单独设计了插件体系而非采用该联盟格式,但这仅是社区分析非官方声明,不计入进展)。
+- 事件:Agent Plugins 跨客户端插件标准与 Claude Code 现有插件格式不兼容,Anthropic 未列入首发维护方名单;最后进展日期:2026-08-06;下一步关注点:等 Anthropic 是否跟进采用该标准、或对不兼容问题公开回应(2026-08-09、08-10、08-11、08-12、08-13、08-14、08-21 七次窗口内定向检索——含官方博客/Newsroom、Claude Code Changelog(至 v2.1.238)、官方及第三方报道——仍未发现 Anthropic 官方回应或加入五方指导委员会的公告;本期新检索到第三方媒体 The New Stack 分析文章质疑此事,但仅是第三方解读非官方声明,不计入进展)。
 
 (已移出:MCP 2026-07-28 版本规范在 Claude 产品线的具体适配进展——官方博客发布于 2026-07-28 当日,此后连续 14 天(至 2026-08-11)定向检索均未发现具体版本号或时间表,按规则移出跟踪表;如后续 Anthropic 官宣适配细节,将重新收录并作为新事件报告。)
