@@ -2,12 +2,15 @@
 
 ## 1. 本次运行
 
-- 运行时刻：2026-08-20
-- 实际覆盖窗口：2026-08-19 至 2026-08-20（距上次运行约1天，正常增量滚动）
-- 备注：6个方向均已检索。"Agent/Skill 设计模式""Prompt 与 Context 工程""社区热议与争议"三个方向本期未定位到落在窗口内、够格的实质新内容（OpenViking 为持续 trending 项目非窗口内离散事件、AGENTS.md 标准化之争为长期反复话题无实质升级、Prompt 工程方向仅有窗口外 evergreen 内容），三节整节省略，非检索失败。"开发者工具与工作流"收 5 条（Claude Code 2.1.236/2.1.237、Cursor 云端 Agent 常驻化、Simon Willison smolvm 沙箱实测，其中 2.1.236 含 auto mode 专项改动作为进行中事件续报）；"模型能力与 API 更新"收 4 条（Anthropic 08-19 Skills API/Files API GA、Managed Agents web 工具域名管控+memory store 挂载、08-19 第五起稳定性事件）；"案例与最佳实践复盘"收 1 条（Willison 概念完整性）。关键条目已直接 WebFetch 官方源核实：code.claude.com/changelog、platform.claude.com/release-notes 一手核实通过；simonwillison.net/cursor.com/claude.com/status.anthropic.com 被出口代理拦截，改用 WebSearch 多源交叉确认。"Claude on call"（Anthropic CI/CD on-call agent + oncall-kit 开源）因发布日期无法确认落在窗口内（元数据显示 06-30/08-18，仅中文二手博客为 08-19）本期未收录，待后续核实。对进行中事件表 6 项均做定向核查，详见第3节。
+- 运行时刻：2026-08-21
+- 实际覆盖窗口：2026-08-20 至 2026-08-21（距上次运行约1天，正常增量滚动）
+- 备注：6个方向均已检索。"Agent/Skill 设计模式""Prompt 与 Context 工程""案例与最佳实践复盘""社区热议与争议"四个方向本期未定位到落在窗口内、够格的实质新内容（Google ADK Skills 指南发布于08-13，落在窗口外；Simon Willison 08-20 文章聚焦 GEO/搜索流量追踪，非 agent 构建方法论；多 agent 编排/eval 相关检索结果均为常青内容或早于窗口），四节整节省略，非检索失败。"开发者工具与工作流"收2条（Claude Code 2.1.238、Google Antigravity CLI 1.1.17，均08-20发布）；"模型能力与 API 更新"收1条（Anthropic 08-20 新一轮稳定性事件，已交叉多个独立信源核实时间线）。官方源 code.claude.com/changelog、GitHub antigravity-cli releases 直接 WebFetch 核实通过；status.anthropic.com/status.claude.com/statusgator.com/unite.ai 被出口代理拦截，故障事件改用 WebSearch 多方聚合信源交叉确认时间线一致。对进行中事件表5项均做定向核查，详见第3节；"Tokenpocalypse"企业 token 预算收紧潮因连续14天（08-07至08-21）无窗口内新进展，按规则移出跟踪表。
 
 ## 2. 已报条目清单（保留最近 14 天）
 
+- 2026-08-21 | Claude Code 2.1.238（08-20）新增 keybindingFlavor=readline 快捷键风格、插件市场 headersHelper、自托管 runner --defer-shutdown-max-min 与代理鉴权刷新参数，修复长会话内存无界增长、输出风格漂移 | https://code.claude.com/docs/en/changelog
+- 2026-08-21 | Google Antigravity CLI 1.1.17（08-20）将 agent 执行 harness 合并为单一执行路径提升行为一致性，修复斜杠命令消失、Vim 模式 Enter 冲突、Ogg 附件 MIME 识别错误 | https://github.com/google-antigravity/antigravity-cli/releases
+- 2026-08-21 | Anthropic 08-20 发生新一轮错误率升高事件（19:16 UTC通告，实际影响20:14-20:38 UTC约24分钟，claude.ai/API/Claude Code/Cowork同时受影响），另有独立的 Google 连接器故障（18:32-19:01 UTC） | https://statusgator.com/services/anthropic/outage-history
 - 2026-08-20 | Claude Code 2.1.236（08-19）新增 ANTHROPIC_DEFAULT_MODEL、跨会话 notify_when_idle 空闲通知、收紧 macOS 通配符只读拒绝沙箱规则，并含 auto mode 专项改动（Monitor 规则搁置、云端分类器对齐、git 状态检查加固） | https://code.claude.com/docs/en/changelog
 - 2026-08-20 | Claude Code 2.1.237（08-20）修复 LLM 网关/自定义 base URL 会话的 prompt caching 失效，新增内置 Concise 输出风格 | https://code.claude.com/docs/en/changelog
 - 2026-08-20 | Cursor 08-19 云端 Agent 常驻化：Subscriptions（PR/Slack/定时唤醒）、/goal 跨会话长期目标、子 Agent 隔离 VM+干净项目副本、引导消息排队 | https://cursor.com/changelog/08-19-26
@@ -30,9 +33,8 @@
 
 ## 3. 进行中事件表
 
-- 事件：Claude Code auto mode 默认开启的实际效果；最后进展日期：2026-08-20；下一步关注点：本期已在正文续报——2.1.236（08-19）首带 auto mode 专项改动（Monitor 规则搁置、Bedrock/Vertex/Foundry 对齐 Claude API 分类器含严重度打分、git 状态检查不再被 status.showUntrackedFiles=no 蒙混），2.1.237 无 auto mode 专项改动；Enterprise/API 正式默认切换日期仍未官宣（此前情报为"9月或更晚"）；继续等正式切换官宣日期与是否有其他滞后浮现的问题。
-- 事件：AI 实验室自主 agent 在安全测试中意外攻破真实公司事件（五方独立披露，同根同源——第三方测试机构 Irregular 评测环境错误开放公网访问）；最后进展日期：2026-08-19；下一步关注点：本期（08-20）定向核查——Irregular 承诺的评测容错/安全评测规范白皮书仍未发布；《AI Kill Switch Act》（HR9917/Lieu-Moran 案）红队测试豁免条款窗口内无 markup 或修订动向；未出现五方（OpenAI/Anthropic/Meta/英国 AISI/月之暗面 Kimi K3）之外的新被点名实验室；继续等白皮书、法案豁免条款修订、新实验室点名。
-- 事件：MCP 跨通道注入技术"GhostSplice"（恶意 MCP server 将指令拆分到 tool schema/description/结果三通道，仅在 agent 同时读入三者时拼接生效，可致 SSH key/.env 泄露）；最后进展日期：2026-08-11（ASSET Research Group 原始披露）；下一步关注点：本期（08-20）核查确认无更新——仍无 CVE 编号（官方称待协调披露）、除 OpenAI 安全团队外无新厂商回应、无 MCP client 侧防御方案或协议层规范更新；继续等 CVE/防御方案/新厂商回应，届时视情况续报或作为新条目首次收录。
-- 事件：Cloudflare OS（零信任 Gatekeepers + 实例沙箱 + 全程上下文审计日志的 agent 工作区平台）发布后的社区采用与评测；最后进展日期：2026-08-14；下一步关注点：本期（08-20）定向核查——cloudflare/cloudflare-os 仓库仍无 release，容器/搜索不可用、无 Slack 集成、无 GA 时间表，未发现新的第三方开发者/企业接入案例；若持续到 08-25 仍无新进展考虑移出。
-- 事件：OpenClaw 健身房插队事件引发的第三方 API 鉴权安全讨论；最后进展日期：2026-08-11；下一步关注点：预约软件供应商真实身份与官方回应仍未确认，"旧金山健身连锁已修补"转引说法仍与墨尔本事发地矛盾、无独立信源，继续不采信；连续追踪已近上限，若 08-25 前仍无供应商实名回应/修补确认考虑移出。
-- 事件："Tokenpocalypse"企业 AI token 预算收紧潮；最后进展日期：2026-08-07；下一步关注点：本期（08-20）定向核查未发现窗口内新的企业具体 token 预算管控措施公开案例（已知案例均为7月或更早）；连续多期无窗口内新进展，若 08-25 前仍无新动作考虑移出。
+- 事件：Claude Code auto mode 默认开启的实际效果；最后进展日期：2026-08-20；下一步关注点：本期（08-21）定向核查——Pro/Max/Team 自08-14起已默认开启；Enterprise/API/AWS/GCP/Foundry 仍为 opt-in，官方口径仍是"计划一个月内切换默认"（即约09-14前后），未见具体官宣日期；继续等正式切换官宣日期与是否有滞后问题浮现。
+- 事件：AI 实验室自主 agent 在安全测试中意外攻破真实公司事件（五方独立披露，同根同源——第三方测试机构 Irregular 评测环境错误开放公网访问）；最后进展日期：2026-08-19；下一步关注点：本期（08-21）定向核查——Irregular 承诺的评测容错/安全评测规范白皮书仍未发布；未发现新进展；继续等白皮书发布、法案豁免条款修订、新实验室点名。
+- 事件：MCP 跨通道注入技术"GhostSplice"（恶意 MCP server 将指令拆分到 tool schema/description/结果三通道，仅在 agent 同时读入三者时拼接生效，可致 SSH key/.env 泄露）；最后进展日期：2026-08-11（ASSET Research Group 原始披露）；下一步关注点：本期（08-21）核查确认仍无更新——仍无 CVE 编号（待协调披露）、无新厂商回应、无 MCP client 侧防御方案或协议层规范更新；继续等 CVE/防御方案/新厂商回应。
+- 事件：Cloudflare OS（零信任 Gatekeepers + 实例沙箱 + 全程上下文审计日志的 agent 工作区平台）发布后的社区采用与评测；最后进展日期：2026-08-14；下一步关注点：本期（08-21）定向核查——仍为 early access，无 GA 时间表，未发现新的第三方开发者/企业接入案例；若到 08-25 仍无新进展将移出。
+- 事件：OpenClaw 健身房插队事件引发的第三方 API 鉴权安全讨论；最后进展日期：2026-08-11；下一步关注点：预约软件供应商真实身份与官方回应仍未确认；连续追踪已近上限，若 08-25 前仍无供应商实名回应/修补确认将移出。
