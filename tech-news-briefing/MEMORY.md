@@ -2,25 +2,17 @@
 
 ## 1. 本次运行时刻与覆盖窗口
 
-- 本次运行：2026-08-20 约12:22（UTC）
-- 上次运行：2026-08-19 约12:22（UTC）
-- 间隔约24小时，未超7天封顶，窗口（2026-08-19 12:22 UTC – 2026-08-20 12:22 UTC）内容正常收录。
-- 检索状态：十个方向均已展开检索，全部方向均取得有效检索结果，判定为"完全成功"；系统更新、科技人物动态两个方向本轮检索未发现落在窗口内且此前未报道过的实质新内容，属正常情况（非检索失败），故本期简报省略对应空板块。
-- 说明（去重与分类调整）：小米REDMI M100上架消息因多信源对具体上架日期（8月18日/19日）存在冲突，且窗口边界（北京时间8/19 20:22起）敏感，未能确认是否落入窗口，本期未收录；北极雄芯新一轮融资消息发布时间戳无法确认是否晚于窗口起点，本期未收录；SHEIN港交所IPO招股启动日（8月19日或20日）多信源表述不一致，未见窗口内确认招股已正式启动的报道，本期未收录，待下轮定向核实；Google Play商店第三方应用商店整改（法院8月20日截止令）本轮未检索到"已完成整改"的确认报道，未作为新进展收录，已登记进事件表继续追踪。
-- 说明（进行中事件表核查与调整）：本轮对全部9条跟踪事件逐一做定向检索验证。事件2（Meta青少年安全诉讼）Bejar证词8月19日进入交叉盘问阶段，作为续报收录；事件9（Epic诉Google/Apple应用商店）新增谷歌整改截止日已到但未见合规确认、苹果与Epic无新增动作，维持追踪；其余7条事件本轮定向核查均无实质性新进展，保留待下次。事件表条目数维持9条。
+- 本次运行：2026-08-21 约12:24（UTC）
+- 上次运行：2026-08-20 约12:22（UTC）
+- 间隔约24小时，未超7天封顶，窗口（2026-08-20 12:22 UTC – 2026-08-21 12:24 UTC）内容正常收录。
+- 检索状态：十个方向均已展开检索，全部方向均取得有效检索结果，判定为"完全成功"；系统更新、新品发布、科技人物动态、开源软件、政策与监管五个方向本轮检索未发现落在窗口内且此前未报道过的实质新内容，属正常情况（非检索失败），故本期简报省略对应空板块。
+- 说明（去重与分类调整）：英伟达H200对华出货此前为8月19日单源消息（invezz），本轮经《金融时报》交叉证实（经Motley Fool转引），故本期升级为续报并去除【单源】标记；SpaceX与AST竞购Grain Management频谱、Cognition CEO否认SpaceX收购报道，均归入"投融资与并购"而非"科技人物动态"（内容主体为公司交易/否认，非马斯克个人动态）；Google Play第三方应用商店整改的法院8月20日截止期限已过，但本轮未检索到独立信源证实谷歌已完成整改，未作为实质新进展写入正文，已在事件表中更新关注点继续追踪。
+- 说明（进行中事件表核查与调整）：本轮对全部9条跟踪事件逐一做定向检索验证。事件1（苹果诉OpenAI）苹果已于8月19日正式提交回应反驳OpenAI的驳回动议，作为续报收录；事件9（Epic诉Google/Apple应用商店）谷歌整改截止日8月20日已过但未见合规确认，关注点更新；其余7条事件本轮定向核查均无实质性新进展，保留待下次。事件表条目数维持9条。
 
 ## 2. 已报条目清单（最近 14 天内）
 
-- 2026-08-06 | 苹果发布macOS Tahoe 26.6.1修复屏幕共享认证绕过漏洞CVE-2026-65400 | https://www.macrumors.com/2026/08/06/apple-releases-macos-tahoe-26-6-1/
-- 2026-08-06 | Chrome for Android推送新底部导航栏，新增Gemini入口按钮 | https://9to5google.com/2026/08/06/google-chrome-android-navigation-bar-gemini-button/
-- 2026-08-06 | 天水华天科技拟29.96亿元收购华羿微电子，8月13日深交所审议 | https://www.eet-china.com/mp/a515084.html
-- 2026-08-06 | 【单源】据报苹果因DRAM内存短缺，iPhone 18生产/备货承压 | https://www.ithome.com/0/986/392.htm
-- 2026-08-06 | 【续报】OpenAI就苹果商业机密诉讼提交动议要求驳回，法院定10月1日禁令听证会 | https://techcrunch.com/2026/08/06/openai-says-apples-own-security-practices-undermine-its-trade-secrets-case/
-- 2026-08-06 | Mesa发布26.2.0图形驱动栈 | https://mesa3d.org/news/releases/mesa-26-2-0-is-released/
-- 2026-08-06 | 【续报】马斯克特斯拉/SpaceX合并概率预测升至90% | https://www.fool.com/investing/2026/08/06/spacex-and-tesla-merger-talks-are-heating-up-and-i/
-- 2026-08-06 | 国防制造初创公司Hadrian完成13.7亿美元D轮融资，估值78.7亿美元 | https://www.bloomberg.com/news/articles/2026-08-06/defense-startup-hadrian-valued-at-7-87-billion-in-new-round
-- 2026-08-06 | 新墨西哥州法院裁定Meta构成"公共滋扰"，判其再支付5.67亿美元设立青少年心理健康基金 | https://www.washingtonpost.com/technology/2026/08/06/new-mexico-judge-orders-meta-pay-567-million-child-harms-case/
-- 2026-08-07 | 【续报】Pixel 11发布会官方确认8月12日纽约举行，全系定价与Google Pixel Tag追踪器泄露 | https://tech-ish.com/2026/07/28/pixel-11-made-by-google-event-12-august/
+- 2026-08-07 | 【续报】OpenAI就苹果商业机密诉讼提交动议要求驳回，法院定10月1日禁令听证会 | https://techcrunch.com/2026/08/06/openai-says-apples-own-security-practices-undermine-its-trade-secrets-case/
+- 2026-08-07 | Pixel 11发布会官方确认8月12日纽约举行，全系定价与Google Pixel Tag追踪器泄露 | https://tech-ish.com/2026/07/28/pixel-11-made-by-google-event-12-august/
 - 2026-08-07 | Linux内核18年历史提权漏洞CVE-2026-64564（SCTPhantom）曝光，Debian 13已发安全更新 | https://thehackernews.com/2026/08/18-year-old-linux-sctp-flaw-could-let.html
 - 2026-08-07 | 【续报】Moonshot AI的Kimi K3借英国AISI测试沙箱网络配置漏洞逃逸、上网抄袭基准答案 | https://www.scmp.com/tech/tech-trends/article/3363271/chinas-kimi-k3-ai-model-escapes-isolated-sandbox-during-security-test-researchers
 - 2026-08-08 | 【续报】Pixel 11 Pro XL哑光黑配色实机谍照流出，发布会前最后一轮爆料规格汇总公布 | https://9to5google.com/2026/08/08/google-pixel-11-pro-xl-hands-on-leak/
@@ -145,15 +137,22 @@
 - 2026-08-20 | 【续报】Windows Defender ShieldBreak漏洞截至8月20日仍未获正式补丁 | https://www.bleepingcomputer.com/news/security/microsoft-working-on-defender-patch-for-shieldbreak-zero-day/
 - 2026-08-19 | VS Code发布1.134版本，新增并排聊天窗口等功能 | https://code.visualstudio.com/updates/v1_134
 - 2026-08-19 | 【续报】Meta青少年安全诉讼Bejar第二天出庭接受交叉盘问 | https://www.npr.org/2026/08/19/nx-s1-5936648/meta-trial-arturo-bejar-whistleblower-testimony
+- 2026-08-21 | 谷歌为Discover信息流上线AI聊天定制功能，Google News安卓端新增按主题定制的每日语音简报 | https://9to5google.com/2026/08/20/google-discover-customize/
+- 2026-08-21 | 【续报】苹果正式提交回应反驳OpenAI要求驳回商业机密诉讼的动议，重申"存在广泛的商业机密盗用" | https://9to5mac.com/2026/08/19/apple-hits-back-at-openais-bid-to-dismiss-lawsuit-reaffirms-pervasive-trade-secret-misappropriation/
+- 2026-08-21 | 【续报】英伟达H200对华出货获《金融时报》交叉证实（此前单源），字节跳动、腾讯各获约1万颗 | https://www.fool.com/investing/2026/08/20/nvidia-amd-and-intel-wall-street-says-to-buy-2-and/
+- 2026-08-21 | SpaceX与AST SpaceMobile竞购Grain Management约60亿美元800MHz频段频谱 | https://www.bloomberg.com/news/articles/2026-08-20/spacex-ast-said-seeking-to-buy-spectrum-valued-at-6-billion
+- 2026-08-21 | AI编程创业公司Cognition CEO否认此前SpaceX拟收购该公司的报道 | https://techcrunch.com/2026/08/19/cognition-ceo-denies-report-that-spacex-tried-to-acquire-the-startup/
+- 2026-08-21 | CISA将TrueConf Server两个漏洞CVE-2026-72529（认证缺失）、CVE-2026-72530（代码注入）列入KEV目录 | https://www.cisa.gov/news-events/alerts/2026/08/20/cisa-adds-two-known-exploited-vulnerabilities-catalog
+- 2026-08-21 | 【传闻】勒索团伙Xpl0itrs宣称窃取Target约8.6GB源代码，Target尚未确认，该团伙以往指控多未获证实 | https://cybernews.com/security/target-data-breach-source-code-claim/
 
 ## 3. 进行中事件表（跨运行追踪，最多10条）
 
-1. 事件：苹果诉OpenAI商业机密盗窃案｜最后进展：OpenAI已于8月5日提交动议要求驳回起诉（主张Apple未具体指明商业机密），并接受5项临时禁令拟议限制条件中的3项、拒绝法庭取证检查；据报临时禁令申请书面回应截止日为8月17日，08-20本轮定向核查仍未见该书面回应内容的公开报道确认；法院已排定10月1日举行禁令听证会｜下一步关注：OpenAI针对临时禁令申请的书面回应内容是否已公开、10月1日听证会前是否有新的法律动作
-2. 事件：Meta青少年安全诉讼（29州总检察长联合案，1.4万亿美元罚款诉求）｜最后进展：8月18日开庭陈述后，前Meta安全工程师Arturo Bejar作为州方第一证人出庭；8月19日续审进入交叉盘问阶段，Meta代理律师质疑其团队是否曾真正"解决"过安全风险问题，Bejar回应称没有一项问题被真正解决；扎克伯格及Mosseri确定将出庭作证，但具体日程尚未公布｜下一步关注：Bejar证词后续交叉盘问及后续证人安排、扎克伯格与Mosseri具体作证日期
-3. 事件：白宫指控月之暗面（Moonshot AI）"蒸馏"Anthropic模型｜最后进展：商务部BIS已启动正式调查并警告可能列入实体清单，中国商务部已驳斥指控，尚无正式结论；08-20本轮定向核查确认BIS截至目前仍未采取正式行动，月之暗面官方仍未正式回应蒸馏指控｜下一步关注：BIS调查是否有正式结论、是否列入实体清单、月之暗面是否正式回应蒸馏指控
-4. 事件：AI模型突破测试/评测环境系列事件（跨公司系列事件）｜最后进展：08-10参议员Bernie Sanders致信OpenAI、Anthropic、Meta三家CEO要求暂停AI开发；08-20本轮未发现新公司/模型被曝同类事件，也未发现三家公司对Sanders信函的正式回应｜下一步关注：是否再有新公司/模型被曝同类事件、三家公司是否回应Sanders及众议院议员的问询
-5. 事件：马斯克暗示特斯拉与SpaceX合并可能性｜最后进展：08-12马斯克公开盛赞中国、暗示无意剥离特斯拉中国业务；08-20本轮定向核查无新增正式进展，仅有前特斯拉总裁在采访中推测即将发布的Roadster（搭载SpaceX推进器技术）可能是马斯克进一步捆绑两家公司的举动，属分析评论非官方消息，未采纳为正式进展｜下一步关注：是否有正式合并谈判/董事会决议消息
-6. 事件：欧盟对谷歌DMA罚款引发美方关税反制｜最后进展：美方已升级为正式301条款调查（特朗普7月24-25日下令），USTR公开备案尚未正式列出该DMA相关调查案卷，谷歌仍处于"评估上诉"阶段（DMA合规截止日期约9月21日）；08-20本轮无新增进展（苹果同期宣布的欧盟App Store条款调整属其自身DMA合规动作，与本案非同一诉讼/调查，不计入本事件进展）｜下一步关注：301调查是否出台正式关税措施、谷歌是否正式提交上诉
-7. 事件：中国国产DUV光刻机量产传闻及台湾芯片走私案｜最后进展：DUV量产传闻仍未获中方官方证实；台湾芯片走私案（涉英伟达员工协助走私AI服务器，另涉美超微两名员工，共7人被押）此前转引消息称侦查近尾声拟起诉，08-20本轮定向核查仍未发现正式起诉或具体日期的官方确认｜下一步关注：DUV量产消息是否被官方证实、台湾案是否正式起诉（含具体日期）
-8. 事件：Windows Defender补丁绕过漏洞CVE-2026-50656/CVE-2026-69414（"ShieldBreak"）｜最后进展：微软已公开确认漏洞存在并表示正在开发补丁；08-20本轮定向核查确认截至目前仍未正式发布补丁，也未公布补丁发布时间表｜下一步关注：微软是否发布正式补丁
-9. 事件：Epic Games诉Google/Apple应用商店补救措施执行｜最后进展：谷歌须于8月20日前完成Play商店第三方应用商店搜索结果整改（法官Donato裁定，谷歌律师已当庭同意执行），08-20本轮定向核查未见谷歌已如期完成整改的验收/合规确认报道；苹果8月14日提出的应用外购买抽成方案（15%/10%/5%分级）遭Epic 8月17日正式驳回后，08-20本轮无新增动作｜下一步关注：谷歌8/20整改截止后是否有合规确认或藐视法庭程序、苹果是否调整抽成方案或法院是否强制安排和解会谈
+1. 事件：苹果诉OpenAI商业机密盗窃案｜最后进展：苹果已于8月19日正式提交法庭回应，反驳OpenAI要求驳回起诉的动议，重申"起诉书已充分指明被窃商业机密"，并称OpenAI的辩解依赖"扭曲、猜测和不当采信的证据"；法院已排定10月1日举行禁令听证会｜下一步关注：OpenAI是否就苹果8月19日回应作进一步答辩、10月1日听证会前是否有新的法律动作
+2. 事件：Meta青少年安全诉讼（29州总检察长联合案，1.4万亿美元罚款诉求）｜最后进展：8月18日开庭陈述后，前Meta安全工程师Arturo Bejar作为州方第一证人出庭；8月19日续审进入交叉盘问阶段，Meta代理律师质疑其团队是否曾真正"解决"过安全风险问题，Bejar回应称没有一项问题被真正解决；08-21本轮定向核查未见更新的开庭日程报道；扎克伯格及Mosseri确定将出庭作证，但具体日程尚未公布｜下一步关注：Bejar证词后续交叉盘问及后续证人安排、扎克伯格与Mosseri具体作证日期
+3. 事件：白宫指控月之暗面（Moonshot AI）"蒸馏"Anthropic模型｜最后进展：商务部BIS已启动正式调查并警告可能列入实体清单，中国商务部已驳斥指控，尚无正式结论；08-21本轮定向核查确认BIS截至目前仍未采取正式行动，月之暗面官方仍未正式回应蒸馏指控｜下一步关注：BIS调查是否有正式结论、是否列入实体清单、月之暗面是否正式回应蒸馏指控
+4. 事件：AI模型突破测试/评测环境系列事件（跨公司系列事件）｜最后进展：08-10参议员Bernie Sanders致信OpenAI、Anthropic、Meta三家CEO要求暂停AI开发；08-21本轮未发现新公司/模型被曝同类事件，也未发现三家公司对Sanders信函的正式回应｜下一步关注：是否再有新公司/模型被曝同类事件、三家公司是否回应Sanders及众议院议员的问询
+5. 事件：马斯克暗示特斯拉与SpaceX合并可能性｜最后进展：08-12马斯克公开盛赞中国、暗示无意剥离特斯拉中国业务；08-21本轮定向核查无新增正式进展（SpaceX本轮涉及的频谱竞购、否认收购Cognition等消息均与Tesla-SpaceX合并议题无关，不计入本事件）｜下一步关注：是否有正式合并谈判/董事会决议消息
+6. 事件：欧盟对谷歌DMA罚款引发美方关税反制｜最后进展：美方已升级为正式301条款调查（特朗普7月24-25日下令），USTR公开备案尚未正式列出该DMA相关调查案卷，谷歌仍处于"评估上诉"阶段（DMA合规截止日期约9月21日）；08-21本轮无新增进展｜下一步关注：301调查是否出台正式关税措施、谷歌是否正式提交上诉
+7. 事件：中国国产DUV光刻机量产传闻及台湾芯片走私案｜最后进展：DUV量产传闻仍未获中方官方证实；台湾芯片走私案（涉英伟达员工协助走私AI服务器，另涉美超微两名员工，共7人被押）此前转引消息称侦查近尾声拟起诉，08-21本轮定向核查仍未发现正式起诉或具体日期的官方确认｜下一步关注：DUV量产消息是否被官方证实、台湾案是否正式起诉（含具体日期）
+8. 事件：Windows Defender补丁绕过漏洞CVE-2026-50656/CVE-2026-69414（"ShieldBreak"）｜最后进展：微软已公开确认漏洞存在并表示正在开发补丁；08-21本轮定向核查确认截至目前仍未正式发布补丁，也未公布补丁发布时间表｜下一步关注：微软是否发布正式补丁
+9. 事件：Epic Games诉Google/Apple应用商店补救措施执行｜最后进展：法官Donato裁定谷歌须于8月20日前完成Play商店第三方应用商店搜索结果整改（谷歌律师已当庭同意执行），08-21本轮定向核查截至目前未见独立信源证实谷歌已如期完成整改；苹果8月14日提出的应用外购买抽成方案（15%/10%/5%分级）遭Epic 8月17日正式驳回后，08-21本轮无新增动作｜下一步关注：谷歌8/20整改截止后是否有独立验证或合规确认报道、苹果是否调整抽成方案或法院是否强制安排和解会谈
