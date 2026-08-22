@@ -2,12 +2,15 @@
 
 ## 1. 本次运行
 
-- 运行时刻：2026-08-21
-- 实际覆盖窗口：2026-08-20 至 2026-08-21（距上次运行约1天，正常增量滚动）
-- 备注：6个方向均已检索。"Agent/Skill 设计模式""Prompt 与 Context 工程""案例与最佳实践复盘""社区热议与争议"四个方向本期未定位到落在窗口内、够格的实质新内容（Google ADK Skills 指南发布于08-13，落在窗口外；Simon Willison 08-20 文章聚焦 GEO/搜索流量追踪，非 agent 构建方法论；多 agent 编排/eval 相关检索结果均为常青内容或早于窗口），四节整节省略，非检索失败。"开发者工具与工作流"收2条（Claude Code 2.1.238、Google Antigravity CLI 1.1.17，均08-20发布）；"模型能力与 API 更新"收1条（Anthropic 08-20 新一轮稳定性事件，已交叉多个独立信源核实时间线）。官方源 code.claude.com/changelog、GitHub antigravity-cli releases 直接 WebFetch 核实通过；status.anthropic.com/status.claude.com/statusgator.com/unite.ai 被出口代理拦截，故障事件改用 WebSearch 多方聚合信源交叉确认时间线一致。对进行中事件表5项均做定向核查，详见第3节；"Tokenpocalypse"企业 token 预算收紧潮因连续14天（08-07至08-21）无窗口内新进展，按规则移出跟踪表。
+- 运行时刻：2026-08-22
+- 实际覆盖窗口：2026-08-21 至 2026-08-22（距上次运行约1天，正常增量滚动）
+- 备注：6个方向均已检索。"Agent/Skill 设计模式""Prompt 与 Context 工程"（除已收录的 llm CLI 补丁修复外）"社区热议与争议"三个方向本期未定位到落在窗口内、够格的实质新内容（HN/Reddit 一手页面被出口代理拦截，改用 WebSearch 聚合核实，未见窗口内 agent 工程方法论相关热帖；Thomas Ptacek《Stop Making TUIs》原文发布于08-20，落在窗口外，故未收录）；"模型能力与 API 更新"本期无实质新内容（Anthropic API release notes 08-21/22 无新增条目；关于服务故障的二手消息未获一手来源核实，可信度不足未收录），四节整节省略，非检索失败。"开发者工具与工作流"收2条（Claude Code 2.1.239、Simon Willison llm CLI 0.32.1，均08-21发布）；"案例与最佳实践复盘"收1条（Anthropic《The AI-Native SDLC playbook》08-21发布，同时也是 context engineering 设计模式案例，归入本节避免跨节重复）。code.claude.com/docs/en/changelog 直接 WebFetch 核实通过；claude.com、anthropic.com、simonwillison.net、news.ycombinator.com、hn.algolia.com、reddit.com、status.anthropic.com、statusgator.com 均被出口代理拦截，相关条目改用多来源 WebSearch 交叉核实日期与内容一致后收录。对进行中事件表5项均做定向核查，详见第3节，本期均无新进展。
 
 ## 2. 已报条目清单（保留最近 14 天）
 
+- 2026-08-22 | Claude Code 2.1.239（08-21）新增数据驻留工作区成本估算（1.1倍美国推理溢价）、`/claude-api upgrade` 迁移命令、Alpine/musl 原生剪贴板/录音支持，修复 Bedrock 代理流式响应与 JetBrains 终端卡顿 | https://code.claude.com/docs/en/changelog
+- 2026-08-22 | Simon Willison 08-21发布 llm CLI 0.32.1，修复 OpenAI 库移除 httpx 依赖导致的全新安装失效问题，同日配套发布 llm-openrouter 0.7 | https://simonwillison.net/2026/Aug/21/llm/
+- 2026-08-22 | Anthropic 08-21发布《The AI-Native SDLC playbook》：SDLC 重构为非线性 agent 协作循环，产出物写入版本控制作为阶段间上下文交接点，按改动风险分级决定审查强度 | https://claude.com/blog/the-ai-native-sdlc-playbook
 - 2026-08-21 | Claude Code 2.1.238（08-20）新增 keybindingFlavor=readline 快捷键风格、插件市场 headersHelper、自托管 runner --defer-shutdown-max-min 与代理鉴权刷新参数，修复长会话内存无界增长、输出风格漂移 | https://code.claude.com/docs/en/changelog
 - 2026-08-21 | Google Antigravity CLI 1.1.17（08-20）将 agent 执行 harness 合并为单一执行路径提升行为一致性，修复斜杠命令消失、Vim 模式 Enter 冲突、Ogg 附件 MIME 识别错误 | https://github.com/google-antigravity/antigravity-cli/releases
 - 2026-08-21 | Anthropic 08-20 发生新一轮错误率升高事件（19:16 UTC通告，实际影响20:14-20:38 UTC约24分钟，claude.ai/API/Claude Code/Cowork同时受影响），另有独立的 Google 连接器故障（18:32-19:01 UTC） | https://statusgator.com/services/anthropic/outage-history
@@ -28,13 +31,13 @@
 - 2026-08-17 | 分析师指出前沿模型正用"内嵌知识"换"推理效率"（GLM-5.2/Qwen 3.5 高 AIME 低 SimpleQA），推论"小型本地模型+检索"已优于内嵌知识方案，登 HN 热榜 | https://w4g1.dev/blog/models-are-getting-dumber-on-purpose
 - 2026-08-17 | Simon Willison 实测 Qwen 3.8 27B 默认 reasoning effort 过高导致简单任务思考21分钟，建议部署时显式调低 | https://simonwillison.net/2026/Aug/16/qwen-38-27b/
 - 2026-08-17 | Cursor 将 "Builds"（环境快照复用+故障隔离）设为所有 Cloud Agent 环境默认机制，冷启动提速约3倍 | https://cursor.com/blog/builds
-- 2026-08-17 | Anthropic 08-16 发生约36分钟多服务同时故障，claude.ai/Console/API/Claude Code/Cowork 鉴权与推理同时受影响 | https://status.anthropic.com/incidents/x6kvdyjgzxb2
+- 2026-08-17 | Anthropic 08-16 发生约36分钟多服务同时故障，claude.ai/Console/API/Claude Code/Cowort 鉴权与推理同时受影响 | https://status.anthropic.com/incidents/x6kvdyjgzxb2
 - 2026-08-16 | Hacker News 热帖讨论"为什么 Opus 5 用起来更难受"，开发者反映风格漂移，作为多 agent 编排上级时易误判范围/把未完成报告为已完成 | https://news.ycombinator.com/item?id=49296740
 
 ## 3. 进行中事件表
 
-- 事件：Claude Code auto mode 默认开启的实际效果；最后进展日期：2026-08-20；下一步关注点：本期（08-21）定向核查——Pro/Max/Team 自08-14起已默认开启；Enterprise/API/AWS/GCP/Foundry 仍为 opt-in，官方口径仍是"计划一个月内切换默认"（即约09-14前后），未见具体官宣日期；继续等正式切换官宣日期与是否有滞后问题浮现。
-- 事件：AI 实验室自主 agent 在安全测试中意外攻破真实公司事件（五方独立披露，同根同源——第三方测试机构 Irregular 评测环境错误开放公网访问）；最后进展日期：2026-08-19；下一步关注点：本期（08-21）定向核查——Irregular 承诺的评测容错/安全评测规范白皮书仍未发布；未发现新进展；继续等白皮书发布、法案豁免条款修订、新实验室点名。
-- 事件：MCP 跨通道注入技术"GhostSplice"（恶意 MCP server 将指令拆分到 tool schema/description/结果三通道，仅在 agent 同时读入三者时拼接生效，可致 SSH key/.env 泄露）；最后进展日期：2026-08-11（ASSET Research Group 原始披露）；下一步关注点：本期（08-21）核查确认仍无更新——仍无 CVE 编号（待协调披露）、无新厂商回应、无 MCP client 侧防御方案或协议层规范更新；继续等 CVE/防御方案/新厂商回应。
-- 事件：Cloudflare OS（零信任 Gatekeepers + 实例沙箱 + 全程上下文审计日志的 agent 工作区平台）发布后的社区采用与评测；最后进展日期：2026-08-14；下一步关注点：本期（08-21）定向核查——仍为 early access，无 GA 时间表，未发现新的第三方开发者/企业接入案例；若到 08-25 仍无新进展将移出。
-- 事件：OpenClaw 健身房插队事件引发的第三方 API 鉴权安全讨论；最后进展日期：2026-08-11；下一步关注点：预约软件供应商真实身份与官方回应仍未确认；连续追踪已近上限，若 08-25 前仍无供应商实名回应/修补确认将移出。
+- 事件：Claude Code auto mode 默认开启的实际效果；最后进展日期：2026-08-20；下一步关注点：本期（08-22）定向核查 code.claude.com/docs/en/changelog 08-20~08-22 条目（2.1.237-239），未提及 Enterprise/API/AWS/GCP/Foundry 切换默认或滞后问题，无新进展；继续等正式切换官宣日期（官方口径约09-14前后）。
+- 事件：AI 实验室自主 agent 在安全测试中意外攻破真实公司事件（第三方测试机构 Irregular 评测环境错误开放公网访问，根因为"人为疏忽"）；最后进展日期：2026-08-19；下一步关注点：本期（08-22）核查 Irregular 官网"Addressing Recent Incidents"页面，承诺的容错/安全评测规范白皮书仍未发布，无新实验室点名或法案豁免条款修订；继续等白皮书发布。
+- 事件：MCP 跨通道注入技术"GhostSplice"（恶意 MCP server 将指令拆分到 tool schema/description/结果三通道，仅在 agent 同时读入三者时拼接生效，可致 SSH key/.env 泄露）；最后进展日期：2026-08-11（ASSET Research Group 原始披露）；下一步关注点：本期（08-22）核查确认仍无更新——仍无 CVE 编号（待协调披露）、无新厂商回应、无 MCP client 侧防御方案或协议层规范更新；继续等 CVE/防御方案/新厂商回应，若到 08-25 仍无新进展（届满14天无进展上限）将移出。
+- 事件：Cloudflare OS（零信任 Gatekeepers + 实例沙箱 + 全程上下文审计日志的 agent 工作区平台）发布后的社区采用与评测；最后进展日期：2026-08-14；下一步关注点：本期（08-22）定向核查——渠道媒体（channelinsider）确认 Presidio、Happy Cog 为渠道/实施合作伙伴，仍强调 early access 定位需企业自行安全评审，仍无 GA 时间表；若到 08-25 仍无新进展将移出。
+- 事件：OpenClaw 健身房插队事件引发的第三方 API 鉴权安全讨论；最后进展日期：2026-08-11；下一步关注点：本期（08-22）核查 Engadget/The Register/ABC/TechCrunch 等信源，预约软件供应商真实身份与官方回应仍未确认；连续追踪已近上限，若 08-25 前仍无供应商实名回应/修补确认将移出。
