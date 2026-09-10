@@ -2,48 +2,37 @@
 
 ## 1. 本次运行时刻与实际覆盖窗口
 
-- 运行时刻：2026-08-17 12:49 UTC。
-- 上次运行时刻：2026-08-14 18:22 UTC，间隔约 2 天 18 小时。
-- 实际覆盖窗口：2026-08-14 18:22 UTC – 2026-08-17 12:49 UTC（常规）。
-- 方向 A（watchlist）六项逐一核查：Kubernetes 本体、AWS EKS、Istio、Flux CD 及各 controller/Kustomize/Helm、Kyverno/SOPS、AWS Load Balancer Controller/NLB，均取得有效检索结果（部分官方站点 istio.io/aws.amazon.com/docs.aws.amazon.com 被沙箱出网代理拦截，改用 WebSearch 与 GitHub Releases/Security Advisories 交叉验证补齐，未造成方向缺失）。方向 B/C 全量核查，窗口内无满足门槛内容。方向 D 栈位差表全量刷新。
-- 本期发现两项需要行动：① Istio 1.25（读者主网格版本）经核实官方支持已于 2025-09-22 结束，此前从未在本任务下报告过，属新发现的持续性风险状态；② SOPS 于 2026-08-14 一次性回顾披露 4 个历史安全漏洞（3.13.0/3.13.2 起已修复，无正式 CVE 编号）。
+- 运行时刻：2026-09-10 18:34 UTC。
+- 上次运行时刻：2026-08-17 12:49 UTC，间隔约 24 天，超过 10 天封顶。
+- 实际覆盖窗口：2026-08-31 18:34 UTC – 2026-09-10 18:34 UTC（补漏，封顶 10 天）；窗口外（2026-08-17～2026-08-31）仅收录至今仍重要的大事（SOPS CNCF 治理风险、SOPS Vault/OpenBao allowlist 变更预告、AWS Load Balancer Controller v3.5.0 破坏性变更），其余该时段信息未逐一检索，不代表窗口外无其他事件。
+- 方向 A（watchlist）六项逐一核查：Kubernetes 本体、AWS EKS、Istio、Flux CD 及各 controller/Kustomize/Helm、Kyverno/SOPS、AWS Load Balancer Controller/NLB，均取得有效结果。kubernetes.io、istio.io（部分路径）、kyverno.io、fluxcd.io 直连 WebFetch 被出网代理拦截，改用 WebSearch、GitHub Releases/Security Advisories、克隆源码仓库读取原始 Markdown（istio.io 站点源）等替代信源交叉验证补齐，未造成方向缺失，按"部分成功但方向齐全"落盘。方向 B/C 全量核查。方向 D 栈位差表全量刷新。
+- 本期发现三项需要行动：① Kyverno 2026-09-10 同日批量修复 5 个安全公告（含 CVSS 9.9 严重级 apiCall urlPath 命名空间逃逸至集群管理员提权漏洞），随 v1.19.1 修复；② Istio ISTIO-SECURITY-2026-006（CVSS 7.7）EnvoyFilter 正则 DoS，官方注明未支持版本（含读者 1.25）同样受影响，配置层缓解已可用；③ Istio 1.31 起停止向 gcr.io/istio-release 等 GCP 旧地址发布制品，断供测试 2026-09-15 起分批执行，影响所有版本的镜像/chart 拉取。
+- 进行中事件表变更：原「Kubernetes v1.37 发布周期」事件已于 2026-08-26 GA 收官，移出追踪；新增 5 条追踪（Istio GCP 制品退役断供测试、Kyverno apiCall/CEL 漏洞模式、SOPS Vault allowlist 默认值变更、SOPS CNCF 治理状态、EKS 是否/何时支持 K8s 1.37）。
+- 已报条目清单：因间隔超 21 天，上期全部条目已过期移出，本期重新起算。
 - 推送：本会话被限定只能推送指定工作分支（云端 Routine 会话平台限制，无法直接推 main），按 SKILL.md 兜底流程推当前工作分支，依赖仓库内 auto-merge 工作流合并进 main。
 
 ## 2. 已报条目清单（最近 21 天）
 
-2026-07-27 | CNCF 博客发布 Linkerd 多集群零停机架构实践文章（联邦+镜像两种模式组合，3 个 GKE 集群验证）| https://www.cncf.io/blog/2026/07/27/federating-clusters-for-zero-downtime-kubernetes/
-2026-07-28 | ArgoCon Japan 2026 举行，披露 Argo CD 3.5 RC 特性（ApplicationSets 转正、Impersonation 升至 beta、repo-server mTLS 等）| https://www.cncf.io/blog/2026/07/20/argocon-japan-2026-meeting-the-maintainers-enterprise-insights-and-the-road-to-argo-cd-3-5/
-2026-07-28~29 | KubeCon + CloudNativeCon Japan 2026 在横滨开幕，聚焦 K8s GPU 动态资源分配、OpenTelemetry 毕业、Keycloak-MCP 鉴权，CNCF 称 66% 受访组织已将 K8s 视为 AI"操作系统" | https://www.techtimes.com/articles/321774/20260728/kubecon-japan-2026-kubernetes-gpu-scheduling-otel-graduation-converge-ai-era.htm
-2026-07-30 | KubeCon + CloudNativeCon Japan 2026 收官，OpenTelemetry 毕业成果专场及大规模边缘场景实践分享收尾 | https://opentelemetry.io/blog/2026/kubecon-japan/
-2026-07-31 | Kubernetes v1.37 发布 Sneak Peek 博客，DRA Extended Resource 确认毕业至 GA，GA 定档 8/26 不变 | https://kubernetes.io/blog/2026/07/31/kubernetes-v1-37-sneak-peek/
-2026-07-31 | GKE Dataplane V2 扩容支持单集群 1.5 万节点（GA）并保持 Network Policy 全量生效 | https://cloud.google.com/blog/topics/ai-infrastructure/whats-new-in-ai-infrastructure-this-month
-2026-07-31 | GKE 上 llm-d 引入协作式时间分片，强化学习作业加速器利用率从 40% 提至 70% | https://cloud.google.com/blog/topics/ai-infrastructure/whats-new-in-ai-infrastructure-this-month
-2026-08-03 | CNCF 项目 Cortex 完成 OSTIF 独立安全审计，7 个漏洞均已修复 | https://www.cncf.io/blog/2026/08/03/cortex-completes-ostif-security-audit/
-2026-08-03 | Kubeflow SDK 统一 Python 接口下载量突破 100 万次 | https://www.cncf.io/blog/2026/08/03/kubeflow-sdk-evolution-one-million-downloads-and-counting/
-2026-08-04 | Argo CD v3.5.0 正式 GA，按原定日程发布，含 OCI 明文仓库需显式 flag、--repo-server-strict-tls 废弃等破坏性变更 | https://github.com/argoproj/argo-cd/releases/tag/v3.5.0
-2026-08-04 | HashiCorp 修复 Terraform MCP Server 跨租户凭证复用漏洞 CVE-2026-16498（CVSS 10.0），发布 1.2.0 | https://thehackernews.com/2026/08/veeam-terraform-mcp-django-patch.html
-2026-08-04 | IBM/Red Hat 向高校、NGO、智库免费开放 Lightwell 开源供应链安全服务 | https://newsroom.ibm.com/2026-08-04-ibm-and-red-hat-offer-lightwell-at-no-cost-to-universities,-ngos-and-think-tanks
-2026-08-04 | OpenTelemetry Collector v0.158.0 发布 | https://github.com/open-telemetry/opentelemetry-collector-releases/releases
-2026-08-05 | Red Hat OpenShift 连续第三年入选 2026 Gartner 云原生应用平台魔力象限"领导者" | https://www.businesswire.com/news/home/20260805596970/en/Red-Hat-Positioned-as-a-Leader-in-the-2026-Gartner-Magic-Quadrant-for-Cloud-Native-Application-Platforms
-2026-08-05 | K8gb 成为 CNCF Incubating 项目 | https://www.cncf.io/announcements/2026/08/05/k8gb-becomes-a-cncf-incubating-project/
-2026-08-06 | cosign 曝出旧版 JSON bundle 签名校验绕过漏洞 GHSA-fx35-mq7g-6g98（CVSS 7.4），已发布 2.6.5/3.1.3 补丁 | https://github.com/sigstore/cosign/security/advisories/GHSA-fx35-mq7g-6g98
-2026-08-06 | GitHub Actions 发生约 9-10 小时大规模故障，初步根因为向 runner 分配无效 job，源于对内部 Actions 事件处理服务的一次常规部署暴露了已有的容量/并发缺陷 | https://www.githubstatus.com/
-2026-08-06 | LitmusChaos 发布 2026 上半年进展报告，称为项目最活跃阶段之一 | https://www.cncf.io/blog/2026/08/06/litmuschaos-q1-q2-2026-update-community-contributions-and-project-progress/
-2026-08-02~08-06 | Cloudflare 举办"Agents Week 2026"系列发布，含 WebMCP 开发者预览与 Agent Access Model | https://blog.cloudflare.com/
-2026-08-06 | Linux 内核 SCTP 实现曝出存续18年的 use-after-free 漏洞 SCTPhantom（CVE-2026-64564，CVSS v4.0 8.5），本地攻击者可提权至 root 并在特定配置下逃逸容器，已修复并回溯至多条稳定内核分支 | https://matrix.tencent.com/en/2026/08/06/sctphantom-CVE-2026-64564
-2026-08-06 | Kubernetes v1.37 切出首个 Release Candidate（v1.37.0-rc.0），如期朝 8/26 GA 推进 | https://github.com/kubernetes/kubernetes/releases
-2026-08-07 | Flux CD 发布 v2.9.4 补丁版本，含 source-watcher 安全加固 | https://github.com/fluxcd/flux2/releases
-2026-08-10 | CNCF 公布 KubeCon + CloudNativeCon North America 2026（11 月 9–12 日，盐湖城）完整日程，新增 AI Inference + Agentic 专场 | https://www.cncf.io/announcements/2026/08/10/cncf-reveals-kubecon-cloudnativecon-north-america-2026-schedule-adds-new-ai-inference-agentic-track/
-2026-08-10 | Docker docker cp/sbx cp 命令曝出容器逃逸漏洞 CVE-2026-17106（"CopyEscape"），可覆写宿主机文件、特定条件下获得 root 代码执行，Imperva 披露，Docker 已发布修复版本 | https://www.imperva.com/blog/copyescape-taking-over-docker-hosts-with-docker-cp/
-2026-08-11 | Windows Container Isolation FS Filter Driver（unionfs.sys）曝出篡改漏洞 CVE-2026-72971（CVSS 5.5），随微软 8 月补丁星期二修复 | https://www.csoonline.com/article/4208185/patch-tuesday-august-2026-a-zero-day-winsock-driver-hole-under-exploit-and-a-maximum-severity-sap-vulnerability.html
-2026-08-13 | Amazon EKS 新增 Kubernetes 控制平面组件（调度器/controller-manager/API server）参数配置能力，覆盖所有可用区域 | https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-eks-control-plane-configuration-parameters/
-2026-08-13~14 | TeamPCP 3 月 Trivy/LiteLLM 供应链攻击（CVE-2026-33634，CVSS 9.4）曝出新影响评估：153GB 被窃数据涉 2,488 企业域名，部分被窃凭据 5 个月后仍可用 | https://www.helpnetsecurity.com/2026/08/13/litellm-breach-stolen-credentials-leak/
-2025-09-22（2026-08-17 首次核实收录）| Istio 1.25（读者主网格版本）官方支持结束，不再回滲安全与关键缺陷修复 | https://istio.io/latest/news/support/announcing-1.25-eol-final/
-2026-08-14 | SOPS 项目一次性回顾披露 4 个历史安全漏洞（最严重 GHSA-jgf3-f6rg-8x3h，CVSS 7.4，Vault/OpenBao 令牌 SSRF 泄露），均已于 3.13.0/3.13.2 起修复 | https://github.com/getsops/sops/security/advisories/GHSA-jgf3-f6rg-8x3h
+2026-08-03 | AWS Load Balancer Controller v3.5.0 发布，Gateway API L4 路由转正需 CRD ≥1.6.0 且不再服务 v1alpha2 | https://github.com/kubernetes-sigs/aws-load-balancer-controller/releases/tag/v3.5.0
+2026-08-14（背景）| SOPS 预告 Vault/OpenBao allowlist 默认值将从 all 收紧为 none，尚未随版本落地 | https://github.com/getsops/sops/security/advisories/GHSA-jgf3-f6rg-8x3h
+2026-08-26 | Kubernetes v1.37「Garhwal」正式 GA，含静态 Pod 禁止引用 Secret/ConfigMap 等破坏性变更；EKS 尚未支持 | https://kubernetes.io/blog/2026/08/26/kubernetes-v1-37-release/
+2026-08-27 | Istio 发布 ISTIO-SECURITY-2026-006 安全公告（CVSS 7.7），修复 EnvoyFilter 正则未限长导致的 istiod 拒绝服务及 13 个 Envoy CVE，发布 1.30.4/1.29.7 | https://istio.io/latest/news/security/istio-security-2026-006/
+2026-08 | Amazon EKS 新增控制面参数配置能力（调度器/controller-manager/API server 可调） | https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-eks-control-plane-configuration-parameters/
+2026-08-31 | Istio 1.31.0 发布，宣布停止向 GCP 旧地址发布制品，断供测试定于 9/15 起分批执行 | https://istio.io/latest/news/releases/1.31.x/announcing-1.31/upgrade-notes/
+2026-08-31 | Flux CD v2.9.5 发布，加固 kubeconfig Secret 校验（拒绝本地文件路径引用），Helm 迁回上游 v4.2.4 | https://github.com/fluxcd/flux2/releases/tag/v2.9.5
+2026-03-17（持续中）| CNCF TOC 评估 SOPS 的 MPL 许可证与 CNCF 首选 Apache-2.0 不兼容，可能要求其重新授权或迁出 CNCF | https://github.com/cncf/toc/issues/2098
+2026-07-01 | Argo CD repo-server 曝未认证 RCE（未获 CVE 编号，尚无补丁），根因类同其他 GitOps 控制器内部服务暴露 | https://thehackernews.com/2026/07/unpatched-argo-cd-repo-server-flaw.html
+2026年内持续 | Kyverno apiCall/CEL 策略执行链全年反复出现命名空间隔离/提权漏洞（CVE-2026-22039→41068→54523→本次批次） | https://github.com/kyverno/kyverno/security/advisories
+2026-09-09~10 | Helm v4.3.0 与 v3.22.0 发布，官方将 v3.22.0 定位为 v3 线路计划内最后一个 minor 版本 | https://github.com/helm/helm/releases/tag/v3.22.0
+2026-09-10 | Kyverno v1.19.1 发布，同日修复 5 个安全公告，含 CVSS 9.9 严重级 apiCall urlPath 命名空间逃逸至集群管理员提权漏洞 GHSA-5qq8-67g6-4h2w | https://github.com/kyverno/kyverno/security/advisories/GHSA-5qq8-67g6-4h2w
 
 ## 3. 进行中事件表
 
-- 事件：Kubernetes v1.37 发布周期 | 最后进展日期：2026-08-06（v1.37.0-rc.0 切出，release candidate 阶段）| 下一步关注点：等 8/26 GA 官宣及正式 release notes，核实 DRA Partitionable Devices（KEP-4815，目前仍处 alpha 阶段）毕业情况及 v1.37 破坏性变更完整清单。（2026-08-09～08-17 已连续核查：均无新 RC/GA 消息，08-17 核查确认 rc.0 仍为最新，DRA Partitionable Devices 仍处 alpha，GA 仍定档 8/26。）
+- 事件：Istio GCP 制品托管退役（gcr.io/istio-release 等旧地址断供）| 最后进展日期：2026-08-31（1.31 发布，宣布断供计划）| 下一步关注点：等 2026-09-15 首次 scream test 结果，验证有无用户受影响、时间表是否调整；后续窗口 10/13、11/17、12/08。
+- 事件：Kyverno apiCall/CEL 策略执行链命名空间隔离漏洞模式 | 最后进展日期：2026-09-10（v1.19.1 修复本轮 5 个 GHSA）| 下一步关注点：等是否有后续 CVE 编号分配，或官方推出结构性修复（如默认限制 apiCall/CEL 创建权限）。
+- 事件：SOPS Vault/OpenBao allowlist 默认值收紧 | 最后进展日期：2026-08-14（GHSA-jgf3-f6rg-8x3h 预告）| 下一步关注点：等该默认值变更随具体版本发布，核实是否为破坏性变更。
+- 事件：SOPS CNCF 治理状态（TOC 评估 MPL 许可证兼容性）| 最后进展日期：2026-03-17（issue 开启，无进一步公开讨论可核实）| 下一步关注点：等 TOC 就 cncf/toc#2098 做出结论（重新授权/迁出 CNCF/维持现状）。
+- 事件：Amazon EKS 是否/何时支持 Kubernetes 1.37 | 最后进展日期：2026-09-10（确认仍未支持，最高至 1.36）| 下一步关注点：等 AWS What's New 官宣 EKS 支持 1.37，届时 1.37 的破坏性变更（静态 Pod Secret/ConfigMap 引用禁令、cgroup v1 kubelet 拒启等）转为对读者实际可命中。
 
 ## 4. 读者在用的版本清单
 
