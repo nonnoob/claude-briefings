@@ -2,19 +2,14 @@
 
 ## 1. 本次运行时刻与覆盖窗口
 
-- 本次运行：2026-09-15 约10:18 UTC
-- 上次运行：2026-09-14 约10:11 UTC
-- 覆盖窗口：2026-09-14 10:11 UTC – 2026-09-15 10:11 UTC（约24小时，常规）。
-- 检索状态：十个方向以四个并行子agent执行（谷歌/安卓+系统更新+新品发布一组、科技巨头+科技人物+政策监管一组、芯片硬件+投融资并购一组、安全隐私+开源软件一组），全部方向均取得有效检索结果，判定为"完全成功"；本期信号较前一日回升，谷歌/安卓、系统更新、新品发布、科技巨头动态、芯片与硬件、科技人物动态、安全与隐私、开源软件、政策与监管九个板块均有实质内容，唯投融资与并购方向窗口内未检索到符合条件的新闻（窗口外邻近案例均与AI公司融资相关，按规则排除），该节省略。
-- 说明（进行中事件核查）：10条事件逐一按"下一步关注点"定向核查，其中三条出现实质性新进展并已续报：①"苹果诉OpenAI商业机密案"——苹果要求法院强制OpenAI交出未发布硬件设备相关信息作证据，法官未批准加速取证、要求双方缩小取证范围，10月1日听证会不变；②"AI模型突破测试/评测环境系列事件及监管连锁反应"——特朗普点名驳斥Amodei放缓呼吁，参议院多数党领袖Thune称Cruz-Thune-Klobuchar法案预计"很快"推出但文本仍未公开，国会期中选举前恐难有实质行动；③"Epic诉Google/Apple应用商店"——苹果已按期向最高法院提交merits brief，核心论点及后续时间表（Epic回应11/13截止、苹果回复12/14截止、庭审最早2027年1月）均已明确，此前"是否已提交"的不确定性已消除。其余7条（白宫指控中国AI实验室蒸馏、欧盟DMA罚款+301关税、DUV光刻机传闻+台湾芯片走私案、Windows Defender ShieldBreak/ShieldCrash、DOJ英伟达-Groq反垄断审查、GitLab CVE-2026-85706、CISA 5个KEV漏洞）核查后窗口内均无实质性新进展，但GitLab与CISA-KEV两条各自新增了"披露后约6小时即遭利用""ScreenConnect补丁已发布（CVE-2026-84869）"等延续性细节，一并计入续报；ShieldCrash、DUV、DOJ-Nvidia-Groq、欧盟DMA/301四条维持原状无变化。运行备注：本期各方向均已检索，无方向完全受阻；追踪表仍为10条，未增未减。
+- 本次运行：2026-09-16 约10:10 UTC
+- 上次运行：2026-09-15 约10:18 UTC
+- 覆盖窗口：2026-09-15 10:18 UTC – 2026-09-16 10:10 UTC（约24小时，常规）。
+- 检索状态：十个方向以四个并行子agent执行（谷歌/安卓+系统更新+新品发布一组、科技巨头+科技人物+政策监管一组、芯片硬件+投融资并购一组、安全隐私+开源软件一组），全部方向均取得有效检索结果，判定为"完全成功"；谷歌/安卓、系统更新、新品发布、科技巨头动态、芯片与硬件、科技人物动态、安全与隐私、开源软件、政策与监管九个板块均有实质内容，唯投融资与并购（非AI公司）方向窗口内经多轮检索未找到符合条件的新闻，该节省略（属正常"无内容"，非检索失败）。
+- 说明（进行中事件核查）：10条事件逐一按"下一步关注点"定向核查，其中一条出现实质性新进展并已续报：③"AI模型突破测试/评测环境系列事件及监管连锁反应"——OpenAI证实正与Anthropic、Google就AI风险协调工作，为特朗普驳斥放缓呼吁后三大实验室出现跨公司协作的新迹象，评论关注潜在反垄断风险；Cruz-Thune-Klobuchar法案文本截至09-16仍未公开。其余9条（苹果诉OpenAI、白宫指控中国AI蒸馏、欧盟DMA罚款+301关税、DUV光刻机传闻+台湾芯片走私案、Windows Defender ShieldBreak/ShieldCrash、Epic诉Google/Apple、DOJ英伟达-Groq反垄断审查、GitLab CVE-2026-85706、CISA 5个KEV漏洞）核查后窗口内均无实质性新进展，维持原状。运行备注：本期各方向均已检索，无方向完全受阻；追踪表仍为10条，未增未减。
 
 ## 2. 已报条目清单（最近 14 天内）
 
-- 2026-09-01 | 谷歌发布9月Android功能更新包，新增Gemini Live引导视觉、Find Hub物品记忆等功能 | https://blog.google/products-and-platforms/platforms/android/android-drop-september-2026/
-- 2026-09-01 | 苹果CEO交接正式完成，库克转任执行董事长，John Ternus接任CEO | https://www.apple.com/newsroom/2026/04/tim-cook-to-become-apple-executive-chairman-john-ternus-to-become-apple-ceo/
-- 2026-09-01 | SHEIN正式在港交所挂牌，募资约17.3亿美元，估值约265亿美元，首日破发 | https://www.cnbc.com/2026/09/01/shein-ipo-market-debut-hong-kong.html
-- 2026-09-01 | 欧盟AI办公室向OpenAI、Anthropic等30余家AI提供商发出正式信息请求 | https://www.mlex.com/mlex/artificial-intelligence/articles/2517970
-- 2026-09-01 | SonicWall SMA1000系列两个零日漏洞（CVE-2026-83548/83549）遭在野利用 | https://www.securityweek.com/sonicwall-warns-of-two-sma1000-zero-days-exploited-in-attacks/
 - 2026-09-02 | Home Assistant发布2026.9版本，新增自动化溯源对话框与Matter网络拓扑图 | https://www.home-assistant.io/blog/2026/09/02/release-20269/
 - 2026-09-02 | 美国联邦法官拒绝要求谷歌拆分广告交易平台AdX，改为要求整改运营行为 | https://www.bloomberg.com/news/articles/2026-09-02/google-avoids-ad-exchange-sale-as-judge-orders-tech-integration
 - 2026-09-02 | 微软十多年来首次单独披露Azure云业务季度营收，重组为两大业务板块 | https://www.cnbc.com/2026/09/02/microsoft-to-disclose-azure-revenue-as-part-of-segment-changes.html
@@ -84,16 +79,33 @@
 - 2026-09-14 | Linux内核同批发布七个稳定/长期支持版本，近9000个补丁 | https://www.linuxcompatible.org/story/linux-kernel-726-612110-and-more-seven-coordinated-releases-now-available
 - 2026-09-14 | 苹果按期向最高法院提交Epic案程序性问题上诉意见书 | https://www.macrumors.com/2026/09/14/apple-supreme-court-contempt-ruling/
 - 2026-09-14 | 参议院多数党领袖Thune称两党AI安全法案预计很快推出但文本未公开 | https://www.washingtontimes.com/news/2026/sep/14/john-thune-wants-light-touch-ai-regulation-expects-soon-bipartisan/
+- 2026-09-15 | 谷歌推送9月Pixel Feature Drop，新增Pixel VIPs小组件、Pause Point健康功能扩展、Gboard诈骗短信预警 | https://9to5google.com/2026/09/15/september-2026-pixel-feature-drop/
+- 2026-09-15 | Android 17 QPR1九月安全补丁面向Pixel 6至11 Pro Fold推送 | https://9to5google.com/2026/09/15/android-17-september-pixel-update/
+- 2026-09-15 | 微软确认Windows 11紧急带外更新编号KB5129195，修复RDS/Hyper-V/USB音频故障但未修复AMD显卡报错 | https://www.windowslatest.com/2026/09/15/windows-11-kb5129195-emergency-update-is-out-after-microsoft-confirms-major-issues-with-the-september-2026-update-but-it-wont-fix-amd-gpu-error/
+- 2026-09-15 | OPPO确认Find X10 Pro Max全球版搭载联发科天玑9600 Pro，中国发布会定档9月22日 | https://www.aroged.com/2026/09/15/oppo-will-launch-find-x10-pro-max-photography-flagship-and-other-products-on-september-22/
+- 2026-09-16 | 努比亚联合字节跳动发布AI智能体手机NaviX Ultra，预售突破36万台 | https://www.ithome.com/0/999/140.htm
+- 2026-09-15 | Meta上线付费订阅服务"Meta One"，整合Instagram/Facebook/WhatsApp/Meta AI，首日订阅/试用达1500万 | https://www.forbes.com/sites/gabrielalinzainescu/2026/09/15/meta-one-turns-instagram-whatsapp-and-meta-ai-into-a-subscription/
+- 2026-09-15 | 台积电欧洲合资公司ESMC德累斯顿晶圆厂举行"封顶"仪式 | https://focustaiwan.tw/business/202609150007
+- 2026-09-16 | 三星电机与高通联合开发有机桥接2.1D先进封装技术 | https://www.digitimes.com/news/a20260916VL215/qualcomm-packaging-samsung-semco-technology.html
+- 2026-09-15 | 谷歌在SEMICON Taiwan披露TPU迭代周期压缩至6个月 | https://www.digitimes.com/news/a20260915PD224/google-tpu-digitimes-demand-production.html
+- 2026-09-15 | 马斯克在All-In Summit暗示特斯拉与SpaceX未来可能整合 | https://www.bloomberg.com/news/articles/2026-09-15/why-are-tesla-and-spacex-separate-musk-says-great-question
+- 2026-09-15 | Sam Altman接受Fortune专访谈AI失控担忧，重申支持放缓，OpenAI IPO推迟至2027年 | https://fortune.com/2026/09/15/sam-altman-openai-ai-safety-pause-trump-xi/
+- 2026-09-15 | 思科Secure Email Gateway曝CVSS 9.8远程代码执行漏洞CVE-2026-76461遭在野利用，CISA列入KEV | https://thehackernews.com/2026/09/cisco-secure-email-gateway-flaw.html
+- 2026-09-15 | 德州公用事业公司CenterPoint Energy确认数据泄露，黑客声称窃取749万条客户记录 | https://www.securityweek.com/texas-utility-centerpoint-energy-confirms-breach-after-hacker-leaks-data/
+- 2026-09-15 | HBO Max官方Reddit账号被劫持传播ClickFix信息窃取木马 | https://www.helpnetsecurity.com/2026/09/15/hbo-max-reddit-account-clickfix-infostealer-malware/
+- 2026-09-15 | OpenAI就其AI智能体今年5月攻击RubyGems仓库一事展开正式调查 | https://www.securityweek.com/openai-investigates-report-linking-ai-agents-to-rubygems-attack/
+- 2026-09-15 | Fedora Linux 45 Beta发布，搭载Linux内核7.2/GNOME 51/KDE Plasma 6.7 | https://9to5linux.com/fedora-linux-45-beta-released-with-linux-7-2-gnome-51-and-kde-plasma-6-7
+- 2026-09-15 | OpenAI证实正与Anthropic、Google就AI风险协调工作 | https://invezz.com/news/2026/09/15/openai-confirms-its-working-with-anthropic-google-to-address-ai-risks/
 
 ## 3. 进行中事件表（跨运行追踪，最多10条）
 
-1. 事件：苹果诉OpenAI商业机密盗窃案｜最后进展：【续报】09-14苹果要求法院强制OpenAI交出其"尚未发布硬件设备"相关信息作为商业机密盗窃证据，法官未当庭批准加速取证请求，要求双方进一步缩小取证范围，未就此作出最终裁定；10月1日上午9点（太平洋时间，Judge Edward J. Davila主审）禁令听证会维持不变；此前"证据销毁"指控（OpenAI员工讨论恢复出厂设置覆盖取证数据）仍在待决取证争议中，09-15核查未见法院就该指控采取额外程序性动作｜下一步关注：10月1日听证会结果、法院对"未发布硬件设备"取证范围的最终裁定、是否就"证据销毁"指控采取额外程序性动作
-2. 事件：白宫指控中国AI实验室（月之暗面/Moonshot AI等）"蒸馏"Anthropic模型系列事件｜最后进展：09-08 NSA/FBI/CISA联合公告指控DeepSeek和月之暗面工业化规模蒸馏；09-10 Anthropic威胁情报报告证实月之暗面秘密转发Kimi请求给Claude处理，并披露阿里巴巴、DeepSeek存在类似行为；09-15核查：商务部BIS调查与实体清单威胁仍处表态阶段，未见正式结论，阿里巴巴/DeepSeek未被证实面临与月之暗面同等的正式指控；另有报道称中美双方可能于9月24日两国元首会晤前后就此举行专门AI安全对话（时间点未明确落在本窗口内，供后续核实参考）｜下一步关注：BIS调查是否有正式结论、是否列入实体清单、传闻中的中美AI安全对话是否落实
-3. 事件：AI模型突破测试/评测环境系列事件及后续监管连锁反应｜最后进展：09-12 Anthropic CEO Amodei呼吁AI行业放缓、Altman与马斯克表态支持；09-13特朗普出访爱尔兰期间公开驳回放缓倡议、白宫前AI沙皇David Sacks同步反对政府强制介入；【续报】09-14特朗普进一步点名驳斥Amodei，称"唯一的护栏就是一位强大聪明的总统"，暗示放缓论调只会让中国受益；参议院多数党领袖Thune表示倾向"轻触式"监管，称Cruz-Thune-Klobuchar两党AI安全法案预计"很快"推出，但文本截至09-15仍未公开；综合报道指国会在期中选举前恐难就AI立法采取实质行动，众议院倾向休会前搁置表决，参议员Cantwell对法案"安全测试"条款措辞仍持异议；截至09-15三家AI公司仍均未就Sanders-Casar法案或Cruz-Thune-Klobuchar法案发表正式书面回应｜下一步关注：Cruz-Thune-Klobuchar法案文本是否公开、国会期中选举前是否有实质立法动作、三家公司是否就两部法案发表正式回应、欧盟问询后续是否触发正式处罚
-4. 事件：欧盟对谷歌DMA罚款引发美方301条款关税反制调查｜最后进展：谷歌8.9亿欧元DMA罚款60天合规窗口约9月21日到期（尚未到）；美方301调查截至09-15仍无正式关税结论，09-15核查无新进展｜下一步关注：9月21日合规截止日谷歌是否达标、301调查是否出台正式关税措施
-5. 事件：中国国产DUV光刻机量产传闻及台湾芯片走私案｜最后进展：台湾案08-24已由基隆地检署正式起诉9人，截至09-15无新的开庭/判决消息；DUV量产传闻（上海"爱晟纳"团队及华为支持的另一条产线，09-08 TrendForce/FT报道口径一致）截至09-15仍未获官方证实，09-15核查无新进展｜下一步关注：台湾案审理/判决进展、DUV量产消息是否被官方证实
-6. 事件：Windows Defender补丁绕过漏洞"ShieldBreak/ShieldCrash"｜最后进展：微软9月补丁星期二已发布ShieldBreak（CVE-2026-69414）正式补丁，研究者随即发布新PoC"ShieldCrash"证明补丁修复不完整；截至09-15微软仍未分配CVE编号、未发布补丁或官方公告，09-15核查无新进展｜下一步关注：微软是否就ShieldCrash发布正式回应、CVE编号或新补丁
-7. 事件：Epic Games诉Google/Apple应用商店补救措施执行｜最后进展：【续报】09-14苹果已按期向美国最高法院提交merits brief，针对受理的窄范围程序性问题（藐视法庭处罚标准）展开论证，核心论点为原禁令仅75词且从未提及"佣金"，不应据此维持藐视裁定，请求撤销该裁定；后续时间表明确：Epic回应意见书截止11月13日，苹果回复意见书截止12月14日，庭审最早安排在2027年1月；谷歌Play商店第三方应用商店搜索结果整改09-15核查仍无新截止日期或达标确认｜下一步关注：Epic回应意见书内容（11月13日截止）、谷歌整改进展及是否达标
-8. 事件：美国司法部对英伟达-Groq 200亿美元"许可协议"反垄断审查｜最后进展：09-10彭博/Axios披露DOJ已向英伟达发出正式信息索取要求，调查该交易结构是否意在规避常规并购反垄断审查；截至09-15无新进展，调查仍处信息索取阶段，无处罚或结案消息｜下一步关注：DOJ调查是否有正式结论或处罚措施
-9. 事件：GitLab CE/EE曝CVSS满分（10.0）路径穿越漏洞CVE-2026-85706遭在野利用｜最后进展：【续报】披露后约6小时即遭在野利用，攻击者可通过单个未认证HTTP请求读取服务器任意文件（含配置密钥、SSH配置）；CISA要求的联邦机构9月14日修复截止日已过，截至09-15核查未见合规率数据或新的大规模入侵披露｜下一步关注：联邦机构合规率数据是否披露、是否有新的大规模入侵事件
-10. 事件：CISA将JFrog Artifactory、ConnectWise ScreenConnect等5个在野利用漏洞列入KEV目录｜最后进展：【续报】ConnectWise已发布ScreenConnect正式补丁（26.6.5及以上版本），修复此前遭"蠕虫式"攻击利用的CVE-2026-84869（CVSS 9.9）；联邦机构ScreenConnect修复截止日9月14日已过，截至09-15核查未见合规情况或更大规模入侵披露；Artifactory截止日9月25日尚未到期，09-15核查无新动态｜下一步关注：ScreenConnect合规情况、9月25日Artifactory截止日执行情况、是否有更大规模入侵事件被披露
+1. 事件：苹果诉OpenAI商业机密盗窃案｜最后进展：【续报】09-14苹果要求法院强制OpenAI交出其"尚未发布硬件设备"相关信息作为商业机密盗窃证据，法官未当庭批准加速取证请求，要求双方进一步缩小取证范围，未就此作出最终裁定；10月1日上午9点（太平洋时间，Judge Edward J. Davila主审）禁令听证会维持不变；09-16核查无新进展｜下一步关注：10月1日听证会结果、法院对"未发布硬件设备"取证范围的最终裁定、是否就"证据销毁"指控采取额外程序性动作
+2. 事件：白宫指控中国AI实验室（月之暗面/Moonshot AI等）"蒸馏"Anthropic模型系列事件｜最后进展：09-10 Anthropic威胁情报报告证实月之暗面秘密转发Kimi请求给Claude处理，并披露阿里巴巴、DeepSeek存在类似行为；商务部BIS调查与实体清单威胁仍处表态阶段，DeepSeek此前已被列入实体清单，Moonshot AI/阿里巴巴/智谱等尚未被列入；09-16核查无新进展，传闻中9月24日前后的中美AI安全对话是否落实仍待确认｜下一步关注：BIS调查是否有正式结论、是否列入实体清单、传闻中的中美AI安全对话是否落实
+3. 事件：AI模型突破测试/评测环境系列事件及后续监管连锁反应｜最后进展：09-14特朗普点名驳斥Amodei放缓呼吁，称"唯一的护栏就是一位强大聪明的总统"；参议院多数党领袖Thune表示倾向"轻触式"监管，Cruz-Thune-Klobuchar两党AI安全法案预计"很快"推出；【续报】09-15 OpenAI证实正与Anthropic、Google就AI风险协调工作，为三大实验室在"放缓/pacing"议题上首次出现的跨公司协作迹象，多篇评论关注此举是否构成反竞争行为、潜在反垄断风险；Cruz-Thune-Klobuchar法案文本截至09-16仍未公开；国会期中选举前恐难有实质立法动作｜下一步关注：法案文本是否公开、国会期中选举前是否有实质立法动作、OpenAI/Anthropic/Google三方协调工作细节及是否触发反垄断审查、三家公司是否就两部法案发表正式回应
+4. 事件：欧盟对谷歌DMA罚款引发美方301条款关税反制调查｜最后进展：谷歌8.9亿欧元DMA罚款60天合规窗口约9月21日到期（尚未到）；美方301调查截至09-16仍无正式关税结论，09-16核查无新进展｜下一步关注：9月21日合规截止日谷歌是否达标、301调查是否出台正式关税措施
+5. 事件：中国国产DUV光刻机量产传闻及台湾芯片走私案｜最后进展：台湾案08-24已由基隆地检署正式起诉9人，截至09-16无新的开庭/判决消息；DUV量产传闻（上海"爱晟纳"团队及华为支持的另一条产线）截至09-16仍未获官方证实，09-16核查无新进展｜下一步关注：台湾案审理/判决进展、DUV量产消息是否被官方证实
+6. 事件：Windows Defender补丁绕过漏洞"ShieldBreak/ShieldCrash"｜最后进展：微软9月补丁星期二已发布ShieldBreak（CVE-2026-69414）正式补丁，研究者随即发布新PoC"ShieldCrash"证明补丁修复不完整；截至09-16微软仍未分配CVE编号、未发布补丁或官方公告，09-16核查无新进展｜下一步关注：微软是否就ShieldCrash发布正式回应、CVE编号或新补丁
+7. 事件：Epic Games诉Google/Apple应用商店补救措施执行｜最后进展：09-14苹果已按期向美国最高法院提交merits brief，针对受理的窄范围程序性问题（藐视法庭处罚标准）展开论证；后续时间表：Epic回应意见书截止11月13日，苹果回复意见书截止12月14日，庭审最早安排在2027年1月；谷歌Play商店第三方应用商店搜索结果整改09-16核查仍无新截止日期或达标确认｜下一步关注：Epic回应意见书内容（11月13日截止）、谷歌整改进展及是否达标
+8. 事件：美国司法部对英伟达-Groq 200亿美元"许可协议"反垄断审查｜最后进展：09-10彭博/Axios披露DOJ已向英伟达发出正式信息索取要求，调查该交易结构是否意在规避常规并购反垄断审查；截至09-16无新进展，调查仍处信息索取阶段，无处罚或结案消息｜下一步关注：DOJ调查是否有正式结论或处罚措施
+9. 事件：GitLab CE/EE曝CVSS满分（10.0）路径穿越漏洞CVE-2026-85706遭在野利用｜最后进展：披露后约6小时即遭在野利用，攻击者可通过单个未认证HTTP请求读取服务器任意文件（含配置密钥、SSH配置）；CISA要求的联邦机构9月14日修复截止日已过，截至09-16核查未见合规率数据或新的大规模入侵披露｜下一步关注：联邦机构合规率数据是否披露、是否有新的大规模入侵事件
+10. 事件：CISA将JFrog Artifactory、ConnectWise ScreenConnect等5个在野利用漏洞列入KEV目录｜最后进展：ConnectWise已发布ScreenConnect正式补丁（26.6.5及以上版本），修复此前遭"蠕虫式"攻击利用的CVE-2026-84869（CVSS 9.9）；联邦机构ScreenConnect修复截止日9月14日已过，截至09-16核查未见合规情况或更大规模入侵披露；Artifactory截止日9月25日尚未到期，09-16核查无新动态｜下一步关注：ScreenConnect合规情况、9月25日Artifactory截止日执行情况、是否有更大规模入侵事件被披露
