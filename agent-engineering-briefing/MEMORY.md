@@ -2,13 +2,16 @@
 
 ## 1. 本次运行
 
-- 运行时刻：2026-09-15
-- 实际覆盖窗口：2026-09-14 至 2026-09-15（常规，距上次运行约1天）
-- 备注：检索方向覆盖 Claude Code/Anthropic 官方更新、Cursor/Windsurf/GitHub Copilot/OpenAI Codex 等编码 agent 与 MCP 生态、从业者博客（simonwillison.net/Latent Space/swyx/Chip Huyen/Eugene Yan/Hamel Husain）、LangChain/LlamaIndex、社区热议（Hacker News/Reddit/X 指定账号）、GitHub Trending、进行中事件定向核查七个方向。code.claude.com WebFetch 直连成功，确认2.1.271（09-14）与2.1.272（09-15）完整更新内容。anthropic.com/engineering、www.latent.space、news.ycombinator.com 本轮 WebFetch 均被出站代理拦截（EGRESS_BLOCKED），改用 WebSearch 间接核实：均未发现窗口内（09-14/09-15）可靠的新条目——LangChain/LlamaIndex 本轮无窗口内新博客文章；Hamel Husain/Eugene Yan/Chip Huyen 未见窗口内新文章；Cursor/Windsurf/GitHub Copilot 官方更新经核实均落在窗口外（Copilot审批PR为09-01、OpenAI Agents API为09-10）。第三方"agents-radar" HN digest镜像仓库本轮出现多个不同fork对同一天（09-15）内容互相矛盾/疑似不可靠，予以舍弃不采信，仅作为线索用于交叉核实，未直接引用其内容作为来源。Show HN "Agent Skills 1k curated from 60k+"及"36%技能存在安全缺陷"因无法确认发布日期落在窗口内，未收录。追踪事件核查：Claude Code auto mode 默认化承诺本期无新进展（搜索结果关于Bedrock/Vertex默认化的表述与"仍未默认"的表述相互矛盾，判定为不可靠信息，不采信，维持09-01认定的状态待10-01左右复核）；GitSpawn（Hermes Agent、Qwen Code、Grok Build）经核实仍停留在09-01 Manifold Security复测的"fix pending"状态，本期无新进展；Claude Cowork on Windows 磁盘访问故障经核实**已修复**——微软09-14发布带外更新KB5129195解决了Plan9共享挂载问题，已作为续报收录并从进行中事件表移出。
-- 本期新增条目集中在"开发者工具与工作流"板块，其余板块本窗口未取得可靠的、落在窗口内的新内容，按格式契约省略。
+- 运行时刻：2026-09-16
+- 实际覆盖窗口：2026-09-15 至 2026-09-16（常规，距上次运行约1天）
+- 备注：检索方向覆盖 Agent/Skill设计模式、Prompt与Context工程、开发者工具与工作流（Claude Code/Cursor/Windsurf/Copilot/Codex/MCP生态）、模型能力与API更新、从业者博客（simonwillison.net/Latent Space/swyx/Chip Huyen/Eugene Yan/Hamel Husain/LangChain/LlamaIndex）、社区热议（Hacker News/Reddit/X指定账号）、GitHub Trending、进行中事件定向核查八个方向。code.claude.com WebFetch直连成功，确认2.1.273（09-15）完整更新内容。anthropic.com/engineering、claude.com、latent.space、simonwillison.net、eugeneyan.com、hamel.dev 本轮直接WebFetch均被出站代理拦截（EGRESS_BLOCKED），改用WebSearch间接核实：除confirm了Anthropic Engineering一篇09-15发布的CI/测试影响分析复盘文章外（原文未能直接读取全文，依据WebSearch摘要及第三方转载交叉确认），其余从业者博客本轮未发现落在窗口内的新文章。**Reddit（r/LocalLLaMA、r/ClaudeAI）与X/Twitter指定账号（@simonw @swyx @HamelHusain @eugeneyan @karpathy @jerryjliu0 @hwchase17）两个方向本期未能覆盖**：Reddit直接访问被工具拒绝，WebSearch无法定位窗口内具体帖子；X检索能力有限，只返回历史存量推文无法确认日期，两方向均按"部分成功"降级处理，非完全失败。GitHub Trending仅拿到当日热度快照，无法逐一核实各仓库release时间戳是否落在窗口内，未采信为确认条目。Hacker News 09-15 讨论Andon Labs发布的自主运营企业agent「Pion」（272赞/283评论）作为社区热议事件收录（原始博客发布于09-14略早于窗口，但HN讨论热度本身发生在09-15窗口内，视为独立的社区事件收录）。追踪事件核查：Claude Code auto mode 默认化/取消classifier计费承诺（预计10月初到期）本期无新进展；GitSpawn（Hermes Agent、Qwen Code、Grok Build）经核实仍停留在09-01 Manifold Security复测的"fix pending"状态，三家近两天发布的版本更新说明均未提及相关安全修复，本期无新进展。
+- 本期新增条目分布在"开发者工具与工作流""案例与最佳实践复盘""社区热议与争议"三个板块，其余板块本窗口未取得可靠的、落在窗口内的新内容，按格式契约省略。
 
 ## 2. 已报条目清单（保留最近 14 天）
 
+- 2026-09-15 | Claude Code 2.1.273发布：LLM网关请求头标识、MCP断线重连提示、--remote-control可从App端fork后台会话，修复bypass模式子shell隐藏rm命令等安全问题 | https://code.claude.com/docs/en/changelog
+- 2026-09-15 | Anthropic工程团队复盘：Claude已承担公司约80%代码编写，人均产出8倍提升带动测试量6个月增10倍、CI job增25倍，重构测试影响分析服务应对 | https://claude.com/blog/agentic-coding-is-straining-ci-heres-how-we-scaled-test-impact-analysis-at-anthropic
+- 2026-09-15 | Hacker News热议Andon Labs发布自主运营企业agent「Pion」，监督agent Andonos指挥子agent舰队操作真实银行账户等基础设施 | https://news.ycombinator.com/item?id=49700477
 - 2026-09-15 | 微软带外更新KB5129195修复Claude Cowork on Windows的Plan9共享挂载故障（同时修复WSL同类问题） | https://support.microsoft.com/en-us/servicing/os/windows-11/2026/09/kb5129195-windows-11-24h2-25h2-security-update
 - 2026-09-14 | Claude Code周使用限额：临时50%上调到期改为永久25%上调，对当前用户实际是净17%下调 | https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-is-cutting-claude-codes-current-weekly-limits-by-17-percent/
 - 2026-09-14/09-15 | Claude Code发布2.1.271与2.1.272：auto模式按命令allowed_domains、subagent omitClaudeMd隔离CLAUDE.md、Monitor watch强制30分钟截止、动态workflow触达上限改为暂停 | https://code.claude.com/docs/en/changelog
