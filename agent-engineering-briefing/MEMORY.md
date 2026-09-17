@@ -2,13 +2,15 @@
 
 ## 1. 本次运行
 
-- 运行时刻：2026-09-16
-- 实际覆盖窗口：2026-09-15 至 2026-09-16（常规，距上次运行约1天）
-- 备注：检索方向覆盖 Agent/Skill设计模式、Prompt与Context工程、开发者工具与工作流（Claude Code/Cursor/Windsurf/Copilot/Codex/MCP生态）、模型能力与API更新、从业者博客（simonwillison.net/Latent Space/swyx/Chip Huyen/Eugene Yan/Hamel Husain/LangChain/LlamaIndex）、社区热议（Hacker News/Reddit/X指定账号）、GitHub Trending、进行中事件定向核查八个方向。code.claude.com WebFetch直连成功，确认2.1.273（09-15）完整更新内容。anthropic.com/engineering、claude.com、latent.space、simonwillison.net、eugeneyan.com、hamel.dev 本轮直接WebFetch均被出站代理拦截（EGRESS_BLOCKED），改用WebSearch间接核实：除confirm了Anthropic Engineering一篇09-15发布的CI/测试影响分析复盘文章外（原文未能直接读取全文，依据WebSearch摘要及第三方转载交叉确认），其余从业者博客本轮未发现落在窗口内的新文章。**Reddit（r/LocalLLaMA、r/ClaudeAI）与X/Twitter指定账号（@simonw @swyx @HamelHusain @eugeneyan @karpathy @jerryjliu0 @hwchase17）两个方向本期未能覆盖**：Reddit直接访问被工具拒绝，WebSearch无法定位窗口内具体帖子；X检索能力有限，只返回历史存量推文无法确认日期，两方向均按"部分成功"降级处理，非完全失败。GitHub Trending仅拿到当日热度快照，无法逐一核实各仓库release时间戳是否落在窗口内，未采信为确认条目。Hacker News 09-15 讨论Andon Labs发布的自主运营企业agent「Pion」（272赞/283评论）作为社区热议事件收录（原始博客发布于09-14略早于窗口，但HN讨论热度本身发生在09-15窗口内，视为独立的社区事件收录）。追踪事件核查：Claude Code auto mode 默认化/取消classifier计费承诺（预计10月初到期）本期无新进展；GitSpawn（Hermes Agent、Qwen Code、Grok Build）经核实仍停留在09-01 Manifold Security复测的"fix pending"状态，三家近两天发布的版本更新说明均未提及相关安全修复，本期无新进展。
-- 本期新增条目分布在"开发者工具与工作流""案例与最佳实践复盘""社区热议与争议"三个板块，其余板块本窗口未取得可靠的、落在窗口内的新内容，按格式契约省略。
+- 运行时刻：2026-09-17
+- 实际覆盖窗口：2026-09-16 至 2026-09-17（常规，距上次运行约1天）
+- 备注：检索方向覆盖 Agent/Skill设计模式、Prompt与Context工程、开发者工具与工作流（Claude Code/GitHub Copilot CLI/Cursor/Windsurf/Codex/MCP生态）、模型能力与API更新、案例与最佳实践复盘（anthropic.com/engineering、simonwillison.net、latent.space、hamel.dev、eugeneyan.com、huyenchip.com、LangChain/LlamaIndex）、社区热议（Hacker News/Reddit/X指定账号）、两个进行中事件定向核查，共八个方向。Claude Code 官方 changelog 直连成功，确认 v2.1.274（09-17）；GitHub Copilot CLI release 页确认 v1.0.85（09-16）。Agent/Skill设计模式、Prompt与Context工程、模型能力与API更新、案例与最佳实践复盘四个方向本期检索未发现落在窗口内的实质新内容，按格式契约省略对应板块。**社区热议与争议本期未能覆盖**：news.ycombinator.com、simonwillison.net、github.blog、www.anthropic.com 本轮均被出站代理拦截（EGRESS_BLOCKED），Reddit（r/LocalLLaMA、r/ClaudeAI）与 X 指定账号（@simonw @swyx @HamelHusain @eugeneyan @karpathy @jerryjliu0 @hwchase17）通过 WebSearch 均无法有效定位窗口内具体帖子/推文，按"部分成功"降级处理。追踪事件核查：事件A（Claude Code auto mode 默认化/取消classifier计费）核实官方文档（auto-mode-config、permission-modes）截至09-17仍显示 Enterprise/API/Bedrock/GCP/Foundry 为 manual 默认、classifier 仍计费，09-01 承诺的"未来一个月内"尚未兑现，无新公告，继续追踪；事件B（GitSpawn）核实 Qwen Code v0.24.0（09-16发布）未含安全修复、Grok Build 官方安全公告页仍无发布，Hermes Agent 已于09-02修复，作为续报收录并更新事件表。
 
 ## 2. 已报条目清单（保留最近 14 天）
 
+- 2026-09-17 | Claude Code 2.1.274发布：修复tool_use_id导致会话无限重试卡死问题、多项MCP连接与权限提示误报；新增内存不足告警、CLAUDE_CODE_MCP_STARTUP_WAIT_MS配置 | https://code.claude.com/docs/en/changelog
+- 2026-09-16 | GitHub Copilot CLI发布v1.0.85：vim模式全量开放、/config侧边栏、语义化JSONL会话导入、支持GPT-6 Astra模型、新增concise工具调用折叠视图 | https://github.com/github/copilot-cli/releases
+- 2026-09-16 | 【续报】GitSpawn漏洞：Qwen Code v0.24.0发布仍未包含安全修复，Grok Build官方公告页仍无发布，仅Hermes Agent已于09-02修复 | https://github.com/QwenLM/qwen-code/releases
 - 2026-09-15 | Claude Code 2.1.273发布：LLM网关请求头标识、MCP断线重连提示、--remote-control可从App端fork后台会话，修复bypass模式子shell隐藏rm命令等安全问题 | https://code.claude.com/docs/en/changelog
 - 2026-09-15 | Anthropic工程团队复盘：Claude已承担公司约80%代码编写，人均产出8倍提升带动测试量6个月增10倍、CI job增25倍，重构测试影响分析服务应对 | https://claude.com/blog/agentic-coding-is-straining-ci-heres-how-we-scaled-test-impact-analysis-at-anthropic
 - 2026-09-15 | Hacker News热议Andon Labs发布自主运营企业agent「Pion」，监督agent Andonos指挥子agent舰队操作真实银行账户等基础设施 | https://news.ycombinator.com/item?id=49700477
@@ -42,5 +44,5 @@
 
 ## 3. 进行中事件表
 
-- 事件：Claude Code auto mode 在 Enterprise/API/Bedrock/GCP/Foundry 上默认化及取消 classifier 计费；最后进展日期：2026-09-01（Anthropic 承诺"未来一个月内"）；下一步关注点：核查截至2026-10-01左右是否有正式官宣切换默认及取消计费，若届时仍未兑现记录为延期。
-- 事件：GitSpawn（git-config触发code execution，波及7款编码agent）剩余未修复情况；最后进展日期：2026-09-01（Manifold Security复测）；下一步关注点：Hermes Agent、Qwen Code、Grok Build 是否发布补丁；Claude Code 的"ultrareview" git-config sink 是否已在后续版本修复。
+- 事件：Claude Code auto mode 在 Enterprise/API/Bedrock/GCP/Foundry 上默认化及取消 classifier 计费；最后进展日期：2026-09-17（核实官方文档 auto-mode-config / permission-modes，仍显示上述平台默认 manual、classifier 仍计费，09-01 承诺的"未来一个月内"尚未兑现）；下一步关注点：核查截至2026-10-01左右是否有正式官宣切换默认及取消计费，若届时仍未兑现记录为延期。
+- 事件：GitSpawn（git-config触发code execution，波及7款编码agent）剩余未修复情况；最后进展日期：2026-09-16（Qwen Code v0.24.0发布，未含安全修复；Grok Build官方安全公告页仍无发布；Hermes Agent已于09-02修复，不再追踪其本身）；下一步关注点：Qwen Code、Grok Build 后续版本是否发布安全补丁；Claude Code 的第二条 fsmonitor git-config sink 是否已在后续版本修复。
