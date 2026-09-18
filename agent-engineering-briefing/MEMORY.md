@@ -2,12 +2,18 @@
 
 ## 1. 本次运行
 
-- 运行时刻：2026-09-17
-- 实际覆盖窗口：2026-09-16 至 2026-09-17（常规，距上次运行约1天）
-- 备注：检索方向覆盖 Agent/Skill设计模式、Prompt与Context工程、开发者工具与工作流（Claude Code/GitHub Copilot CLI/Cursor/Windsurf/Codex/MCP生态）、模型能力与API更新、案例与最佳实践复盘（anthropic.com/engineering、simonwillison.net、latent.space、hamel.dev、eugeneyan.com、huyenchip.com、LangChain/LlamaIndex）、社区热议（Hacker News/Reddit/X指定账号）、两个进行中事件定向核查，共八个方向。Claude Code 官方 changelog 直连成功，确认 v2.1.274（09-17）；GitHub Copilot CLI release 页确认 v1.0.85（09-16）。Agent/Skill设计模式、Prompt与Context工程、模型能力与API更新、案例与最佳实践复盘四个方向本期检索未发现落在窗口内的实质新内容，按格式契约省略对应板块。**社区热议与争议本期未能覆盖**：news.ycombinator.com、simonwillison.net、github.blog、www.anthropic.com 本轮均被出站代理拦截（EGRESS_BLOCKED），Reddit（r/LocalLLaMA、r/ClaudeAI）与 X 指定账号（@simonw @swyx @HamelHusain @eugeneyan @karpathy @jerryjliu0 @hwchase17）通过 WebSearch 均无法有效定位窗口内具体帖子/推文，按"部分成功"降级处理。追踪事件核查：事件A（Claude Code auto mode 默认化/取消classifier计费）核实官方文档（auto-mode-config、permission-modes）截至09-17仍显示 Enterprise/API/Bedrock/GCP/Foundry 为 manual 默认、classifier 仍计费，09-01 承诺的"未来一个月内"尚未兑现，无新公告，继续追踪；事件B（GitSpawn）核实 Qwen Code v0.24.0（09-16发布）未含安全修复、Grok Build 官方安全公告页仍无发布，Hermes Agent 已于09-02修复，作为续报收录并更新事件表。
+- 运行时刻：2026-09-18
+- 实际覆盖窗口：2026-09-17 至 2026-09-18（常规，距上次运行约1天）
+- 备注：检索方向覆盖 Agent/Skill设计模式、Prompt与Context工程、开发者工具与工作流（Claude Code/GitHub Copilot CLI/Cursor/Windsurf/Codex/MCP生态）、模型能力与API更新、案例与最佳实践复盘（Anthropic工程博客、AGNTCon+MCPCon Europe 2026会议、LangChain、Hamel Husain、Eugene Yan）、社区热议（Hacker News/Reddit/X指定账号）、两个进行中事件定向核查，共八个方向。Claude Code 官方 changelog 直连成功，确认 v2.1.275（09-17，skills/plugins账号同步、VS Code agent map、插件市场凭据泄露修复）与 v2.1.276（09-18，修复代理网关400回归）；GitHub Copilot CLI release 页确认 v1.0.86（09-17）。另通过搜索交叉核实到 Anthropic 09-17 披露内部AI R&D自动化指标（Claude主导研发占比26%，多信源印证）、Linux Foundation AGNTCon+MCPCon Europe 2026（09-17阿姆斯特丹）GitHub主题演讲、LangChain发布Inconvo/LangGraph案例复盘。Agent/Skill设计模式、Prompt与Context工程、模型能力与API更新三个方向本期检索未发现落在窗口内的实质新内容（platform.claude.com 09-18仅有Claude in Chrome会话合规API的企业合规类更新，与"怎么构建agent"关联弱，判断为噪音未收录），按格式契约省略对应板块。**社区热议与争议本期未能覆盖**：news.ycombinator.com、reddit.com（r/LocalLLaMA、r/ClaudeAI）本轮直连均被出站代理拦截（EGRESS_BLOCKED / 工具报错），X 指定账号（@simonw @swyx @HamelHusain @eugeneyan @karpathy @jerryjliu0 @hwchase17）通过 WebSearch 未能定位窗口内具体帖子/推文，按"部分成功"降级处理；此外 cursor.com、simonwillison.net、www.anthropic.com、hamel.dev、www.langchain.com/blog.langchain.com、github.blog、developers.openai.com 等一手站点本轮直连也被出站代理拦截，已用搜索引擎结果与二手引用交叉核实替代直连，其中 hamel.dev、eugeneyan.com、cursor.com（Windsurf/Devin）经交叉核实未发现窗口内新发布内容。追踪事件核查：事件A（Claude Code auto mode 在 Enterprise/API/Bedrock/GCP/Foundry 默认化及取消classifier计费）再次核实，搜索结果仍为此前已知的"计划在承诺的一个月内推广"信息，未见新公告，继续追踪，最后进展日期维持09-17不变；事件B（GitSpawn）核实 Qwen Code 09-17 nightly 构建（v0.24.0-nightly.20260917）与 Grok Build 相关报道均未见安全修复内容，无新进展，最后进展日期维持09-16不变。
 
 ## 2. 已报条目清单（保留最近 14 天）
 
+- 2026-09-18 | Claude Code发布v2.1.276：修复v2.1.275引入的经代理网关请求全部返回400报错的回归问题 | https://code.claude.com/docs/en/changelog
+- 2026-09-17 | Claude Code发布v2.1.275：skills/plugins从claude.ai账号同步至终端会话、VS Code新增子agent"agent map"面板、修复插件市场消息/日志敏感凭据泄露 | https://code.claude.com/docs/en/changelog
+- 2026-09-17 | GitHub Copilot CLI发布v1.0.86：自定义agent可选择性继承仓库指令文件、会话恢复保留市场插件与技能、autopilot任务完成后停止不再擅自继续 | https://github.com/github/copilot-cli/releases
+- 2026-09-17 | Anthropic披露内部AI R&D自动化指标：用Epoch AI自动化评分量表衡量Claude主导研发工作占比从3月1%升至26%，超90%研发为人类主导+Claude承担大块工作 | https://www.engadget.com/2261909/anthropic-says-claude-leads-26-percent-of-its-ai-research-and-development/
+- 2026-09-17 | AGNTCon+MCPCon Europe 2026：GitHub Marlene Mhangami主题演讲提出agent写代码致瓶颈转移到评审与理解，GitHub用stacked PR/AI摘要/维护者控制项应对 | https://github.com/marlenezw/agntcon-mcpcon-europe-2026
+- 2026-09-17 | LangChain案例复盘：Inconvo用LangGraph构建对话式BI agent，先自省数据库schema再驱动多步检索与可视化调整workflow | https://blog.langchain.com/customers-inconvo/
 - 2026-09-17 | Claude Code 2.1.274发布：修复tool_use_id导致会话无限重试卡死问题、多项MCP连接与权限提示误报；新增内存不足告警、CLAUDE_CODE_MCP_STARTUP_WAIT_MS配置 | https://code.claude.com/docs/en/changelog
 - 2026-09-16 | GitHub Copilot CLI发布v1.0.85：vim模式全量开放、/config侧边栏、语义化JSONL会话导入、支持GPT-6 Astra模型、新增concise工具调用折叠视图 | https://github.com/github/copilot-cli/releases
 - 2026-09-16 | 【续报】GitSpawn漏洞：Qwen Code v0.24.0发布仍未包含安全修复，Grok Build官方公告页仍无发布，仅Hermes Agent已于09-02修复 | https://github.com/QwenLM/qwen-code/releases
