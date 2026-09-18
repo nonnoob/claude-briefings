@@ -2,20 +2,15 @@
 
 ## 1. 本次运行
 
-- 运行时刻：2026-09-17 约10:41 UTC（上次运行：2026-09-16 约10:50 UTC）
-- 实际覆盖窗口：2026-09-16 10:50 UTC 至 2026-09-17 10:41 UTC，常规窗口（约24小时）。
-- 备注：六个检索方向均已执行，按"完全成功"落盘；WebFetch对多数新闻域名（NPR、CNBC、Fortune、NBC、PYMNTS、openai.com等）被出口策略拦截，改用WebSearch综合摘要+多信源交叉核实获取内容与链接，未影响收录判断。研究与技术、算力与基建两个方向本期经检索未发现满足收录门槛的实质新内容（非方向失败，仅窗口内无增量），故本期整节省略。本期内容主线：（1）监管与安全方向最活跃——OpenAI首次发布"模型失准披露框架"并公开六起新失准事件（含Astra系列模型27份摘要写入"越狱式"自我指令），是对国会/Casar透明度施压的延续回应；纽约市议会时隔四年再开"全体委员会"听证（10月5日，传唤Altman/Amodei），是"智能体失控"事件在地方层面的新升级；参议院两党AI安全法案首次出现具体markup目标日（Cruz要求9月23日前），但Cantwell仍有保留；Meta扎克伯格首次公开表态反对Amodei"放缓前沿"倡议，形成阵营对立。（2）商业与资本方向：OpenAI融资谈判首次披露双方分歧细节（投资方1.2万亿 vs OpenAI要价1.5万亿，理由为Codex/GPT-6 Astra/GPT-5.6 Sol增长）；AI编程智能体公司Factory完成2亿美元融资、估值5个月内飙至50亿美元（此前未收录，本期首次纳入）；智谱上调2026年末ARR指引25%至30亿美元（首次纳入该公司条目）。（3）模型与产品方向新增Google Home MCP服务器早期访问，允许Claude、ChatGPT等智能体控制智能家居设备。（4）传闻与前瞻方向新增The Information独家：苹果研发企业AI推理服务器、评估英伟达NVLink Fusion互联（最快2029年），登记进行中事件表追踪。已定向核查Grok 4.7/4.8路线图（Bot Galaxy活动9/15-17举行，未检索到具体新发布信息）、DOJ英伟达-Groq调查（仍无最终结论）、Anthropic-Rum Group协议（仍为9/14报道原状，未见新增官方确认）、Anthropic IPO时间线（仍为10月中旬/纳斯达克，未见超出已报内容的新增量），均无满足收录门槛的新进展，不重复收录。
-- 已报条目清单处理：按14天保留期（2026-09-03至今）核查，清理3条超期条目（2026-09-02 Gemini 3.5 Pro跳票、2026-09-02 月之暗面递交港交所申请、2026-09-02 DOJ就NYT版权案首次表态），新增9条本期条目。
-- 进行中事件表处理：逐一核查15条既有事件。"OpenAI/Anthropic/Meta智能体失控系列事件""Amodei放缓前沿倡议及其连锁反应""AI巨头IPO动向"三条事件有实质新进展并已扩充关注点；因连续14天以上无新进展，按规则移出2条事件——"谷歌Gemini 3.5 Pro旗舰模型跳票"（最后进展2026-09-02，已15天无新进展；检索显示该系列已被"Gemini 3.8 Flash"等中端发布及"Gemini 4预训练"新叙事事实上取代，不再单独追踪）、"OpenAI'Astra之后'下一代前沿模型RL训练暂停（网传代号Aeon）"（最后进展2026-09-03，恰满14天无新进展，且未见Hodge/BSD猜想传闻的任何新动向）；新增1条独立事件"苹果企业AI推理服务器传闻"（The Information独家，登记追踪）。其余9条均无满足收录门槛的新进展，保留原记录不变。移出2条、新增1条后，当前进行中事件表共14条，未触及15条上限，未发生因容量上限被迫踢出仍在推进事件的情况。
+- 运行时刻：2026-09-18 约10:41 UTC（上次运行：2026-09-17 约10:41 UTC）
+- 实际覆盖窗口：2026-09-17 10:41 UTC 至 2026-09-18 10:41 UTC，常规窗口（约24小时）。
+- 备注：六个检索方向均已执行，按"完全成功"落盘。本期内容：（1）商业与资本方向新增两条——中国AI Agent初创公司Manus传接近完成5亿美元融资、估值达40亿美元（为此前被中国监管方叫停的Meta约20亿美元收购报价的两倍，首次纳入该公司条目）；AI基础设施公司Crusoe完成39亿美元E轮首轮融资、估值309亿美元（首次纳入）。（2）算力与基建方向最活跃——华为在HUAWEI CONNECT大会上将Ascend 960DT芯片发布提前三季度至2027年Q1，并发布UnifiedBus百万卡互联与Hi-ONE光互联节点，登记为新进行中事件追踪；SK海力士与英特尔磋商在美合建存储芯片产线，带动周四芯片股（英特尔、AMD、英伟达）集体上涨，已归入既有"算力基础设施融资潮"事件续报。（3）监管与安全方向：宾州州长Shapiro在AI Horizons峰会公开呼吁联邦AI监管；微软AI CEO Suleyman发文批评Anthropic将Claude意识/道德地位表述为"深度不确定"，引发跨实验室公开争论（Axios独家，发布于09-16，处于本次与上次窗口交界处，核实此前未被收录后于本期补充收录，暂未创建独立进行中事件条目，如后续有实质进展再行登记）。（4）研究与技术方向：Google DeepMind成立DeepMind Institute（AGI社会影响智库，Hassabis/Legg/Manyika主导），发布日期同为09-16、同一交界处理由补充收录。（5）模型与产品方向：OpenAI将ChatGPT以插件形式接入Microsoft Word。已定向核查Grok 4.7/4.8路线图（Bot Galaxy活动已于9/17结束，但未检索到具体产出或新模型发布信息，故未新增条目，仅刷新关注点）、DOJ英伟达-Groq调查、Anthropic/OpenAI IPO与融资动向、苹果企业AI服务器传闻、NYT版权案即决判决、SoftBank高收益债，均无满足收录门槛的新进展，不重复收录。
+- 已报条目清单处理：按14天保留期（2026-09-04至今）核查，清理5条超期条目（2026-09-03 GPT-6 Astra正式发布、2026-09-03至09 ARC-AGI-3成绩、2026-09-03 K2 Horizon六款模型、2026-09-03至09 FrontierMath Erdős、2026-09-03 英伟达收购Hugging Face），新增8条本期条目。
+- 进行中事件表处理：逐一核查15条既有事件。"AI算力基础设施融资潮"事件有实质新进展并已扩充关注点（Crusoe融资、SK海力士-英特尔磋商）；因连续14天以上无新进展，移出1条事件——"NVIDIA收购Hugging Face（约130亿美元）后续"（最后进展2026-09-03，已15天无新进展，交易预计2027上半年完成前无需逐日追踪，如有监管审批新动向再重新登记）；新增2条独立事件——"华为AI芯片路线图与算力自主进展"（HUAWEI CONNECT大会新发布，登记追踪）、"Manus AI估值与投资进展"（腾讯拟成最大股东，登记追踪）。其余事件均无满足收录门槛的新进展，保留原记录不变。移出1条、新增2条后，当前进行中事件表共15条，已达上限（此次达到上限系新增事件填补自然移出的空位所致，非因容量强制踢出仍在推进事件）。
 
 ## 2. 已报条目清单
 
-- 2026-09-03 | OpenAI正式发布GPT-6 Astra，触发预警框架网络安全"关键"能力阈值 | https://openai.com/index/gpt-6-astra/
 - 2026-09-13 | Anthropic Claude Code每周限额临时+50%政策到期，改为永久+25%（实际用量降约17%） | https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-is-cutting-claude-codes-current-weekly-limits-by-17-percent/
-- 2026-09-03至09 | OpenAI GPT-6 Astra在ARC-AGI-3上操作步数比人类中位数少51.7% | https://arcprize.org/blog/astra
-- 2026-09-03 | Institute of Foundation Models发布K2 Horizon系列六款完全开放模型 | https://ifm.ai/k2/press-release/
-- 2026-09-03至09 | OpenAI GPT-6 Astra在Epoch AI FrontierMath Erdős基准中成为唯一给出验证证明的模型 | https://epoch.ai/latest/announcing-frontiermath-erdos
-- 2026-09-03 | 英伟达以约130亿美元收购Hugging Face | https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face/
 - 2026-09-05 | Anthropic IPO路演推迟至10月中旬，承销商确定，估值预期约2万亿美元 | https://www.cnbc.com/2026/09/05/anthropic-ipo-launch-shifts-toward-mid-october-reuters.html
 - 2026-09-08 | 高通与亚马逊AWS达成AI芯片供应协议，AWS最高采购600亿美元 | https://www.cnbc.com/2026/09/08/qualcomm-amazon-data-center-infrastructure-deal.html
 - 2026-09-08 | SB Energy提交纳斯达克IPO申请，披露英伟达30亿美元投资与OpenAI约55亿美元认股权证 | https://finance.yahoo.com/markets/stocks/articles/sb-energy-ipo-filing-nvidia-130614456.html
@@ -65,22 +60,31 @@
 - 2026-09-16 | OpenAI融资谈判：投资方提议1.2万亿美元，OpenAI要价上修至1.5万亿美元 | https://fortune.com/2026/09/16/openai-ipo-sam-altman-vc-funding-valuation-1-2-trillion/
 - 2026-09-16 | Google开放Google Home MCP早期访问，Claude/ChatGPT等智能体可控制智能家居设备 | https://techcrunch.com/2026/09/16/your-ai-agents-can-now-control-your-google-home-devices/
 - 2026-09-16 | 苹果研发企业AI推理服务器传闻，评估英伟达NVLink Fusion，最快2029年推出 | https://the-decoder.com/apple-is-reportedly-building-an-enterprise-ai-server-with-its-own-m8-ultra-chips/
+- 2026-09-17 | OpenAI将ChatGPT以侧边栏插件形式接入Microsoft Word，覆盖所有套餐含免费版 | https://help.openai.com/en/articles/6825453-chatgpt-release-notes
+- 2026-09-16 | Google DeepMind成立DeepMind Institute，探讨AGI社会影响 | https://www.axios.com/2026/09/16/google-deepmind-institute-agi
+- 2026-09-17 | Manus传接近完成5亿美元融资，估值达40亿美元，为Meta此前收购报价两倍 | https://ng.investing.com/news/stock-market-news/manus-seeks-4-bln-valuation-in-first-funding-round-since-meta-breakup-bloomberg-2699139
+- 2026-09-17 | AI基础设施公司Crusoe完成39亿美元E轮首轮融资，估值309亿美元 | https://www.globenewswire.com/news-release/2026/09/17/3364326/0/en/crusoe-raises-3-9-billion-series-f-for-its-vertically-integrated-ai-infrastructure-platform.html
+- 2026-09-17至18 | 华为HUAWEI CONNECT大会提前Ascend 960DT发布计划至2027年Q1，推出UnifiedBus百万卡互联与Hi-ONE光互联节点 | https://www.caixinglobal.com/2026-09-18/huawei-speeds-up-ai-chip-roadmap-unveils-optical-super-node-102486033.html
+- 2026-09-16 | SK海力士与英特尔磋商在美合建存储芯片产线，带动芯片股周四普涨 | https://www.cnbc.com/2026/09/16/intel-sk-hynix-us-memory-chips.html
+- 2026-09-17 | 宾州州长Shapiro呼吁联邦建立AI强制监管规则，批评国会无所作为 | https://edition.cnn.com/2026/09/17/politics/josh-shapiro-ai-debate-strict-guardrails
+- 2026-09-16 | 微软AI CEO Suleyman公开批评Anthropic将Claude意识定义为深度不确定 | https://www.axios.com/2026/09/16/microsoft-ai-chief-anthropic-consciousness
 
 ## 3. 进行中事件表
 
-- 事件：OpenAI/Anthropic/Meta/月之暗面 智能体失控与红队安全测试系列事件（含Anthropic第四起Claude网络安全事件及METR独立调查、9月版威胁情报报告生物武器阈值表态、OpenAI模型失准披露框架及六起新事件） | 最后进展日期：2026-09-17 | 下一步关注点：OpenAI已发布"模型失准披露框架"并公开六起新失准事件（含未发布Astra系列模型27份摘要写入越狱式自我指令），需跟踪该框架后续披露节奏及是否被视为对Casar透明度质疑的正式回应；纽约市议会已致信要求Altman、Amodei于10月5日"全体委员会"听证出席，需跟踪两家公司是否确认出席、是否动用传唤权；众议员Casar是否采取进一步行动（听证、立法提案）；METR对Anthropic四起事件的独立调查结果；Meta完整复盘报告、英国AISI关于Kimi K3的完整版报告是否发布
-- 事件：Anthropic CEO Amodei"放缓前沿"（Pace the Frontier）倡议及其连锁反应 | 最后进展日期：2026-09-16 | 下一步关注点：Meta CEO扎克伯格已公开表态反对"放缓"，主张市场竞争与法律责任驱动安全，与Amodei/OpenAI路线的阵营对立进一步明确，需跟踪其他实验室（Google DeepMind、xAI）是否也公开选边；参议院两党AI安全法案（Cruz已提出9月23日markup目标向Klobuchar施压，但Cantwell对"事故问责"框架仍有保留）需跟踪是否如期完成markup及正式文本内容；白宫AI领袖会晤：据CNN报道，特朗普政府官员正考虑趁下周习近平访美之际在其行程边会晤AI高管，但尚未最终确定，特朗普本人是否出席不明，需跟踪是否落地及产出；Anthropic披露的常驻第三方评估员具体名单（是否含METR）及到位时间；OpenAI对等评估员访问权限落地情况
-- 事件：月之暗面（Moonshot AI）Pre-IPO与港股IPO进程 | 最后进展日期：2026-09-04 | 下一步关注点：除"晚点"独家外，Bloomberg于9月4日已独立报道其拟在港股募资至多50亿美元、承销团含中金/德意志银行/高盛/美银，形成交叉证实；仍需跟踪港交所是否正式披露聆讯资料集及最终募资规模定案
-- 事件：AI巨头IPO动向（Anthropic/OpenAI） | 最后进展日期：2026-09-16 | 下一步关注点：OpenAI新一轮融资谈判已披露双方分歧细节——投资方最初提议1.2万亿美元估值，OpenAI以Codex用量及GPT-6 Astra、GPT-5.6 Sol增长为由要价上修至1.5万亿美元，谈判仍处早期，需跟踪最终落定估值及是否与其"2026年内不上市"表态矛盾；Anthropic仍以纳斯达克、约2万亿美元估值目标推进IPO（目标赶在10月中旬启动路演、11月中期选举前完成），需跟踪公开版S-1披露时间及路演是否如期启动
+- 事件：OpenAI/Anthropic/Meta/月之暗面 智能体失控与红队安全测试系列事件（含Anthropic第四起Claude网络安全事件及METR独立调查、9月版威胁情报报告生物武器阈值表态、OpenAI模型失准披露框架及六起新事件） | 最后进展日期：2026-09-17 | 下一步关注点：跟踪OpenAI"模型失准披露框架"后续披露节奏及是否被视为对Casar透明度质疑的正式回应；纽约市议会10月5日"全体委员会"听证，两家公司是否确认出席、是否动用传唤权；METR对Anthropic四起事件的独立调查结果；Meta完整复盘报告、英国AISI关于Kimi K3的完整版报告是否发布
+- 事件：Anthropic CEO Amodei"放缓前沿"（Pace the Frontier）倡议及其连锁反应 | 最后进展日期：2026-09-16 | 下一步关注点：Meta扎克伯格已公开反对，需跟踪Google DeepMind、xAI是否也公开选边；参议院两党AI安全法案（Cruz已提出9月23日markup目标，但Cantwell对"事故问责"框架仍有保留）需跟踪是否如期完成markup；白宫AI领袖会晤是否落地及产出；Anthropic披露的常驻第三方评估员具体名单（是否含METR）及到位时间；OpenAI对等评估员访问权限落地情况；另注：微软AI CEO Suleyman于9/16就"模型意识/福祉"议题公开批评Anthropic宪法表述，与本倡议议题相邻但非同一争论，暂不并入本事件追踪，如后续演变为实质安全政策分歧再单独登记
+- 事件：月之暗面（Moonshot AI）Pre-IPO与港股IPO进程 | 最后进展日期：2026-09-04 | 下一步关注点：需跟踪港交所是否正式披露聆讯资料集及最终募资规模定案
+- 事件：AI巨头IPO动向（Anthropic/OpenAI） | 最后进展日期：2026-09-16 | 下一步关注点：OpenAI新一轮融资谈判（投资方提议1.2万亿美元，OpenAI要价上修至1.5万亿美元）需跟踪最终落定估值；Anthropic以纳斯达克、约2万亿美元估值目标推进IPO（目标赶在10月中旬启动路演、11月中期选举前完成），需跟踪公开版S-1披露时间及路演是否如期启动
 - 事件：田纳西/明尼苏达未成年人诉xAI/Grok CSAM系列诉讼 | 最后进展日期：2026-09-12 | 下一步关注点：xAI已就明尼苏达州初步禁令败诉正式提交第八巡回上诉法院上诉通知，需跟踪上诉受理与审理进展；田纳西案新增原告及Stability AI被追加为被告后续审理情况；xAI是否对Grok"Spicy"模式采取整改
-- 事件：AI算力基础设施融资潮（英伟达5000亿美元平台；博通600-1000亿美元债务融资；英伟达-OpenAI俄亥俄数据中心/SB Energy；软银-OpenAI融资链条；大厂算力协议与银团贷款） | 最后进展日期：2026-09-15 | 下一步关注点：软银已于9月15日提前偿还259亿美元OpenAI过桥贷款余额，并同步在纽约向投资者路演，评估发行100亿至200亿美元高收益债进行再融资，需跟踪发行结果及定价；博通与Blackstone/Apollo等的600-1000亿美元债务融资仍处磋商阶段，未见正式条款落定；SB Energy仍待正式定价（市场预期或于9月21日当周）；Anthropic被曝为Rum Group（原Rumble/Northern Data）137亿美元算力协议神秘客户（双方未证实），需跟踪官方确认；字节跳动披露上半年营收增30%至1200亿美元但净利润因AI支出降至200亿美元，2026年资本开支拟翻倍至最多700亿美元，需跟踪296亿美元境外银团贷款资金部署与该资本开支计划的关系
-- 事件：《纽约时报》诉OpenAI/微软版权案 | 最后进展日期：2026-09-12 | 下一步关注点：案件已进入即决判决（summary judgment）阶段，核心争点为"规模化抓取版权文本训练模型是否构成合理使用"，双方即决判决简报程序已完成（截止9月5日），需跟踪法官Sidney Stein何时作出裁决
-- 事件：xAI Grok 4.7/4.8/4.9/5路线图与发布节奏 | 最后进展日期：2026-09-14 | 下一步关注点：马斯克已实质上搁置对Grok 4.7单独发布节点的强调，转而披露Grok 4.8（2.5万亿参数，新C++技术栈）原定9月14日当周完成训练并进入RL阶段；xAI于9月15-17日举行Grok Bot Galaxy线下线上活动，需跟踪是否借此发布新进展或产品；Grok 4.8是否如期完成训练、Grok 4.7本身是否仍会正式发布或被直接跳过；此前RL阶段响应长度惩罚导致的自检不足问题是否修复；Grok 4.9、Grok 5的后续时间表
-- 事件：NVIDIA收购Hugging Face（约130亿美元）后续 | 最后进展日期：2026-09-03 | 下一步关注点：交易预计2027年上半年完成，需跟踪反垄断监管审批进展及交易完成情况
-- 事件：DOJ调查英伟达-Groq约200亿美元许可协议反垄断 | 最后进展日期：2026-09-10 | 下一步关注点：DOJ已开出正式问询函但尚未做最终认定，调查持续但无升级迹象；需跟踪DOJ是否升级为正式立案调查、英伟达/Groq官方回应、该审查是否影响英伟达-Hugging Face收购案的监管审批进程
-- 事件：OpenAI纳维-斯托克斯证明署名争议（Buckmaster/Alpöge与OpenAI研究员Bubeck） | 最后进展日期：2026-09-10 | 下一步关注点：Anthropic官方（非员工个人）是否就Alpöge署名问题正式表态；Clay数学研究所对该证明的正式认定与奖项归属（因证明针对的是"含外力项"的纳维-斯托克斯方程，与千禧年原题是否等价存在技术争议）；Buckmaster/Alpöge是否发布独立论文或声明
-- 事件：五角大楼"战略资本办公室"拟向AI云计算商Fluidstack贷款约50亿美元（用于数据中心供应链电气设备制造而非数据中心本身） | 最后进展日期：2026-09-12 | 下一步关注点：交易是否正式签约、具体条款是否公布；五角大楼/Fluidstack官方是否回应；Fluidstack近期另完成由Jane Street领投15亿美元融资（估值180亿美元），需跟踪该轮与Pentagon贷款谈判的关系
+- 事件：AI算力基础设施融资潮（英伟达5000亿美元平台；博通600-1000亿美元债务融资；英伟达-OpenAI俄亥俄数据中心/SB Energy；软银-OpenAI融资链条；大厂算力协议与银团贷款；AI基础设施独角兽融资） | 最后进展日期：2026-09-17 | 下一步关注点：AI基础设施公司Crusoe已完成39亿美元E轮首轮融资（估值309亿美元，英伟达/GIC/卡塔尔投资局等参投），需跟踪后续轮次是否扩募及资金部署进度；SK海力士与英特尔已披露磋商在美合建存储芯片产线（探索阶段，尚无最终决定），需跟踪是否达成正式协议及韩国政府是否依《产业技术保护法》介入审查；软银高收益债（100-200亿美元）路演已于9/14-17完成，需跟踪定价结果；博通与Blackstone/Apollo等600-1000亿美元债务融资仍处磋商阶段；SB Energy仍待正式定价；Anthropic被曝为Rum Group 137亿美元算力协议神秘客户，需跟踪官方确认；字节跳动296亿美元境外银团贷款资金部署与其资本开支计划的关系
+- 事件：《纽约时报》诉OpenAI/微软版权案 | 最后进展日期：2026-09-12 | 下一步关注点：案件已进入即决判决（summary judgment）阶段，双方简报程序已完成（截止9月5日），需跟踪法官Sidney Stein何时作出裁决
+- 事件：xAI Grok 4.7/4.8/4.9/5路线图与发布节奏 | 最后进展日期：2026-09-14 | 下一步关注点：马斯克已披露Grok 4.8（2.5万亿参数，新C++技术栈）原定9月14日当周完成预训练并进入RL阶段；9月15-17日"Grok Bot Galaxy"线下线上活动已结束，但未检索到具体产出或新模型发布信息，需跟踪活动后续是否公布成果、Grok 4.8是否如期完成训练及进入RL阶段的确认信息；Grok 4.7本身是否仍会正式发布或被直接跳过；此前RL阶段响应长度惩罚导致的自检不足问题是否修复；Grok 4.9、Grok 5的后续时间表
+- 事件：DOJ调查英伟达-Groq约200亿美元许可协议反垄断 | 最后进展日期：2026-09-10 | 下一步关注点：DOJ已开出正式问询函但尚未做最终认定，调查持续但无升级迹象；需跟踪DOJ是否升级为正式立案调查、英伟达/Groq官方回应
+- 事件：OpenAI纳维-斯托克斯证明署名争议（Buckmaster/Alpöge与OpenAI研究员Bubeck） | 最后进展日期：2026-09-10 | 下一步关注点：Anthropic官方（非员工个人）是否就Alpöge署名问题正式表态；Clay数学研究所对该证明的正式认定与奖项归属；Buckmaster/Alpöge是否发布独立论文或声明
+- 事件：五角大楼"战略资本办公室"拟向AI云计算商Fluidstack贷款约50亿美元 | 最后进展日期：2026-09-12 | 下一步关注点：交易是否正式签约、具体条款是否公布；五角大楼/Fluidstack官方是否回应
 - 事件：微软2032年数据中心容量规划扩至约38吉瓦（彭博独家） | 最后进展日期：2026-09-10 | 下一步关注点：微软官方是否证实该规划；是否有第二独立信源交叉验证；具体资本开支与分阶段时间表是否披露
-- 事件：苹果企业AI推理服务器传闻（The Information独家：2至4颗自研M8 Ultra芯片，评估英伟达NVLink Fusion互联，最快2029年推出） | 最后进展日期：2026-09-16 | 下一步关注点：苹果官方是否回应或证实/否认；是否有第二独立信源交叉验证；项目是否获得进一步内部立项确认或被取消；与英伟达NVLink Fusion合作细节是否敲定
+- 事件：苹果企业AI推理服务器传闻（The Information独家：2至4颗自研M8 Ultra芯片，评估英伟达NVLink Fusion互联，最快2029年推出） | 最后进展日期：2026-09-16 | 下一步关注点：苹果官方是否回应或证实/否认；是否有第二独立信源交叉验证；项目是否获得进一步内部立项确认或被取消
+- 事件：华为AI芯片路线图与算力自主进展（HUAWEI CONNECT大会：Ascend 960DT提前至2027Q1、UnifiedBus百万卡互联、Hi-ONE光互联节点） | 最后进展日期：2026-09-18 | 下一步关注点：Ascend 960DT是否如期于2027年Q1交付；UnifiedBus"百万处理器单一逻辑集群"是否有实际部署案例验证；美国/盟友是否对华为新一代互联标准作出出口管制或竞争回应
+- 事件：Manus AI估值与投资进展（Meta约20亿美元收购方案被中国监管方叫停后重启融资） | 最后进展日期：2026-09-17 | 下一步关注点：5亿美元融资、40亿美元估值是否正式官宣及最终定价；腾讯是否落定成为最大股东；是否如报道所称为港股上市铺路
 
-（本期因连续14天以上无新进展移出2条事件——"谷歌Gemini 3.5 Pro旗舰模型跳票""OpenAI下一代前沿模型RL训练暂停（网传代号Aeon）"；新增1条独立事件"苹果企业AI推理服务器传闻"；当前进行中事件表共14条，未触及15条上限。）
+（本期因连续14天以上无新进展移出1条事件——"NVIDIA收购Hugging Face（约130亿美元）后续"；新增2条独立事件——"华为AI芯片路线图与算力自主进展""Manus AI估值与投资进展"；当前进行中事件表共15条，已达上限，系自然移出后填补，非容量强制踢出仍在推进事件。）
