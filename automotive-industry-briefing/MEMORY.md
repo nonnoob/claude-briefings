@@ -2,102 +2,90 @@
 
 ## 1. 本次运行时刻与实际覆盖窗口
 
-- 运行时刻：2026-09-19 10:20 UTC
-- 覆盖窗口：2026-09-18 10:20 UTC 至 2026-09-19 10:20 UTC（常规）
-- 六个方向均分派了并行调研任务，全部取得有效结果（无方向级失败，均未遇到平台安全策略拦截或配额耗尽）。产业动向方向捕获Stellantis Brampton谈判僵局持续（续报）、广汽/一汽合资股权重组仍未签约但传出一汽丰田标的细节（续报+传闻+单源）、赛力斯副总裁康波首次公开回应问界轻资产调整（续报）、本田加速混动车型量产计划；电动化与供应链方向捕获花旗研报宁德时代9月产量预计降3%（续报）、碳酸锂期货单日跌3.06%（续报+单源）、欣旺达闪充电池系统发布（单源）；智能驾驶方向捕获Waymo新加坡计划细节披露（续报）、Lucid与Bolt欧洲Robotaxi合作意向；新车发布方向捕获长安深蓝S07、东风风行星海V6两款新车上市，奇瑞捷豹路虎神行者8启动全国交付，理想i9开启交付且交付周期延长（续报）；政策监管方向捕获中国商务部/外交部正式回应欧盟混动车出口限额要求（续报）、美国六大汽车行业协会联名致信特朗普维持对华车企"闭门"政策；资本与经营方向捕获宁德时代持续回购但股价未企稳（续报）、36氪独家理想核心技术对外开放并筹备IPO传闻（传闻+单源）。
-- 定向核实结果：华为乾崑智界RX L3路测仍为7城范围、无量产时间表新消息；文远知行西班牙马德里Robotaxi仍未正式对公众开放载客；宁德时代宜春枧下窝锂矿复产环评仍无新进展；特斯拉Cybercab NHTSA调查窗口内特斯拉仍未正式回应，继续等待9/30截止；哪吒汽车重整投资方太乙圣莲实缴资本仍为空，但确认《重整计划(草案)》债权人表决期截止日为10/12 17时；吉利银河战舰700预售数据已确认但非窗口内新进展，仍未正式上市；一汽-大众ID. AURA T6预售价未变，9/20上市发布会前无新泄露定价。
-- 欧盟-加拿大峰会定档10/29-30蒙特利尔（磋商"联席成员"合作框架）一事来源仅为汇通财经/fx678快讯、未能取得可访问公开链接，权衡后未计入简报正文，仅计入进行中事件表跟踪。
+- 运行时刻：2026-09-20 10:30 UTC
+- 覆盖窗口：2026-09-19 10:20 UTC 至 2026-09-20 10:30 UTC（常规）
+- 六个方向均分派了并行调研任务，全部取得有效结果（无方向级失败，均未遇到平台安全策略拦截或配额耗尽；本期窗口恰逢周末，A股/港股/GFEX期货均休市，部分方向"全新事件"较少，多为对9/17-18已发生事件的续报确认）。产业动向方向捕获Stellantis Brampton工厂劳资合同今晚到期、大众/奥迪SSP电动平台推迟A4 e-tron至2029年3月（全新）、华为鸿蒙智行秋季发布会定档9/23首曝尚界H5；电动化与供应链方向捕获"去宁化"格局升温（倪军/何小鹏表态、理想MEGA/i6自研电池细节）、碳酸锂期货9月跌超20%新增SMM统计口径助跌细节、宁德时代宜春枧下窝锂矿复产环评进入"报批前信息公示"新阶段；智能驾驶方向捕获长安泰达论坛公布L3(2027量产)/L4(2028商业化)时间表；新车发布方向捕获蔚来全新ES8上市（40.68万-44.68万元）、一汽-大众ID. AURA T6正式上市定价、东风华为"猎境"X9预售24小时破2万单；政策监管方向捕获欧盟-中国磋商定档10/8-9北京、德国财长克林拜尔推动对华混动车加税、欧盟-加拿大"联席成员"方案经权威信源证实（此前存疑）、英国拒绝跟随欧盟加税（单源）；资本与经营方向捕获理想核心技术开放传闻新增细节（仍未证实）、宁德时代股价持续承压但大华继显逆势给出买入评级。
+- 定向核实结果：文远知行马德里Robotaxi仍未对公众开放载客，无新进展；华为乾崑智界RX L3路测仍为7城范围，无量产时间表更新；Waymo东京/拉斯维加斯Robotaxi计划无新细节；特斯拉Cybercab NHTSA调查窗口内特斯拉仍未正式回应，继续等待9/30截止；哪吒汽车重整投资方太乙圣莲实缴资本仍为空（工商信息层面，未见官方公告更新），10/12债权人表决期不变；吉利银河战舰700仍处预售阶段，未见正式上市报道；花旗研报预计宁德时代9月产量降3%一事本期未获官方证实或新分析，维持传闻状态不续报。
+- 广汽华为合资品牌"启境"GX7预售价（24.99万-31.19万元）已于9/18公布、发布时间早于本次窗口，本期简报正文未收录，仅纳入进行中事件表跟踪其9/23正式上市定价。
 - 未遇到方向级"完全失败"，本期按"常规"落盘（非部分成功降级）。
 
 ## 2. 已报条目清单（最近14天）
 
-- 2026-09-07 | 小米汽车"澎程"N70/N90系列正式上市，首款增程产品线，发布当晚4分钟锁单破万 | https://chejiahao.autohome.com.cn/info/26401063
-- 2026-09-08 | 加拿大对美报复性关税正式生效，覆盖约276亿加元商品 | https://www.cnbc.com/2026/09/08/canada-retaliatory-tariffs.html
-- 2026-09-08至09 | 宁德时代A股股价连续两日创年内新低，"去宁化"+回购未落地为主因 | https://finance.sina.com.cn/jjxw/2026-09-09/doc-inirfivw8605047.shtml
-- 2026-09-09 | 宁德时代宜春枧下窝锂矿复产筹备提速，召回首批员工、暂停第二批调配 | https://www.cls.cn/detail/2140051
 - 2026-09-09 | 理想汽车官宣理想i9将于9月16日发布，纯电旗舰六座SUV | https://finance.sina.com.cn/tech/digi/2026-09-09/doc-inirexha8757681.shtml
 - 2026-09-10 | 吉利银河TT杭州上市，限量999台Ultra版27分钟售罄，4天小订破2万台 | https://www.sohu.com/a/1071530608_122985188
 - 2026-09-10 | 文远知行与Uber、AVOMO获西班牙首张全国性L4 Robotaxi运营许可 | https://chinaevhome.com/2026/09/10/weride-uber-secure-spains-first-l4-robotaxi-license-ahead-of-madrid-launch/
-- 2026-09-10 | 乘联分会数据：9月1-6日全国新能源乘用车零售约15万辆，环比+15%，同比-3%，渗透率71.5% | https://cnevpost.com/2026/09/10/china-nev-retail-first-week-sept-2026/
-- 2026-09-11 | 特斯拉Model Y Performance在华上市，起售价36.9万元，CLTC续航659km，零百3.5秒 | https://cnevpost.com/2026/09/11/tesla-launches-model-y-performance-china/
-- 2026-09-11 | 吉利银河TT公布正式上市定价：限时先享价12.99万-18.59万元(5款配置)，15分钟大定破1万台 | https://www.news.cn/auto/20260911/7fccf72e041844868deb707170b13a61/c.html
-- 2026-09-11 | 吉利银河战舰700确认9/15开预售，综合功率830kW、零百4.2秒、CLTC续航305km、预计25万元起 | https://www.ithome.com/0/999/939.htm
+- 2026-09-11 | 特斯拉Model Y Performance在华上市，起售价36.9万元 | https://cnevpost.com/2026/09/11/tesla-launches-model-y-performance-china/
+- 2026-09-11 | 吉利银河TT公布正式上市定价：限时先享价12.99万-18.59万元 | https://www.news.cn/auto/20260911/7fccf72e041844868deb707170b13a61/c.html
+- 2026-09-11 | 吉利银河战舰700确认9/15开预售，CLTC续航305km，预计25万元起 | https://www.ithome.com/0/999/939.htm
 - 2026-09-11 | 一汽-大众ID. AURA T6定档9月20日上市，预售价13.59万-16.99万元 | https://cnevpost.com/2026/09/11/faw-vw-launch-id-aura-t6-sept-20/
-- 2026-09-11 | 工信部等九部门印发《智能网联新能源汽车产业发展"十五五"规划》，2030年NEV乘用车/商用车占比70%/40%目标 | https://www.cls.cn/detail/2171393
-- 2026-09-11 | 丰田因电池ECU软件缺陷召回电动C-HR SUV，数量8,521辆或约1万辆(矛盾) | https://electrek.co/2026/09/10/toyota-recalls-8521-electric-c-hr-suvs-update/
-- 2026-09-11 | Stellantis与Roshel签署MOU拟出售Brampton工厂，Unifor与Stellantis合同谈判破裂暂停(合同9/20到期) | https://www.bloomberg.com/news/articles/2026-09-11/stellantis-signs-memo-with-roshel-for-possible-sale-of-idle-plant
-- 2026-09-12 | 阿维塔（华为乾崑合作）发布9系旗舰六座SUV黑色款官图，预计四季度上市 | https://www.ithome.com/1/001/579.htm
-- 2026-09-12 | Stellantis Brampton工厂出售遭当地市长公开抨击为"背叛"，披露联邦与安省逾5亿加元拨款因进度滞后未到位 | https://www.ctvnews.ca/video/2026/09/12/another-broken-commitment-from-stellantis-brampton-mayor-on-sale-of-auto-plant/
-- 2026-09-12 | 阿维塔总裁陈卓回应9系设计争议提出"双谱系设计"，披露华为乾崑ADS5+太行智控+XMC数字底盘等新参数 | https://www.ithome.com/1/000/601.htm
-- 2026-09-13 | 哪吒汽车（合众新能源）重整方案曝光，浙江太乙圣莲拟出资30亿元获约70.62%股权，分三阶段复产 | https://finance.sina.com.cn/tech/roll/2026-09-13/doc-inirrxsc0610720.shtml
-- 2026-09-14 | 蔚来第三代ES8即将达成累计交付15万辆里程碑，占蔚来品牌总交付62.21% | https://cnevpost.com/2026/09/14/nio-150000-deliveries-3rd-gen-es8-this-week/
-- 2026-09-14 | 零跑上调2026年海外销量预测至约20万辆，计划2027年上半年推出海外插混车型 | https://cnevpost.com/2026/09/14/leapmotor-plans-overseas-phev-launch-2027/
-- 2026-09-14 | 特斯拉Cybercab将于9/17-27在北京、上海静态展出，非中国销售或Robotaxi落地信号 | https://cnevpost.com/2026/09/14/tesla-to-display-cybercab-beijing-shanghai-this-week/
-- 2026-09-14 | 小鹏G9L中国上市发布会定档9月17日，首发第二代VLA模型 | https://www.jiemian.com/article/15089858.html
-- 2026-09-14 | 广汽集团公告拟收购一汽所持合资公司股权（疑似一汽丰田），一汽将成广汽第二大股东，A股停牌H股大涨 | https://autonews.gasgoo.com/articles/market-industry/gac-group-plans-to-acquire-stake-in-faw-held-joint-venture-2099503045066260481
+- 2026-09-11 | 工信部等九部门印发《智能网联新能源汽车产业发展"十五五"规划》 | https://www.cls.cn/detail/2171393
+- 2026-09-11 | Stellantis与Roshel签署MOU拟出售Brampton工厂，Unifor合同谈判破裂暂停 | https://www.bloomberg.com/news/articles/2026-09-11/stellantis-signs-memo-with-roshel-for-possible-sale-of-idle-plant
+- 2026-09-13 | 哪吒汽车重整方案曝光，浙江太乙圣莲拟出资30亿元获约70.62%股权 | https://finance.sina.com.cn/tech/roll/2026-09-13/doc-inirrxsc0610720.shtml
+- 2026-09-14 | 广汽集团公告拟收购一汽所持合资公司股权（疑似一汽丰田），A股停牌H股大涨 | https://autonews.gasgoo.com/articles/market-industry/gac-group-plans-to-acquire-stake-in-faw-held-joint-venture-2099503045066260481
 - 2026-09-15 | 宁德时代获批收购吉利系重庆耀宁新能源电池厂，规划产能30GWh | https://chinaevhome.com/2026/09/15/catl-cleared-to-acquire-geely-linked-battery-plant-planned-for-30-gwh/
-- 2026-09-14 | Waymo在拉斯维加斯开放付费Robotaxi，成美国第15个运营城市 | https://www.bloomberg.com/news/articles/2026-09-14/waymo-expands-paid-robotaxi-service-to-las-vegas-its-15th-city
 - 2026-09-15 | Waymo联手GO、日本交通，2027年在东京启动Robotaxi服务 | https://www.bloomberg.com/news/articles/2026-09-15/waymo-to-start-tokyo-robotaxi-service-next-year-in-asia-push
 - 2026-09-15 | 吉利银河战舰700官方预售价公布：19.98万-26.98万元，陆地方舟版38.98万元 | https://auto.ifeng.com/c/8wRWCQPCD5s
-- 2026-09-14 | 比亚迪腾势N8L纯电版上市，29.98万/32.98万元，搭载车载AI智能体"迪迪虾" | https://finance.sina.com.cn/jjxw/2026-09-15/doc-inirwwmw6956322.shtml
-- 2026-09-14 | 国标委发布《汽车软件质量与缺陷管理规范》，明确OTA召回监管要求，12月1日起实施 | https://www.ithome.com/1/002/009.htm
-- 2026-09-14 | 哪吒汽车重整投资方太乙圣莲实缴资本为空，资金到位存变数，公司面临资质吊销风险 | https://finance.sina.cn/stock/ssgs/2026-09-14/detail-inirutpa4630027.d.html?vt=4
-- 2026-09-16 | 广汽H股复牌后冲高回落，收报涨约6%（2.475港元，市值505亿港元），一汽丰田/广汽丰田对合资股权收购传闻均未置评 | https://www.21jingji.com/article/20260915/herald/0665e4f407d531bfb6b709c68d157df5.html
-- 2026-09-16 | 华为鸿蒙智行将问界合作模式调整为"轻资产"，产品定义/设计/营销/渠道服务改由赛力斯主导 | https://www.ithome.com/1/002/475.htm
-- 2026-09-16 | NHTSA将特斯拉Cybercab审计查询升级为正式"特别指令"，要求宣誓声明证明合规，9月30日前须答复 | https://electrek.co/2026/09/15/nhtsa-tesla-cybercab-special-order-fmvss-certification/
-- 2026-09-16 | 比亚迪杭州发布e-Bus平台3.0及全新电动客车C11 | https://k.sina.com.cn/article_7857201856_1d45362c001908nhk8.html
-- 2026-09-16 | 美国联邦公报公告调整对加拿大汽车相关产品第338条关税商品清单，修改9月15日生效，部分商品9月29日起升级为禁止进口 | https://www.federalregister.gov/documents/2026/09/14/2026-18839/modifying-the-scope-of-products-of-canada-subject-to-the-additional-duties-imposed-to-offset
-- 2026-09-16 | 宁德时代A股盘中跌破300元关口，较年内高点回撤约35% | https://cnevpost.com/2026/09/16/catl-shares-extend-slide/
-- 2026-09-17 | Stellantis Brampton出售谈判陷僵局，Unifor警告工厂或永久失去，呼吁联邦政府介入 | https://www.bnnbloomberg.ca/business/company-news/2026/09/17/we-need-time-unifor-says-stellantis-brampton-plant-could-be-lost-for-good-as-it-urges-feds-to-step-in/
-- 2026-09-17 | 赛力斯回应问界轻资产调整传闻，否认门店撤出，证实合作转为赛力斯主导 | https://www.21jingji.com/article/20260917/herald/5ed3bae9e9a5209ec3e6925d73ef4455.html
-- 2026-09-16 | 比亚迪欧洲扩产顾问透露远期布局3座整车厂加1座电池厂，第二座厂年底前选定 | https://www.bloomberg.com/news/articles/2026-09-17/china-s-byd-targets-four-european-plants-to-anchor-regional-push
-- 2026-09-17 | 大众Seat品牌据报将于2029年底前有序退市 | https://www.investing.com/news/stock-market-news/analysisvolkswagens-seat-on-the-brink-as-chinese-rivals-gain-ground-4904804
-- 2026-09-16 | 吉利官方回应宁德时代收购耀宁电池厂报道，澄清收购主体为合资公司时代吉利动力电池、否认85亿元投资传闻 | https://news.qq.com/rain/a/20260916A07VKC00
-- 2026-09-16至17 | 国内碳酸锂期货跌至124,020元/吨后次日反弹近4% | https://news.qq.com/rain/a/20260917A02ONW00
-- 2026-09-17 | 固态电池厂商Factorial Energy与三井金属达成新合作扩大硫化物电解质量产 | https://electrek.co/2026/09/17/solid-state-battery-maker-factorial-secures-another-big-partnership/
+- 2026-09-16 | 华为鸿蒙智行将问界合作模式调整为"轻资产"，产品定义/设计/营销由赛力斯主导 | https://www.ithome.com/1/002/475.htm
+- 2026-09-16 | NHTSA将特斯拉Cybercab审计升级为正式"特别指令"，9月30日前须答复 | https://electrek.co/2026/09/15/nhtsa-tesla-cybercab-special-order-fmvss-certification/
 - 2026-09-16 | 华为乾崑智界RX获批L3级自动驾驶路测牌照，7城展开公开道路测试 | https://news.qq.com/rain/a/20260916A0AFT600
-- 2026-09-17 | Waymo宣布进军新加坡，计划2028年开放付费Robotaxi服务 | https://waymo.com/blog/2026/09/waymo-in-singapore/
-- 2026-09-17 | Zoox内华达100辆Robotaxi数量上限将于9/25解除 | https://techcrunch.com/2026/09/17/amazon-owned-zooxs-100-robotaxi-limit-in-nevada-is-about-to-disappear/
 - 2026-09-16 | 理想i9发布上市，全国统一零售价36.98万元(Home版) | https://cnevpost.com/2026/09/16/li-auto-launches-i9-electric-suv/
-- 2026-09-16 | 比亚迪方程豹方程S/SGT发布上市，18.99万-23.99万元 | https://finance.sina.com.cn/tech/roll/2026-09-16/doc-inirzwqv3692439.shtml
+- 2026-09-17 | Stellantis Brampton出售谈判陷僵局，Unifor警告工厂或永久失去 | https://www.bnnbloomberg.ca/business/company-news/2026/09/17/we-need-time-unifor-says-stellantis-brampton-plant-could-be-lost-for-good-as-it-urges-feds-to-step-in/
+- 2026-09-17 | 赛力斯回应问界轻资产调整传闻，否认门店撤出，证实合作转为赛力斯主导 | https://www.21jingji.com/article/20260917/herald/5ed3bae9e9a5209ec3e6925d73ef4455.html
+- 2026-09-17 | 大众Seat品牌据报将于2029年底前有序退市 | https://www.investing.com/news/stock-market-news/analysisvolkswagens-seat-on-the-brink-as-chinese-rivals-gain-ground-4904804
+- 2026-09-17 | Waymo宣布进军新加坡，计划2028年开放付费Robotaxi服务 | https://waymo.com/blog/2026/09/waymo-in-singapore/
+- 2026-09-16 | 理想i9发布上市；比亚迪方程豹方程S/SGT发布上市，18.99万-23.99万元 | https://finance.sina.com.cn/tech/roll/2026-09-16/doc-inirzwqv3692439.shtml
 - 2026-09-17 | 小鹏G9L发布上市，23.18万-30.98万元，首发第二代VLA模型 | https://cnevpost.com/2026/09/17/xpeng-launches-g9l-china/
-- 2026-09-17 | 特斯拉Cybercab在北京、上海启动静态展示，官方明确不涉及在华销售或Robotaxi运营 | https://electrek.co/2026/09/16/tesla-cybercab-china-display-no-sale-robotaxi/
 - 2026-09-17 | 欧盟据报要求中国自愿将混动车对欧出口份额限制在约15% | https://cnevpost.com/2026/09/17/eu-seeks-curbs-chinese-hybrid-exports/
-- 2026-09-16 | 特朗普签署备忘录指示逐步清除联邦采购体系中的加拿大原产商品 | https://www.cbc.ca/news/canada/trump-memorandum-canadian-goods-removed-9.7346944
 - 2026-09-17 | 美国据报拟将对华"产能过剩"关税报告推迟至9/24中美元首会晤后 | https://www.bloomberg.com/news/articles/2026-09-17/us-said-to-delay-excess-capacity-tariffs-until-after-xi-summit
 - 2026-09-18 | 冯德莱恩提议加拿大成为欧盟"联席成员"应对美加贸易战 | https://finance.sina.com.cn/jjxw/2026-09-18/doc-inisewtp0176697.shtml
-- 2026-09-16 | 宁德时代A股盘中跌破300元创近一年新低，同日创纪录回购9.47亿元 | https://news.qq.com/rain/a/20260916A0C3X500
-- 2026-09-16 | 哈啰Robotaxi完成约1亿美元融资，估值近30亿美元 | https://finance.sina.com.cn/tech/roll/2026-09-16/doc-iniryqvh3131067.shtml
-- 2026-09-18 | Stellantis Brampton工厂出售谈判持续僵局，Unifor与Stellantis未达成新协议，工会警告数周内或进入合法罢工地位 | https://www.cbc.ca/news/canada/windsor/unifor-stellantis-talks-hit-impasse-9.7340791
-- 2026-09-18 | 广汽收购一汽旗下合资公司股权仍未签署正式协议，传闻标的锁定一汽丰田、广汽不会全盘接盘 | https://finance.sina.cn/cj/2026-09-18/detail-inishkuv0264944.d.html
+- 2026-09-18 | Stellantis Brampton工厂出售谈判持续僵局，工会警告数周内或进入合法罢工地位 | https://www.cbc.ca/news/canada/windsor/unifor-stellantis-talks-hit-impasse-9.7340791
+- 2026-09-18 | 广汽收购一汽旗下合资公司股权仍未签署正式协议，传闻标的锁定一汽丰田 | https://finance.sina.cn/cj/2026-09-18/detail-inishkuv0264944.d.html
 - 2026-09-18 | 赛力斯副总裁康波首次公开回应问界"轻资产"调整传闻，强调含华量不降 | https://news.qq.com/rain/a/20260918A0697M00
 - 2026-09-18 | 本田计划提前混动车型量产，最早2027年2月加拿大工厂投产混动版CR-V | https://asia.nikkei.com/business/automobiles/honda-to-move-up-production-of-next-gen-hybrids-in-ev-strategy-overhaul
-- 2026-09-18 | 花旗研报称宁德时代9月产量预计环比降3%，市场担忧三季度净利承压 | https://news.futunn.com/post/79449410/citi-catl-03750-hk-september-output-may-decline-3-month
+- 2026-09-18 | 花旗研报称宁德时代9月产量预计环比降3% | https://news.futunn.com/post/79449410/citi-catl-03750-hk-september-output-may-decline-3-month
 - 2026-09-18 | 国内碳酸锂期货收报127,160元/吨单日跌3.06% | https://news.10jqka.com.cn/20260918/c680056386.shtml
 - 2026-09-18 | 欣旺达发布闪充电池系统，10%充至97%仅需9分钟 | https://cnevpost.com/2026/09/18/sunwoda-flash-charging-battery-10-97-in-9-mins/
 - 2026-09-18 | Waymo披露新加坡Robotaxi计划细节，2028年提供付费载客服务 | https://www.bloomberg.com/news/articles/2026-09-18/waymo-plans-to-offer-paid-robotaxi-rides-in-singapore-in-2028
 - 2026-09-18 | Lucid与Bolt达成欧洲Robotaxi合作意向，计划部署至少2.5万辆L4车辆 | https://techcrunch.com/2026/09/17/lucid-motors-has-a-potential-robotaxi-partner-for-europe/
 - 2026-09-19 | 长安深蓝2026款S07上市，15.69万-17.39万元，全系标配华为乾崑ADS SE | https://chejiahao.m.autohome.com.cn/info/22095302
-- 2026-09-19 | 东风风行星海V6乾崑智驾版上市，10.49万元起，10万级唯一搭载华为乾崑ADS5 SE | https://www.autohome.com.cn/news/202609/1317243.html
+- 2026-09-19 | 东风风行星海V6乾崑智驾版上市，10.49万元起 | https://www.autohome.com.cn/news/202609/1317243.html
 - 2026-09-19 | 奇瑞捷豹路虎神行者8启动全国交付 | https://news.qq.com/rain/a/20260914A07X3500
 - 2026-09-19 | 理想i9 Home版开启交付，交付周期延长至8-10周 | https://auto.ifeng.com/c/8wWynuqnncS
 - 2026-09-18 | 中国商务部、外交部正式回应欧盟混动车出口限额要求，坚决反对 | https://www.chinanews.com.cn/cj/2026/09-18/10699273.shtml
 - 2026-09-18 | 美国六大汽车行业协会联名致信特朗普，要求维持对中国车企"闭门"政策 | https://www.detroitnews.com/story/business/autos/2026/09/18/auto-sector-urges-trump-to-keep-out-chinese-vehicles-ahead-of-xi-visit-byd-catl-ford-gm-stellantis/91828419007/
 - 2026-09-18 | 宁德时代再回购151.26万股，耗资约4.56亿元，股价仍处近一年低点未企稳 | https://news.qq.com/rain/a/20260918A0AJ3D00
 - 2026-09-18 | 36氪独家：理想拆分核心技术子公司向全行业开放外供，寻求外部融资并筹备IPO | https://www.36kr.com/p/3988488062630661
+- 2026-09-20 | Stellantis Brampton劳资合同今晚到期，Unifor开出"联邦政府须先表态"重启前提，工业部长介入呼吁 | https://www.theglobeandmail.com/business/article-unifor-stellantis-contract-negotiations-future-of-brampton-plant/
+- 2026-09-19 | 大众/奥迪SSP电动平台受阻，CEO证实A4 e-tron投产推迟至2029年3月 | https://www.electrive.com/2026/09/17/audi-a4-e-tron-ssp-model-delayed-until-2029/
+- 2026-09-19 | 华为鸿蒙智行秋季发布会定档9/23，首曝"尚界"品牌首款车尚界H5 | https://www.ithome.com/0/884/074.htm
+- 2026-09-19至20 | 宁德时代首席制造官回应车企自研电池潮，小鹏/理想相继确认自研或分散电池供应商 | https://m.21jingji.com/article/20260920/herald/3a7346a5c68927b92759ceda29fb3122.html
+- 2026-09-20 | 碳酸锂期货9月累跌超20%，机构指出SMM统计口径调整为助跌新因素 | http://stock.10jqka.com.cn/20260920/c680087892.shtml
+- 2026-09-18至19 | 宁德时代宜春枧下窝锂矿复产环评进入"报批前信息公示"阶段 | https://www.caiwennews.com/article/1614145.shtml
+- 2026-09-19 | 长安泰达论坛公布自动驾驶量产时间表：2027年L3量产、2028年L4商业化 | https://finance.sina.com.cn/tech/digi/2026-09-19/doc-iniskccv2390181.shtml
+- 2026-09-20 | 蔚来全新ES8正式上市，40.68万-44.68万元，900V架构+4C快充 | https://www.ithome.com/0/884/522.htm
+- 2026-09-20 | 一汽-大众ID. AURA T6正式上市，12.99万-16.69万元 | https://www.ithome.com/1/004/898.htm
+- 2026-09-20 | 东风华为"猎境"X9预售24小时破2万单，定档9/24上市 | https://cnevpost.com/2026/09/20/epicland-x9-launch-sept-24-2026/
+- 2026-09-17 | 欧盟-中国下一轮贸易磋商定档10月8-9日在北京举行 | https://www.scmp.com/economy/china-economy/article/3367937/brussels-announces-next-round-china-eu-trade-talks-be-held-beijing-next-month
+- 2026-09-17 | 德国财长克林拜尔访问大众总部，推动欧盟对华混动车加税及本地化要求 | https://www.euronews.com/my-europe/2026/09/17/germany-turns-on-brussels-as-chinese-car-sales-on-track-to-exceed-1m-in-2026
+- 2026-09-17 | 欧盟-加拿大"联席成员"方案经权威信源证实，蒙特利尔峰会定档10/29-30，特朗普警告加税 | https://www.cnbc.com/2026/09/17/trump-canada-european-union-tariffs-associate-member-ukraine-.html
+- 2026-09-18 | 英国政府拒绝跟随欧盟对中国插混车加税 | https://finance.sina.com.cn/roll/2026-09-18/doc-inisfyez0242799.shtml
+- 2026-09-20 | 理想核心技术对外开放传闻新增细节：斯科半导体对接外部资本筹备IPO，官方仍未置评 | https://www.nbd.com.cn/articles/2026-09-20/4586469.html
+- 2026-09-20 | 宁德时代股价持续承压，大华继显逆势维持"买入"评级 | https://news.futunn.com/en/post/79507890/major-bank-ratings-uob-kay-hian-catl-presents-a-buying
 
 ## 3. 进行中事件表
 
-- 事件：Stellantis加拿大Brampton工厂出售 | 最后进展日期：2026-09-19 | 下一步关注点：现行劳资合同9/20 24时到期，核实是否达成新协议、谈判重启或工会启动罢工授权投票；约49亿加元军用轻型车辆竞标结果是否公布；核实布兰普顿市长披露的比亚迪、零跑等中国车企曾考察工厂一事是否有后续动作。
-- 事件：美国对加拿大关税/USMCA/加拿大-欧盟关系 | 最后进展日期：2026-09-19 | 下一步关注点：欧盟与加拿大定档10/29-30蒙特利尔峰会，核实"联席成员"合作框架具体内容；美方是否因加拿大与欧盟"抱团"而加征更高关税；加美综合关税谈判是否重启；美墨USMCA第四轮谈判(已推迟至9/28-29在华盛顿举行)结果。
-- 事件：宁德时代股份回购与股价 | 最后进展日期：2026-09-18 | 下一步关注点：A股9月单月已跌16.94%、较5月高点回撤超34%，核实是否企稳；200亿-400亿元回购计划后续执行节奏；花旗研报预计9月产量环比降3%是否被官方证实，客户流失是否有新个案。
-- 事件：广汽/一汽合资公司股权重组 | 最后进展日期：2026-09-18 | 下一步关注点：媒体传闻标的为一汽丰田、广汽不会全盘接盘，但一汽丰田/广汽丰田/丰田中国官方仍未正式确认，核实官方表态；A股仍处停牌，核实是否已复牌。
-- 事件：华为鸿蒙智行问界"轻资产"模式调整 | 最后进展日期：2026-09-18 | 下一步关注点：赛力斯副总裁康波已回应"含华量不降"，仍未公布具体门店调整清单，核实清单何时公布及对问界新车定义/设计权责的实际影响。
-- 事件：特斯拉Cybercab NHTSA合规调查 | 最后进展日期：2026-09-15 | 下一步关注点：特斯拉需在9/30前就21项问题宣誓作答，本期窗口内特斯拉仍未正式回应，下次运行核实是否按期回应及调查是否进一步升级。
-- 事件：宁德时代宜春枧下窝锂矿复产 | 最后进展日期：2026-09-09 | 下一步关注点：环评仍处"8/26受理公示被撤销、待补正"状态，本期窗口内仍未见新公告，下次运行继续核实环评进度及复产时间点。
-- 事件：文远知行/Uber/AVOMO西班牙马德里Robotaxi | 最后进展日期：2026-09-10 | 下一步关注点：仍处安全员测绘/路线验证阶段，未正式对公众开放载客，下次运行核实是否已开放。
-- 事件：哪吒汽车（合众新能源）破产重整 | 最后进展日期：2026-09-19 | 下一步关注点：《重整计划(草案)》债权人表决期截止日为10月12日17时，核实表决结果及法院裁定；投资方太乙圣莲实缴资本仍为空，核实资金是否到位；第一阶段复产(哪吒X主攻海外)仍处方案阶段，核实是否有实际产线启动；资质吊销风险(需2026年内完成至少2000辆产量)是否有新消息。
-- 事件：吉利汽车银河品牌销量目标完成度 | 最后进展日期：2026-09-15 | 下一步关注点：战舰700预售价(19.98万-38.98万元)及"60分钟小订破4.39万台"数据已确认，官方称年内上市交付但无具体日期，下次运行核实正式上市时间及定价。
-- 事件：欧盟对华混动车出口限制谈判 | 最后进展日期：2026-09-19 | 下一步关注点：中国商务部、外交部已正式表态坚决反对，下次运行核实欧方是否回应中方立场、是否达成正式协议或加税措施是否落地；德国是否有进一步动作。
-- 事件：华为乾崑智界RX L3级自动驾驶路测 | 最后进展日期：2026-09-16 | 下一步关注点：仍为7城范围，未公布量产/商用时间表(行业预计最早不早于2027年初，需待2027/7/1强制性国标实施)，下次运行核实是否扩大测试城市及量产时间表。
-- 事件：理想汽车核心技术对外开放(马赫芯片/斯科半导体/增程系统) | 最后进展日期：2026-09-18 | 下一步关注点：36氪独家报道尚未经理想官方证实，核实理想是否正式确认、斯科半导体外部融资及IPO进展、是否有具体客户签约。
+- 事件：Stellantis加拿大Brampton工厂出售/劳资谈判 | 最后进展日期：2026-09-20 | 下一步关注点：现行劳资合同已于9/20 24:00 ET到期，核实是否达成新协议、Unifor是否启动罢工授权投票；约49亿加元军用轻型车辆竞标结果是否公布。
+- 事件：美国对加拿大关税/USMCA/加拿大-欧盟关系 | 最后进展日期：2026-09-19 | 下一步关注点：欧盟-加拿大"联席成员"方案已获证实，蒙特利尔峰会定档10/29-30，核实该框架是否涉及汽车关税/准入具体条款；特朗普"抱团加税"威胁是否落地为具体行政令；美墨USMCA第四轮谈判（非正式改期至9/28-29）是否正式确认及结果。
+- 事件：宁德时代股份回购与股价 | 最后进展日期：2026-09-20 | 下一步关注点："去宁化"担忧（理想/小鹏自研电池）下股价能否企稳；大华继显"买入"评级后市场反应；200亿-400亿元回购计划累计执行进度（目前约16亿元）。
+- 事件：广汽/一汽合资公司股权重组 | 最后进展日期：2026-09-18 | 下一步关注点：A股/H股预计停牌不超10个交易日（对应9月底复牌），核实是否复牌、是否签署正式协议、一汽丰田/广汽丰田/丰田中国官方是否表态。
+- 事件：华为鸿蒙智行问界"轻资产"模式调整 | 最后进展日期：2026-09-19 | 下一步关注点：秋季发布会已定档9/23（首曝尚界H5、问界M7改款），核实届时是否随之公布门店调整清单及对问界新车定义/设计权责的实际影响。
+- 事件：特斯拉Cybercab NHTSA合规调查 | 最后进展日期：2026-09-15 | 下一步关注点：特斯拉需在9/30前就21项问题宣誓作答，本期窗口内仍未正式回应，下次运行核实是否按期回应及调查是否升级。
+- 事件：宁德时代宜春枧下窝锂矿复产 | 最后进展日期：2026-09-19 | 下一步关注点：环评已进入"报批前信息公示"新阶段，核实公示期结束后是否正式获批及复产具体时间点。
+- 事件：文远知行/Uber/AVOMO西班牙马德里Robotaxi | 最后进展日期：2026-09-10 | 下一步关注点：仍处安全员测绘/路线验证阶段，未正式对公众开放载客，下次运行核实是否已开放（目标为2026年底前）。
+- 事件：哪吒汽车（合众新能源）破产重整 | 最后进展日期：2026-09-19 | 下一步关注点：《重整计划(草案)》债权人表决期截止日为10月12日17时，太乙圣莲实缴资本仍为空（工商信息层面），核实临表决前资金是否到位及第一阶段复产是否有实际产线启动。
+- 事件：吉利汽车银河品牌战舰700上市 | 最后进展日期：2026-09-15 | 下一步关注点：预售价19.98万-38.98万元已确认，官方称年内上市但无具体日期，下次运行核实正式上市时间及定价。
+- 事件：欧盟对华混动车出口限制谈判 | 最后进展日期：2026-09-19 | 下一步关注点：中欧下一轮磋商已定档10月8-9日北京，德国已推动加税本地化要求，核实磋商前后是否有正式加税措施或协议落地。
+- 事件：华为乾崑智界RX L3级自动驾驶路测 | 最后进展日期：2026-09-16 | 下一步关注点：仍为7城范围，未公布量产/商用时间表，下次运行核实是否扩大测试城市及量产时间表。
+- 事件：理想汽车核心技术对外开放(马赫芯片/斯科半导体/增程系统) | 最后进展日期：2026-09-20 | 下一步关注点：斯科半导体已启动IPO筹备并对接外部资本，马赫芯片子公司"芯创智核"已有具身智能企业洽谈但未签约，核实理想官方是否正式确认及首个外部客户签约。
+- 事件：大众/奥迪SSP电动平台推迟 | 最后进展日期：2026-09-19 | 下一步关注点：A4 e-tron已确认推迟至2029年3月，据Handelsblatt消息或进一步滑至4-5月，核实是否有更晚延期消息及纯电高尔夫/T-Roc等衍生车型的官方推迟确认。
+- 事件：广汽华为合资"启境"品牌GX7上市 | 最后进展日期：2026-09-18 | 下一步关注点：预售价24.99万-31.19万元已公布，定档9月23日正式上市，核实届时官方定价及销量表现。
