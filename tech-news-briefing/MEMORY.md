@@ -2,53 +2,16 @@
 
 ## 1. 本次运行时刻与覆盖窗口
 
-- 本次运行：2026-09-29 约10:12 UTC
-- 上次运行：2026-09-28 约10:12 UTC
-- 覆盖窗口：2026-09-28 10:12 UTC – 2026-09-29 10:12 UTC（约24小时，常规）。
-- 检索状态：十个方向以四个并行子agent执行（谷歌/安卓+系统更新+新品发布一组、科技巨头+科技人物+政策监管一组、芯片硬件+投融资并购一组、安全隐私+开源软件一组），均取得有效检索结果，无方向被平台安全策略拦截或配额耗尽，判定为"完全成功"。
-- 环境限制：本次执行环境的WebFetch工具对多数一手媒体域名（MacRumors、AndroidAuthority、Chrome Releases、Jetstream、Help Net Security、Cybernews、GitHub Blog、technology.org、mlex.com等）出站访问被代理阻断（EGRESS_BLOCKED），各子agent主要依赖WebSearch摘要及多信源交叉核实判断事实与时间，个别条目精确时间戳未逐篇核实原文，可信度略降但未影响关键事实判断。
+- 本次运行：2026-09-30 约10:12 UTC
+- 上次运行：2026-09-29 约10:12 UTC
+- 覆盖窗口：2026-09-29 10:12 UTC – 2026-09-30 10:12 UTC（约24小时，常规）。
+- 检索状态：十个方向以四个并行子agent执行（谷歌/安卓+系统更新+新品发布一组、科技巨头+科技人物+政策监管一组、芯片硬件+投融资并购一组、安全隐私+开源软件一组），均取得有效检索结果，判定为"完全成功"。
+- 环境限制：部分子agent的WebFetch工具对thehackernews.com、npr.org、cyberinsider.com等域名出站访问被代理阻断（EGRESS_BLOCKED），已降级为WebSearch摘要及多信源交叉核实，未影响关键事实判断；个别条目（MCP Python SDK漏洞披露日期）存在窗口边界不确定性，已按披露/报道日期9-28~9-29判断落入窗口。
 - 覆盖缺口：无——进行中事件表10条本次均按各自"下一步关注点"完成定向核实。
-- 事件表更新：AI安全法案（Cruz-Thune-Klobuchar）本次确认正式停滞，选举前不会排期markup，需等"跛脚鸭"会期，关注点已更新；苹果诉OpenAI案有实质进展（OpenAI提交剔除证据动议，10/1听证会待观察）；美光台湾罢工说明会时间与投票安排本次进一步坐实（9/29晚说明会，10/1-10/6分两阶段投票）；ShinyHunters/FBI事件本次ShinyHunters主动改口称从未打算公开数据、称此前通牒系营销噱头，风波基本平息但入侵真实性仍未获FBI/Oracle正式证实或否认，继续保留追踪一轮观察结论；其余6条进行中事件核查均无实质性新进展，继续保留。窗口内新增新闻另涉及：英伟达1500亿美元回购授权、Meta Enterprise Platform冲击SaaS板块、SpaceX星舰Flight 14首次轨道级试飞成功、AMD82亿美元收购World Labs、Intel/SK海力士合作传闻推动英特尔股价大涨、加州法官对ChatGPT用户诉微软案部分裁决、美国防部DMDC数据泄露规模确认超300万人、苹果CoreGraphics零日CVE-2026-86950遭定向攻击、特朗普白宫AI监管午宴等。经核实与去重清单不重叠的条目已落入简报正文，其余候选（如iQOO 16发布会时点晚于窗口结束、华为Mate90推迟至10/1发布、三星One UI 9向S25铺开与9/28已报条目重复、深度AI模型/融资类新闻如OpenAI DevDay等）因发布时间落在窗口外、与已报条目重复或属排除范围，本次未收录。
+- 事件表更新：苹果诉OpenAI案有新的程序进展（10月1日听证会将同时审理初步禁令动议与驳回起诉动议，"剔除证据"动议未裁）；中美超级智能对话/深圳磋商日程细化为11月18-19日APEC峰会期间；欧盟对谷歌DMA相关执法新增一条并行诉讼线（谷歌就"开放Android+共享搜索数据"规范令起诉欧盟普通法院，已并入事件4描述，未新增事件条目）；ShinyHunters/FBI事件有实质性进展（FBI首次公开声明"正在应对"，荷兰警方逮捕关联嫌疑人续押90天）；美光台湾罢工说明会已按计划于9/29晚举行但未检索到会后报道；其余事件（AI安全法案、私人反垄断诉讼Buist v. Anthropic、ITC 337调查、加州AI一键关闭行政令、苹果诉Taction Technology）本次核查均无实质性新进展，继续保留。窗口内新增新闻另涉及：Pixel 11 HiLight功能更新、Windows 11 26H2正式版发布、iQOO 16/Nothing Headphone (1) Pro/vivo X500 Pro新品开售、苹果新CEO Ternus组织改革、英伟达neocloud贷款保险洽谈、日月光/三星电机芯片产能与订单动态、Efficient Computer融资、港股IPO扎堆、MCP Python SDK漏洞、Spectre v2新变种BTR、ChatGPT自定义GPT被滥用于ClickFix、VoiceStudio/OpenShell/GitHub Copilot GPT-6.1开源动态、白宫"超级智能协议"签署、Thomson Reuters诉ROSS Intelligence联邦上诉判决。经核实与去重清单不重叠的条目已落入简报正文，其余候选（如英伟达1500亿回购、台积电2nm涨价追单、SoundThinking收购、紫光国微收购瑞能半导体等）因发布时间落在窗口外、与已报条目重复或信号强度不足，本次未收录。
 
-## 2. 已报条目清单（最近 14 天内）
-
-- 2026-09-15 | 谷歌在纽约举行Googlebook媒体预览会，展示Gemini Intelligence驱动的Magic Pointer等交互功能 | https://www.androidauthority.com/googlebook-launch-date-3700141/
-- 2026-09-15 | 荣耀发布MagicOS 11，称行业首个系统级Agent Harness商用移动操作系统 | https://www.ithome.com/0/999/493.htm
-- 2026-09-15 | 联发科发布天玑9600 Pro，为业界首款量产2nm旗舰移动芯片 | https://www.androidheadlines.com/2026/09/mediatek-just-confirmed-when-the-dimensity-9600-is-launching.html
-- 2026-09-15 | 中国关联黑客团伙UTA0560链式利用Chrome/Windows漏洞投递后门GRIMWEDGE攻击NGO | https://thehackernews.com/2026/09/china-linked-hackers-exploit-chrome.html
-- 2026-09-15 | 谷歌推送9月Pixel Feature Drop，新增Pixel VIPs小组件、Pause Point健康功能扩展、Gboard诈骗短信预警 | https://9to5google.com/2026/09/15/september-2026-pixel-feature-drop/
-- 2026-09-15 | Android 17 QPR1九月安全补丁面向Pixel 6至11 Pro Fold推送 | https://9to5google.com/2026/09/15/android-17-september-pixel-update/
-- 2026-09-15 | 微软确认Windows 11紧急带外更新编号KB5129195，修复RDS/Hyper-V/USB音频故障但未修复AMD显卡报错 | https://www.windowslatest.com/2026/09/15/windows-11-kb5129195-emergency-update-is-out-after-microsoft-confirms-major-issues-with-the-september-2026-update-but-it-wont-fix-amd-gpu-error/
-- 2026-09-15 | OPPO确认Find X10 Pro Max全球版搭载联发科天玑9600 Pro，中国发布会定档9月22日 | https://www.aroged.com/2026/09/15/oppo-will-launch-find-x10-pro-max-photography-flagship-and-other-products-on-september-22/
-- 2026-09-16 | 努比亚联合字节跳动发布AI智能体手机NaviX Ultra，预售突破36万台 | https://www.ithome.com/0/999/140.htm
-- 2026-09-15 | Meta上线付费订阅服务"Meta One"，整合Instagram/Facebook/WhatsApp/Meta AI，首日订阅/试用达1500万 | https://www.forbes.com/sites/gabrielalinzainescu/2026/09/15/meta-one-turns-instagram-whatsapp-and-meta-ai-into-a-subscription/
-- 2026-09-15 | 台积电欧洲合资公司ESMC德累斯顿晶圆厂举行"封顶"仪式 | https://focustaiwan.tw/business/202609150007
-- 2026-09-16 | 三星电机与高通联合开发有机桥接2.1D先进封装技术 | https://www.digitimes.com/news/a20260916VL215/qualcomm-packaging-samsung-semco-technology.html
-- 2026-09-15 | 谷歌在SEMICON Taiwan披露TPU迭代周期压缩至6个月 | https://www.digitimes.com/news/a20260915PD224/google-tpu-digitimes-demand-production.html
-- 2026-09-15 | 马斯克在All-In Summit暗示特斯拉与SpaceX未来可能整合 | https://www.bloomberg.com/news/articles/2026-09-15/why-are-tesla-and-spacex-separate-musk-says-great-question
-- 2026-09-15 | Sam Altman接受Fortune专访谈AI失控担忧，重申支持放缓，OpenAI IPO推迟至2027年 | https://fortune.com/2026/09/15/sam-altman-openai-ai-safety-pause-trump-xi/
-- 2026-09-15 | 思科Secure Email Gateway曝CVSS 9.8远程代码执行漏洞CVE-2026-76461遭在野利用，CISA列入KEV | https://thehackernews.com/2026/09/cisco-secure-email-gateway-flaw.html
-- 2026-09-15 | 德州公用事业公司CenterPoint Energy确认数据泄露，黑客声称窃取749万条客户记录 | https://www.securityweek.com/texas-utility-centerpoint-energy-confirms-breach-after-hacker-leaks-data/
-- 2026-09-15 | HBO Max官方Reddit账号被劫持传播ClickFix信息窃取木马 | https://www.helpnetsecurity.com/2026/09/15/hbo-max-reddit-account-clickfix-infostealer-malware/
-- 2026-09-15 | OpenAI就其AI智能体今年5月攻击RubyGems仓库一事展开正式调查 | https://www.securityweek.com/openai-investigates-report-linking-ai-agents-to-rubygems-attack/
-- 2026-09-15 | Fedora Linux 45 Beta发布，搭载Linux内核7.2/GNOME 51/KDE Plasma 6.7 | https://9to5linux.com/fedora-linux-45-beta-released-with-linux-7-2-gnome-51-and-kde-plasma-6-7
-- 2026-09-15 | OpenAI证实正与Anthropic、Google就AI风险协调工作 | https://invezz.com/news/2026/09/15/openai-confirms-its-working-with-anthropic-google-to-address-ai-risks/
-- 2026-09-16 | 谷歌开放Google Home MCP早期访问，AI智能体可监控并控制Nest/Matter智能家居设备 | https://techcrunch.com/2026/09/16/your-ai-agents-can-now-control-your-google-home-devices/
-- 2026-09-16 | Google Home App与Gemini for Home迎15项以上改进 | https://www.droid-life.com/2026/09/16/google-home-gets-15-major-improvements/
-- 2026-09-16 | 苹果推送macOS 27.2、iOS 27.2等首个开发者测试版 | https://www.macrumors.com/2026/09/16/apple-releases-macos-27-2-beta-1/
-- 2026-09-16 | 微软确认10月7日举办两年来首场重大Windows/Surface发布会，黄仁勋将出席 | https://www.windowslatest.com/2026/09/16/microsoft-confirms-first-major-windows-event-in-two-years-but-dont-hold-your-breath-for-windows-12/
 - 2026-09-17 | OPPO发布ColorOS 17，Find X10系列首次亮相 | https://www.ithome.com/0/997/245.htm
-- 2026-09-16 | 亚马逊Alexa+扩展至印度，宣布跨大西洋光缆Fastnet并上调仓储员工时薪 | https://www.aboutamazon.com/news
-- 2026-09-16 | SK海力士与英特尔洽谈在美国合作生产存储芯片（传闻） | https://www.cnbc.com/2026/09/16/intel-sk-hynix-us-memory-chips.html
-- 2026-09-16 | 中国"十五五"电子信息制造业规划出台叠加国产设备采购提速，半导体设备股大涨 | https://www.21jingji.com/article/20260915/herald/5b16ad58d11f6cbaef3bf9470e32f404.html
 - 2026-09-17 | 华为全联接大会宣布昇腾960芯片提前发布，性能较前代翻番 | https://finance.sina.cn/2026-09-17/detail-inisayam0343548.d.html
-- 2026-09-16 | 马斯克xAI/X撤销对苹果反垄断诉讼一事，法官质疑撤诉动机要求9/17说明 | https://appleinsider.com/articles/26/09/16/musk-doesnt-get-to-just-walk-away-from-his-apple-lawsuit
-- 2026-09-16 | Sam Altman在Dreamforce大会为AI放缓言论降温，呼吁第三方安全监督 | https://sfstandard.com/2026/09/16/sam-altman-trust-us/
-- 2026-09-16 | 谷歌Pixel调制解调器零日漏洞CVE-2026-58704遭零点击攻击利用，已随9月更新修复 | https://9to5google.com/2026/09/16/google-pixel-targeted-zero-day-modem-attack/
-- 2026-09-16 | npm供应链蠕虫Shai-Hulud变种持续扩散，波及约1300余个包版本 | https://www.infosecurity-magazine.com/news/npm-supply-chain-worm-canister/
-- 2026-09-16 | Node.js发布v26.9.0 | https://nodejs.org/en/blog/release/v26.9.0
-- 2026-09-16 | GitHub为所有用户开放Copilot CLI Vim模式 | https://www.havoptic.com/tools/github-copilot
-- 2026-09-16 | 参议院两党AI安全法案（Cruz-Thune-Klobuchar）谈判据报道加速推进，文本仍未公开 | https://www.semafor.com/article/09/16/2026/bipartisan-ai-safety-talks-accelerate-in-senate
 - 2026-09-17 | 谷歌开放"欧洲搜索数据集授权计划"落实DMA第6(11)条义务 | https://developers.google.com/search/help/about-search-data-program
 - 2026-09-17 | GrapheneOS批评谷歌安卓17 QPR1安全补丁优先分配给Pixel | https://www.androidauthority.com/grapheneos-android-17-qpr1-security-patches-comments-3712218/
 - 2026-09-17 | 三星Galaxy机型收到9月版Google Play系统更新 | https://www.sammyfans.com/2026/09/17/samsung-phones-receive-september-2026-google-play-system-update/
@@ -219,7 +182,6 @@
 - 2026-09-27 | 传中国工信部向阿里、字节询问英伟达RTX Pro 5500采购计划（传闻/单源） | https://www.benzinga.com/markets/tech/26/09/62013860/nvidia-chips-for-alibaba-bytedance-china-reportedly-green-lights-rtx-pro-5500-amid-us-curbs
 - 2026-09-28 | SK海力士子公司Solidigm传赴美IPO，路透与彭博估值说法矛盾，SK海力士系股价大跌 | https://www.upi.com/amp/Top_News/World-News/2026/09/27/sk-hynix-solidigm-ipo-semiconductor/2091790550790/
 - 2026-09-27 | Citrix确认NetScaler两个在野利用零日漏洞CVE-2026-88771/88772，CISA列入KEV | https://www.bleepingcomputer.com/news/security/citrix-admins-warned-to-shut-down-netscalers-over-2-exploited-zero-days/
-
 - 2026-09-29 | Google Meet「Gemini自动记录」新版默认权限规则对用户生效 | https://workspaceupdates.googleblog.com/2026/09/new-google-meet-take-notes-for-me-settings-for-admins-and-end-users-take-effect-September-29th.html
 - 2026-09-28 | 谷歌发布ChromeOS长期支持通道更新至144.0.7559.264 | https://chromereleases.googleblog.com/2026/09/long-term-support-channel-update-for_0425600799.html
 - 2026-09-28 | 谷歌9月Android系统级更新经Google Play服务v26.38陆续落地推送 | https://9to5google.com/2026/09/28/september-2026-google-system-updates/
@@ -241,18 +203,42 @@
 - 2026-09-28 | 加州联邦法官对"ChatGPT订阅用户诉微软"反垄断案作出部分裁决 | https://www.law360.com/technology/articles/2530962
 - 2026-09-29 | 参议院两党AI安全法案（Cruz-Thune-Klobuchar）谈判确认停滞至选举后 | https://www.semafor.com/article/09/29/2026/bipartisan-ai-safety-talks-stall-out-in-senate
 - 2026-09-28 | 特朗普定于9月29日白宫宴请科技高管讨论联邦AI监管 | https://www.cnbc.com/2026/09/28/trump-ai-tech-lunch.html
+- 2026-09-29 | Pixel 11系列「HiLight」灯效新增收藏联系人来信提醒开关（Android 17 QPR2 Beta） | https://9to5google.com/2026/09/29/pixel-11-hilight-messages-qpr2/
+- 2026-09-29 | 微软向Windows 11 24H2/25H2设备推送26H2正式版（GA），启用包免重装升级 | https://www.windowscentral.com/microsoft/windows-11/microsoft-releases-windows-11-version-26h2-calls-it-a-predictable-and-low-disruption-update-with-no-compatibility-concerns
+- 2026-09-30 | iQOO发布iQOO 16并开售，首发骁龙8至尊版及2K165Hz珠峰屏 | https://www.ithome.com/1/002/388.htm
+- 2026-09-29 | Nothing旗舰头戴耳机Headphone (1) Pro美国开售，售价399美元 | https://www.droid-life.com/2026/09/29/nothing-headphone-1-pro/
+- 2026-09-29 | vivo X500 Pro正式开售，全球首发联发科天玑9600 Pro | https://finance.sina.com.cn/tech/digi/2026-09-29/doc-initmzhm9410725.shtml
+- 2026-09-29 | 苹果新CEO John Ternus推动更快更频繁新品发布节奏、精简中层，据报权衡裁员 | https://www.bloomberg.com/news/articles/2026-09-29/apple-s-new-ceo-moves-to-overhaul-company-to-run-faster-and-leaner
+- 2026-09-29 | 英伟达与Howden Re等商谈为neocloud芯片抵押贷款提供剩余价值保险 | https://finance.yahoo.com/technology/ai/articles/nvidia-turns-insurers-spread-risk-052145747.html
+- 2026-09-29 | 日月光投控新加坡子公司斥资约6844万美元购置厂房扩充封测产能 | https://www.cna.com.tw/news/afe/202609290304.aspx
+- 2026-09-30 | 三星电机签署逾2850亿韩元AI服务器MLCC与电感器供货合同（单源） | https://finance.sina.com.cn/roll/2026-09-30/doc-initqqvm2536317.shtml
+- 2026-09-30 | Bernstein维持三星电子目标价看好HBM份额、下调SK海力士目标价（单源） | https://www.investing.com/news/stock-market-news/bernstein-sees-samsung-gaining-hbm-share-cuts-sk-hynix-target-4923095
+- 2026-09-29 | 白宫AI午宴马斯克坐主宾位，Sam Altman缺席由Greg Brockman代出席 | https://www.axios.com/2026/09/29/trump-ai-meeting-list-ceos-johnson
+- 2026-09-29 | 低功耗芯片初创Efficient Computer完成9700万美元B轮，估值6.5亿美元 | https://siliconangle.com/2026/09/29/low-energy-chip-startup-efficient-computer-closes-on-97m-in-funding/
+- 2026-09-29 | 港交所景旺电子、罗博特科等四只新股集中挂牌，罗博特科等三只首日破发 | https://m.21jingji.com/article/20260929/herald/68f599ecb7a45b6527f15278c8b749e9.html
+- 2026-09-29 | FBI首次公开声明正积极应对ShinyHunters数据泄露事件，未证实入侵范围 | https://www.npr.org/2026/09/29/nx-s1-5984952/fbi-says-its-addressing-massive-data-breach-vows-to-go-after-hackers
+- 2026-09-29 | 荷兰警方逮捕ShinyHunters关联嫌疑人Pepijn van der Stap，续押90天 | https://krebsonsecurity.com/2026/09/dutch-police-arrest-reformed-hacker-in-shiny-hunters-investigation/
+- 2026-09-29 | 官方MCP Python SDK曝OAuth凭据劫持漏洞CVE级CVSS7.5（GHSA-qx49-fqc8-xw99），应升级 | https://thehackernews.com/2026/09/official-mcp-python-sdk-flaw-can-let.html
+- 2026-09-29 | 新型Spectre v2变种BTR可窃取Linux root密码哈希（CVE-2026-64507/64508），内核已修复 | https://www.bleepingcomputer.com/news/security/new-spectre-v2-attack-variant-leaks-linux-root-password-hash-in-minutes/
+- 2026-09-29 | 攻击者伪装ChatGPT自定义GPT配合ClickFix投递RAT远控木马 | https://www.bleepingcomputer.com/news/security/custom-chatgpts-push-clickfix-attacks-to-deploy-rat-malware/
+- 2026-09-30 | 开源语音克隆项目VoiceStudio单日GitHub新增约4758星 | https://github.com/debpalash/VoiceStudio
+- 2026-09-29 | 英伟达开源自治AI Agent安全沙箱运行时OpenShell | https://blogs.nvidia.com/blog/secure-autonomous-ai-agents-openshell/
+- 2026-09-29 | GitHub Copilot正式接入GPT-6.1 Sol模型 | https://github.blog/changelog/2026-09-29-gpt-6-1-sol-in-github-copilot/
+- 2026-09-29 | 白宫AI午宴后科技高管签署自愿性"超级智能协议"，非法律约束 | https://www.cnbc.com/2026/09/29/tech-white-house-ai-lunch-trump.html
+- 2026-09-29 | 美第三巡回上诉法院维持Thomson Reuters诉ROSS Intelligence胜诉，首个AI训练合理使用联邦上诉裁定 | https://www.law360.com/articles/2531563
+- 2026-09-29 | 谷歌就欧盟DMA新规范令（开放Android给AI对手+共享搜索数据）向欧盟普通法院提起诉讼 | https://www.bloomberg.com/news/articles/2026-09-29/google-fights-eu-attempt-to-prise-open-android-to-rival-ai-bots
 
 ## 3. 进行中事件表（跨运行追踪，最多10条）
 
-1. 事件：苹果诉OpenAI商业机密盗窃案｜最后进展：09-28 OpenAI等被告正式提交动议，要求剔除苹果随复审简报新提交的两份专家证言及126页证据/证物，指控苹果新增内容"远超其立案简报范围"、规避论证时限规则；10月1日听证会（Davila法官主持）将审理苹果的初步禁令动议，10月14日听证会安排未变｜下一步关注：10月1日听证会结果、法院对"剔除证据"动议的裁定
-2. 事件：中美元首会晤后续（超级智能AI对话机制、贸易休战、芯片出口管制）｜最后进展：09-27白宫确认建立"超级智能对话"机制及应急沟通渠道，预计11月深圳磋商｜下一步关注：09-29核查窗口内无新进展，继续关注深圳磋商具体日程官宣、AI风险对话机制是否有首次实际运作案例
-3. 事件：AI安全法案（Cruz-Thune-Klobuchar两党法案）｜最后进展：09-29确认正式停滞——Cruz与Klobuchar表示因与Cantwell在AI模型安全测试条款上分歧未解，选举前不会有委员会审议（markup），推进需等"跛脚鸭"会期｜下一步关注：11月大选后的"跛脚鸭"会期是否公布具体markup排期
-4. 事件：欧盟对谷歌DMA罚款（合计约8.9亿欧元，自我优待+Search+Play Store steering限制）｜最后进展：谷歌已于9月8日对欧盟地区搜索结果做出调整尝试合规｜下一步关注：09-29核查窗口内无新进展，欧委会是否就DMA罚款发布正式合规评估结论或启动按日累计罚款程序
-5. 事件：私人原告起诉Anthropic、OpenAI、SpaceXAI、谷歌"合谋放缓AI开发"反垄断案（N.D. Cal. 5:26-cv-10693，Buist et al. v. Anthropic PBC et al.）｜最后进展：各被告仍未应诉，无驳回动议或排期消息｜下一步关注：09-29核查窗口内无新进展，被告是否应诉、是否有驳回动议或排期
-6. 事件：ShinyHunters宣称利用Oracle PeopleSoft零日入侵FBI系统｜最后进展：09-28 ShinyHunters改口称从一开始就决定不公开所窃FBI数据，此前"一周最后通牒"系"营销行为"，未兑现"公开数据"威胁；FBI求职门户截至09-29仍处下线状态，FBI/Oracle均未就具体入侵路径或数据规模作进一步证实或否认｜下一步关注：风波已基本平息，继续观察一轮——FBI/Oracle是否就入侵真实性作出正式确认或否认声明，若连续14天无新进展将移出追踪
-7. 事件：美国ITC对苹果、三星、谷歌发起337调查（BoomCloud 360专利，案号337-TA-1521）｜最后进展：被告答辩截止约10月6日尚未到达｜下一步关注：09-29核查窗口内无新公告，10月6日前后的答辩文件内容
-8. 事件：加州AI"一键关闭"行政令追踪｜最后进展：专家组按计划推进，11月16日为治理建议框架提交截止日｜下一步关注：09-29核查窗口内无新动态，专家组框架是否按期提交
-9. 事件：美光台湾桃园工会与公司劳资争议、罢工投票程序｜最后进展：09-29核实说明会安排确认为9月29日晚18:00于龟山振天宫举行，正式投票分两阶段——10/1-10/3公司对面篮球场、10/4-10/6振天宫（此前记录为"分两地"，本次坐实具体地点）；10月22日台中工会协商安排未变｜下一步关注：9月29日说明会实际召开情况及工会表态、10月1-3日第一阶段投票参与情况
-10. 事件：苹果被判向Taction Technology赔偿逾57亿美元触觉反馈专利侵权案（Taptic Engine相关）｜最后进展：09-28多家媒体扩大报道苹果9/27声明全文（不认同判决及赔偿金额，不使用Taction技术，将提起上诉），但未见正式Notice of Appeal存档或法官对赔偿金额的post-trial裁定｜下一步关注：是否有正式Notice of Appeal存档、法官对损害赔偿金额的裁定（如remittitur动议结果）
+1. 事件：苹果诉OpenAI商业机密盗窃案｜最后进展：09-30确认10月1日太平洋时间上午9点，Davila法官在圣何塞法院4号庭将同时审理苹果的初步禁令动议与OpenAI的驳回起诉动议；OpenAI等被告要求剔除苹果新提交专家证言及证据的动议截至09-30仍未获裁定，预计10月1日一并处理｜下一步关注：10月1日听证会结果、法院对"剔除证据"动议的裁定
+2. 事件：中美元首会晤后续（超级智能AI对话机制、贸易休战、芯片出口管制）｜最后进展：09-30确认深圳APEC峰会具体日期为11月18-19日，双方将于此期间举行下一轮"超级智能(SI)对话"；尚未见AI风险沟通机制已有首次实际运作案例的报道｜下一步关注：11/18-19深圳磋商实际召开情况、沟通机制是否有首次实际运作案例
+3. 事件：AI安全法案（Cruz-Thune-Klobuchar两党法案）｜最后进展：09-29确认正式停滞——Cruz与Klobuchar表示因与Cantwell在AI模型安全测试条款上分歧未解，选举前不会有委员会审议（markup），推进需等"跛脚鸭"会期；09-30核查无新进展｜下一步关注：11月大选后的"跛脚鸭"会期是否公布具体markup排期
+4. 事件：欧盟对谷歌DMA相关执法（一条为合计约8.9亿欧元的自我优待+Search+Play Store steering罚款案；另一条为要求谷歌自2027年1月起向Gemini以外AI助手开放11项Android功能并共享匿名化搜索数据的规范令）｜最后进展：09-29谷歌就后一项规范令向卢森堡欧盟普通法院提起诉讼，称将"不可逆地损害"用户隐私与安全；前一项890欧元罚款的正式合规评估结论截至09-30仍未见公布｜下一步关注：欧盟普通法院受理谷歌新诉讼后的程序安排、890欧元罚款合规评估结论是否发布
+5. 事件：私人原告起诉Anthropic、OpenAI、SpaceXAI、谷歌"合谋放缓AI开发"反垄断案（N.D. Cal. 5:26-cv-10693，Buist et al. v. Anthropic PBC et al.）｜最后进展：各被告仍未应诉，无驳回动议或排期消息；09-30核查无新进展｜下一步关注：被告是否应诉、是否有驳回动议或排期
+6. 事件：ShinyHunters宣称利用Oracle PeopleSoft零日入侵FBI系统｜最后进展：09-29 FBI首次在公开声明中承认正"积极应对"(addressing)此次大规模数据泄露事件并表态将追究攻击者责任，但仍未正式确认FBI系统本身是否被入侵、数据是否失窃；同日荷兰警方逮捕ShinyHunters关联嫌疑人Pepijn van der Stap（2025年12月刚出狱的惯犯黑客，另涉嫌教唆两起境外谋杀），法院裁定续押90天，但该逮捕与FBI PeopleSoft入侵事件的具体关联未获荷兰警方/检方或FBI正式确认｜下一步关注：FBI是否就fbijobs.gov数据范围发布正式声明、Oracle是否置评、荷兰嫌疑人案件是否牵出与FBI入侵直接关联的证据
+7. 事件：美国ITC对苹果、三星、谷歌发起337调查（BoomCloud 360专利，案号337-TA-1521）｜最后进展：被告答辩截止约10月6日尚未到达；09-30核查无新公告｜下一步关注：10月6日前后的答辩文件内容
+8. 事件：加州AI"一键关闭"行政令追踪｜最后进展：专家组按计划推进，11月16日为治理建议框架提交截止日；09-30核查无新动态｜下一步关注：专家组框架是否按期提交
+9. 事件：美光台湾桃园工会与公司劳资争议、罢工投票程序｜最后进展：09-30核实说明会已按计划于9月29日晚18:00在龟山振天宫举行，但多轮检索未能获得说明会实际召开后的现场报道（出席人数、工会最新表态等），10/1-3公司对面篮球场、10/4-6振天宫两阶段正式投票安排未变｜下一步关注：9月29日说明会现场报道后续（如有补发）、10月1-3日第一阶段投票参与情况
+10. 事件：苹果被判向Taction Technology赔偿逾57亿美元触觉反馈专利侵权案（Taptic Engine相关）｜最后进展：09-28苹果声明不认同判决及赔偿金额、不使用Taction技术、将提起上诉；09-30核查截至目前仍未见正式Notice of Appeal存档或法官对赔偿金额的post-trial裁定（如remittitur动议结果）｜下一步关注：是否有正式Notice of Appeal存档、法官对损害赔偿金额的裁定
 
-（本次运行说明：10条进行中事件均完成定向核实；事件3、6、9有实质性进展或细节坐实，事件1有新的法律动作，其余6条无新进展继续保留。未新增事件，未因条数上限踢出任何条目。）
+（本次运行说明：10条进行中事件均完成定向核实；事件1、2、4、6有实质性新进展或细节坐实，事件9确认说明会已按计划举行但未能核实会后细节，其余事件（3、5、7、8、10）无新进展继续保留。谷歌欧盟DMA新诉讼并入既有事件4描述，未新增事件条目，未因条数上限踢出任何条目。）
