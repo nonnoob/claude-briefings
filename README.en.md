@@ -47,9 +47,9 @@ All of these mechanisms live in one task template; each new task is just an inst
 ## Watchdog
 
 Three kinds of failure never surface on their own: the scheduler silently stops firing, a run starts but dies before writing anything, or a run writes something whose format has drifted.
-`briefing-watchdog` runs daily at 19:00 UTC and checks that each task's archive for that day **exists** and **satisfies the mechanically checkable half of the output contract** (H1 title, coverage-window line, `##` sections, every item carrying a source and a resolvable bare URL, no markdown link syntax — see [`.github/scripts/lint_archive.py`](.github/scripts/lint_archive.py)). Anything failing opens an Issue; repeated failures only add comments to the same Issue, which closes itself once everything is healthy again.
+`briefing-watchdog` runs at 20:00 and 02:00 UTC (early afternoon and evening in Los Angeles) and checks that each task's archive for that day **exists** (a twice-a-day task must have two by the evening check) and **satisfies the mechanically checkable half of the output contract** (H1 title, coverage-window line, `##` sections, every item carrying a source and a resolvable bare URL, no markdown link syntax — see [`.github/scripts/lint_archive.py`](.github/scripts/lint_archive.py)). Anything failing opens an Issue; repeated failures only add comments to the same Issue, which closes itself once everything is healthy again.
 
-Checks are restricted to regex-decidable structure and **never judge content quality** — a rule that cries wolf gets ignored, and an ignored alert is no alert at all. When adding a task or changing its cadence, update the `DAILY` / `WEEKLY` lists in that workflow.
+Checks are restricted to regex-decidable structure and **never judge content quality** — a rule that cries wolf gets ignored, and an ignored alert is no alert at all. When adding a task or changing its cadence, update the `DAILY` / `WEEKLY` / `TWICE_DAILY` lists in that workflow.
 
 ## Lifecycle of one run
 
@@ -72,7 +72,7 @@ On each tick (daily or weekly, per task), the cloud Routine executes one full li
 2. Read the task's `SKILL.md` body — **the spec exists in exactly one place**; the Routine stores only a ten-line pointer to it (see [ADR-0004](docs/adr/0004-routine-as-thin-pointer.md)). To change a task, edit the file and push; never touch the Routine;
 3. Read `MEMORY.md` and compute the coverage window (since the last run, capped at N days; rebuilt from archives if missing);
 4. Search by direction, dedup at event level, and check every entry in the open-stories table;
-5. Produce the briefing against the **output contract** (a literal skeleton in the template) → write `archive/` and `MEMORY.md` → commit and push `claude/<slug>-<date>`, which an Action merges into main (see [ADR-0005](docs/adr/0005-always-push-branch.md));
+5. Produce the briefing against the **output contract** (a literal skeleton in the template) → write `archive/` and `MEMORY.md` → commit and push `claude/<slug>-<date>`, which an Action merges into main (see [ADR-0005](docs/adr/0005-always-push-branch.md)), then push the session's own branch too so the platform's stop hook does not make the model print the briefing a second time (see [ADR-0006](docs/adr/0006-push-session-branch-before-product.md));
 6. The final message of the session is a **verbatim copy** of the archive just written — not a link to it.
 
 ## Build your own
@@ -95,7 +95,7 @@ Changing briefing content = edit `SKILL.md` and push. Changing the run time = ed
 ## Design docs
 
 - Glossary: [CONTEXT.md](CONTEXT.md)
-- Decision records: [docs/adr/](docs/adr/) (memory/archive separation, file-as-authority, cloud Routines + git state repo, Routine reduced to a pointer, always-push-a-branch)
+- Decision records: [docs/adr/](docs/adr/) (memory/archive separation, file-as-authority, cloud Routines + git state repo, Routine reduced to a pointer, always-push-a-branch, push the session branch before the product)
 - Task spec: [_template/SKILL.md](_template/SKILL.md)
 
 ## Note

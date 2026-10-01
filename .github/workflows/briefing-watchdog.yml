@@ -1,7 +1,7 @@
 name: briefing-watchdog
 
-# 简报看门狗：每天检查各任务当天（周更任务则为其应跑当天）的归档
-#   1. 是否存在；
+# 简报看门狗：每天两次检查各任务当天（周更任务则为其应跑当天）的归档
+#   1. 是否存在（一天跑两次的任务，傍晚那次检查时应有 2 份）；
 #   2. 是否满足 _template/SKILL.md 第 3 步格式契约中可机械判定的部分。
 # 任一不合格就开 Issue（GitHub 会发邮件），持续不合格只在同一个 Issue 追加评论，
 # 全部恢复后自动评论并关闭。用于兜住三类事故：
@@ -11,8 +11,10 @@ name: briefing-watchdog
 
 on:
   schedule:
-    # 19:00 UTC = 12:00 PDT / 11:00 PST，晚于全部简报运行（最晚一个为本地时间 9:00 AM）
-    - cron: '0 19 * * *'
+    # 20:00 UTC = 13:00 PDT / 12:00 PST，晚于全部上午的运行（最晚一个为本地时间 11:00 AM）
+    - cron: '0 20 * * *'
+    # 02:00 UTC = 前一天 19:00 PDT / 18:00 PST，晚于傍晚的运行（本地时间 5:00 PM），本地日期仍是同一天
+    - cron: '0 2 * * *'
   workflow_dispatch:
 
 permissions:
@@ -33,10 +35,13 @@ jobs:
           # 归档按运行当天的本地日期命名，Routine 时区为 America/Los_Angeles
           TODAY=$(TZ=America/Los_Angeles date +%F)
           DOW=$(TZ=America/Los_Angeles date +%u)   # 1=周一 … 7=周日
-          echo "本地日期 ${TODAY} (周 ${DOW})"
+          HOUR=$(TZ=America/Los_Angeles date +%-H)
+          echo "本地日期 ${TODAY} (周 ${DOW}) ${HOUR} 点"
 
           # 日更任务
-          DAILY="tech-news-briefing automotive-industry-briefing ai-industry-briefing agent-engineering-briefing"
+          DAILY="tech-news-briefing automotive-industry-briefing ai-industry-briefing agent-engineering-briefing current-affairs-briefing local-events-briefing"
+          # 一天跑两次的任务（须同时列在 DAILY 里）：本地 18 点以后的检查要求当天有 2 份归档
+          TWICE_DAILY="local-events-briefing"
           # 周更任务，格式 任务名:应跑星期几
           WEEKLY="cloud-native-briefing:1 app-updates-briefing:5"
 
@@ -54,23 +59,39 @@ jobs:
           : > /tmp/violations.md
 
           for t in $EXPECTED; do
-            f=$(ls "$t/archive/${t}_${TODAY}"*.md 2>/dev/null | head -1 || true)
-            if [ -z "$f" ]; then
-              echo "MISSING $t"
-              MISSING="$MISSING $t"
-              continue
+            files=$(ls "$t/archive/${t}_${TODAY}"*.md 2>/dev/null || true)
+            have=$(printf '%s\n' "$files" | grep -c . || true)
+            want=1
+            case " $TWICE_DAILY " in
+              *" $t "*) if [ "$HOUR" -ge 18 ]; then want=2; fi ;;
+            esac
+            if [ "$have" -lt "$want" ]; then
+              echo "MISSING $t (${have}/${want})"
+              if [ "$want" -gt 1 ]; then
+                MISSING="$MISSING $t(${have}/${want})"
+              else
+                MISSING="$MISSING $t"
+              fi
             fi
-            out=$(python3 .github/scripts/lint_archive.py "$f" || true)
-            if [ -n "$out" ]; then
-              echo "INVALID $t"
-              echo "$out" | sed 's/^/    /'
+
+            # 当天的每一份归档都校验格式（同日重跑的 _HHmm 归档也算）
+            bad=0
+            for f in $files; do
+              out=$(python3 .github/scripts/lint_archive.py "$f" || true)
+              if [ -n "$out" ]; then
+                bad=1
+                echo "INVALID $f"
+                echo "$out" | sed 's/^/    /'
+                {
+                  printf '**`%s`**\n\n' "$f"
+                  echo "$out" | sed 's/^/- /'
+                  printf '\n'
+                } >> /tmp/violations.md
+              fi
+            done
+            if [ "$bad" = 1 ]; then
               INVALID="$INVALID $t"
-              {
-                printf '**`%s`**\n\n' "$f"
-                echo "$out" | sed 's/^/- /'
-                printf '\n'
-              } >> /tmp/violations.md
-            else
+            elif [ "$have" -ge "$want" ]; then
               echo "OK      $t"
             fi
           done
