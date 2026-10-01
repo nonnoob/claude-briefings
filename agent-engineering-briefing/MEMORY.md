@@ -2,19 +2,27 @@
 
 ## 1. 本次运行
 
-- 运行时刻：2026-09-30
-- 实际覆盖窗口：2026-09-29 10:01 UTC 至 2026-09-30 10:01 UTC（常规，距上次运行约1天）
-- 备注：本轮4个并行子agent分方向检索（方向1 Anthropic/Claude Code官方源；方向2 Copilot CLI/Codex CLI/Cursor/Windsurf/OpenHands/MCP规范/GitHub Trending+GitSpawn追踪；方向3 9个工程博客源；方向4 HN/Reddit/X）。方向1：Claude Code changelog、Anthropic API release notes、anthropic.com/engineering、claude.com/blog均可直连；npm网页版403改用registry.npmjs.org JSON API交叉核对时间戳。确认窗口内新内容为Claude Code v2.1.285（npm时间戳2026-09-29T17:32:09Z）与Claude Blog发布的Asana多agent案例研究（页面仅日期级时间戳，未出现在sitemap.xml最近抓取范围内，中等置信度但作为官方一手源未加单源标）；API release notes与Engineering blog窗口内均无新条目。方向2：GitHub仓库（copilot-cli/codex/OpenHands/qwen-code/modelcontextprotocol）经网页抓取（REST API被拦截未走gh/API）确认时间戳；Cursor官方changelog经WebSearch确认窗口内无新条目；Windsurf（已更名Devin Desktop）发布v3.10.48但为纯bugfix已按规则排除；MCP规范仓库窗口内无commit；OpenHands窗口内无新release（仍为09-25的v1.24.0）。已收录GitHub Copilot CLI v1.0.90-3/v1.0.90-5、OpenAI Codex CLI rust-v0.159.1、Qwen Code v0.24.7。GitSpawn按事件表关注点定向复查：Claude Code v2.1.285出现多条git/worktree修复（SSH git配置读取、自托管runner LFS pre-push hook/core.hooksPath/commit签名加固、沙箱凭据存储、worktree证书校验），逐条核实均与GitSpawn核心路径（交互式git status/diff触发仓库自带core.fsmonitor等hook执行任意命令）无关；Grok Build仍无官方安全公告；Qwen Code v0.24.7未含相关修复，唯一相关PR #12404为测试稳定性修复非安全补丁，Manifold F1（高危）缺口未闭合；另有09-22新开issue #12457讨论PreToolUse hook fail-open但与F1是不同问题。三方状态与09-29持平，已按续报收录并更新关注点。方向3：9个域名（simonwillison.net/latent.space/swyx.io/huyenchip.com/eugeneyan.com/hamel.dev/blog.langchain.com/llamaindex官方博客/OpenAI Cookbook）全部被组织出口代理拦截，改用WebSearch间接检索+交叉验证。命中窗口内最大事件OpenAI DevDay 2026（09-29旧金山）：Simon Willison现场直播博客记录Agents API新能力（托管browser实现computer use、MCP挂载、默认最多6并行subagent、durable session）及新Decisions API（GPT-6 Luna定制版，~150ms延迟，宣称提速10倍），已收录；Latent Space的AINews汇编内容与之重叠且时间戳存疑（候选，未收录，避免同一事件重复计入）。huyenchip/eugeneyan/hamel/langchain blog/llamaindex blog/OpenAI Cookbook/swyx.io窗口内均未发现新内容（逐一核实排除疑似候选：Cookbook相关agent工程文章经核实均为更早发布，非本窗口新内容）。方向4：news.ycombinator.com/reddit.com/x.com直连全部被拦截（EGRESS_BLOCKED），改用WebSearch间接检索并用多独立信源（GitHub自动化HN摘要快照+NBC/The Register/Washington Times/WSLS等媒体报道）交叉核实发布时间。确认2条HN窗口内热帖：Dots常驻后台agent发布讨论（已收录，标【单源】因具体互动数字依赖自动化快照）；DevDay 2026 Recap讨论帖内容与方向3的Simon Willison报道属同一事件（Agents API），按事件级去重未单独收录。Reddit（r/LocalLLaMA、r/ClaudeAI）与X/Twitter（含@simonw @swyx @HamelHusain @eugeneyan @karpathy @jerryjliu0 @hwchase17）本期**完全未覆盖**——WebSearch候选均无法核实原帖/推文确切发布时间落在窗口内（含一条被误标注为2026 DevDay反应、实为2023/2025年旧推文的典型聚合器误报，已排除）。
+- 运行时刻：2026-10-01
+- 实际覆盖窗口：2026-09-30 10:01 UTC 至 2026-10-01 10:01 UTC（常规，距上次运行约1天）
+- 备注：本轮4个并行子agent分方向检索（方向1 Anthropic/Claude Code官方源；方向2 开发者工具链更新+GitSpawn事件定向复查；方向3 9个工程博客源；方向4 HN/Reddit/X）。方向1：Claude Code changelog、Anthropic API release notes均可直连，确认窗口内新内容为v2.1.286（npm时间戳2026-09-30T17:14:38Z）与Sonnet 4.5弃用公告（2026-11-30退役，经llms-txt-archive快照时间戳及独立新闻交叉核实落在窗口内）；Anthropic Engineering Blog窗口内无新文章；Claude Blog窗口内2篇（Claude for Government GA、销售团队用Managed Agents案例）均因缺乏工程细节按筛选标准排除。方向2：GitHub Copilot CLI v1.0.90正式版（2026-09-30 21:38 UTC）及v1.0.91-0/v1.0.91-1预发布（23:18 UTC/次日06:15 UTC）已收录；OpenAI Codex CLI rust-v0.159.0至v0.159.3因developers.openai.com直连受限改用搜索摘要间接确认，标【单源】收录；Cursor、Windsurf官方changelog域名被代理拦截且WebSearch未能定位窗口内具体条目，本期未覆盖；OpenHands、MCP规范仓库窗口内均无新发布。GitSpawn事件定向复查出现重要更正：直接核查Qwen Code仓库源码（commit 93c0d6d2 / PR #11669）发现该修复已于2026-09-12合并且是v0.24.7（2026-09-29发布）的祖先提交，对simple-git工厂函数等全部内部git调用点加`-c core.fsmonitor=`并有canary回归测试覆盖，此前多期简报"F1高危缺口未闭合"的判断系遗漏该PR所致，现予更正，Qwen Code自本期起移出该事件的持续追踪范围；Claude Code v2.1.286仍未涉及`/ultrareview`桌面端上传路径修复，Grok Build仍无官方安全公告，两者状态与前一日持平。方向3：9个域名（simonwillison.net/latent.space/swyx.io/huyenchip.com/eugeneyan.com/hamel.dev/blog.langchain.com/llamaindex.ai/cookbook.openai.com）全部被代理拦截，改用WebSearch间接检索。命中Latent Space的DevDay 2026专题播客（Ari Weinstein谈Computer Use架构，时间戳2026-09-30T22:23:40Z经搜索引擎结构化数据核实），已收录标【单源】；Simon Willison转引Matthew Green关于多agent蠕虫式安全风险的条目因时区无法确认（PDT解读下落在窗口外，UTC解读下落在窗口内，存疑）未收录，留待下次核实；swyx/huyenchip/eugeneyan/hamel/langchain blog/llamaindex blog/OpenAI Cookbook窗口内均无新内容。方向4：news.ycombinator.com/reddit.com/x.com直连全部被拦截，改用WebSearch+第三方HN快照仓库+Twitter snowflake ID解码核实时间戳。命中1条：Launch HN Magnitude（YC S25本地agent推理引擎，时间戳经HN item ID线性插值估算落在窗口内），标【单源】收录；Pi.dev"You Said No MCP"（MCP立场反转+Codemode代码执行范式，方法论价值高）与"Opus 5.5 nerf监测"项目经核实均在窗口开始前已发布/登上HN，按窗口规则排除未收录；Reddit（r/LocalLLaMA、r/ClaudeAI）与X/Twitter（含@simonw @swyx @HamelHusain @eugeneyan @karpathy @jerryjliu0 @hwchase17）本期未能核实到任何落在窗口内的内容，完全未覆盖。
 
 ## 2. 已报条目清单（保留最近 14 天）
+
+- 2026-10-01 | Latent Space发布DevDay 2026专题播客：OpenAI Computer Use负责人披露JS自执行+accessibility tree混合决策+失败自我恢复架构 | https://www.latent.space/p/devday-2026
+- 2026-10-01 | Claude Code发布v2.1.286：权限队列计数提示、修复非文本工具返回触发API 400、云端session唤醒失败、Remote Control断连等问题 | https://code.claude.com/docs/en/changelog
+- 2026-10-01 | GitHub Copilot CLI发布v1.0.90正式版+v1.0.91-0/1预发布：GPT-6.1 Sol支持、会话级目录访问授权、沙箱CA证书管理 | https://github.com/github/copilot-cli/releases
+- 2026-10-01 | OpenAI Codex CLI发布rust-v0.159.0至v0.159.3：即时打断功能、批准命令保留显式文件系统拒绝规则、默认保护.aws目录 | https://github.com/openai/codex/releases
+- 2026-10-01 | Anthropic宣布弃用claude-sonnet-4-5-20250929：2026-11-30正式退役，建议迁移Sonnet 5.5 | https://platform.claude.com/docs/en/release-notes/api
+- 2026-10-01 | 【续报】GitSpawn漏洞：源码核查更正此前判断，Qwen Code的F1核心路径修复已于09-12合并并包含在v0.24.7中，移出追踪；Claude Code/ultrareview路径与Grok Build状态持平 | https://github.com/QwenLM/qwen-code/commit/93c0d6d20d688f3706067c3c7ca5385edbd181a9
+- 2026-10-01 | 【单源】Hacker News上线Launch HN Magnitude（YC S25）：本地agent推理引擎，比llama.cpp快至多2倍，聚焦本地推理vs云端API路线之争 | https://news.ycombinator.com/item?id=49911995
 
 - 2026-09-30 | Claude官方博客发布Asana案例研究：人机协作团队多agent设计模式（权限继承、记忆分级、全程可审计） | https://claude.com/blog/agents-you-can-coach-how-asana-builds-human-agent-teams-with-claude
 - 2026-09-30 | Claude Code发布v2.1.285：新增allowedProviders受管设置、claude plugin configure命令，修复约90项问题 | https://code.claude.com/docs/en/changelog
 - 2026-09-30 | GitHub Copilot CLI发布v1.0.90-3/v1.0.90-5：新增--mcp-github-auth参数与会话级只读目录授权，修复MCP进度更新导致卡死 | https://github.com/github/copilot-cli/releases/tag/v1.0.90-3
 - 2026-09-30 | OpenAI Codex CLI发布rust-v0.159.1：GPT-6.1 Sol设为内置与Bedrock目录默认模型 | https://github.com/openai/codex/releases/tag/rust-v0.159.1
-- 2026-09-30 | Qwen Code发布v0.24.7：新增/commit斜杠命令与worktree支持，未含GitSpawn安全修复 | https://github.com/QwenLM/qwen-code/releases/tag/v0.24.7
+- 2026-09-30 | Qwen Code发布v0.24.7：新增/commit斜杠命令与worktree支持 | https://github.com/QwenLM/qwen-code/releases/tag/v0.24.7
 - 2026-09-30 | OpenAI DevDay 2026发布Agents API与Decisions API：托管computer use/MCP挂载/6并行subagent，Decisions API面向快速路由决策 | https://simonwillison.net/2026/Sep/29/openai-devday-2026-live-blog/
-- 2026-09-30 | 【续报】GitSpawn漏洞：Claude Code v2.1.285多条git修复均与核心攻击路径无关，Grok Build/Qwen Code仍无实质修复 | https://github.com/QwenLM/qwen-code/releases/tag/v0.24.7
+- 2026-09-30 | 【续报】GitSpawn漏洞：Claude Code v2.1.285多条git修复均与核心攻击路径无关，Grok Build/Qwen Code仍无实质修复（后于10-01更正：Qwen Code实际已修复） | https://github.com/QwenLM/qwen-code/releases/tag/v0.24.7
 - 2026-09-30 | 【单源】Hacker News热议OpenAI DevDay发布的"Dots"常驻后台agent架构模式 | https://news.ycombinator.com/item?id=49896604
 
 - 2026-09-29 | Anthropic与NVIDIA发布Claude Managed Agents与开源OpenShell集成：凭据隔离+外部default-deny策略层的agent工具调用权限防御模式 | https://claude.com/blog/giving-companies-more-control-over-their-ai-agents-with-nvidia
@@ -23,7 +31,7 @@
 - 2026-09-29 | GitHub Copilot CLI发布v1.0.89正式版：PR模板遵循、.claude/rules自定义指令支持、MCP OAuth scopes遵从；v1.0.90-1修复MCP OAuth重复登录 | https://github.com/github/copilot-cli/releases
 - 2026-09-29 | OpenAI Codex CLI发布rust-v0.159.0稳定版：新增Instant Interrupt中途插话打断，增强Mermaid渲染，修复macOS网络沙箱TLS问题 | https://github.com/openai/codex/releases/tag/rust-v0.159.0
 - 2026-09-29 | 【单源】社区项目OpenRig发布v0.6.0：将Claude Code与Codex CLI编排为同一可管理多agent团队，YAML定义agent编队 | https://github.com/mvschwarz/openrig/releases/tag/v0.6.0
-- 2026-09-29 | 【续报】GitSpawn漏洞：Claude Code v2.1.284的/ultrareview改动与该漏洞无关，Grok Build仍未发布安全公告，Qwen Code修复仅覆盖部分探测点（Manifold编号F1高危缺口未闭合） | https://github.com/QwenLM/qwen-code/releases
+- 2026-09-29 | 【续报】GitSpawn漏洞：Claude Code v2.1.284的/ultrareview改动与该漏洞无关，Grok Build仍未发布安全公告，Qwen Code修复仅覆盖部分探测点 | https://github.com/QwenLM/qwen-code/releases
 - 2026-09-29 | 【单源】Hacker News热议"不存在'失控'AI agent"：反对拟人化叙事，主张agent失控本质是reward hacking，呼吁转向沙箱/审计日志/熔断等具体工程标准 | https://news.ycombinator.com/item?id=49868083
 
 - 2026-09-28 | OpenAI Codex CLI发布rust-v0.158.0稳定版（138个PR）：全屏TUI支持选中即复制/右键粘贴保留Markdown格式、MCP server预注册OAuth client secret、exec-server WebSocket连接新增bearer token鉴权，另修复Windows/Linux沙箱与跨平台Git元数据保护等问题 | https://github.com/openai/codex/releases/tag/rust-v0.158.0
@@ -79,14 +87,17 @@
 - 2026-09-20 | Claude Code支持AGENTS.md功能新一轮Hacker News热议（681赞/249评论），聚焦互操作性利好与配置标准碎片化之争 | https://news.ycombinator.com/item?id=49760187
 - 2026-09-20 | Hacker News热议TypeSafe发布"Jev"评测/决策框架，核心争议是"System 1/2"框架措辞与benchmark方法论（1900+赞/256评论） | https://news.ycombinator.com/item?id=49717558
 - 2026-09-20 | 2025年论文《Cache-to-Cache: Direct Semantic Communication Between LLMs》重新登上Hacker News热榜，探讨多agent经KV cache直接语义通信 | https://news.ycombinator.com/item?id=49758615
+
 - 2026-09-19 | Claude Code发布v2.1.278：auto mode在Claude API/Enterprise/Bedrock/Vertex/Foundry/网关场景默认改用server端分类器且不再计费（auto mode默认权限模式本身尚未变化） | https://code.claude.com/docs/en/changelog
 - 2026-09-19 | Hacker News热议论文《An Empirical Study of Harness Design for Coding Agents》：176组配置揭示工具接口/规划/上下文裁剪策略应按模型能力选择 | https://news.ycombinator.com/item?id=49753878
+
 - 2026-09-18 | Claude Code发布v2.1.277：新增原生支持AGENTS.md、CLAUDE_GATEWAY_PROXY_IS_EGRESS_BOUNDARY出站模式配置，HN引发576赞206评论热议 | https://code.claude.com/docs/en/changelog
 - 2026-09-18 | GitHub Copilot CLI发布v1.0.87-0预发布：自动路由分级、steering提示合并、worktree路径模板等 | https://github.com/github/copilot-cli/releases
 - 2026-09-18 | OpenAI Codex CLI发布v0.155.1：修复本地TUI新会话推理摘要默认设置问题 | https://github.com/openai/codex/releases
 - 2026-09-18 | Plugin4Shell漏洞披露：Claude Code/Codex/Copilot/Gemini CLI插件市场机制零点击RCE，Anthropic与OpenAI已修复，Copilot未修复，Google弃用Gemini CLI | https://www.helpnetsecurity.com/2026/09/18/plugin4shell-ai-coding-agents-vulnerability/
 - 2026-09-18 | Claude Code Projects改版：协调者agent将工程目标拆分给并行云端子agent会话，各自分支+共享项目记忆，beta向Pro/Max开放 | https://www.theregister.com/ai-and-ml/2026/09/18/claude-code-revamps-projects-so-you-can-work-and-pay-in-parallel/5297532
 - 2026-09-18 | Claude Code发布v2.1.276：修复v2.1.275引入的经代理网关请求全部返回400报错的回归问题 | https://code.claude.com/docs/en/changelog
+
 - 2026-09-17 | Claude Code发布v2.1.275：skills/plugins从claude.ai账号同步至终端会话、VS Code新增子agent"agent map"面板、修复插件市场消息/日志敏感凭据泄露 | https://code.claude.com/docs/en/changelog
 - 2026-09-17 | GitHub Copilot CLI发布v1.0.86：自定义agent可选择性继承仓库指令文件、会话恢复保留市场插件与技能、autopilot任务完成后停止不再擅自继续 | https://github.com/github/copilot-cli/releases
 - 2026-09-17 | Anthropic披露内部AI R&D自动化指标：用Epoch AI自动化评分量表衡量Claude主导研发工作占比从3月1%升至26%，超90%研发为人类主导+Claude承担大块工作 | https://www.engadget.com/2261909/anthropic-says-claude-leads-26-percent-of-its-ai-research-and-development/
@@ -96,4 +107,4 @@
 
 ## 3. 进行中事件表
 
-- 事件：GitSpawn（git-config触发code execution，波及Claude Code/Qwen Code/Grok Build等多款编码agent）剩余未修复情况；最后进展日期：2026-09-30（本期复查确认新细节：Claude Code v2.1.285出现多条git/worktree相关修复——SSH git配置读取修复、自托管runner侧git安全加固（跳过仓库自带Git LFS pre-push hook、忽略可写系统级core.hooksPath、未加--configure-git时不签名commit）、沙箱git凭据存储报错修复、worktree证书校验修复——但逐条核实均集中在"自托管runner生命周期hook"与"/ultrareview桌面端上传"两个子系统，与GitSpawn核心攻击路径（交互式git status/diff触发仓库自带core.fsmonitor等hook执行任意命令）无关，需警惕被误判为已修复；Grok Build仍无官方安全公告（Manifold Security此前复测仍可复现）；Qwen Code v0.24.7未含相关修复，唯一相关PR #12404仅是让post-index-change hook测试用例在文件系统时钟漂移下更确定，非安全补丁，Manifold编号F1（高危）的hook缺口仍未闭合，另有09-22新开issue #12457讨论PreToolUse hook fail-open但为不同问题；三方状态与09-29持平，仍均无实质性新修复）；下一步关注点：Claude Code是否发布专门修复core.fsmonitor等仓库自带hook在交互式git操作时被执行这一核心路径（区别于本期确认的一批"看似相关实则无关"的git配置/runner加固改动）的版本；Grok Build是否发布正式安全公告；Qwen Code是否发布真正覆盖F1剩余缺口（而非仅测试稳定性）的后续修复PR。
+- 事件：GitSpawn（git-config触发code execution，波及Claude Code/Qwen Code/Grok Build等多款编码agent）剩余未修复情况；最后进展日期：2026-10-01（本期通过直接核查Qwen Code仓库源码更正此前判断：F1核心路径（交互式git status/diff触发仓库自带core.fsmonitor执行任意命令）在Qwen Code侧实际已于2026-09-12合并修复——commit 93c0d6d2 / PR #11669对simple-git工厂函数、gitDiff、team-memory同步等全部内部git调用点统一加`-c core.fsmonitor=`并新增canary回归测试，该提交是2026-09-29发布的v0.24.7的祖先提交，此前多期简报"未闭合"的判断系遗漏该PR，Qwen Code自本期起移出追踪范围；Claude Code v2.1.286仍未涉及`/ultrareview`桌面端上传路径的修复，该子系统独立攻击面仍未闭合；Grok Build仍无官方安全公告，状态与前一日持平）；下一步关注点：Claude Code是否发布专门修复`/ultrareview`桌面端上传路径git配置处理这一独立攻击面的版本；Grok Build是否发布正式安全公告。
