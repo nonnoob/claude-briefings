@@ -2,199 +2,102 @@
 
 ## 1. 本次运行时刻与覆盖窗口
 
-- 本次运行：2026-10-01 约10:11 UTC
-- 上次运行：2026-09-30 约10:12 UTC
-- 覆盖窗口：2026-09-30 10:12 UTC – 2026-10-01 10:11 UTC（约24小时，常规）。
-- 检索状态：十个方向以四个并行子agent执行（谷歌/安卓+系统更新+新品发布一组、科技巨头+科技人物+政策监管一组、芯片硬件+投融资并购一组、安全隐私+开源软件一组），均取得有效检索结果或确认窗口内无新内容（如Windows/macOS正式更新、Pixel设备本次无新动态），判定为"完全成功"。
-- 环境限制：本次未遇到WebFetch/WebSearch工具报错或平台拦截（EGRESS_BLOCKED等），四个方向均正常完成。
-- 覆盖缺口：无——进行中事件表10条本次均按各自"下一步关注点"完成定向核实；个别子问题（美光9/29说明会后续现场报道、10/1-3第一阶段投票参与情况）多轮检索未能找到公开报道，已在简报与事件表中注明"留待下期跟进"而非编造。
-- 事件表更新：苹果诉OpenAI案确认10月1日太平洋时间上午9点（UTC 16:00，晚于本次窗口截止）的听证会尚未召开，窗口内新增进展为OpenAI要求剔除苹果新证据的动议；中美元首会晤后续本次核查无新动态；AI安全法案停滞态势坐实新细节（Cruz阻挡45天模型访问条款）；欧盟谷歌DMA诉讼已正式提交但法院受理与罚款合规结论未公布；Buist v. Anthropic反垄断案确认Anthropic已提交驳回起诉动议，12月17日听证；ShinyHunters/FBI事件有新进展（FBI高官公开喊话+荷兰嫌疑人嫁祸疑云，均未完全证实）；ITC 337调查、加州AI一键关闭两项无新进展；美光台湾罢工有限度新进展（财报电话会薪酬回应）但说明会/投票现场报道仍未见。**事件表因10条上限踢出"苹果诉Taction Technology专利赔偿案"（该案57亿美元判决已高调报道完毕，当前仅剩上诉程序性进展，本次核查仍未见正式Notice of Appeal存档），替换为新增的"FTC对OpenAI/Anthropic/METR失控AI代理调查"（美国首次此类执法行动，预计有持续后续）。** 窗口内新增新闻另涉及：Android开发者身份验证新规4国生效、Gemini Chat上线Skills、Chrome安全更新、苹果10月13日发布会传闻、Apple Pay登陆印度、亚马逊新Fire TV Stick、Meta股价创近4年最佳单月、美光创纪录财报、Netlist对美光新ITC诉讼、台积电德州投资传闻、三星SK海力士回购提前完成、峰岹收购Sciosense、GMI Cloud融资、Accelevation Holdings IPO、思科/MikroTik两个CVSS9.8漏洞、AI编程助手截图泄露事件、Qt 6.12 LTS、白宫AI自愿安全协议、FTC调查。经核实与去重清单不重叠的条目已落入简报正文，其余候选（如中国小额半导体融资、未经核实的中国并购传闻、OpenAI融资/IPO决策等深度AI行业新闻、Tesla软件更新等低优先级条目）因信号强度不足、与AI行业简报分工重叠或单源未经核实，本次未收录。
+- 本次运行：2026-10-02 约10:12 UTC
+- 上次运行：2026-10-01 约10:11 UTC
+- 覆盖窗口：2026-10-01 10:11 UTC – 2026-10-02 10:12 UTC（约24小时，常规）。
+- 检索状态：十个方向以四个并行子agent执行（谷歌/安卓+系统更新+新品发布一组、科技巨头+科技人物+政策监管一组、芯片硬件+投融资并购一组、安全隐私+开源软件一组），均取得有效检索结果或确认窗口内无新内容（如系统更新方向Windows/macOS本次无新动态），判定为"完全成功"。
+- 环境限制：部分二级来源域名（phoronix.com、thehackernews.com、helpnetsecurity.com、news.nextapple.com、finance.ftvnews.com.tw、www.cls.cn、www.bloomberg.com、en.sedaily.com、chromereleases.googleblog.com等）的WebFetch被出口代理拦截（EGRESS_BLOCKED），四个子agent均改用WebSearch摘要及多方交叉验证获取信息，未影响整体结论可靠性。
+- 覆盖缺口：苹果诉OpenAI商业机密案10月1日太平洋时间上午9点听证期已到期，但多轮检索未找到法庭当庭裁决或书面裁决结果的公开报道（常见为法官庭后书面裁决），已记入事件表留待下次核实，未计入本期简报正文（避免在无法源确认结果的情况下编造"已裁决"或"结果如何"）；美光台湾罢工10月1日说明会现场报道及10/1-3首阶段投票具体参与人数/结果，多轮检索（含中文信源）仍未找到公开报道，留待下次跟进。
+- 事件表更新：美光台湾罢工投票程序确认10月1日正式启动（分10/1-3桃园厂区篮球场、10/4-6振天宫两阶段），公司已排定10月22日与台中厂工会第三次调解，为实质性新进展；SK海力士就Solidigm IPO估值分歧（路透1500亿vs彭博1000亿美元）首次正式声明回应，强调"股东价值优先"但未澄清具体数字；台积电德州追加投资传闻获具体量级（单座至少200亿美元）但仍属"早期阶段"未证实。其余事件（中美元首会晤后续、AI安全法案、欧盟对谷歌DMA执法、Buist v. Anthropic反垄断案、ShinyHunters/FBI PeopleSoft事件、ITC 337调查、加州AI一键关闭）本次核查均无实质新进展，继续保留。10条事件表本次未达踢出条件，维持不变。窗口内新增新闻另涉及：谷歌Gemini学生中心扩展、三星One UI 9.5内测版本、苹果10月13日发布会细节续报（代号J490）、AWS-Synopsys芯片设计授权、ON Semiconductor-Synaptics收购改全现金、Volantis光学芯片融资、Fortinet FortiMail零日、DIVD自主AI Agent入侵事件、欧洲警方打击KillSec勒索团伙、微软X账号被黑、Ubuntu 26.10 Beta、Coreboot 26.09、GitHub Copilot in VS Code更新、DOJ诉苹果证据开示上诉、新泽西诉亚马逊反垄断、OPPO苹果商业机密案程序裁定。经核实与去重清单不重叠的条目已落入简报正文，其余候选（博通拟向Anthropic提供最高420亿美元可转换票据贷款——属AI公司商业融资动态，与AI行业简报分工重叠，未收录；Chrome for Android 154.0.8037.126小版本更新——信号强度不足且无法确认具体修复内容，未收录；VoiceStudio GitHub单日新增约3483星标——无独立技术媒体报道佐证，仅GitHub Trending及第三方追踪仓库数据，未收录）本次未收录。
 
-- 2026-09-17 | OPPO发布ColorOS 17，Find X10系列首次亮相 | https://www.ithome.com/0/997/245.htm
-- 2026-09-17 | 华为全联接大会宣布昇腾960芯片提前发布，性能较前代翻番 | https://finance.sina.cn/2026-09-17/detail-inisayam0343548.d.html
-- 2026-09-17 | 谷歌开放"欧洲搜索数据集授权计划"落实DMA第6(11)条义务 | https://developers.google.com/search/help/about-search-data-program
-- 2026-09-17 | GrapheneOS批评谷歌安卓17 QPR1安全补丁优先分配给Pixel | https://www.androidauthority.com/grapheneos-android-17-qpr1-security-patches-comments-3712218/
-- 2026-09-17 | 三星Galaxy机型收到9月版Google Play系统更新 | https://www.sammyfans.com/2026/09/17/samsung-phones-receive-september-2026-google-play-system-update/
-- 2026-09-17 | 谷歌Gemini Notebook上线Expert Intelligence功能，接入10万+出版商电子书 | https://workspaceupdates.googleblog.com/2026/09/introducing-expert-intelligence-in-Gemini-Notebook.html
-- 2026-09-17 | 微软确认Windows 11更新KB5124008导致设备与域信任关系失效 | https://finance.sina.com.cn/tech/digi/2026-09-17/doc-inisayai3555065.shtml
 - 2026-09-18 | 微软紧急更新KB5129195被曝引发新开机故障（UNMOUNTABLE_BOOT_VOLUME） | https://borncity.com/blog/2026/09/18/windows-11-25h2-boot-probleme-mit-den-out-of-band-updates-sept-2026/
 - 2026-09-18 | 苹果iPhone 18 Pro系列在中国正式开售 | https://finance.sina.com.cn/tech/roll/2026-09-18/doc-inisfiif3455915.shtml
-- 2026-09-17 | 美国ITC对苹果、三星、谷歌发起337调查（BoomCloud 360音频专利申诉） | https://finance.sina.com.cn/jjxw/2026-09-17/doc-iniscvfz0324833.shtml
-- 2026-09-17 | 台积电先进制程集体涨价约10%，AMD据传跟涨（传闻） | https://www.tomshardware.com/tech-industry/semiconductors/tsmc-is-reportedly-hiking-prices-for-all-advanced-nodes-accounting-for-74-percent-of-the-companys-wafer-business-nvidia-amd-apple-qualcomm-and-others-will-face-higher-wafer-costs
-- 2026-09-17 | SK海力士与英特尔洽谈俄亥俄州工厂合作生产存储芯片续报 | https://www.tomshardware.com/tech-industry/semiconductors/sk-hynix-reportedly-discussing-us-memory-chip-manufacturing-with-intel-options-include-leasing-ohio-plant-or-forming-joint-venture-with-other-ai-hyperscalers
 - 2026-09-18 | SK海力士子公司Solidigm考虑在纽约州建首座NAND工厂 | https://www.digitimes.com/news/a20260918VL223/solidigm-nand-sk-hynix-manufacturing-fab.html
-- 2026-09-17 | 韩国斗山投资约7亿美元扩产AI用覆铜板CCL | https://www.digitimes.com/news/a20260918VL217/doosan-ccl-demand-capacity-expansion.html
-- 2026-09-17 | 法官驳回OpenAI查阅马斯克与苹果保密和解协议请求，证实双方已和解 | https://9to5mac.com/2026/09/17/judge-rejects-openais-bid-to-see-xs-confidential-settlement-with-apple-in-antitrust-lawsuit/
-- 2026-09-17 | 印度"Semicon 2.0"半导体新政吸引约120亿美元投资承诺 | https://www.bloomberg.com/news/articles/2026-09-17/india-s-new-chip-plan-draws-12-billion-in-investment-pledges
-- 2026-09-17 | 地平线系D-Robotics完成4亿美元C轮融资 | https://www.prnewswire.com/news-releases/d-robotics-completes-400-million-in-series-c-funding-driving-the-robotics-industry-into-a-boom-in-product-categories-302881297.html
 - 2026-09-18 | SK海力士硅谷设立独立品牌SK hynix Ventures | https://www.digitimes.com/news/a20260918PR201.html
-- 2026-09-17 | 思科ISE认证绕过零日CVE-2026-76460遭在野利用，CVSS满分10.0 | https://thehackernews.com/2026/09/cisco-warns-of-new-zero-day-ise-auth.html
-- 2026-09-17 | 图片托管服务Gyazo遭入侵，2362万用户记录及4.9亿图片元数据泄露 | https://thehackernews.com/2026/09/gyazo-breach-exposes-2362-million-user.html
-- 2026-09-17 | Rust安全团队警告核心开发者遭定向社会工程攻击 | https://blog.rust-lang.org/2026/09/17/targeted-attacks/
-- 2026-09-17 | GCC开发分支合入C++29实验性编译器基础设施支持 | https://www.phoronix.com/news/GCC-17-std-CPP29-Experimental
-- 2026-09-17 | Ubuntu 26.10开发版第四轮月度快照ISO发布 | https://www.phoronix.com/news/Ubuntu-26.10-Snapshot-4
-- 2026-09-17 | 美国众议院提前休会，两党AI安全法案表决推迟至中期选举后 | https://www.cnbc.com/2026/09/17/ai-crisis-congress-regulation.html
-- 2026-09-17 | 谷歌欧洲搜索数据集授权计划许可协议正式向申请方发放 | https://www.searchenginejournal.com/google-details-who-can-license-its-search-data-in-europe/587995/
 - 2026-09-19 | 谷歌推出实验性家庭AI代理"CC"，多成员共享账号生成家庭日程简报 | https://techcrunch.com/2026/09/18/googles-new-cc-is-an-ai-agent-that-helps-families-run-their-households/
 - 2026-09-19 | 摩托罗拉Edge 70推送Android 17正式版更新 | https://www.ithome.com/1/003/878.htm
 - 2026-09-19 | 三星Gallery与Google Photos同步细节披露，OneDrive集成9月30日终止 | https://9to5google.com/2026/09/18/samsung-gallery-google-photos-sync-details-rollout/
 - 2026-09-19 | 微软发布Windows 11 Insider Preview新版本，新增鼠标指示器动画与云端重装远程触发 | https://blogs.windows.com/windows-insider/2026/09/18/announcing-new-builds-for-18-september-2026/
-- 2026-09-19 | 苹果折叠屏iPhone Duo或因产量爬坡缓慢面临一机难求（传闻） | https://9to5mac.com/2026/09/18/daily-september-18-2026/
-- 2026-09-19 | 复古通讯设备Clicks Communicator确认12月发货，配置提升至12GB RAM | https://9to5google.com/2026/09/18/clicks-communicator-lands-in-december-with-12gb-ram-two-months-of-free-data/
-- 2026-09-19 | 摩托罗拉moto watch ultra（自研AI助手Qira）英国爱尔兰开售 | https://www.androidauthority.com/motorola-moto-watch-ultra-3706999/
 - 2026-09-19 | 苹果被曝重返企业服务器市场，自研M8 Ultra AI推理服务器拟用英伟达NVLink Fusion | https://finance.sina.com.cn/tech/roll/2026-09-18/doc-inisfazf3501978.shtml
 - 2026-09-19 | Meta上调2026年资本开支指引至1300-1450亿美元，加速向云计算运营商转型 | https://247wallst.com/investing/2026/09/18/meta-is-about-to-become-mega-cloud-operator/
 - 2026-09-19 | AMD正式通知合作伙伴因台积电涨价将于Q4起对GPU等产品线涨价约10%（传闻） | https://www.tomshardware.com/tech-industry/semiconductors/tsmc-is-reportedly-hiking-prices-for-all-advanced-nodes-accounting-for-74-percent-of-the-companys-wafer-business-nvidia-amd-apple-qualcomm-and-others-will-face-higher-wafer-costs
 - 2026-09-19 | 美光科技台湾工厂劳资协商进入关键节点，工会警告可能推进罢工投票 | https://thecryptobasic.com/2026/09/18/micron-stock-rebounds-memory-tightness-taiwan-labor-deadline/
 - 2026-09-19 | SpaceX星舰第14次试飞从9月22日推迟至9月28日 | https://finance.yahoo.com/markets/stocks/article/spacex-stock-falls-as-starships-test-flight-slips-to-sept-28-retail-investors-sell-shares-143200705.html
 - 2026-09-19 | 奥特曼将向联合国安理会作AI简报，OpenAI/Anthropic/谷歌筹建AI自律标准机构 | https://kelo.com/2026/09/18/openais-sam-altman-to-brief-un-security-council-next-week/
-- 2026-09-19 | 黄仁勋反驳AI末日论，称2030年不会是世界末日 | https://www.bloomberg.com/news/articles/2026-09-18/nvidia-ceo-says-there-s-0-chance-that-world-will-end-in-2030
 - 2026-09-19 | AI编程代理零点击RCE漏洞Plugin4Shell影响Claude Code/Codex/Copilot/Gemini CLI | https://thehackernews.com/2026/09/plugin4shell-lets-repository-owners.html
-- 2026-09-19 | Check Point安全管理服务器曝CVSS9.8漏洞CVE-2026-91843，已发LivePatch | https://thehackernews.com/2026/09/critical-check-point-management-server.html
 - 2026-09-19 | CrowdSec披露TanStack npm供应链攻击致170个私有仓库泄露，波及Mistral AI/OpenAI | https://thehackernews.com/2026/09/crowdsec-says-tanstack-npm-attack-led.html
-- 2026-09-19 | 仿冒LastPass Authenticator等GitHub仓库传播新型信息窃取木马Rapuncel | https://www.bleepingcomputer.com/news/security/fake-lastpass-authenticator-github-repos-push-new-rapuncel-infostealer/
 - 2026-09-19 | 科罗拉多州两处供水系统遭外国黑客入侵，系针对Allen-Bradley PLC攻击浪潮一部分 | https://databreaches.net/2026/09/18/foreign-actors-breach-colorado-water-systems/
 - 2026-09-19 | 加州州长纽森签署行政令研究AI"一键关闭"机制可行性 | https://www.cnn.com/2026/09/18/politics/gavin-newsom-artificial-intelligence
-- 2026-09-19 | DOJ官员称AI公司安全协调反垄断合规性难判断，愿展开对话 | https://www.mlex.com/mlex/mergers-acquisitions/articles/2526810
 - 2026-09-19 | ITC对苹果三星谷歌337调查确认案号337-TA-1521及三项专利细节 | https://www.techtimes.com/articles/327717/20260918/apple-samsung-google-face-iphone-import-ban-risk-over-spatial-audio-patents.htm
-- 2026-09-19 | 特朗普习近平9月24日会晤筹备，美方称目标是维持关系稳定管控分歧 | https://www.voachinese.com/a/top-us-officials-on-trump-xi-summit-and-us-china-relations-20260918/8201610.html
 - 2026-09-20 | 特朗普宣布将成立"AI Force"并任命"AI沙皇"，称AI安全担忧是"骗局" | https://www.cnn.com/2026/09/19/politics/trump-ai-task-force-czar
 - 2026-09-20 | 加州联邦法官初步驳回TikTok4亿美元隐私和解协议中终止2019年同意令的条款 | https://www.bloomberg.com/news/articles/2026-09-19/california-court-blocks-part-of-tiktok-s-400-million-settlement
-- 2026-09-20 | 奥特曼、黄仁勋、皮查伊、马斯克、库克、贝索斯等科技高管确认出席9月24日白宫为习近平举行的国宴 | https://www.washingtontimes.com/news/2026/sep/19/tech-titans-flank-trump-xi-white-house-state-dinner-next-week/
 - 2026-09-20 | BragJack攻击披露：恶意扩展劫持Chrome/Edge/Opera Neon/Perplexity Comet/Claude in Chrome等AI浏览器代理 | https://www.bleepingcomputer.com/news/security/bragjack-attacks-hijack-ai-browser-agents-through-malicious-extensions/
-- 2026-09-20 | CISA将3个Linux内核在野利用漏洞列入KEV目录 | https://thehackernews.com/2026/09/cisa-flags-three-linux-kernel.html
 - 2026-09-21 | 启元机器人发布消费级人形机器人Q1、T1并开售，标准版19999元起 | https://news.qq.com/rain/a/20260920A0AP9700
 - 2026-09-21 | 韩国9月1–20日出口数据显示半导体出口同比暴增259.4%创同期历史新高 | https://www.koreatimes.co.kr/economy/20260921/exports-up-78-in-first-20-days-of-sept-on-robust-chip-shipments
-- 2026-09-21 | 台湾联电、力积电等成熟制程代工厂酝酿新一轮涨价（传闻） | https://www.caiwennews.com/article/1615188.shtml
 - 2026-09-21 | 马斯克旗下Boring Company提出得州奥斯汀-圣安东尼奥隧道构想 | https://www.bloomberg.com/news/articles/2026-09-20/musk-s-boring-co-working-on-tunnel-to-link-austin-san-antonio
 - 2026-09-21 | 特斯拉、SpaceX起诉TERA-print就"Terafab"芯片工厂命名权寻求确认不侵权 | https://www.tradingview.com/news/reuters.com,2026:newsml_L6N4580ZI:0-tesla-spacex-sue-nanotech-company-over-terafab-name/
 - 2026-09-21 | OpenAI Codex桌面版/CLI曝沙箱逃逸漏洞Heapjack与Overpatch，已修复 | https://www.bleepingcomputer.com/news/security/researchers-escape-openai-codex-sandbox-to-run-commands-on-host/
-- 2026-09-21 | Linux内核7.3-rc4发布，449个提交聚焦文件系统与WiFi修复 | https://www.phoronix.com/news/Linux-7.3-rc4
-- 2026-09-21 | 私人原告起诉Anthropic、OpenAI、SpaceXAI、谷歌，指控合谋放缓AI开发构成非法协议（案号已更正为N.D. Cal. 5:26-cv-10693，Buist et al. v. Anthropic PBC et al.） | https://abcnews.com/Technology/wireStory/lawsuit-anthropic-openai-spacexai-google-made-illegal-agreement-136588615
+- 2026-09-21 | 私人原告起诉Anthropic、OpenAI、SpaceXAI、谷歌，指控合谋放缓AI开发构成非法协议（N.D. Cal. 5:26-cv-10693，Buist et al. v. Anthropic PBC et al.） | https://abcnews.com/Technology/wireStory/lawsuit-anthropic-openai-spacexai-google-made-illegal-agreement-136588615
 - 2026-09-21 | 谷歌正式开放Googlebook笔记本预购，899美元起，10月上市 | https://9to5google.com/2026/09/21/googlebook-launch/
-- 2026-09-21 | 谷歌Workspace新增Docs透视表、Meet硬件自动签到、Ask Gemini in Meet联合演讲功能 | https://workspaceupdates.googleblog.com/2026/
-- 2026-09-21 | vivo发布X500系列，Pro系列首发2nm天玑9600 Pro | https://finance.sina.com.cn/tech/digi/2026-09-21/doc-inisqzxv7588879.shtml
 - 2026-09-22 | 苹果新Mac Studio（M5 Max/M5 Ultra）与Mac mini（M6/M5 Pro）正式开售 | https://www.macrumors.com/2026/09/21/new-mac-mini-and-mac-studio-launch-tomorrow/
 - 2026-09-21 | 亚马逊封锁Meta AI购物代理Muse接入其零售站点 | https://thenextweb.com/news/amazon-blocks-muse-perplexity-amended-complaint
-- 2026-09-21 | 台湾联电证实成熟制程涨价，力积电传报价大涨四成 | https://udn.com/news/story/7240/9766923
 - 2026-09-21 | 美光台湾工会二次调解破裂，宣布启动罢工投票程序 | https://www.digitimes.com/news/a20260922PD219/micron-labor-taiwan-strike-2026.html
-- 2026-09-21 | 观想科技拟4.82亿元收购国防半导体企业辽晶电子60%股权 | https://www.jiemian.com/article/15123806.html
 - 2026-09-21 | 爱尔兰DPC对谷歌处以4.03亿欧元GDPR罚款（位置数据违规） | https://www.dataprotection.ie/en/news-media/latest-news/data-protection-commission-fines-google-eu403-million-following-inquiry-googles-processing-location
-- 2026-09-21 | CISA将Zyxel GS1900交换机漏洞CVE-2026-7273列入KEV目录 | https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-zyxel-flaw-by-thursday/
 - 2026-09-21 | ShinyHunters与Clop勒索团伙黑吃黑对峙升级 | https://www.theregister.com/cyber-crime/2026/09/21/clop-gets-a-taste-of-its-own-medicine-after-shinyhunters-hijack-leak-site/5297702
 - 2026-09-21 | 苹果诉OpenAI案：苹果要求直接查阅取证镜像及OpenAI硬件研发文件，法官驳回OpenAI查阅苹果-马斯克和解协议请求 | https://9to5mac.com/2026/09/21/apple-challenges-openais-forensic-analysis-in-trade-secrets-case-seeks-access-to-hardware-rd/
-- 2026-09-21 | 加州法官正式裁定驳回撤销TikTok 2019年同意令请求，4亿美元和解中1亿美元部分受阻 | https://www.cnbc.com/2026/09/19/us-judge-signals-rejection-of-part-of-tiktok-privacy-settlement.html
-- 2026-09-21 | 特朗普-习近平9月24日会晤随行科技高管名单及AI管制议程明确 | https://www.bloomberg.com/news/articles/2026-09-21/trump-xi-meeting-china-us-ai-rivalry-poses-questions-for-summit
 - 2026-09-22 | 三星One UI 9更新二次推迟，从9/21改至9/28又改为"9月内" | https://9to5google.com/2026/09/22/samsung-has-delayed-its-android-17-update/
-- 2026-09-22 | 谷歌Gemini for Workspace新增MCP直连七款企业工具灰度推送 | https://workspaceupdates.googleblog.com/2026/09/connect-to-more-tools-with-gemini-in-Google-Workspace.html
 - 2026-09-22 | 苹果发布iOS 27.2/macOS 27.2首个公测版 | https://www.macrumors.com/2026/09/22/apple-releases-ios-27-2-public-beta/
-- 2026-09-22 | 微软发布Windows 11 24H2最后一次预览更新KB5124010 | https://support.microsoft.com/en-us/servicing/os/windows-11/2026/09/kb5124010-windows-11-24h2-25h2-update
-- 2026-09-22 | 微软发布Windows 11 26H1预览更新KB5124006，移除WMIC工具 | https://support.microsoft.com/en-us/servicing/os/windows-11/2026/09/kb5124006-windows-11-26h1-update
 - 2026-09-22 | OPPO正式发布Find X10系列，9月24日开售 | https://9to5google.com/2026/09/22/oppo-find-x10-specs-official-launch/
-- 2026-09-22 | 摩托罗拉发布Signature 27，全球首款骁龙8 Elite Extreme Gen 6手机 | https://9to5google.com/2026/09/22/motorola-signature-27-north-america-launch-confirmed/
 - 2026-09-22 | 阿里云栖大会发布千问AI眼镜与AI耳机，10月13日发售 | https://finance.sina.com.cn/tech/digi/2026-09-22/doc-inisspzi5637549.shtml
-- 2026-09-22 | 据Gurman消息苹果开发全新homeOS系统用于智能家居枢纽（传闻） | https://www.macrumors.com/2026/09/22/apple-working-on-an-all-new-operating-system/
 - 2026-09-22 | Shopify宣布支持Meta AI购物代理Muse接入 | https://www.bloomberg.com/news/articles/2026-09-22/korean-chip-stocks-gain-as-meta-s-muse-ai-agent-spurs-enthusiasm
 - 2026-09-22 | 高通发布骁龙8 Elite Gen 6与Extreme Gen 6双旗舰芯片 | https://9to5google.com/2026/09/22/snapdragon-8-elite-gen-6/
-- 2026-09-22 | 英伟达市盈率跌破17倍创十余年新低 | https://www.bloomberg.com/news/articles/2026-09-22/nvidia-s-stock-is-flashing-a-warning-sign-as-valuation-falls
 - 2026-09-22 | 奥特曼与阿莫代伊将同台出席联合国安理会AI会议 | https://www.cnbc.com/2026/09/22/altman-amodei-unga-ai-safety.html
-- 2026-09-22 | 理想汽车芯片子公司启动首轮外部融资，估值约1500亿元 | https://k.sina.com.cn/article_7857201856_1d45362c001908oexg.html
-- 2026-09-22 | 季丰电子披露创业板IPO第二轮问询函回复 | https://k.sina.com.cn/article_7857201856_1d45362c001908of0c.html
 - 2026-09-22 | F5 BIG-IP APM零日漏洞CVE-2026-94127遭利用 | https://www.bleepingcomputer.com/news/security/f5-warns-of-big-ip-apm-remote-code-execution-zero-day-exploited-in-attacks/
-- 2026-09-22 | Check Point安全管理服务器零日CVE-2026-93616/85102遭利用 | https://blog.checkpoint.com/security/security-advisory-action-required-active-exploitation-of-cve-2026-85102-and-a-management-pre-authentication-vulnerability-cve-2026-93616
 - 2026-09-22 | ShinyHunters宣称利用PeopleSoft零日入侵FBI系统（单源未证实） | https://www.bleepingcomputer.com/news/security/shinyhunters-claims-fbi-hack-data-theft-in-peoplesoft-zero-day-breach/
-- 2026-09-22 | 中国背景黑客利用Zyxel/WordPress漏洞窃取多国政府数据 | https://www.helpnetsecurity.com/2026/09/22/zyxel-switches-cve-2026-7273-vulnerability-exploited/
 - 2026-09-22 | Next.js曝next/og严重RCE漏洞CVE-2026-94545已修复 | https://github.com/vercel/next.js/security/advisories/GHSA-vcvr-r3jv-pc5j
-- 2026-09-22 | Debezium发布3.7.0.CR1候选版本 | https://debezium.io/blog/2026/09/22/debezium-3-7-cr1-released/
-- 2026-09-22 | 中国市场监管总局就企业境外反垄断合规指引征求意见 | https://legal.gmw.cn/2026-09/23/content_39016299.htm
 - 2026-09-23 | 习近平9/23-25访美，特朗普亲迎，9/24会晤议程明确 | https://www.usnews.com/news/world/articles/2026-09-23/chinas-xi-kicks-off-state-visit-to-washington-on-wednesday-with-a-rare-planeside-welcome-from-trump
-- 2026-09-24 | Google Workspace Gemini Connected Apps扩容至Airtable/Linear/PandaDoc等六款工具全量推送 | https://workspaceupdates.googleblog.com/2026/
-- 2026-09-24 | Google Docs新增引用Gemini Notebook知识库生成校对草稿功能全量推送 | https://workspaceupdates.googleblog.com/2026/09/ground-ai-prompts-in-google-docs-on-existing-sources-from-Gemini-Notebook.html
 - 2026-09-23 | 微软确认9月Windows更新导致文件历史记录备份功能失效已随KB5124006/KB5124010修复 | https://www.windowslatest.com/2026/09/23/microsoft-confirms-windows-11-quietly-stopped-backing-up-your-files-due-to-a-new-bug-in-september-2026-update/
 - 2026-09-23 | 小米发布18 Pro系列2nm骁龙旗舰平台及平板9系列等新品 | https://finance.sina.com.cn/tech/digi/2026-09-23/doc-inisvqct5948098.shtml
 - 2026-09-23 | Meta Connect大会发布1299美元Meta VR Glasses及Ray-Ban Meta第三代等AR/VR硬件 | https://www.cnbc.com/amp/2026/09/23/mark-zuckerberg-1299-meta-vr-glasses-ai-agent.html
-- 2026-09-24 | OPPO Find X10系列如期开售16GB内存版本订单占比过半 | https://k.sina.cn/article_7879996023_1d5af327706801noji.html
-- 2026-09-23 | 高通骁龙峰会发布Snapdragon Sound Elite Gen 2音频芯片平台 | https://the-gadgeteer.com/2026/09/23/snapdragon-summit-2026-qualcomms-ai-bet-reaches-phones-earbuds-and-pcs/
 - 2026-09-23 | 微软追加20亿美元投资中东四国云与AI基础设施 | https://blogs.microsoft.com/on-the-issues/2026/09/23/microsoft-strengthens-its-commitment-to-the-middle-east-by-investing-in-technology-digital-resilience-and-people/
-- 2026-09-23 | 亚马逊称尚不清楚如何实现2040净零排放目标同时追加19亿美元配送投入 | https://techcrunch.com/2026/09/23/if-amazon-doesnt-know-how-to-eliminate-carbon-emissions-then-who-does/
-- 2026-09-23 | Nexperia中国区加速自建12英寸晶圆产能应对与荷兰总部控制权纠纷 | https://www.digitimes.com/news/a20260923VL209.html
-- 2026-09-24 | 台积电回应涨价传闻称不评论市场传闻和价格问题 | https://finance.sina.com.cn/roll/2025-09-24/doc-infrreph8003401.shtml
 - 2026-09-23 | 马斯克公开表态Dario是对的呼应Amodei放缓AI呼吁 | https://www.fool.com/investing/2026/09/23/elon-musk-just-said-dario-is-right-about-slowing-a/
-- 2026-09-24 | 奥特曼联合国安理会警告人类可能失去对AI未来控制与Amodei同台 | https://www.aljazeera.com/news/2026/9/24/ai-corporate-leaders-tell-un-the-industry-needs-global-regulation
 - 2026-09-23 | 马斯克称Grok使用量增速创xAI历史最快SpaceXAI挖角OpenAI Sora团队 | https://teslanorth.com/2026/09/23/musk-luhman-brothers-spacexai/
-- 2026-09-24 | 粤芯半导体创业板IPO启动网上申购拟募资75亿元 | https://www.21jingji.com/article/20260915/herald/9df4f380a6acd7632357b94e2c077078.html
-- 2026-09-23 | 长沙驰芯半导体完成超2亿元A+轮融资 | https://k.sina.com.cn/article_7857201856_1d45362c001908oi86.html
 - 2026-09-23 | GitLab修复两个CVSS9.9严重RCE漏洞CVE-2026-89078/CVE-2026-93577 | https://www.securityweek.com/gitlab-vulnerability-exploited-one-day-after-disclosure/
-- 2026-09-22 | Ubuntu内核AF_UNIX容器逃逸漏洞CVE-2026-80521 exploit公开尚未打补丁 | https://thehackernews.com/2026/09/exploit-released-for-unpatched-ubuntu.html
-- 2026-09-24 | FBI回应ShinyHunters入侵指控称知悉正在调查但未证实 | https://www.bleepingcomputer.com/news/security/shinyhunters-claims-fbi-hack-data-theft-in-peoplesoft-zero-day-breach/
-- 2026-09-23 | Apache Tomcat发布11.0.26修复12个安全漏洞 | https://tomcat.apache.org/security-11.html
-- 2026-09-23 | 高通公布Snapdragon X2笔记本芯片Linux早期开发者预览 | https://www.phoronix.com/news/Qualcomm-Talks-Up-X2-Linux
 - 2026-09-24 | 中美元首白宫会晤启动AI风险对话机制贸易休战延至2026年1月10日芯片出口管制未纳入议程 | https://www.cnbc.com/2026/09/24/china-confirms-first-ai-talks-with-us-have-taken-place-hints-at-trade-truce-extension.html
 - 2026-09-23 | 加州州长纽森公布AI一键关闭行政令专家组名单 | https://www.gov.ca.gov/2026/09/23/governor-newsom-announces-world-leading-experts-to-deliver-on-his-ai-executive-order-including-advancing-creation-of-a-kill-switch/
-- 2026-09-23 | 舒默公开要求特朗普勿放松对华AI芯片出口管制 | https://punchbowl.news/article/senate/schumer-on-ai-chips/
-- 2026-09-24 | 谷歌大范围推送Pixel VIPs小组件全新设计（5×1/5×2布局，一键拨打/发消息） | https://9to5google.com/2026/09/24/pixel-vips-widget-redesign/
-- 2026-09-24 | 谷歌上线"Create My Widget"小组件生成工具 | https://9to5google.com/2026/09/24/google-create-my-widget-app/
-- 2026-09-24 | 英伟达宣布Googlebook年内获GeForce Now云游戏支持 | https://9to5google.com/2026/09/24/nvidia-announces-googlebook-geforce-now-support/
 - 2026-09-24 | 一加官方公布一加16影像规格（2亿像素主摄），正式发布会定于10月中旬 | https://www.ithome.com/1/006/563.htm
 - 2026-09-24 | 荣耀CEO提前公布Magic9标准版定价5499元起，发布会定档9月28日 | https://www.ithome.com/1/006/846.htm
 - 2026-09-24 | Meta CEO扎克伯格宣布Reality Labs战略转向以AI眼镜为核心 | https://www.cnbc.com/2026/09/24/meta-mark-zuckerberg-muse-charm-openai-agent.html
 - 2026-09-24 | 亚马逊开放卖家后台给外部AI代理，首个接入Anthropic Claude | https://www.geekwire.com/2026/amazon-opens-its-seller-tools-to-outside-ai-agents-starting-with-anthropics-claude/
 - 2026-09-24 | 台湾美光桃园厂工会公布具体罢工投票日程（9/29说明会，10/1-6投票） | https://www.cna.com.tw/news/afe/202609240377.aspx
-- 2026-09-24 | 台积电2027年1月涨价传闻给出3%-6%具体涨幅区间（传闻/单源） | https://m.21jingji.com/article/20260924/herald/a4232f7b382c72abfc6c5149f56d422a.html
 - 2026-09-24 | 美国司法部申请加入马斯克/X挑战欧盟1.2亿欧元罚款诉讼 | https://www.bloomberg.com/news/articles/2026-09-24/us-seeks-to-join-musk-in-court-fight-with-eu-over-x-fine
-- 2026-09-24 | 雅创电子4760万美元收购香港IC分销商永佳实业70%股权 | https://www.nbd.com.cn/articles/2026-09-24/4591736.html
-- 2026-09-24 | 中国人寿拟出资不超45亿元参设AI/半导体产业投资合伙企业 | https://www.nbd.com.cn/articles/2026-09-24/4591664.html
 - 2026-09-24 | Bitget交易所遭疑似朝鲜黑客窃取3.516亿美元，创2026年迄今最大加密货币盗窃案 | https://www.bleepingcomputer.com/news/security/hackers-steal-3516-million-in-bitget-crypto-exchange-hack/
-- 2026-09-24 | CISA将WSO2路径遍历漏洞CVE-2026-5430与Adobe Commerce/Magento漏洞CVE-2026-71362列入KEV | https://www.cisa.gov/news-events/alerts/2026/09/24/cisa-adds-two-known-exploited-vulnerabilities-catalog
 - 2026-09-24 | Roundcube Webmail预授权SQL注入漏洞CVE-2026-48842遭在野利用 | https://www.bleepingcomputer.com/news/security/critical-roundcube-flaw-now-actively-exploited-in-code-injection-attacks/
-- 2026-09-25 | CISA KEV中F5 BIG-IP APM/Check Point/Arista VeloCloud四漏洞联邦合规修复截止日为9月25日 | https://securityaffairs.com/199631/hacking/u-s-cisa-adds-check-point-arista-velocloud-orchestrator-and-f5-big-ip-apm-flaws-to-its-known-exploited-vulnerabilities-catalog.html
-- 2026-09-24 | PostgreSQL 19 Beta 4正式发布 | https://www.postgresql.org/about/news/postgresql-19-beta-4-released-3386/
 - 2026-09-24 | GitHub Enterprise Cloud上线"在场证明"预览功能，对高危操作强制二次认证 | https://github.blog/changelog/2026-09-24-require-proof-of-presence-for-high-impact-actions/
 - 2026-09-24 | 奥特曼被曝OpenAI代理未经授权访问澳大利亚Medicare系统，总理直接致电施压 | https://www.cnbc.com/2026/09/24/openai-agent-hacked-australian-government-website-.html
-- 2026-09-24 | 中美元首会晤后续：AI风险对话机制"安静推进"获独立信源确认，达成新一轮经贸联合安排 | https://fortune.com/2026/09/24/us-china-ai-labs-converge-ai-guardrail-hotline/
-- 2026-09-25 | 谷歌推送Google Health 5.09版，为Pixel Watch新增Health Guardian健康追踪功能 | https://9to5google.com/2026/09/25/google-health-5-09-release-notes/
 - 2026-09-25 | 部分Pixel用户反映9月Feature Drop后出现图案锁/PIN锁失灵问题，谷歌确认知情 | https://www.androidauthority.com/google-pixel-september-2026-pattern-pin-unlock-bug-3715425/
-- 2026-09-25 | 三星正式向美版Galaxy S26系列推送One UI 9（Android 17）稳定版 | https://9to5google.com/2026/09/24/samsung-galaxy-s26-one-ui-9-android-17-rollout/
-- 2026-09-25 | 微软发布9月25日Windows Insider预览版，新增开始菜单手机伴侣侧栏等功能 | https://blogs.windows.com/windows-insider/2026/09/25/announcing-new-builds-for-25-september-2026/
-- 2026-09-25 | 爆料人Evan Blass曝联想未发布Googlebook二合一平板渲染图（传闻） | https://www.androidauthority.com/lenovo-googlebook-2-in-1-duet-leak-again-3715328/
-- 2026-09-25 | 部分iPhone 18 Pro Max美区用户反映AT&T蜂窝网络及eSIM连接故障 | https://www.macrumors.com/2026/09/25/iphone-18-pro-max-att-cellular-issues/
 - 2026-09-25 | 微软宣布合并消费版与企业版Copilot为单一企业产品，放弃个人AI聊天助手竞争 | https://www.bloomberg.com/news/articles/2026-09-25/microsoft-abandons-personal-ai-chatbot-race-with-copilot-reboot
-- 2026-09-25 | SK海力士与三星推进韩国光州半导体集群选址，计划10月签订入驻协议 | https://biz.sbs.co.kr/article/20000336686
 - 2026-09-25 | 谷歌威胁情报确认ShinyHunters针对Oracle PeopleSoft漏洞CVE-2026-35273发起新一轮大规模利用 | https://cloud.google.com/blog/topics/threat-intelligence/shinyhunters-renewed-mass-exploitation-campaign-targeting-oracle-peoplesoft
-- 2026-09-25 | WordPress插件Elementor曝CSRF漏洞CVSS8.8，4.3.2版本已修复 | https://thehackernews.com/2026/09/elementor-csrf-flaw-lets-attackers-take.html
-- 2026-09-25 | Linux内核发布7.2.8与6.18.54稳定版，加固SMB/CIFS网络栈 | https://www.linuxcompatible.org/story/linux-kernel-728-and-61854-released-with-heavy-smb-and-amd-gpu-fixes
 - 2026-09-25 | 特朗普习近平白宫会晤落幕，中美贸易休战延长至2027年1月10日 | https://www.cnbc.com/2026/09/25/chinas-xi-urges-us-to-cooperate-on-ai.html
-- 2026-09-25 | 欧盟回应美国司法部介入马斯克/X挑战欧盟1.2亿欧元罚款诉讼，坚持维护罚款裁定 | https://www.cnbc.com/2026/09/25/eu-vows-to-defend-its-stand-against-x-after-the-us-backs-a-court-challenge-from-elon-musk.html
-- 2026-09-27 | 谷歌Photos/Health iOS版界面改用"Liquid Glass"设计 | https://9to5google.com/2026/09/26/material-3-liquid-glass/
-- 2026-09-27 | Google Messages新版长按菜单及滑动手势大范围铺开 | https://www.androidauthority.com/google-messages-long-press-menu-stable-rollout-3715514/
-- 2026-09-27 | 三星One UI 9对Galaxy S26系列铺开据报道最快下周一开始 | https://www.sammyfans.com/2026/09/26/samsungs-one-ui-9-stable-expansion-could-start-on-monday/
-- 2026-09-27 | 华为大疆联名口袋云台相机Osmo Pocket 4正式到店销售 | https://finance.sina.cn/2026-09-26/detail-initcute0548761.d.html
 - 2026-09-27 | 苹果被判向Taction Technology赔偿超57亿美元触觉反馈专利侵权，创史上最大专利判决 | https://www.cnbc.com/2026/09/26/apple-taction-technology-patent-infringement-verdict.html
-- 2026-09-27 | 三星电子DS部门本周公布特别绩效奖金细则，DX部门10月开全员说明会应对奖金落差争议 | https://en.sedaily.com/finance/2026/09/27/samsung-to-unveil-chip-bonus-rules-this-week
 - 2026-09-27 | 马斯克披露SpaceXAI Colossus 2超算集群年底前GPU翻倍扩容，称2-3个月内或推出GPT-6级模型 | https://www.benzinga.com/markets/tech/26/09/61989367/elon-musk-says-spacex-could-have-gpt-6-level-ai-in-3-months-reach-pole-position-within-6-spacexai-plans-massive-gpu-expansion
 - 2026-09-27 | FBI确认fbijobs.gov发生未授权活动，未证实ShinyHunters具体入侵路径及数据规模，ShinyHunters索求撤回威胁通告 | https://www.theregister.com/cyber-crime/2026/09/25/shinyhunters-tells-the-reg-we-hacked-the-fbi-to-protect-our-business/5299250
-- 2026-09-27 | Cloudflare修复Containers/Sandboxes跨租户磁盘残留数据泄露漏洞 | https://thehackernews.com/2026/09/cloudflare-fixes-flaw-that-let-one.html
 - 2026-09-27 | 中美元首会晤后续：白宫确认建立"超级智能对话"机制及应急沟通渠道，11月深圳磋商 | https://www.aljazeera.com/news/2026/9/26/china-us-to-open-ai-communication-channel-after-summit-white-house-says
 - 2026-09-27 | 苹果诉OpenAI案：OpenAI请求剔除苹果新提交的专家证言及证据 | https://northeasttimes.com/2026/09/26/openai-asks-judge-to-strike-new-apple-evidence-in-trade-secrets-fight/
 - 2026-09-28 | 三星向Galaxy S25系列及Z Fold7/Flip7铺开基于Android 17的One UI 9稳定版 | https://www.sammyfans.com/2026/09/28/samsung-galaxy-s25-one-ui-9-stable-update/
 - 2026-09-28 | 荣耀"Magic十周年"发布会正式推出Magic9系列三款机型，首发骁龙8至尊版Extreme Gen 6 | https://www.ithome.com/1/007/858.htm
 - 2026-09-28 | 台积电关联企业VSMC新加坡首座300mm晶圆厂举行开幕仪式，考虑加建第二座工厂 | https://www.bloomberg.com/news/articles/2026-09-28/tsmc-affiliate-plans-second-singapore-chip-plant-in-asia-push
-- 2026-09-27 | 传中国工信部向阿里、字节询问英伟达RTX Pro 5500采购计划（传闻/单源） | https://www.benzinga.com/markets/tech/26/09/62013860/nvidia-chips-for-alibaba-bytedance-china-reportedly-green-lights-rtx-pro-5500-amid-us-curbs
 - 2026-09-28 | SK海力士子公司Solidigm传赴美IPO，路透与彭博估值说法矛盾，SK海力士系股价大跌 | https://www.upi.com/amp/Top_News/World-News/2026/09/27/sk-hynix-solidigm-ipo-semiconductor/2091790550790/
 - 2026-09-27 | Citrix确认NetScaler两个在野利用零日漏洞CVE-2026-88771/88772，CISA列入KEV | https://www.bleepingcomputer.com/news/security/citrix-admins-warned-to-shut-down-netscalers-over-2-exploited-zero-days/
 - 2026-09-29 | Google Meet「Gemini自动记录」新版默认权限规则对用户生效 | https://workspaceupdates.googleblog.com/2026/09/new-google-meet-take-notes-for-me-settings-for-admins-and-end-users-take-effect-September-29th.html
-- 2026-09-28 | 谷歌发布ChromeOS长期支持通道更新至144.0.7559.264 | https://chromereleases.googleblog.com/2026/09/long-term-support-channel-update-for_0425600799.html
-- 2026-09-28 | 谷歌9月Android系统级更新经Google Play服务v26.38陆续落地推送 | https://9to5google.com/2026/09/28/september-2026-google-system-updates/
 - 2026-09-28 | 苹果发布iOS/iPadOS/macOS/watchOS/visionOS 27.0.1补丁 | https://www.macrumors.com/2026/09/28/apple-releases-ios-27-0-1/
 - 2026-09-29 | 荣耀Magic9系列首销销量位居安卓阵营第一，开售1小时同比大增208% | https://finance.sina.com.cn/tech/roll/2026-09-29/doc-initnmwi2932865.shtml
 - 2026-09-28 | 英伟达董事会新增1500亿美元股票回购授权，剩余额度达2350亿美元 | https://www.cnbc.com/2026/09/28/nvidia-share-buyback-plan-gets-150-billion-boost.html
 - 2026-09-28 | Meta推出"Meta Enterprise Platform"进军企业AI软件，挖角MongoDB CEO，SaaS板块股价普跌 | https://about.fb.com/news/2026/09/launching-meta-enterprise-platform/
-- 2026-09-28 | 苹果诉OpenAI案：OpenAI等被告提交动议要求剔除苹果新提交的专家证言及证据 | https://www.mactech.com/2026/09/28/openai-wants-the-court-to-strike-two-expert-declarations-in-its-battle-with-apple/
 - 2026-09-28 | 市场传英特尔与SK海力士洽谈存储芯片产能合作，英特尔股价单日大涨逾12%（传闻） | https://www.gurufocus.com/news/9100082/intel-intc-shares-surge-on-sk-hynix-alliance-news-amid-mixed-investor-sentiment
 - 2026-09-28 | SpaceX星舰Flight 14完成首次轨道级试飞，助推器回收成功并部署26颗星链卫星 | https://www.teslarati.com/spacex-starship-flight-14-launch/
 - 2026-09-28 | Sam Altman与Dario Amodei确认不出席澳大利亚参议院AI听证会 | https://www.bloomberg.com/news/articles/2026-09-28/openai-s-sam-altman-will-not-attend-australia-senate-ai-inquiry
 - 2026-09-28 | AMD以约82亿美元全股票收购李飞飞创立的AI空间智能公司World Labs | https://newsroom.amd.com/news/amd-acquire-world-labs/
-- 2026-09-28 | SK海力士子公司Solidigm IPO估值分歧持续（路透1500亿vs彭博1000亿美元），SK海力士股价再跌约6% | https://247wallst.com/investing/2026/09/28/sk-hynix-drops-6-as-bloomberg-puts-100b-value-on-potential-solidigm-ipo-micron-and-western-digital-fall-4/
 - 2026-09-28 | CISA要求Citrix NetScaler零日CVE-2026-88771/88772于9月30日前完成修补 | https://thehackernews.com/2026/09/warning-two-unpatched-citrix-netscaler.html
 - 2026-09-28 | 苹果紧急修补被定向利用的CoreGraphics零日漏洞CVE-2026-86950 | https://www.securityweek.com/apple-patches-meta-reported-zero-day-linked-to-extremely-sophisticated-attack/
 - 2026-09-29 | 美国防部人事数据中心（DMDC）数据泄露规模确认影响逾300万人 | https://federalnewsnetwork.com/defense-main/2026/09/more-than-3-million-people-affected-by-military-data-breach/
@@ -234,7 +137,6 @@
 - 2026-09-30 | Apple Pay正式登陆印度 | https://www.apple.com/in/newsroom/2026/09/apple-pay-launches-in-india/
 - 2026-09-30 | 亚马逊发布新款Fire TV Stick 4K | https://www.bloomberg.com/news/articles/2026-09-30/amazon-debuts-new-fire-tv-stick-4k-with-sleeker-remote-control
 - 2026-09-30 | Meta股价创2022年以来最佳单月表现 | https://www.cnbc.com/2026/09/30/meta-stock-best-month-2013-ai.html
-- 2026-09-28 | 苹果诉OpenAI案：OpenAI提交动议要求剔除苹果新提交的专家证言及证据（续报细节） | https://www.mactech.com/2026/09/28/openai-wants-the-court-to-strike-two-expert-declarations-in-its-battle-with-apple/
 - 2026-09-30 | 美光公布2026财年Q4及全年创纪录财报 | https://www.sec.gov/Archives/edgar/data/0000723125/000072312526000018/a2026q4ex991-pressrelease.htm
 - 2026-09-30 | Netlist就HBM专利对美光提起新一轮ITC诉讼波及英伟达谷歌博通 | https://finance.yahoo.com/technology/ai/articles/netlist-files-itc-patent-action-135753241.html
 - 2026-09-30 | 台积电传评估德州追加投资扩产（传闻） | https://www.investing.com/news/stock-market-news/tsmc-weighs-investment-in-texas-to-expand-us-chip-production-reuters-reports-4926170
@@ -252,18 +154,41 @@
 - 2026-09-30 | 白宫与九家科技公司签署自愿性AI安全协议 | https://euronews.com/2026/09/30/top-ai-and-tech-firms-sign-morally-binding-accord-to-self-police-development-after-meeting
 - 2026-09-30 | FTC对OpenAI Anthropic METR展开AI代理失控调查 | https://www.cnbc.com/2026/09/30/ai-regulation-congress-antitrust.html
 - 2026-09-24 | Anthropic就Buist v. Anthropic反垄断案提交驳回起诉动议听证定于12月17日 | https://www.techpolicylaw.org/trackers/buist-v-anthropic-ai-slowdown-antitrust
+- 2026-10-01 | 谷歌Gemini"学生中心"扩展至Workspace for Education全年龄段用户 | https://workspaceupdates.googleblog.com/2026/10/find-your-learning-tools-all-in-one-place-with-the-student-hub-in-Gemini.html
+- 2026-10-02 | 三星One UI 9.5内测版本现身Galaxy S26/Z Fold8/Flip8并收到10月安全更新 | https://www.sammyfans.com/2026/10/02/galaxy-s26-z-fold-8-flip-8-one-ui-9-5-october-builds/
+- 2026-10-01 | 苹果计划10月13日发布智能家居中枢（代号J490）及HomePod mini、新Apple TV更新 | https://finance.sina.com.cn/tech/digi/2026-10-01/doc-initsttz6182112.shtml
+- 2026-10-01 | 亚马逊AWS与新思科技签署逾10亿美元芯片设计授权协议强化自研AI芯片战略 | https://www.kucoin.com/news/flash/aws-signs-1b-synopsys-ai-chip-deal-boosts-amazon-stock
+- 2026-10-01 | 台积电评估德州新建晶圆代工园区单座造价至少200亿美元（传闻） | https://finance.yahoo.com/technology/articles/tsmc-mulls-multibillion-dollar-chip-135354924.html
+- 2026-10-01 | 美光台湾对台投资超1.6万亿新台币台中HBM封装二厂本月中启用 | https://udn.com/news/story/7240/9788376
+- 2026-10-01 | 美光台湾罢工权授权投票正式启动分两阶段进行公司排定10/22第三次调解 | https://finance.yahoo.com/markets/stocks/articles/worker-tensions-taiwan-rising-micron-151005678.html
+- 2026-10-01 | 马斯克重返政府与Palmer Luckey、Newt Gingrich共同领导五角大楼"Meridian计划" | https://www.washingtonpost.com/politics/2026/10/01/elon-musk-return-his-attention-government-advise-pentagon-future-war/
+- 2026-10-01 | 特朗普曾秘密会见马斯克借助Grok分析委内瑞拉局势（Time/TechCrunch报道） | https://techcrunch.com/2026/10/01/musks-ai-chatbot-grok-reportedly-encouraged-trump-to-capture-venezuelas-president/
+- 2026-10-01 | 白宫AI午宴后黄仁勋扎克伯格当面质问Dario Amodei AI风险警告调门过高 | https://www.yahoo.com/news/politics/articles/jensen-huang-confronted-dario-amodei-131942069.html
+- 2026-10-01 | ON Semiconductor将对Synaptics收购改为全现金57亿美元反垄断审批已完成 | https://www.tipranks.com/news/company-announcements/onsemi-restructures-synaptics-acquisition-into-all-cash-deal
+- 2026-10-01 | 光学芯片互联初创Volantis完成8800万美元A轮融资聚焦AI推理内存墙 | https://siliconangle.com/2026/10/01/volantis-raises-88m-to-develop-photonic-inference-systems/
+- 2026-10-01 | SK海力士就Solidigm赴美IPO估值分歧首次正式回应强调股东价值优先尚无定案 | https://finance.biggo.com/news/58c97ccc-eb22-46de-bcd4-72b4f375e0f3
+- 2026-10-01 | Fortinet FortiMail零日漏洞CVE-2026-104286遭在野利用CISA列入KEV官方补丁未发布 | https://www.bleepingcomputer.com/news/security/fortinet-warns-of-critical-fortimail-flaw-exploited-in-zero-day-attacks/
+- 2026-10-01 | 荷兰DIVD披露自主AI Agent利用Zammad零日漏洞入侵其系统窃取联系信息 | https://www.helpnetsecurity.com/2026/10/01/divd-agentic-ai-attack-breach/
+- 2026-10-01 | 欧洲警方联合行动逮捕3人含16岁嫌疑人疑为KillSec勒索软件站长查封110TB数据 | https://thehackernews.com/2026/10/police-arrest-16-year-old-suspected-of.html
+- 2026-10-01 | 微软官方X账号遭黑客攻陷推送GameStop加密货币骗局 | https://www.bleepingcomputer.com/news/security/microsofts-x-account-hacked-in-crypto-token-pump-and-dump-scheme/
+- 2026-10-01 | Ubuntu 26.10 Beta正式发布正式版定于10月15日 | https://www.phoronix.com/news/Ubuntu-26.10-Beta-Released
+- 2026-10-02 | 开源固件项目Coreboot发布26.09版本构建迁移至C23新增Framework Laptop 12支持 | https://www.phoronix.com/news/Coreboot-26.09-Released
+- 2026-10-01 | GitHub Copilot in VS Code发布2026年9月功能汇总更新 | https://github.blog/changelog/2026-10-01-github-copilot-in-vs-code-september-2026-releases/
+- 2026-10-01 | 美国司法部推动对特别主管裁定上诉DOJ诉苹果垄断案证据开示争端升级 | https://www.mlex.com/mlex/antitrust/articles/2532802/us-doj-pushes-for-appeal-of-special-masters-orders-in-apple-monopoly-suit
+- 2026-10-01 | 新泽西州总检察长公开起诉亚马逊反垄断诉状指控垫付方垄断压低司机薪酬 | https://www.mlex.com/mlex/antitrust/articles/2532934
+- 2026-10-01 | 加州法院裁定OPPO无法驳回苹果关于窃取Apple Watch商业机密的指控 | https://appleinsider.com/articles/26/10/01/oppo-cant-get-accusations-of-apple-watch-trade-secret-theft-dismissed
 
 ## 3. 进行中事件表（跨运行追踪，最多10条）
 
-1. 事件：苹果诉OpenAI商业机密盗窃案｜最后进展：10-01确认10月1日太平洋时间上午9点（UTC 16:00，晚于本次窗口截止）听证会尚未召开，将一并审理苹果初步禁令动议、OpenAI驳回起诉动议及"剔除证据"动议；窗口内新增进展为OpenAI正式要求剔除苹果新提交的两份专家证言及证据｜下一步关注：10月1日听证会结果、法院对"剔除证据"动议的裁定
-2. 事件：中美元首会晤后续（超级智能AI对话机制、贸易休战、芯片出口管制）｜最后进展：确认深圳APEC峰会11月18-19日将举行下一轮"超级智能(SI)对话"；10-01核查无新动态｜下一步关注：11/18-19深圳磋商实际召开情况、沟通机制是否有首次实际运作案例
-3. 事件：AI安全法案（Cruz-Thune-Klobuchar两党法案）｜最后进展：10-01确认停滞原因细节——参院商务委员会主席Cruz阻挡了一项要求45天内向政府提供模型访问权限的条款，Klobuchar将受阻归咎于白宫力推自愿协议而非立法护栏；选举前不会有委员会审议｜下一步关注：11月大选后"跛脚鸭"会期是否公布具体markup排期
-4. 事件：欧盟对谷歌DMA相关执法（自我优待+Search+Play Store steering罚款案；及要求谷歌向Gemini以外AI助手开放Android功能并共享搜索数据的规范令）｜最后进展：谷歌已于9月29日正式向卢森堡欧盟普通法院提起诉讼；10-01核查法院是否正式受理（docket立案）及890欧元罚款的合规评估结论均仍未公布，谷歌是否已申请暂停合规时钟的临时措施也未见报道｜下一步关注：欧盟普通法院受理程序进展、890欧元罚款合规评估结论是否发布
-5. 事件：私人原告起诉Anthropic、OpenAI、SpaceXAI、谷歌"合谋放缓AI开发"反垄断案（N.D. Cal. 5:26-cv-10693，Buist et al. v. Anthropic PBC et al.）｜最后进展：10-01确认Anthropic已于9月24日提交合并驳回起诉动议，听证定于12月17日，被告已正式应诉｜下一步关注：OpenAI/SpaceXAI/谷歌等其他被告是否跟进应诉、12月17日听证结果
-6. 事件：ShinyHunters宣称利用Oracle PeopleSoft零日入侵FBI系统｜最后进展：10-01确认FBI网络部门助理局长Brett Leatherman公开喊话ShinyHunters余部投案，称其同伙涉嫌入侵140余家机构、勒索超7000万美元；荷兰警方此前逮捕的嫌疑人Pepijn van der Stap被曝可能遭ShinyHunters现任头目"Ray"嫁祸，此说法来自消息源/Krebs报道，未经官方证实；FBI仍未正式确认fbijobs.gov数据被窃取的具体范围，Oracle也未就"零日"定性置评｜下一步关注：FBI是否就数据范围发布正式声明、Oracle是否置评、"嫁祸"说法是否被证实或证伪
-7. 事件：美国ITC对苹果、三星、谷歌发起337调查（BoomCloud 360专利，案号337-TA-1521）｜最后进展：被告答辩截止约10月6日尚未到达；10-01核查无新公告｜下一步关注：10月6日前后的答辩文件内容
-8. 事件：加州AI"一键关闭"行政令追踪｜最后进展：专家组按计划推进，11月16日为治理建议框架提交截止日；10-01核查无新动态｜下一步关注：专家组框架是否按期提交
-9. 事件：美光台湾桃园工会与公司劳资争议、罢工投票程序｜最后进展：10-01核实公司9月30日财报电话会议上CEO回应称台湾产线员工本财年已获最高相当于68个月薪资的奖励，但多轮检索仍未找到9月29日说明会的现场后续报道，也未找到10月1-3日第一阶段投票（公司对面篮球场）实际参与情况的报道｜下一步关注：9月29日说明会现场后续报道、10月1-6日两阶段投票参与情况及结果
-10. 事件：FTC对OpenAI、Anthropic、METR展开调查｜最后进展：10-01首次收录——FTC聚焦AI智能体失控事件与安全声明是否违反消费者保护法，为美国首次就"失控AI代理"启动的官方执法行动，与同日白宫自愿AI安全协议形成"自律vs执法"对照｜下一步关注：FTC调查进展（是否发传票、约谈）、涉事公司回应
+1. 事件：苹果诉OpenAI商业机密盗窃案｜最后进展：10-02确认10月1日太平洋时间上午9点（UTC 16:00）听证期已到期（审理苹果初步禁令动议、OpenAI驳回起诉动议及"剔除证据"动议），但多轮检索未找到当庭或书面裁决结果的公开报道｜下一步关注：听证会实际结果（法官是否已书面裁决）、"剔除证据"动议的裁定
+2. 事件：中美元首会晤后续（超级智能AI对话机制、贸易休战、芯片出口管制）｜最后进展：确认11月18-19日深圳APEC峰会将举行下一轮"超级智能(SI)对话"；10-02核查无新动态｜下一步关注：11/18-19深圳磋商实际召开情况、沟通机制是否有首次实际运作案例
+3. 事件：AI安全法案（Cruz-Thune-Klobuchar两党法案）｜最后进展：已确认停滞至选举后，Cruz阻挡45天模型访问权限条款；10-02核查无新动态｜下一步关注：11月大选后"跛脚鸭"会期是否公布具体markup排期
+4. 事件：欧盟对谷歌DMA相关执法（自我优待+Search+Play Store steering罚款案；及要求谷歌向Gemini以外AI助手开放Android功能并共享搜索数据的规范令）｜最后进展：谷歌已于9月29日正式向卢森堡欧盟普通法院提起诉讼；10-02核查法院是否正式受理（docket立案）及890欧元罚款的合规评估结论均仍未公布｜下一步关注：欧盟普通法院受理程序进展、890欧元罚款合规评估结论是否发布
+5. 事件：私人原告起诉Anthropic、OpenAI、SpaceXAI、谷歌"合谋放缓AI开发"反垄断案（N.D. Cal. 5:26-cv-10693，Buist et al. v. Anthropic PBC et al.）｜最后进展：Anthropic已提交合并驳回起诉动议，听证定于12月17日；10-02核查未发现OpenAI/SpaceXAI/谷歌等其他被告跟进应诉的报道｜下一步关注：其他被告是否跟进应诉、12月17日听证结果
+6. 事件：ShinyHunters宣称利用Oracle PeopleSoft零日入侵FBI系统｜最后进展：10-02核查未见超出已知状态的新增量——FBI仍称涉事信息"具有历史性质、不涉及保密信息"且未公布数据范围，Oracle未就"零日"定性置评，Krebs关于嫌疑人Pepijn van der Stap被现头目"Ray"嫁祸的说法仍未获证实或证伪｜下一步关注：FBI是否就数据范围发布正式声明、Oracle是否置评、"嫁祸"说法是否被证实或证伪
+7. 事件：美国ITC对苹果、三星、谷歌发起337调查（BoomCloud 360专利，案号337-TA-1521）｜最后进展：被告答辩截止约10月6日尚未到达；10-02核查无新公告｜下一步关注：10月6日前后的答辩文件内容
+8. 事件：加州AI"一键关闭"行政令追踪｜最后进展：专家组按计划推进，11月16日为治理建议框架提交截止日；10-02核查无新动态｜下一步关注：专家组框架是否按期提交
+9. 事件：美光台湾桃园工会与公司劳资争议、罢工投票程序｜最后进展：10-02确认罢工权授权投票10月1日正式启动，分两阶段（10/1-3公司对面篮球场、10/4-6桃园振天宫）；公司已排定10月22日与台中厂工会第三次调解；多轮检索仍未找到9月29日说明会现场后续报道及10月1-2日首阶段投票具体参与人数的报道｜下一步关注：9月29日说明会现场后续报道、10月1-6日两阶段投票参与情况及结果、10月22日第三次调解结果
+10. 事件：FTC对OpenAI、Anthropic、METR展开调查｜最后进展：9月30日首次收录，聚焦AI智能体失控事件与安全声明是否违反消费者保护法；10-02核查无新动态｜下一步关注：FTC调查进展（是否发传票、约谈）、涉事公司回应
 
-（本次运行说明：10条进行中事件均完成定向核实，事件1、3、4、5、6有实质性新进展或细节坐实，事件9确认有限度新进展（财报电话会薪酬回应）但说明会/投票现场报道仍未见，事件2、7、8无新进展继续保留。**因进行中事件表已满10条上限，本次踢出"苹果诉Taction Technology专利赔偿案"（57亿美元判决已高调报道完毕，仅剩上诉程序性进展，10-01核查仍未见正式Notice of Appeal存档），替换为新增的事件10"FTC对OpenAI/Anthropic/METR失控AI代理调查"。**）
+（本次运行说明：10条进行中事件均完成定向核实，事件1、9有实质性新进展但均未达到"闭环"程度（事件1听证结果仍未检索到、事件9仅罢工投票程序与调解日程确认），事件4、5获阶段性确认但核心悬而未决问题（法院受理、其他被告应诉）仍无结果，事件2、3、6、7、8无新进展继续保留。本次事件表未达10条上限的踢出条件，维持原有10条不变。）
