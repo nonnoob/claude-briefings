@@ -1,7 +1,7 @@
 # local-events-briefing MEMORY
 
 ## 1. 本次运行
-- 运行时刻：2026-10-01 17:08 America/Los_Angeles（同日二次运行，窗口 2026-10-01 11:22 至 17:08）
+- 运行时刻：2026-10-02 11:10 America/Los_Angeles（窗口 2026-10-01 17:08 至 2026-10-02 11:10）
 - 未覆盖方向：全国范围（本期无合格内容）
 
 ## 2. 已报条目清单
@@ -21,10 +21,16 @@
 2026-10-01 | Olvera Street Muertos Artwalk，10/3，Downtown LA | https://www.discoverlosangeles.com/things-to-do/the-best-things-to-do-in-la-this-weekend
 2026-10-01 | Knott's Scary Farm，至 10/31 选定夜晚，Buena Park | https://www.sixflags.com/knotts/events/scary-farm
 
+2026-10-02 | ComplexCon，10/3–10/4，Los Angeles Convention Center | https://www.complexcon.com/faq
+2026-10-02 | Hana Field 南瓜田开园，10/3 起至 11/1，Costa Mesa | https://tanakafarms.ticketspice.com/hana-field-in-costa-mesa-2026
+2026-10-02 | Pier Play，10/3–10/4，Santa Monica Pier | https://www.discoverlosangeles.com/things-to-do/the-best-things-to-do-in-la-this-weekend
+2026-10-02 | Chayanne，10/8，Honda Center Anaheim | https://www.hondacenter.com/events/chayanne/
+2026-10-02 | My Chemical Romance，10/30 与 10/31，Hollywood Bowl | https://www.livenation.com/event/vvG1iZbS55BdJV/my-chemical-romance-with-special-guest-thrice
+
 ## 3. 进行中事件表
 - Laguna Beach Plein Air Invitational | 最后进展 2026-10-01 | 10 月 11 日闭幕前（最后一个周末 10 月 10 日）可提醒；核实官方场次与票价
 - Knott's Scary Farm | 最后进展 2026-10-01 | 10 月 31 日结束；关注加场或售罄
 - LACMA「The Brockman Gallery: Los Angeles, 1967–1990」| 最后进展 2026-10-01 | 10 月 18 日开幕，届时可收录（未报）
 - Skirball 三个新展 | 最后进展 2026-10-01 | 10 月 22 日开幕，届时可收录（未报）
-- Hollywood Bowl My Chemical Romance（10 月底，日期待官方核实）| 最后进展 2026-10-01 | 核实 10/30–10/31 场次与余票
+- Hollywood Bowl My Chemical Romance 10/30–10/31 | 最后进展 2026-10-02（已报）| 10 月 29 日前后关注售罄或加场
 - Bowers Museum「Picasso Ceramics from the Rosenbaum Collection」| 最后进展 2026-10-01 | 10 月 24 日开幕，届时可收录（未报）
