@@ -1,9 +1,9 @@
 # MEMORY
 
 ## 1. 本次运行
-- 运行时刻：2026-10-02 04:10 PDT（11:10 UTC）
-- 实际覆盖窗口：2026-10-01 11:22 PDT 至 2026-10-02 04:10 PDT（常规）
-- 未充分覆盖：9月非农尚未发布（10月2日 08:30 ET）；俄乌谈判本期未取得窗口内确认内容；网页抓取受限，部分条目仅凭搜索摘要。
+- 运行时刻：2026-10-03 04:10 PDT（11:10 UTC）
+- 实际覆盖窗口：2026-10-02 04:10 PDT 至 2026-10-03 04:10 PDT（常规）
+- 未充分覆盖：网页抓取受限，部分条目仅凭搜索摘要；口袋撤销8.1亿美元本期未检索到进展。
 
 ## 2. 已报条目清单
 2026-10-01 | 最高法院暂时允许特朗普第三国遣返政策 | https://www.npr.org/2026/09/29/g-s1-145266/supreme-court-trump-third-country-deportations
@@ -23,14 +23,24 @@
 2026-10-02 | 五角大楼增派第三个航母群至中东 | https://www.washingtonpost.com/national-security/2026/10/01/pentagon-prepares-potential-surge-naval-forces-middle-east/
 2026-10-02 | 伊朗收到美方对霍尔木兹七天方案的答复，特朗普称很快决定 | https://www.aljazeera.com/news/2026/8/5/iran-oman-us-close-to-hormuz-deal-what-do-they-all-want
 2026-10-02 | 南加极端高温警告至周五晚8点，北LA县红旗警告 | https://mynewsla.com/orange-county/2026/10/01/extreme-heat-warnings-issued-as-socal-heat-wave-approaches/
+2026-10-03 | 最高法院受理无证移民无保释羁押案 | https://www.scotusblog.com/2026/10/court-grants-three-cases-as-new-term-is-set-to-begin/
+2026-10-03 | Rogoff案：法官拒绝暂缓禁令，政府请第九巡回暂停 | https://www.law360.com/articles/2533530/trump-asks-9th-circ-to-pause-seattle-us-atty-reinstatement
+2026-10-03 | 中国9月底出台稳增长增量政策包，10月1日起执行 | https://news.cgtn.com/news/2026-10-01/China-s-new-policy-package-signals-stronger-support-for-growth-1QSScYpCUKs/share_amp.html
+2026-10-03 | 特朗普拒绝伊朗七天霍尔木兹方案，称选后可能再打 | https://www.pbs.org/newshour/world/trump-rejects-irans-proposal-to-reopen-the-strait-of-hormuz-and-other-middle-east-news
+2026-10-03 | 中国对美农产品免10%关税但排除大豆 | https://www.agweb.com/news/u-s-china-tariff-deal-excludes-soybeans-leaving-market-disappointed
+2026-10-03 | 传闻：美拟10月阿布扎比乌俄有限停火会谈 | https://news.liga.net/en/war/news/the-atlantic-us-seeks-to-organize-talks-with-ukraine-and-russia-in-abu-dhabi-in-october
+2026-10-03 | 美9月非农+2.9万（预期8.4万），失业率4.2% | https://www.bls.gov/news.release/empsit.nr0.htm
+2026-10-03 | Freddie Mac 30年房贷7.28%，WTI 89.60 | https://themortgagereports.com/mortgage-rates-now/mortgage-rates-today-october-2-2026
+2026-10-03 | 南加高温持续至10月8日，SCE/SDG&E拟预防性断电 | https://www.claimsjournal.com/news/national/2026/10/02/340496.htm
 
 ## 3. 进行中事件表
 - 最高法院第三国遣返案 | 最后进展 2026-09-29 | 等12月言词辩论日期与后续命令
-- 美国9月非农 | 最后进展 2026-09-30 | 等10月2日官方数据对比预期（ADP预期8.4万）
-- 美联储加息路径 | 最后进展 2026-09-30 | 等12月会议前的利率与通胀数据、官员表态
-- 中美关税互降落实 | 最后进展 2026-09-28 | 等双方正式清单/生效日期，及美国大豆是否纳入
-- 南加高温 | 最后进展 2026-10-01 | 已升级为极端高温警告至10月2日晚；等是否引发停电或火情
-- 伊朗霍尔木兹谈判/美军增兵 | 最后进展 2026-10-01 | 等伊朗对美方答复的回应、特朗普打或谈的决定
-- 俄乌三方谈判 | 最后进展 未确认 | 下次定向检索窗口内的谈判结果
+- 无证移民无保释羁押案 | 最后进展 2026-10-02 | 等言词辩论日期
+- 美联储加息路径 | 最后进展 2026-10-02 | 非农疲弱后等10月会议决定、CPI与官员表态
+- 中美关税互降落实 | 最后进展 2026-10-02 | 等正式清单/生效日期，及大豆是否后续纳入
+- 南加高温与断电 | 最后进展 2026-10-02 | 等预防性断电是否实施、是否引发火情（高温至10月8日）
+- 伊朗霍尔木兹/美军增兵 | 最后进展 2026-10-02 | 等伊朗回应、美伊谈判是否恢复、第三航母群抵达
+- 俄乌谈判 | 最后进展 2026-10-02 | 传闻：等阿布扎比会谈官宣日期与议程
 - 口袋撤销8.1亿美元 | 最后进展 2026-09-30 | 等国会或法院回应
-- 西雅图联邦检察官Rogoff案 | 最后进展 2026-10-01 | 等第九巡回法院对司法部上诉的动向
+- 西雅图联邦检察官Rogoff案 | 最后进展 2026-10-02 | 等第九巡回法院对暂缓申请的裁定
+- 中国稳增长政策包 | 最后进展 2026-10-01 | 等配套细则与国庆后经济数据
