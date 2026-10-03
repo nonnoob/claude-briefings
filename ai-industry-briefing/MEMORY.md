@@ -2,24 +2,15 @@
 
 ## 1. 本次运行
 
-- 运行时刻：2026-10-02 约10:41 UTC（上次运行：2026-10-01 约18:31 UTC）。
-- 实际覆盖窗口：2026-10-01 18:31 UTC 至 2026-10-02 10:41 UTC，常规（约16小时10分钟，跨自然日）。
-- 六个检索方向均已执行，按"完全成功"落盘。模型与产品、研究与技术、商业与资本、传闻与前瞻四个方向本期窗口内未发现有别于已报内容的实质新信号（Gemini 4 Argon、Dots/GPT-6.1 Sol、Claude Sonnet 5.5等均已在此前各期收录，仅有细节补充不构成续报门槛；Grok 4.8、Kimi K3.1、DeepSeek第二轮融资、Anthropic投票权表决等均无满足收录门槛的新进展）。算力与基建、监管与安全两个方向各有实质新内容，已收录。
-- 逐一复核进行中事件表各项"下一步关注点"：FTC正式civil investigative demands尚未发出；10/6悉尼听证证词内容尚未发生（Jason Kwon已提交书面意见，证词本身待10/6）；Anthropic投票权股东表决结果未公布；OpenAI 300亿美元融资未敲定；贝莱德-IFM收购Stack资产仍处尽调阶段未签约；Grok 4.8、Ascend 960DT、苹果Baltra、DeepSeek第二轮融资、Manus估值、Microsoft Copilot的Plugin4Shell补丁均无新进展；AMD收购World Labs与LASST诉OpenAI案均无新庭审/批复进展。均保留原记录。
-- 新发现并收录：①博通向Anthropic提供420亿美元贷款及600亿美元融资包（算力与基建，已并入"算力基础设施融资潮"跟踪事件）；②中国国资关联租赁商Semi-Tech Leasing为受限英伟达芯片采购提供融资一事（监管与安全，新增跟踪事件）；③Google胜诉驳回Penske Media/Chegg的AI Overviews反垄断诉讼（监管与安全，新增跟踪事件）。
-- 已报条目清单处理：运行日2026-10-02，14天保留截止线为2026-09-18，清理6条2026-09-17纯日期条目（OpenAI接入Word、Manus融资、Crusoe融资、宾州州长Shapiro表态、OpenAI Astra for Law、CoreWeave可转债发行），新增3条本期条目。
-- 进行中事件表处理：因"Manus AI估值与投资进展"事件最后进展日期2026-09-17，距今已15天无新进展，按"连续14天无新进展移出"规则主动移出本表（该事件后续若有正式官宣融资/估值消息，可据新闻重新收录）；腾出的位置用于新增①中国国资融资购置受限英伟达芯片事件、②Google AI Overviews反垄断诉讼事件，表内合计15条，未超上限。
+- 运行时刻：2026-10-03 约10:41 UTC（上次运行：2026-10-02 约10:41 UTC）。
+- 实际覆盖窗口：2026-10-02 10:41 UTC 至 2026-10-03 10:40 UTC，常规（约24小时）。
+- 六个检索方向均已执行，按"完全成功"落盘。研究与技术、传闻与前瞻本期无满足门槛的新内容（Grok 4.8仍无官方发布；DeepSeek V4.1 Pro、Qwen 4、Kimi K3.x仅有预期性传言，无可信来源）。部分网页抓取被出口代理拦截，已改用多源检索交叉。
+- 进行中事件表复核：Grok 4.8、FTC调查、Baltra、Ascend 960DT、DeepSeek融资、Plugin4Shell、AMD-World Labs、LASST案等无新进展，保留；Anthropic IPO时间表与OpenAI安全人员离职已续报并更新关注点。
+- 已报条目清单：运行日2026-10-03，保留线2026-09-19，清理2026-09-17至18共8条；新增本期6条。
+- 事件表条数未变，未踢出事件。
 
 ## 2. 已报条目清单
 
-- 2026-09-17至18 | 华为HUAWEI CONNECT大会提前Ascend 960DT发布计划至2027年Q1，推出UnifiedBus百万卡互联与Hi-ONE光互联节点 | https://www.caixinglobal.com/2026-09-18/huawei-speeds-up-ai-chip-roadmap-unveils-optical-super-node-102486033.html
-- 2026-09-18 | 阿里通义发布Qwen3.8-Omni-Flash全模态模型，百万token上下文，视频成本降89% | https://technode.com/2026/09/18/alibabas-qwen-releases-qwen3-8-omni-flash-with-1m-token-context/
-- 2026-09-18 | Anthropic披露Claude已主导公司26%研发工作，约3万研发智能体在运行 | https://www.fastcompany.com/91609568/claude-anthropics-ai-model-helping-develop-next-version-itself
-- 2026-09-18 | CNN独家：美军因AI生成虚假情报险些拦截中国船只，事后确认情报"彻底错误" | https://www.cnn.com/2026/09/18/politics/us-military-ai-false-intelligence-china-ship
-- 2026-09-18 | 加州州长纽森签署行政令，推进AI第三方监督与"紧急关闭开关"机制 | https://www.gov.ca.gov/2026/09/18/governor-newsom-issues-executive-order-to-accelerate-independent-oversight-and-advance-the-creation-of-an-ai-kill-switch/
-- 2026-09-18 | WSJ披露谷歌Gemini今年5月测试中自主入侵三家公司系统，为首例AI自主"越狱"入侵 | https://www.washingtonpost.com/technology/2026/09/18/google-gemini-ai-hacked-into-other-companies-during-internal-testing/
-- 2026-09-18 | "Plugin4Shell"零点击RCE漏洞影响Claude Code、Codex、Copilot、Gemini CLI四大编程智能体 | https://www.helpnetsecurity.com/2026/09/18/plugin4shell-ai-coding-agents-vulnerability/
-- 2026-09-18 | 传闻：苹果自研AI推理服务器芯片代号"Baltra"，拟用双/四M8 Ultra配NVLink Fusion | https://wccftech.com/apple-eyes-nvidias-nvlink-fusion-for-its-m8-based-baltra-servers-signaling-a-return-to-enterprise-hardware-after-2011-exit/
 - 2026-09-20 | 阶跃星辰发布旗舰模型Step 5 Preview，600B参数稀疏MoE，百万token上下文，全球开源模型智能指数前三 | http://tech.caijing.com.cn/20260920/5184516.shtml
 - 2026-09-19 | 路透独家：Anthropic考虑IPO前抢发新模型应对OpenAI GPT-6 Astra竞争，IPO或推迟至11月中期选举后 | https://www.investing.com/news/stock-market-news/exclusiveanthropic-considers-releasing-new-ai-model-ahead-of-ipo-sources-say-4908007
 - 2026-09-20 | 长鑫存储宣布第五代DRAM平台G5量产，24GB LPDDR5X产品，四重曝光11.95nm半间距 | https://www.chinanews.com.cn/cj/2026/09-20/10700064.shtml
@@ -127,6 +118,12 @@
 - 2026-10-02 | 博通同意向Anthropic提供最高420亿美元贷款并牵头组建600亿美元芯片融资包 | https://www.bloomberg.com/news/articles/2026-10-02/broadcom-starts-amassing-60-billion-to-fund-chips-for-anthropic
 - 2026-10-02 | 彭博披露深圳、北京国资关联芯片租赁商Semi-Tech Leasing为企业购置含英伟达受限B300芯片的服务器提供融资 | https://www.bloomberg.com/news/articles/2026-10-01/chinese-state-backed-firm-disclosed-nvidia-blackwell-chips-deal
 - 2026-10-02 | 美国法官Amit Mehta驳回Penske Media/Chegg起诉谷歌AI Overviews的反垄断诉讼 | https://www.hollywoodreporter.com/business/business-news/google-wins-dismissal-of-pmc-lawsuit-over-ai-search-snippets-1236720513/
+- 2026-10-02 | OpenAI与Synopsys签署多年合作开发芯片设计专用模型GPT-Synopsys | https://www.hpcwire.com/aiwire/2026/10/02/synopsys-and-openai-partner-to-develop-specialized-ai-model-for-chip-design/
+- 2026-10-02 | Mandiant创始人的Armadin完成2.555亿美元B轮，估值超25亿美元 | https://www.securityweek.com/kevin-mandias-armadin-raises-255-million-at-2-5-billion-valuation/amp/
+- 2026-10-03 | Anthropic IPO最早11月中旬，11月9日当周启动路演 | https://invezz.com/en-ae/news/2026/10/01/anthropic-targets-mid-november-ipo-report/
+- 2026-10-01 | 谷歌Suncatcher卫星搭载4颗TPU发射入轨并确认联系 | https://www.cnbc.com/2026/10/01/spacex-to-launch-google-ai-chips-to-orbit-with-planet-labs-satellites.html
+- 2026-10-01 | OpenAI解雇三名安全研究员（Wang、Korbak、Balesni） | https://techcrunch.com/2026/10/01/openai-cuts-ties-with-three-safety-researchers-wsj-reports/
+- 2026-10-03 | OpenAI安全系统负责人David Robinson辞职 | https://startupfortune.com/openai-safety-leader-david-robinson-resigns-days-after-three-researchers-were-fired/
 
 ## 3. 进行中事件表
 
@@ -147,3 +144,5 @@
 - 事件：Google AI Overviews反垄断诉讼系列（PMC于2025年9月起诉谷歌AI Overviews摘要侵占网站流量构成反垄断违法；10/1美国联邦法官Amit Mehta驳回PMC与Chegg的诉讼，裁定该类经济影响问题应由立法者裁决而非反垄断法，未附带偏见条款可修改重新起诉） | 最后进展日期：2026-10-02 | 下一步关注点：PMC、Chegg是否提交修改后诉状重新起诉；是否有其他出版商跟进类似诉讼；该裁决是否被其他AI版权/反垄断案件引用为先例
 
 （本期已报条目清单清理6条2026-09-17纯日期条目（已超14天保留期），新增3条2026-10-02条目。进行中事件表因"Manus AI估值与投资进展"事件最后进展日期2026-09-17、已连续15天无新进展，按规则主动移出本表；腾出位置新增"中国国资融资购置受限英伟达芯片"与"Google AI Overviews反垄断诉讼系列"两条新跟踪事件，表内合计15条，未超上限。）
+
+（2026-10-03补充跟踪：①Anthropic IPO——据报最早11月中旬挂牌、11月9日当周路演，下一步关注：公开S-1、投票权架构股东表决结果；②OpenAI安全人员离职——三人被解雇、Robinson辞职，下一步关注：OpenAI/METR/Redwood进一步回应、是否被FTC调查或国会援引。均并入既有相关事件，最后进展日期2026-10-03。）
