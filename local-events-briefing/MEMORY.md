@@ -1,8 +1,8 @@
 # local-events-briefing MEMORY
 
 ## 1. 本次运行
-- 运行时刻：2026-10-02 11:10 America/Los_Angeles（窗口 2026-10-01 17:08 至 2026-10-02 11:10）
-- 未覆盖方向：全国范围（本期无合格内容）
+- 运行时刻：2026-10-02 17:11 America/Los_Angeles（窗口 2026-10-02 11:10 至 2026-10-02 17:11，同日增量）
+- 未覆盖方向：全国范围（本期无合格内容）；美食饮品、展览艺术、节庆市集本期仅做综合检索，无新增合格条目
 
 ## 2. 已报条目清单
 2026-10-01 | Thomas Rhett，10/2，Honda Center Anaheim | https://www.hondacenter.com/events/thomas-rhett/
@@ -26,6 +26,10 @@
 2026-10-02 | Pier Play，10/3–10/4，Santa Monica Pier | https://www.discoverlosangeles.com/things-to-do/the-best-things-to-do-in-la-this-weekend
 2026-10-02 | Chayanne，10/8，Honda Center Anaheim | https://www.hondacenter.com/events/chayanne/
 2026-10-02 | My Chemical Romance，10/30 与 10/31，Hollywood Bowl | https://www.livenation.com/event/vvG1iZbS55BdJV/my-chemical-romance-with-special-guest-thrice
+2026-10-02 | Los Angeles Korean Festival，10/1–10/4，Seoul International Park Los Angeles | https://hoodline.com/2026/09/koreatown-s-free-korean-festival-returns-next-week-with-tiger-jk-and-350k-fans/
+2026-10-02 | Reptile Super Show，10/3–10/4，Anaheim Convention Center | https://www.visitanaheim.org/event/reptile-super-show/3346/
+2026-10-02 | Spooky Art Walk，10/3，STC Anaheim GardenWalk | https://enjoyorangecounty.com/whats-happening/
+2026-10-02 | Ducks 主场揭幕战 vs Panthers，10/4 17:00，Honda Center Anaheim | https://www.nhl.com/ducks/news/ducks-to-host-home-opener-sunday
 
 ## 3. 进行中事件表
 - Laguna Beach Plein Air Invitational | 最后进展 2026-10-01 | 10 月 11 日闭幕前（最后一个周末 10 月 10 日）可提醒；核实官方场次与票价
