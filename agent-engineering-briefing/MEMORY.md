@@ -6,7 +6,18 @@
 - 实际覆盖窗口：2026-10-01 10:01 UTC 至 2026-10-02 10:00 UTC（常规，距上次运行约1天）
 - 备注：本轮4个并行子agent分方向检索（方向1 Anthropic/Claude Code官方源；方向2 开发者工具链更新+GitSpawn事件定向复查；方向3 9个工程博客源；方向4 HN/Reddit/X）。方向1：Claude Code changelog发现v2.1.287（Mods插件系统、内置观察者mod"You should know"、MCP alwaysLoad语义变更、网关1M上下文默认化，均2026-10-01），Anthropic API release notes/Engineering Blog窗口内无新内容；对GitSpawn事件定向核查确认Claude Code v2.1.287仅对`/ultrareview`相关三处边界case做持续加固、非专门安全版本，Grok Build仍无官方公告；Agent SDK独立版本号核查因npm WebFetch返回403未完成，本期未覆盖。方向2：确认GitHub Copilot CLI v1.0.91正式版+v1.0.92-0、OpenAI Codex CLI rust-v0.160.0正式版、Qwen Code nightly v0.24.7-nightly.20261001均落在窗口内；GitSpawn定向复查发现重要新进展——Hermes Agent合并PR #130661补上首轮修复（PR #101483,2026-09-12）遗漏的kanban/worktree清理/subagent/`hermes -w`等调用点；Grok Build确认仍无官方安全公告；Cursor、Windsurf（现"Devin Desktop"）官方changelog域名持续被代理拦截且WebSearch未能定位窗口内具体条目，本期仍未覆盖；MCP规范仓库、Goose、OpenHands窗口内确认无新发布（非拦截所致）。方向3：9个目标域名全部被代理拦截，改用WebSearch间接检索：命中Hamel Husain博客《Claude's new auto eval tool》（结构化时间戳2026-10-01T16:47:45Z）、LangChain Blog《How to Build a Model Router in the Harness》（日期2026-10-01，具体时刻未取得但风险低）；此前存疑的Simon Willison转引Matthew Green"多agent蠕虫"条目本轮通过URL日期+推断时区（PDT假设6:29am≈13:29 UTC）确认落入窗口，收录；Latent Space两篇10-02日期文章（RLM播客、AINews Pi Durable）因无法确认具体时:分、存在卡在窗口上限后的风险，本期未收录，留待下轮如具体时间确认落入窗口再补；swyx.io/huyenchip.com/eugeneyan.com/cookbook.openai.com窗口内均无新内容；LlamaIndex Extract v2.5因偏产品发布且版面已满未收录。方向4：news.ycombinator.com/x.com/reddit等直连全部被拦截，改用WebSearch+HN item ID线性插值+X Snowflake ID解码核实时间戳。命中Pi 1.0发布（HN item 49926069,Mario Zechner推文解码为2026-10-01T19:20:25 UTC）引发MCP路线反转讨论、Context Language Models论文HN热议（item 49922437,"去harness化"主张）；Cloudflare Clef/Clef-flash决策模型发布（changelog时间戳2026-10-01 18:27 UTC）；指定7个追踪账号（@simonw @swyx @HamelHusain @eugeneyan @karpathy @jerryjliu0 @hwchase17）本期未找到窗口内原创发文，Reddit r/ClaudeAI本期未能定位到任何窗口内具体讨论帖，均记为未覆盖。
 
+## 1. 本次运行
+
+- 运行时刻：2026-10-03 10:01 UTC
+- 实际覆盖窗口：2026-10-02 10:00 UTC 至 2026-10-03 10:01 UTC（常规）
+- 备注：Anthropic changelog 经 WebFetch 可读；GitHub API、simonwillison.net、zeli.app 被代理拦截；Cursor/Windsurf/Latent Space/Hamel 等源及 X/Reddit 本期未直接覆盖；Codex 仅见 v0.162.0-alpha 预发布未收录；GitSpawn 无新进展，关注点沿用。
+
 ## 2. 已报条目清单（保留最近 14 天）
+
+- 2026-10-03 | Claude Code发布v2.1.288：subagent/非交互会话API超时后基于部分响应继续、修复--resume compaction丢上下文、auto mode长对话先压缩、新增CLAUDE_CODE_DISABLE_STRUCTURED_OUTPUTS | https://code.claude.com/docs/en/changelog
+- 2026-10-03 | GitHub Copilot CLI v1.0.92-1至-3预发布：MCP重连与上下文恢复、Windows沙箱临时目录修复、Ctrl+E本地/云端环境选择器 | https://github.com/kouweizhu/agents-radar/issues/324
+- 2026-10-03 | Simon Willison发布Lenny's Podcast agentic engineering对话要点 | https://simonwillison.net/
+- 2026-10-03 | DeepSeek Harness桌面版（macOS/Windows）登HN前页，核心runtime为"一切皆插件"架构 | https://github.com/jjakimoto/research-issues/issues/1945
 
 - 2026-10-02 | Claude Code发布v2.1.287：上线"Mods"插件系统（工具调用拦截/权限批准/UI扩展，不做沙箱隔离）及内置观察者示例mod"You should know" | https://code.claude.com/docs/en/changelog
 - 2026-10-02 | Claude Code v2.1.287同时变更MCP服务器alwaysLoad:false语义（延迟整台服务器工具加载）与Bedrock/Vertex/Foundry网关Opus 4.7+/Fable默认1M上下文窗口 | https://code.claude.com/docs/en/changelog
@@ -104,13 +115,7 @@
 - 2026-09-19 | Claude Code发布v2.1.278：auto mode在Claude API/Enterprise/Bedrock/Vertex/Foundry/网关场景默认改用server端分类器且不再计费（auto mode默认权限模式本身尚未变化） | https://code.claude.com/docs/en/changelog
 - 2026-09-19 | Hacker News热议论文《An Empirical Study of Harness Design for Coding Agents》：176组配置揭示工具接口/规划/上下文裁剪策略应按模型能力选择 | https://news.ycombinator.com/item?id=49753878
 
-- 2026-09-18 | Claude Code发布v2.1.277：新增原生支持AGENTS.md、CLAUDE_GATEWAY_PROXY_IS_EGRESS_BOUNDARY出站模式配置，HN引发576赞206评论热议 | https://code.claude.com/docs/en/changelog
-- 2026-09-18 | GitHub Copilot CLI发布v1.0.87-0预发布：自动路由分级、steering提示合并、worktree路径模板等 | https://github.com/github/copilot-cli/releases
-- 2026-09-18 | OpenAI Codex CLI发布v0.155.1：修复本地TUI新会话推理摘要默认设置问题 | https://github.com/openai/codex/releases
-- 2026-09-18 | Plugin4Shell漏洞披露：Claude Code/Codex/Copilot/Gemini CLI插件市场机制零点击RCE，Anthropic与OpenAI已修复，Copilot未修复，Google弃用Gemini CLI | https://www.helpnetsecurity.com/2026/09/18/plugin4shell-ai-coding-agents-vulnerability/
-- 2026-09-18 | Claude Code Projects改版：协调者agent将工程目标拆分给并行云端子agent会话，各自分支+共享项目记忆，beta向Pro/Max开放 | https://www.theregister.com/ai-and-ml/2026/09/18/claude-code-revamps-projects-so-you-can-work-and-pay-in-parallel/5297532
-- 2026-09-18 | Claude Code发布v2.1.276：修复v2.1.275引入的经代理网关请求全部返回400报错的回归问题 | https://code.claude.com/docs/en/changelog
 
 ## 3. 进行中事件表
 
-- 事件：GitSpawn（git-config触发code execution，波及Claude Code/Qwen Code/Grok Build/Hermes Agent等多款编码agent）剩余未修复情况；最后进展日期：2026-10-02（本期Hermes Agent合并PR #130661，为2026-09-12首轮修复PR #101483遗漏的kanban、worktree清理、subagent、`hermes -w`等调用点补上`noninteractive_repo_git_env()`防护，并对includeIf指令、超256个filter key等情况直接拒绝执行；Claude Code v2.1.287对`/ultrareview`相关三处边界case——`.gitattributes`编码读取失败提示、误导性配置建议、`GIT_CONFIG_COUNT`证书校验——做了持续加固，但仍非专门点名修复该漏洞的安全版本，独立攻击面未完全闭合；Grok Build仍无官方安全公告，状态与前一日持平；Qwen Code本期nightly构建v0.24.7-nightly.20261001未提及GitSpawn相关内容）；下一步关注点：Claude Code是否发布专门点名修复`/ultrareview`桌面端上传路径的安全版本；Grok Build是否发布正式安全公告；Hermes Agent本轮补丁后是否仍有遗漏调用点被发现。
+- 事件：GitSpawn（git-config触发code execution，波及Claude Code/Qwen Code/Grok Build/Hermes Agent等多款编码agent）剩余未修复情况；最后进展日期：2026-10-02（2026-10-03 本期无新进展）（本期Hermes Agent合并PR #130661，为2026-09-12首轮修复PR #101483遗漏的kanban、worktree清理、subagent、`hermes -w`等调用点补上`noninteractive_repo_git_env()`防护，并对includeIf指令、超256个filter key等情况直接拒绝执行；Claude Code v2.1.287对`/ultrareview`相关三处边界case——`.gitattributes`编码读取失败提示、误导性配置建议、`GIT_CONFIG_COUNT`证书校验——做了持续加固，但仍非专门点名修复该漏洞的安全版本，独立攻击面未完全闭合；Grok Build仍无官方安全公告，状态与前一日持平；Qwen Code本期nightly构建v0.24.7-nightly.20261001未提及GitSpawn相关内容）；下一步关注点：Claude Code是否发布专门点名修复`/ultrareview`桌面端上传路径的安全版本；Grok Build是否发布正式安全公告；Hermes Agent本轮补丁后是否仍有遗漏调用点被发现。
