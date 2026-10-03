@@ -2,28 +2,12 @@
 
 ## 1. 本次运行时刻与实际覆盖窗口
 
-- 运行时刻：2026-10-02 10:21 UTC
-- 覆盖窗口：2026-10-01 10:20 UTC 至 2026-10-02 10:21 UTC（常规）
-- 六个方向分派并行调研子任务，均取得有效结果，属"部分成功"运行（非完全失败）。以下为本期受限/未覆盖说明：
-  - 政策监管：WebFetch对csmonitor.com被出站代理拦截，9/30一篇涉及中欧磋商/稀土的文章未能读取全文核实是否含混动车新信息，仅凭摘要判断（摘要未见相关表述，但不能完全排除）。
-  - 电动化与供应链：中国A股/港股及国内期货交易所10/1-10/8国庆法定休市，碳酸锂期货与宁德时代A股9/30为节前最后收盘价，窗口内无新收盘数据（非工具故障，属市场客观事实）；宁德时代港股(03750.HK)10/2收盘价多方信源数字矛盾（一说605.5港元疑为去年同期旧闻误植、一说476.8-477.4港元为聚合站弱验证摘要），WebFetch对futunn/morningstar/雅虎财经/新浪财经等多个一手行情域名被出站代理拦截，未能核实，正文未采用该数据。
-  - 新车发布：WebFetch对finance.sina.com.cn、ithome.com、teslaoracle.com、electrive.com等域名被出站代理拦截，关键信息仅凭WebSearch摘要确认，未读原文全文；36氪汽车、汽车之心、盖世汽车官网未检索到窗口内专门原创报道，覆盖不完整。
-  - 产业动向、智能驾驶、资本与经营：检索基本完整，WebSearch未报配额耗尽或平台拦截；智能驾驶方向萝卜快跑国庆扩城、激光雷达格局变化窗口内未检索到确切新信息（非受阻，是该窗口确无相关发布）。
-- 问界新M8预售24小时订单量窗口内出现信源矛盾（1万/1.1万台 vs 单源10万台），正文已按【矛盾】标注列出两说，未裁决，已纳入进行中事件表追踪官方准确数字。
-- 为腾出事件表名额（上限15条），本期踢出两条已无需专项追踪的事件：「大众安徽ID. UNYX 09正式上市」（预售价与10月底上市时间未变，属routine产品节点，后续新车发布方向常规检索即可捕获，无需定向关注点）、「比亚迪汉EV正式上市」（预售价与10/13上市日期未变，同理）。两者均无异常，仅为腾挪空间，届时正式上市会在"新车发布"方向常规检索中自然捕获。
+- 运行时刻：2026-10-03 10:21 UTC
+- 覆盖窗口：2026-10-02 10:21 UTC 至 2026-10-03 10:21 UTC（常规）
+- 部分成功：政策监管方向本期检索仅返回旧闻（2025年购置税公告），窗口内无新政策信息；固态电池检索只返回已知旧信息，未收录。其余方向取得有效结果。国庆假期期间国内A股/期货仍休市（10/9恢复）。
 
 ## 2. 已报条目清单（最近14天）
 
-- 2026-09-18 | 冯德莱恩提议加拿大成为欧盟"联席成员"应对美加贸易战 | https://finance.sina.com.cn/jjxw/2026-09-18/doc-inisewtp0176697.shtml
-- 2026-09-18 | Stellantis Brampton工厂出售谈判持续僵局，工会警告数周内或进入合法罢工地位 | https://www.cbc.ca/news/canada/windsor/unifor-stellantis-talks-hit-impasse-9.7340791
-- 2026-09-18 | 广汽收购一汽旗下合资公司股权仍未签署正式协议，传闻标的锁定一汽丰田 | https://finance.sina.cn/cj/2026-09-18/detail-inishkuv0264944.d.html
-- 2026-09-18 | 本田计划提前混动车型量产，最早2027年2月加拿大工厂投产混动版CR-V | https://asia.nikkei.com/business/automobiles/honda-to-move-up-production-of-next-gen-hybrids-in-ev-strategy-overhaul
-- 2026-09-18 | 欣旺达发布闪充电池系统，10%充至97%仅需9分钟 | https://cnevpost.com/2026/09/18/sunwoda-flash-charging-battery-10-97-in-9-mins/
-- 2026-09-18 | Lucid与Bolt达成欧洲Robotaxi合作意向，计划部署至少2.5万辆L4车辆 | https://techcrunch.com/2026/09/17/lucid-motors-has-a-potential-robotaxi-partner-for-europe/
-- 2026-09-18 | 中国商务部、外交部正式回应欧盟混动车出口限额要求，坚决反对 | https://www.chinanews.com.cn/cj/2026/09-18/10699273.shtml
-- 2026-09-18 | 美国六大汽车行业协会联名致信特朗普，要求维持对中国车企"闭门"政策 | https://www.detroitnews.com/story/business/autos/2026/09/18/auto-sector-urges-trump-to-keep-out-chinese-vehicles-ahead-of-xi-visit-byd-catl-ford-gm-stellantis/91828419007/
-- 2026-09-18 | 36氪独家：理想拆分核心技术子公司向全行业开放外供，寻求外部融资并筹备IPO | https://www.36kr.com/p/3988488062630661
-- 2026-09-18 | 英国政府拒绝跟随欧盟对中国插混车加税 | https://finance.sina.com.cn/roll/2026-09-18/doc-inisfyez0242799.shtml
 - 2026-09-19 | 长安深蓝2026款S07上市，15.69万-17.39万元，全系标配华为乾崑ADS SE | https://chejiahao.m.autohome.com.cn/info/22095302
 - 2026-09-19 | 东风风行星海V6乾崑智驾版上市，10.49万元起 | https://www.autohome.com.cn/news/202609/1317243.html
 - 2026-09-19 | 奇瑞捷豹路虎神行者8启动全国交付 | https://news.qq.com/rain/a/20260914A07X3500
@@ -163,6 +147,11 @@
 - 2026-10-01至02 | G20贸易部长会美方称产能过剩/强迫劳动未达共识，达成不含中国的钢铁产能过剩框架 | https://www.france24.com/en/economy/20261002-g20-trade-ministers-overcapacity-impasse-greer
 - 2026-10-02 | Stellantis公布Q3美国销量32.4万辆同比持平，Ram反超Jeep成最大品牌，股价反弹至4.69美元 | https://www.detroitnews.com/story/business/autos/chrysler/2026/10/01/stellantis-sales-decrease-slightly-in-q3-as-ram-rises-jeep-sinks/92041623007/
 - 2026-10-02 | 现代/起亚美国9月零售销量均创历史同期新高 | https://www.koreatimes.co.kr/business/companies/20261002/hyundai-kia-post-record-us-sales-in-september
+- 2026-10-03 | 比亚迪9月销量46.36万辆居首，小米汽车9月交付首破4万辆，小鹏41,256辆、蔚来3.74万辆 | https://finance.sina.com.cn/tech/digi/2026-10-01/doc-inittvhc8062682.shtml
+- 2026-10-03 | 特斯拉Q3全球交付486,532辆同比-2.1%，高于预期 | https://electrek.co/2026/10/02/tesla-q3-2026-deliveries-486532/
+- 2026-10-03 | 福特Q3美国电动车销量降80%，整体降6.6%仍守住美国第三 | https://electrek.co/2026/10/02/fords-fathom-pickup-couldnt-come-soon-after-ev-sales-drop-80/
+- 2026-10-03 | 吉利上线加拿大官网，称将建经销网络，法语版称2027Q1起步 | https://emptytank.ca/2026/10/02/geely-opens-canadian-website/
+- 2026-10-03 | Rivian Q3交付19,248辆同比+46%，维持全年指引 | https://rivian.com/newsroom/article/rivian-releases-q3-2026-production-and-delivery-figures
 
 ## 3. 进行中事件表
 
