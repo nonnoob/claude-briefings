@@ -2,30 +2,15 @@
 
 ## 1. 本次运行时刻与覆盖窗口
 
-- 本次运行：2026-10-03 约10:11 UTC
-- 上次运行：2026-10-02 约10:12 UTC
-- 覆盖窗口：2026-10-02 10:12 UTC – 2026-10-03 10:11 UTC（约24小时，常规）。
-- 检索状态：十个方向均已检索；窗口内可核实的新内容偏少，仅收录4条。部分二级来源（techstartups.com、engadget.com、sammyfans.com等）WebFetch被出口代理拦截，改用WebSearch摘要。
-- 事件核查：苹果诉OpenAI案10月1日听证后仍未检索到裁决；美光台湾罢工投票（10/1-6）结果尚未公布；其余事件无实质新进展。Armadin 2.55亿美元B轮（10/1发布）、Rust 1.99（10/1）、微软10月7日Windows/Surface发布会（9/16已宣布）因发布时间或已知而未收录；微软MAI语音模型属AI模型发布，不收录。
-- 事件表变动：新增"台积电德州园区/Terafab"；因10条上限移出"加州AI一键关闭行政令"（下一节点为11月16日，近期无进展）。
+- 本次运行：2026-10-04 约10:15 UTC
+- 上次运行：2026-10-03 约10:11 UTC
+- 覆盖窗口：2026-10-03 10:11 UTC – 2026-10-04 10:15 UTC（约24小时，常规）。
+- 检索状态：十个方向均已检索；周末窗口内可核实的新内容很少，仅收录4条。tomshardware.com WebFetch被出口代理拦截，改用WebSearch摘要。
+- 事件核查：美光台湾罢工投票（10/1-6）结果未公布；其余事件无实质新进展。Amazon 80亿美元英伟达芯片售后回租（10/2）、Intel 10月5日涨价传闻等因发布时间或已知而未收录。
+- 事件表变动：事件8（台积电/Terafab）并入马斯克10-03确认商谈。
 
 ## 2. 已报条目清单（最近14天）
 
-- 2026-09-19 | 谷歌推出实验性家庭AI代理"CC"，多成员共享账号生成家庭日程简报 | https://techcrunch.com/2026/09/18/googles-new-cc-is-an-ai-agent-that-helps-families-run-their-households/
-- 2026-09-19 | 摩托罗拉Edge 70推送Android 17正式版更新 | https://www.ithome.com/1/003/878.htm
-- 2026-09-19 | 三星Gallery与Google Photos同步细节披露，OneDrive集成9月30日终止 | https://9to5google.com/2026/09/18/samsung-gallery-google-photos-sync-details-rollout/
-- 2026-09-19 | 微软发布Windows 11 Insider Preview新版本，新增鼠标指示器动画与云端重装远程触发 | https://blogs.windows.com/windows-insider/2026/09/18/announcing-new-builds-for-18-september-2026/
-- 2026-09-19 | 苹果被曝重返企业服务器市场，自研M8 Ultra AI推理服务器拟用英伟达NVLink Fusion | https://finance.sina.com.cn/tech/roll/2026-09-18/doc-inisfazf3501978.shtml
-- 2026-09-19 | Meta上调2026年资本开支指引至1300-1450亿美元，加速向云计算运营商转型 | https://247wallst.com/investing/2026/09/18/meta-is-about-to-become-mega-cloud-operator/
-- 2026-09-19 | AMD正式通知合作伙伴因台积电涨价将于Q4起对GPU等产品线涨价约10%（传闻） | https://www.tomshardware.com/tech-industry/semiconductors/tsmc-is-reportedly-hiking-prices-for-all-advanced-nodes-accounting-for-74-percent-of-the-companys-wafer-business-nvidia-amd-apple-qualcomm-and-others-will-face-higher-wafer-costs
-- 2026-09-19 | 美光科技台湾工厂劳资协商进入关键节点，工会警告可能推进罢工投票 | https://thecryptobasic.com/2026/09/18/micron-stock-rebounds-memory-tightness-taiwan-labor-deadline/
-- 2026-09-19 | SpaceX星舰第14次试飞从9月22日推迟至9月28日 | https://finance.yahoo.com/markets/stocks/article/spacex-stock-falls-as-starships-test-flight-slips-to-sept-28-retail-investors-sell-shares-143200705.html
-- 2026-09-19 | 奥特曼将向联合国安理会作AI简报，OpenAI/Anthropic/谷歌筹建AI自律标准机构 | https://kelo.com/2026/09/18/openais-sam-altman-to-brief-un-security-council-next-week/
-- 2026-09-19 | AI编程代理零点击RCE漏洞Plugin4Shell影响Claude Code/Codex/Copilot/Gemini CLI | https://thehackernews.com/2026/09/plugin4shell-lets-repository-owners.html
-- 2026-09-19 | CrowdSec披露TanStack npm供应链攻击致170个私有仓库泄露，波及Mistral AI/OpenAI | https://thehackernews.com/2026/09/crowdsec-says-tanstack-npm-attack-led.html
-- 2026-09-19 | 科罗拉多州两处供水系统遭外国黑客入侵，系针对Allen-Bradley PLC攻击浪潮一部分 | https://databreaches.net/2026/09/18/foreign-actors-breach-colorado-water-systems/
-- 2026-09-19 | 加州州长纽森签署行政令研究AI"一键关闭"机制可行性 | https://www.cnn.com/2026/09/18/politics/gavin-newsom-artificial-intelligence
-- 2026-09-19 | ITC对苹果三星谷歌337调查确认案号337-TA-1521及三项专利细节 | https://www.techtimes.com/articles/327717/20260918/apple-samsung-google-face-iphone-import-ban-risk-over-spatial-audio-patents.htm
 - 2026-09-20 | 特朗普宣布将成立"AI Force"并任命"AI沙皇"，称AI安全担忧是"骗局" | https://www.cnn.com/2026/09/19/politics/trump-ai-task-force-czar
 - 2026-09-20 | 加州联邦法官初步驳回TikTok4亿美元隐私和解协议中终止2019年同意令的条款 | https://www.bloomberg.com/news/articles/2026-09-19/california-court-blocks-part-of-tiktok-s-400-million-settlement
 - 2026-09-20 | BragJack攻击披露：恶意扩展劫持Chrome/Edge/Opera Neon/Perplexity Comet/Claude in Chrome等AI浏览器代理 | https://www.bleepingcomputer.com/news/security/bragjack-attacks-hijack-ai-browser-agents-through-malicious-extensions/
@@ -178,6 +163,10 @@
 - 2026-10-03 | 台积电被曝洽谈协助运营马斯克Terafab并以其为德州新园区主力客户，英特尔谈判停滞（传闻） | https://startupfortune.com/tsmc-is-reportedly-in-talks-to-help-run-elon-musks-terafab-in-texas
 - 2026-10-02 | 苹果宣布收紧macOS完全磁盘访问权限以应对AI代理风险 | https://www.macrumors.com/2026/10/02/apple-announces-macos-full-disk-access-changes/
 - 2026-10-02 | Warlock勒索团伙利用SharePoint漏洞攻击水务、电信、政府机构（单源） | https://bleepingcomputer.com/news/security/warlock-ransomware-breach-sharepoint-in-water-telecom-operator-attacks
+- 2026-10-04 | Googlebook笔记本10月4日美国开售（续报） | https://www.androidauthority.com/googlebook-availability-release-freebies-3713298/
+- 2026-10-03 | 马斯克确认与台积电讨论Terafab合作台积电建厂独家供应特斯拉SpaceX xAI（续报单源） | https://www.tomshardware.com/tech-industry/semiconductors/elon-musk-confirms-discussions-with-tsmc-about-terafab-chipmaking-collaboration-intel-is-the-only-other-named-partner-terafab-to-exclusively-supply-tesla-spacex-and-xai
+- 2026-10-03 | 马斯克暗示特斯拉与SpaceX可能合并无董事会批准（单源） | https://247wallst.com/investing/2026/10/03/elon-musk-hints-at-tesla-spacex-merger-who-can-imagine-what-action-one-might-take
+- 2026-10-03 | Vercel确认KVM虚拟机逃逸零日发放5万美元赏金暂无CVE与补丁 | https://cybersecuritynews.com/kvm-zero-day-vm-escape/
 
 ## 3. 进行中事件表（跨运行追踪，最多10条）
 
@@ -188,7 +177,7 @@
 5. 事件：私人原告起诉Anthropic、OpenAI、SpaceXAI、谷歌"合谋放缓AI开发"反垄断案（N.D. Cal. 5:26-cv-10693，Buist et al. v. Anthropic PBC et al.）｜最后进展：Anthropic已提交合并驳回起诉动议，听证定于12月17日；10-02核查未发现OpenAI/SpaceXAI/谷歌等其他被告跟进应诉的报道｜下一步关注：其他被告是否跟进应诉、12月17日听证结果
 6. 事件：ShinyHunters宣称利用Oracle PeopleSoft零日入侵FBI系统｜最后进展：10-02核查未见超出已知状态的新增量——FBI仍称涉事信息"具有历史性质、不涉及保密信息"且未公布数据范围，Oracle未就"零日"定性置评，Krebs关于嫌疑人Pepijn van der Stap被现头目"Ray"嫁祸的说法仍未获证实或证伪｜下一步关注：FBI是否就数据范围发布正式声明、Oracle是否置评、"嫁祸"说法是否被证实或证伪
 7. 事件：美国ITC对苹果、三星、谷歌发起337调查（BoomCloud 360专利，案号337-TA-1521）｜最后进展：被告答辩截止约10月6日尚未到达；10-02核查无新公告｜下一步关注：10月6日前后的答辩文件内容
-8. 事件：台积电德州新园区/参与马斯克Terafab（传闻）｜最后进展：10-03 Bloomberg称评估德州新园区，Startup Fortune等称洽谈协助运营Terafab、英特尔谈判停滞，均未签约｜下一步关注：TSMC 10月15日Q3财报电话会是否表态、Terafab/英特尔是否官方回应
+8. 事件：台积电德州新园区/参与马斯克Terafab（传闻）｜最后进展：10-03马斯克公开确认与台积电"只是讨论"Terafab合作（Tom\'s Hardware，台积电未表态）；10-03 Bloomberg称评估德州新园区，Startup Fortune等称洽谈协助运营Terafab、英特尔谈判停滞，均未签约｜下一步关注：TSMC 10月15日Q3财报电话会是否表态、Terafab/英特尔是否官方回应
 9. 事件：美光台湾桃园工会与公司劳资争议、罢工投票程序｜最后进展：10-02确认罢工权授权投票10月1日正式启动，分两阶段（10/1-3公司对面篮球场、10/4-6桃园振天宫）；公司已排定10月22日与台中厂工会第三次调解；多轮检索仍未找到9月29日说明会现场后续报道及10月1-2日首阶段投票具体参与人数的报道｜下一步关注：9月29日说明会现场后续报道、10月1-6日两阶段投票参与情况及结果、10月22日第三次调解结果
 10. 事件：FTC对OpenAI、Anthropic、METR展开调查｜最后进展：9月30日首次收录，聚焦AI智能体失控事件与安全声明是否违反消费者保护法；10-02核查无新动态｜下一步关注：FTC调查进展（是否发传票、约谈）、涉事公司回应
 
