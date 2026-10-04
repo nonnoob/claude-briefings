@@ -1,8 +1,8 @@
 # local-events-briefing MEMORY
 
 ## 1. 本次运行
-- 运行时刻：2026-10-03 11:10 America/Los_Angeles（窗口 2026-10-02 17:11 至 2026-10-03 11:10）
-- 未覆盖方向：全国范围（本期无合格内容）；展览艺术本期无新增合格条目；Eater LA 新店检索无有效结果
+- 运行时刻：2026-10-03 17:10 America/Los_Angeles（窗口 2026-10-03 11:10 至 2026-10-03 17:10）
+- 未覆盖方向：Eater LA 新店检索无有效结果；展览艺术本期无新增合格条目
 
 ## 2. 已报条目清单
 2026-10-01 | Thomas Rhett，10/2，Honda Center Anaheim | https://www.hondacenter.com/events/thomas-rhett/
@@ -38,6 +38,13 @@
 2026-10-03 | SOMBR，10/9，Honda Center Anaheim | https://www.jambase.com/venue/honda-center
 2026-10-03 | TLC & Salt-N-Pepa with En Vogue，10/10，Intuit Dome Inglewood | https://www.livenation.com/event/vv1AaZkowGkdFeQU8/tlc-salt-n-pepa-with-en-vogue-it-s-iconic
 
+2026-10-03 | Mehregan Festival，10/3–10/4，Great Park Live Irvine | https://www.tixr.com/groups/greatparklive/events/nipoc-mehregan-festival-2026-204023
+2026-10-03 | LA Galaxy vs Cruz Azul 友谊赛，10/4 17:30，Dignity Health Sports Park Carson | https://www.lagalaxy.com/news/la-galaxy-to-face-cruz-azul-in-friendly-at-dignity-health-sports-park-on-october-4
+2026-10-03 | Empire of the Sun，10/8，Hollywood Bowl | https://www.axs.com/events/1377104/empire-of-the-sun-tickets
+2026-10-03 | Phil Wickham，10/15，Honda Center Anaheim | https://www.hondacenter.com/events/phil-wickham-1/
+2026-10-03 | Disneyland Oogie Boogie Bash（10/27 仍有票），至 10/31，DCA Anaheim | https://travel.yahoo.com/news/articles/disneylands-halloween-party-2026-sold-161401353.html
+2026-10-03 | 国家公园免费日，10/27 | https://www.accuweather.com/en/leisure-recreation/when-are-national-parks-free-in-2026-entrance-fees-are-waived-on-these-10-days/1840829
+
 ## 3. 进行中事件表
 - Laguna Beach Plein Air Invitational | 最后进展 2026-10-01 | 10 月 11 日闭幕前（最后一个周末 10 月 10 日）可提醒；核实官方场次与票价
 - Knott's Scary Farm | 最后进展 2026-10-01 | 10 月 31 日结束；关注加场或售罄
@@ -45,6 +52,6 @@
 - Skirball 三个新展 | 最后进展 2026-10-01 | 10 月 22 日开幕，届时可收录（未报）
 - Hollywood Bowl My Chemical Romance 10/30–10/31 | 最后进展 2026-10-02（已报）| 10 月 29 日前后关注售罄或加场
 - Bowers Museum「Picasso Ceramics from the Rosenbaum Collection」| 最后进展 2026-10-01 | 10 月 24 日开幕，届时可收录（未报）
-- Dodgers NLDS 首战开球时间矛盾（13:00 vs 16:00）| 最后进展 2026-10-03 | 核实首战实际开球时间；Game 5 若需要为 10 月 9 日
 - Taste of Santa Ana | 最后进展 2026-10-03 | 10 月 17 日前后关注售罄或最后一周提醒
 - TLC & Salt-N-Pepa with En Vogue | 最后进展 2026-10-03 | 10 月 10 日演出前关注售罄
+- Dodgers NLDS 次战 | 最后进展 2026-10-03 | 首战确认 13:00 开球；次战 10 月 4 日 17:00；Game 5 若需要为 10 月 9 日
