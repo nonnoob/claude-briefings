@@ -2,17 +2,15 @@
 
 ## 1. 本次运行
 
-- 运行时刻：2026-10-02
-- 实际覆盖窗口：2026-10-01 10:01 UTC 至 2026-10-02 10:00 UTC（常规，距上次运行约1天）
-- 备注：本轮4个并行子agent分方向检索（方向1 Anthropic/Claude Code官方源；方向2 开发者工具链更新+GitSpawn事件定向复查；方向3 9个工程博客源；方向4 HN/Reddit/X）。方向1：Claude Code changelog发现v2.1.287（Mods插件系统、内置观察者mod"You should know"、MCP alwaysLoad语义变更、网关1M上下文默认化，均2026-10-01），Anthropic API release notes/Engineering Blog窗口内无新内容；对GitSpawn事件定向核查确认Claude Code v2.1.287仅对`/ultrareview`相关三处边界case做持续加固、非专门安全版本，Grok Build仍无官方公告；Agent SDK独立版本号核查因npm WebFetch返回403未完成，本期未覆盖。方向2：确认GitHub Copilot CLI v1.0.91正式版+v1.0.92-0、OpenAI Codex CLI rust-v0.160.0正式版、Qwen Code nightly v0.24.7-nightly.20261001均落在窗口内；GitSpawn定向复查发现重要新进展——Hermes Agent合并PR #130661补上首轮修复（PR #101483,2026-09-12）遗漏的kanban/worktree清理/subagent/`hermes -w`等调用点；Grok Build确认仍无官方安全公告；Cursor、Windsurf（现"Devin Desktop"）官方changelog域名持续被代理拦截且WebSearch未能定位窗口内具体条目，本期仍未覆盖；MCP规范仓库、Goose、OpenHands窗口内确认无新发布（非拦截所致）。方向3：9个目标域名全部被代理拦截，改用WebSearch间接检索：命中Hamel Husain博客《Claude's new auto eval tool》（结构化时间戳2026-10-01T16:47:45Z）、LangChain Blog《How to Build a Model Router in the Harness》（日期2026-10-01，具体时刻未取得但风险低）；此前存疑的Simon Willison转引Matthew Green"多agent蠕虫"条目本轮通过URL日期+推断时区（PDT假设6:29am≈13:29 UTC）确认落入窗口，收录；Latent Space两篇10-02日期文章（RLM播客、AINews Pi Durable）因无法确认具体时:分、存在卡在窗口上限后的风险，本期未收录，留待下轮如具体时间确认落入窗口再补；swyx.io/huyenchip.com/eugeneyan.com/cookbook.openai.com窗口内均无新内容；LlamaIndex Extract v2.5因偏产品发布且版面已满未收录。方向4：news.ycombinator.com/x.com/reddit等直连全部被拦截，改用WebSearch+HN item ID线性插值+X Snowflake ID解码核实时间戳。命中Pi 1.0发布（HN item 49926069,Mario Zechner推文解码为2026-10-01T19:20:25 UTC）引发MCP路线反转讨论、Context Language Models论文HN热议（item 49922437,"去harness化"主张）；Cloudflare Clef/Clef-flash决策模型发布（changelog时间戳2026-10-01 18:27 UTC）；指定7个追踪账号（@simonw @swyx @HamelHusain @eugeneyan @karpathy @jerryjliu0 @hwchase17）本期未找到窗口内原创发文，Reddit r/ClaudeAI本期未能定位到任何窗口内具体讨论帖，均记为未覆盖。
-
-## 1. 本次运行
-
-- 运行时刻：2026-10-03 10:01 UTC
-- 实际覆盖窗口：2026-10-02 10:00 UTC 至 2026-10-03 10:01 UTC（常规）
-- 备注：Anthropic changelog 经 WebFetch 可读；GitHub API、simonwillison.net、zeli.app 被代理拦截；Cursor/Windsurf/Latent Space/Hamel 等源及 X/Reddit 本期未直接覆盖；Codex 仅见 v0.162.0-alpha 预发布未收录；GitSpawn 无新进展，关注点沿用。
+- 运行时刻：2026-10-04 10:01 UTC
+- 实际覆盖窗口：2026-10-03 10:01 UTC 至 2026-10-04 10:00 UTC（常规）
+- 备注：Anthropic changelog/API release notes 经 WebFetch 可读（API 无新条目）；simonwillison.net、X、Reddit、Cursor/Windsurf/Latent Space/Hamel 等本期未直接覆盖；Simon 预算上限文章仅经搜索摘要核实、未取得发布时刻；Codex 仅见 0.162.0 alpha 预发布未收录；HN 当日摘要无强工程信号条目；GitSpawn 无新进展，关注点沿用。
 
 ## 2. 已报条目清单（保留最近 14 天）
+
+
+- 2026-10-04 | Claude Code发布v2.1.289：修复Read deny规则对@提及/符号链接文件、Bash deny/ask对环境变量前缀命令及嵌套复合命令的权限漏洞，新增agent.spawn与统一agent ID | https://code.claude.com/docs/en/changelog
+- 2026-10-04 | 【单源】Simon Willison主张agent时代需要默认硬预算上限，agent应倾向推荐带hard cap的服务商 | https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/
 
 - 2026-10-03 | Claude Code发布v2.1.288：subagent/非交互会话API超时后基于部分响应继续、修复--resume compaction丢上下文、auto mode长对话先压缩、新增CLAUDE_CODE_DISABLE_STRUCTURED_OUTPUTS | https://code.claude.com/docs/en/changelog
 - 2026-10-03 | GitHub Copilot CLI v1.0.92-1至-3预发布：MCP重连与上下文恢复、Windows沙箱临时目录修复、Ctrl+E本地/云端环境选择器 | https://github.com/kouweizhu/agents-radar/issues/324
