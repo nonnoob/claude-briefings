@@ -1,8 +1,8 @@
 # local-events-briefing MEMORY
 
 ## 1. 本次运行
-- 运行时刻：2026-10-03 17:10 America/Los_Angeles（窗口 2026-10-03 11:10 至 2026-10-03 17:10）
-- 未覆盖方向：Eater LA 新店检索无有效结果；展览艺术本期无新增合格条目
+- 运行时刻：2026-10-04 11:10 America/Los_Angeles（窗口 2026-10-03 17:10 至 2026-10-04 11:10）
+- 未覆盖方向：美食饮品、展览艺术、节庆市集、全国范围本期检索无可核实的新增条目（Dumpling Fest Irvine 10/7 核实不到，未收）
 
 ## 2. 已报条目清单
 2026-10-01 | Thomas Rhett，10/2，Honda Center Anaheim | https://www.hondacenter.com/events/thomas-rhett/
@@ -45,6 +45,10 @@
 2026-10-03 | Disneyland Oogie Boogie Bash（10/27 仍有票），至 10/31，DCA Anaheim | https://travel.yahoo.com/news/articles/disneylands-halloween-party-2026-sold-161401353.html
 2026-10-03 | 国家公园免费日，10/27 | https://www.accuweather.com/en/leisure-recreation/when-are-national-parks-free-in-2026-entrance-fees-are-waived-on-these-10-days/1840829
 
+2026-10-04 | Disney's Beauty and the Beast，至 10/11，Segerstrom Hall Costa Mesa | https://www.beautyandthebeastsegerstrom.com/
+2026-10-04 | Mumford & Sons，10/6 与 10/7，Kia Forum Inglewood | https://www.livenation.com/event/vv1AaZko3Gkdf6kuk/mumford-sons-prizefighter-tour
+2026-10-04 | Dodgers NLDS Game 3，10/6 15:00 PT，Truist Park Atlanta | https://www.fox.com/sports/baseball/mlb/watch-dodgers-vs-braves-game-3-nlds-oct-06-2026
+
 ## 3. 进行中事件表
 - Laguna Beach Plein Air Invitational | 最后进展 2026-10-01 | 10 月 11 日闭幕前（最后一个周末 10 月 10 日）可提醒；核实官方场次与票价
 - Knott's Scary Farm | 最后进展 2026-10-01 | 10 月 31 日结束；关注加场或售罄
@@ -54,4 +58,4 @@
 - Bowers Museum「Picasso Ceramics from the Rosenbaum Collection」| 最后进展 2026-10-01 | 10 月 24 日开幕，届时可收录（未报）
 - Taste of Santa Ana | 最后进展 2026-10-03 | 10 月 17 日前后关注售罄或最后一周提醒
 - TLC & Salt-N-Pepa with En Vogue | 最后进展 2026-10-03 | 10 月 10 日演出前关注售罄
-- Dodgers NLDS 次战 | 最后进展 2026-10-03 | 首战确认 13:00 开球；次战 10 月 4 日 17:00；Game 5 若需要为 10 月 9 日
+- Dodgers NLDS 次战 | 最后进展 2026-10-03 | 最后进展 2026-10-04：Game 3 为 10 月 6 日 15:00 PT（Atlanta）；Game 5 若需要为 10 月 9 日
