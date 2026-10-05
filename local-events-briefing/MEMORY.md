@@ -1,8 +1,8 @@
 # local-events-briefing MEMORY
 
 ## 1. 本次运行
-- 运行时刻：2026-10-04 11:10 America/Los_Angeles（窗口 2026-10-03 17:10 至 2026-10-04 11:10）
-- 未覆盖方向：美食饮品、展览艺术、节庆市集、全国范围本期检索无可核实的新增条目（Dumpling Fest Irvine 10/7 核实不到，未收）
+- 运行时刻：2026-10-04 17:10 America/Los_Angeles（窗口 2026-10-04 11:10 至 2026-10-04 17:10）
+- 未覆盖方向：美食饮品、全国范围本期检索无可核实的新增条目（Dumpling Fest Irvine 10/7 仍核实不到，未收）
 
 ## 2. 已报条目清单
 2026-10-01 | Thomas Rhett，10/2，Honda Center Anaheim | https://www.hondacenter.com/events/thomas-rhett/
@@ -49,6 +49,12 @@
 2026-10-04 | Mumford & Sons，10/6 与 10/7，Kia Forum Inglewood | https://www.livenation.com/event/vv1AaZko3Gkdf6kuk/mumford-sons-prizefighter-tour
 2026-10-04 | Dodgers NLDS Game 3，10/6 15:00 PT，Truist Park Atlanta | https://www.fox.com/sports/baseball/mlb/watch-dodgers-vs-braves-game-3-nlds-oct-06-2026
 
+2026-10-04 | Mexico vs Chile 友谊赛，10/6 19:00，LA Memorial Coliseum | https://www.lacoliseum.com/events/mextour-mexico-vs-chile/
+2026-10-04 | Mac DeMarco，10/9，Hollywood Bowl | https://www.livenation.com/event/vvG1iZ_7Kfj7Wq/mac-demarco
+2026-10-04 | Jack Johnson，10/10 与 10/11，Hollywood Bowl | https://www.livenation.com/event/vvG1iZbU81wkC0/jack-johnson-surfilmusic-tour-2026
+2026-10-04 | Edgar Allan Poe Speakeasy，10/8–10/10，Fairhaven Memorial Park Santa Ana | https://cultureoc.org/edgar-allan-poe-speakeasy-brings-gothic-tales-and-cocktails-back-to-a-santa-ana-cemetery/
+2026-10-04 | CicLAvia Heart of LA，10/11 09:00–16:00，Downtown LA | https://ciclavia.org/events/heart-of-la-2026-10/
+
 ## 3. 进行中事件表
 - Laguna Beach Plein Air Invitational | 最后进展 2026-10-01 | 10 月 11 日闭幕前（最后一个周末 10 月 10 日）可提醒；核实官方场次与票价
 - Knott's Scary Farm | 最后进展 2026-10-01 | 10 月 31 日结束；关注加场或售罄
@@ -59,3 +65,4 @@
 - Taste of Santa Ana | 最后进展 2026-10-03 | 10 月 17 日前后关注售罄或最后一周提醒
 - TLC & Salt-N-Pepa with En Vogue | 最后进展 2026-10-03 | 10 月 10 日演出前关注售罄
 - Dodgers NLDS 次战 | 最后进展 2026-10-03 | 最后进展 2026-10-04：Game 3 为 10 月 6 日 15:00 PT（Atlanta）；Game 5 若需要为 10 月 9 日
+- CicLAvia Heart of LA | 最后进展 2026-10-04 | 10 月 11 日当天；10 月 10 日前后可提醒（已报，仅做节点提醒）
