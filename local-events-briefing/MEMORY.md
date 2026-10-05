@@ -1,8 +1,8 @@
 # local-events-briefing MEMORY
 
 ## 1. 本次运行
-- 运行时刻：2026-10-04 17:10 America/Los_Angeles（窗口 2026-10-04 11:10 至 2026-10-04 17:10）
-- 未覆盖方向：美食饮品、全国范围本期检索无可核实的新增条目（Dumpling Fest Irvine 10/7 仍核实不到，未收）
+- 运行时刻：2026-10-05 11:11 America/Los_Angeles（窗口 2026-10-04 17:10 至 2026-10-05 11:11）
+- 备注：展览艺术、全国范围本期无可核实的新增条目；LA Times Food Bowl Night Market 日期来源矛盾（10/10–11 与 10/23–24 两说）暂未收
 
 ## 2. 已报条目清单
 2026-10-01 | Thomas Rhett，10/2，Honda Center Anaheim | https://www.hondacenter.com/events/thomas-rhett/
@@ -55,6 +55,13 @@
 2026-10-04 | Edgar Allan Poe Speakeasy，10/8–10/10，Fairhaven Memorial Park Santa Ana | https://cultureoc.org/edgar-allan-poe-speakeasy-brings-gothic-tales-and-cocktails-back-to-a-santa-ana-cemetery/
 2026-10-04 | CicLAvia Heart of LA，10/11 09:00–16:00，Downtown LA | https://ciclavia.org/events/heart-of-la-2026-10/
 
+2026-10-05 | Lang Lang 独奏会，10/6 20:00，Walt Disney Concert Hall Los Angeles | https://waltdisneyconcertshall.com/
+2026-10-05 | Hayley Williams 节点提醒（10/5 今晚），Hollywood Bowl | https://ktla.com/entertainment/full-list-of-concerts-at-the-hollywood-bowl-so-far-2026/
+2026-10-05 | Off the Hook 海鲜节，10/11 16:00，Santa Monica Pier | https://www.eventbrite.com/e/off-the-hook-santa-monica-seafood-festival-tickets-1992171628970
+2026-10-05 | Los Tigres del Norte，10/17 20:00，Honda Center Anaheim | https://www.ticketmaster.com/los-tigres-del-norte-los-tigres-anaheim-california-10-17-2026/event/09006458A0D5CC52
+2026-10-05 | Carnival Colossal，10/8–10/11，Vista Hermosa Sport Park San Clemente | https://sanclemente.com/events/carnival-colossal/
+2026-10-05 | Silverado Country Fair & Folk Festival，10/10–10/11，Silverado | https://silveradocountryfair.org/
+
 ## 3. 进行中事件表
 - Laguna Beach Plein Air Invitational | 最后进展 2026-10-01 | 10 月 11 日闭幕前（最后一个周末 10 月 10 日）可提醒；核实官方场次与票价
 - Knott's Scary Farm | 最后进展 2026-10-01 | 10 月 31 日结束；关注加场或售罄
@@ -66,3 +73,6 @@
 - TLC & Salt-N-Pepa with En Vogue | 最后进展 2026-10-03 | 10 月 10 日演出前关注售罄
 - Dodgers NLDS 次战 | 最后进展 2026-10-03 | 最后进展 2026-10-04：Game 3 为 10 月 6 日 15:00 PT（Atlanta）；Game 5 若需要为 10 月 9 日
 - CicLAvia Heart of LA | 最后进展 2026-10-04 | 10 月 11 日当天；10 月 10 日前后可提醒（已报，仅做节点提醒）
+- LA Times Food Bowl Night Market | 最后进展 2026-10-05 | 日期矛盾（10/10–11 vs 10/23–24 Barker Hangar），核实官方 lafoodbowl.com 后再决定是否收录
+- Off the Hook 海鲜节 | 最后进展 2026-10-05 | 10 月 11 日前关注售罄
+- Los Tigres del Norte Honda Center | 最后进展 2026-10-05 | 10 月 17 日前关注售罄
