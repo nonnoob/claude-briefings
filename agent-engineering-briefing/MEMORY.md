@@ -2,12 +2,15 @@
 
 ## 1. 本次运行
 
-- 运行时刻：2026-10-04 10:01 UTC
-- 实际覆盖窗口：2026-10-03 10:01 UTC 至 2026-10-04 10:00 UTC（常规）
-- 备注：Anthropic changelog/API release notes 经 WebFetch 可读（API 无新条目）；simonwillison.net、X、Reddit、Cursor/Windsurf/Latent Space/Hamel 等本期未直接覆盖；Simon 预算上限文章仅经搜索摘要核实、未取得发布时刻；Codex 仅见 0.162.0 alpha 预发布未收录；HN 当日摘要无强工程信号条目；GitSpawn 无新进展，关注点沿用。
+- 运行时刻：2026-10-05 10:01 UTC
+- 实际覆盖窗口：2026-10-04 10:01 UTC 至 2026-10-05 10:01 UTC（常规）
+- 备注：simonwillison.net 被网络出口拦截、本期未覆盖；X、Reddit、Cursor/Windsurf/Latent Space/Hamel 未直接覆盖；Anthropic changelog/API release notes/Engineering Blog 无新条目（Claude Code 最新仍为已报的 v2.1.289）；Codex 仅见 0.162.0 alpha 预发布未收录；Gemini 4 Argon（HN 1694 赞）摘要无 agent 工程细节未收录；GitSpawn 本期未专项复查，关注点沿用。
 
 ## 2. 已报条目清单（保留最近 14 天）
 
+
+- 2026-10-05 | GitHub Copilot CLI发布v1.0.92-4预发布：copilot config子命令、MCP并发连接提速与挂起修复、沙箱权限修复 | https://github.com/github/copilot-cli/releases/tag/v1.0.92-4
+- 2026-10-05 | 【单源】Show HN Pi pod：在自有服务器沙箱运行Pi编码agent，自托管隐私向 | https://news.ycombinator.com/item?id=49937304
 
 - 2026-10-04 | Claude Code发布v2.1.289：修复Read deny规则对@提及/符号链接文件、Bash deny/ask对环境变量前缀命令及嵌套复合命令的权限漏洞，新增agent.spawn与统一agent ID | https://code.claude.com/docs/en/changelog
 - 2026-10-04 | 【单源】Simon Willison主张agent时代需要默认硬预算上限，agent应倾向推荐带hard cap的服务商 | https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/
