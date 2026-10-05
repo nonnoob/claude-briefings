@@ -2,18 +2,14 @@
 
 ## 1. 本次运行时刻与覆盖窗口
 
-- 本次运行：2026-10-04 约10:15 UTC
-- 上次运行：2026-10-03 约10:11 UTC
-- 覆盖窗口：2026-10-03 10:11 UTC – 2026-10-04 10:15 UTC（约24小时，常规）。
-- 检索状态：十个方向均已检索；周末窗口内可核实的新内容很少，仅收录4条。tomshardware.com WebFetch被出口代理拦截，改用WebSearch摘要。
-- 事件核查：美光台湾罢工投票（10/1-6）结果未公布；其余事件无实质新进展。Amazon 80亿美元英伟达芯片售后回租（10/2）、Intel 10月5日涨价传闻等因发布时间或已知而未收录。
-- 事件表变动：事件8（台积电/Terafab）并入马斯克10-03确认商谈。
+- 本次运行：2026-10-05 约10:15 UTC
+- 上次运行：2026-10-04 约10:15 UTC
+- 覆盖窗口：2026-10-04 10:15 UTC – 2026-10-05 10:15 UTC（约24小时，常规）。
+- 检索状态：十个方向均已检索；周末窗口内可核实新内容很少，仅收录3条。trendforce.com WebFetch被出口代理拦截（TSMC财报前瞻未能核实，Terafab事件8保留）。
+- 事件核查：美光台湾罢工投票（10/1-6）结果尚未公布；其余事件无实质新进展。
 
 ## 2. 已报条目清单（最近14天）
 
-- 2026-09-20 | 特朗普宣布将成立"AI Force"并任命"AI沙皇"，称AI安全担忧是"骗局" | https://www.cnn.com/2026/09/19/politics/trump-ai-task-force-czar
-- 2026-09-20 | 加州联邦法官初步驳回TikTok4亿美元隐私和解协议中终止2019年同意令的条款 | https://www.bloomberg.com/news/articles/2026-09-19/california-court-blocks-part-of-tiktok-s-400-million-settlement
-- 2026-09-20 | BragJack攻击披露：恶意扩展劫持Chrome/Edge/Opera Neon/Perplexity Comet/Claude in Chrome等AI浏览器代理 | https://www.bleepingcomputer.com/news/security/bragjack-attacks-hijack-ai-browser-agents-through-malicious-extensions/
 - 2026-09-21 | 启元机器人发布消费级人形机器人Q1、T1并开售，标准版19999元起 | https://news.qq.com/rain/a/20260920A0AP9700
 - 2026-09-21 | 韩国9月1–20日出口数据显示半导体出口同比暴增259.4%创同期历史新高 | https://www.koreatimes.co.kr/economy/20260921/exports-up-78-in-first-20-days-of-sept-on-robust-chip-shipments
 - 2026-09-21 | 马斯克旗下Boring Company提出得州奥斯汀-圣安东尼奥隧道构想 | https://www.bloomberg.com/news/articles/2026-09-20/musk-s-boring-co-working-on-tunnel-to-link-austin-san-antonio
@@ -167,6 +163,9 @@
 - 2026-10-03 | 马斯克确认与台积电讨论Terafab合作台积电建厂独家供应特斯拉SpaceX xAI（续报单源） | https://www.tomshardware.com/tech-industry/semiconductors/elon-musk-confirms-discussions-with-tsmc-about-terafab-chipmaking-collaboration-intel-is-the-only-other-named-partner-terafab-to-exclusively-supply-tesla-spacex-and-xai
 - 2026-10-03 | 马斯克暗示特斯拉与SpaceX可能合并无董事会批准（单源） | https://247wallst.com/investing/2026/10/03/elon-musk-hints-at-tesla-spacex-merger-who-can-imagine-what-action-one-might-take
 - 2026-10-03 | Vercel确认KVM虚拟机逃逸零日发放5万美元赏金暂无CVE与补丁 | https://cybersecuritynews.com/kvm-zero-day-vm-escape/
+- 2026-10-04 | Chrome Canary显示Android版Chrome中的Gemini将扩展至更多地区（单源） | https://piunikaweb.com/2026/10/04/google-is-preparing-to-expand-gemini-in-chrome-android/
+- 2026-10-04 | Gurman称苹果10月13日举办发布会，推智能家居中枢、HomePod mini、Apple TV 4K（续报传闻） | https://www.macrumors.com/2026/10/04/apple-event-reportedly-planned-for-october-13/
+- 2026-10-04 | 马斯克称将把SpaceXAI改名SpaceXSI | https://www.usnews.com/news/top-news/articles/2026-10-04/musk-says-he-will-rename-spacexai-to-spacexsi
 
 ## 3. 进行中事件表（跨运行追踪，最多10条）
 
@@ -182,3 +181,4 @@
 10. 事件：FTC对OpenAI、Anthropic、METR展开调查｜最后进展：9月30日首次收录，聚焦AI智能体失控事件与安全声明是否违反消费者保护法；10-02核查无新动态｜下一步关注：FTC调查进展（是否发传票、约谈）、涉事公司回应
 
 （本次运行说明：事件1、9核查无结果更新继续保留；事件8加州AI一键关闭因条数上限被移出，其下一节点为11月16日专家组框架提交；其余事件无实质新进展。）
+- 补充事件11（并入追踪）：苹果10月13日发布会（传闻）｜最后进展：10-04 Gurman称10/13举办活动｜下一步关注：苹果是否官宣10/13活动
