@@ -1,20 +1,14 @@
 ## 1. 本次运行
 
-- 运行时刻：2026-10-04 约10:42 UTC（上次运行：2026-10-03 约10:41 UTC）。
-- 实际覆盖窗口：2026-10-03 10:41 UTC 至 2026-10-04 10:41 UTC，常规（约24小时）。
-- 六个检索方向均已执行，按"完全成功"落盘。仅监管与安全有新内容（2条续报）；模型与产品、研究、商业、算力、传闻无满足门槛的新内容（Grok 4.8、Kimi K3.1、DeepSeek V4.1 Pro仍无官方发布）。部分站点（benzinga、openai.com、cnbc、theneuron）被出口代理拦截，已改用多源搜索交叉。OpenAI/Broadcom Jalapeño推理芯片发布日期无法确认是否落在窗口内，未收录。
-- 进行中事件表复核：其余事件无新进展保留；AI Force/AI沙皇与OpenAI安全人员离职已续报并更新。
-- 已报条目清单：保留线2026-09-20，清理2026-09-19条目；新增本期2条。
-- 事件表条数未变，未踢出事件。
+- 运行时刻：2026-10-05 约10:45 UTC（上次运行：2026-10-04 约10:42 UTC）。
+- 实际覆盖窗口：2026-10-04 10:41 UTC 至 2026-10-05 10:41 UTC，常规（约24小时）。
+- 六个检索方向均已执行，按"完全成功"落盘。新增3条：Gemini免费档收缩、纽约市议会听证（续报）、超级智能工作组成员（续报）。搜索工具对研究、商业、算力、传闻方向无满足门槛的新内容；Nvidia 5000亿美元融资遭银行质疑（10/1）发生在窗口前，未收录。
+- 进行中事件表复核：纽约听证与超级智能工作组并入既有事件；其余无新进展保留。
+- 已报条目清单：保留线2026-09-21，清理2026-09-20条目；新增本期3条。事件表条数未变。
 
 ## 2. 已报条目清单
 
-- 2026-09-20 | 阶跃星辰发布旗舰模型Step 5 Preview，600B参数稀疏MoE，百万token上下文，全球开源模型智能指数前三 | http://tech.caijing.com.cn/20260920/5184516.shtml
-- 2026-09-20 | 长鑫存储宣布第五代DRAM平台G5量产，24GB LPDDR5X产品，四重曝光11.95nm半间距 | https://www.chinanews.com.cn/cj/2026/09-20/10700064.shtml
-- 2026-09-20 | Plugin4Shell漏洞：Claude Code/Codex已修复，微软Copilot仍未打补丁 | https://easternherald.com/2026/09/20/plugin4shell-ai-coding-agents-supply-chain-vulnerability/
-- 2026-09-20 | FAA AI空管决策支持系统SMART（8.75亿美元/12年合同）9月21日起在华盛顿地区三大机场试运行 | https://www.washingtontimes.com/news/2026/sep/20/federal-aviation-administration-deploy-ai-washington-area-airports/
 - 2026-09-21 | 软银启动逾110亿美元五档高收益债发行，为10月1日应付OpenAI的100亿美元投资款融资，预计9月24日定价 | https://www.bloomberg.com/news/articles/2026-09-21/softbank-seeks-over-11-billion-in-junk-bond-deal-for-openai-bet
-- 2026-09-20 | 四名消费者向加州北区联邦法院起诉Anthropic/OpenAI/xAI/谷歌，指控"放缓前沿"表态构成非法反垄断协同 | https://www.cbsnews.com/news/ai-slowdown-lawsuit-openai-anthropic-google/
 - 2026-09-22 | xAI正式发布Grok 4.7，参数规模增至2.1万亿，上下文500K tokens，全量上线Grok App/Cursor/API/Copilot | https://siliconangle.com/2026/09/21/spacex-launches-grok-4-7-with-long-horizon-processing-safety-upgrades/
 - 2026-09-22 | 阿里巴巴云栖大会宣布Qwen4已投入训练，规划Qwen4.5/Qwen5参数扩至5-10万亿，并开启Qwen Intelligence公测 | https://www.qbitai.com/2026/09/493625.html
 - 2026-09-22 | 月之暗面发布Kimi Code Desktop桌面客户端，支持本地读写代码与命令执行 | https://www.ithome.com/1/005/258.htm
@@ -120,6 +114,9 @@
 - 2026-10-03 | OpenAI安全系统负责人David Robinson辞职 | https://startupfortune.com/openai-safety-leader-david-robinson-resigns-days-after-three-researchers-were-fired/
 - 2026-10-04 | 特朗普任命DNI Jay Clayton为白宫AI沙皇并牵头120天期限的超级智能工作组 | https://www.cnbc.com/2026/10/03/trump-jay-clayton-ai-czar.html
 - 2026-10-04 | OpenAI前安全负责人Robinson在《大西洋月刊》发文称OpenAI文化已破裂、迭代部署不可接受 | https://www.calcalistech.com/ctechnews/article/zienaylz5
+- 2026-10-05 | Google重组Gemini订阅分级，10月9日起免费用户仅限Flash-Lite，AI Plus失去Pro | https://the-decoder.com/googles-new-gemini-tiers-cut-free-users-to-its-weakest-model-and-lock-5-month-subscribers-out-of-pro/
+- 2026-10-05 | 纽约市议会AI风险听证举行，Anthropic/OpenAI/谷歌/Meta改派高管出席，多名前员工举报人作证 | https://gothamist.com/news/nyc-council-hearing-to-put-ai-risks-in-the-spotlight
+- 2026-10-05 | 白宫超级智能工作组成员公布：Clayton任主席，Ferguson、Michael、Kupor任副主席，无法定授权与预算 | https://thenextweb.com/news/trump-super-intelligence-force-leaders
 
 ## 3. 进行中事件表
 
@@ -144,3 +141,5 @@
 （2026-10-03补充跟踪：①Anthropic IPO——据报最早11月中旬挂牌、11月9日当周路演，下一步关注：公开S-1、投票权架构股东表决结果；②OpenAI安全人员离职——三人被解雇、Robinson辞职，下一步关注：OpenAI/METR/Redwood进一步回应、是否被FTC调查或国会援引。均并入既有相关事件，最后进展日期2026-10-03。）
 
 （2026-10-04补充跟踪：①AI沙皇已定为Jay Clayton，SI工作组120天内出报告（约2027年2月初），下一步关注：工作组首次会议与成员细节、与FTC调查的关系；②Robinson已发表《大西洋月刊》文章，下一步关注：OpenAI官方回应、国会/FTC是否援引。并入既有相关事件，最后进展日期2026-10-04。）
+
+（2026-10-05补充跟踪：①纽约市议会10/5听证已举行，下一步关注：市议会10项AI法案是否推进表决、各公司书面回应；②超级智能工作组成员已定（Clayton/Ferguson/Michael/Kupor），下一步关注：首次会议、与FTC调查的关系（Ferguson同时任FTC主席）；③Gemini免费档10/9生效。并入既有相关事件，最后进展日期2026-10-05。）
