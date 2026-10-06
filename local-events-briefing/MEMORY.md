@@ -1,8 +1,8 @@
 # local-events-briefing MEMORY
 
 ## 1. 本次运行
-- 运行时刻：2026-10-05 17:10 America/Los_Angeles（窗口 2026-10-05 11:11 至 2026-10-05 17:10）
-- 备注：本期仅新增 Rise Against 一条；展览艺术、全国范围无可核实的新增；LA Times Food Bowl Night Market 日期仍矛盾未收；Brodard Long Beach 无确切开业日未收
+- 运行时刻：2026-10-06 11:10 America/Los_Angeles（窗口 2026-10-05 17:10 至 2026-10-06 11:10）
+- 备注：本期新增 Bryson Tiller、ArtNight Pasadena 两条；今明速览、美食饮品、节庆市集、全国范围无可核实的新增；LA Times Food Bowl Night Market 本次只搜到 2025 年信息，2026 日期仍未核实；Explore JPL（10/10–11，免费，需 8/29 起抢的限量票，大概率已领完）未收；候选未报：Dinosaur Jr. 10/15 House of Blues Anaheim、Saint Levant 10/17 House of Blues Anaheim、Jay-Z SoFi 10/23–24（7 月已开票，余票未知）
 
 ## 2. 已报条目清单
 2026-10-01 | Thomas Rhett，10/2，Honda Center Anaheim | https://www.hondacenter.com/events/thomas-rhett/
@@ -63,6 +63,9 @@
 2026-10-05 | Silverado Country Fair & Folk Festival，10/10–10/11，Silverado | https://silveradocountryfair.org/
 2026-10-05 | Rise Against + Alkaline Trio，10/23 18:30，Great Park Live Irvine | https://blabbermouth.net/news/rise-against-announces-fall-2026-u-s-tour-with-alkaline-trio
 
+2026-10-06 | Bryson Tiller，10/22 19:30，Honda Center Anaheim | https://news.livenationentertainment.com/news/bryson-tiller-presents-the-neo-trapsoul-tour/
+2026-10-06 | ArtNight Pasadena，10/9 18:00–22:00，Pasadena | https://www.cityofpasadena.net/artnight/
+
 ## 3. 进行中事件表
 - Laguna Beach Plein Air Invitational | 最后进展 2026-10-01 | 10 月 11 日闭幕前（最后一个周末 10 月 10 日）可提醒；核实官方场次与票价
 - Knott's Scary Farm | 最后进展 2026-10-01 | 10 月 31 日结束；关注加场或售罄
@@ -74,7 +77,7 @@
 - TLC & Salt-N-Pepa with En Vogue | 最后进展 2026-10-03 | 10 月 10 日演出前关注售罄
 - Dodgers NLDS 次战 | 最后进展 2026-10-03 | 最后进展 2026-10-04：Game 3 为 10 月 6 日 15:00 PT（Atlanta）；Game 5 若需要为 10 月 9 日
 - CicLAvia Heart of LA | 最后进展 2026-10-04 | 10 月 11 日当天；10 月 10 日前后可提醒（已报，仅做节点提醒）
-- LA Times Food Bowl Night Market | 最后进展 2026-10-05 | 日期矛盾（10/10–11 vs 10/23–24 Barker Hangar），核实官方 lafoodbowl.com 后再决定是否收录
+- LA Times Food Bowl Night Market | 最后进展 2026-10-05 | 日期矛盾（10/10–11 vs 10/23–24 Barker Hangar），2026-10-06 再搜仅得 2025 年信息；核实官方 lafoodbowl.com 后再决定是否收录
 - Off the Hook 海鲜节 | 最后进展 2026-10-05 | 10 月 11 日前关注售罄
 - Los Tigres del Norte Honda Center | 最后进展 2026-10-05 | 10 月 17 日前关注售罄
 - Rise Against Great Park Live | 最后进展 2026-10-05 | 10 月 23 日前关注售罄
