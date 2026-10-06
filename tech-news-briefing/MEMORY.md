@@ -2,27 +2,15 @@
 
 ## 1. 本次运行时刻与覆盖窗口
 
-- 本次运行：2026-10-05 约10:15 UTC
-- 上次运行：2026-10-04 约10:15 UTC
-- 覆盖窗口：2026-10-04 10:15 UTC – 2026-10-05 10:15 UTC（约24小时，常规）。
-- 检索状态：十个方向均已检索；周末窗口内可核实新内容很少，仅收录3条。trendforce.com WebFetch被出口代理拦截（TSMC财报前瞻未能核实，Terafab事件8保留）。
-- 事件核查：美光台湾罢工投票（10/1-6）结果尚未公布；其余事件无实质新进展。
+- 本次运行：2026-10-06 约10:15 UTC
+- 上次运行：2026-10-05 约10:15 UTC
+- 覆盖窗口：2026-10-05 10:15 UTC – 2026-10-06 10:15 UTC（约24小时，常规）。
+- 检索状态：十个方向均已检索；通用检索结果多为旧闻，bleepingcomputer、macrumors等站点WebFetch被出口代理拦截，窗口内仅核实1条（Googlebook国际开售）；Citrix NetScaler新漏洞、Roundcube被利用等日期/来源无法核实，未收录。
+- 事件核查：苹果10/13发布会仍未官宣；美光罢工投票（10/1-6）结果尚未公布；其余事件无实质新进展。
 
 ## 2. 已报条目清单（最近14天）
 
-- 2026-09-21 | 启元机器人发布消费级人形机器人Q1、T1并开售，标准版19999元起 | https://news.qq.com/rain/a/20260920A0AP9700
-- 2026-09-21 | 韩国9月1–20日出口数据显示半导体出口同比暴增259.4%创同期历史新高 | https://www.koreatimes.co.kr/economy/20260921/exports-up-78-in-first-20-days-of-sept-on-robust-chip-shipments
-- 2026-09-21 | 马斯克旗下Boring Company提出得州奥斯汀-圣安东尼奥隧道构想 | https://www.bloomberg.com/news/articles/2026-09-20/musk-s-boring-co-working-on-tunnel-to-link-austin-san-antonio
-- 2026-09-21 | 特斯拉、SpaceX起诉TERA-print就"Terafab"芯片工厂命名权寻求确认不侵权 | https://www.tradingview.com/news/reuters.com,2026:newsml_L6N4580ZI:0-tesla-spacex-sue-nanotech-company-over-terafab-name/
-- 2026-09-21 | OpenAI Codex桌面版/CLI曝沙箱逃逸漏洞Heapjack与Overpatch，已修复 | https://www.bleepingcomputer.com/news/security/researchers-escape-openai-codex-sandbox-to-run-commands-on-host/
-- 2026-09-21 | 私人原告起诉Anthropic、OpenAI、SpaceXAI、谷歌，指控合谋放缓AI开发构成非法协议（N.D. Cal. 5:26-cv-10693，Buist et al. v. Anthropic PBC et al.） | https://abcnews.com/Technology/wireStory/lawsuit-anthropic-openai-spacexai-google-made-illegal-agreement-136588615
-- 2026-09-21 | 谷歌正式开放Googlebook笔记本预购，899美元起，10月上市 | https://9to5google.com/2026/09/21/googlebook-launch/
 - 2026-09-22 | 苹果新Mac Studio（M5 Max/M5 Ultra）与Mac mini（M6/M5 Pro）正式开售 | https://www.macrumors.com/2026/09/21/new-mac-mini-and-mac-studio-launch-tomorrow/
-- 2026-09-21 | 亚马逊封锁Meta AI购物代理Muse接入其零售站点 | https://thenextweb.com/news/amazon-blocks-muse-perplexity-amended-complaint
-- 2026-09-21 | 美光台湾工会二次调解破裂，宣布启动罢工投票程序 | https://www.digitimes.com/news/a20260922PD219/micron-labor-taiwan-strike-2026.html
-- 2026-09-21 | 爱尔兰DPC对谷歌处以4.03亿欧元GDPR罚款（位置数据违规） | https://www.dataprotection.ie/en/news-media/latest-news/data-protection-commission-fines-google-eu403-million-following-inquiry-googles-processing-location
-- 2026-09-21 | ShinyHunters与Clop勒索团伙黑吃黑对峙升级 | https://www.theregister.com/cyber-crime/2026/09/21/clop-gets-a-taste-of-its-own-medicine-after-shinyhunters-hijack-leak-site/5297702
-- 2026-09-21 | 苹果诉OpenAI案：苹果要求直接查阅取证镜像及OpenAI硬件研发文件，法官驳回OpenAI查阅苹果-马斯克和解协议请求 | https://9to5mac.com/2026/09/21/apple-challenges-openais-forensic-analysis-in-trade-secrets-case-seeks-access-to-hardware-rd/
 - 2026-09-22 | 三星One UI 9更新二次推迟，从9/21改至9/28又改为"9月内" | https://9to5google.com/2026/09/22/samsung-has-delayed-its-android-17-update/
 - 2026-09-22 | 苹果发布iOS 27.2/macOS 27.2首个公测版 | https://www.macrumors.com/2026/09/22/apple-releases-ios-27-2-public-beta/
 - 2026-09-22 | OPPO正式发布Find X10系列，9月24日开售 | https://9to5google.com/2026/09/22/oppo-find-x10-specs-official-launch/
@@ -166,6 +154,7 @@
 - 2026-10-04 | Chrome Canary显示Android版Chrome中的Gemini将扩展至更多地区（单源） | https://piunikaweb.com/2026/10/04/google-is-preparing-to-expand-gemini-in-chrome-android/
 - 2026-10-04 | Gurman称苹果10月13日举办发布会，推智能家居中枢、HomePod mini、Apple TV 4K（续报传闻） | https://www.macrumors.com/2026/10/04/apple-event-reportedly-planned-for-october-13/
 - 2026-10-04 | 马斯克称将把SpaceXAI改名SpaceXSI | https://www.usnews.com/news/top-news/articles/2026-10-04/musk-says-he-will-rename-spacexai-to-spacexsi
+- 2026-10-05 | Googlebook笔记本在加拿大、英国、爱尔兰、法国、德国、澳大利亚开售（续报） | https://www.digitalcitizen.life/googlebook-prices-specs-differ-us-uk-canada/
 
 ## 3. 进行中事件表（跨运行追踪，最多10条）
 
