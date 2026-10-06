@@ -2,11 +2,16 @@
 
 ## 1. 本次运行
 
-- 运行时刻：2026-10-05 10:01 UTC
-- 实际覆盖窗口：2026-10-04 10:01 UTC 至 2026-10-05 10:01 UTC（常规）
-- 备注：simonwillison.net 被网络出口拦截、本期未覆盖；X、Reddit、Cursor/Windsurf/Latent Space/Hamel 未直接覆盖；Anthropic changelog/API release notes/Engineering Blog 无新条目（Claude Code 最新仍为已报的 v2.1.289）；Codex 仅见 0.162.0 alpha 预发布未收录；Gemini 4 Argon（HN 1694 赞）摘要无 agent 工程细节未收录；GitSpawn 本期未专项复查，关注点沿用。
+- 运行时刻：2026-10-06 10:01 UTC
+- 实际覆盖窗口：2026-10-05 10:01 UTC 至 2026-10-06 10:01 UTC（常规）
+- 备注：simonwillison.net、Hacker News、hn.algolia、部分聚合站被网络出口拦截，HN/Simon Willison/X/Reddit 本期未覆盖；Anthropic Engineering Blog 无窗口内新文（最新“How we contain Claude across products”为2026-05-25）；GitSpawn 本期未专项复查，关注点沿用。
 
 ## 2. 已报条目清单（保留最近 14 天）
+
+- 2026-10-06 | Claude Code发布v2.1.290：Mods hook新增serverToolUses与tool.check agentId/ceiling，修复WebFetch静默截断10万字符后文本、plan mode误批非只读connector工具等 | https://code.claude.com/docs/en/changelog
+- 2026-10-06 | Claude Code发布v2.1.291：修复2.1.290云端session丢失权限提示答复、2.1.288退出时丢失最后消息两处回归 | https://code.claude.com/docs/en/changelog
+- 2026-10-06 | OpenAI Codex CLI发布rust-v0.160.1：远程stdio MCP server保留SYSTEMROOT/TEMP/TMP环境变量 | https://github.com/openai/codex/releases
+- 2026-10-06 | GitHub Copilot CLI v1.0.92转正式版：copilot config子命令、本地/云端环境选择器、shell输出实时流式、沙箱shell默认不带GitHub token | https://github.com/github/copilot-cli/releases
 
 
 - 2026-10-05 | GitHub Copilot CLI发布v1.0.92-4预发布：copilot config子命令、MCP并发连接提速与挂起修复、沙箱权限修复 | https://github.com/github/copilot-cli/releases/tag/v1.0.92-4
