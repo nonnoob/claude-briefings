@@ -1,8 +1,8 @@
 # local-events-briefing MEMORY
 
 ## 1. 本次运行
-- 运行时刻：2026-10-05 11:11 America/Los_Angeles（窗口 2026-10-04 17:10 至 2026-10-05 11:11）
-- 备注：展览艺术、全国范围本期无可核实的新增条目；LA Times Food Bowl Night Market 日期来源矛盾（10/10–11 与 10/23–24 两说）暂未收
+- 运行时刻：2026-10-05 17:10 America/Los_Angeles（窗口 2026-10-05 11:11 至 2026-10-05 17:10）
+- 备注：本期仅新增 Rise Against 一条；展览艺术、全国范围无可核实的新增；LA Times Food Bowl Night Market 日期仍矛盾未收；Brodard Long Beach 无确切开业日未收
 
 ## 2. 已报条目清单
 2026-10-01 | Thomas Rhett，10/2，Honda Center Anaheim | https://www.hondacenter.com/events/thomas-rhett/
@@ -61,6 +61,7 @@
 2026-10-05 | Los Tigres del Norte，10/17 20:00，Honda Center Anaheim | https://www.ticketmaster.com/los-tigres-del-norte-los-tigres-anaheim-california-10-17-2026/event/09006458A0D5CC52
 2026-10-05 | Carnival Colossal，10/8–10/11，Vista Hermosa Sport Park San Clemente | https://sanclemente.com/events/carnival-colossal/
 2026-10-05 | Silverado Country Fair & Folk Festival，10/10–10/11，Silverado | https://silveradocountryfair.org/
+2026-10-05 | Rise Against + Alkaline Trio，10/23 18:30，Great Park Live Irvine | https://blabbermouth.net/news/rise-against-announces-fall-2026-u-s-tour-with-alkaline-trio
 
 ## 3. 进行中事件表
 - Laguna Beach Plein Air Invitational | 最后进展 2026-10-01 | 10 月 11 日闭幕前（最后一个周末 10 月 10 日）可提醒；核实官方场次与票价
@@ -76,3 +77,5 @@
 - LA Times Food Bowl Night Market | 最后进展 2026-10-05 | 日期矛盾（10/10–11 vs 10/23–24 Barker Hangar），核实官方 lafoodbowl.com 后再决定是否收录
 - Off the Hook 海鲜节 | 最后进展 2026-10-05 | 10 月 11 日前关注售罄
 - Los Tigres del Norte Honda Center | 最后进展 2026-10-05 | 10 月 17 日前关注售罄
+- Rise Against Great Park Live | 最后进展 2026-10-05 | 10 月 23 日前关注售罄
+- Brodard Long Beach（2nd & PCH）| 最后进展 2026-10-05 | 等官方公布开业日期，确认后收录（未报）
