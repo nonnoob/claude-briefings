@@ -2,25 +2,12 @@
 
 ## 1. 本次运行时刻与实际覆盖窗口
 
-- 运行时刻：2026-10-05 10:21 UTC
-- 覆盖窗口：2026-10-04 10:21 UTC 至 2026-10-05 10:21 UTC（常规）
-- 空期：国庆假期，六个方向窗口内均无未报道的实质新内容，按空期骨架输出。WebFetch对secretchina/gasgoo等站点被代理拦截，"国庆7天订单"类汇总文章无法确认为2026年当期数据，未收录。A股/期货休市至10/8，10/9恢复。
+- 运行时刻：2026-10-06 10:21 UTC
+- 覆盖窗口：2026-10-05 10:21 UTC 至 2026-10-06 10:21 UTC（常规）
+- 空期：国庆假期，各方向窗口内均无可核实的未报道实质新内容，按空期骨架输出。WebSearch 对日期限定查询返回偏弱，k.sina.com.cn 等站点被代理拦截，新浪"新能源汽车热点小时报"无法读取；神行者8上市12小时大定破5000台等为9月旧闻，未收录。A股/期货休市至10/8，10/9恢复。
 
 ## 2. 已报条目清单（最近14天）
 
-- 2026-09-20 | Stellantis Brampton劳资合同到期，Unifor开出"联邦政府须先表态"重启前提 | https://www.theglobeandmail.com/business/article-unifor-stellantis-contract-negotiations-future-of-brampton-plant/
-- 2026-09-20 | 碳酸锂期货9月累跌超20%，机构指出SMM统计口径调整为助跌新因素 | http://stock.10jqka.com.cn/20260920/c680087892.shtml
-- 2026-09-20 | 蔚来全新ES8正式上市，40.68万-44.68万元，900V架构+4C快充 | https://www.ithome.com/0/884/522.htm
-- 2026-09-20 | 一汽-大众ID. AURA T6正式上市，12.99万-16.69万元 | https://www.ithome.com/1/004/898.htm
-- 2026-09-20 | 东风华为"猎境"X9预售24小时破2万单，定档9/24上市 | https://cnevpost.com/2026/09/20/epicland-x9-launch-sept-24-2026/
-- 2026-09-20 | 理想核心技术对外开放传闻新增细节：斯科半导体对接外部资本筹备IPO | https://www.nbd.com.cn/articles/2026-09-20/4586469.html
-- 2026-09-20 | 蔚来第三代ES8达成第15万台交付里程碑 | https://cnevpost.com/2026/09/20/nio-3rd-gen-es8-150000-deliveries/
-- 2026-09-21 | Stellantis Brampton工厂劳资合同已到期，双方未达成新协议 | https://www.cbc.ca/news/canada/windsor/unifor-stellantis-talks-hit-impasse-9.7340791
-- 2026-09-21 | 碳酸锂期货反弹超3%至13.2万-13.3万元/吨，天齐锂业回应生产正常 | https://news.qq.com/rain/a/20260921A04GTM00
-- 2026-09-21 | 蔚来"丝绸之路换电路线"即将全线贯通 | https://auto.zol.com.cn/1251/12516079.html
-- 2026-09-21 | 大众安徽ID. UNYX 09定档9/24量产首秀 | https://cnevpost.com/2026/09/21/vw-anhui-sept-24-debut-id-unyx-09/
-- 2026-09-20至21 | 中美经贸磋商牵头人纽约会谈，为9/24峰会做准备 | https://www.news.cn/politics/leaders/20260921/2d128235a5d3411f88f7cae658183590/c.html
-- 2026-09-21 | 小鹏何小鹏披露正就多项技术对外授权洽谈 | https://m.21jingji.com/article/20260921/herald/8e01c943392ed51de2a2750534549fe9.html
 - 2026-09-22 | 乘联会9月1-13日全国乘用车零售同比降23%，新能源零售同比降10% | https://cn.investing.com/news/stock-market-news/article-3577260
 - 2026-09-22 | 吉利汽车登陆瑞士市场，沃尔沃新任CEO预计10月1日前履新 | http://news.10jqka.com.cn/20260922/c680143532.shtml
 - 2026-09-22 | 小鹏举行首届机器人供应链合作伙伴大会，首轮融资超9亿美元估值超63亿美元 | https://finance.sina.cn/2026-09-22/detail-inissuii2061867.d.html
