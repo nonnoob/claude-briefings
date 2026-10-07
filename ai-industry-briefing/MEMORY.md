@@ -1,10 +1,9 @@
 ## 1. 本次运行
 
-- 运行时刻：2026-10-06 约10:45 UTC（上次运行：2026-10-05 约10:45 UTC）。
-- 实际覆盖窗口：2026-10-05 10:45 UTC 至 2026-10-06 10:41 UTC，常规。
-- 六个方向均已检索，按"完全成功"落盘。搜索工具对多数方向未返回窗口内新内容，仅新增1条：Kwon 10/6悉尼作证（续报，单源）。
-- 进行中事件表复核：Kwon作证并入首个安全事件系列；其余无新进展保留。
-- 已报条目清单：保留线未动，新增1条。事件表条数未变。
+- 运行时刻：2026-10-07 约10:45 UTC（上次运行：2026-10-06 约10:45 UTC）。
+- 实际覆盖窗口：2026-10-06 10:41 UTC 至 2026-10-07 10:41 UTC，常规。
+- 六个方向均已检索，按"完全成功"落盘；搜索工具对多数方向未返回窗口内新内容，仅新增2条（均单源）：Anthropic扩展Cyber Verification Program、Meta Muse Spark数学论文。
+- 进行中事件表复核：定向检索未见新进展，全部保留。
 
 ## 2. 已报条目清单
 
@@ -118,6 +117,8 @@
 - 2026-10-05 | 纽约市议会AI风险听证举行，Anthropic/OpenAI/谷歌/Meta改派高管出席，多名前员工举报人作证 | https://gothamist.com/news/nyc-council-hearing-to-put-ai-risks-in-the-spotlight
 - 2026-10-05 | 白宫超级智能工作组成员公布：Clayton任主席，Ferguson、Michael、Kupor任副主席，无法定授权与预算 | https://thenextweb.com/news/trump-super-intelligence-force-leaders
 - 2026-10-06 | OpenAI首席战略官Jason Kwon视频作证澳大利亚议会AI联合特别委员会，就智能体误入Medicare门户道歉 | https://en.wikipedia.org/wiki/OpenAI_rogue_agent_breach_of_Medicare
+- 2026-10-06 | Anthropic将Project Glasswing并入扩展版Cyber Verification Program，三档开放最强模型给安全团队 | https://investing.com/news/stock-market-news/anthropic-opens-its-most-powerful-ai-models-to-more-security-teams-4935104
+- 2026-10-06 | Meta AI发布6篇借助Muse Spark 1.1/1.2与数学家合著的数学论文 | https://aiweekly.co/ai-news-today
 
 ## 3. 进行中事件表
 
