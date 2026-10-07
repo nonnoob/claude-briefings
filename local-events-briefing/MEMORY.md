@@ -1,8 +1,8 @@
 # local-events-briefing MEMORY
 
 ## 1. 本次运行
-- 运行时刻：2026-10-06 11:10 America/Los_Angeles（窗口 2026-10-05 17:10 至 2026-10-06 11:10）
-- 备注：本期新增 Bryson Tiller、ArtNight Pasadena 两条；今明速览、美食饮品、节庆市集、全国范围无可核实的新增；LA Times Food Bowl Night Market 本次只搜到 2025 年信息，2026 日期仍未核实；Explore JPL（10/10–11，免费，需 8/29 起抢的限量票，大概率已领完）未收；候选未报：Dinosaur Jr. 10/15 House of Blues Anaheim、Saint Levant 10/17 House of Blues Anaheim、Jay-Z SoFi 10/23–24（7 月已开票，余票未知）
+- 运行时刻：2026-10-06 17:10 America/Los_Angeles（窗口 2026-10-06 11:10 至 2026-10-06 17:10）
+- 备注：本期仅新增 Aziz Ansari 一条；其余方向（橙县综合日历、美食新店、展览、全国巡演）检索结果偏薄，无可核实的新增。未收：Strut Your Mutt LA（日期来源矛盾 10/10 vs 10/20，未核实）、Artisanal LA at The Reef 10/10（无官方来源）、JPL Open House 10/10–11（需抢票，大概率已领完）；候选未报：Dinosaur Jr. 10/15 House of Blues Anaheim、Saint Levant 10/17 House of Blues Anaheim、Jay-Z SoFi 10/23–24、Journey tribute 10/17 City National Grove Anaheim（来源弱）
 
 ## 2. 已报条目清单
 2026-10-01 | Thomas Rhett，10/2，Honda Center Anaheim | https://www.hondacenter.com/events/thomas-rhett/
@@ -65,6 +65,7 @@
 
 2026-10-06 | Bryson Tiller，10/22 19:30，Honda Center Anaheim | https://news.livenationentertainment.com/news/bryson-tiller-presents-the-neo-trapsoul-tour/
 2026-10-06 | ArtNight Pasadena，10/9 18:00–22:00，Pasadena | https://www.cityofpasadena.net/artnight/
+2026-10-06 | Aziz Ansari Hypothetical Tour，10/7 19:00，Dolby Theatre Los Angeles | https://dolbytheatre.com/events/details/aziz_ansari_2026
 
 ## 3. 进行中事件表
 - Laguna Beach Plein Air Invitational | 最后进展 2026-10-01 | 10 月 11 日闭幕前（最后一个周末 10 月 10 日）可提醒；核实官方场次与票价
