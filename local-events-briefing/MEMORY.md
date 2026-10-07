@@ -1,8 +1,8 @@
 # local-events-briefing MEMORY
 
 ## 1. 本次运行
-- 运行时刻：2026-10-06 17:10 America/Los_Angeles（窗口 2026-10-06 11:10 至 2026-10-06 17:10）
-- 备注：本期仅新增 Aziz Ansari 一条；其余方向（橙县综合日历、美食新店、展览、全国巡演）检索结果偏薄，无可核实的新增。未收：Strut Your Mutt LA（日期来源矛盾 10/10 vs 10/20，未核实）、Artisanal LA at The Reef 10/10（无官方来源）、JPL Open House 10/10–11（需抢票，大概率已领完）；候选未报：Dinosaur Jr. 10/15 House of Blues Anaheim、Saint Levant 10/17 House of Blues Anaheim、Jay-Z SoFi 10/23–24、Journey tribute 10/17 City National Grove Anaheim（来源弱）
+- 运行时刻：2026-10-07 11:10 America/Los_Angeles（窗口 2026-10-06 17:10 至 2026-10-07 11:10）
+- 备注：本期新增 3 条；综合日历、美食新店、展览方向检索偏薄，无可核实的新增（Time Out 周末页与 Birdman Live 搜到的是往年页面，未收）。未收：OC Home & Pet Fest 10/10–11 Costa Mesa（仅聚合站来源）、Saint Levant 10/17 House of Blues Anaheim、Jay-Z SoFi 10/23–24、Journey tribute 10/17（来源弱）、Zov's Costa Mesa 与 El Diablo Laguna Beach（无具体开业日）
 
 ## 2. 已报条目清单
 2026-10-01 | Thomas Rhett，10/2，Honda Center Anaheim | https://www.hondacenter.com/events/thomas-rhett/
@@ -67,6 +67,10 @@
 2026-10-06 | ArtNight Pasadena，10/9 18:00–22:00，Pasadena | https://www.cityofpasadena.net/artnight/
 2026-10-06 | Aziz Ansari Hypothetical Tour，10/7 19:00，Dolby Theatre Los Angeles | https://dolbytheatre.com/events/details/aziz_ansari_2026
 
+2026-10-07 | Dinosaur Jr. 与 Stef Chura，10/15 19:00，House of Blues Anaheim | https://www.tickpick.com/buy-dinosaur-jr-stef-chura-tickets-house-of-blues-anaheim-10-15-26-7pm/8099080/
+2026-10-07 | Weezer The Gathering，10/24 19:00，Crypto.com Arena Los Angeles | https://www.cryptoarena.com/events/detail/weezer102426
+2026-10-07 | Concha Fest，10/10 14:00–18:00，Heritage Museum of Orange County Santa Ana | https://happeningnext.com/event/concha-fest-2026-eid1ef0l418b0va
+
 ## 3. 进行中事件表
 - Laguna Beach Plein Air Invitational | 最后进展 2026-10-01 | 10 月 11 日闭幕前（最后一个周末 10 月 10 日）可提醒；核实官方场次与票价
 - Knott's Scary Farm | 最后进展 2026-10-01 | 10 月 31 日结束；关注加场或售罄
@@ -82,4 +86,4 @@
 - Off the Hook 海鲜节 | 最后进展 2026-10-05 | 10 月 11 日前关注售罄
 - Los Tigres del Norte Honda Center | 最后进展 2026-10-05 | 10 月 17 日前关注售罄
 - Rise Against Great Park Live | 最后进展 2026-10-05 | 10 月 23 日前关注售罄
-- Brodard Long Beach（2nd & PCH）| 最后进展 2026-10-05 | 等官方公布开业日期，确认后收录（未报）
+- Brodard Long Beach（2nd & PCH）| 最后进展 2026-10-05 | 2026-10-07 复查仍无具体开业日（官方称 2026 年内）；等官方公布开业日期，确认后收录（未报）
