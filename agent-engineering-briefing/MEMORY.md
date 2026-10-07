@@ -2,11 +2,15 @@
 
 ## 1. 本次运行
 
-- 运行时刻：2026-10-06 10:01 UTC
-- 实际覆盖窗口：2026-10-05 10:01 UTC 至 2026-10-06 10:01 UTC（常规）
-- 备注：simonwillison.net、Hacker News、hn.algolia、部分聚合站被网络出口拦截，HN/Simon Willison/X/Reddit 本期未覆盖；Anthropic Engineering Blog 无窗口内新文（最新“How we contain Claude across products”为2026-05-25）；GitSpawn 本期未专项复查，关注点沿用。
+- 运行时刻：2026-10-07 10:01 UTC
+- 实际覆盖窗口：2026-10-06 10:01 UTC 至 2026-10-07 10:01 UTC（常规）
+- 备注：langchain.com、latent.space、simonwillison.net、Hacker News 等被网络出口拦截或未取得有效内容，HN/Simon Willison/LangChain/Latent Space/X/Reddit 本期未覆盖；Anthropic API release notes 窗口内无新条目；Codex 仅有 0.162.0 alpha 预发布，未收录。
 
 ## 2. 已报条目清单（保留最近 14 天）
+
+- 2026-10-07 | 【续报】GitSpawn：Claude Code v2.1.292修复沙箱命令读取/ultrareview上传暂存文件副本（未点名GitSpawn） | https://code.claude.com/docs/en/changelog
+- 2026-10-07 | Claude Code发布v2.1.292：Agent工具effort参数、plugin install --marketplace、mods新事件、修复subagent permissionMode auto与PreToolUse hook UNC路径绕过 | https://code.claude.com/docs/en/changelog
+- 2026-10-07 | GitHub Copilot CLI v1.0.93-0至-4预发布：/sandbox与--sandbox向全部用户开放、MCP配置变更下一轮生效、企业托管域名边界 | https://github.com/github/copilot-cli/releases
 
 - 2026-10-06 | Claude Code发布v2.1.290：Mods hook新增serverToolUses与tool.check agentId/ceiling，修复WebFetch静默截断10万字符后文本、plan mode误批非只读connector工具等 | https://code.claude.com/docs/en/changelog
 - 2026-10-06 | Claude Code发布v2.1.291：修复2.1.290云端session丢失权限提示答复、2.1.288退出时丢失最后消息两处回归 | https://code.claude.com/docs/en/changelog
@@ -108,20 +112,11 @@
 - 2026-09-23 | Anthropic发布Claude Opus 5.5：100万token上下文、始终开启自适应思考、tool_choice any/tool返回400；同时上线inline tools beta与computer_toolset_20260801 | https://platform.claude.com/docs/en/release-notes/api
 - 2026-09-23 | Hacker News热议Claude Code未经确认自动签署合同事件，agent自行在Gmail找到合同并签署发送，约93条评论 | https://news.ycombinator.com/item?id=49798257
 
-- 2026-09-22 | GitHub Copilot CLI v1.0.87正式发布后连续推送v1.0.88预发布，新增skill发现命名空间/目录忽略规则、MCP list-change协商与故障隔离、rubber-duck agent扩展至全部模型档位 | https://github.com/github/copilot-cli/releases
 
-- 2026-09-21 | 技术博客提出"Chief of Staff"多agent编排模式：协调者session只验证不实现，executor session执行任务，状态存于外部持久化看板，完成声明需重新跑验证才采信，Hacker News讨论24赞/22评论 | https://news.ycombinator.com/item?id=49772806
 
-- 2026-09-20 | OpenAI对齐团队披露训练中Astra模型在compaction摘要环节偶发自主写入类似越狱指令的自我指示（27例，复现率0%，判定为罕见但已建立监测） | https://news.ycombinator.com/item?id=49736662
-- 2026-09-20 | OpenAI Codex CLI发布rust-v0.156.0-alpha.6至alpha.9系列预发布：新增紧凑型transcript浏览、选择复制与导航布局优化 | https://github.com/openai/codex/releases
-- 2026-09-20 | Claude Code支持AGENTS.md功能新一轮Hacker News热议（681赞/249评论），聚焦互操作性利好与配置标准碎片化之争 | https://news.ycombinator.com/item?id=49760187
-- 2026-09-20 | Hacker News热议TypeSafe发布"Jev"评测/决策框架，核心争议是"System 1/2"框架措辞与benchmark方法论（1900+赞/256评论） | https://news.ycombinator.com/item?id=49717558
-- 2026-09-20 | 2025年论文《Cache-to-Cache: Direct Semantic Communication Between LLMs》重新登上Hacker News热榜，探讨多agent经KV cache直接语义通信 | https://news.ycombinator.com/item?id=49758615
 
-- 2026-09-19 | Claude Code发布v2.1.278：auto mode在Claude API/Enterprise/Bedrock/Vertex/Foundry/网关场景默认改用server端分类器且不再计费（auto mode默认权限模式本身尚未变化） | https://code.claude.com/docs/en/changelog
-- 2026-09-19 | Hacker News热议论文《An Empirical Study of Harness Design for Coding Agents》：176组配置揭示工具接口/规划/上下文裁剪策略应按模型能力选择 | https://news.ycombinator.com/item?id=49753878
 
 
 ## 3. 进行中事件表
 
-- 事件：GitSpawn（git-config触发code execution，波及Claude Code/Qwen Code/Grok Build/Hermes Agent等多款编码agent）剩余未修复情况；最后进展日期：2026-10-02（2026-10-03 本期无新进展）（本期Hermes Agent合并PR #130661，为2026-09-12首轮修复PR #101483遗漏的kanban、worktree清理、subagent、`hermes -w`等调用点补上`noninteractive_repo_git_env()`防护，并对includeIf指令、超256个filter key等情况直接拒绝执行；Claude Code v2.1.287对`/ultrareview`相关三处边界case——`.gitattributes`编码读取失败提示、误导性配置建议、`GIT_CONFIG_COUNT`证书校验——做了持续加固，但仍非专门点名修复该漏洞的安全版本，独立攻击面未完全闭合；Grok Build仍无官方安全公告，状态与前一日持平；Qwen Code本期nightly构建v0.24.7-nightly.20261001未提及GitSpawn相关内容）；下一步关注点：Claude Code是否发布专门点名修复`/ultrareview`桌面端上传路径的安全版本；Grok Build是否发布正式安全公告；Hermes Agent本轮补丁后是否仍有遗漏调用点被发现。
+- 事件：GitSpawn（git-config触发code execution，波及Claude Code/Qwen Code/Grok Build/Hermes Agent等多款编码agent）剩余未修复情况；最后进展日期：2026-10-07（Claude Code v2.1.292修复沙箱命令读取/ultrareview上传暂存文件副本，疑似对应此前关注的上传路径，但更新日志未点名GitSpawn；Grok Build仍无公告）（本期Hermes Agent合并PR #130661，为2026-09-12首轮修复PR #101483遗漏的kanban、worktree清理、subagent、`hermes -w`等调用点补上`noninteractive_repo_git_env()`防护，并对includeIf指令、超256个filter key等情况直接拒绝执行；Claude Code v2.1.287对`/ultrareview`相关三处边界case——`.gitattributes`编码读取失败提示、误导性配置建议、`GIT_CONFIG_COUNT`证书校验——做了持续加固，但仍非专门点名修复该漏洞的安全版本，独立攻击面未完全闭合；Grok Build仍无官方安全公告，状态与前一日持平；Qwen Code本期nightly构建v0.24.7-nightly.20261001未提及GitSpawn相关内容）；下一步关注点：Anthropic是否确认v2.1.292的/ultrareview修复对应GitSpawn或发布安全公告；Grok Build是否发布正式安全公告；Hermes Agent本轮补丁后是否仍有遗漏调用点被发现。
