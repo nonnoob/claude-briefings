@@ -1,8 +1,8 @@
 # local-events-briefing MEMORY
 
 ## 1. 本次运行
-- 运行时刻：2026-10-07 17:10 America/Los_Angeles（窗口 2026-10-07 11:10 至 2026-10-07 17:10）
-- 备注：本期新增 2 条；综合日历与美食方向检索偏薄（Time Out 周末页为往年内容，Strut Your Mutt LA、Artisanal LA 无 2026 证据，未收）。未收：JPL Explore 10/10–11（免费票已订完）、Creekside Mission Viejo（仅称 10 月开业、无具体日）、City of the Sun 10/23（仅聚合站来源）
+- 运行时刻：2026-10-08 11:11 America/Los_Angeles（窗口 2026-10-07 17:10 至 2026-10-08 11:11）
+- 备注：本期新增 3 条；综合日历、美食开业方向检索偏薄（均只得往年或聚合页，未收）。Dodgers NLDS 结果无可靠 2026 来源，未收；LA Times Food Bowl Night Market 仍无 2026 日期。
 
 ## 2. 已报条目清单
 2026-10-01 | Thomas Rhett，10/2，Honda Center Anaheim | https://www.hondacenter.com/events/thomas-rhett/
@@ -72,6 +72,9 @@
 2026-10-07 | Concha Fest，10/10 14:00–18:00，Heritage Museum of Orange County Santa Ana | https://happeningnext.com/event/concha-fest-2026-eid1ef0l418b0va
 2026-10-07 | Charli xcx，10/17 与 10/18 20:00，Kia Forum Inglewood | https://www.jambase.com/show/charli-xcx-kia-forum-20261017
 2026-10-07 | 国家野生动物保护区免费日，10/11 | https://www.fws.gov/event/fee-free-day-first-sunday-national-wildlife-refuge-week-0
+2026-10-08 | The Neighbourhood 终场，10/9 19:00，Kia Forum Inglewood | https://www.livenation.com/event/vv170ZbgGkzetQ9Z/the-neighbourhood-the-wourld-tour
+2026-10-08 | Intocable，10/24 20:00，Honda Center Anaheim | https://www.ticketmaster.com/intocable-cultura-tour-2026-anaheim-california-10-24-2026/event/090064E1B08C886A
+2026-10-08 | Jungle，10/10 20:00，Crypto.com Arena Los Angeles | https://www.cryptoarena.com/events/detail/jungle101026
 
 ## 3. 进行中事件表
 - Laguna Beach Plein Air Invitational | 最后进展 2026-10-01 | 10 月 11 日闭幕前（最后一个周末 10 月 10 日）可提醒；核实官方场次与票价
@@ -82,10 +85,11 @@
 - Bowers Museum「Picasso Ceramics from the Rosenbaum Collection」| 最后进展 2026-10-01 | 10 月 24 日开幕，届时可收录（未报）
 - Taste of Santa Ana | 最后进展 2026-10-03 | 10 月 17 日前后关注售罄或最后一周提醒
 - TLC & Salt-N-Pepa with En Vogue | 最后进展 2026-10-03 | 10 月 10 日演出前关注售罄
-- Dodgers NLDS 次战 | 最后进展 2026-10-03 | 最后进展 2026-10-04：Game 3 为 10 月 6 日 15:00 PT（Atlanta）；Game 5 若需要为 10 月 9 日
+- Dodgers NLDS | 最后进展 2026-10-08 | 无可靠 2026 结果来源；若系列赛未结束，Game 5 为 10 月 9 日 Dodger Stadium（未报）
 - CicLAvia Heart of LA | 最后进展 2026-10-04 | 10 月 11 日当天；10 月 10 日前后可提醒（已报，仅做节点提醒）
 - LA Times Food Bowl Night Market | 最后进展 2026-10-05 | 日期矛盾（10/10–11 vs 10/23–24 Barker Hangar），2026-10-06 再搜仅得 2025 年信息；核实官方 lafoodbowl.com 后再决定是否收录
 - Off the Hook 海鲜节 | 最后进展 2026-10-05 | 10 月 11 日前关注售罄
 - Los Tigres del Norte Honda Center | 最后进展 2026-10-05 | 10 月 17 日前关注售罄
 - Rise Against Great Park Live | 最后进展 2026-10-05 | 10 月 23 日前关注售罄
 - Brodard Long Beach（2nd & PCH）| 最后进展 2026-10-05 | 2026-10-07 复查仍无具体开业日（官方称 2026 年内）；等官方公布开业日期，确认后收录（未报）
+- Jungle Crypto.com Arena | 最后进展 2026-10-08 | 10 月 10 日演出前关注售罄
