@@ -2,32 +2,12 @@
 
 ## 1. 本次运行时刻与实际覆盖窗口
 
-- 运行时刻：2026-10-07 10:21 UTC
-- 覆盖窗口：2026-10-06 10:21 UTC 至 2026-10-07 10:21 UTC（常规）
-- 空期：国庆假期，各方向窗口内无可核实的未报道实质新内容，按空期骨架输出。WebSearch 对日期限定查询返回偏弱，k.sina.com.cn、notateslaapp.com 被代理拦截无法读取。检索到的未证实线索（未收录）：notateslaapp称截至10/6休斯顿约190-200辆Cybercab，疑似筹备扩张，未能核实；Roadster仍定10/15。A股/期货休市至10/8，10/9恢复。
+- 运行时刻：2026-10-08 10:21 UTC
+- 覆盖窗口：2026-10-07 10:21 UTC 至 2026-10-08 10:21 UTC（常规）
+- 备注：WebSearch对日期限定查询返回偏弱，cnevpost.com WebFetch被代理拦截。未收录的未证实线索：奇瑞10/7高管分工调整公告（未核实到原文）；比亚迪10/7所谓9月产销快报（与9/30已报口径重复）；捷豹Type 01首发（时间待核，多称10/6纽约）；欧盟专员谢夫乔维奇10/8-9访京，结果尚未出。A股/期货10/9恢复交易。
 
 ## 2. 已报条目清单（最近14天）
 
-- 2026-09-22 | 乘联会9月1-13日全国乘用车零售同比降23%，新能源零售同比降10% | https://cn.investing.com/news/stock-market-news/article-3577260
-- 2026-09-22 | 吉利汽车登陆瑞士市场，沃尔沃新任CEO预计10月1日前履新 | http://news.10jqka.com.cn/20260922/c680143532.shtml
-- 2026-09-22 | 小鹏举行首届机器人供应链合作伙伴大会，首轮融资超9亿美元估值超63亿美元 | https://finance.sina.cn/2026-09-22/detail-inissuii2061867.d.html
-- 2026-09-22 | 宁德时代匈牙利德布勒森工厂开始试生产，规划产能100GWh | https://cnevpost.com/2026/09/22/catl-begins-trial-cell-production-hungary-plant/
-- 2026-09-22 | 金融时报：宁德时代开发面向美国皮卡市场电池设计，拟技术授权本地化生产 | https://insideevs.com/news/808953/catl-us-pickup-battery-cells/
-- 2026-09-22 | 理想汽车称固态电池2027或2028年小批量车型搭载 | https://cnevpost.com/2026/09/22/li-auto-solid-state-battery-limited-vehicle-use-2027-2028/
-- 2026-09-22 | WNEVC海口开幕，万钢披露L2渗透率超70%、预计2030年L3+渗透率超35% | https://finance.sina.com.cn/hy/hyjz/2026-09-22/doc-inissuii2067781.shtml
-- 2026-09-22 | 中美元首会晤日程明确：9/24白宫欢迎仪式+国宴，9/25离境 | https://www.cnbc.com/2026/09/22/cnbcs-the-china-connection-newsletter-watch-this-at-trump-xi-summit.html
-- 2026-09-22 | 欧盟拟接纳加拿大为"联席成员"，需修法或新框架协议经27国同意 | https://www.news.cn/20260922/470d28fd8aa34b8692006517745b1ff7/c.html
-- 2026-09-22 | 工信部旗下媒体发文反驳"去宁德时代化"论调 | https://cnevpost.com/2026/09/22/china-state-media-rebuts-de-catlization/
-- 2026-09-22 | Stellantis Brampton工厂劳资谈判进入"暂停待通知"状态 | https://www.unifor.org/news/all-news/unifor-statement-contract-negotiations-stellantis
-- 2026-09-22 | 比亚迪8月海外销量18.87万辆同比增134.6%，宣布第2000座高速闪充站将于9/24落成 | https://www.21jingji.com/article/20260922/herald/5558f449b204a01f3195223964dfe69a.html
-- 2026-09-22 | 中国8月对日稀土磁体出口212吨，降幅较7月大幅收窄 | https://www.cna.com.tw/news/acn/202609220192.aspx
-- 2026-09-22 | 长安董事长朱华荣在WNEVC提出"L3级及以上自动驾驶全球互认"倡议 | https://weibo.com/2/detail/comos:nistrnx1796250
-- 2026-09-22 | Waymo将青少年账号Robotaxi服务扩展至纳什维尔 | https://techcrunch.com/2026/09/22/waymos-latest-expansion-strategy-teenagers/
-- 2026-09-22 | 明尼阿波利斯市议会讨论拟限制自动驾驶车辆需配备人类监督员 | https://www.mprnews.org/story/2026/09/22/minneapolis-considers-autonomous-vehicle-restrictions-as-waymo-test-driving-continues
-- 2026-09-22 | 东风日产新N7正式上市，限时权益价10.99万元起 | https://auto.sina.com.cn/newcar/2026-09-22/detail-inistexc1957242.shtml
-- 2026-09-22 | 广汽传祺越7正式上市，30分钟订单破1.68万台 | https://auto.sina.com.cn/newcar/x/2026-09-22/detail-inistewx8913167.shtml
-- 2026-09-22 | 一汽红旗G919开启预售35.98万-43.98万元，首发亿纬锂能大圆柱电池 | https://auto.sina.com.cn/newcar/x/2026-09-22/detail-inistewv6787222.shtml
-- 2026-09-23 | 华为鸿蒙智行秋季发布会：问界M7、尚界H5正式上市，大定分别超3万台、1万台 | https://www.chnfund.com/article/ARd640c8ed-3b12-f1e7-359b-3a1c89873bf7
 - 2026-09-24 | 比亚迪如期完成全国第2000座高速闪充站建设，较原计划提前约3个月 | https://cnevpost.com/2026/09/23/byd-to-finish-2000-highway-flash-charging-stations/
 - 2026-09-24 | 比亚迪泰国罗勇府工厂第10万辆新能源车下线 | https://auto.ifeng.com/c/8weUD3Tdggo
 - 2026-09-24 | 蔚来第30000台ES9交付，长三角50万级纯电市场单车市占率24% | https://finance.sina.com.cn/tech/roll/2026-09-23/doc-inisvcpx6050075.shtml
@@ -137,6 +117,10 @@
 - 2026-10-03 | SNE Research：1-8月全球装车844.2GWh，宁德时代39.4%、比亚迪15.1% | https://www.sina.cn/weibo/detail/5349517311607456.html
 - 2026-10-03 | CNBC：特斯拉Cybercab奥斯汀首月不顺、面临扩张压力 | https://cnbc.com/2026/10/03/tesla-cybercab-pressure-to-expand-after-rocky-first-month-in-austin.html
 - 2026-10-04 | 宝马确认纯电M3不带"i"，2027年起慕尼黑生产 | https://www.bmwblog.com/2026/10/04/bmw-confirms-electric-m3-name/
+- 2026-10-08 | 蔚来乐道Onvo第20万台交付 | https://cnevpost.com/2026/10/08/onvo-reaches-200000-deliveries/
+- 2026-10-08 | 国庆假期高速新能源车充电671.1万次、1.63亿千瓦时 | https://cnevpost.com/2026/10/08/china-highway-nev-charging-demand-climbs-national-day-holiday/
+- 2026-10-08 | 小米Sky Nomad系列30天大定超7万台 | https://cnevpost.com/2026/10/08/xiaomi-sky-nomad-70000-locked-in-orders/
+- 2026-10-08 | 长安深蓝2027款L06定档10/9上市 | https://cnevpost.com/2026/10/08/changan-deepal-to-launch-2027-l06-oct-9/
 
 ## 3. 进行中事件表
 
