@@ -22,8 +22,8 @@ description: AI Agent/Skill 工程实践每日简报：agent 设计模式、prom
 
 - **Agent/Skill 设计模式**：多 agent 编排、工具/skill 接口设计、上下文工程（context engineering）、记忆机制、评估（eval）方法论的新思路或案例。
 - **Prompt 与 Context 工程**：具体可复用的 prompting 技巧、RAG/检索优化、上下文窗口管理、失败模式与调试方法。
-- **开发者工具与工作流**：Claude Code、Cursor、Windsurf、GitHub Copilot、Codex 等编码 agent 的新特性/更新；相关 CLI、SDK、MCP 生态更新；提升开发效率的具体技巧。
-- **模型能力与 API 更新（工程视角）**：Anthropic/OpenAI/Google 等模型或 API 更新中，直接影响 agent 构建方式的部分（tool use、computer use、structured output、上下文窗口、定价变化对架构选型的影响）——只收对"怎么构建 agent"有直接指导意义的部分，不收纯营销通稿或商业融资消息。
+- **开发者工具与工作流**：各类编码 agent 与 agent 开发工具（不限名单，含新出现的产品）的新特性/更新；相关 CLI、SDK、MCP 生态更新；提升开发效率的具体技巧。
+- **模型能力与 API 更新（工程视角）**：国内外各家模型或 API 更新中（不限厂商），直接影响 agent 构建方式的部分（tool use、computer use、structured output、上下文窗口、定价变化对架构选型的影响）——只收对"怎么构建 agent"有直接指导意义的部分，不收纯营销通稿或商业融资消息。
 - **案例与最佳实践复盘**：从业者（团队博客、个人技术博客、conference talk）公开分享的 agent/skill 构建经验教训，包括踩坑记录。
 - **社区热议与争议**：Hacker News、X/Twitter 工程师圈、Reddit（r/LocalLLaMA、r/ClaudeAI 等）里关于 agent 工程方法论的热点讨论或路线之争。
 

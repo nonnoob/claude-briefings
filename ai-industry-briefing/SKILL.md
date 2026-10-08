@@ -20,12 +20,14 @@ description: AI 行业每日简报：模型与产品、研究突破、商业资�
 
 按以下方向用 WebSearch 检索（每个方向给出优先信息源，实际检索不限于所列源）：
 
-1. **模型与产品**：前沿实验室（OpenAI、Anthropic、Google DeepMind、Meta AI、xAI、Mistral）与中国厂商（DeepSeek、阿里通义 Qwen、字节豆包/Seed、月之暗面 Kimi、智谱、MiniMax、阶跃星辰）的模型发布、产品上线、重大更新、API/定价变化。优先各家官方博客与发布页，辅以 TechCrunch、The Verge、机器之心、量子位。
+1. **模型与产品**：国内外各类 AI 公司——前沿实验室、科技大厂、创业公司、开源社区团队，不限名单、不只盯头部或熟悉的名字——的模型发布、产品上线、重大更新、API/定价变化。优先各家官方博客与发布页，辅以 TechCrunch、The Verge、机器之心、量子位。
 2. **研究与技术突破**：有实质影响的论文、新架构、新训练/推理方法、benchmark 重大变化、开源权重发布。优先 arXiv 热点、各实验室研究博客、Hacker News 高热讨论、Epoch AI。
 3. **商业与资本**：AI 公司融资、并购、估值变化、营收/商业化数据、重要人事变动（高管/核心研究员跳槽）、大客户合作。优先 The Information、Bloomberg、Reuters、CNBC、36 氪。
-4. **算力与基础设施**：AI 芯片（NVIDIA、AMD、Google TPU、自研 ASIC）、数据中心建设与投资、算力供需、能源约束。优先 SemiAnalysis、Reuters、Tom's Hardware、各芯片厂官方发布。
+4. **算力与基础设施**：AI 芯片（GPU、TPU、各家自研 ASIC 及新进入者，不限厂商）、数据中心建设与投资、算力供需、能源约束。优先 SemiAnalysis、Reuters、Tom's Hardware、各芯片厂官方发布。
 5. **监管、政策与安全**：美国/欧盟/中国 AI 监管动态、出口管制、重大安全事件、对齐与安全研究里程碑、版权诉讼进展。优先 Reuters、政府官方公告、各实验室安全团队博客。
 6. **传闻与前瞻**：未官宣的模型/产品爆料、供应链消息、有 track record 的行业内部人士透露。来源包括 The Information 独家、X 上可信爆料账号、供应链媒体。
+
+按方向检索完成后，再做一轮**热点兜底检索**：不限方向与公司，搜索窗口内 AI 相关的热搜/热议话题（含 Hacker News、X、微博等平台）与大幅异动的 AI 相关公司股价，把上述方向遗漏的高热度事件补进对应板块。
 
 明确排除：
 
