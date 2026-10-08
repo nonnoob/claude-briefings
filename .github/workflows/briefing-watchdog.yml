@@ -39,11 +39,11 @@ jobs:
           echo "本地日期 ${TODAY} (周 ${DOW}) ${HOUR} 点"
 
           # 日更任务
-          DAILY="tech-news-briefing automotive-industry-briefing ai-industry-briefing agent-engineering-briefing current-affairs-briefing local-events-briefing"
+          DAILY="tech-news-briefing automotive-industry-briefing ai-industry-briefing agent-engineering-briefing current-affairs-briefing local-events-briefing science-health-briefing"
           # 一天跑两次的任务（须同时列在 DAILY 里）：本地 18 点以后的检查要求当天有 2 份归档
           TWICE_DAILY="local-events-briefing"
           # 周更任务，格式 任务名:应跑星期几
-          WEEKLY="cloud-native-briefing:1 app-updates-briefing:5"
+          WEEKLY="cloud-native-briefing:1 app-updates-briefing:5 threads-review-briefing:7"
 
           EXPECTED="$DAILY"
           for pair in $WEEKLY; do
