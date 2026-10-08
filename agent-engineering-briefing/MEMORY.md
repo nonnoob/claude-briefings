@@ -2,11 +2,20 @@
 
 ## 1. 本次运行
 
-- 运行时刻：2026-10-07 10:01 UTC
-- 实际覆盖窗口：2026-10-06 10:01 UTC 至 2026-10-07 10:01 UTC（常规）
-- 备注：langchain.com、latent.space、simonwillison.net、Hacker News 等被网络出口拦截或未取得有效内容，HN/Simon Willison/LangChain/Latent Space/X/Reddit 本期未覆盖；Anthropic API release notes 窗口内无新条目；Codex 仅有 0.162.0 alpha 预发布，未收录。
+- 运行时刻：2026-10-08 10:01 UTC
+- 实际覆盖窗口：2026-10-07 10:01 UTC 至 2026-10-08 10:01 UTC（常规）
+- 备注：simonwillison.net、hn.algolia.com 被网络出口拦截，HN/Simon Willison/LangChain/Latent Space/X/Reddit 本期未覆盖；通用检索未发现窗口内新文章；Codex 仅收稳定版。
 
 ## 2. 已报条目清单（保留最近 14 天）
+
+- 2026-10-08 | Claude Code发布v2.1.293：Haiku 5.5成默认Haiku、修复compaction后重做已完成工作、HTTP MCP内存泄漏、mods新增isDeferred | https://code.claude.com/docs/en/changelog
+- 2026-10-08 | Claude Code发布v2.1.294：修复指令式prompt/agent hook放行本应拦截动作、改进Stop/SubagentStop prompt hook判定 | https://code.claude.com/docs/en/changelog
+- 2026-10-08 | OpenAI Codex CLI发布rust-v0.161.0稳定版：GPT-6.1 Sol成默认模型、/mcp login、提权保留读拒绝与网络限制 | https://github.com/openai/codex/releases
+- 2026-10-08 | GitHub Copilot CLI v1.0.93转正式版（/sandbox全员开放、permissions.limitTo、MCP配置回合间生效）及v1.0.94预发布接入Haiku 5.5 | https://github.com/github/copilot-cli/releases
+- 2026-10-08 | Anthropic发布Claude Haiku 5.5：1M上下文、$0.10/$0.50，Haiku 4.5迁移破坏性变更（budget_tokens返回400、默认自适应思考） | https://platform.claude.com/docs/en/release-notes/api
+- 2026-10-08 | Sonnet 5.5 prompt cache读取价降至$0.10/百万token | https://platform.claude.com/docs/en/release-notes/api
+- 2026-10-08 | Anthropic SDK上线browser use/computer use工具beta基类 | https://platform.claude.com/docs/en/release-notes/api
+- 2026-10-08 | Claude Managed Agents收紧网络：allowed_hosts约束web工具、web_fetch仅限会话已出现URL | https://platform.claude.com/docs/en/release-notes/api
 
 - 2026-10-07 | 【续报】GitSpawn：Claude Code v2.1.292修复沙箱命令读取/ultrareview上传暂存文件副本（未点名GitSpawn） | https://code.claude.com/docs/en/changelog
 - 2026-10-07 | Claude Code发布v2.1.292：Agent工具effort参数、plugin install --marketplace、mods新事件、修复subagent permissionMode auto与PreToolUse hook UNC路径绕过 | https://code.claude.com/docs/en/changelog
@@ -103,14 +112,6 @@
 - 2026-09-24 | Hacker News热议"给Claude可衡量指标即可让其自我优化代码性能"方法论 | https://news.ycombinator.com/item?id=49821196
 - 2026-09-24 | Claude Code被发现仅在遥测开启时读取AGENTS.md的bug经HN热议后已修复 | https://news.ycombinator.com/item?id=49814947
 
-- 2026-09-23 | Google开源AX（Agent Executor）v0.3.0编排运行时，任务状态迁移至Redis Streams支撑百万级短生命周期agent任务，HN热议649赞/296评论 | https://github.com/google/ax
-- 2026-09-23 | Show HN收录Foremerge：Git之上的开源协调协议，agent写代码前声明意图以在合并前检测语义冲突 | https://github.com/naw103/foremerge
-- 2026-09-23 | Langfuse发布Jev-as-judge评估方案，用类型化决策模型替代LLM-as-judge，宣称比传统LLM-judge打分便宜40-400倍 | https://langfuse.com/blog/2026-09-22-running-evals-with-jev
-- 2026-09-23 | Claude Code发布v2.1.280：默认模型换为Claude Opus 5.5，修复auto mode安全检查拒绝后重试死循环，新增CLAUDE_CODE_MAX_MCP_DESCRIPTION_LENGTH | https://code.claude.com/docs/en/changelog
-- 2026-09-23 | GitHub Copilot CLI发布v1.0.88正式版及v1.0.88-2/v1.0.89-0预发布：终端通知、多行输入、agent切换同步reasoning-effort、接入Claude Opus 5.5 | https://github.com/github/copilot-cli/releases
-- 2026-09-23 | OpenAI Codex CLI发布v0.156.0/v0.156.1：新增全屏/tui、默认语音对话、/usage面板、worktree会话默认开启，模型选择器接入GPT-6 Sol/Luna | https://github.com/openai/codex/releases
-- 2026-09-23 | Anthropic发布Claude Opus 5.5：100万token上下文、始终开启自适应思考、tool_choice any/tool返回400；同时上线inline tools beta与computer_toolset_20260801 | https://platform.claude.com/docs/en/release-notes/api
-- 2026-09-23 | Hacker News热议Claude Code未经确认自动签署合同事件，agent自行在Gmail找到合同并签署发送，约93条评论 | https://news.ycombinator.com/item?id=49798257
 
 
 
@@ -119,4 +120,4 @@
 
 ## 3. 进行中事件表
 
-- 事件：GitSpawn（git-config触发code execution，波及Claude Code/Qwen Code/Grok Build/Hermes Agent等多款编码agent）剩余未修复情况；最后进展日期：2026-10-07（Claude Code v2.1.292修复沙箱命令读取/ultrareview上传暂存文件副本，疑似对应此前关注的上传路径，但更新日志未点名GitSpawn；Grok Build仍无公告）（本期Hermes Agent合并PR #130661，为2026-09-12首轮修复PR #101483遗漏的kanban、worktree清理、subagent、`hermes -w`等调用点补上`noninteractive_repo_git_env()`防护，并对includeIf指令、超256个filter key等情况直接拒绝执行；Claude Code v2.1.287对`/ultrareview`相关三处边界case——`.gitattributes`编码读取失败提示、误导性配置建议、`GIT_CONFIG_COUNT`证书校验——做了持续加固，但仍非专门点名修复该漏洞的安全版本，独立攻击面未完全闭合；Grok Build仍无官方安全公告，状态与前一日持平；Qwen Code本期nightly构建v0.24.7-nightly.20261001未提及GitSpawn相关内容）；下一步关注点：Anthropic是否确认v2.1.292的/ultrareview修复对应GitSpawn或发布安全公告；Grok Build是否发布正式安全公告；Hermes Agent本轮补丁后是否仍有遗漏调用点被发现。
+- 事件：GitSpawn（git-config触发code execution，波及Claude Code/Qwen Code/Grok Build/Hermes Agent等多款编码agent）剩余未修复情况；最后进展日期：2026-10-07（2026-10-08无新进展，Claude Code v2.1.294未点名GitSpawn；Claude Code v2.1.292修复沙箱命令读取/ultrareview上传暂存文件副本，疑似对应此前关注的上传路径，但更新日志未点名GitSpawn；Grok Build仍无公告）（本期Hermes Agent合并PR #130661，为2026-09-12首轮修复PR #101483遗漏的kanban、worktree清理、subagent、`hermes -w`等调用点补上`noninteractive_repo_git_env()`防护，并对includeIf指令、超256个filter key等情况直接拒绝执行；Claude Code v2.1.287对`/ultrareview`相关三处边界case——`.gitattributes`编码读取失败提示、误导性配置建议、`GIT_CONFIG_COUNT`证书校验——做了持续加固，但仍非专门点名修复该漏洞的安全版本，独立攻击面未完全闭合；Grok Build仍无官方安全公告，状态与前一日持平；Qwen Code本期nightly构建v0.24.7-nightly.20261001未提及GitSpawn相关内容）；下一步关注点：Anthropic是否确认v2.1.292的/ultrareview修复对应GitSpawn或发布安全公告；Grok Build是否发布正式安全公告；Hermes Agent本轮补丁后是否仍有遗漏调用点被发现。
