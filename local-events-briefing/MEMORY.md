@@ -1,8 +1,8 @@
 # local-events-briefing MEMORY
 
 ## 1. 本次运行
-- 运行时刻：2026-10-07 11:10 America/Los_Angeles（窗口 2026-10-06 17:10 至 2026-10-07 11:10）
-- 备注：本期新增 3 条；综合日历、美食新店、展览方向检索偏薄，无可核实的新增（Time Out 周末页与 Birdman Live 搜到的是往年页面，未收）。未收：OC Home & Pet Fest 10/10–11 Costa Mesa（仅聚合站来源）、Saint Levant 10/17 House of Blues Anaheim、Jay-Z SoFi 10/23–24、Journey tribute 10/17（来源弱）、Zov's Costa Mesa 与 El Diablo Laguna Beach（无具体开业日）
+- 运行时刻：2026-10-07 17:10 America/Los_Angeles（窗口 2026-10-07 11:10 至 2026-10-07 17:10）
+- 备注：本期新增 2 条；综合日历与美食方向检索偏薄（Time Out 周末页为往年内容，Strut Your Mutt LA、Artisanal LA 无 2026 证据，未收）。未收：JPL Explore 10/10–11（免费票已订完）、Creekside Mission Viejo（仅称 10 月开业、无具体日）、City of the Sun 10/23（仅聚合站来源）
 
 ## 2. 已报条目清单
 2026-10-01 | Thomas Rhett，10/2，Honda Center Anaheim | https://www.hondacenter.com/events/thomas-rhett/
@@ -70,6 +70,8 @@
 2026-10-07 | Dinosaur Jr. 与 Stef Chura，10/15 19:00，House of Blues Anaheim | https://www.tickpick.com/buy-dinosaur-jr-stef-chura-tickets-house-of-blues-anaheim-10-15-26-7pm/8099080/
 2026-10-07 | Weezer The Gathering，10/24 19:00，Crypto.com Arena Los Angeles | https://www.cryptoarena.com/events/detail/weezer102426
 2026-10-07 | Concha Fest，10/10 14:00–18:00，Heritage Museum of Orange County Santa Ana | https://happeningnext.com/event/concha-fest-2026-eid1ef0l418b0va
+2026-10-07 | Charli xcx，10/17 与 10/18 20:00，Kia Forum Inglewood | https://www.jambase.com/show/charli-xcx-kia-forum-20261017
+2026-10-07 | 国家野生动物保护区免费日，10/11 | https://www.fws.gov/event/fee-free-day-first-sunday-national-wildlife-refuge-week-0
 
 ## 3. 进行中事件表
 - Laguna Beach Plein Air Invitational | 最后进展 2026-10-01 | 10 月 11 日闭幕前（最后一个周末 10 月 10 日）可提醒；核实官方场次与票价
