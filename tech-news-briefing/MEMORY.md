@@ -1,11 +1,9 @@
 ## 1. 本次运行时刻与覆盖窗口
 
-- 本次运行：2026-10-08 约18:42 UTC（补漏运行）
-- 上次运行：2026-10-08 约10:13 UTC（常规）
-- 覆盖窗口：2026-10-03 00:00 UTC – 2026-10-08 18:42 UTC（补漏：前几期核实过严导致漏报，按新规则重跑）。
-- 检索状态：部分成功。谷歌/安卓、系统更新、新品发布、科技公司、芯片、投融资并购、安全隐私、政策方向已检索；检索配额（每轮200次WebSearch）中途耗尽，开源软件方向本期未覆盖，科技人物、政策方向仅浅层覆盖，未做完整的热点兜底检索。大量站点WebFetch仍被出口代理拦截（engadget、notebookcheck、bgr、techstartups、finance.yahoo等），改用WebSearch摘要。
-- 漏报线索复核：Amazon 80亿美元芯片售后回租（10/2 FT）已补收；Intel 10月5日涨价传闻已补收（传闻+单源）；Citrix NetScaler新漏洞确认为CVE-2026-88779（10/4）已补收；Roundcube CVE-2026-48842被利用已于9/24报过，10/3新加坡CSA告警无实质增量，不收录；TSMC财报前瞻以9月营收（10/8）收录；苹果10/13发布会已于10/8官宣；美光台湾罢工投票结果仍未检索到。
-- 未收录：SonicWall SMA1000满分SSRF漏洞热修复、ASOS数据泄露、Double Counter（Discord机器人）泄露、Android 17 QPR3 Beta 1——日期或链接不足、优先级较低；Mistral Large 4、EmbeddingGemma 2等属AI行业简报范围。
+- 本次运行：2026-10-09 约10:12 UTC（常规）
+- 上次运行：2026-10-08 约18:42 UTC（补漏）
+- 覆盖窗口：2026-10-08 18:42 UTC – 2026-10-09 10:12 UTC。
+- 检索状态：各方向已做一轮检索与补搜，窗口仅约15小时，搜索引擎几乎未返回窗口内的新内容；仅补收上期漏报的美光台湾罢工投票结果（10/7）。Pwn2Own Ireland第二日结果、苹果10/13发布会新消息均未检索到新增。
 
 ## 2. 已报条目清单（最近14天）
 
@@ -155,6 +153,8 @@
 - 2026-10-08 | FBI警告FortiBleed攻击持续，凭据登录FortiGate并锁定管理员（单源，发布时间未确认） | https://bleepingcomputer.com/news/security/fbi-ongoing-fortibleed-attacks-lock-out-fortigate-vpn-admins
 - 2026-10-08 | 丹麦中央人口登记系统CPR数据泄露约880万人（单源，发布时间未确认） | 无公开链接
 - 2026-10-08 | Pwn2Own Ireland首日32个零日、Galaxy S26被攻破两次（单源，发布时间未确认） | https://www.bleepingcomputer.com/news/security/hackers-exploit-32-zero-days-on-first-day-of-pwn2own-ireland/
+
+- 2026-10-07 | 美光台湾桃园厂工会罢工权投票获99%赞成（1994/2012），未定罢工日期 | https://www.thestar.com.my/tech/tech-news/2026/10/07/micron039s-taoyuan-union-in-taiwan-secures-authorisation-to-strike
 
 ## 3. 进行中事件表（跨运行追踪，最多10条）
 
