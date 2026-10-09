@@ -1,8 +1,8 @@
 # local-events-briefing MEMORY
 
 ## 1. 本次运行
-- 运行时刻：2026-10-08 11:11 America/Los_Angeles（窗口 2026-10-07 17:10 至 2026-10-08 11:11）
-- 备注：本期新增 3 条；综合日历、美食开业方向检索偏薄（均只得往年或聚合页，未收）。Dodgers NLDS 结果无可靠 2026 来源，未收；LA Times Food Bowl Night Market 仍无 2026 日期。
+- 运行时刻：2026-10-08 17:11 America/Los_Angeles（窗口 2026-10-08 11:11 至 2026-10-08 17:11）
+- 备注：本期新增 3 条加 1 条提醒；综合日历、美食开业、Dodgers NLDS 结果方向检索偏薄（无可靠 2026 来源，未收）。Creekside Mission Viejo（RJB，OCBJ 称"今年 10 月"开业，年份与日期未确认）未收。
 
 ## 2. 已报条目清单
 2026-10-01 | Thomas Rhett，10/2，Honda Center Anaheim | https://www.hondacenter.com/events/thomas-rhett/
@@ -76,6 +76,11 @@
 2026-10-08 | Intocable，10/24 20:00，Honda Center Anaheim | https://www.ticketmaster.com/intocable-cultura-tour-2026-anaheim-california-10-24-2026/event/090064E1B08C886A
 2026-10-08 | Jungle，10/10 20:00，Crypto.com Arena Los Angeles | https://www.cryptoarena.com/events/detail/jungle101026
 
+2026-10-08 | Oktoberfest at the Bungalow，10/8–10/10 17:00，Fairmont Miramar Santa Monica | https://www.santamonica.com/event/oktoberfest-at-the-bungalow-2/2026-10-09/
+2026-10-08 | Stones Throw 30 音乐节，10/16–10/18，Highland Park Los Angeles | https://news.pollstar.com/2026/06/24/stones-throw-commemorates-30-years-with-three-day-festival/
+2026-10-08 | Magic of the Jack O'Lanterns，9/18–11/1，South Coast Botanic Garden | https://hauntedattractionnetwork.com/magic-of-the-jack-olanterns-returns-to-palos-verdes-with-10000-pumpkins-for-2026/
+2026-10-08 | Laguna Beach Plein Air 最后周末提醒（10/10–10/11）| https://carealestategroup.com/things-to-do-orange-county-october-2026/
+
 ## 3. 进行中事件表
 - Laguna Beach Plein Air Invitational | 最后进展 2026-10-01 | 10 月 11 日闭幕前（最后一个周末 10 月 10 日）可提醒；核实官方场次与票价
 - Knott's Scary Farm | 最后进展 2026-10-01 | 10 月 31 日结束；关注加场或售罄
@@ -93,3 +98,5 @@
 - Rise Against Great Park Live | 最后进展 2026-10-05 | 10 月 23 日前关注售罄
 - Brodard Long Beach（2nd & PCH）| 最后进展 2026-10-05 | 2026-10-07 复查仍无具体开业日（官方称 2026 年内）；等官方公布开业日期，确认后收录（未报）
 - Jungle Crypto.com Arena | 最后进展 2026-10-08 | 10 月 10 日演出前关注售罄
+- Stones Throw 30 | 最后进展 2026-10-08 | 单日票 $60 "即将开售"；10 月 16 日前关注单日票开售、售罄或阵容补充
+- Creekside Mission Viejo（RJB）| 最后进展 2026-10-08 | 等确认 2026 年具体开业日（未报）
