@@ -1,8 +1,8 @@
 # local-events-briefing MEMORY
 
 ## 1. 本次运行
-- 运行时刻：2026-10-08 17:11 America/Los_Angeles（窗口 2026-10-08 11:11 至 2026-10-08 17:11）
-- 备注：本期新增 3 条加 1 条提醒；综合日历、美食开业、Dodgers NLDS 结果方向检索偏薄（无可靠 2026 来源，未收）。Creekside Mission Viejo（RJB，OCBJ 称"今年 10 月"开业，年份与日期未确认）未收。
+- 运行时刻：2026-10-09 11:11 America/Los_Angeles（窗口 2026-10-08 17:11 至 2026-10-09 11:11）
+- 备注：本期新增 5 条；综合日历、美食开业、Dodgers NLDS 结果方向检索偏薄（无可靠 2026 来源，未收）。Santa Anita Oktoberfest 2026 日期未确认（未收）；Din Tai Fung South Coast Plaza 扩建、Verde Costa Mesa 仅称"今秋"开业，无具体日期（未收）。
 
 ## 2. 已报条目清单
 2026-10-01 | Thomas Rhett，10/2，Honda Center Anaheim | https://www.hondacenter.com/events/thomas-rhett/
@@ -80,6 +80,11 @@
 2026-10-08 | Stones Throw 30 音乐节，10/16–10/18，Highland Park Los Angeles | https://news.pollstar.com/2026/06/24/stones-throw-commemorates-30-years-with-three-day-festival/
 2026-10-08 | Magic of the Jack O'Lanterns，9/18–11/1，South Coast Botanic Garden | https://hauntedattractionnetwork.com/magic-of-the-jack-olanterns-returns-to-palos-verdes-with-10000-pumpkins-for-2026/
 2026-10-08 | Laguna Beach Plein Air 最后周末提醒（10/10–10/11）| https://carealestategroup.com/things-to-do-orange-county-october-2026/
+2026-10-09 | Carved 夜间南瓜灯展，至 11/1 每晚 18:00–22:00，Descanso Gardens La Cañada Flintridge | https://hauntedattractionnetwork.com/carved-descanso-gardens-2026/
+2026-10-09 | Yum Food Fest & Night Market，10/10–10/11，Shops at Palm Desert | https://app.discotech.me/events/38255301-yum-food-fest-and-night-market-l-october-10-and-11-2026-at-yum-food-fest
+2026-10-09 | Cristian Castro，2027-02-12，Honda Center Anaheim | https://www.eventworld.co/anaheim/cristian-castro-tickets-2027-02-12-531430/
+2026-10-09 | OCMA Tokio Ueyama 展，9/26–2027-02-28，Costa Mesa | https://www.artrabbit.com/events/tokio-ueyama-the-hollows-between-mountains
+2026-10-09 | AFI FEST，10/21–10/25，TCL Chinese Theatres Hollywood | https://hoodline.com/2026/08/afi-fest-turns-40-in-hollywood-passes-now-on-sale-for-october-run/
 
 ## 3. 进行中事件表
 - Laguna Beach Plein Air Invitational | 最后进展 2026-10-01 | 10 月 11 日闭幕前（最后一个周末 10 月 10 日）可提醒；核实官方场次与票价
@@ -89,14 +94,11 @@
 - Hollywood Bowl My Chemical Romance 10/30–10/31 | 最后进展 2026-10-02（已报）| 10 月 29 日前后关注售罄或加场
 - Bowers Museum「Picasso Ceramics from the Rosenbaum Collection」| 最后进展 2026-10-01 | 10 月 24 日开幕，届时可收录（未报）
 - Taste of Santa Ana | 最后进展 2026-10-03 | 10 月 17 日前后关注售罄或最后一周提醒
-- TLC & Salt-N-Pepa with En Vogue | 最后进展 2026-10-03 | 10 月 10 日演出前关注售罄
-- Dodgers NLDS | 最后进展 2026-10-08 | 无可靠 2026 结果来源；若系列赛未结束，Game 5 为 10 月 9 日 Dodger Stadium（未报）
 - CicLAvia Heart of LA | 最后进展 2026-10-04 | 10 月 11 日当天；10 月 10 日前后可提醒（已报，仅做节点提醒）
 - LA Times Food Bowl Night Market | 最后进展 2026-10-05 | 日期矛盾（10/10–11 vs 10/23–24 Barker Hangar），2026-10-06 再搜仅得 2025 年信息；核实官方 lafoodbowl.com 后再决定是否收录
 - Off the Hook 海鲜节 | 最后进展 2026-10-05 | 10 月 11 日前关注售罄
 - Los Tigres del Norte Honda Center | 最后进展 2026-10-05 | 10 月 17 日前关注售罄
 - Rise Against Great Park Live | 最后进展 2026-10-05 | 10 月 23 日前关注售罄
 - Brodard Long Beach（2nd & PCH）| 最后进展 2026-10-05 | 2026-10-07 复查仍无具体开业日（官方称 2026 年内）；等官方公布开业日期，确认后收录（未报）
-- Jungle Crypto.com Arena | 最后进展 2026-10-08 | 10 月 10 日演出前关注售罄
 - Stones Throw 30 | 最后进展 2026-10-08 | 单日票 $60 "即将开售"；10 月 16 日前关注单日票开售、售罄或阵容补充
-- Creekside Mission Viejo（RJB）| 最后进展 2026-10-08 | 等确认 2026 年具体开业日（未报）
+- AFI FEST | 最后进展 2026-10-09 | 10 月 21 日开幕前后可做节点提醒；关注单场票开售（已报）
