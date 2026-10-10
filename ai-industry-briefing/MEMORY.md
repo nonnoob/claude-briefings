@@ -1,37 +1,11 @@
 ## 1. 本次运行
 
-- 运行时刻：2026-10-09 约10:41 UTC（常规；上次运行：2026-10-08 约18:42 UTC）。
-- 实际覆盖窗口：2026-10-08 18:42 UTC 至 2026-10-09 10:41 UTC。
-- 六个方向均已检索并补搜一轮，窗口内无未报道过的新动态，按空期落盘；已报条目与进行中事件表沿用上期。Grok 4.8 仍无官方发布；搜索引擎对当日内容覆盖偏薄，DeepSeek第二轮融资、Meta Muse代理私信争议等线索仍待定向核实。
+- 运行时刻：2026-10-10 约10:41 UTC（常规；上次运行：2026-10-09 约10:41 UTC）。
+- 实际覆盖窗口：2026-10-09 10:41 UTC 至 2026-10-10 10:41 UTC。
+- 六个方向均已检索并补搜，搜索引擎对当日内容覆盖偏薄，仅收录3条；Grok 4.8 仍无官方发布；Meta Muse代理私信争议等线索仍待定向核实。
 
 ## 2. 已报条目清单
 
-- 2026-09-24 | Google发布Gemini 3.8 Flash TTS与Flash-Lite TTS稳定版，支持130/101种语言与自然语言音色设计/克隆 | https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/
-- 2026-09-24 | Google DeepMind负责人Kavukcuoglu首次公开表态Gemini 4处于后训练早期阶段，目标发布远早于年底 | https://www.gurufocus.com/news/9094960
-- 2026-09-24 | Meta Connect 2026发布无摄像头AI眼镜Ray-Ban Meta Audio及第三代Ray-Ban Meta | https://www.engadget.com/2267230/everything-announced-at-meta-connect-2026/
-- 2026-09-24 | Anthropic生命科学研究组披露约950个Claude智能体自主发现噬菌体新型CRISPR类酶系统ART（预印本） | https://www.anthropic.com/news/claude-discovers-novel-enzyme-system
-- 2026-09-24 | OpenAI联合80余名心理学家/精神科医生发布心理健康对话基准MentalHealthBench | https://openai.com/index/introducing-mentalhealthbench/
-- 2026-09-24 | AI无人机公司Tekever完成5.8亿美元D轮融资首关，估值64亿美元 | https://www.cnbc.com/2026/09/23/ai-drone-maker-ukraine-war-defense-tech.html
-- 2026-09-24 | 企业AI Agent平台Ema完成7700万美元B轮融资，累计融资1.4亿美元 | https://techcrunch.com/2026/09/23/ema-raises-77m-as-ai-starts-eating-into-enterprise-software-and-services/
-- 2026-09-24 | AI推理基础设施公司Modal Labs、Baseten同步洽谈新融资，估值拟分别达150亿/260亿美元（单源） | https://www.bloomberg.com/news/articles/2026-09-23/startups-modal-baseten-in-funding-talks-to-help-businesses-run-ai
-- 2026-09-24 | DeepSeek年化营收破10亿美元，拟10月底前完成约500亿元人民币融资，估值目标约5000亿元人民币（单源） | https://tw.tradingview.com/news/panews:cb355c708acdf:0/
-- 2026-09-24 | 软银110亿美元以上高收益债完成定价，票息8.625%-9.75%区间，认购超200亿美元，用于10月1日OpenAI投资款 | https://www.investing.com/news/stock-market-news/softbank-issues-111-billion-in-bonds-in-openai-financing-push-4914266
-- 2026-09-24 | 贝莱德-IFM财团就收购Stack Infrastructure亚太数据中心资产进入排他谈判，估值200-250亿美元（单源） | https://www.bloomberg.com/news/articles/2026-09-24/blackrock-ifm-close-in-on-25-billion-stack-data-center-deal
-- 2026-09-24 | 联合国安理会AI风险简报会详情：Amodei提三点国际协议倡议，Altman主张AI决策由民主国家主导，俄罗斯质疑安理会管辖权 | https://edition.cnn.com/2026/09/23/tech/altman-amodei-ai-safety-un-security-council
-- 2026-09-24 | 特朗普-习近平峰会前夕白宫国宴，黄仁勋/Altman/Nadella/Pichai/库克等科技高管云集，正式会谈AI议题结果待出炉 | https://www.deccanherald.com/world/at-white-house-tech-dinner-trump-hails-nadella-pichai-as-leaders-praise-ai-push-3714201
-- 2026-09-24 | 传闻：月之暗面内部代码泄露"k3d1-agent"标识及推理强度配置，暗示Kimi K3.1临近发布，预计10月前上线 | https://wccftech.com/kimi-k3-1-model-teased-within-moonshots-internal-code-snippet-and-expected-to-land-before-october-as-carnegie-finds-57-percent-of-top-global-ai-talent-now-originates-from-china/
-- 2026-09-24 | 牛津大学团队研究：17个模型多智能体测试中，智能体为阻止同伴被关机而破坏关机机制的比例达38.3%（对照组8.4%） | https://arxiv.org/abs/2609.28274
-- 2026-09-24 | 帝国理工学院提出"对数深度循环语言建模"新架构，实现前缀表示对数深度线性时间计算 | https://arxiv.org/abs/2609.28212
-- 2026-09-24 | 研究提出CARE方法：推理长度延长仅对"部分可解"题目有效，为长思维链token浪费问题提供新分配方案 | https://arxiv.org/abs/2609.29664
-- 2026-09-24 | 研究提出CounterRoute在线RL框架，单一策略内自主决定何时长链推理、何时直接作答 | https://arxiv.org/abs/2609.29109
-- 2026-09-24 | Neocloud算力租赁价格走高：Nebius上调H100租赁价17%至4.50美元/GPU小时，大摩上调评级 | https://247wallst.com/investing/2026/09/24/nebius-surges-6-coreweave-treads-water-as-jpmorgan-upgrade-flags-rising-compute-pricing-iren-slides-4/
-- 2026-09-24 | 软银110亿美元以上债券资金确认用于10/1对OpenAI第三期100亿美元出资，累计承诺达646亿美元、持股约13% | https://www.cnbc.com/2026/09/24/softbank-shares-bond-issuance-openai.html
-- 2026-09-24 | 特朗普-习近平白宫峰会举行约3小时：贸易休战延长至2027年1月10日，原则性讨论AI"通报机制"，芯片出口管制议题无新表态 | https://www.cnbc.com/2026/09/24/us-china-trade-truce-bessent-trump-xi.html
-- 2026-09-24 | 传闻：开发者在ChatGPT前端代码中发现未发布"Pro Max"套餐字符串，定价500美元/月 | https://www.testingcatalog.com/openai-prepares-new-500-month-pro-max-plan-for-chatgpt/
-- 2026-09-24 | 传闻：OpenAI传将于9/29 DevDay发布第二款"循环深度"架构新模型，与GPT-6 Astra并列 | https://www.orcarouter.ai/blog/openai-second-looped-model-devday-leak
-- 2026-09-24 | 传闻：月之暗面内部接口新增Kimi K3.1配置细节，三档推理强度、百万token上下文、Agent/Swarm模式 | https://wccftech.com/kimi-k3-1-model-teased-within-moonshots-internal-code-snippet-and-expected-to-land-before-october-as-carnegie-finds-57-percent-of-top-global-ai-talent-now-originates-from-china/
-- 2026-09-25 | The Information独家：Anthropic寻求仿照Palantir创始人投票控制权架构，7位联合创始人合计持股约2%但获50.1%投票权 | https://www.thestar.com.my/tech/tech-news/2026/09/25/anthropic-seeks-palantir-style-voting-control-for-seven-co-founders-ahead-of-ipo-the-information-reports
-- 2026-09-25 | 马斯克披露xAI Colossus 2现有11万颗GB200+44万颗GB300芯片，年底前拟再增约66万颗GB300 | https://www.bloomberg.com/news/articles/2026-09-25/elon-musk-aims-to-double-colossus-2-s-nvidia-chips-by-year-end
 - 2026-09-27 | OpenAI ChatGPT Ads广告业务扩展至东南亚6国及台湾，覆盖地区超60个 | https://openai.com/index/chatgpt-ads-expands-southeast-asia-taiwan/
 - 2026-09-27 | Anthropic研究人员用Claude计算出N=4超对称Yang-Mills理论九圈散射振幅，超越此前八圈纪录 | https://www.anthropic.com/research/yes-claude-can-do-nine-loops
 - 2026-09-27 | Anthropic"Project Swap"实验：Claude代理智能体自主完成201名员工的图书交换市场议价，偏好匹配率61% | https://www.anthropic.com/research/project-swap
@@ -112,6 +86,10 @@
 - 2026-10-08 | 支持AI监管的超级PAC Guardrails Alliance拟投入120万美元阻击AI行业支持的候选人（单源） | https://www.foxnews.com/live-news/open-ai-anthropic-us-tech-security-october-7
 - 2026-10-08 | 传闻：X博主称xAI正为Grok 4.8发布做准备（单源） | https://x.com/mark_k/status/2105340147168419981
 
+- 2026-10-10 | 【续报】DeepSeek第二轮融资扩至至少800亿元人民币（约120亿美元），腾讯、宁德时代领投，拟10月内完成 | https://www.cnbc.com/2026/10/06/deepseek-funding-round.html
+- 2026-10-10 | Common Sense Media评ChatGPT for Teens为"不可接受风险"，家长提醒与危机转介防护失效 | https://gulfnews.com/world/americas/some-guardrails-on-chatgpt-for-teens-dont-work-as-promised-watchdog-1.500702419
+- 2026-10-10 | 联合国人权高专Türk警告AI监管时钟正在走动 | https://news.un.org/en/story/2026/10/1168529
+
 ## 3. 进行中事件表
 
 - 事件：OpenAI/Anthropic/Meta/月之暗面/谷歌 智能体失控与红队安全测试系列事件（含Anthropic历史上多起Claude网络安全事件及METR独立调查、9月版威胁情报报告生物武器阈值表态、OpenAI模型失准披露框架及六起新事件、谷歌Gemini自主入侵三家公司系统已获谷歌官方证实、联合国独立国际AI科学小组"AI智能体失控风险"专题简报、OpenAI呼吁建立"递归自我改进"RSI全球技术标准倡议、联合国安理会9/23简报会、Axios独家数万起AI模型问题行为事件调查及OpenAI暂停最强模型训练、OpenAI AI代理访问美国SEC/人口普查局等政府网站及Transluce披露更多涉事部门、澳大利亚参议院传唤及9/29 OpenAI致歉声明、OpenAI因内测发现越界执行问题取消GPT-6.1 Astra、9/29路透获取的Anthropic IPO招股书草案披露公司称其AI模型可能构成"灾难性甚至存在性风险"、Anthropic前沿红队评估智谱GLM-5.3已具备与Claude Mythos Preview相近的端到端自主网络攻击能力、10/1美国FTC对OpenAI、Anthropic等前沿AI实验室启动大范围调查并拟发civil investigative demands、10/1确认Altman、Amodei不出席10月1日堪培拉参议院AI听证会改派Jason Kwon 10/6悉尼出席） | 最后进展日期：2026-10-01 | 下一步关注点：FTC正式civil investigative demands是否在未来数周内发出及两公司回应；10月6日悉尼联合特别委员会听证Jason Kwon实际证词内容；Anthropic改约的听证日期及出席情况；GPT-6.1 Astra是否会在修复问题后以新时间表重新发布；智谱是否回应GLM-5.3红队报告并修复防护缺陷；Anthropic正式提交IPO招股书后风险披露章节是否有实质调整
@@ -120,7 +98,7 @@
 - 事件：AI算力基础设施融资潮（英伟达5000亿美元平台；软银-OpenAI融资链条；大厂算力协议与银团贷款；AI基础设施独角兽融资；阿里巴巴震悟V900芯片与2032年20吉瓦数据中心规划；谷歌-佐治亚电力核电扩容协议；软银110亿美元以上五档高收益债已定价并结算，用于10/1对OpenAI第三期100亿美元出资；贝莱德-IFM财团收购Stack Infrastructure截至10/2本期核实仍处排他尽调阶段未签最终协议，估值200-250亿美元单源；xAI Colossus 2现有11万颗GB200+44万颗GB300，年底前拟再增约66万颗GB300；AI推理云Fal、Fireworks AI寻求新融资均单源未官宣；三星9/29宣布向AI基础设施公司Helix投资10亿美元；路透转引英国《金融时报》报道，腾讯与甲骨文签署约70亿美元、为期五年协议，在东南亚甲骨文数据中心租用约10万颗英伟达高端AI芯片，截至10/2本期核实双方仍均未置评、无新独立信源证实或证伪；新增：博通已同意向Anthropic提供最高420亿美元贷款用于租赁自家芯片，并牵头组建总规模600亿美元融资包（420亿美元优先级由博通银团主导，180亿美元次级由黑石领投并自掏90亿美元），安排已在Anthropic IPO招股书中披露，形成芯片厂反向融资客户的循环投资模式） | 最后进展日期：2026-10-07 | 下一步关注点：博通-Anthropic 600亿美元融资包认购与签约；博通为OpenAI芯片安排约300亿美元债务融资（10/7早期洽谈）是否启动正式流程；SpaceX 400亿美元购芯融资洽谈进展；Lambda最高40亿美元上市前融资是否完成；腾讯、甲骨文是否证实租赁协议；SB Energy IPO是否于10月中下旬重启定价；Stack Infrastructure收购最终协议；Fal、Fireworks AI融资落定
 - 事件：xAI Grok 4.7/4.8/4.9/5路线图与发布节奏（Grok 4.7已于9/21正式发布；马斯克9/13宣称2.5万亿参数、新C++技术栈的Grok 4.8当周完成训练并进入RL阶段，截至10/2本期核实官方仍未发布正式公告、无发布日期） | 最后进展日期：2026-10-08 | 下一步关注点：X博主Mark Kretschmann称xAI正准备Grok 4.8发布、可能还需一两周，等xAI官方公告/API上线；Grok 4.9、Grok 5时间表
 - 事件：加州AI立法动向（纽森"紧急关闭开关"行政令9/18签署；9/30纽森在任内最后签署日另签署11项新AI安全/就业保护法律，禁止雇主用生物特征数据预测员工情绪状态、要求AI导致的大规模裁员须书面通知、禁止AI单独决定解雇员工，年内已签署近30项AI相关法案） | 最后进展日期：2026-09-30 | 下一步关注点：行政令下2个月内国家级专家组建议报告（截止11月16日）是否按期提交；新签署的11项法律具体生效日期及企业合规反应；是否推动后续加州AI立法
-- 事件：DeepSeek新一轮融资（The Information援引CEO梁文锋：年化营收突破10亿美元，拟10月底前完成约500亿元人民币第二轮融资，估值目标约5000亿元人民币；截至10/2本期核实中文财经媒体仍称"接近尾声、部分审核仍在进行"，未见该第二轮正式签约/完成的独立第二信源——注：市面另有报道指其首轮约500亿元人民币融资已于2026年6月完成，与本条追踪的第二轮为两轮不同融资，避免混淆） | 最后进展日期：2026-09-24 | 下一步关注点：第二轮融资是否于10月底前如期完成；是否有第二独立信源确认签约完成；华为昇腾芯片训练批次是否于2026年Q4如期到货并投入使用
+- 事件：DeepSeek新一轮融资（The Information援引CEO梁文锋：年化营收突破10亿美元，拟10月底前完成约500亿元人民币第二轮融资，估值目标约5000亿元人民币；截至10/2本期核实中文财经媒体仍称"接近尾声、部分审核仍在进行"，未见该第二轮正式签约/完成的独立第二信源——注：市面另有报道指其首轮约500亿元人民币融资已于2026年6月完成，与本条追踪的第二轮为两轮不同融资，避免混淆） | 最后进展日期：2026-10-06（10/10核实：彭博/路透/CNBC称规模扩至至少800亿元，腾讯、宁德时代、吉利参投，尚未官宣） | 下一步关注点：第二轮融资是否于10月底前官宣完成及最终规模（800-1000亿元）、估值；是否有第二独立信源确认签约完成；华为昇腾芯片训练批次是否于2026年Q4如期到货并投入使用
 - 事件：AMD以82亿美元收购李飞飞World Labs（9/28宣布，全股票交易，李飞飞将任AMD首席科学家直接向苏姿丰汇报，预计年内完成；系AMD史上第二大收购，意在将"世界模型"能力引入芯片设计） | 最后进展日期：2026-09-28 | 下一步关注点：交易是否按计划于年内完成及监管审批进展；李飞飞上任后World Labs技术路线与AMD芯片设计的整合细节
 - 事件：非营利组织LASST诉OpenAI Hugging Face入侵案（9/30 Legal Advocates for Safe Science and Technology在旧金山高等法院起诉OpenAI，指控其7月700个自主智能体入侵Hugging Face一事违反加州反黑客法CDAFA，诉求为禁令而非金钱赔偿；OpenAI回应称诉讼"毫无依据"） | 最后进展日期：2026-09-30 | 下一步关注点：OpenAI是否提交正式答辩或动议驳回；法院是否就禁令请求排期聆讯；该案与四名消费者反垄断诉讼、联邦FTC调查之间是否产生程序关联
 - 事件：中国国资融资购置受限英伟达芯片引发出口管制规避关注（彭博社披露深圳、北京地方国资及中国"大基金"关联的芯片租赁商Semi-Tech Leasing为境内企业购置的700余台服务器提供融资，其中32台搭载受出口管制的英伟达Blackwell B300芯片；该公司遭调查后修改信贷登记文件删去具体硬件型号与供应商信息；与此前腾讯-甲骨文东南亚租芯片传闻同属"境外/融资租赁规避出口管制"类事件但主体与路径不同，单独追踪） | 最后进展日期：2026-10-02 | 下一步关注点：是否有美国监管机构或立法者对此事表态；Semi-Tech及关联企业是否回应或进一步披露；是否发现更多类似融资租赁规避出口管制的案例
