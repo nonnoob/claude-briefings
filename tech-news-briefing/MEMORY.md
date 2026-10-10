@@ -1,12 +1,14 @@
 ## 1. 本次运行时刻与覆盖窗口
 
-- 本次运行：2026-10-09 约10:12 UTC（常规）
-- 上次运行：2026-10-08 约18:42 UTC（补漏）
-- 覆盖窗口：2026-10-08 18:42 UTC – 2026-10-09 10:12 UTC。
-- 检索状态：各方向已做一轮检索与补搜，窗口仅约15小时，搜索引擎几乎未返回窗口内的新内容；仅补收上期漏报的美光台湾罢工投票结果（10/7）。Pwn2Own Ireland第二日结果、苹果10/13发布会新消息均未检索到新增。
+- 本次运行：2026-10-10 约10:10 UTC（常规）
+- 上次运行：2026-10-09 约10:12 UTC（常规）
+- 覆盖窗口：2026-10-09 10:12 UTC – 2026-10-10 10:10 UTC。
+- 检索状态：各方向已检索并补搜，搜索引擎对窗口内新内容返回极少；收录Pwn2Own收官续报与Oxide融资（单源）。美光罢工、苹果10/13发布会无新增。
 
 ## 2. 已报条目清单（最近14天）
 
+- 2026-10-10 | Pwn2Own Ireland收官：98个零日、126.2万美元，Pixel 10被三队远程攻破，Galaxy S26被攻破6次 | https://www.zerodayinitiative.com/blog/2026/10/8/pwn2own-ireland-2026-day-three-results-amp-master-of-pwn
+- 2026-10-10 | Oxide Computer据称完成4.45亿美元D轮融资（单源） | https://techstartups.com/2026/10/09/startup-funding-news-today-october-9-2026-arena-bloomx-ocean-scanntech-more/
 - 2026-09-24 | 中美元首白宫会晤启动AI风险对话机制贸易休战延至2026年1月10日芯片出口管制未纳入议程 | https://www.cnbc.com/2026/09/24/china-confirms-first-ai-talks-with-us-have-taken-place-hints-at-trade-truce-extension.html
 - 2026-09-24 | 一加官方公布一加16影像规格（2亿像素主摄），正式发布会定于10月中旬 | https://www.ithome.com/1/006/563.htm
 - 2026-09-24 | 荣耀CEO提前公布Magic9标准版定价5499元起，发布会定档9月28日 | https://www.ithome.com/1/006/846.htm
