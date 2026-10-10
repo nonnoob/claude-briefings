@@ -1,8 +1,8 @@
 # local-events-briefing MEMORY
 
 ## 1. 本次运行
-- 运行时刻：2026-10-09 11:11 America/Los_Angeles（窗口 2026-10-08 17:11 至 2026-10-09 11:11）
-- 备注：本期新增 5 条；综合日历、美食开业、Dodgers NLDS 结果方向检索偏薄（无可靠 2026 来源，未收）。Santa Anita Oktoberfest 2026 日期未确认（未收）；Din Tai Fung South Coast Plaza 扩建、Verde Costa Mesa 仅称"今秋"开业，无具体日期（未收）。
+- 运行时刻：2026-10-09 17:10 America/Los_Angeles（窗口 2026-10-09 11:11 至 2026-10-09 17:10）
+- 备注：本期新增 1 条、续报 1 条；综合日历、美食开业方向检索偏薄。Santa Anita Oktoberfest 2026（10/10–11 及 10/17–18 仅见单一汇总来源，官方未核实）未收；Tig Notaro Largo 10/10 显示售罄未收。
 
 ## 2. 已报条目清单
 2026-10-01 | Thomas Rhett，10/2，Honda Center Anaheim | https://www.hondacenter.com/events/thomas-rhett/
@@ -85,6 +85,8 @@
 2026-10-09 | Cristian Castro，2027-02-12，Honda Center Anaheim | https://www.eventworld.co/anaheim/cristian-castro-tickets-2027-02-12-531430/
 2026-10-09 | OCMA Tokio Ueyama 展，9/26–2027-02-28，Costa Mesa | https://www.artrabbit.com/events/tokio-ueyama-the-hollows-between-mountains
 2026-10-09 | AFI FEST，10/21–10/25，TCL Chinese Theatres Hollywood | https://hoodline.com/2026/08/afi-fest-turns-40-in-hollywood-passes-now-on-sale-for-october-run/
+2026-10-09 | Saosin 20 周年巡演开场，10/23 18:00，House of Blues Anaheim | https://www.tickpick.com/buy-saosin-tickets-house-of-blues-anaheim-10-23-26-6pm/7957457/
+2026-10-09 | CicLAvia 节点提醒（10/11 周日），Downtown LA | https://ciclavia.org/events/heart-of-la-2026-10/
 
 ## 3. 进行中事件表
 - Laguna Beach Plein Air Invitational | 最后进展 2026-10-01 | 10 月 11 日闭幕前（最后一个周末 10 月 10 日）可提醒；核实官方场次与票价
@@ -102,3 +104,4 @@
 - Brodard Long Beach（2nd & PCH）| 最后进展 2026-10-05 | 2026-10-07 复查仍无具体开业日（官方称 2026 年内）；等官方公布开业日期，确认后收录（未报）
 - Stones Throw 30 | 最后进展 2026-10-08 | 单日票 $60 "即将开售"；10 月 16 日前关注单日票开售、售罄或阵容补充
 - AFI FEST | 最后进展 2026-10-09 | 10 月 21 日开幕前后可做节点提醒；关注单场票开售（已报）
+- Santa Anita Oktoberfest 2026 | 最后进展 2026-10-09 | 仅 Resident.com 称 10/10–11、10/17–18；核实 santaanita.com 官方日期后再决定是否收录（未报）
