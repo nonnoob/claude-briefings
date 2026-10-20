@@ -1,47 +1,15 @@
 # MEMORY
 
 ## 1. 本次运行
-- 运行时刻：2026-10-10 04:10 PDT（11:10 UTC）
-- 实际覆盖窗口：2026-10-09 11:10 UTC 至 2026-10-10 11:10 UTC（常规）
-- 本期检索很薄：搜索引擎对10/9–10/10当日内容覆盖差；诺贝尔和平奖（10/9公布）两次检索仍未能核实得主，未收录，下次再补查；美国国内政治/法院、中国要闻、社会民生、加州与南加未找到窗口内新内容；通讯社站点（AP/Reuters）被检索工具屏蔽。
+- 运行时刻：2026-10-19 19:05 PDT（2026-10-20 02:05 UTC）
+- 实际覆盖窗口：2026-10-12 19:05 PDT 至 2026-10-19 19:05 PDT（补漏：上次运行为 2026-10-10 04:10 PDT，按 7 天封顶截断；窗口外仅补收至今仍重要的大事及上期漏查的诺贝尔和平奖）
+- 六个方向及钱包数字均已检索完成。Bouquet Fire（已100%控制）、最高法院第三国遣返案、无证移民无保释羁押案、口袋撤销8.1亿美元案、西雅图联邦检察官Rogoff案、H-1B 10万美元费用诉讼、$5,000"特朗普红利"、俄罗斯疑似肺鼠疫均已闭合或逾14天无新进展，移出进行中事件表。
 
 ## 2. 已报条目清单
-2026-10-01 | 最高法院暂时允许特朗普第三国遣返政策 | https://www.npr.org/2026/09/29/g-s1-145266/supreme-court-trump-third-country-deportations
-2026-10-01 | 特朗普政府以口袋撤销削减8.1亿美元联邦资金 | https://www.nbcnews.com/politics/trump-administration/live-blog/trump-xi-white-house-media-ban-un-iran-congress-2026-live-updates-rcna599784
-2026-10-01 | 第六巡回法院叫停Christa Pike行刑 | https://www.nbcnews.com/politics/trump-administration/live-blog/trump-xi-white-house-media-ban-un-iran-congress-2026-live-updates-rcna599784
-2026-10-01 | 中国9月制造业PMI 50.1、非制造业50.2 | https://english.news.cn/20260930/988df4994f144057b0dd16ae65d14d1b/c.html
-2026-10-01 | 习近平国庆前夕称民族复兴势不可挡 | https://www.breitbart.com/asia/2026/10/01/xi-jinping-calls-chinas-rise-unstoppable-communist-celebrations/
-2026-10-01 | 中美互降约600亿美元商品关税并延长休战 | https://www.nbcnews.com/business/consumer/china-us-tariff-cuts-60-billion-trump-xi-rcna600214
-2026-10-01 | 美国8月核心PCE同比3.0%低于预期 | https://www.cnbc.com/2026/09/30/treasury-yields-bonds-selloff.html
-2026-10-01 | 美10年期国债收益率升至5.29%，9月道指跌4.9% | https://tradingeconomics.com/united-states/government-bond-yield
-2026-10-01 | ADP 9月新增私营就业9万 | https://www.cnbc.com/2026/09/30/treasury-yields-bonds-selloff.html
-2026-10-01 | 南加极端高温观察，周五起 | https://mynewsla.com/orange-county/2026/09/30/extreme-heat-watches-issued-as-major-heat-wave-nears/
-2026-10-01 | 纽森签署地方新闻税优及野火重建法案 | https://calmatters.org/economy/2026/09/local-news-tax-breaks/
-
-2026-10-02 | 法官裁定特朗普无权解雇西雅图联邦检察官Rogoff，司法部上诉 | https://www.nbcnews.com/politics/justice-department/judge-overturns-trumps-decision-fire-court-appointed-us-attorney-seatt-rcna601046
-2026-10-02 | 政府将约5200万美元乌克兰相关援助改拨拉美 | https://unn.ua/en/news/the-trump-administration-is-redirecting-aid-under-the-ukraine-law-to-latin-america-wp
-2026-10-02 | 五角大楼增派第三个航母群至中东 | https://www.washingtonpost.com/national-security/2026/10/01/pentagon-prepares-potential-surge-naval-forces-middle-east/
-2026-10-02 | 伊朗收到美方对霍尔木兹七天方案的答复，特朗普称很快决定 | https://www.aljazeera.com/news/2026/8/5/iran-oman-us-close-to-hormuz-deal-what-do-they-all-want
-2026-10-02 | 南加极端高温警告至周五晚8点，北LA县红旗警告 | https://mynewsla.com/orange-county/2026/10/01/extreme-heat-warnings-issued-as-socal-heat-wave-approaches/
-2026-10-03 | 最高法院受理无证移民无保释羁押案 | https://www.scotusblog.com/2026/10/court-grants-three-cases-as-new-term-is-set-to-begin/
-2026-10-03 | Rogoff案：法官拒绝暂缓禁令，政府请第九巡回暂停 | https://www.law360.com/articles/2533530/trump-asks-9th-circ-to-pause-seattle-us-atty-reinstatement
-2026-10-03 | 中国9月底出台稳增长增量政策包，10月1日起执行 | https://news.cgtn.com/news/2026-10-01/China-s-new-policy-package-signals-stronger-support-for-growth-1QSScYpCUKs/share_amp.html
-2026-10-03 | 特朗普拒绝伊朗七天霍尔木兹方案，称选后可能再打 | https://www.pbs.org/newshour/world/trump-rejects-irans-proposal-to-reopen-the-strait-of-hormuz-and-other-middle-east-news
-2026-10-03 | 中国对美农产品免10%关税但排除大豆 | https://www.agweb.com/news/u-s-china-tariff-deal-excludes-soybeans-leaving-market-disappointed
-2026-10-03 | 传闻：美拟10月阿布扎比乌俄有限停火会谈 | https://news.liga.net/en/war/news/the-atlantic-us-seeks-to-organize-talks-with-ukraine-and-russia-in-abu-dhabi-in-october
-2026-10-03 | 美9月非农+2.9万（预期8.4万），失业率4.2% | https://www.bls.gov/news.release/empsit.nr0.htm
-2026-10-03 | Freddie Mac 30年房贷7.28%，WTI 89.60 | https://themortgagereports.com/mortgage-rates-now/mortgage-rates-today-october-2-2026
-2026-10-03 | 南加高温持续至10月8日，SCE/SDG&E拟预防性断电 | https://www.claimsjournal.com/news/national/2026/10/02/340496.htm
-
-2026-10-04 | 特朗普称对伊朗将"轻松或艰难方式"二选一，即将决定 | https://www.iranintl.com/en/202610048164
-2026-10-04 | CME显示10月美联储加息概率降至17% | https://realestatenews.com/2026/10/02/fed-rate-hike-less-likely-after-job-gains-miss-the-mark
-2026-10-04 | SDG&E已在Descanso实施预防性断电，近3.5万用户或受影响 | https://timesofsandiego.com/business/2026/10/02/san-diego-public-safety-power-shutoffs-heat/
-
 2026-10-05 | 第九巡回批准行政性暂缓，Rogoff复职暂停 | https://news.bloomberglaw.com/business-and-practice/appeals-court-pauses-return-of-seattle-us-attorney-trump-fired
 2026-10-05 | 万斯戴维营主持伊朗问题会议，特朗普称将决定 | https://www.iranintl.com/en/202610048164
 2026-10-05 | SCE考虑对河滨县约9,990户预防性断电，SDG&E逾3.5万户待定 | https://www.cbsnews.com/losangeles/news/socal-edison-considers-public-safety-shutoffs-heat-fire-risk/
 2026-10-05 | 纽森否决高铁监督法案及两项野火保险法案 | https://calmatters.org/politics/2026/10/newsom-veto-high-speed-rail-oversight/
-
 2026-10-08 | DHS提议对F-1学生OPT推荐收取7万/3万美元费用 | https://www.dhs.gov/news/2026/10/07/dhs-proposes-fees-foreign-student-work-program-protect-american-jobs
 2026-10-08 | 特朗普内布拉斯加集会称"让他们炸掉洛杉矶、圣地亚哥"，纽森等批评 | https://www.livenowfox.com/news/trump-suggests-iran-take-out-los-angeles-campaign-rally
 2026-10-08 | 特朗普重申$5,000"特朗普红利"，尚无立法与资金 | https://hollywoodlife.com/2026/10/05/trump-5000-checks/
@@ -65,20 +33,34 @@
 2026-10-09 | Bouquet Fire控制率83%，撤离令解除 | https://mynewsla.com/fire/2026/10/08/firefighters-increase-containment-of-forest-fire-near-santa-clarita-to-83/
 2026-10-10 | 特朗普称伊朗谈判富有成效、选前不动武，伊朗外长称审阅美方回应 | https://ijr.com/discover/oil-prices-fall-as-trump-signals-iran-talks-6b739799
 2026-10-10 | 布伦特回落至约103美元、WTI约91，飓风Isaias停产约130万桶/日 | https://www.marinelink.com/news/oil-prices-fall-trump-vows-not-attack-543598
+2026-10-19 | 特朗普签署女性健康行政令，在NIH设专门女性健康部门并推动AI医学研究 | https://www.cbsnews.com/news/trump-executive-order-on-womens-health/
+2026-10-19 | 绿卡持有人Mahmoud Khalil向联邦最高法院提交紧急申请挑战初始羁押管辖权裁决 | https://www.aljazeera.com/news/2026/10/19/mahmoud-khalil-takes-deportation-fight-to-the-us-supreme-court
+2026-10-19 | DHS针对F-1学生OPT推荐收取7万/3万美元费用规则草案刊登联邦公报，评论期至11月9日 | https://www.federalregister.gov/documents/2026/10/08/2026-20660/optional-practical-training-fees
+2026-10-19 | 中期选举前两周民调显示特朗普支持率降至31%—33%任内低点，民主党通用选票领先约8个百分点 | https://www.washingtonpost.com/politics/2026/10/18/trump-approval-hits-record-low-handing-democrats-clear-midterm-edge/
+2026-10-19 | 中国三季度GDP同比增长4.5%、前三季度增长4.6%，9月工业增加值增5.5%、社零增1.1% | https://www.stats.gov.cn/english/PressRelease/202610/t20261019_1965619.html
+2026-10-19 | 全国卫生与健康大会在北京召开，部署十五五健康中国建设与基本医保省级统筹 | http://en.cppcc.gov.cn/2026-10/13/c_1218901.htm
+2026-10-19 | 特朗普签署行政令将《格雷厄姆制裁俄罗斯与伊朗法案》对俄二级关税暂缓60天执行 | https://www.theguardian.com/world/2026/oct/18/ukraine-war-briefing-trumps-sanctions-waiver-is-a-60-day-pause-to-analyse-economic-impact-says-rubio
+2026-10-19 | 美伊重开霍尔木兹海峡谈判停滞，伊朗要求先解除海上封锁与石油制裁 | https://www.washingtonpost.com/world/2026/10/18/tehran-seeks-punish-trump-midterms-with-oil-price-pain-iranian-officials-say/
+2026-10-19 | 中储粮与中粮等国有买家单周集中订购至少20船约130万吨美国大豆 | https://theedgemalaysia.com/node/822138
+2026-10-19 | 2026年诺贝尔和平奖授予南非籍前联合国人权高专纳瓦内瑟姆·皮莱（Navi Pillay） | https://www.nobelprize.org/prizes/peace/2026/press-release/
+2026-10-19 | 美国9月CPI同比升至3.7%（环比+0.6%），核心CPI同比2.6%，10月议息维持利率概率约85% | https://tradingeconomics.com/united-states/inflation-cpi
+2026-10-19 | 中国9月美元计出口同比增36.3%，PPI同比涨5.0%，CPI同比涨0.9% | https://tradingeconomics.com/china/producer-prices-change
+2026-10-19 | Freddie Mac 30年期固定房贷利率持平于7.40%，10年期美债收益率回落至约5.10% | https://www.freddiemac.com/pmms
+2026-10-19 | 加州普通汽油均价回落至6.17美元/加仑，美元兑人民币在6.68附近震荡 | https://gasprices.aaa.com/?state=CA
+2026-10-19 | 美国社会保障局宣布2027年社保COLA上调3.6%，社保税工资上限升至192,300美元 | https://www.ssa.gov/news/en/press/releases/2026-10-14.html
+2026-10-19 | 云南公布楚雄“2·17”游乐船倾覆致4死事故调查报告，17名公职人员被追责 | https://www.chinanews.com.cn/sh/2026/10-19/10717481.shtml
+2026-10-19 | 橙县圣克莱门特爆发Norte Fire山火损毁至少6栋住宅、一度疏散1.6万人，控制率达80% | https://www.gov.ca.gov/2026/10/16/california-secures-federal-assistance-to-support-response-to-norte-fire-in-orange-county/
+2026-10-19 | 加州总检察长邦塔就法院大楼移民逮捕提起第100起对特朗普政府诉讼 | https://calmatters.org/justice/2026/10/california-100-trump-lawsuits/
+2026-10-19 | 加州住房监管部门申请恢复对橙县亨廷顿海滩市每月5万美元住房违规罚款 | https://davisvanguard.org/2026/10/california-seeking-huntington-beach-penalties/
 
 ## 3. 进行中事件表
-- 伊朗霍尔木兹/美军封锁 | 最后进展 2026-10-09 | 特朗普称谈判富有成效、选前不攻击伊朗，伊朗称正审阅美方回应、封锁继续；等伊朗正式答复、选后（11月3日后）是否恢复作战、正式谈判恢复或封锁解除、第三航母群抵达、正式谈判恢复或封锁解除、第三航母群抵达
-- 美联储加息路径 | 最后进展 2026-10-07 | 纪要显示多数官员倾向年内再加息一次；等9月CPI（约10月中旬）及10月27–28日会议决定
-- 俄乌谈判 | 最后进展 2026-10-04 | 美方拟10月底前办三方技术级会谈（可能在阿联酋）；等俄方答复与官宣日期地点；另等10月18日美方对俄实体制裁决定
-- OPT收费规则草案 | 最后进展 2026-10-07 | 等联邦公报正式刊登与30天评论期截止、高校或团体诉讼
-- 俄罗斯疑似肺鼠疫 | 最后进展 2026-10-06 | 等特朗普—普京通话结果、俄方病原确认及世卫后续评估
-- $5,000"特朗普红利" | 最后进展 2026-10-03 | 等Moreno选后提出法案、资金来源与资格细则
-- 美国国债收益率高位 | 最后进展 2026-10-08 | 10年期回落至5.23%，Freddie Mac房贷7.40%；等9月CPI（约10月14日前后）后收益率与下周房贷利率走向
-- 中国稳增长政策包 | 最后进展 2026-10-05 | 蓝佛安称精准财政托底；等国庆黄金周官方数据、9月进出口与CPI（CPI/PPI定于10月14日）、二十届五中全会（10月26–29日）
-- 南加高温与山火 | 最后进展 2026-10-08 | 高温警告至10月8日，Bouquet Fire控制率83%；等全面控制、高温结束、SCE/SDG&E断电恢复
-- 最高法院第三国遣返案 | 最后进展 2026-09-29 | 等12月言词辩论日期与后续命令
-- 无证移民无保释羁押案 | 最后进展 2026-10-02 | 等言词辩论日期
-- 中美关税互降落实 | 最后进展 2026-10-02 | 等正式清单/生效日期，及大豆是否后续纳入
-- 口袋撤销8.1亿美元 | 最后进展 2026-09-30 | 加州等7州已于9月30日在北加州联邦法院起诉、GAO认定违法；等法院裁定或国会回应
-- 西雅图联邦检察官Rogoff案 | 最后进展 2026-10-04 | 第九巡回已批行政性暂缓（案号26-6445）；等其对暂缓上诉申请的实质裁定
-- H-1B 10万美元费用诉讼 | 最后进展 2026-10-01 | 北加州联邦法院部分初步禁令；等政府上诉及退款安排
+- 伊朗霍尔木兹海峡与美军封锁 | 最后进展 2026-10-18 | 美伊重开海峡谈判停滞，伊朗要求先解除海上封锁与制裁；等美伊是否重启谈判、11月3日中期选举后美方是否恢复军事行动
+- 美联储10月议息会议 | 最后进展 2026-10-19 | 9月CPI升至3.7%后市场预期10月27—28日维持利率不变概率约85%、加息概率约15%；等10月28日FOMC利率决议与鲍威尔表态
+- 俄乌谈判与对俄制裁豁免 | 最后进展 2026-10-18 | 特朗普将《格雷厄姆制裁法案》对俄二级关税暂缓60天（至12月中旬）；等10月底阿联酋三方技术级会谈是否成行及国会反应
+- F-1学生OPT高额收费规则草案 | 最后进展 2026-10-19 | 草案（首次7万、后续3万美元）已刊登联邦公报，公众评论期至11月9日；等高校或行业团体提起联邦诉讼及评论期截止后续动向
+- Mahmoud Khalil最高法院紧急申请 | 最后进展 2026-10-19 | Khalil请求最高法院推翻第三巡回关于移民拘留管辖权的裁决；等最高法院对紧急申请的命令
+- 美国2026中期选举（11月3日） | 最后进展 2026-10-18 | 提前投票进行中，民主党国会通用选票领先约8个百分点；等关键摇摆州选情与11月3日投票结果
+- 中国宏观经济与二十届五中全会 | 最后进展 2026-10-19 | 三季度GDP增4.5%；等10月下旬二十届五中全会（审议“十五五”规划建议）公报与后续财政政策落地
+- 中美贸易休战与美豆采购 | 最后进展 2026-10-16 | 中储粮等单周订购约130万吨美豆，但整粒大豆10%—13%关税尚未正式豁免；等中方是否调整大豆关税及后续采购进展
+- 橙县Norte Fire山火与灾后处置 | 最后进展 2026-10-19 | 过火570英亩、损毁至少6栋住宅，控制率达80%；等100%控制及起火原因调查结论
+- 加州起诉ICE法院逮捕案 | 最后进展 2026-10-15 | 邦塔向加州中区联邦法院起诉ICE违反裁决继续在法院抓人；等联邦法官是否签发临时限制令或初步禁令
