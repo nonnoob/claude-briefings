@@ -2,11 +2,25 @@
 
 ## 1. 本次运行
 
-- 运行时刻：2026-10-20 06:15 UTC
-- 实际覆盖窗口：2026-10-13 06:15 UTC 至 2026-10-20 06:15 UTC（补漏：上次运行 2026-10-10 10:05 UTC，超出 7 天封顶；2026-10-10 至 2026-10-13 期间仅收录至今仍重要的大事）
-- 备注：四个方向（开发者工具与工作流、模型能力与API更新、Agent架构与设计模式、社区热议与争议）均已检索核实。Claude Code 更新至 v2.1.303 并推出 Code Review GA；Anthropic 披露用自研服务端版本控制 Scion 替换核心单仓 Git；Codex CLI 发布 rust-v0.163.0；Copilot CLI 更新至 v1.0.99-3；Qwen Code 发布 v0.25.2/v0.25.3。
+- 运行时刻：2026-10-26 08:25 UTC
+- 实际覆盖窗口：2026-10-20 06:15 UTC 至 2026-10-26 08:25 UTC（常规）
+- 备注：六个板块（Agent/Skill 设计模式、Prompt 与 Context 工程、开发者工具与工作流、模型能力与 API 更新、案例与最佳实践复盘、社区热议与争议）均已检索核实。Anthropic 将 Agent Skills 捐赠给 AAIF（同日 OpenAI/HF/阿里捐出 Open Responses/OpenEnv/OpenSandbox）；Claude API 发布 `2026-10-21` 版本并移除 `temperature`/`top_p`/`top_k`；Claude Code 更新至 v2.1.310；Codex CLI 发布 `rust-v0.164.0`；Copilot CLI 更新至 v1.0.104；Qwen Code 发布 v0.26.0；Kimi K3.1 Pro 与 LlamaIndex OCRia-1 发布；前期追踪的 GitSpawn 事件连续逾 14 天无新增官方安全公告，按规移出进行中事件表。
 
 ## 2. 已报条目清单（保留最近 14 天）
+
+- 2026-10-26 | Anthropic将Agent Skills标准捐赠给AAIF，OpenAI、Hugging Face、阿里同步捐出Open Responses、OpenEnv与OpenSandbox | https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation
+- 2026-10-26 | LangChain提出构建企业多人共享生产级Agent的五要素Company Harness框架 | https://www.langchain.com/blog/components-building-company-harness
+- 2026-10-26 | Hamel Husain发布《How To Use Decision Models for Evals》，倡导用轻量决策分类器校准阈值替代LLM自报置信度 | https://hamel.dev/blog/posts/decision-model-evals/
+- 2026-10-26 | LangChain发表《Context Engineering Starts with Retrieval》，提出精确探路、大输出转存文件与子agent委读三层检索治理 | https://www.langchain.com/blog/context-engineering-starts-with-retrieval
+- 2026-10-26 | OpenAI Responses API上线12小时超长Prompt Cache（ttl="12h"，写入费2.5x，同步应用于Codex与ChatGPT Work） | https://aiweekly.co/alerts/openai-adds-12-hour-prompt-cache-ttl-to-api-25x-write-cost
+- 2026-10-26 | Claude Code发布v2.1.304至v2.1.310：/auto-mode-setup、safety_event遥测、MCP幂等重试限制、修复四处沙箱逃逸、云厂商Monitor工具 | https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md
+- 2026-10-26 | OpenAI Codex CLI发布rust-v0.164.0：10槽位/presets、/model与/permissions内联参数配置、修复会话恢复覆盖线程设置 | https://sourceforge.net/projects/openai-codex.mirror/files/rust-v0.164.0/
+- 2026-10-26 | GitHub Copilot CLI发布v1.0.100至v1.0.104（子agent原生结构化输出、assistedApprovalInstructions、ghapp插件安装）；Qwen Code发布v0.26.0（低水位线微压缩、daemon令牌持久化） | https://github.com/github/copilot-cli/releases
+- 2026-10-26 | Anthropic发布API版本2026-10-21及Python SDK 2.0/TS SDK 1.0：彻底移除temperature/top_p/top_k（传参返400）、切换Bearer鉴权头 | https://docs.anthropic.com/en/release-notes/api
+- 2026-10-26 | Moonshot AI发布2.8T MoE模型Kimi K3.1 Pro（1M上下文，承诺11/4开源权重）；LlamaIndex发布4B文档解析视觉模型OCRia-1 | https://simonwillison.net/2026/Oct/23/kimi-k31-pro/
+- 2026-10-26 | Modal CEO Erik Bernhardsson在Latent Space复盘临时Agent沙箱（ephemeral sandboxes）爆发、快照克隆冷启动与隔离边界设计 | https://latent.space/p/modal-d/
+- 2026-10-26 | 【续报】OpenCode Console密钥泄露后续：受害者遭盗刷最高逾1700美元，官方归因于大规模模型蒸馏攻击引发争议，提醒需赴模型厂商控制台手动吊销 | https://thehackernews.com/2026/10/opencode-console-breach-may-have.html
+- 2026-10-26 | Kimi K3.1 Pro技术报告披露开源前主动清洗网络攻击与漏洞利用语料，引发社区关于安全对齐与自动化安全审计agent能力权衡热议 | https://simonwillison.net/2026/Oct/23/kimi-k31-pro/
 
 - 2026-10-19 | Claude Code发布v2.1.299至v2.1.303：54分钟终端空闲自动压缩、Mods虚拟文本与子agent轨迹视图、OTel tool_decision埋点、SDK/桌面/VS Code默认开启fork subagents | https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md
 - 2026-10-19 | Anthropic将Claude Code多agent代码审查（Code Review）转为正式版（GA），披露内部90%代码由Claude编写、持续流审查令回滚率降逾40% | https://www.unite.ai/anthropic-makes-code-review-for-claude-code-generally-available/
@@ -22,40 +36,7 @@
 - 2026-10-19 | Jeremy Scheff《My obituary for programming》（经Simon Willison推介）引发社区对传统手写代码解谜乐趣消逝的共鸣 | https://simonwillison.net/2026/Oct/19/my-obituary-for-programming/
 - 2026-10-19 | OpenCode旧系统遭入侵波及约1.4% Console用户保存的第三方AI API密钥；印度CERT-In发布自治agent配置令牌越界警告 | https://seethroughai.substack.com/p/top-ai-news-of-the-week-33-october
 
-- 2026-10-10 | Claude Code发布v2.1.296：subagent autoCompactWindow、CLAUDE_CODE_WORKFLOW_SUBAGENT_MODEL、Read allow_large | https://code.claude.com/docs/en/changelog
-- 2026-10-10 | OpenAI Codex CLI发布rust-v0.162.1稳定版：修复TUI多行异步提问崩溃与启动特性不一致 | https://github.com/openai/codex/releases
-- 2026-10-10 | GitHub Copilot CLI v1.0.95正式版与v1.0.96-0至-2预发布：权限时间线、/add-dir沙箱授权、密钥掩码主机 | https://github.com/github/copilot-cli/releases
-- 2026-10-10 | Claude Managed Agents上线Dynamic Workflows beta：agent自写多agent工作流并服务端后台运行 | https://platform.claude.com/docs/en/release-notes/api
-- 2026-10-10 | 【续报】【矛盾】GitSpawn：Grok Build修复状态仍无官方公告 | https://labs.cloudsecurityalliance.org/research/csa-research-note-ai-coding-agent-git-config-rce-20260904-cs/
-
-- 2026-10-09 | Claude Code发布v2.1.295：hook新增onFailure:"block"、claude.ai connector默认协商MCP 2026-07-28、MCP工具描述截断上限提至16384字符、subagent最多预加载32个skill | https://code.claude.com/docs/en/changelog
-- 2026-10-09 | OpenAI Codex CLI发布rust-v0.162.0稳定版：受管Git worktree工具、Code Mode排序式tool search、自定义provider远程compaction | https://github.com/openai/codex/releases
-- 2026-10-09 | GitHub Copilot CLI v1.0.95-0至-2预发布：沙箱injectHosts凭据注入、macOS Entra broker认证、--context对ACP会话生效 | https://github.com/github/copilot-cli/releases
-- 2026-10-09 | Qwen Code发布v0.25.1-preview.1：后台Shell与Monitor运行时、实验性K8s CSI运行时、agent/goal声明默认延迟加载 | https://github.com/QwenLM/qwen-code/releases
-- 2026-10-09 | 【续报】【矛盾】GitSpawn：Grok Build修复状态两说（Shattered.io称待定；Grith称1.0.13已修复），xAI无官方公告 | https://grith.ai/blog/git-config-key-2022-fix-coding-agents
-
-- 2026-10-08 | Claude Code发布v2.1.293：Haiku 5.5成默认Haiku、修复compaction后重做已完成工作、HTTP MCP内存泄漏、mods新增isDeferred | https://code.claude.com/docs/en/changelog
-- 2026-10-08 | Claude Code发布v2.1.294：修复指令式prompt/agent hook放行本应拦截动作、改进Stop/SubagentStop prompt hook判定 | https://code.claude.com/docs/en/changelog
-- 2026-10-08 | OpenAI Codex CLI发布rust-v0.161.0稳定版：GPT-6.1 Sol成默认模型、/mcp login、提权保留读拒绝与网络限制 | https://github.com/openai/codex/releases
-- 2026-10-08 | GitHub Copilot CLI v1.0.93转正式版（/sandbox全员开放、permissions.limitTo、MCP配置回合间生效）及v1.0.94预发布接入Haiku 5.5 | https://github.com/github/copilot-cli/releases
-- 2026-10-08 | Anthropic发布Claude Haiku 5.5：1M上下文、$0.10/$0.50，Haiku 4.5迁移破坏性变更（budget_tokens返回400、默认自适应思考） | https://platform.claude.com/docs/en/release-notes/api
-- 2026-10-08 | Sonnet 5.5 prompt cache读取价降至$0.10/百万token | https://platform.claude.com/docs/en/release-notes/api
-- 2026-10-08 | Anthropic SDK上线browser use/computer use工具beta基类 | https://platform.claude.com/docs/en/release-notes/api
-- 2026-10-08 | Claude Managed Agents收紧网络：allowed_hosts约束web工具、web_fetch仅限会话已出现URL | https://platform.claude.com/docs/en/release-notes/api
-
-- 2026-10-07 | 【续报】GitSpawn：Claude Code v2.1.292修复沙箱命令读取/ultrareview上传暂存文件副本（未点名GitSpawn） | https://code.claude.com/docs/en/changelog
-- 2026-10-07 | Claude Code发布v2.1.292：Agent工具effort参数、plugin install --marketplace、mods新事件、修复subagent permissionMode auto与PreToolUse hook UNC路径绕过 | https://code.claude.com/docs/en/changelog
-- 2026-10-07 | GitHub Copilot CLI v1.0.93-0至-4预发布：/sandbox与--sandbox向全部用户开放、MCP配置变更下一轮生效、企业托管域名边界 | https://github.com/github/copilot-cli/releases
-
-- 2026-10-06 | Claude Code发布v2.1.290：Mods hook新增serverToolUses与tool.check agentId/ceiling，修复WebFetch静默截断10万字符后文本、plan mode误批非只读connector工具等 | https://code.claude.com/docs/en/changelog
-- 2026-10-06 | Claude Code发布v2.1.291：修复2.1.290云端session丢失权限提示答复、2.1.288退出时丢失最后消息两处回归 | https://code.claude.com/docs/en/changelog
-- 2026-10-06 | OpenAI Codex CLI发布rust-v0.160.1：远程stdio MCP server保留SYSTEMROOT/TEMP/TMP环境变量 | https://github.com/openai/codex/releases
-- 2026-10-06 | GitHub Copilot CLI v1.0.92转正式版：copilot config子命令、本地/云端环境选择器、shell输出实时流式、沙箱shell默认不带GitHub token | https://github.com/github/copilot-cli/releases
-
-- 2026-10-05 | GitHub Copilot CLI发布v1.0.92-4预发布：copilot config子命令、MCP并发连接提速与挂起修复、沙箱权限修复 | https://github.com/github/copilot-cli/releases/tag/v1.0.92-4
-- 2026-10-05 | 【单源】Show HN Pi pod：在自有服务器沙箱运行Pi编码agent，自托管隐私向 | https://news.ycombinator.com/item?id=49937304
-
 ## 3. 进行中事件表
 
-- 事件：GitSpawn（git-config触发code execution，波及多款编码agent）剩余未修复情况；最后进展日期：2026-10-10（本期10/13-10/19窗口内无新增官方安全公告，Claude Code v2.1.299-303更新日志未点名GitSpawn，xAI对Grok Build仍无正式安全公告）；下一步关注点：Anthropic或xAI是否发布正式CVE或安全公告说明最终闭环。
-- 事件：OpenCode Console 第三方 AI 供应商密钥泄露事件后续；最后进展日期：2026-10-16（OpenCode披露旧版系统入侵致约1.4% Console用户托管的OpenAI/Anthropic/Google API key潜在暴露并启动吊销）；下一步关注点：OpenCode是否发布详细事后取证报告（post-mortem）及密钥加密存储架构改造方案。
+- 事件：OpenCode Console 第三方 AI 供应商密钥泄露事件后续；最后进展日期：2026-10-20（受害开发者出现数百至逾 1700 美元异常盗刷账单，OpenCode 将攻击归因于黑客利用被盗密钥抓取前沿模型输出进行"大规模蒸馏攻击"引发安全圈质疑，并提醒在 Console 界面删除密钥不会在模型厂商侧自动吊销）；下一步关注点：OpenCode 是否发布详细事后取证报告（post-mortem）及密钥加密存储架构改造方案。
+- 事件：Kimi K3.1 Pro 完整模型权重开源兑现与编码 agent 实测；最后进展日期：2026-10-23（Moonshot AI 发布 2.8T 参数 MoE 模型 Kimi K3.1 Pro API 并承诺于 2026-11-04 开放完整模型权重）；下一步关注点：11 月 4 日是否如期发布完整开源权重、具体开源许可证条款及社区本地/私有云编码 agent 实测表现。
