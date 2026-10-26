@@ -1,10 +1,20 @@
 # threads-review-briefing 运行记忆
 
 ## 1. 本次运行
-- 运行时刻：2026-10-19 23:55 UTC；实际覆盖窗口：2026-10-09 至 2026-10-19（补漏：上次运行 2026-10-08 23:03 UTC，按 10 天封顶处理）。
+- 运行时刻：2026-10-26 08:25 UTC；实际覆盖窗口：2026-10-19 23:55 UTC 至 2026-10-26 08:25 UTC（常规）。
 - 备注：9 个日常简报归档与 MEMORY.md 均已读取并纳入本期串讲。
 
 ## 2. 已报条目清单
+- 2026-10-26 | 美伊霍尔木兹与红海冲突升级推升布油破 112 美元，英法派兵协防沙特 | https://www.cnn.com/2026/10/20/middleeast/uk-military-saudi-arabia-yemen-houthis-intl
+- 2026-10-26 | 全美中期选举提前投票破 2,660 万张，司法部起诉阿拉斯加州干预选举认证，USCIS 期限新规生效 | https://www.washingtonpost.com/politics/2026/10/25/todd-blanche-defends-doj-lawsuit-over-senate-election-alaska/
+- 2026-10-26 | 美联储 10 月维持利率不变概率升至 88%–90%，10 年期美债收益率跌破 5%，特朗普签行政令降住房成本 | https://www.tradingkey.com/analysis/stocks/us-stocks/262237588-fomc-october-2026-preview-fed-policy-and-us-stocks-tradingkey
+- 2026-10-26 | Anthropic S-1 草案曝上半年营收 163 亿美元及 7,500 亿美元算力承诺并游说联邦安全法案，OpenAI 下调估值目标至 1.25 万亿美元 | https://dealroom.co/news/164610-anthropics-draft-s-1-reveals-16-3b-revenue-80-7b-loss-and-up-to-750b-com/
+- 2026-10-26 | OpenAI 前沿模型训练全面断网，ARTEX 框架被用于供应链攻击，PHP“php2shell”与 Kyverno/Istio 紧急修补 | https://openai.com/index/securing-our-frontier-model-training-environment/
+- 2026-10-26 | Anthropic 将 Agent Skills 捐赠 Linux 基金会 AAIF 并推 Claude Duet 与 2026-10-21 API，VS Code 1.143 与 Kimi K3.1 Pro 发布 | https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation
+- 2026-10-26 | 台湾美光桃园厂爆发台湾半导体史上首次 24 小时罢工，苹果定于 10 月 28 日发布首款 OLED 触控屏 MacBook Pro | https://www.digitimes.com/news/a20261023PD239/strike-taiwan-micron-management-2026.html
+- 2026-10-26 | 宁德时代与特斯拉三季报落地，枧下窝锂矿环评拟批准公示，小鹏悠游获广州全域 L4 运营资格，奥迪在美建厂 | https://www.theguardian.com/technology/2026/oct/21/elon-musk-tesla-spacex
+- 2026-10-26 | 洛杉矶县通报本季首两例流感死亡且加州阳性率升至 9.65%，全美麻疹破 4,588 例，FDA 批准乙肝新药 Hibsago | https://admin.publichealth.lacounty.gov/phcommon/public/media/mediapubhpdetail.cfm?prid=5477
+- 2026-10-26 | 闭合：橙县 Norte Fire 100% 控制；卢拉逆转连任巴西总统；NASA 阿耳忒弥斯 3 号改为近地轨道测试；澳洲法院裁定苹果开放 iOS 侧载 | https://www.nasa.gov/missions/artemis/nasas-artemis-iii-mission-to-test-future-moon-lander-operations/
 - 2026-10-19 | 美伊霍尔木兹停火濒临破裂，美军拦截通航商船，10 月 21 日停火到期 | https://www.reuters.com/world/middle-east/iran-closes-hormuz-strait-again-us-navy-intercepts-merchant-ship-2026-10-19/
 - 2026-10-19 | DHS OPT 高额收费草案进入联邦公报刊登与 30 天公众评论期，高校筹备联合诉讼 | https://www.dhs.gov/news/2026/10/07/dhs-proposes-fees-foreign-student-work-program-protect-american-jobs
 - 2026-10-19 | 美国 9 月 CPI 同比升 2.6%，美联储 10 月 27–28 日 FOMC 议息预期博弈 | https://www.cnbc.com/2026/10/14/cpi-inflation-september-2026.html
@@ -27,12 +37,13 @@
 - 2026-10-08 | 闭合：Bouquet Fire 疏散令解除；Manus 恢复独立并融资 | https://www.digitaltoday.co.kr/en/view/112633/ai-agent-startup-manus-raises-500-million-in-first-funding-round-after-split-with-meta
 
 ## 3. 进行中事件表
-- 美伊霍尔木兹危机 | 最后进展 2026-10-19 | 关注 10 月 21 日停火到期后是否恢复谈判或爆发美军空袭
-- OPT 高额收费草案与诉讼 | 最后进展 2026-10-19 | 关注联邦公报正式刊登号、高校联盟起诉及初步禁令申请
-- 美联储 10 月议息会议 | 最后进展 2026-10-19 | 关注 10 月 27–28 日 FOMC 利率决议与鲍威尔发布会指引
-- Anthropic IPO 与 OpenAI 融资 | 最后进展 2026-10-19 | 关注 Anthropic S-1 公开递交时间及 OpenAI 300 亿美元交割进展
-- FTC 调查 AI 智能体安全 | 最后进展 2026-10-19 | 关注 8 家智能体厂商材料提交与联邦智能体合规指引出台
-- 苹果 10/28 洛杉矶 Mac 发布会 | 最后进展 2026-10-19 | 关注 M5 Pro/Max MacBook Pro 与新款 Mac Studio 发布详情
-- 台湾美光罢工风险 | 最后进展 2026-10-19 | 关注 10 月 22 日第三次调解结果及桃园工会声援罢工对 DRAM 报价影响
-- 欧盟对华混动车限制与尊界调查 | 最后进展 2026-10-19 | 关注欧盟混动车关税配额正式草案及三部委对尊界 V800 调查结论
-- 肯尼亚埃博拉输入与美国麻疹疫情 | 最后进展 2026-10-19 | 关注内罗毕密接隔离期满结果及美国 CDC 麻疹防控升级措施
+- 美伊霍尔木兹与红海危机 | 最后进展 2026-10-25 | 关注 11 月 3 日美国中期选举前后美伊是否重启谈判或爆发新一轮军事打击
+- 美国 2026 中期选举与阿拉斯加认证诉讼 | 最后进展 2026-10-25 | 关注安克雷奇联邦法院对司法部预防性诉讼的裁决及 11 月 3 日大选投票结果
+- OPT 高额收费草案与移民期限新规 | 最后进展 2026-10-23 | 关注 11 月 9 日 OPT 收费草案评论期截止及高校联盟提起联邦行政诉讼
+- 美联储 10 月议息会议 | 最后进展 2026-10-26 | 关注 10 月 28 日 FOMC 利率决议与鲍威尔对 12 月加息路径的表态
+- Anthropic IPO 与 OpenAI 300 亿美元融资 | 最后进展 2026-10-26 | 关注 Anthropic 正式公开递交 S-1 与路演启动时间，以及 OpenAI 1.25 万亿美元估值融资交割
+- 前沿 AI 安全监管与 Kimi K3.1 Pro 开源兑现 | 最后进展 2026-10-24 | 关注 FTC 传票合规进展、国会山对 Anthropic 游说草案反应，以及 11 月 4 日前 Kimi K3.1 Pro 完整权重开放
+- 苹果 10/28 洛杉矶 Mac 发布会 | 最后进展 2026-10-25 | 关注首款 OLED 触控屏 MacBook Pro（M5 Pro/Max）与 M6 新款 Mac 正式售价与开售日
+- 台湾美光桃园厂劳资谈判 | 最后进展 2026-10-22 | 关注 10 月 27 日重启正式分红谈判结果及会否引发第二波罢工
+- 特斯拉 Cybercab NHTSA 合规大限与枧下窝锂矿复产 | 最后进展 2026-10-22 | 关注 10 月 28 日枧下窝环评公示期满复产批复，以及 10 月 30 日特斯拉向 NHTSA 提交 Cybercab 合规答复
+- 加州早发流感季与全美麻疹疫情 | 最后进展 2026-10-24 | 关注南加流感阳性率走势及全美麻疹死亡统计核查进展

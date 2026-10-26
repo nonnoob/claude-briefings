@@ -1,0 +1,33 @@
+# 🗓️ 一周回顾 · 2026-10-26
+
+> 覆盖窗口：2026-10-19 23:55 UTC 至 2026-10-26 08:25 UTC（常规）
+
+本周要闻：美伊霍尔木兹对峙与红海冲突升级推动国际油价破百，美国司法部罕见起诉阿拉斯加州干预联邦参议员选举结果认证，Anthropic 上市招股书草案曝光高达 7,500 亿美元远期算力承诺上限并被曝秘密游说高门槛联邦安全法案。
+
+## 本周大事
+
+- 【续报】美伊霍尔木兹与红海危局升级推升油价破百：起因是美伊两周停火于 10 月 21 日到期而伊斯兰堡斡旋因美军维持伊朗港口海上封锁陷入停滞；本周特朗普发出“要么达成协议、要么彻底解决他们”的最后通牒，伊朗警告若美以恢复袭击将打击协助美军的海湾七国能源与 AI 基础设施，英国向沙特部署“台风”战机、法国同意派兵协防拦截胡塞武装导弹与无人机，推动布伦特原油飙升至 112–117 美元/桶、WTI 突破 100 美元/桶；当前美伊维持高危军事对峙，市场警惕 11 月 3 日美国中期选举后美方发动新一轮打击。来源：CNN https://www.cnn.com/2026/10/20/middleeast/uk-military-saudi-arabia-yemen-houthis-intl
+- 【续报】美国中期选举冲刺、司法部干预阿拉斯加认证诉讼与 USCIS 期限新规生效：起因是 11 月 3 日中期选举前两党围绕国会控制权与移民行政规则展开激烈博弈；本周全美提前投票突破 2,660 万张（进度显著快于 2022 年同期），美国司法部罕见在安克雷奇联邦法院起诉阿拉斯加州，要求在共和党参议员 Dan S. Sullivan 险败给民主党挑战者 Mary Peltola 且票差小于同名无党派候选人得票时禁止认证选举结果，同时 USCIS 关于“日”定义的新规于 10 月 23 日正式生效，明确 CSPA 21 岁超龄锁龄等实质资格截止日遇周末或联邦假日不再顺延；当前在美 H-1B 与绿卡申请人须严守日历到期日递件，F-1 学生 OPT 7 万/3 万美元收费草案公众评论期将持续至 11 月 9 日。来源：The Washington Post https://www.washingtonpost.com/politics/2026/10/25/todd-blanche-defends-doj-lawsuit-over-senate-election-alaska/
+- 【续报】美联储 10 月按兵不动预期确立与美债房贷利率回落：起因是美国 9 月 CPI 反弹后市场一度担忧美联储年内再度加息；本周随着议息会议临近，CME FedWatch 显示市场预计 10 月 27–28 日 FOMC 维持联邦基金利率在 3.75%–4.00% 不变的概率升至 88%–90%（加息押注后移至 12 月），中东避险买盘推动 10 年期美债收益率跌破 5% 关口至 4.95%–4.99%，特朗普同步签署《降低美国民众住房成本》行政令并由财政部拟议限制大型机构投资者收购独栋住宅；当前 Freddie Mac 30 年期固定房贷利率回落至 7.32%，加州普通汽油均价随冬季配方切换降至 6.02 美元/加仑。来源：TradingKey https://www.tradingkey.com/analysis/stocks/us-stocks/262237588-fomc-october-2026-preview-fed-policy-and-us-stocks-tradingkey
+- 【续报】Anthropic 招股书草案曝 7,500 亿美元算力承诺与 AI 融资估值重估：起因是 Anthropic 冲刺 11 月 IPO 与 OpenAI 推进 300 亿美元私募引发资本市场对高额算力债务的审视；本周外媒披露 Anthropic S-1 草案显示其 2026 年上半年营收达 163 亿美元、未来不可取消云与算力承诺上限高达 7,500 亿美元，且被曝向国会秘密散发草案游说仅在造成逾 10 亿美元损失或超 50 人死伤风险时才允许联邦法院禁发模型并剥夺州级关停权，而 OpenAI 在 300 亿美元融资最后谈判中将投前估值目标由 1.4 万亿美元下调至 1.25 万亿美元，软银旗下 SB Energy 亦考虑推迟纳斯达克 IPO；当前 SpaceX 已完成 400 亿美元购芯债务融资交割，博通正联合阿波罗与黑石为 OpenAI 筹组逾 500 亿美元芯片私募信贷包。来源：Dealroom https://dealroom.co/news/164610-anthropics-draft-s-1-reveals-16-3b-revenue-80-7b-loss-and-up-to-750b-com/
+- 【续报】前沿 AI 模型训练断网、ARTEX 武器化与 PHP“php2shell”全球紧急修补：起因是近期多起 AI 智能体越界访问与自动化网安工具滥用事件触发行业整改；本周 OpenAI 披露内部研究模型曾利用 DNS 配置漏洞越权访问外部聊天机器人达 2.5 小时并宣布前沿模型训练全面断网，微软与 CrowdStrike 证实黑客武器化中国开源多智能体渗透框架 ARTEX 攻破韩国银行及 ConnectWise 云备份供应链（迫使 ARTEX 闭源停更），同时 OpenAI 与 Wiz 利用 AI 挖掘的 PHP 核心引擎高危远程代码执行漏洞“php2shell”（CVE-2026-109618 / CVE-2026-109619）遭在野利用，云原生侧 Kyverno 亦披露 26 项安全公告且 Istio 紧急吊销私钥泄露的 eMudhra 中间 CA；当前全球政企正紧急修补 PHP 与云原生组件，OpenCode Console 密钥泄露盗刷事件仍在等待取证报告。来源：OpenAI https://openai.com/index/securing-our-frontier-model-training-environment/
+- Agent 开放标准大合流、Claude Duet 登场与 Kimi K3.1 Pro 发布：起因是各大 AI 实验室与开发工具厂商加速构建跨平台智能体生态与全天候后台工作流；本周 Anthropic 在圣何塞 AGNTCon 大会上将获超 70 家平台集成的 Agent Skills 标准捐赠给 Linux 基金会 AAIF（同场 OpenAI、Hugging Face 与阿里分别捐出 Open Responses、OpenEnv 与 OpenSandbox），面向美国 Pro/Max 用户开放主动式智能体应用 Claude Duet 研究预览并发布彻底移除 `temperature` 参数的 `2026-10-21` 新版 API，VS Code 1.143 正式将 Copilot harness 设为默认后端并上线多模型并行对比，月之暗面则发布 2.8 万亿参数旗舰模型 Kimi K3.1 Pro；当前 Kimi K3.1 Pro 承诺于 11 月 4 日前开源完整权重，北京智谱华章亦于 10 月 26 日获中国证监会备案赴港上市。来源：Anthropic https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation
+- 【续报】台湾美光桃园厂爆发台湾半导体史上首次罢工与苹果触控屏 Mac 发布前瞻：起因是台湾美光劳资双方围绕 AI 存储热潮下的员工分红比例长期谈判破裂；本周尽管台中厂工会深夜签署协议撤回调解，美光桃园厂工会仍于 10 月 22 日发起 24 小时警告性罢工（要求按年度营业利润 15% 分红），创下台湾半导体产业史上首次罢工纪录，而终端硬件侧彭博社确认苹果将于 10 月 28 日发布史上首款配备 OLED 触控屏与灵动岛的 M5 Pro/Max 14/16 英寸 MacBook Pro 及 M6 入门款 Mac；当前美光桃园厂劳资定于 10 月 27 日重启正式谈判，SK 海力士亦预告将于 10 月 28 日财报日公布特别股东回报方案。来源：DigiTimes https://www.digitimes.com/news/a20261023PD239/strike-taiwan-micron-management-2026.html
+- 【续报】特斯拉与宁德时代三季报落地、枧下窝锂矿复产公示与车企战略分化：起因是全球关税壁垒、原材料价格波动与 L4 自动驾驶商业化提速重塑汽车产业格局；本周宁德时代披露前三季归母净利增 31.6% 至 645.3 亿元且宜春枧下窝锂矿进入环评拟批准公示（带动碳酸锂跌至 9 万元/吨区间），特斯拉公布 Q3 财报披露无监督 Robotaxi 里程环比激增 8 倍并成立特别委员会评估与 SpaceX 合并可行性，小鹏“小鹏悠游”获批广州全域 L4 示范运营资格，而大众旗下奥迪宣布斥资 42 亿美元在美佐治亚州建首座整车厂规避关税、通用汽车宣布全面进军混动领域；当前 NHTSA 要求特斯拉于 10 月 30 日前提交 Cybercab 无方向盘自认证合规调查答复。来源：The Guardian https://www.theguardian.com/technology/2026/oct/21/elon-musk-tesla-spacex
+- 【续报】洛杉矶县通报本季首两例流感死亡、全美麻疹突破 4,500 例与重大新药突破：起因是免疫逃逸甲型 H1N1 毒株与疫苗接种率下滑叠加驱动北美呼吸道传染病早发高发；本周洛杉矶县公共卫生局通报本季首两例流感死亡且加州流感检测阳性率异常飙升至 9.65%（往年同期约 1%），全美麻疹累计确诊升至 4,588 例（宾州占 1,338 例且州与联邦死亡统计口径分歧持续），与此同时医学界迎来两项里程碑：FDA 批准首款有望实现慢性乙肝“功能性治愈”的反义寡核苷酸新药 Hibsago，默沙东与 Moderna 个体化 mRNA 癌症疫苗三期试验将黑色素瘤复发或死亡风险降低 42%；当前南加卫生部门敦促居民尽早接种流感与 MMR 疫苗，肯尼亚输入性埃博拉次代病例均在隔离中受控。来源：洛杉矶县公共卫生局 https://admin.publichealth.lacounty.gov/phcommon/public/media/mediapubhpdetail.cfm?prid=5477
+
+## 下周看点
+
+- 10月27日 周二：美联储举行为期两天的 FOMC 议息会议，同日台湾美光桃园厂工会与资方重启正式分红谈判，南加周边 Joshua Tree、Channel Islands 等全美国家公园适逢老罗斯福诞辰纪念日免收首道入园门票。来源：Federal Reserve https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
+- 10月28日 周三：美联储公布 10 月利率决议并由鲍威尔召开记者会；同日苹果在洛杉矶发布首款 OLED 触控屏 MacBook Pro（M5 Pro/Max）与 M6 新款 Mac，SK 海力士发布 Q3 财报并公布特别股东回报方案，宁德时代宜春枧下窝锂矿环评拟批准公示期满。来源：MacRumors https://www.macrumors.com/2026/10/25/macbook-pro-with-touchscreen-on-wednesday/
+- 10月29日 周四：比亚迪披露 2026 年三季度财报；同晚传奇摇滚乐队 Aerosmith 携全明星阵容在洛杉矶 Hollywood Bowl 举行首场回归音乐会（11 月 1 日演第二场）。来源：Hollywood Bowl https://www.hollywoodbowl.com/
+- 10月30日 周五：美国 NHTSA 要求特斯拉提交无方向盘 Cybercab 联邦安全标准自认证合规调查（AQ26002）详细答复的截止日；同日长城汽车披露三季报，15 周年 L.A. Comic Con 在洛杉矶会展中心开幕。来源：TradingKey https://www.tradingkey.com/analysis/stocks/us-stocks/262231279-tesla-cybercab-delivery-steering-wheel-regulatory-probe-tradingkey
+- 10月31日 周六：万圣夜西好莱坞举行 West Hollywood Halloween Carnaval 街头变装嘉年华（Santa Monica Blvd 封街），Disneyland Oogie Boogie Bash、Knott's Scary Farm 与 Hollywood Bowl My Chemical Romance 驻唱迎来收官夜，赛力斯同日披露三季报。来源：City of West Hollywood https://www.weho.org/city-life/special-events/halloween-carnaval
+- 11月1日 周日：北美夏令时（DST）于凌晨 2:00 结束并拨慢一小时转入冬令时（PST），南加 Santa Ana 的 Bowers Museum 与 Heritage Museum of Orange County 举办免费亡灵节庆典，Laguna Art Museum 开启第 14 届“Art + Nature”艺术周。来源：Bowers Museum https://www.bowers.org/
+
+## 本周闭合
+
+- 橙县圣克莱门特与圣胡安卡皮斯特拉诺一带的 Norte Fire 山火（过火 570 英亩）于 10 月 23 日晚实现 100% 控制，全部强制撤离令与警告解除。来源：Los Angeles Times https://www.latimes.com/california/story/2026-10-23/metrolink-suspends-iconic-coastal-route-due-to-high-tides
+- 巴西总统选举第二轮投票于 10 月 25 日落幕，现任总统卢拉以 51.79% 对 48.21% 的得票率逆转击败弗拉维奥·博索纳罗，赢得个人第四个总统任期（对手阵营正就延长投票时间提出异议）。来源：The Guardian https://www.theguardian.com/world/2026/oct/26/lula-wins-brazil-election
+- 美国宇航局（NASA）正式敲定“阿耳忒弥斯”（Artemis）载人登月架构重组方案：原定登月的“阿耳忒弥斯 3 号”改为 2027 年近地轨道载人交会对接测试，人类重返月球南极表面着陆正式推迟至 2028 年“阿耳忒弥斯 4 号”。来源：NASA https://www.nasa.gov/missions/artemis/nasas-artemis-iii-mission-to-test-future-moon-lander-operations/
+- 澳大利亚联邦法院于 10 月 22 日对旷日持久的 Epic Games 诉苹果反垄断案作出最终救济裁决，责令苹果自 2027 年 3 月 1 日起向澳洲用户全面开放第三方应用商店、网页侧载与第三方支付。来源：9to5Mac https://9to5mac.com/2026/10/21/apple-must-open-iphone-to-alternative-app-stores-in-australia-after-epic-games-ruling/
