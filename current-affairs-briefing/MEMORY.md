@@ -1,11 +1,13 @@
 # MEMORY
 
 ## 1. 本次运行
-- 运行时刻：2026-10-26 01:25 PDT（2026-10-26 08:25 UTC）
-- 实际覆盖窗口：2026-10-19 19:05 PDT 至 2026-10-26 01:25 PDT（常规）
-- 六个方向及钱包数字均已检索完成。橙县Norte Fire山火已于10月23日实现100%控制并解除全部撤离令，移出进行中事件表。
+- 运行时刻及检索截止：2026-10-31 04:32 PDT（2026-10-31 11:32 UTC）。
+- 实际覆盖窗口：2026-10-26 01:25 PDT 至 2026-10-31 04:32 PDT（常规）。
+- 六方向、钱包数字与既有事件已检索；收录 FOMC 决议、中国 PMI、Freddie Mac 房贷、伊朗调解及加州选票临时救济裁定。FOMC 10 月决议节点闭合；后续利率路径不作承诺式预测。
+- 检索限制：部分新闻正文被拦或超时，伊朗、加州条目采用可检索媒体摘要并标单源；未确认的 GDP、汽油、汇率数值不沿用旧值。社会民生方向未取得可核实新增；其他待办没有新证据就保留原进展日期，未据搜索缺失宣布事件结束。
 
 ## 2. 已报条目清单
+
 2026-10-19 | 特朗普签署女性健康行政令，在NIH设专门女性健康部门并推动AI医学研究 | https://www.cbsnews.com/news/trump-executive-order-on-womens-health/
 2026-10-19 | 绿卡持有人Mahmoud Khalil向联邦最高法院提交紧急申请挑战初始羁押管辖权裁决 | https://www.aljazeera.com/news/2026/10/19/mahmoud-khalil-takes-deportation-fight-to-the-us-supreme-court
 2026-10-19 | DHS针对F-1学生OPT推荐收取7万/3万美元费用规则草案刊登联邦公报，评论期至11月9日 | https://www.federalregister.gov/documents/2026/10/08/2026-20660/optional-practical-training-fees
@@ -44,11 +46,15 @@
 2026-10-26 | 加州最大州府雇员工会SEIU Local 1000举行史上首次不当劳动行为罢工 | https://calmatters.org/economy/2026/10/state-worker-strike-local-1000/
 2026-10-26 | 橙县Norte Fire山火100%控制，Metrolink因异常大潮暂停橙县线Laguna Niguel至Oceanside列车服务 | https://www.latimes.com/california/story/2026-10-23/metrolink-suspends-iconic-coastal-route-due-to-high-tides
 2026-10-26 | 加州州长纽森签署社区安全跨部门协作行政令，要求12月18日前提交公共安全战略报告 | https://www.gov.ca.gov/2026/10/22/governor-newsom-announces-interagency-effort-to-coordinate-californias-public-safety-strategy-into-the-future/
+2026-10-31 | 中国 10 月制造业 PMI 降至 49.3，非制造业与综合产出指数均为 49.7 | https://www.chinanews.com.cn/cj/2026/10-31/10723787.shtml
+2026-10-31 | Reuters 援引伊朗官员称卡塔尔调解人员重返德黑兰推动美伊协议，未确认达成协议 | https://www.usnews.com/news/world/articles/2026-10-30/qatari-mediators-return-to-tehran-to-push-for-us-iran-deal-official-says
+2026-10-31 | FOMC 10 月 28 日以 10 比 2 维持 3.75%—4.00%，两名委员主张加息 25bp | https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm
+2026-10-31 | Freddie Mac 10 月 29 日 30 年期固定房贷均值 7.24%，环比下降 8bp | https://markets.businessinsider.com/news/stocks/mortgage-rates-decline-further-to-7-24-1036686037
+2026-10-31 | USA Today 报道第九巡回法院拒绝隔离约 2 万张加州争议选票的紧急请求，非终局裁决 | https://www.usatoday.com/story/news/state/california/2026/10/30/trump-appeal-rejected-in-california-noncitizen-ballot-fight/92521036007/
 
 ## 3. 进行中事件表
-- 美联储10月议息会议 | 最后进展 2026-10-26 | CME FedWatch显示10月27—28日维持联邦基金利率在3.75%—4.00%不变概率升至88%—90%；等10月28日FOMC利率决议与鲍威尔对12月加息路径的表态
-- 美国2026中期选举（11月3日）与阿拉斯加诉讼 | 最后进展 2026-10-25 | 全美提前投票超2,660万张，司法部起诉阿拉斯加要求在共和党参议员险败时禁止认证结果；等安克雷奇联邦法院裁决及11月3日大选投票结果
-- 伊朗霍尔木兹海峡与红海冲突 | 最后进展 2026-10-25 | 特朗普发最后通牒，英法派战机与兵力协防沙特拦截胡塞导弹，伊朗威胁打击海湾七国设施；等美伊是否达成协议或美以在11月3日选后发动打击
+- 美国 2026 中期选举（11 月 3 日）与选票诉讼 | 最后进展 2026-10-30 | 第九巡回法院拒绝隔离约 2 万张加州争议选票的紧急请求；等正式投票、各州认证安排与后续司法命令；阿拉斯加案未核实新增，不能沿用旧预测作为结果。
+- 伊朗霍尔木兹海峡与红海冲突 | 最后进展 2026-10-30 | Reuters 援引伊朗官员称卡塔尔调解人员重返德黑兰；等双方公开确认协议文本、封锁或制裁措施变化，不把调解接触当作停火。
 - 俄乌阿布扎比三方会谈与对俄制裁豁免 | 最后进展 2026-10-23 | 俄乌确认拟于11月上中旬在阿布扎比举行美俄乌工作级会谈，并完成540人换俘；等三方会谈具体日期及能源停火磋商进展
 - 巴西总统大选结果争议 | 最后进展 2026-10-26 | 卢拉以51.79%逆转连任，弗拉维奥·博索纳罗拒认败选并要求以延长投票时间为由宣布结果无效；等巴西高等选举法院（TSE）裁决与博索纳罗阵营后续行动
 - 西藏巴青7.0级地震抗震救灾 | 最后进展 2026-10-26 | 至少16人遇难，国家三级应急响应持续，中央已拨8,000万元资金；等搜救结束后的最终伤亡核定与高海拔过冬安置进展
