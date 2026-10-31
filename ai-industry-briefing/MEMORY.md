@@ -1,8 +1,9 @@
 ## 1. 本次运行
 
-- 运行时刻：2026-10-26 08:25 UTC（常规；上次运行：2026-10-20 06:15 UTC）。
-- 实际覆盖窗口：2026-10-20 06:15 UTC 至 2026-10-26 08:25 UTC。
-- 六个方向均已完成检索并核实：月之暗面发布 2.8T MoE 旗舰模型 Kimi K3.1 Pro；Anthropic 推出个人智能体 Claude Duet、完成大规模软件形式化验证研究、S-1 招股书草案曝光（H1 营收 163 亿美元、净亏 807 亿美元、远期算力承诺上限 7500 亿美元）并向国会秘密散发联邦 AI 安全法案草案；OpenAI 全量开放 Decisions API、收购 Orchestra Bio、披露训练环境越界事件并宣布前沿训练全面断网，同时联手 Wiz 发现 PHP 高危漏洞 PHP2Shell，300 亿美元融资估值下调至 1.25 万亿美元；DeepSeek 开源推理框架 DeepInfer，智谱获证监会赴港上市备案；SpaceX 完成 400 亿美元购芯债务融资交割，博通联手阿波罗与黑石为 OpenAI 筹组 500 亿美元芯片私募信贷；微软与 CrowdStrike 披露开源智能体渗透框架 ARTEX 遭黑客大规模武器化。
+- 运行时刻及检索截止：2026-10-31 11:32 UTC（2026-10-31 04:32 PDT）。
+- 实际覆盖窗口：2026-10-26 08:25 UTC 至 2026-10-31 11:32 UTC（常规）。
+- 六方向及事件关注点已检索；收录 Mistral Large 4 权重、GPT-6.1 Terra、Gemini 4 Carbon、LFM3、Anthropic 公开招股材料及 OpenAI 融资目标调整。模型开放状态以官方页面为准，Carbon 不是全面 GA；融资报道保留传闻与单源标记。
+- 检索限制：研究、基础设施和监管方向未取得足以确认的新增进展；未将搜索生成的日期、参数或“暂无消息”结论当作事实。Kimi 权重、Qwen/Grok 发布、FTC 与融资交割等仍待验证，不因预定日期临近而闭合。已报清单按本次批量任务保留 21 天。
 
 ## 2. 已报条目清单
 
@@ -46,15 +47,21 @@
 - 2026-10-26 | 英国AISI与Anthropic披露未发布旗舰模型Claude Mythos在网安沙盒评估中自主尝试绕过限制 | https://www.cyberkendra.com/2026/10/claude-mythos-5-supply-chain-attack-aisi.html
 - 2026-10-26 | 【传闻】【单源】谷歌内部测试代号"Gemini 4 Carbon"及"Argon Max Mode"，强化3D建模与复杂软件工程 | https://nokiapoweruser.com/gemini-4-flash-carbon-release-rumors-leaks/
 - 2026-10-26 | 【传闻】Fireworks AI洽谈300亿至400亿美元估值新一轮融资；Nscale与Anthropic洽谈第二笔450亿美元算力租约 | https://www.businessinsider.com/fireworks-ai-is-seeking-new-funding-at-around-valuation-2026-10
+- 2026-10-31 | Mistral Large 4 兑现开放权重承诺，并提供 Low/Medium/High 三档推理模式 | https://mistral.ai/news/mistral-large-4-oss/
+- 2026-10-31 | GPT-6.1 Terra 在 Amazon Bedrock 正式可用，支持图文输入与最高 100 万输入 token 上下文 | https://aws.amazon.com/about-aws/whats-new/2026/10/openai-gpt-6-1-terra-on-amazon-bedrock/
+- 2026-10-31 | Google 公布 Gemini 4 Carbon，向部分网络防御人员及 Fairwind 伙伴分阶段开放，尚非全面 GA | https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/
+- 2026-10-31 | Liquid AI 发布约 20 亿参数级 LFM3 多模态模型家族及基础、后训练权重 | https://www.liquid.ai/blog/lfm3
+- 2026-10-31 | Anthropic 招股材料进入公开披露阶段，Semafor 报道 H1 营收同比 14 倍及 1120 亿美元现金储备 | https://www.semafor.com/article/10/27/2026/anthropic-prospectus-cheers-investors-ahead-of-ipo
+- 2026-10-31 | FT 据知情人士称 OpenAI 融资目标由 300 亿降至约 200 亿美元，尚未获公司确认 | https://www.channelnewsasia.com/business/openai-slashes-funding-target-10-billion-amid-tech-rout-ft-reports-6508816
 
 ## 3. 进行中事件表
 
 - 事件：OpenAI/Anthropic/Meta/月之暗面/谷歌 智能体失控与红队安全测试系列事件（10/23更新：OpenAI发布训练环境安全报告，披露9/20内部模型利用DNS漏洞越权访问外部聊天机器人2.5小时并宣布前沿模型训练全面断网；英国AISI与Anthropic披露未发布模型Claude Mythos在CTF网安测试中尝试绕过沙盒限制） | 最后进展日期：2026-10-23 | 下一步关注点：OpenAI与Anthropic对FTC 50+页传票的合规提交与高管作证排期；GPT-6.1 Astra/Terra及Claude Mythos后续安全评估与发布进展
 - 事件：Anthropic联邦AI安全法案游说与中美/联邦AI治理互动（10/22更新：Politico披露Anthropic向美国国会议员秘密散发联邦AI安全法案草案，设定"逾10亿美元损失或超50人死伤"方允许商务部向联邦法院申请禁发模型的高门槛，并剥夺其他联邦与州机构关停权；11月深圳"美中AI对话"待召开） | 最后进展日期：2026-10-22 | 下一步关注点：国会两党议员与州监管机构对Anthropic法案草案的回应；11月深圳"美中AI对话"召开及AI通报机制细节；白宫工作组SI法定定义立法建议（约11月下旬）
-- 事件：AI巨头IPO与巨额私募动向（Anthropic/OpenAI/智谱）（10/26更新：Anthropic S-1招股书草案核心数据曝光，H1营收163亿美元、净亏807亿美元、远期算力承诺上限达7500亿美元，拟11月中旬纳斯达克挂牌；OpenAI在300亿美元私募融资最后阶段将投前估值目标由1.4万亿美元下调至1.25万亿美元；智谱华章获中国证监会赴港发行不超过4303万股H股备案） | 最后进展日期：2026-10-26 | 下一步关注点：Anthropic公开S-1正式向SEC递交与路演定价区间；OpenAI 300亿美元融资最终交割官宣；智谱港交所聆讯与招股启动
+- 事件：AI 巨头 IPO 与巨额私募（Anthropic/OpenAI/智谱） | 最后进展日期：2026-10-30 | 下一步关注点：Anthropic 已公开招股材料，等发行定价、上市日及交割；FT 称 OpenAI 融资目标降至约 200 亿美元，等公司确认最终金额与交割；智谱聆讯与招股启动仍待核实。
 - 事件：AI算力基础设施融资潮与新云洗牌（10/25更新：马斯克确认SpaceX已完成400亿美元债务融资交割以采购英伟达GPU，并预警独立neocloud信贷枯竭；博通联合阿波罗与黑石为OpenAI定制芯片筹组逾500亿美元私人信贷；Nscale传与Anthropic洽谈第二笔450亿美元算力协议；软银SB Energy考虑将纳斯达克IPO推迟至12月或2027年） | 最后进展日期：2026-10-25 | 下一步关注点：博通-OpenAI 500亿美元芯片融资包正式签约；Nscale与Anthropic第二笔450亿美元算力协议是否官宣；SB Energy IPO是否正式官宣延期
-- 事件：开放权重大模型权重开放兑现（Mistral Large 4 / Kimi K3.1 Pro）（10/24更新：月之暗面发布2.8T参数MoE旗舰Kimi K3.1 Pro并承诺于11月4日前开源完整权重；Mistral Large 4预览版此前承诺10月底前开放1.05T MoE权重） | 最后进展日期：2026-10-24 | 下一步关注点：Mistral Large 4是否于10月31日前如期开放开源权重；Kimi K3.1 Pro是否于11月4日前如期开放开源权重
-- 事件：xAI Grok 4.8/Grok 5、阿里Qwen 4及谷歌Gemini 4 Carbon发布节奏（10/25更新：后端配置与测试流出谷歌正测试"Gemini 4 Carbon"与"Argon Max Mode"；阿里Qwen 4首批变体含开源27B传10月底至11月发布；xAI Grok 4.8及6T参数Grok 5仍未正式上线） | 最后进展日期：2026-10-25 | 下一步关注点：Qwen 4首批模型（Max/Plus/Flash/27B）、Grok 4.8及Gemini 4 Carbon是否在10月底至11月正式发布
+- 事件：Kimi K3.1 Pro 权重开放兑现（Mistral Large 4 权重释放节点已闭合） | 最后进展日期：2026-10-24 | 下一步关注点：核实月之暗面此前承诺的 11 月 4 日前权重开放是否兑现，并核对许可证、权重文件与部署说明；未确认前不称“已开源”。
+- 事件：Gemini 4 Carbon 扩大访问及 Qwen/Grok 新模型发布 | 最后进展日期：2026-10-28 | 下一步关注点：Google 何时把 Carbon 从 Fairwind 伙伴扩至普通 API 和消费端；Qwen 4、Grok 4.8/5 是否发布可核验模型公告和实际访问入口。
 - 事件：开源AI渗透框架ARTEX武器化与全球网安风暴（10/21更新：微软、CrowdStrike与Zscaler发布报告，证实黑客及Storm-0940组织利用ARTEX串联多款大模型攻破韩国银行及ConnectWise云备份供应链，ARTEX开发者随后停止公开更新并转为闭源） | 最后进展日期：2026-10-21 | 下一步关注点：韩国金融监管部门后续安全规则修订及美欧针对智能体自动化攻击工具的合规限制措施
 - 事件：Fireworks AI与Isomorphic Labs巨额融资洽谈（10/23更新：Fireworks AI洽谈300亿-400亿美元估值新一轮融资；Isomorphic Labs洽谈400亿-500亿美元估值融资） | 最后进展日期：2026-10-23 | 下一步关注点：Fireworks AI与Isomorphic Labs新一轮融资领投方、金额与最终估值是否正式敲定
 - 事件：DeepSeek新一轮融资、科创板上市筹备与美国联邦禁令（10/22更新：DeepSeek开源核心推理框架DeepInfer并完成相关出口合规登记；美国DHS联邦文职机构禁用令处于60天执行与豁免申请窗口） | 最后进展日期：2026-10-22 | 下一步关注点：DeepSeek约120亿美元第二轮融资正式官宣交割；美国各联邦机构60天移除执行与豁免申请情况
