@@ -1,9 +1,10 @@
 ## 1. 本次运行
 
-- 本次运行：2026-10-26 约08:25 UTC（常规）
-- 上次运行：2026-10-20 约06:15 UTC（补漏）
-- 覆盖窗口：2026-10-20 06:15 UTC – 2026-10-26 08:25 UTC（常规）。
-- 检索状态：十大方向及进行中事件已全面检索并核实。收录 Android 17 QPR3 Beta 2 与 Chrome 156、Windows 11 26H2 全面推送、苹果 10/28 触控屏 MacBook Pro 阵容细节与 OPPO Find X10 全球发布、Netflix/IBM/SAP/德州仪器/特斯拉 Q3 财报、美光台湾桃园厂 24 小时罢工与 SK 海力士股东回报预告、特斯拉与 SpaceX 设特别委员会评估合并、Salesforce 56.6 亿美元收购 Braze 与 Tenstorrent 15 亿美元 E 轮融资、PHP "php2shell" 零日紧急修复与 CISA KEV 更新、LibreSSL 4.4 与 Linux Foundation AI 代码调查、澳洲联邦法院责令苹果 2027/3/1 开放 iOS 生态。Netflix Q3 财报已披露闭合移出事件表，新增追踪特斯拉与 SpaceX 合并评估。
+- 本次运行时刻及检索截止：2026-10-31 11:32 UTC（2026-10-31 04:32 PDT）。
+- 上次运行：2026-10-26 08:25 UTC。
+- 覆盖窗口：2026-10-26 08:25 UTC 至 2026-10-31 11:32 UTC（常规）。
+- 十方向与既有事件已检索；收录触控 MacBook Pro、M6 MacBook Pro、M6 iMac 与 Chrome 156 后续安全补丁。触控款为 M5 Pro/Max，不与 M6 非触控款混写。
+- 检索限制：财报、半导体劳资、并购和监管追踪未取得足以确认的新增，不把预定财报日或谈判日经过视为事项完成。Chrome 官方正文提取有限，版本和修复数量以安全媒体报道交叉核对，不推定在野利用；旧 Android 公告不补作新动态。
 
 ## 2. 已报条目清单
 
@@ -48,10 +49,14 @@
 - 2026-10-26 | OpenBSD发布LibreSSL 4.4稳定版；Linux Foundation报告称约25%开源PR含低质量AI生成代码 | https://www.phoronix.com/news/LibreSSL-4.4-Released
 - 2026-10-26 | 澳大利亚联邦法院裁定苹果须于2027年3月1日前开放iOS第三方应用商店、侧载与外部支付 | https://9to5mac.com/2026/10/21/apple-must-open-iphone-to-alternative-app-stores-in-australia-after-epic-games-ruling/
 - 2026-10-26 | 谷歌向D.C.巡回上诉法院请求推翻搜索反垄断案裁决；苹果反对美国司法部扩大反垄断案证据开示时间范围 | https://www.mediapost.com/publications/article/418479/google-pushes-court-to-scuttle-search-monopoly-ver.html?edition=144055
+- 2026-10-31 | 苹果发布 M5 Pro/Max OLED 触控 MacBook Pro，14/16 英寸售价 2899/3399 美元起，11/6 上市 | https://www.cnbc.com/2026/10/28/apple-mac-touchscreen-launch.html
+- 2026-10-31 | 苹果发布 M6 非触控 14 英寸 MacBook Pro，10/28 预订、11/6 上市 | https://www.apple.com/newsroom/2026/10/apple-introduces-the-new-14-inch-macbook-pro-with-m6/
+- 2026-10-31 | 苹果发布 M6 24 英寸 iMac，升级 Wi-Fi 7/蓝牙 6，可选 2.5 Gb 以太网，11/6 上市 | https://www.apple.com/newsroom/2026/10/apple-unveils-new-imac-with-m6/
+- 2026-10-31 | Chrome 156.0.8078.79/.80 桌面更新修复 21 项漏洞，需重启应用补丁 | https://chromereleases.googleblog.com/2026/10/stable-channel-update-for-desktop_02107719452.html
 
 ## 3. 进行中事件表
 
-1. 事件：苹果10月新品发布｜最后进展：10-25 Mark Gurman披露10/28"Pro and Tell"将通过新闻稿发布首款OLED触控屏+灵动岛14/16英寸MacBook Pro（搭载M5 Pro/Max，涨价300-500美元）及M6入门14英寸MacBook Pro与24英寸iMac｜下一步关注：10/28官方正式发布规格与定价、10/30 HomePod mini 2开售及11/6新Mac开售表现
+1. 事件：苹果新 Mac 上市｜最后进展：2026-10-28，触控 M5 Pro/Max MacBook Pro 正式公布，M6 MacBook Pro 与 iMac 同周发布｜下一步关注：11 月 6 日开售、实际交付与独立评测；触控款和 M6 款分开核对，发布会传闻节点已闭合。
 2. 事件：美光台湾桃园/台中工会劳资争议与罢工｜最后进展：10-21台中厂工会与资方签协议退出，桃园厂工会于10-22至10-23完成台湾半导体史上首次24小时警告性罢工，内部对资方最新季度分红方案反对率仍近70%，定于10月27日重启正式谈判｜下一步关注：10/27劳资正式谈判结果、是否升级为无限期罢工
 3. 事件：特斯拉与SpaceX董事会特别委员会评估合并案｜最后进展：10-21马斯克披露特斯拉与SpaceX双方董事会已各自成立特别委员会探讨两家公司合并的可行性，但在特斯拉Q3财报电话会上拒绝进一步透露细节｜下一步关注：特别委员会评估结论、监管审查与股东反应
 4. 事件：台积电美国扩产与马斯克Terafab合作讨论｜最后进展：10-15魏哲家在Q3财报电话会上证实与马斯克讨论过Terafab，但明确要求晶圆厂必须由台积电直接运营；英特尔定于10/29发布Q3财报｜下一步关注：10/29英特尔财报会是否披露Terafab或18A代工合作进展、马斯克是否回应台积电条件
