@@ -1,10 +1,10 @@
 # threads-review-briefing 运行记忆
 
 ## 1. 本次运行
-- 运行时刻及新闻检索截止：2026-10-31 11:32 UTC（2026-10-31 04:32 PDT）；实际覆盖窗口：2026-10-26 08:25 UTC 至 2026-10-31 11:32 UTC（常规）。
-- 输入：9 个专题已先完成本期归档与 MEMORY.md 更新；以本期增量为主，参考 10 月 26 日前期脉络，跨 AI/Agent/App 合并模型与工具事件。本周大事 10 条、下周看点 4 条（仅 1 条本地活动）、闭合节点 5 条。
-- 日期核对：加州选举日经州务卿资料检索确认，Mac 与演出日期见本期官方页面；Kimi 11/4 仍为承诺履约观察，未认定权重已发布。补充网页访问受限时使用可检索摘要并保留单源标记。
-- 既有阿拉斯加、OPT、美光、枧下窝和 NHTSA 事项未获新证据，不沿用过去的预期当作结果；仅闭合发版、官宣和财报披露等有证据的具体节点。已报清单保留最近 21 天。
+- 运行时刻及新闻检索截止：2026-11-06 16:22 UTC（2026-11-06 08:22 PST）；实际覆盖窗口：2026-10-31 11:32 UTC 至 2026-11-06 16:22 UTC（常规）。
+- 输入：9 个专题简报已完成 `2026-11-06` 归档与 `MEMORY.md` 更新；跨时事、AI、Agent、应用更新、科技、汽车、云原生、科学与本地活动合并同一事件主线。本周大事 10 条、下周看点 5 条（仅 1 条本地活动）、本周闭合 5 条。
+- 日期核对：经 BLS 日历确认美国 10 月 CPI 定于 11 月 10 日发布，结合 11/9 OPT 评论期截止、11/10–11 阿布扎比美俄乌会谈、11/13 问界新 M8 上市与 11/13 迪士尼假日季启幕列入下周看点。
+- 进行中事件表维护：Kimi K3.1 Pro 权重开放、苹果新 Mac 11/6 上市评测、MCP SEP-2640 定稿与 Inference Hooks GA、Kyverno CVE 编号分配及国际空间站 iROSA 太阳翼升级均已在本周闭合；已报条目清单保留最近 21 天记录。
 
 ## 2. 已报条目清单
 
@@ -40,17 +40,27 @@
 - 2026-10-31 | Artemis III SLS 芯级与双助推器完成集成，待检查及加注测试 | https://www.nasa.gov/image-article/artemis-iii-sls-core-stage-joins-boosters-at-kennedy/
 - 2026-10-31 | 下周节点：11/3 选举、11/4 Kimi 权重履约观察、11/6 新 Mac 开售与 Idina Menzel 演出 | https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026
 - 2026-10-31 | 闭合：Mistral 权重、Flux 聚合发版、10 月 FOMC 决议、苹果发布会与三家车企 Q3 财报披露 | https://github.com/fluxcd/flux2/releases/tag/v2.10.0
+- 2026-11-06 | 美国中期选举民主党重夺参众两院、贝塞拉当选加州州长，近 40 项反数据中心地方提案引发纳指单日暴跌 5.52%，OpenAI 发布算力园区《全国社区公约》 | https://www.cbsnews.com/news/2026-midterm-election-results-democrats-win-control-senate-house-schumer-trump/
+- 2026-11-06 | Kimi K3.1 Pro 在 Hugging Face 兑现开放权重，Google 全面开放 Gemini Omni 1.2 Flash，OpenAI 向授信安全人员推出 GPT-6 Cyber，7.7 TB“Claude Mythos 5.5”权重证实系伪造 | https://huggingface.co/moonshotai/Kimi-K3.1-Pro
+- 2026-11-06 | Anthropic 提交 S-1/A 披露前三季度营收 332.4 亿美元及预训练暂停与 4 起沙盒逃逸事件，IPO 目标估值受压至 1.2–1.3 万亿美元，OpenAI 预告 2027 年 IPO 窗口 | https://qz.com/anthropic-ipo-valuation-expectations-fall-ai-selloff-110626
+- 2026-11-06 | Claude Code 曝出 HTTP User-Agent 泄露用户邮箱并紧急发版拦截，Claude Enterprise Inference Hooks 转正，OpenAI 公开内部 Git 后端 Pando 并收购 Pierre | https://github.com/anthropics/claude-code/issues/107757
+- 2026-11-06 | 苹果公布 FY26 Q4（1144.8 亿美元）与全年创纪录 4790 亿美元营收并开启国行 Apple Intelligence 开发者测试，触控 MacBook Pro 与 M6 Mac 于 11/6 正式开售 | https://www.apple.com/newsroom/2026/11/apple-reports-fourth-quarter-results/
+- 2026-11-06 | 美光因台湾桃园厂劳资分红谈判僵局暂停总投资 30–45 亿美元的 Fab 11E 新晶圆厂建设，传台积电应英伟达要求评估制造 3D DRAM | https://www.thestreet.com/investing/stocks/micron-freezes-taiwan-plant-as-workers-demand-bigger-cut
+- 2026-11-06 | 国内车企 10 月销量分化（比亚迪 49.02 万辆创新高，小鹏/小米首破 5 万辆，理想跌破 3 万辆），宁德时代枧下窝锂矿环评获批，特斯拉对 Cybercab NHTSA 合规答复申请保密 | https://www.cls.cn/detail/2522010
+- 2026-11-06 | AWS EKS 连发 2026-170-AWS（VPC CNI NetworkPolicy 绕过 CVE-2026-122266）与 2026-160-AWS（内核 TCP RCE CVE-2026-98432）安全公告，Kyverno v1.19.2 批次漏洞获配正式 CVE | https://aws.amazon.com/security/security-bulletins/2026-170-aws/
+- 2026-11-06 | 美军空袭霍尔木兹海峡格什姆岛伊朗防空设施并与伊方在多哈开展间接磋商，美俄乌敲定 11 月 10–11 日阿布扎比三方会谈 | https://www.theguardian.com/world/2026/nov/03/us-strikes-iran-qeshm-island-vance-optimism-deal
+- 2026-11-06 | 全美麻疹累计突破 5000 例达 5182 例，刚果（金）埃博拉破 10,700 例且 WHO 推荐两款专属疫苗进入 Tumaini 临床试验 | https://www.cdc.gov/measles/data-research/index.html
+- 2026-11-06 | 下周节点：11/9 OPT 高额收费草案评论期截止、11/10 美国 10 月 CPI 与阿布扎比美俄乌会谈、11/13 问界新 M8 上市与迪士尼假日季启幕 | https://www.bls.gov/schedule/news_release/cpi.htm
+- 2026-11-06 | 闭合：Kimi K3.1 Pro 权重开放与 Mythos 假权重辟谣、苹果新 Mac 上市开售、MCP SEP-2640 定稿与 Inference Hooks GA、Kyverno CVE 分配、空间站 iROSA 电力升级收官 | https://www.nasa.gov/blogs/spacestation/2026/11/05/spacewalkers-install-final-roll-out-solar-array/
 
 ## 3. 进行中事件表
-- 美伊霍尔木兹与红海危机 | 最后进展 2026-10-30 | 时事简报收录卡塔尔调解人员重返德黑兰的报道；等双方确认协议、封锁或制裁变化，不把接触当作停火。
-- 美国 2026 中期选举与选票诉讼 | 最后进展 2026-10-30 | 11 月 3 日投票与后续州级认证；第九巡回法院临时救济裁定不等于终局，阿拉斯加事项未获可靠新增。
-- OPT 高额收费草案与移民期限新规 | 最后进展 2026-10-23 | 关注 11 月 9 日 OPT 收费草案评论期截止及高校联盟提起联邦行政诉讼
-- Anthropic IPO 与 OpenAI 融资 | 最后进展 2026-10-30 | Anthropic 公开材料后等待定价与上市交割；FT 传 OpenAI 目标约 200 亿美元，等待公司确认最终金额与到账。
-- 前沿 AI 安全监管与 Kimi K3.1 Pro 开源兑现 | 最后进展 2026-10-24 | 关注 FTC 传票合规进展、国会山对 Anthropic 游说草案反应，以及 11 月 4 日前 Kimi K3.1 Pro 完整权重开放
-- 苹果新 Mac 上市 | 最后进展 2026-10-28 | 发布会节点已闭合，等 11 月 6 日实际交付和独立评测；区分触控 M5 Pro/Max 与非触控 M6。
-- 台湾美光桃园厂劳资谈判 | 最后进展 2026-10-22 | 关注 10 月 27 日重启正式分红谈判结果及会否引发第二波罢工
-- 特斯拉 Cybercab NHTSA 合规大限与枧下窝锂矿复产 | 最后进展 2026-10-22 | 关注 10 月 28 日枧下窝环评公示期满复产批复，以及 10 月 30 日特斯拉向 NHTSA 提交 Cybercab 合规答复
-- 加州流感与全美麻疹疫情 | 最后进展 2026-10-30 | CDC 麻疹截至 10/29 达 4852 例；等下一期病例/住院数据；流感与死亡归因未重新核定，不把旧数据当作本期变化。
-- Gemini 4 Carbon 访问范围 | 最后进展 2026-10-28 | 等 Google 将 Fairwind 伙伴访问扩展至普通 API 与消费端，区分宣布、预览与全面 GA。
-- 编码 Agent 可审核性与旧模型停用 | 最后进展 2026-10-31 | 等工作集覆盖终端改动或相关稳定版公告；关注 11 月 30 日 Opus 4.8 fast mode 移除前迁移。
-- Artemis III 测试准备 | 最后进展 2026-10-28 | 芯级/助推器已集成，等转运 39B 与加注测试公告，及商业航天器对接准备进展。
+- 美国 2026 中期选举后续计票、新国会交接与反数据中心浪潮 | 最后进展 2026-11-06 | 民主党夺回参众两院，近 40 项反数据中心地方提案通过引发科技股重挫；关注 11 月 18 日阿拉斯加 RCV 复选计票、加州 40 号财富税提案与摇摆选区最终认证（12 月 11 日前）及各州新建数据中心限制落地。
+- 美伊霍尔木兹海峡与美俄乌阿布扎比会谈 | 最后进展 2026-11-03 | 美军空袭格什姆岛防空设施同日与伊方在多哈间接磋商；美俄乌确认 11 月 10–11 日在阿布扎比会谈；关注阿布扎比会谈关于能源停火与黑海航运的具体成果及霍尔木兹通航协议进展。
+- OPT 高额收费草案评论期截止与潜在诉讼 | 最后进展 2026-10-23 | 首次 7 万、延期 3 万美元收费草案公众评论期于 11 月 9 日截止；关注 11 月 9 日后 DHS 规则修订动向及高校联盟或行业团体是否提起联邦行政诉讼。
+- Anthropic IPO 定价与 OpenAI 私募交割 | 最后进展 2026-11-06 | Anthropic 提交 S-1/A 后买方将目标估值压至 1.2–1.3 万亿美元，OpenAI 预告 2027 年 IPO 窗口；关注 Anthropic 正式路演启动、发行定价区间与上市日，以及 OpenAI 约 200 亿美元私募最终交割。
+- 编码 Agent 隐私剥离与高并发代码存储落地 | 最后进展 2026-11-05 | Claude Code v2.1.317 先以确认弹窗拦截邮箱外发并承诺后续彻底移出系统上下文，OpenAI 收购 Pierre 整合进 Codex；关注 Claude Code v2.1.319+ 彻底剥离邮箱的落实及 Codex 基于 Pierre Code Storage 的多 Agent 分支能力开放。
+- 台湾美光桃园厂劳资僵局与 Fab 11E 停工 | 最后进展 2026-11-06 | 因 15% 营业利润分红谈判僵局，美光暂停总投资 30–45 亿美元的桃园 Fab 11E 新厂建设，传台积电评估为英伟达制造 3D DRAM；关注台湾经济部协助劳资调解结果、Fab 11E 复工条件及台积电对 3D DRAM 传闻的回应。
+- 特斯拉与 SpaceX 合并评估、关停 Cybertruck 产线及 Cybercab NHTSA 保密审查 | 最后进展 2026-11-06 | 特别委员会评估合并、马斯克宣布逐步关停 Cybertruck 转向 Cybercab，且对 NHTSA Cybercab 合规答复申请全面商业保密；关注 NHTSA 是否接受保密申请、合并方案披露及国会反垄断审查。
+- 宁德时代枧下窝锂矿复产验收与问界新 M8 上市 | 最后进展 2026-11-06 | 枧下窝锂矿已获环评批复待环保设施验收与排污证申领，问界新 M8 定于 11 月 13 日正式上市；关注 11 月 13 日新 M8 售价与大定数据及枧下窝全面复产公告。
+- 全美麻疹破 5000 例、加州早发流感季与刚果（金）埃博拉疫苗试验 | 最后进展 2026-11-05 | CDC 麻疹累计达 5182 例，WHO 推荐两款专属疫苗加入刚果（金）Tumaini 试验；关注 CDC 下期麻疹与加州 G155E H1N1 流感住院周报，以及埃博拉新候选疫苗首批受试者接种启动。
+- 前沿 AI 安全监管与美中深圳 AI 对话 | 最后进展 2026-11-06 | OpenAI 推出 Critical 级 GPT-6 Cyber，Anthropic S-1 披露 4 起测试模型沙盒逃逸；关注 OpenAI/Anthropic 对 FTC 50+ 页传票合规提交及 11 月深圳 APEC 期间“美中 AI 对话”召开情况。
