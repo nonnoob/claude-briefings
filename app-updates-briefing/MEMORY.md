@@ -2,19 +2,13 @@
 
 ## 1. 本次运行时刻与实际覆盖窗口
 
-- 本次运行时刻及检索截止：2026-10-31 11:32 UTC（2026-10-31 04:32 PDT）。
-- 上次运行时刻：2026-10-26 08:25 UTC。
-- 实际覆盖窗口：2026-10-26 08:25 UTC 至 2026-10-31 11:32 UTC（常规）。
-- 三方向已检索；VS Code 1.144 与 Claude Code v2.1.311 至 v2.1.316 已以官方说明核实，未采用搜索中无法证实的 Claude Desktop 独立版本号。Duet、Dashboards/Motion 扩围未获可靠新增；不将 Canvases 预览版误写为 GA。
+- 本次运行时刻及检索截止：2026-11-06 16:22 UTC（2026-11-06 08:22 PST）。
+- 上次运行时刻：2026-10-31 11:32 UTC。
+- 实际覆盖窗口：2026-10-31 11:32 UTC 至 2026-11-06 16:22 UTC（常规）。
+- 三方向均已完整检索：核实收录 VS Code 1.145（及 1.145.1）正式版、VS Code 1.146 Insiders、Claude Code v2.1.317/v2.1.318、Claude Enterprise Inference Hooks GA 与 Security Center Beta、Claude Desktop v3.1623.0+ `/storage` 存储管理、claude.ai Personal Finance Beta、Microsoft Copilot Claude 模型纳入欧盟数据边界，以及 MCP 技能扩展规范 SEP-2640 定稿与安全厂商接入 Inference Hooks。
 
 ## 2. 已报条目清单（最近 21 天）
 
-- 2026-10-13 | Microsoft 发布 VS Code 1.141.1 修复 CVE-2026-102238 与 CVE-2026-70098 等安全漏洞，次日发布 1.141.2 修复其引发的 WSL 下 Claude Code/Codex/Markdown 预览回归故障 | https://github.com/microsoft/vscode/releases/tag/1.141.2
-- 2026-10-13 | Workday 与 Anthropic 宣布基于 MCP 协议打通 Claude 与 Workday Sana AI Agent 的企业级集成合作 | https://www.prnewswire.com/news-releases/workday-and-anthropic-announce-new-partnership-to-connect-reasoning-to-the-rules-that-run-the-business-wherever-people-choose-to-work-302274488.html
-- 2026-10-13 | Notion 发布 3.8 更新，深化 MCP 协议集成以支持 Claude 及第三方 Agent 读写工作区与同步逾 150 款工具技能 | https://www.notion.com/releases/
-- 2026-10-14 | VS Code 1.142 正式版发布，推出 Agent Canvases（预览）、跨目录/worktree 迁移会话、Markdown 粘贴图片与大纲增强、重设计模型选择器及企业级 Agent 沙箱策略控制 | https://code.visualstudio.com/updates/v1_142
-- 2026-10-14 | Claude Code v2.1.299 与 v2.1.300 发布，新增超 20 万 token 会话空闲自动压缩（Idle Compaction）、提示词缓存 TTL 控制与 PDF 分页限制 | https://github.com/anthropics/claude-code/releases/tag/v2.1.299
-- 2026-10-15 | Anthropic 宣布 Claude Code Review 面向 Team 与 Enterprise 正式转正（GA），支持三档审查深度且提速约 3 倍，并公开内部替代 Git 的自研版本控制系统 Scion | https://www.anthropic.com/news/redesigning-source-control-at-anthropic
 - 2026-10-16 | Claude Code v2.1.302 发布，在 claude -p、Agent SDK、VS Code 插件与桌面端默认启用 fork 子 Agent，新增 CLAUDE_CODE_AUTO_MODE_MODEL，并修复额度计费下自动提示词建议误扣额度问题 | https://github.com/anthropics/claude-code/releases/tag/v2.1.302
 - 2026-10-18 | Claude Code v2.1.304 发布，支持 Code Review 审查级别配置与组织级批量仓库策略、mod tool.check 新增 decider: "person"，修复 claude --worktree 退出时未经确认误删分支问题 | https://github.com/anthropics/claude-code/releases/tag/v2.1.304
 - 2026-10-19 | VS Code 1.143 Insiders 新增新建聊天菜单 Canvas 子菜单、.mcp.json 环境变量展开，并修复便携模式 CLI 状态路径问题 | https://code.visualstudio.com/updates
@@ -34,10 +28,19 @@
 - 2026-10-31 | Claude Code v2.1.314 为 VS Code/Desktop Code 标签页扩展空闲压缩并提供目录写入限制 | https://github.com/anthropics/claude-code/releases/tag/v2.1.314
 - 2026-10-31 | Claude Code v2.1.316 支持子 Agent 独立 effort，公告 Opus 4.8 fast mode 11 月 30 日移除 | https://github.com/anthropics/claude-code/releases/tag/v2.1.316
 - 2026-10-31 | VS Code 公布 Agent Host Protocol v1.0 与 WebSocket 接入库 | https://code.visualstudio.com/updates/v1_144
+- 2026-11-03 | Claude Code v2.1.317 调整跨模型子 Agent effort 回退逻辑，新增账号邮箱外发隐私确认（cc-plugin-privacy）、Agent SDK hook onFailure: "block"、嵌套 claude -p 会话 ID 隔离并移除 Read 未变更文件占位简写 | https://github.com/anthropics/claude-code/releases/tag/v2.1.317
+- 2026-11-03 | Claude Code v2.1.318 新增 claude.ai 登录过期时间字段与提前 10 天告警、支持云端无仓库会话与网关 Mantle 跨账号 assume_role，并修复 --continue 丢历史及共享网络主目录配置清空问题 | https://github.com/anthropics/claude-code/releases/tag/v2.1.318
+- 2026-11-04 | VS Code 1.145 及 1.145.1 正式版发布，支持远程 Agent 应用预览与远程 Canvases（预览）、跨 harness 嵌套聊天会话、三档聊天详略度模式、本地自动化五字段 cron 调度及 files.exclude 细粒度保留 | https://code.visualstudio.com/updates/v1_145
+- 2026-11-05 | Anthropic 宣布 Claude Enterprise 服务端推理钩子（Inference Hooks）正式转正（GA），上线 Security Center（Beta）与 admin.claude.com 父级组织集中管理控制台（Beta），以及 Check Point、Proofpoint、TrueFoundry 原生 Webhook 集成 | https://claude.com/resources/articles/claude-enterprise-security-updates
+- 2026-11-05 | Anthropic 面向美国 Pro/Max/Ultra 用户推出基于 Plaid 只读连接的 Personal Finance（Beta），并为 Claude Desktop（v3.1623.0+）新增 /storage 磁盘空间管理面板与 Code 标签页远程受管策略状态提示 | https://support.claude.com/en/articles/12138966-release-notes
+- 2026-11-05 | Microsoft 宣布将于 2026 年底前把 Microsoft Copilot 中集成的 Claude 模型纳入欧盟数据边界（EU Data Boundary） | https://www.microsoft.com/en-us/copilot/blog/2026/11/05/bringing-claude-models-in-microsoft-copilot-into-the-eu-data-boundary/
+- 2026-11-06 | MCP 技能扩展规范 SEP-2640（io.modelcontextprotocol/skills）正式定稿并在 VS Code 1.146 Insiders 落地，1.146 Insiders 同时升级 Compare Models 分组与 Agent 自动发起多模型对比 | https://code.visualstudio.com/updates/v1_146
 
 ## 3. 进行中事件表
 
-- 事件：Anthropic 上线 Claude Dashboards（付费计划 Beta）与 Claude Motion（Team/Enterprise Beta），同时宣布独立站点 `claude.ai/design` 将于 2026-12-14 停服下线；最后进展日期：2026-10-16；下一步关注点：核实 Claude Dashboards 与 Claude Motion 何时扩展覆盖范围或由 Beta 转 GA，以及 `claude.ai/design` 下线前是否推出自动迁移工具。
-- 事件：VS Code Agent 会话、Canvases 与改动审核；最后进展日期：2026-10-28；下一步关注点：1.144 的 Keep/Undo 已作为实验功能恢复，Compare Models 已对符合条件会话默认开启，后续核对工作集是否覆盖终端改动、Dev Containers 多模型支持及 Canvases 转 GA 公告。
+- 事件：VS Code Agent 会话、Canvases、Compare Models 与改动审核；最后进展日期：2026-11-06；下一步关注点：1.145 已支持远程 Agent 应用预览与远程 Canvases（仍为预览版），1.146 Insiders 已支持 Compare Models 分组集合与 Agent 自动发起对比，后续核实 Canvases 何时转 GA、Compare Models 何时支持 Dev Containers，以及 Keep/Undo 实验性工作集何时覆盖终端命令改动。
+- 事件：Anthropic 上线 Claude Dashboards（付费计划 Beta）与 Claude Motion（Team/Enterprise Beta），同时宣布独立站点 `claude.ai/design` 将于 2026-12-14 停服下线；最后进展日期：2026-10-16；下一步关注点：核实 Claude Dashboards 与 Claude Motion 何时扩展覆盖范围或由 Beta 转 GA，以及 `claude.ai/design` 在 12 月 14 日停服关停前的迁移提醒与下线执行情况。
 - 事件：Anthropic 开放主动式自主智能体应用 Claude Duet 研究预览（美国 Pro/Max 候补名单）；最后进展日期：2026-10-21；下一步关注点：关注 Claude Duet 何时结束候补名单全量开放或扩展至 Team/Enterprise 与非美地区。
-- 事件：Opus 4.8 fast mode 移除与 Fusion 优惠截止；最后进展日期：2026-10-31；下一步关注点：11 月 30 日旧 fast mode 移除及 Fusion 30% 优惠结束前核对模型配置、收费与客户端提示。
+- 事件：Opus 4.8 fast mode 移除与 Copilot Fusion 优惠截止；最后进展日期：2026-10-31；下一步关注点：11 月 30 日旧 fast mode 正式移除及 Copilot Fusion 30% 优惠结束前核对模型配置、收费变化与客户端迁移提示。
+- 事件：Claude Enterprise 安全中心（Security Center）、父级组织管理控制台与 Personal Finance Beta；最后进展日期：2026-11-05；下一步关注点：关注 Security Center 与 `admin.claude.com` 集中管理控制台何时由 Beta 转 GA，以及 Personal Finance Beta 何时扩展至非美地区或更多计划。
+- 事件：Microsoft Copilot 集成的 Claude 模型纳入欧盟数据边界（EU Data Boundary）；最后进展日期：2026-11-05；下一步关注点：微软计划于 2026 年底前完成落地，关注年底前正式上线公告及区域租户默认启用策略变化。
