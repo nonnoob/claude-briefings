@@ -2,28 +2,27 @@
 
 ## 1. 本次运行时刻与实际覆盖窗口
 
-- 运行时刻及检索截止：2026-10-31 11:32 UTC（2026-10-31 04:32 PDT）。
-- 实际覆盖窗口：2026-10-26 08:25 UTC 至 2026-10-31 11:32 UTC（常规）。
-- Watchlist 经官方 Releases、支持文档与 GitHub Advisory API 核查；Flux v2.10.0 于 10 月 26 日正式发布，Kubernetes 最新为 1.37.2；其余表内最新版本无已确认增量。Flux 在用版本及配置未确认，升级影响只作条件判断，归入“留意”，不声称生产已受影响。
-- Istio 两项及 Envoy 两项被追踪 GHSA 的 cve_id 仍为空；查询到的 Kyverno 10 月下旬公告也未新增正式 CVE，不采用搜索生成的编号。已报安全事项不重复充当本期新闻。
-- 方向 B/C 未取得新的达标条目；部分组件官方支持期限未确认，表内明确保留未知。上游 Kubernetes 1.34 EOL 与 EKS 1.34 支持期限不同，不能混用；“跟随最新 GA”不转换成读者实际版本号。
-- 版本清单确认日距本期 78 天，未超 90 天；第 4 节原样保留。Flux 聚合 Release 待办已闭合，其他事件保留原实际进展日期。
+- 运行时刻及检索截止：2026-11-06 16:22 UTC（2026-11-06 08:22 PST）。
+- 实际覆盖窗口：2026-10-31 11:32 UTC 至 2026-11-06 16:22 UTC（常规）。
+- 方向 A 六项通过官方 Releases、安全公告与 GitHub Security Advisories 核查：AWS 于 2026-11-04 发布安全公告 `2026-170-AWS`（CVE-2026-122266 / GHSA-mm5f-ggvx-hmvw，CVSS 8.7），修复 Amazon EKS Network Policy Agent（`< 1.3.7` / Amazon VPC CNI 附加组件 `< 1.22.3`）共享 eBPF conntrack 状态隔离不当致同节点 Pod 绕过 NetworkPolicy 入站策略问题；AWS 于 2026-10-31 发布安全公告 `2026-160-AWS`（Linux 内核 IPv4 TCP 握手路径 RCU 释放后重用高危漏洞 CVE-2026-98432）并同步推出 EKS 优化版 AL2023 AMI `v20261031`；NVD 与 GitHub Security Advisories 于 2026-11-03 至 11-05 期间为 Kyverno v1.19.2 批次安全公告正式分配 `CVE-2026-122300` 至 `CVE-2026-122323` 编号（含 CVE-2026-122310、CVE-2026-122311、CVE-2026-122303、CVE-2026-122304、CVE-2026-122313、CVE-2026-122321 等严重级漏洞），以【续报】收录并闭合对应追踪项。
+- 其余 watchlist 组件：Kubernetes 最新稳定版仍为 1.37.2（11 月补丁版目标日为 11-10）；Istio 最新稳定版仍为 1.31.3（1.32.0 尚处 RC 阶段）；Flux CD 最新仍为 v2.10.0；Kustomize 仍为 v5.8.3；Helm 仍为 v4.3.1 / v3.22.1（下一补丁计划 11-11）；Kyverno 仍为 v1.19.2；SOPS 仍为 v3.13.3；AWS Load Balancer Controller 仍为 v3.6.2。AWS EKS 于 11-03 宣布 EKS Capabilities 支持 Argo CD Notifications，因读者使用 Flux CD 且仅属托管 Argo CD 增量通知特性，未达方向 B 替代威胁门槛，不收。方向 B/C 本期无达标新事件。
+- 版本清单确认日（2026-08-14）距本期 84 天，未超 90 天；第 4 节原样保留。
+- 已报条目清单：按最近 21 天窗口（2026-10-16 至 2026-11-06）保留，移出已满 22 天的 2026-10-15 条目 2 条。进行中事件表：Kyverno v1.19.2 批次 CVE 编号分配已随本期续报闭合移出；ISTIO-SECURITY-2026-007 四项 GHSA 自 2026-10-15 起已满 22 天仍未分配正式 CVE 编号，按连续 21 天无新进展规则移出；保留 Istio GCP 制品托管退役（待 2026-11-17 第三轮 6 小时 scream test）。
 
 ## 2. 已报条目清单（最近 21 天）
 
-2026-10-15 | Istio 发布安全公告 ISTIO-SECURITY-2026-007 与 1.31.2/1.30.6/1.29.9（1.29 同批 EOL），修复 HTTP/2 AuthorizationPolicy 方法大小写绕过（GHSA-w44g-8m76-8gc5，CVSS 7.4）、Ambient istiod 崩溃循环（GHSA-7p2q-4xvg-vxc6，CVSS 7.7）及两项 Envoy CONNECT 请求崩溃漏洞 | https://istio.io/latest/news/security/istio-security-2026-007/
-2026-10-15 | Helm v4.3.1 与 v3.22.1 发布，修复上游 Go 依赖漏洞及 HookOnlyStrategy 下未等待 CRD 就绪问题 | https://github.com/helm/helm/releases/tag/v3.22.1
 2026-10-20 | Kyverno 发布 v1.19.2 并批量披露 26 项 GHSA 安全公告（含 GHSA-3xfv-vq8x-qhg4、GHSA-39w8-hv5g-f73w 等 11 项 CVSS 9.1–9.9 严重级多租户提权与镜像验签绕过漏洞），同时对 CEL PolicyException 强制校验 exceptionNamespace | https://github.com/kyverno/kyverno/releases/tag/v1.19.2
 2026-10-21 | Istio 发布安全公告 ISTIO-SECURITY-2026-008（CVE-2026-111943）与 1.31.3/1.30.7/1.29.10，吊销私钥泄露的 8 个 eMudhra 中间 CA 证书信任并修复自签名根证书过期启动失败问题 | https://istio.io/latest/news/security/istio-security-2026-008/
 2026-10-24 | Flux CD 各核心控制器先行发布 v1.10.0 / v1.7.0（Notification API 升 v1、Object Identity 转正并收紧默认 serviceaccounts/token RBAC、引入控制器间 SPIFFE mTLS、支持 HelmRelease OCIRepository 模板及 SOPS 注释正则解密） | https://github.com/fluxcd/notification-controller/releases/tag/v1.10.0
 2026-10-25 | AWS Load Balancer Controller 发布 v3.6.1 与 v3.6.2，新增对账状态指标、修复安全组释放 InvalidGroup.NotFound 对账死循环、移除失信 eMudhra 根证书并优化 Gateway 首次缓存同步性能 | https://github.com/kubernetes-sigs/aws-load-balancer-controller/releases/tag/v3.6.2
 2026-10-31 | Flux v2.10.0 聚合版本正式发布，落实 Notification v1 与默认 token RBAC 变更，最低 Kubernetes 补丁为 1.35.2/1.36.1/1.37.0 | https://github.com/fluxcd/flux2/releases/tag/v2.10.0
+2026-10-31 | AWS 发布安全公告 2026-160-AWS（Linux 内核 IPv4 TCP 握手路径 RCU 释放后重用漏洞 CVE-2026-98432）与 EKS 优化版 AL2023 AMI v20261031 | https://aws.amazon.com/security/security-bulletins/2026-160-aws/
+2026-11-04 | AWS 发布 EKS 安全公告 2026-170-AWS（CVE-2026-122266 / GHSA-mm5f-ggvx-hmvw，CVSS 8.7），修复 VPC CNI Network Policy Agent（< 1.3.7 / VPC CNI < 1.22.3）共享 eBPF conntrack 状态隔离绕过漏洞 | https://aws.amazon.com/security/security-bulletins/2026-170-aws/
+2026-11-05 | NVD 与 GitHub Security Advisories 为 Kyverno v1.19.2 批次安全公告正式分配 CVE-2026-122300 至 CVE-2026-122323 编号 | https://github.com/kyverno/kyverno/security/advisories/GHSA-3xfv-vq8x-qhg4
 
 ## 3. 进行中事件表
 
 - 事件：Istio GCP 制品托管退役（gcr.io/istio-release 等旧地址断供）| 最后进展日期：2026-10-13（第二轮 3 小时 scream test 窗口执行）| 下一步关注点：关注 2026-11-17（6 小时）与 2026-12-08（24 小时）后续 scream test 及 12 月正式关停公告。
-- 事件：Istio ISTIO-SECURITY-2026-007 四项 GHSA 正式 CVE 编号分配 | 最后进展日期：2026-10-15（截至 2026-10-26 核查 GHSA-w44g-8m76-8gc5、GHSA-7p2q-4xvg-vxc6、GHSA-8vc2-jrm4-835w、GHSA-47vj-9r25-wv5j 的 CVE 栏仍为空）| 下一步关注点：核查 GitHub Security Advisories 与 NVD 是否为上述四项分配正式 CVE-2026-* 编号（影响依赖 CVE 匹配的扫描器告警）。
-- 事件：Kyverno v1.19.2 批次 26 项 GHSA 正式 CVE 编号分配 | 最后进展日期：2026-10-23（26 项 GHSA 全部披露完毕，CVE 栏均为空）| 下一步关注点：核查 GitHub Security Advisories 与 NVD 是否为 GHSA-3xfv-vq8x-qhg4、GHSA-39w8-hv5g-f73w 等严重/高危公告分配正式 CVE-2026-* 编号。
 
 ## 4. 读者在用的版本清单
 
