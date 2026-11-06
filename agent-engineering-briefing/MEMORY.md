@@ -2,26 +2,13 @@
 
 ## 1. 本次运行
 
-- 运行时刻及检索截止：2026-10-31 11:32 UTC（2026-10-31 04:32 PDT）。
-- 实际覆盖窗口：2026-10-26 08:25 UTC 至 2026-10-31 11:32 UTC（常规）。
-- 六方向与既有事件已检索；本期以官方 Releases 和 VS Code 更新说明为依据，收录权限边界、压缩后指令刷新、会话恢复、工作集及 Agent Host Protocol 1.0。未将未经核验的 Rust 重写性能报道当作实践案例，社区讨论与案例方向不补旧闻。
-- Claude Code 目录写入限制只约束公告列出的工具，不等于系统级沙箱。Opus 4.8 fast mode 移除登记追踪；OpenCode 取证与 Kimi 权重兑现未获可靠新增，保留原进展日期。
+- 运行时刻及检索截止：2026-11-06 16:22 UTC（2026-11-06 08:22 PST）。
+- 实际覆盖窗口：2026-10-31 11:32 UTC 至 2026-11-06 16:22 UTC（常规）。
+- 六大方向与进行中事件表已完整检索：本期收录 LangChain 异步子 Agent 与浏览器优化、Anthropic Claude Enterprise 推理钩子 GA、MIT CSAIL 权重空间编程（Weight-Space Programming）、Claude Code v2.1.317–v2.1.318 及 HTTP User-Agent 邮箱泄露事件、OpenAI Codex rust-v0.167.0 与收购 Pierre / 内部 Git 后端 Pando、MCP 官方参考服务器 v2.3.0、GitHub Copilot CLI v1.0.106 系列、Kimi K3.1 Pro 开源权重兑现及 LlamaParse 私有化部署架构。
+- OpenCode Console 密钥泄露事件自 2026-10-20 以来已逾 14 天无新取证报告发布，按规则移出进行中事件表。
 
-## 2. 已报条目清单（保留最近 21 天）
+## 2. 已报条目清单（保留最近 14 天）
 
-- 2026-10-19 | Claude Code发布v2.1.299至v2.1.303：54分钟终端空闲自动压缩、Mods虚拟文本与子agent轨迹视图、OTel tool_decision埋点、SDK/桌面/VS Code默认开启fork subagents | https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md
-- 2026-10-19 | Anthropic将Claude Code多agent代码审查（Code Review）转为正式版（GA），披露内部90%代码由Claude编写、持续流审查令回滚率降逾40% | https://www.unite.ai/anthropic-makes-code-review-for-claude-code-generally-available/
-- 2026-10-19 | OpenAI Codex CLI发布rust-v0.163.0：默认即时转向、/config实时搜索、/keymap前缀键、/daemon管理与只读工具并行执行 | https://www.developersdigest.tech/blog/codex-cli-0-163-instant-steering-config-search-2026
-- 2026-10-19 | GitHub Copilot CLI发布v1.0.97至v1.0.99-3（接入Gemini 4 Argon、--disable-client-telemetry）；Qwen Code发布v0.25.2/v0.25.3（跨agent同屏协作、快照隔离子agent、K8s持久化会话） | https://github.com/github/copilot-cli/releases
-- 2026-10-19 | Claude Developer Platform上线OpenTelemetry导出（beta）并将Opus 5.5 Fast Mode转为正式版 | https://docs.anthropic.com/en/release-notes/api
-- 2026-10-19 | OpenAI开放Decisions API公测（基于gpt-6-luna，提速10倍、仅按输入token计费$0.10/M） | https://developers.openai.com/api/docs/guides/decisions
-- 2026-10-19 | Meta开源816B多模态模型Muse Spark Open（1M上下文），Reflection AI以Apache 2.0开放501B编码模型Beam 1.0权重 | https://huggingface.co/blog/meta-muse-spark-open
-- 2026-10-19 | Anthropic工程博客披露因agent令日均合入暴增至3万次，用自研服务端版本控制系统Scion替代核心单仓Git | https://www.anthropic.com/engineering/redesigning-source-control
-- 2026-10-19 | LangChain连发Deep Agents上下文工程与ScaleDown压缩长文，拆解虚拟文件系统记忆与子agent上下文隔离模式 | https://www.langchain.com/blog/context-engineering-deep-agents-remember
-- 2026-10-19 | LangChain发表Agent Evals常见问答指南；LlamaIndex发布Extract v2.5与Just-in-Time Agentic OCR双遍按需精读模式 | https://www.langchain.com/blog/common-questions-about-agent-evals
-- 2026-10-19 | HN热议Anthropic用Scion取代Git：agent时代重回集中式版本控制及对Piper/Sapling先驱归因争议 | https://news.ycombinator.com/item?id=50106738
-- 2026-10-19 | Jeremy Scheff《My obituary for programming》（经Simon Willison推介）引发社区对传统手写代码解谜乐趣消逝的共鸣 | https://simonwillison.net/2026/Oct/19/my-obituary-for-programming/
-- 2026-10-19 | OpenCode旧系统遭入侵波及约1.4% Console用户保存的第三方AI API密钥；印度CERT-In发布自治agent配置令牌越界警告 | https://seethroughai.substack.com/p/top-ai-news-of-the-week-33-october
 - 2026-10-26 | Anthropic将Agent Skills标准捐赠给AAIF，OpenAI、Hugging Face、阿里同步捐出Open Responses、OpenEnv与OpenSandbox | https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation
 - 2026-10-26 | LangChain提出构建企业多人共享生产级Agent的五要素Company Harness框架 | https://www.langchain.com/blog/components-building-company-harness
 - 2026-10-26 | Hamel Husain发布《How To Use Decision Models for Evals》，倡导用轻量决策分类器校准阈值替代LLM自报置信度 | https://hamel.dev/blog/posts/decision-model-evals/
@@ -33,7 +20,7 @@
 - 2026-10-26 | Anthropic发布API版本2026-10-21及Python SDK 2.0/TS SDK 1.0：彻底移除temperature/top_p/top_k（传参返400）、切换Bearer鉴权头 | https://docs.anthropic.com/en/release-notes/api
 - 2026-10-26 | Moonshot AI发布2.8T MoE模型Kimi K3.1 Pro（1M上下文，承诺11/4开源权重）；LlamaIndex发布4B文档解析视觉模型OCRia-1 | https://simonwillison.net/2026/Oct/23/kimi-k31-pro/
 - 2026-10-26 | Modal CEO Erik Bernhardsson在Latent Space复盘临时Agent沙箱（ephemeral sandboxes）爆发、快照克隆冷启动与隔离边界设计 | https://latent.space/p/modal-d/
-- 2026-10-26 | 【续报】OpenCode Console密钥泄露后续：受害者遭盗刷最高逾1700美元，官方归因于大规模模型蒸馏攻击引发争议，提醒需赴模型厂商控制台手动吊销 | https://thehackernews.com/2026/10/opencode-console-breach-may-have.html
+- 2026-10-26 | OpenCode Console密钥泄露后续：受害者遭盗刷最高逾1700美元，官方归因于大规模模型蒸馏攻击引发争议，提醒需赴模型厂商控制台手动吊销 | https://thehackernews.com/2026/10/opencode-console-breach-may-have.html
 - 2026-10-26 | Kimi K3.1 Pro技术报告披露开源前主动清洗网络攻击与漏洞利用语料，引发社区关于安全对齐与自动化安全审计agent能力权衡热议 | https://simonwillison.net/2026/Oct/23/kimi-k31-pro/
 - 2026-10-31 | VS Code 1.144 公布 Agent Host Protocol v1.0 与六种语言库 | https://code.visualstudio.com/updates/v1_144
 - 2026-10-31 | Claude Code v2.1.311 修复压缩后规则文件过期、晚连接 MCP 工具不可见及后台后代 worktree 提前清理 | https://github.com/anthropics/claude-code/releases/tag/v2.1.311
@@ -43,9 +30,23 @@
 - 2026-10-31 | Copilot CLI v1.0.105 修复长上下文会话无法选择 Fusion High/Max | https://github.com/github/copilot-cli/releases/tag/v1.0.105
 - 2026-10-31 | VS Code 1.144 实验性 Keep/Undo 工作集不涵盖终端命令改动 | https://code.visualstudio.com/updates/v1_144
 - 2026-10-31 | Claude Code v2.1.316 公告 Opus 4.8 fast mode 将于 11 月 30 日移除且无自动回退 | https://github.com/anthropics/claude-code/releases/tag/v2.1.316
+- 2026-11-06 | LangChain发布《Agents Are Going Async》，在Managed Deep Agents中引入异步子Agent任务管理原语与async配置 | https://www.langchain.com/blog/agents-are-going-async
+- 2026-11-06 | Anthropic将Claude Enterprise服务端推理钩子（Inference Hooks）转为正式版（GA），支持Prompt与工具调用前实时Webhook拦截 | https://claude.com/blog/claude-enterprise-inference-hooks
+- 2026-11-06 | Harrison Chase发表《New context engineering challenges in late 2026》，探讨主动式常驻Agent跨会话状态与共享记忆挑战 | https://www.langchain.com/blog/context-engineering-challenges-late-2026
+- 2026-11-06 | LangChain发布《How We Optimized Browser Use for Deep Agents》，采用Stagehand无障碍树快照与Code-Mode批量执行削减80%上下文消耗 | https://www.langchain.com/blog/how-we-optimized-browser-use-for-deep-agents
+- 2026-11-06 | Claude Code v2.1.317移除Read工具未变更文件简短占位符（stub），并停止跨模型子Agent默认继承主会话effort级别 | https://github.com/anthropics/claude-code/releases/tag/v2.1.317
+- 2026-11-06 | MIT CSAIL发布《Sparks of Weight-Space Programming》展示GPT-6 Astra免训练直接修改Qwen权重修复推理死循环，Simon Willison复现本地Qwen 3.8 27B权重解析 | https://simonwillison.net/2026/nov/3/weight-space-programming/
+- 2026-11-06 | Claude Code发布v2.1.317至v2.1.318：新增外发请求包含登录邮箱拦截提示、隔离claude -p嵌套会话ID、SDK Hook失败阻断onFailure: "block"及凭证过期提前10天告警 | https://github.com/anthropics/claude-code/releases/tag/v2.1.318
+- 2026-11-06 | OpenAI Codex CLI发布rust-v0.167.0（新增--no-daemon指挥中心控制与未读结果标记），并宣布收购Git基础设施初创公司Pierre以整合Code Storage | https://github.com/openai/codex/releases/tag/rust-v0.167.0
+- 2026-11-06 | 官方MCP参考服务器发布modelcontextprotocol/servers v2.3.0：filesystem新增服务级--read-only标志，fetch新增--allowed-hosts域名白名单 | https://github.com/modelcontextprotocol/servers/releases/tag/v2.3.0
+- 2026-11-06 | GitHub Copilot CLI发布v1.0.106系列（v1.0.106-2至v1.0.106-9）：修复/resume重复创建后台会话、ACP模式配置遵循与错误前缀格式 | https://github.com/github/copilot-cli/releases
+- 2026-11-06 | Moonshot AI在Hugging Face发布2.8T MoE模型Kimi K3.1 Pro完整开源权重（MXFP4权重/MXFP8激活，自定义MIT风格许可证） | https://huggingface.co/moonshotai/Kimi-K3.1-Pro
+- 2026-11-06 | OpenAI公开内部Rust Git后端Pando（《Scaling Git at OpenAI》），支撑海量Agent并行写入并将monorepo中位push延迟降低近80% | https://openai.com/index/scaling-git-at-openai
+- 2026-11-06 | LlamaIndex发布《Deploying LlamaParse in your own infrastructure》，详解结合OCRia在VPC/BYOC及本地环境私有化部署文档解析流水线 | https://www.llamaindex.ai/blog/deploying-llamaparse-in-your-own-infrastructure
+- 2026-11-06 | Claude Code通过HTTP User-Agent泄露用户账号邮箱事件（GitHub Issue #107757）登顶Hacker News，官方致歉并通过v2.1.317及cc-plugin-privacy拦截外发 | https://github.com/anthropics/claude-code/issues/107757
 
 ## 3. 进行中事件表
 
-- 事件：OpenCode Console 第三方 AI 供应商密钥泄露事件后续；最后进展日期：2026-10-20（受害开发者出现数百至逾 1700 美元异常盗刷账单，OpenCode 将攻击归因于黑客利用被盗密钥抓取前沿模型输出进行"大规模蒸馏攻击"引发安全圈质疑，并提醒在 Console 界面删除密钥不会在模型厂商侧自动吊销）；下一步关注点：OpenCode 是否发布详细事后取证报告（post-mortem）及密钥加密存储架构改造方案。
-- 事件：Kimi K3.1 Pro 完整模型权重开源兑现与编码 agent 实测；最后进展日期：2026-10-23（Moonshot AI 发布 2.8T 参数 MoE 模型 Kimi K3.1 Pro API 并承诺于 2026-11-04 开放完整模型权重）；下一步关注点：11 月 4 日是否如期发布完整开源权重、具体开源许可证条款及社区本地/私有云编码 agent 实测表现。
-- 事件：Opus 4.8 fast mode 停用；最后进展日期：2026-10-31（v2.1.316 公告，弃用日 10 月 30 日）；下一步关注点：11 月 30 日移除前核对仍固定旧模式的客户端与任务，并确认不支持请求的报错处理及迁移公告。
+- 事件：Claude Code 彻底移除模型上下文中的用户账号邮箱后续版本落地；最后进展日期：2026-11-05（Issue #107757 曝出 HTTP `User-Agent` 泄露用户登录邮箱后，Anthropic 先以 v2.1.317 弹窗拦截与 `cc-plugin-privacy` 缓解，并承诺在后续版本将账号邮箱从模型上下文中彻底移除）；下一步关注点：Claude Code 后续版本（v2.1.319+）变更日志是否兑现从系统上下文中彻底剥离用户邮箱，以及 `@author` 等场景的替代方案。
+- 事件：OpenAI 收购 Pierre 后的 Code Storage 与 Codex 集成及 Pando 开源/上游回馈进展；最后进展日期：2026-11-04（OpenAI 披露内部 Git 后端 Pando 并宣布收购 Pierre，计划将 Pierre 的分布式机器导向 Git 存储层 Code Storage 深度整合进 Codex）；下一步关注点：Codex CLI 及云端环境何时开放基于 Pierre Code Storage 的多 Agent 并行分支与内联审查功能，以及 Pando 相关补丁是否回馈上游 Git。
+- 事件：Opus 4.8 fast mode 停用；最后进展日期：2026-10-31（v2.1.316 公告，弃用日 10 月 30 日）；下一步关注点：11 月 30 日正式移除前后的客户端报错处理与迁移公告。
