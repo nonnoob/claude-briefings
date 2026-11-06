@@ -1,10 +1,9 @@
 # local-events-briefing MEMORY
 
 ## 1. 本次运行
-- 运行时刻及检索截止：2026-10-31 04:32 PDT（America/Los_Angeles；2026-10-31 11:32 UTC）。
-- 实际覆盖窗口：2026-10-26 01:25 PDT 至 2026-10-31 04:32 PDT（常规）；活动选择以未来 7 天及当前预约节点为主。
-- 六方向已检索并补搜餐饮和全国活动；本期未取得可靠的餐饮新增，不复述常规营业信息。今天起的 West Hollywood Carnaval、Boorito 及明日 HMOC 庆典作开场节点续报；上期已提醒的 MCR、Knott's 与南瓜灯收官节点不重复。
-- 新增 UCI 11/2、Idina Menzel 11/6 与 HB 10/31；Laguna Flag Walk 11/5 导览节点已报。UCI 免费停车仅限预约媒体，未当作公众待遇；Idina 票价随座位变化，不把无障碍席价格写成普遍起价。已报清单保留 21 天。
+- 运行时刻及检索截止：2026-11-06 08:22 PST（America/Los_Angeles；2026-11-06 16:22 UTC）。
+- 实际覆盖窗口：2026-10-31 04:32 PDT 至 2026-11-06 08:22 PST（常规）；活动选择以未来 7 天（11/6–11/13）及近期关键节点为主。
+- 六方向均已检索覆盖：今明速览收录 Idina Menzel 今明两晚开演续报、Irvine Spectrum Center 滑冰场今日开冰、Santa Ana Noche de Altares 明日封街庆典及 Costa Mesa Sugar Plum 市集；美食饮品收录 Costa Mesa 橙县葡萄酒节、Huntington Beach Old World Oktoberfest 收官周末与首届 LA Chocolate Festival；演出与赛事收录 Honda Center 周末演出与 Ducks 赛程、Irvine Great Park Live Dial Up Festival 延期至 2027/3/20 提醒、LA Phil Daniel Harding 音乐会与 Kia Forum Mon Laferte 演唱会；展览艺术收录 Laguna Art Museum Art + Nature 收官周末续报、OCMA《Hello Again》11/13 开展暨 11/14 免费公众开幕日及 Brewery Artwalk 与 Venice Beach Luminex；节庆市集与玩乐收录 Disneyland 假日季 11/13 启幕及洛城周六两场免费文化节；全国范围收录 11/11 Veterans Day 国家公园免费日及 Starbucks 假日菜单与 11/11、11/17 Red Cup Day 节点。
 
 ## 2. 已报条目清单
 
@@ -53,11 +52,32 @@
 2026-10-31 | Laguna Art Museum Flag Walk 11/5 10:00—11:00 免费导览，须核对登记与集合安排 | https://lagunaartmuseum.org/event-calendar/event/6562566
 2026-10-31 | UCI Día de los Muertos 11/2 15:30—19:30，Irvine Barclay Theatre 周边，免费 | https://news.uci.edu/2026/10/27/uc-irvine-to-host-fourth-annual-dia-de-los-muertos-event/
 2026-10-31 | Chipotle Boorito 10/31 15:00 至关店，变装加 Rewards 扫码，店内限一份 6 美元主食 | https://newsroom.chipotle.com/2026-10-20-BOORITO-RETURNS-CHIPOTLE-TO-OFFER-6-ENTREES-ON-HALLOWEEN-2026
+2026-11-06 | Idina Menzel 与 Pacific Symphony 今明两晚（11/6–11/7 20:00）开演提醒，Renée and Henry Segerstrom Concert Hall Costa Mesa | https://www.pacificsymphony.org/show-details/idina-menzel
+2026-11-06 | Irvine Spectrum Center 户外滑冰场（Ice Rink），11/6–2027-01-03，Irvine Spectrum Center | https://www.irvinespectrumcenter.com/entertainment/ice-rink
+2026-11-06 | Noche de Altares 亡灵节封街社区庆典，11/7 12:00–21:00，Downtown Santa Ana 4th Street | https://www.nochedealtares.info/
+2026-11-06 | Sugar Plum Arts & Crafts Festival，11/6–11/8，OC Fair & Event Center Costa Mesa | https://www.sugarplumfestivals.com/
+2026-11-06 | Orange County Wine Fest，11/7–11/8，The Hangar at OC Fair & Event Center Costa Mesa | https://www.orangecountywinefest.com/
+2026-11-06 | Old World Oktoberfest 最终收官周末，11/6–11/8，Old World Biergarten Huntington Beach | https://www.oldworldhb.com/
+2026-11-06 | 首届 LA Chocolate Festival，11/7–11/8 09:00–17:00，The Magic Box @ The Reef Downtown LA | https://www.lachocolatefestival.com/
+2026-11-06 | Honda Center Dan + Shay（11/6）、Brand New（11/7）演唱会及 Anaheim Ducks 主场赛（11/8、11/11），Honda Center Anaheim | https://www.hondacenter.com/
+2026-11-06 | Great Park Live Dial Up Festival（原定 11/7）延期至 2027-03-20，Great Park Live Irvine | https://www.greatparklive.com/
+2026-11-06 | LA Phil Daniel Harding 执棒伯恩斯坦与勃拉姆斯音乐会，11/6–11/8，Walt Disney Concert Hall Downtown LA | https://www.laphil.com/
+2026-11-06 | Mon Laferte Femme Fatale Tour，11/7–11/8 20:00，Kia Forum Inglewood | https://thekiaforum.com/
+2026-11-06 | Laguna Art Museum Art + Nature 收官周末暨户外旗帜装置展，至 11/9，Laguna Beach | https://lagunaartmuseum.org/
+2026-11-06 | UC Irvine Langson OCMA 秋季大展《Hello Again》开展（11/13）暨免费公众开幕庆典（11/14），Costa Mesa | https://ocma.art/
+2026-11-06 | Fall Brewery Artwalk（11/7–11/8 Lincoln Heights）与 Luminex: The Infinite Between（11/8 Venice Beach）| https://breweryartwalk.org/
+2026-11-06 | Holidays at the Disneyland Resort（含 Disney Festival of Holidays），11/13–2027-01-06，Disneyland Resort Anaheim | https://disneyland.disney.go.com/events-tours/holidays-at-the-disneyland-resort/
+2026-11-06 | Self Help Graphics 第 53 届亡灵节庆典（Boyle Heights）与 Corita Day Festival（Little Tokyo SCI-Arc），11/7，Los Angeles | https://www.discoverlosangeles.com/
+2026-11-06 | Veterans Day 全美国家公园免费开放日，11/11，全美 NPS 收费园区 | https://www.nps.gov/planyourvisit/fee-free-parks.htm
+2026-11-06 | Starbucks 2026 假日菜单上线（11/5 起）、Veterans Day 免费咖啡（11/11，同日含 In-N-Out 免费军人套餐）与 Red Cup Day（11/17）| https://about.starbucks.com/
 
 ## 3. 进行中事件表
-- 《The Who's Tommy》Hollywood Pantages Theatre | 最后进展 2026-10-26 | 11 月 15 日闭幕；11 月 12 日前后可做最后周末提醒
-- Laguna Art Museum 第 14 届 Art + Nature 艺术周 | 最后进展 2026-10-31 | 11 月 5 日 10:00 导览节点已报；除改期、取消或新增可预约活动外，不重复这次导览；临近 11 月 9 日收官时可核实是否需要最后周末提醒。
-- OCMA 秋季新展《Hello Again》等公众开幕 | 最后进展 2026-10-26 | 11 月 13 日至 11 月 14 日 Costa Mesa OCMA 新一季展览开幕及公共活动可收录
+- 《The Who's Tommy》Hollywood Pantages Theatre | 最后进展 2026-10-26 | 11 月 15 日闭幕；11 月 12–13 日前后可做最后周末提醒
+- UC Irvine Langson OCMA 秋季新展《Hello Again》公众开幕庆典 | 最后进展 2026-11-06 | 11 月 13 日开展、11 月 14 日周六全天免费公众开幕庆典，当日或前一日可做今明速览提醒
+- Holidays at the Disneyland Resort（含 Disney Festival of Holidays） | 最后进展 2026-11-06 | 11 月 13 日正式启幕，开幕当日或周末可做今明速览提醒
+- Starbucks Red Cup Day 2026 | 最后进展 2026-11-06 | 11 月 17 日（周二）全美参与门店买手工假日饮品赠限量可重复使用红杯，11 月 16–17 日可做节点提醒
 - The Broad 秋季大展《Has the myth been shattered》与 Hammer Museum《Felipe Baeza: Anima》 | 最后进展 2026-10-26 | 11 月 21 日同日开幕前一周可核实收录
-- Bowers Museum《Art of Mexico and Central America》及《Bowers Legacy》新常设展 | 最后进展 2026-10-26 | 11 月 21 日 Santa Ana 开幕前可核实收录
-- Getty Center《A Light in the Dark: Joseph Wright of Derby》特展 | 最后进展 2026-10-26 | 11 月 24 日开幕前可核实收录
+- Bowers Museum《Art of Mexico and Central America》及《Bowers Legacy》新常设展 | 最后进展 2026-10-26 | 11 月 21 日 Santa Ana 开幕前一周可核实收录
+- Descanso Gardens「Enchanted Forest of Light」夜间灯光秀 | 最后进展 2026-11-06 | 11 月 22 日正式向公众开放（11 月 21 日预览夜），开幕前一周可核实收录
+- Getty Center《A Light in the Dark: Joseph Wright of Derby》特展 | 最后进展 2026-10-26 | 11 月 24 日开幕前一周可核实收录
+- Great Park Live「Dial Up Festival」延期场 | 最后进展 2026-11-06 | 原定 2026 年 11 月 7 日，已延期至 2027 年 3 月 20 日在 Irvine Great Park Live 举行；临近 2027 年 3 月或阵容变动时再续报
