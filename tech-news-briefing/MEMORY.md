@@ -1,9 +1,9 @@
 ## 1. 本次运行
 
-- 本次运行时刻及检索截止：2026-11-06 16:22 UTC（2026-11-06 08:22 PST）。
-- 上次运行：2026-10-31 11:32 UTC。
-- 覆盖窗口：2026-10-31 11:32 UTC 至 2026-11-06 16:22 UTC（常规）。
-- 十方向与既有进行中事件均已完成检索；苹果新款触控 M5 Pro/Max MacBook Pro、M6 MacBook Pro 与 M6 iMac 已于 11 月 6 日正式上市开售并出炉首批独立评测，该追踪事项闭合移出。
+- 本次运行时刻及检索截止：2026-11-09 21:50 UTC（2026-11-09 13:50 PST）。
+- 上次运行：2026-11-06 16:22 UTC。
+- 覆盖窗口：2026-11-06 16:22 UTC 至 2026-11-09 21:50 UTC（常规）。
+- 十方向与既有进行中事件均已完成检索；台积电已正式回应否认应英伟达要求进军 3D DRAM 制造，该传闻追踪事项闭合移出。
 
 ## 2. 已报条目清单
 
@@ -46,16 +46,33 @@
 - 2026-11-06 | Fedora 45正式版发布（默认启用KMSCON并集成Stratis），systemd正式合并初步Rust语言支持 | https://www.phoronix.com/news/Fedora-45-Released
 - 2026-11-06 | GitHub原生支持仓库概览页展示ACCESSIBILITY.md无障碍声明并启动Game Off 2026挑战赛 | https://github.blog/news-insights/company-news/accessibility-statements-now-have-a-home-on-github/
 - 2026-11-06 | OpenAI向美国联邦法官申请简易判决驳回马斯克X与xAI提起的生成式AI反垄断诉讼剩余指控 | https://www.pymnts.com/artificial-intelligence/2026/openai-says-apple-chatgpt-deal-doesnt-shut-out-ai-rivals/
+- 2026-11-09 | 谷歌Gemini上线Memory summary功能，并确认11月13日起取消Google AI Plus低价档位的Gemini Pro模型权限 | https://9to5google.com/2026/11/09/google-gemini-memory-summary/
+- 2026-11-09 | Google Messages测试版改版主页布局，引入底部搜索栏与右上角Gemini入口 | https://9to5google.com/2026/11/07/google-messages-homepage-redesign/
+- 2026-11-09 | 苹果推送macOS 27.2.1与iOS 27.2.1等安全更新，移除存在弱私钥缺陷的eMudhra证书以修补命令行工具漏洞 | https://www.macrumors.com/2026/11/09/macos-27-2-1-emudhra-fix/
+- 2026-11-09 | 微软推送Windows 11 Beta Build 26320.9876（全面切换至26H2并上线WinUI 3搜索快捷操作）与Experimental Build 26340.9882 | https://blogs.windows.com/windows-insider/2026/11/06/announcing-new-builds-for-6-november-2026/
+- 2026-11-09 | Q.ANT与IONOS联合推出商业光子计算试点项目，通过云端裸金属服务器开放光子处理器算力 | https://www.globenewswire.com/news-release/2026/11/09/3398482/0/en/Q-ANT-and-IONOS-Launch-Photonic-Computing-Pilot.html
+- 2026-11-09 | 英伟达董事会就CEO黄仁勋涉华情报安全隐忧启动独立调查，黄仁勋致歉并否认泄密，股价单日市值蒸发逾3000亿美元 | https://www.theguardian.com/us-news/2026/nov/08/nvidia-investigation-ceo-jensen-huang-foreign-intelligence
+- 2026-11-09 | 字节跳动评估扩建巴西数据中心二期并收紧内部对Claude与Codex等外部AI工具权限，海外算力伙伴DayOne提交纳斯达克IPO招股书 | https://www.tmtpost.com/7581566.html
+- 2026-11-09 | 台积电正式否认应英伟达要求进军3D DRAM制造传闻，重申专注纯逻辑晶圆代工主业 | https://www.tomshardware.com/semiconductors/tsmc-denies-exploring-3d-dram-at-nvidias-request-advanced-memory-tech-is-still-years-from-market-viability
+- 2026-11-09 | 英飞凌宣布利用现有硅制造设备成功加工出全球首批300毫米（12英寸）碳化硅（SiC）功率晶圆 | https://www.techpowerup.com/354619/infineon-starts-worlds-first-300-millimeter-power-silicon-carbide-sic-wafer-production
+- 2026-11-09 | 特斯拉与SpaceX合资芯片企业Terafab目标2032年月产100万片晶圆（含70万片存储晶圆），马斯克软化立场重谈台积电运营角色 | https://www.techpowerup.com/354610/terafab-wants-to-become-one-of-the-largest-memory-makers-by-2032
+- 2026-11-09 | 马斯克确认Cybertruck产线将于2027年年中关停并向未交付预订者退还定金，预计SpaceX年化营收2027年底达5000亿美元 | https://www.cbsnews.com/news/tesla-cybertruck-deposits-production-winds-down-elon-musk/
+- 2026-11-09 | 国防科技公司Shield AI完成25亿美元融资（估值288亿美元）并宣布以最高53亿美元收购超材料雷达厂商Echodyne | https://shield.ai/shield-to-acquire-echodyne-in-a-transaction-valued-at-5-3-billion-and-raise-2-5-billion-at-a-28-8-billion-valuation/
+- 2026-11-09 | 无人机配送企业Zipline完成15亿美元后期融资，投后估值升至215亿美元 | https://www.finsmes.com/2026/11/zipline-raises-1-5b-in-funding.html
+- 2026-11-09 | OpenSSH曝出高危认证绕过漏洞"SSHole"（CVE-2026-123158）且与SonicWall MFA绕过漏洞CVE-2026-19868同被CISA列入KEV | https://www.bleepingcomputer.com/news/security/open-ssh-flaw-lets-attackers-log-into-password-disabled-linux-accounts/
+- 2026-11-09 | Linux内核UDP套接字曝出在野受测高危提权漏洞CVE-2026-98276，Chainalysis披露遭遇AI智能体网络攻击致部分用户资料外泄 | https://almalinux.org/blog/2026-11-06-cve-2026-98276/
+- 2026-11-09 | Linux 7.4-rc2发布带来FAT32预分配优化与AMDGPU修复，AMD提交下一代RDNA 5（GFX13）初步Linux内核驱动补丁 | https://www.phoronix.com/news/Linux-7.4-rc2
+- 2026-11-09 | FTC与多州同租房巨头Progress Residential达成4975万美元反隐形收费和解，中期选举后国会民主党拟强化AI数据中心与安全监管审查 | https://www.ftc.gov/news-events/news/press-releases/2026/11/progress-residential-owner-pretium-partners-pay-49.75-million-settle-ftc-states-charges-over-deceptive
 
 ## 3. 进行中事件表
 
-1. 事件：美光台湾桃园厂劳资争议与暂停新晶圆厂建设｜最后进展：2026-11-06，因桃园厂工会要求将营业利润15%用于员工分红的谈判陷入僵局及抗议台中厂协议透明度问题，美光被曝暂停总投资30亿至45亿美元的桃园新晶圆厂（Fab 11E）建设｜下一步关注：桃园厂劳资调解是否达成协议、Fab 11E何时复工
-2. 事件：美满电子（Marvell）1150亿美元全股票收购Lumentum｜最后进展：2026-11-02，Marvell宣布达成最终协议以隐含企业价值约1150亿美元全股票交易收购光通信厂商Lumentum｜下一步关注：双方股东大会表决及中美欧反垄断监管审查进展
-3. 事件：台积电评估应英伟达要求涉足3D DRAM制造（传闻）｜最后进展：2026-11-06，The Information报道台积电正评估突破纯逻辑代工边界、直接制造垂直堆叠3D DRAM以缓解英伟达AI内存瓶颈｜下一步关注：台积电官方回应或法说会表态、是否正式立项建线
-4. 事件：特斯拉与SpaceX董事会特别委员会评估合并及关停Cybertruck产线｜最后进展：2026-11-06，特别委员会持续评估合并（巴克莱测算合并后马斯克将掌握约56%投票权），马斯克宣布逐步关停Cybertruck产线转向Cybercab，选后两日市值蒸发逾4110亿美元｜下一步关注：特别委员会正式合并方案、国会与监管机构反垄断审查及Cybertruck具体停产时间表
-5. 事件：国行版Apple Intelligence开发者测试与正式上线｜最后进展：2026-11-03，苹果在iOS 27.3与macOS 27.3首个测试版中正式开启集成阿里通义千问等本地模型的国行Apple Intelligence开发者测试｜下一步关注：iOS 27.3正式版推送时间及国行Apple Intelligence面向公众全面开放日期
-6. 事件：马斯克诉OpenAI反垄断案与苹果诉OpenAI商业机密案｜最后进展：2026-11-05，OpenAI向联邦法官申请简易判决驳回马斯克反垄断诉讼剩余指控；苹果诉OpenAI及前高管Tang Tan商业机密盗窃案持续推进加速取证｜下一步关注：法庭对OpenAI简易判决动议的裁定、Tang Tan等证人宣誓作证进展
-7. 事件：澳大利亚联邦法院责令苹果2027年3月1日开放iOS生态｜最后进展：2026-10-22澳洲联邦法院裁定苹果须自2027/3/1起开放第三方应用商店、侧载与替代支付且不得收取惩罚性费用，苹果宣布将申请暂缓执行并上诉｜下一步关注：苹果上诉与暂缓执行申请裁定、Epic《堡垒之夜》重返澳洲App Store具体时间
-8. 事件：欧盟对谷歌DMA执法与美国搜索反垄断上诉｜最后进展：欧委会持续评估谷歌针对8.9亿欧元罚单的搜索与Google Play整改方案；谷歌向美国D.C.巡回上诉法院正式请求推翻搜索反垄断败诉裁决｜下一步关注：欧委会对谷歌DMA合规方案的最终裁定、D.C.巡回法院庭审排期
-9. 事件：FTC对OpenAI、Anthropic、METR的AI安全与消费者保护调查｜最后进展：10月中旬FTC向OpenAI与Anthropic发出各逾50页民事调查令（传票），要求提交安全事故与营销材料并拟传唤高管与METR作证｜下一步关注：两公司文件提交与高管听证时间表
-10. 事件：台积电美国扩产与马斯克Terafab合作讨论｜最后进展：10-15魏哲家在Q3财报电话会上证实与马斯克讨论过Terafab，但明确要求晶圆厂必须由台积电直接运营｜下一步关注：马斯克是否回应台积电运营条件、后续代工合作是否落地
+1. 事件：英伟达董事会就CEO黄仁勋涉外情报安全隐忧启动独立调查｜最后进展：2026-11-09，因美媒曝出黄仁勋曾与被美方情报机构怀疑替中国国安部门收集情报的新加坡数据中心客户Megaspeed高管存在私人关系，英伟达董事会宣布由独立董事委员会聘请外部律所启动独立调查，黄仁勋致歉但否认泄密｜下一步关注：独立董事委员会调查结论、美国国会听证或安全审查动向
+2. 事件：美光台湾桃园厂劳资争议与暂停新晶圆厂建设｜最后进展：2026-11-06，因桃园厂工会要求将营业利润15%用于员工分红的谈判陷入僵局及抗议台中厂协议透明度问题，美光被曝暂停总投资30亿至45亿美元的桃园新晶圆厂（Fab 11E）建设｜下一步关注：桃园厂劳资调解是否达成协议、Fab 11E何时复工
+3. 事件：美满电子（Marvell）1150亿美元全股票收购Lumentum｜最后进展：2026-11-02，Marvell宣布达成最终协议以隐含企业价值约1150亿美元全股票交易收购光通信厂商Lumentum（含32亿美元反向分手费条款，预计2028年上半年交割）｜下一步关注：双方股东大会表决及中美欧反垄断监管审查进展
+4. 事件：特斯拉与SpaceX董事会特别委员会评估合并及关停Cybertruck产线｜最后进展：2026-11-09，马斯克确认得州工厂Cybertruck产线将于2027年年中关停并向无法交付的预订者退还定金，同时双方董事会特别委员会持续评估合并方案｜下一步关注：特别委员会正式合并方案、国会与监管机构反垄断审查进展
+5. 事件：国行版Apple Intelligence开发者测试与正式上线｜最后进展：2026-11-04，苹果在iOS 27.3测试版中开启集成阿里通义千问（Qwen）模型的国行Apple Intelligence开发者测试，计划12月随iOS 27.3正式版向公众推送｜下一步关注：iOS 27.3正式版推送及iPadOS/macOS国行版监管审批进展
+6. 事件：马斯克诉OpenAI反垄断案与苹果诉OpenAI商业机密案｜最后进展：2026-11-05，OpenAI向联邦法官申请简易判决驳回马斯克反垄断诉讼剩余指控；苹果诉OpenAI及前高管Tang Tan商业机密盗窃案已排期2027年7月19日开庭｜下一步关注：法庭对OpenAI简易判决动议的裁定、商业机密案取证进展
+7. 事件：澳大利亚联邦法院责令苹果2027年3月1日开放iOS生态｜最后进展：2026-10-22澳洲联邦法院裁定苹果须自2027/3/1起开放第三方应用商店、侧载与替代支付，苹果宣布申请暂缓执行并上诉｜下一步关注：苹果上诉与暂缓执行申请裁定、Epic《堡垒之夜》重返澳洲App Store具体时间
+8. 事件：欧盟对谷歌DMA执法与美国搜索反垄断上诉｜最后进展：欧委会持续评估谷歌针对8.9亿欧元罚单的搜索与Google Play整改方案；谷歌与美国司法部围绕美国搜索反垄断案在D.C.巡回上诉法院交叉上诉｜下一步关注：欧委会对谷歌DMA合规方案的最终裁定、D.C.巡回法院庭审排期
+9. 事件：FTC对OpenAI、Anthropic、METR的AI安全与消费者保护调查｜最后进展：10月中旬FTC向OpenAI、Anthropic与METR发出民事调查令（传票），要求提交自主智能体安全事故与营销材料｜下一步关注：各机构文件提交与高管听证时间表
+10. 事件：台积电美国扩产与马斯克Terafab合作讨论｜最后进展：2026-11-09，Terafab被曝向日本设备商通报2032年月产100万片晶圆目标（2028下半年启动初步量产），马斯克软化完全自主运营立场并重新探讨赋予台积电运营角色｜下一步关注：台积电或英特尔与Terafab是否签署正式代工或建厂运营协议
