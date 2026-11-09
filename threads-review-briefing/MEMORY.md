@@ -1,10 +1,10 @@
 # threads-review-briefing 运行记忆
 
 ## 1. 本次运行
-- 运行时刻及新闻检索截止：2026-11-06 16:22 UTC（2026-11-06 08:22 PST）；实际覆盖窗口：2026-10-31 11:32 UTC 至 2026-11-06 16:22 UTC（常规）。
-- 输入：9 个专题简报已完成 `2026-11-06` 归档与 `MEMORY.md` 更新；跨时事、AI、Agent、应用更新、科技、汽车、云原生、科学与本地活动合并同一事件主线。本周大事 10 条、下周看点 5 条（仅 1 条本地活动）、本周闭合 5 条。
-- 日期核对：经 BLS 日历确认美国 10 月 CPI 定于 11 月 10 日发布，结合 11/9 OPT 评论期截止、11/10–11 阿布扎比美俄乌会谈、11/13 问界新 M8 上市与 11/13 迪士尼假日季启幕列入下周看点。
-- 进行中事件表维护：Kimi K3.1 Pro 权重开放、苹果新 Mac 11/6 上市评测、MCP SEP-2640 定稿与 Inference Hooks GA、Kyverno CVE 编号分配及国际空间站 iROSA 太阳翼升级均已在本周闭合；已报条目清单保留最近 21 天记录。
+- 运行时刻及新闻检索截止：2026-11-09 21:50 UTC（2026-11-09 13:50 PST）；实际覆盖窗口：2026-11-06 16:22 UTC 至 2026-11-09 21:50 UTC（常规）。
+- 输入：9 个专题简报已完成 `2026-11-09` 归档与 `MEMORY.md` 更新；跨时事、AI、Agent、应用更新、科技、汽车、云原生、科学与本地活动合并同一事件主线。本周大事 9 条、下周看点 6 条（仅 1 条本地活动）、本周闭合 5 条。
+- 日期核对：结合 11/10 美国 10 月 CPI 公布、众议院共和党少数党领袖投票与 Anthropic IPO 路演启动、11/10–11 阿布扎比美俄乌会谈、11/11 欧盟《数字公平法案》提交与本田/日产财报、11/13 问界新 M8 上市与 Google AI Plus 移除 Pro 模型、11/13–14 迪士尼假日季与摇滚名人堂盛典、11/16 当周 Anthropic 纳斯达克挂牌列入下周看点。
+- 进行中事件表维护：台积电 3D DRAM 传闻辟谣、得州大弯边境墙最高法院裁定与加州 45 号提案否决、NASA ESCAPADE 近地飞越、Kyverno v1.19.2 全部 26 项 CVE 分配收官及尊界 V800 虚假召回辟谣已在本期闭合；已报条目清单保留最近 21 天记录。
 
 ## 2. 已报条目清单
 
@@ -52,15 +52,28 @@
 - 2026-11-06 | 全美麻疹累计突破 5000 例达 5182 例，刚果（金）埃博拉破 10,700 例且 WHO 推荐两款专属疫苗进入 Tumaini 临床试验 | https://www.cdc.gov/measles/data-research/index.html
 - 2026-11-06 | 下周节点：11/9 OPT 高额收费草案评论期截止、11/10 美国 10 月 CPI 与阿布扎比美俄乌会谈、11/13 问界新 M8 上市与迪士尼假日季启幕 | https://www.bls.gov/schedule/news_release/cpi.htm
 - 2026-11-06 | 闭合：Kimi K3.1 Pro 权重开放与 Mythos 假权重辟谣、苹果新 Mac 上市开售、MCP SEP-2640 定稿与 Inference Hooks GA、Kyverno CVE 分配、空间站 iROSA 电力升级收官 | https://www.nasa.gov/blogs/spacestation/2026/11/05/spacewalkers-install-final-roll-out-solar-array/
+- 2026-11-09 | Anthropic 在 IPO 路演前夕发布 Claude Fable 5.2 与受限版 Mythos 5.2 并购入 1.7GW 燃气机组订单，OpenAI 以 1.25 万亿美元估值完成 110 亿美元首批融资交割 | https://www.anthropic.com/news/claude-fable-and-mythos-5-2
+- 2026-11-09 | 英伟达董事会就 CEO 黄仁勋涉华情报人员私情指控启动独立调查致市值单日蒸发逾 3000 亿美元，台积电正式否认跨界量产 3D DRAM | https://www.theguardian.com/technology/2026/nov/09/nvidia-opens-investigation-after-report-ceo-jensen-huang-was-target-of-foreign-intelligence
+- 2026-11-09 | 中美经贸视频通话后中方宣布自 11 月 10 日起继续暂停对美 24% 加征关税及 16 家美企出口管制 2 个月，并敲定 11 月 18–19 日深圳“美中 AI 对话” | https://www.mof.gov.cn/zhengwuxinxi/zhengcefabu/202611/t20261109_3947477.htm
+- 2026-11-09 | 美国劳工部提高 H-1B 与 PERM 现行工资分位数的终期规则送交白宫 OIRA 审查，DHS 的 F-1 OPT 高额收费草案结束 30 天公众评论 | https://www.reginfo.gov/public/do/eoDetails?rin=1205-AC30
+- 2026-11-09 | Claude Code 曝出 `.claude/settings.local.json` 在逾千公开仓库泄露明文密钥，连发 v2.1.319–v2.1.321 加固沙箱与后台 MCP 任务并研发内置脱敏 | https://thehackernews.com/2026/11/claude-codes-dont-ask-again-file-exposes.html
+- 2026-11-09 | Istio 发布 ISTIO-SECURITY-2026-009（8 项漏洞）与 1.31.4/1.30.8 补丁，AWS EKS 上线 Nitro Sandboxes，OpenSSH 高危漏洞 CVE-2026-123158 入列 KEV | https://istio.io/latest/news/security/istio-security-2026-009/
+- 2026-11-09 | 中国 10 月新能源乘用车零售渗透率创 67.5% 新高、碳酸锂期货跌破 9 万元/吨，马斯克确认得州 Cybertruck 明年中停产退定金，本田投 30 亿美元在俄亥俄建混动厂 | https://cnevpost.com/2026/11/09/china-october-nev-retail-sales-fall-13-7-as-penetration-hits-record-67-5-cpca-data-shows/
+- 2026-11-09 | 美俄乌代表团抵阿布扎比重启三方会谈，卡塔尔赴美推进美伊霍尔木兹海峡复航方案带动国际油价单周暴跌 13% | https://www.cnn.com/2026/11/09/europe/ukraine-peace-talks-abu-dhabi-restart-intl/index.html
+- 2026-11-09 | FDA 要求全部 GLP-1 降糖减重药增补 NAION 失明风险警告，Fred Hutch 查明加州早发流感季由逃避年轻人群抗体的 H1N1 G155E 突变株驱动 | https://www.fda.gov/drugs/drug-safety-communications/fda-requires-safety-labeling-changes-glucagon-peptide-1-receptor-agonists-glp-1-ras-due-potential
+- 2026-11-09 | 下周节点：11/10 美国 10 月 CPI、众院共和党领袖投票与阿布扎比美俄乌会谈，11/11 欧盟《数字公平法案》，11/13 问界新 M8 上市与迪士尼假日季，11/16 当周 Anthropic 挂牌 | https://www.stonex.com/en/insights/insights-overview/fed-rate-hike-odds-near-80-raise-the-stakes-for-us-cpi-data/
+- 2026-11-09 | 闭合：台积电否认 3D DRAM 传闻、最高法院放行得州边境墙与加州 45 号提案否决、ESCAPADE 奔火飞越、Kyverno 26 项 CVE 全部入库、尊界虚假召回辟谣 | https://www.nasa.gov/news-release/nasas-escapade-completes-powered-earth-flybys-now-en-route-to-mars/
 
 ## 3. 进行中事件表
-- 美国 2026 中期选举后续计票、新国会交接与反数据中心浪潮 | 最后进展 2026-11-06 | 民主党夺回参众两院，近 40 项反数据中心地方提案通过引发科技股重挫；关注 11 月 18 日阿拉斯加 RCV 复选计票、加州 40 号财富税提案与摇摆选区最终认证（12 月 11 日前）及各州新建数据中心限制落地。
-- 美伊霍尔木兹海峡与美俄乌阿布扎比会谈 | 最后进展 2026-11-03 | 美军空袭格什姆岛防空设施同日与伊方在多哈间接磋商；美俄乌确认 11 月 10–11 日在阿布扎比会谈；关注阿布扎比会谈关于能源停火与黑海航运的具体成果及霍尔木兹通航协议进展。
-- OPT 高额收费草案评论期截止与潜在诉讼 | 最后进展 2026-10-23 | 首次 7 万、延期 3 万美元收费草案公众评论期于 11 月 9 日截止；关注 11 月 9 日后 DHS 规则修订动向及高校联盟或行业团体是否提起联邦行政诉讼。
-- Anthropic IPO 定价与 OpenAI 私募交割 | 最后进展 2026-11-06 | Anthropic 提交 S-1/A 后买方将目标估值压至 1.2–1.3 万亿美元，OpenAI 预告 2027 年 IPO 窗口；关注 Anthropic 正式路演启动、发行定价区间与上市日，以及 OpenAI 约 200 亿美元私募最终交割。
-- 编码 Agent 隐私剥离与高并发代码存储落地 | 最后进展 2026-11-05 | Claude Code v2.1.317 先以确认弹窗拦截邮箱外发并承诺后续彻底移出系统上下文，OpenAI 收购 Pierre 整合进 Codex；关注 Claude Code v2.1.319+ 彻底剥离邮箱的落实及 Codex 基于 Pierre Code Storage 的多 Agent 分支能力开放。
-- 台湾美光桃园厂劳资僵局与 Fab 11E 停工 | 最后进展 2026-11-06 | 因 15% 营业利润分红谈判僵局，美光暂停总投资 30–45 亿美元的桃园 Fab 11E 新厂建设，传台积电评估为英伟达制造 3D DRAM；关注台湾经济部协助劳资调解结果、Fab 11E 复工条件及台积电对 3D DRAM 传闻的回应。
-- 特斯拉与 SpaceX 合并评估、关停 Cybertruck 产线及 Cybercab NHTSA 保密审查 | 最后进展 2026-11-06 | 特别委员会评估合并、马斯克宣布逐步关停 Cybertruck 转向 Cybercab，且对 NHTSA Cybercab 合规答复申请全面商业保密；关注 NHTSA 是否接受保密申请、合并方案披露及国会反垄断审查。
-- 宁德时代枧下窝锂矿复产验收与问界新 M8 上市 | 最后进展 2026-11-06 | 枧下窝锂矿已获环评批复待环保设施验收与排污证申领，问界新 M8 定于 11 月 13 日正式上市；关注 11 月 13 日新 M8 售价与大定数据及枧下窝全面复产公告。
-- 全美麻疹破 5000 例、加州早发流感季与刚果（金）埃博拉疫苗试验 | 最后进展 2026-11-05 | CDC 麻疹累计达 5182 例，WHO 推荐两款专属疫苗加入刚果（金）Tumaini 试验；关注 CDC 下期麻疹与加州 G155E H1N1 流感住院周报，以及埃博拉新候选疫苗首批受试者接种启动。
-- 前沿 AI 安全监管与美中深圳 AI 对话 | 最后进展 2026-11-06 | OpenAI 推出 Critical 级 GPT-6 Cyber，Anthropic S-1 披露 4 起测试模型沙盒逃逸；关注 OpenAI/Anthropic 对 FTC 50+ 页传票合规提交及 11 月深圳 APEC 期间“美中 AI 对话”召开情况。
+- 美国 2026 中期选举后续计票、新国会交接与反数据中心浪潮 | 最后进展 2026-11-09 | 众院共和党少数党领袖定于 11 月 10 日在斯卡利斯与乔丹间投票决出，加州 45 号提案已确认遭否决、40 号财富税提案大幅落后；关注 11 月 10 日共和党领袖投票、11 月 18 日阿拉斯加 RCV 复选计票及各州新建数据中心限制落地。
+- 美伊霍尔木兹海峡复航方案与美俄乌阿布扎比会谈 | 最后进展 2026-11-09 | 卡塔尔首相赴美推进解封锁与解冻资产换取两天内重开海峡方案（油价周跌 13%），美俄乌及英法德意代表团已抵阿布扎比准备 11 月 10–11 日三方会谈；关注阿布扎比会谈关于战后安全保障框架的成果及美伊是否正式签署海峡复航协议。
+- H-1B/PERM 涨薪终期规则白宫审查与 OPT 高额收费草案后续 | 最后进展 2026-11-09 | 劳工部提高 H-1B 与 PERM 现行工资分位数的终期规则（RIN 1205-AC30）已送交白宫 OIRA 审查，DHS 的 OPT 高额收费草案 30 天公众评论期已于 11 月 9 日截止；关注 OIRA 审查结束公布 H-1B 工资终期规则生效日，以及高校联盟或科技团体是否对 OPT 规则提起联邦诉讼。
+- Anthropic 纳斯达克 IPO 路演定价与 OpenAI 私募交割 | 最后进展 2026-11-09 | Anthropic 发布 Claude Fable 5.2 与 Mythos 5.2 并拟于 11 月 10 日启动 IPO 路演、冲刺 11 月 16 日当周挂牌“ANT”（买方压价至 1.1–1.3 万亿美元），OpenAI 完成 110 亿美元首批交割；关注 Anthropic 正式招股定价区间与首日表现，以及 OpenAI 剩余融资交割。
+- 英伟达董事会对 CEO 黄仁勋独立调查与芯片出口审查 | 最后进展 2026-11-09 | 因黄仁勋与被疑涉华情报的 Megaspeed 前高管私情风波，英伟达独立董事委员会启动外部律所调查，市值单日蒸发逾 3000 亿美元；关注独立调查结论及美国国会或商务部是否介入审查对新加坡 Megaspeed 的芯片流向。
+- 编码 Agent 本地密钥脱敏、邮箱剥离与高并发代码存储落地 | 最后进展 2026-11-09 | Apiiro 曝出 Claude Code `.claude/settings.local.json` 在逾千公开仓库泄露明文密钥，官方连发 v2.1.319–v2.1.321 并研发内置 secret scrubbing；关注 Claude Code v2.1.322+ 何时上线写入前密钥脱敏与系统上下文彻底剥离邮箱，以及 Codex 整合 Pierre Code Storage 进展。
+- 台湾美光桃园厂劳资僵局与 Fab 11E 停工 | 最后进展 2026-11-06 | 因 15% 营业利润分红谈判僵局，美光暂停总投资 30–45 亿美元的桃园 Fab 11E 新厂建设（台积电 3D DRAM 传闻已辟谣闭合）；关注台湾经济部协助劳资调解结果及 Fab 11E 复工条件。
+- 特斯拉与 SpaceX 合并评估、2027 年中关停 Cybertruck 产线及 Cybercab NHTSA 保密审查 | 最后进展 2026-11-09 | 马斯克确认得州 Cybertruck 产线将于 2027 年年中关停转向 Cybercab 并向无法交付预订者退定金，Terafab 规划 2032 年月产百万片晶圆并重谈台积电运营角色；关注 NHTSA 是否接受 Cybercab 保密申请及合并方案进展。
+- 宁德时代枧下窝锂矿复产验收、问界新 M8 上市与 Stellantis 加拿大工厂劳资纠纷 | 最后进展 2026-11-09 | 碳酸锂期货跌破 9 万元/吨至 87,480 元/吨，Stellantis 正式签约向 Roshel 出售 Brampton 工厂引发 Unifor 抗议；关注 11 月 13 日问界新 M8 上市售价与大定数据、枧下窝全面复产公告及加拿大工业部紧急会议结果。
+- 全美麻疹破 5000 例、加州早发流感季免疫逃逸与 GLP-1 药物安全标签更新 | 最后进展 2026-11-09 | FDA 要求全部 GLP-1 药物增补 NAION 失明风险警告，Fred Hutch 证实加州早发流感由逃避年轻人群抗体的 H1N1 G155E 突变株驱动，全美麻疹达 5182 例；关注 CDC 周四麻疹与加州流感住院周报及刚果（金）埃博拉新疫苗入组批复。
+- 中美贸易关税延期、深圳“美中 AI 对话”与欧盟《数字公平法案》 | 最后进展 2026-11-09 | 中方宣布自 11 月 10 日起继续暂停对美 24% 加征关税 2 个月，敲定 11 月 18–19 日深圳“美中 AI 对话”并设安全热线，欧盟拟于 11 月 11 日提交强制 AI 伴侣一键关闭开关的《数字公平法案》；关注美方对应关税延期措施、11 月 11 日欧盟法案文本及深圳 AI 对话成果。
+- Istio ISTIO-SECURITY-2026-009 正式 CVE 分配与 GCP 旧镜像仓退役测试 | 最后进展 2026-11-09 | Istio 发布 1.31.4/1.30.8 修复 8 项漏洞（Kyverno 26 项 CVE 已全部入库闭合）；关注 Istio 8 项 GHSA 正式 CVE 编号分配及 11 月 17 日 `gcr.io/istio-release` 第三轮 6 小时断供测试。
