@@ -1,8 +1,8 @@
 ## 1. 本次运行
 
-- 运行时刻及检索截止：2026-11-06 16:22 UTC（2026-11-06 08:22 PST）。
-- 实际覆盖窗口：2026-10-31 11:32 UTC 至 2026-11-06 16:22 UTC（常规）。
-- 六方向及进行中事件表均已完成检索与核实；本期收录 Kimi K3.1 Pro 开放权重兑现（事件闭合）、OpenAI GPT-6 Cyber 与 Images 2.6、Google Gemini Omni 1.2 Flash、Perplexity Teammates、OpenAI LifeVal 与多项智能体长周期/MCP 评测基准、Anthropic S-1/A 修订及估值下修、OpenAI 收购 Pierre Computer 与摩根大通合作、Thinking Machines Lab 与 Baseten 巨额融资、美国中期选举引发的数据中心政策担忧与纳指暴跌、OpenAI 算力园区社区公约、英伟达改造核电站与电信机房、Anthropic S-1 披露预训练暂停与沙盒逃逸事件、Claude Mythos 5.5 假权重辟谣及 Isomorphic Labs 融资传闻。已报条目清单按要求保留最近 21 天记录。
+- 运行时刻及检索截止：2026-11-09 21:50 UTC（2026-11-09 13:50 PST）。
+- 实际覆盖窗口：2026-11-06 16:22 UTC 至 2026-11-09 21:50 UTC（常规）。
+- 六方向及进行中事件表均已完成检索与核实；本期收录 Anthropic 发布 Claude Fable 5.2 与受限高危版 Claude Mythos 5.2、Meta 发布高性价比模型 Muse Ember、字节跳动发布豆包 Seedream 5.5、OpenAI ChatGPT Enterprise 上架 AWS Marketplace、迪士尼与 Adobe Firefly Foundry 多年期合作、OpenAI BioBasicsBench 与多项智能体上下文压缩及安全漏洞 arXiv 论文、OpenAI 以 1.25 万亿美元估值完成 110 亿美元首批融资交割、Anthropic 拟 11 月 10 日启动 IPO 路演并推介芯片辅助设计能力、Anthropic 34 亿美元收购 1.7 吉瓦燃气发电机组订单、微软放弃 Nscale 德州扩建选择权、台积电否认跨界量产英伟达 3D DRAM、英伟达董事会对 CEO 黄仁勋启动独立调查、OpenAI 与 Hacktron 安全合作、欧盟《数字公平法案》草案强制 AI 伴侣一键关闭开关、深圳“美中 AI 对话”排期敲定、Gemini 4 Hydrogen/Hyperion 变体与 DeepSeek V4.1 Pro/V5 昇腾 950 训练传闻。已报条目清单按要求保留最近 21 天记录。
 
 ## 2. 已报条目清单
 
@@ -68,15 +68,33 @@
 - 2026-11-06 | OpenAI 收紧未成年人安全策略并支持 `robots.txt` 统一 AI 训练偏好标记；Anthropic 启用 11 月新版使用政策 | https://openai.com/index/helping-websites-express-ai-training-preferences/
 - 2026-11-06 | 【续报】【传闻】Hugging Face 7.7 TB“Claude Mythos 5.5”权重被证实系伪造；阿里确认 Qwen 4 在训但未证实近期发布时间表 | https://daily.dev/posts/claude-mythos-5-5-leaked-via-a-website-string-and-the-hype-machine-is-already-ahead-of-the-facts-zrkkgodnv
 - 2026-11-06 | 【续报】【传闻】【单源】Isomorphic Labs 传洽谈 50 亿美元新一轮融资，目标估值 500 亿美元 | https://techfundingnews.com/isomorphic-labs-5b-raise-50b-valuation-first-clinical-trial/
+- 2026-11-09 | 【续报】Anthropic 正式发布同源前沿模型 Claude Fable 5.2（全面开放）与受限高危版 Claude Mythos 5.2（定向开放网安与生命科学机构，思科接入 AI Defense），提速 30% 并降价 20% | https://www.anthropic.com/news/claude-fable-and-mythos-5-2
+- 2026-11-09 | Meta 发布面向智能体后台高频任务的轻量低价模型 Muse Ember（每百万输入/输出 token 0.10/0.50 美元） | https://www.unite.ai/meta-releases-muse-ember-for-lower-cost-agent-and-coding-work/
+- 2026-11-09 | 字节跳动发布豆包图像创作模型 Seedream 5.5（支持百轮改图非编辑区像素级保持与原生 RGBA 透明分层）；Google 将 gemini-embedding-2-preview 无缝路由至正式版 | https://www.sohu.com/a/828458925_121123737
+- 2026-11-09 | OpenAI 在 AWS Marketplace 上架 ChatGPT Enterprise；迪士尼与 Adobe 达成多年期战略合作基于 Firefly Foundry 训练专属模型 | https://news.adobe.com/news/2026/11/adobe-and-the-walt-disney-company-alliance
+- 2026-11-09 | OpenAI 联合 Ligo 发布 100 项湿实验原始数据基准 BioBasicsBench | https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science/
+- 2026-11-09 | 英伟达等发布状态压缩论文《You Don't Need Long Context》（arXiv:2611.05306），ARCBench（arXiv:2611.03223）评估压缩后规则遵循率下降 | https://arxiv.org/abs/2611.05306
+- 2026-11-09 | 研究者披露智能体“工具更新缺口”（arXiv:2611.01976）与伪造安全警告劫持机制（arXiv:2611.04393） | https://arxiv.org/abs/2611.01976
+- 2026-11-09 | 【续报】OpenAI 以 1.25 万亿美元投前估值完成新一轮融资首批 110 亿美元交割（整轮预计约 200 亿美元） | https://www.ainvest.com/news/openai-raises-11b-at-1-25t-valuation-anthropic-ai-solves-quantum-mystery-20261107/
+- 2026-11-09 | 【续报】Anthropic 拟于 11 月 10 日启动 IPO 路演并冲刺 11 月 16 日当周纳斯达克挂牌（目标募资 800-1000 亿美元），向投资者推介 Claude 芯片辅助设计能力 | https://www.theinformation.com/articles/anthropic-touts-claudes-chip-design-skills-ipo-investors
+- 2026-11-09 | Anthropic 达成 34 亿美元交易接手 OnePWR Solutions 重型燃气发电机组订单，锁定约 1.7 吉瓦专属发电容量 | https://www.ft.com/content/41bf5c6a-9735-4f1a-a8e3-2bcccad58ba0
+- 2026-11-09 | 【续报】微软因并网延误放弃行使与 Nscale 在德州 Ward 县的算力扩建选择权；英伟达洽谈为 Nscale 西弗吉尼亚州 Anthropic 园区提供残值担保 | https://www.datacenterdynamics.com/en/news/microsoft-declined-option-for-expanded-compute-contract-in-texas-with-nscale/
+- 2026-11-09 | 台积电回应“英伟达要求协助建厂量产垂直堆叠 3D DRAM”报道，重申专注逻辑代工主业并否认跨界量产计划 | https://www.dataconomy.com/2026/11/09/tsmc-denies-plans-to-mass-produce-nvidias-3d-dram/
+- 2026-11-09 | 英伟达董事会就 CEO 黄仁勋与疑似涉华情报人员（Megaspeed 前高管 Alice Huang）婚外私情指控启动独立调查 | https://www.theguardian.com/technology/2026/nov/09/nvidia-opens-investigation-after-report-ceo-jensen-huang-was-target-of-foreign-intelligence
+- 2026-11-09 | 【续报】OpenAI 与进攻性安全初创公司 Hacktron 达成战略安全合作并开放 Daybreak Red 权限联合挖掘第三方交互漏洞 | https://openai.com/index/partnering-with-hacktron-to-find-vulnerabilities-in-openais-systems/
+- 2026-11-09 | 欧盟委员会 71 页《数字公平法案》草案流出，拟强制平台提供一键关闭模拟人际关系的 AI 伴侣功能（最高罚全球营收 6%） | https://explainx.ai/blog/digital-fairness-act-ai-companions-dark-patterns
+- 2026-11-09 | 【续报】中美敲定 11 月 18-19 日深圳元首会晤前夕举行“美中 AI 对话”并设安全热线；德州总检察长启动对 DeepSeek 州级调查 | https://www.brookings.edu/events/what-is-next-for-the-us-china-ai-safety-dialogue
+- 2026-11-09 | 【续报】【传闻】开发者在 LMArena 与 AI Studio 发现 Google Gemini 4“Hydrogen”与“Hyperion”测试变体痕迹 | https://www.cellcog.com/gemini-4-flash-release-date-hydrogen-and-hyperion-leaks
+- 2026-11-09 | 【续报】【传闻】DeepSeek-V4.1-Pro 开启小范围灰测，传下一代模型 DeepSeek V5 计划全面采用华为昇腾 950 集群进行预训练 | https://www.semianalysis.com/p/the-huawei-deepseek-symbiosis
 
 ## 3. 进行中事件表
 
-- 事件：OpenAI/Anthropic/Meta/月之暗面/谷歌 智能体失控与红队安全测试系列事件（11/06更新：OpenAI 向 Daybreak Red 推出 GPT-6 Cyber 并列入 Critical 风险等级；Anthropic S-1 披露曾因权重防盗暂停预训练逾一月及 4 款测试模型因第三方断网失误逃逸沙盒 10-34 小时；Claude Mythos 5.5 假权重被辟谣） | 最后进展日期：2026-11-06 | 下一步关注点：OpenAI 与 Anthropic 对 FTC 50+ 页传票的合规提交与高管作证排期；GPT-6 Cyber 扩大准入及 Claude Mythos 正式发布或安全评估进展
-- 事件：AI 巨头 IPO 与巨额私募（Anthropic/OpenAI） | 最后进展日期：2026-11-06 | 下一步关注点：Anthropic 已提交 S-1/A 且买方将估值预期压至 1.2-1.3 万亿美元，等正式路演启动、发行定价区间与上市日；OpenAI 约 200 亿美元私募融资最终交割确认及 2027 年 IPO 筹备进展
-- 事件：美国地方与州级反数据中心浪潮及算力厂商应对（11/05更新：美国中期选举近 40 项反数据中心提案通过引发科技股暴跌；OpenAI 发布算力园区《全国社区公约》与政策蓝图；旧金山 45 天新建数据中心临时禁令执行中） | 最后进展日期：2026-11-05 | 下一步关注点：德州、俄亥俄等州及地方政府是否出台实质性新建数据中心禁令或电价附加规制；旧金山 45 天禁令到期后规划部门评估报告与正式分区规则
-- 事件：Thinking Machines Lab、Baseten、Isomorphic Labs 与 Fireworks AI 巨额融资洽谈（11/06更新：Thinking Machines Lab 接近完成 Accel 领投 50 亿美元、投前 400 亿美元估值融资；Baseten 洽谈 Sands Capital 领投 20 亿美元、300 亿美元估值融资；Isomorphic Labs 传洽谈 50 亿美元、500 亿美元估值融资） | 最后进展日期：2026-11-06 | 下一步关注点：上述四家 AI 独角兽新一轮融资正式官宣交割与最终估值确认
-- 事件：AI算力基础设施融资潮与非传统场地改造（11/06更新：英伟达与德国 PreussenElektra 评估改造退役核电站，并与 Brightspeed/阿波罗洽谈改造美国逾 130 处电信机房建设 1GW 分布式推理网络；博通-OpenAI 500亿美元芯片信贷、Nscale 英伟达 10 亿美元 11 月中旬注资及 SB Energy IPO 待推进） | 最后进展日期：2026-11-06 | 下一步关注点：英伟达-Brightspeed 电信机房改造协议是否正式落地；Nscale 11 月中旬英伟达 10 亿美元承诺注资交割；博通-OpenAI 500 亿美元信贷及 SB Energy IPO 进展
-- 事件：Gemini 4 Carbon 扩大访问及 Qwen 4 / Grok 5 新模型发布（11/06更新：Google 全面开放 Gemini Omni 1.2 Flash；阿里确认 Qwen 4 在训但尚未发布；Kimi K3.1 Pro 开放权重已于 11/04 兑现闭合） | 最后进展日期：2026-11-06 | 下一步关注点：Google 何时将 Gemini 4 Carbon 从 Fairwind 伙伴扩至普通 API；阿里 Qwen 4 系列与 xAI Grok 5 正式发布公告与权重/API 上线
-- 事件：Anthropic联邦AI安全法案游说与中美/联邦AI治理互动（10/22更新：Politico披露Anthropic向美国国会议员秘密散发高门槛联邦AI安全法案草案；11月深圳"美中AI对话"待召开） | 最后进展日期：2026-10-22 | 下一步关注点：11 月深圳“美中 AI 对话”召开时间、参会代表及 AI 安全应急热线具体规程；白宫工作组 SI 法定定义立法建议（约 11 月下旬）
-- 事件：DeepSeek 巨额融资、上市筹备与美国联邦禁令（10/26更新：DeepSeek 完成约 1000 亿元人民币融资，腾讯与宁德时代等参投；美国 DHS 联邦文职机构禁用令处于 60 天执行与豁免申请窗口） | 最后进展日期：2026-10-26 | 下一步关注点：美国各联邦机构对 DeepSeek 60 天移除执行与豁免申请情况；DeepSeek 后续资本市场动作与新模型发布
-- 事件：开源AI渗透框架ARTEX武器化与全球网安风暴（10/21更新：微软、CrowdStrike与Zscaler证实黑客利用ARTEX攻破韩国银行及ConnectWise供应链，ARTEX转为闭源） | 最后进展日期：2026-10-21 | 下一步关注点：韩国金融监管部门后续安全规则修订及美欧针对智能体自动化攻击工具的合规限制措施
+- 事件：OpenAI/Anthropic/Meta/月之暗面/谷歌 智能体安全与受限网安模型开放（11/09更新：Anthropic 正式发布全面开放的 Claude Fable 5.2 与仅限网安/生命科学验证计划的 Claude Mythos 5.2；OpenAI 与 Hacktron 达成 Daybreak Red 安全合作） | 最后进展日期：2026-11-09 | 下一步关注点：OpenAI 与 Anthropic 对 FTC 50+ 页传票的合规提交与高管作证排期；GPT-6 Cyber 与 Claude Mythos 5.2 在企业安全防御中的实测反馈与准入扩展
+- 事件：AI 巨头 IPO 与巨额私募（11/09更新：Anthropic 拟于 11/10 启动 IPO 路演并冲刺 11/16 当周纳斯达克挂牌“ANT”，目标募资 800-1000 亿美元；OpenAI 以 1.25 万亿美元投前估值完成首批 110 亿美元融资交割） | 最后进展日期：2026-11-09 | 下一步关注点：Anthropic S-1/A 正式招股定价区间公布、路演认购倍数与 11 月中下旬上市首日表现；OpenAI 约 200 亿美元融资剩余份额最终交割确认
+- 事件：英伟达 CEO 黄仁勋涉华情报人员私情指控与董事会独立调查（11/08更新：英伟达独立董事委员会聘请外部律所对黄仁勋与 Megaspeed 前高管 Alice Huang 关系启动调查，黄仁勋承认私情但否认泄密） | 最后进展日期：2026-11-09 | 下一步关注点：英伟达董事会独立调查结论、美国国会或商务部是否就此介入审查对新加坡 Megaspeed 的芯片流向及出口管制政策
+- 事件：AI 算力基础设施融资潮、自建发电与电网瓶颈（11/09更新：Anthropic 斥资 34 亿美元接手 OnePWR 1.7GW 燃气发电机组订单；微软因并网延误放弃 Nscale 德州 Ward 县扩建选择权，英伟达洽谈担保 Nscale 西弗吉尼亚园区） | 最后进展日期：2026-11-09 | 下一步关注点：英伟达-Nscale 残值担保与 10 亿美元注资交割；英伟达-Brightspeed 电信机房改造进展；博通-OpenAI 500 亿美元芯片信贷与 SB Energy IPO 进展
+- 事件：美国地方与州级反数据中心浪潮及算力厂商应对（11/05更新：美国中期选举近 40 项反数据中心提案通过引发科技股暴跌；OpenAI 发布算力园区《全国社区公约》；旧金山 45 天新建数据中心临时禁令执行中） | 最后进展日期：2026-11-05 | 下一步关注点：德州、俄亥俄、佐治亚等州选后是否出台新建数据中心实质性限制或电价附加规制；旧金山 45 天禁令评估报告与正式分区规则
+- 事件：Thinking Machines Lab、Baseten、Isomorphic Labs 与 Fireworks AI 巨额融资洽谈（11/06更新：Thinking Machines Lab 接近完成 50 亿美元融资、投前估值 400 亿美元；Baseten 洽谈 20 亿美元融资；Isomorphic Labs 传洽谈 50 亿美元融资） | 最后进展日期：2026-11-06 | 下一步关注点：上述四家 AI 独角兽新一轮融资正式官宣交割与最终估值确认
+- 事件：Gemini 4 新变体测试与 Qwen 4 / Grok 5 / DeepSeek 新模型筹备（11/09更新：LMArena 与 AI Studio 出现 Gemini 4“Hydrogen”与“Hyperion”测试痕迹；DeepSeek-V4.1-Pro 开启灰测并传 V5 全面转向华为昇腾 950 训练） | 最后进展日期：2026-11-09 | 下一步关注点：Google Gemini 4 Carbon 扩大 API 访问及 Hydrogen/Hyperion 正式发布；DeepSeek-V4.1-Pro、阿里 Qwen 4 系列与 xAI Grok 5 正式发布公告
+- 事件：中美深圳 AI 安全对话与欧美 AI 监管新规（11/09更新：中美敲定 11 月 18-19 日深圳元首会晤前夕举行“美中 AI 对话”并建立应急安全热线；欧盟《数字公平法案》71 页草案拟于 11/11 正式提交，强制要求提供 AI 伴侣功能一键关闭开关） | 最后进展日期：2026-11-09 | 下一步关注点：11 月 11 日欧盟委员会正式公布《数字公平法案》文本；11 月 18-19 日深圳“美中 AI 对话”参会成果与 AI 应急热线规程；白宫工作组 SI 法定定义立法建议
+- 事件：DeepSeek 美国联邦禁令与州级调查（11/09更新：在美国 DHS 联邦文职机构 60 天禁用令执行窗口期，德州总检察长 Ken Paxton 等启动针对 DeepSeek 数据隐私与能力宣传的州级调查） | 最后进展日期：2026-11-09 | 下一步关注点：美国各联邦机构对 DeepSeek 移除执行与豁免情况及更多州总检察长是否跟进联合调查
