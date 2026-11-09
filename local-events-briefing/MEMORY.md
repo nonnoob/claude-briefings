@@ -1,9 +1,9 @@
 # local-events-briefing MEMORY
 
 ## 1. 本次运行
-- 运行时刻及检索截止：2026-11-06 08:22 PST（America/Los_Angeles；2026-11-06 16:22 UTC）。
-- 实际覆盖窗口：2026-10-31 04:32 PDT 至 2026-11-06 08:22 PST（常规）；活动选择以未来 7 天（11/6–11/13）及近期关键节点为主。
-- 六方向均已检索覆盖：今明速览收录 Idina Menzel 今明两晚开演续报、Irvine Spectrum Center 滑冰场今日开冰、Santa Ana Noche de Altares 明日封街庆典及 Costa Mesa Sugar Plum 市集；美食饮品收录 Costa Mesa 橙县葡萄酒节、Huntington Beach Old World Oktoberfest 收官周末与首届 LA Chocolate Festival；演出与赛事收录 Honda Center 周末演出与 Ducks 赛程、Irvine Great Park Live Dial Up Festival 延期至 2027/3/20 提醒、LA Phil Daniel Harding 音乐会与 Kia Forum Mon Laferte 演唱会；展览艺术收录 Laguna Art Museum Art + Nature 收官周末续报、OCMA《Hello Again》11/13 开展暨 11/14 免费公众开幕日及 Brewery Artwalk 与 Venice Beach Luminex；节庆市集与玩乐收录 Disneyland 假日季 11/13 启幕及洛城周六两场免费文化节；全国范围收录 11/11 Veterans Day 国家公园免费日及 Starbucks 假日菜单与 11/11、11/17 Red Cup Day 节点。
+- 运行时刻及检索截止：2026-11-09 13:50 PST（America/Los_Angeles；2026-11-09 21:50 UTC）。
+- 实际覆盖窗口：2026-11-06 08:22 PST 至 2026-11-09 13:50 PST（常规）；活动选择以未来 7 天（11/9–11/16）及近期关键开票/预约节点为主。
+- 六方向均已检索覆盖：今明速览收录 Costa Mesa《Water for Elephants》首演暨 Orpheus Chamber Orchestra 音乐会、Anaheim Daughtry 与 Periphery 同晚演出、Kia Forum Jessie Reyez 今晚演唱会及洛城《Oh, Mary!》首演与 David Sedaris 专场；美食饮品收录 Costa Mesa Ina Garten 专场对谈、La Habra 墨西哥城传奇吉事果老字号 Churrería El Moro 新店及本周末 2026 洛杉矶日本美食展与 Smorgasburg LA 特别场；演出与赛事收录橙县周末摇滚专场（Blue Öyster Cult、DragonForce、The Damned）与 Ducks 赛程、洛城 Peacock Theater 2026 摇滚名人堂入驻盛典、Slayer 40 周年专场与 LA Phil 音乐会，以及今日官宣并定于本周四（11/12）开票的 Fall Out Boy 2027 Dodger Stadium 演唱会；展览艺术收录 Orange Hilbert Museum 十周年读者最爱展及下周三（11/18）《辛普森一家》与科幻艺术双新展预约提醒、LACMA《Paul R. Williams》建筑大展与 MOCA Grand Avenue《Julian Charrière: Deep End》等双新展周日（11/15）开展；节庆市集与玩乐收录橙县多城 Veterans Day（11/11）纪念活动、Costa Mesa Heroes Hall 退伍军人节周末免费庆典及长滩 Queen Mary 与 Old Pasadena Jackalope 手作市集；全国范围收录 11/11 Veterans Day 全美连锁餐饮军人免费福利汇总及本周五（11/13）公售的 Kings of Leon 与 Marc Anthony 2027 巡演。
 
 ## 2. 已报条目清单
 
@@ -70,14 +70,36 @@
 2026-11-06 | Self Help Graphics 第 53 届亡灵节庆典（Boyle Heights）与 Corita Day Festival（Little Tokyo SCI-Arc），11/7，Los Angeles | https://www.discoverlosangeles.com/
 2026-11-06 | Veterans Day 全美国家公园免费开放日，11/11，全美 NPS 收费园区 | https://www.nps.gov/planyourvisit/fee-free-parks.htm
 2026-11-06 | Starbucks 2026 假日菜单上线（11/5 起）、Veterans Day 免费咖啡（11/11，同日含 In-N-Out 免费军人套餐）与 Red Cup Day（11/17）| https://about.starbucks.com/
+2026-11-09 | 百老汇音乐剧《Water for Elephants》（11/10–11/22）与 Orpheus Chamber Orchestra 音乐会（11/10 20:00），Segerstrom Center for the Arts Costa Mesa | https://www.scfta.org/
+2026-11-09 | Daughtry 20 Years Unplugged Tour（City National Grove of Anaheim）与 Periphery 演唱会（House of Blues Anaheim），11/10，Anaheim | https://www.ticketmaster.com/
+2026-11-09 | Jessie Reyez A Little Vengeance Tour，11/9 20:00，Kia Forum Inglewood | https://thekiaforum.com/
+2026-11-09 | 百老汇黑色喜剧《Oh, Mary!》（11/10–12/6 Ahmanson Theatre）与 David Sedaris 专场（11/10 Pasadena Civic Auditorium）| https://www.centertheatregroup.org/
+2026-11-09 | Simply Ina: An Evening Conversation with Ina Garten，11/11 20:00，Renée and Henry Segerstrom Concert Hall Costa Mesa | https://www.scfta.org/
+2026-11-09 | 墨西哥城传奇吉事果老字号 Churrería El Moro 橙县新店营业，每日 08:00–23:00，La Habra Towne Center | https://elmoro.mx/
+2026-11-09 | 2026 Japanese Food Expo（11/13–11/14 Ovation Hollywood）与 Smorgasburg LA East LA Living 特别场（11/14–11/15 ROW DTLA）| https://www.ovationhollywood.com/
+2026-11-09 | Blue Öyster Cult（11/13 Grove of Anaheim）、DragonForce（11/14 House of Blues Anaheim）、The Damned（11/15 The Observatory Santa Ana）与 Anaheim Ducks 主场赛（11/11、11/14 Honda Center）| https://www.livenation.com/
+2026-11-09 | 2026 Rock & Roll Hall of Fame Induction Ceremony，11/14 19:00，Peacock Theater Downtown LA | https://www.peacocktheater.com/
+2026-11-09 | Slayer Reign In Blood 40 周年专场（11/13 Kia Forum）与 LA Phil 柴可夫斯基《第四交响曲》音乐会（11/13–11/15 Walt Disney Concert Hall）| https://thekiaforum.com/
+2026-11-09 | Fall Out Boy Twilight of the Punks 2027 巡演官宣（2027/8/21 Dodger Stadium），11/11 预售、11/12 10:00 公售 | https://www.livenationentertainment.com/
+2026-11-09 | Hilbert Museum 十周年读者最爱展在展及《The Art of the Simpsons》《Otherworldly》双新展（11/18 开展），Orange | https://hilbertmuseum.org/
+2026-11-09 | LACMA《Paul R. Williams: Architect for Living》建筑大展，11/15–2027-05-31，LACMA Resnick Pavilion Los Angeles | https://www.lacma.org/
+2026-11-09 | MOCA Grand Avenue《Julian Charrière: Deep End》与《Cecilia Vicuña: The Dream of Water》双新展，11/15–2027-06-06，Downtown LA | https://www.moca.org/
+2026-11-09 | 橙县多城 Veterans Day 纪念活动（Irvine Colonel Bill Barber Park、Yorba Linda Nixon Library、Anaheim Veterans Monument、Orange Field of Valor），11/11 | https://www.cityofirvine.gov/
+2026-11-09 | Heroes Hall Veterans Day Celebration 暨《Courageous Companions》新展揭幕，11/14 12:00–15:00，OC Fair & Event Center Costa Mesa | https://ocfair.com/
+2026-11-09 | Long Beach Queen Mary Veterans Day Celebration（11/11）与 Old Pasadena Jackalope Indie Artisan Fair（11/14–11/15 Central Park）| https://www.jackalopeartfair.com/
+2026-11-09 | Veterans Day 全美连锁餐厅军人免费正餐与甜点福利汇总（Applebee's、Chili's、Red Robin、Buffalo Wild Wings、Denny's、Golden Corral、BJ's 等），11/11 | https://www.restaurantnews.com/
+2026-11-09 | Kings of Leon 与 Marc Anthony 2027 北美及世界巡演官宣，11/13 全美公售 | https://www.livenationentertainment.com/
 
 ## 3. 进行中事件表
 - 《The Who's Tommy》Hollywood Pantages Theatre | 最后进展 2026-10-26 | 11 月 15 日闭幕；11 月 12–13 日前后可做最后周末提醒
 - UC Irvine Langson OCMA 秋季新展《Hello Again》公众开幕庆典 | 最后进展 2026-11-06 | 11 月 13 日开展、11 月 14 日周六全天免费公众开幕庆典，当日或前一日可做今明速览提醒
 - Holidays at the Disneyland Resort（含 Disney Festival of Holidays） | 最后进展 2026-11-06 | 11 月 13 日正式启幕，开幕当日或周末可做今明速览提醒
 - Starbucks Red Cup Day 2026 | 最后进展 2026-11-06 | 11 月 17 日（周二）全美参与门店买手工假日饮品赠限量可重复使用红杯，11 月 16–17 日可做节点提醒
+- Hilbert Museum《The Art of the Simpsons》与《Otherworldly: Science Fiction Art》双新展 | 最后进展 2026-11-09 | 11 月 18 日在 Orange 正式揭幕，开展当日或前一日可做今明速览提醒
 - The Broad 秋季大展《Has the myth been shattered》与 Hammer Museum《Felipe Baeza: Anima》 | 最后进展 2026-10-26 | 11 月 21 日同日开幕前一周可核实收录
 - Bowers Museum《Art of Mexico and Central America》及《Bowers Legacy》新常设展 | 最后进展 2026-10-26 | 11 月 21 日 Santa Ana 开幕前一周可核实收录
 - Descanso Gardens「Enchanted Forest of Light」夜间灯光秀 | 最后进展 2026-11-06 | 11 月 22 日正式向公众开放（11 月 21 日预览夜），开幕前一周可核实收录
+- 《Water for Elephants》Segerstrom Center for the Arts | 最后进展 2026-11-09 | 11 月 10 日至 11 月 22 日在 Costa Mesa 连演，11 月 20–21 日前后可做收官周末提醒
 - Getty Center《A Light in the Dark: Joseph Wright of Derby》特展 | 最后进展 2026-10-26 | 11 月 24 日开幕前一周可核实收录
+- 《Oh, Mary!》Ahmanson Theatre | 最后进展 2026-11-09 | 11 月 10 日至 12 月 6 日在 Downtown LA 驻演，12 月初可做闭幕周末提醒
 - Great Park Live「Dial Up Festival」延期场 | 最后进展 2026-11-06 | 原定 2026 年 11 月 7 日，已延期至 2027 年 3 月 20 日在 Irvine Great Park Live 举行；临近 2027 年 3 月或阵容变动时再续报
