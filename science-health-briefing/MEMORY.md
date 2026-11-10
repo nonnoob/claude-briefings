@@ -1,5 +1,7 @@
 ## 1. 本次运行
-- 运行时刻及检索截止：2026-11-09 21:50 UTC（2026-11-09 13:50 PST）；实际覆盖窗口：2026-11-06 16:22 UTC 至 2026-11-09 21:50 UTC（常规）。
+- 运行时刻及检索截止：2026-11-10 10:56 UTC（2026-11-10 02:56 PST）；实际覆盖窗口：2026-11-09 21:50 UTC 至 2026-11-10 10:56 UTC（常规，窗口仅约 13 小时）。
+- 本次六方向均已检索，仅医学与新药有新内容：FDA 批准拜耳 Sunharbo（asundexian）、SYNCHRONIZE-CVOT、Marea MAR001；其余方向（含埃博拉 Tumaini、麻疹、流感、航天、科研政策）窗口内无新增；WebFetch 无法访问 statnews。
+- 上次运行（2026-11-09）摘要：
 - 六方向与既有进行中事件均已检索并覆盖：医学与新药收录 FDA 要求所有 GLP-1 受体激动剂类药物统一增补非动脉炎性前部缺血性视神经病变（NAION）说明书风险警告，以及 AHA 2026 公布并同步发表于《NEJM》的 Lp(a)HORIZON（pelacarsen）与 ZEUS（ziltivekimab）两项大型 3 期心血管结局临床试验；公共卫生续报刚果（金）布本迪布约型埃博拉确诊破 10,800 例及肯尼亚与尼日利亚输入关联病例接触者医学观察进展、续报 Fred Hutch Bloom 实验室与华盛顿大学揭示驱动美西早发流感季的甲型 H1N1 G155E 突变株免疫逃逸机制，并收录 FDA 肉桂粉铅超标召回与 Lidl 意式冰淇淋李斯特菌一级召回；航天与太空收录 NASA“ESCAPADE”火星双星完成近地动力飞越踏上奔火轨道、NASA 公布最高 100 亿美元 CLPS 2.0 商业月球货运主合同与月球南极基地“PROMISE”核动力月球车任务，以及中国长征十二号发射卫星互联网低轨 29 组卫星（长征系列第 676 次飞行）与 SpaceX 猎鹰 9 号发射 USSF-432；科学突破收录 WMO 于 COP31 开幕发布的《2026 年全球气候状况更新报告》、维尔茨堡大学《Nature Chemistry》首次分离稳定氧代硼烷及港科大《Nature Photonics》手性钙钛矿量子阱室温自旋寿命延长 300 倍；健康与生活收录 AHA 2026 /《NEJM》强化降压试验 OPTIMAL-STROKE 与 OPTIMAL-DIABETES、高龄共病老人停用他汀一级预防试验 STREAM 及卒中后加用螺内酯降压试验 REDUCE；科研政策收录学术界起诉美国政府与 NSF 违法关停社科与行为科学学部（SBE）及 2026 年中期选举后美国国会科学、卫生相关委员会重组。
 
 ## 2. 已报条目清单
@@ -56,6 +58,9 @@
 2026-11-09 | AHA 2026 公布 REDUCE 试验：血压未控卒中幸存者加用螺内酯 3 个月家庭收缩压多降近 8 mmHg、达标率翻倍至 52% | https://www.acc.org/Latest-in-Cardiology/Articles/2026/11/07/AHA-2026-Trials-Examine-Strategies-to-Improve-Patient-Care-Post-Stroke
 2026-11-09 | 多家科学学会联合科研人员由 Democracy Forward 代理向波士顿联邦法院起诉美国政府与 NSF 越权违法关停社会、行为与经济科学学部（SBE） | https://democracyforward.org/updates/scientists-sue-trump-vance-administration-after-unlawful-move-to-gut-federal-social-and-behavioral-science-research-funding/
 2026-11-09 | 2026 年美国中期选举民主党重夺参众两院多数席位，Zoe Lofgren 与 Frank Pallone 将执掌众议院科学与卫生监督委员会 | https://eos.org/articles/how-science-and-the-environment-fared-in-the-2026-u-s-midterms
+2026-11-10 | FDA 批准拜耳 FXIa 抑制剂 Sunharbo（asundexian）用于预防非心源性缺血性卒中复发，降低缺血性卒中风险 26% | https://www.fda.gov/news-events/press-announcements/fda-approves-first-factor-xla-inhibitor-help-prevent-stroke-certain-adults-high-risk
+2026-11-10 | AHA 2026 公布 SYNCHRONIZE-CVOT：survodutide 心血管安全达非劣效（5-MACE HR≈0.89），同步发表于《The Lancet》 | https://www.boehringer-ingelheim.com/us/human-health/metabolic-diseases/obesity/synchronize-cvot-trial-results-presented-aha
+2026-11-10 | AHA 2026 与《NEJM》公布 Marea MAR001 2b 期 TYDAL-TIMI 78：甘油三酯最多降 72.2% 且不恶化血糖 | https://www.globenewswire.com/news-release/2026/11/09/3398451/18623/en/marea-therapeutics-a-subsidiary-of-lisata-therapeutics-announces-mar001-reduces-triglycerides-without-worsening-glycemic-control-in-phase-2b-tydal-timi-78-trial-results-presented-a.html
 
 ## 3. 进行中事件表
 - 事件：加州与美西 2026–2027 流感季反常提前暴发（甲型 H1N1 D.3.1.1 亚支 G155E 突变株驱动加州流感阳性率飙升，Bloom 实验室证实该突变显著逃避青少年与年轻成人既有中和抗体）｜最后进展：2026-11-09｜下一步关注点：CDPH 与洛杉矶县公共卫生局 11 月中下旬急诊就诊率、住院率与死亡人数变化，以及 CDC 对当季流感疫苗针对 G155E 突变株真实世界保护效力（VE）的评估数据。
