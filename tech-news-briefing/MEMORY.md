@@ -1,31 +1,12 @@
 ## 1. 本次运行
 
-- 本次运行时刻及检索截止：2026-11-09 21:50 UTC（2026-11-09 13:50 PST）。
-- 上次运行：2026-11-06 16:22 UTC。
-- 覆盖窗口：2026-11-06 16:22 UTC 至 2026-11-09 21:50 UTC（常规）。
-- 十方向与既有进行中事件均已完成检索；台积电已正式回应否认应英伟达要求进军 3D DRAM 制造，该传闻追踪事项闭合移出。
+- 本次运行时刻及检索截止：2026-11-10 10:10 UTC。
+- 上次运行：2026-11-09 21:50 UTC。
+- 覆盖窗口：2026-11-09 21:50 UTC 至 2026-11-10 10:10 UTC（常规，空期）。
+- 窗口仅约12小时，十方向、进行中事件及中英文补搜均未发现新增实质内容；11/10为微软补丁星期二，检索时尚无已索引报道，下次运行留意。
 
 ## 2. 已报条目清单
 
-- 2026-10-26 | 谷歌推送Android 17 QPR3 Beta 2修复21项系统故障 | https://9to5google.com/2026/10/20/android-17-qpr3-beta-2-pixel/
-- 2026-10-26 | 谷歌发布Chrome 156稳定版修复多项高危内存漏洞，Android端Gemini应用重构设置与侧边栏界面 | https://chromereleases.googleblog.com/2026/10/stable-channel-update-for-desktop_02018666648.html
-- 2026-10-26 | 微软向符合条件设备全面开放Windows 11 26H2升级，24H2家庭版与专业版结束安全支持 | https://www.neowin.net/news/windows-11-26h2-now-available-for-all-eligible-24h2-25h2-pcs-heres-how-to-get-it/
-- 2026-10-26 | 苹果推送macOS Sequoia 15.8.2与macOS Tahoe 26.7.2 RC 3修复安全漏洞 | https://9to5mac.com/2026/10/19/third-rcs-for-macos-sequoia-15-8-2-and-macos-tahoe-26-7-2-rolling-out/
-- 2026-10-26 | Mark Gurman爆料苹果10/28将发M5 Pro/Max版OLED触控屏MacBook Pro（涨价300-500美元）及M6版入门MacBook Pro与iMac（传闻） | https://www.macrumors.com/2026/10/25/macbook-pro-with-touchscreen-on-wednesday/
-- 2026-10-26 | OPPO面向全球发布Find X10系列旗舰手机并在国内推出森绿配色 | https://www.oppo.com/sg/newsroom/press/oppo-find-x10-series-global-launch-singapore/
-- 2026-10-26 | Netflix公布Q3财报：营收128.7亿美元同比增11.9%，营业利润率升至34.6% | https://www.sec.gov/Archives/edgar/data/1065280/000106528026000290/ex991_q326.htm
-- 2026-10-26 | IBM Q3营收171亿美元上调自由现金流指引；SAP单季营收首破100亿欧元、云积压订单增28%至241亿欧元 | https://newsroom.ibm.com/2026-10-21-IBM-RELEASES-THIRD-QUARTER-RESULTS
-- 2026-10-26 | 美光台湾桃园厂工会10/22发起24小时警告性罢工（台中厂前夜签约退出），劳资定于10/27重启谈判 | https://www.digitimes.com/news/a20261023PD239/strike-taiwan-micron-management-2026.html
-- 2026-10-26 | 德州仪器Q3营收同比增28%至60.6亿美元超预期，数据中心芯片收入同比增约95% | https://investor.ti.com/news-releases/news-release-details/ti-reports-third-quarter-2026-financial-results-and-shareholder
-- 2026-10-26 | SK海力士回应16万亿韩元特别股息传闻称将于10月28日Q3财报时正式公布股东回报方案 | https://www.channelnewsasia.com/business/sk-hynix-announce-steps-boost-shareholder-returns-wednesday-6491971
-- 2026-10-26 | 特斯拉Q3净利同比降43%至7.87亿美元并下调全年资本开支指引至200亿美元，马斯克透露特斯拉与SpaceX董事会已设特别委员会评估合并 | https://www.theguardian.com/technology/2026/oct/21/elon-musk-tesla-spacex
-- 2026-10-26 | Salesforce宣布以约56.6亿美元全现金收购客户互动软件公司Braze | https://www.salesforce.com/news/press-releases/2026/10/20/salesforce-signs-definitive-agreement-to-acquire-braze/?bc=OTH
-- 2026-10-26 | Tenstorrent宣布完成15亿美元E轮融资，投后估值62亿美元 | https://tenstorrent.com/en/newsroom/tenstorrent-announces-series-e
-- 2026-10-26 | PHP紧急发布带外更新修复在野利用高危RCE漏洞"php2shell"（CVE-2026-109618、CVE-2026-109619） | https://thehackernews.com/2026/10/php2shell-two-unpatched-critical-php.html
-- 2026-10-26 | CISA将Nextcloud内置Collabora命令注入漏洞CVE-2026-110447与Arista VeloCloud漏洞CVE-2026-114625列入KEV | https://thehackernews.com/2026/10/cisa-flags-two-actively-exploited.html
-- 2026-10-26 | OpenBSD发布LibreSSL 4.4稳定版；Linux Foundation报告称约25%开源PR含低质量AI生成代码 | https://www.phoronix.com/news/LibreSSL-4.4-Released
-- 2026-10-26 | 澳大利亚联邦法院裁定苹果须于2027年3月1日前开放iOS第三方应用商店、侧载与外部支付 | https://9to5mac.com/2026/10/21/apple-must-open-iphone-to-alternative-app-stores-in-australia-after-epic-games-ruling/
-- 2026-10-26 | 谷歌向D.C.巡回上诉法院请求推翻搜索反垄断案裁决；苹果反对美国司法部扩大反垄断案证据开示时间范围 | https://www.mediapost.com/publications/article/418479/google-pushes-court-to-scuttle-search-monopoly-ver.html?edition=144055
 - 2026-10-31 | 苹果发布 M5 Pro/Max OLED 触控 MacBook Pro，14/16 英寸售价 2899/3399 美元起，11/6 上市 | https://www.cnbc.com/2026/10/28/apple-mac-touchscreen-launch.html
 - 2026-10-31 | 苹果发布 M6 非触控 14 英寸 MacBook Pro，10/28 预订、11/6 上市 | https://www.apple.com/newsroom/2026/10/apple-introduces-the-new-14-inch-macbook-pro-with-m6/
 - 2026-10-31 | 苹果发布 M6 24 英寸 iMac，升级 Wi-Fi 7/蓝牙 6，可选 2.5 Gb 以太网，11/6 上市 | https://www.apple.com/newsroom/2026/10/apple-unveils-new-imac-with-m6/
@@ -66,7 +47,7 @@
 
 ## 3. 进行中事件表
 
-1. 事件：英伟达董事会就CEO黄仁勋涉外情报安全隐忧启动独立调查｜最后进展：2026-11-09，因美媒曝出黄仁勋曾与被美方情报机构怀疑替中国国安部门收集情报的新加坡数据中心客户Megaspeed高管存在私人关系，英伟达董事会宣布由独立董事委员会聘请外部律所启动独立调查，黄仁勋致歉但否认泄密｜下一步关注：独立董事委员会调查结论、美国国会听证或安全审查动向
+1. 事件：英伟达董事会就CEO黄仁勋涉外情报安全隐忧启动独立调查｜最后进展：2026-11-09，因美媒曝出黄仁勋曾与被美方情报机构怀疑替中国国安部门收集情报的新加坡数据中心客户Megaspeed高管存在私人关系，英伟达董事会宣布由独立董事委员会聘请外部律所启动独立调查，黄仁勋致歉但否认泄密｜下一步关注：独立董事委员会调查结论；国会三委员会要求黄仁勋于11/18闭门简报（11/11前答复，据检索摘要）
 2. 事件：美光台湾桃园厂劳资争议与暂停新晶圆厂建设｜最后进展：2026-11-06，因桃园厂工会要求将营业利润15%用于员工分红的谈判陷入僵局及抗议台中厂协议透明度问题，美光被曝暂停总投资30亿至45亿美元的桃园新晶圆厂（Fab 11E）建设｜下一步关注：桃园厂劳资调解是否达成协议、Fab 11E何时复工
 3. 事件：美满电子（Marvell）1150亿美元全股票收购Lumentum｜最后进展：2026-11-02，Marvell宣布达成最终协议以隐含企业价值约1150亿美元全股票交易收购光通信厂商Lumentum（含32亿美元反向分手费条款，预计2028年上半年交割）｜下一步关注：双方股东大会表决及中美欧反垄断监管审查进展
 4. 事件：特斯拉与SpaceX董事会特别委员会评估合并及关停Cybertruck产线｜最后进展：2026-11-09，马斯克确认得州工厂Cybertruck产线将于2027年年中关停并向无法交付的预订者退还定金，同时双方董事会特别委员会持续评估合并方案｜下一步关注：特别委员会正式合并方案、国会与监管机构反垄断审查进展
