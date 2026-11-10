@@ -1,8 +1,8 @@
 ## 1. 本次运行
 
-- 运行时刻及检索截止：2026-11-09 21:50 UTC（2026-11-09 13:50 PST）。
-- 实际覆盖窗口：2026-11-06 16:22 UTC 至 2026-11-09 21:50 UTC（常规）。
-- 六方向及进行中事件表均已完成检索与核实；本期收录 Anthropic 发布 Claude Fable 5.2 与受限高危版 Claude Mythos 5.2、Meta 发布高性价比模型 Muse Ember、字节跳动发布豆包 Seedream 5.5、OpenAI ChatGPT Enterprise 上架 AWS Marketplace、迪士尼与 Adobe Firefly Foundry 多年期合作、OpenAI BioBasicsBench 与多项智能体上下文压缩及安全漏洞 arXiv 论文、OpenAI 以 1.25 万亿美元估值完成 110 亿美元首批融资交割、Anthropic 拟 11 月 10 日启动 IPO 路演并推介芯片辅助设计能力、Anthropic 34 亿美元收购 1.7 吉瓦燃气发电机组订单、微软放弃 Nscale 德州扩建选择权、台积电否认跨界量产英伟达 3D DRAM、英伟达董事会对 CEO 黄仁勋启动独立调查、OpenAI 与 Hacktron 安全合作、欧盟《数字公平法案》草案强制 AI 伴侣一键关闭开关、深圳“美中 AI 对话”排期敲定、Gemini 4 Hydrogen/Hyperion 变体与 DeepSeek V4.1 Pro/V5 昇腾 950 训练传闻。已报条目清单按要求保留最近 21 天记录。
+- 运行时刻及检索截止：2026-11-10 10:41 UTC。
+- 实际覆盖窗口：2026-11-09 21:50 UTC 至 2026-11-10 10:41 UTC（常规，距上次仅约 13 小时）。
+- 六方向及进行中事件表均已检索并补搜一轮，窗口内无未报道过的实质新内容，按空期骨架输出；已报条目与进行中事件表沿用上期，未变更。Anthropic 路演启动、欧盟 11/11 文本公布等待后续运行验证。
 
 ## 2. 已报条目清单
 
