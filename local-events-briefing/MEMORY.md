@@ -1,8 +1,8 @@
 # local-events-briefing MEMORY
 
 ## 1. 本次运行
-- 运行时刻及检索截止：2026-11-09 13:50 PST（America/Los_Angeles；2026-11-09 21:50 UTC）。
-- 实际覆盖窗口：2026-11-06 08:22 PST 至 2026-11-09 13:50 PST（常规）；活动选择以未来 7 天（11/9–11/16）及近期关键开票/预约节点为主。
+- 运行时刻及检索截止：2026-11-09 17:06 PST（America/Los_Angeles；2026-11-10 01:06 UTC），同日二次运行，仅报增量。
+- 实际覆盖窗口：2026-11-09 13:50 PST 至 2026-11-09 17:06 PST（常规）；本次新收 LA Auto Show 与 Winter Fest OC，其余方向补搜后无新增；上一次（13:50 PST）运行摘要：2026-11-06 08:22 PST 至 2026-11-09 13:50 PST（常规）；活动选择以未来 7 天（11/9–11/16）及近期关键开票/预约节点为主。
 - 六方向均已检索覆盖：今明速览收录 Costa Mesa《Water for Elephants》首演暨 Orpheus Chamber Orchestra 音乐会、Anaheim Daughtry 与 Periphery 同晚演出、Kia Forum Jessie Reyez 今晚演唱会及洛城《Oh, Mary!》首演与 David Sedaris 专场；美食饮品收录 Costa Mesa Ina Garten 专场对谈、La Habra 墨西哥城传奇吉事果老字号 Churrería El Moro 新店及本周末 2026 洛杉矶日本美食展与 Smorgasburg LA 特别场；演出与赛事收录橙县周末摇滚专场（Blue Öyster Cult、DragonForce、The Damned）与 Ducks 赛程、洛城 Peacock Theater 2026 摇滚名人堂入驻盛典、Slayer 40 周年专场与 LA Phil 音乐会，以及今日官宣并定于本周四（11/12）开票的 Fall Out Boy 2027 Dodger Stadium 演唱会；展览艺术收录 Orange Hilbert Museum 十周年读者最爱展及下周三（11/18）《辛普森一家》与科幻艺术双新展预约提醒、LACMA《Paul R. Williams》建筑大展与 MOCA Grand Avenue《Julian Charrière: Deep End》等双新展周日（11/15）开展；节庆市集与玩乐收录橙县多城 Veterans Day（11/11）纪念活动、Costa Mesa Heroes Hall 退伍军人节周末免费庆典及长滩 Queen Mary 与 Old Pasadena Jackalope 手作市集；全国范围收录 11/11 Veterans Day 全美连锁餐饮军人免费福利汇总及本周五（11/13）公售的 Kings of Leon 与 Marc Anthony 2027 巡演。
 
 ## 2. 已报条目清单
@@ -89,6 +89,8 @@
 2026-11-09 | Long Beach Queen Mary Veterans Day Celebration（11/11）与 Old Pasadena Jackalope Indie Artisan Fair（11/14–11/15 Central Park）| https://www.jackalopeartfair.com/
 2026-11-09 | Veterans Day 全美连锁餐厅军人免费正餐与甜点福利汇总（Applebee's、Chili's、Red Robin、Buffalo Wild Wings、Denny's、Golden Corral、BJ's 等），11/11 | https://www.restaurantnews.com/
 2026-11-09 | Kings of Leon 与 Marc Anthony 2027 北美及世界巡演官宣，11/13 全美公售 | https://www.livenationentertainment.com/
+2026-11-09 | 2026 Los Angeles Auto Show，11/20–11/29，Los Angeles Convention Center | https://laautoshow.com/tickets
+2026-11-09 | Winter Fest OC 2026 季，11/27–2027-01-03，OC Fair & Event Center Costa Mesa | https://enjoyorangecounty.com/winter-fest-oc/
 
 ## 3. 进行中事件表
 - 《The Who's Tommy》Hollywood Pantages Theatre | 最后进展 2026-10-26 | 11 月 15 日闭幕；11 月 12–13 日前后可做最后周末提醒
@@ -103,3 +105,5 @@
 - Getty Center《A Light in the Dark: Joseph Wright of Derby》特展 | 最后进展 2026-10-26 | 11 月 24 日开幕前一周可核实收录
 - 《Oh, Mary!》Ahmanson Theatre | 最后进展 2026-11-09 | 11 月 10 日至 12 月 6 日在 Downtown LA 驻演，12 月初可做闭幕周末提醒
 - Great Park Live「Dial Up Festival」延期场 | 最后进展 2026-11-06 | 原定 2026 年 11 月 7 日，已延期至 2027 年 3 月 20 日在 Irvine Great Park Live 举行；临近 2027 年 3 月或阵容变动时再续报
+- Los Angeles Auto Show | 最后进展 2026-11-09 | 11 月 19 日线上提前票价截止、11 月 20 日开幕，11 月 19–20 日可做节点提醒
+- Winter Fest OC 2026 季 | 最后进展 2026-11-09 | 11 月 27 日开幕；待核实官方 2026 页面，11 月 26–27 日可做节点提醒
