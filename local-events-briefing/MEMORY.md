@@ -1,9 +1,9 @@
 # local-events-briefing MEMORY
 
 ## 1. 本次运行
-- 运行时刻及检索截止：2026-11-10 17:05 PST（America/Los_Angeles；2026-11-11 01:05 UTC）。
-- 实际覆盖窗口：2026-11-10 11:05 PST 至 2026-11-10 17:05 PST（常规，同日二次运行）；新收 Alanis Morissette 驻唱收官场、Smashing Pumpkins 收官场与 Knott's Merry Farm（单源）三条。Camp Flog Gnaw（11/14–11/15）已售罄，未收。
-- 六方向均已检索；美食饮品方向无可核实的新动态。
+- 运行时刻及检索截止：2026-11-11 11:04 PST（America/Los_Angeles；2026-11-11 19:04 UTC）。
+- 实际覆盖窗口：2026-11-10 17:05 PST 至 2026-11-11 11:04 PST（常规）；新收 Journey Honda Center 11/24 与 Knott's Merry Farm 官方日期续报两条。
+- 六方向均已检索；美食饮品与展览方向无可核实的新动态。
 
 ## 2. 已报条目清单
 
@@ -79,6 +79,8 @@
 2026-11-10 | Alanis Morissette「Butterfly with a Machete」洛杉矶驻唱收官场，11/11 20:00，YouTube Theater Inglewood | https://www.youtubetheater.com/events/detail/alanis-morissette
 2026-11-10 | The Smashing Pumpkins Rats In A Cage Tour 收官场，11/12 20:00，Kia Forum Inglewood | https://blabbermouth.net/news/the-smashing-pumpkins-announce-fall-2026-the-rats-in-a-cage-tour
 2026-11-10 | Knott's Merry Farm 假日季，11/20–2027-01-03，Knott's Berry Farm Buena Park（单源）| https://thrillzing.com/seasonal-events/knotts-merry-farm-2026-knotts-berry-farm/
+2026-11-11 | Journey Final Frontier Tour，11/24 19:30，Honda Center Anaheim | https://www.jambase.com/show/journey-honda-center-20261124
+2026-11-11 | Knott's Merry Farm 官方页确认 11/20 起，select dates（续报）| https://www.sixflags.com/knotts/events/merry-farm
 
 ## 3. 进行中事件表
 - 《The Who's Tommy》Hollywood Pantages Theatre | 最后进展 2026-10-26 | 11 月 15 日闭幕；11 月 12–13 日前后可做最后周末提醒
@@ -96,4 +98,5 @@
 - Winter Fest OC 2026 季 | 最后进展 2026-11-09 | 11 月 27 日开幕；待核实官方 2026 页面，11 月 26–27 日可做节点提醒
 - The Grove 圣诞树点灯 | 最后进展 2026-11-10 | 11 月 16 日晚举行；11 月 15–16 日可做提醒并核实钟点
 - L.A. Zoo Lights | 最后进展 2026-11-10 | 11 月 20 日开幕；开幕当日可做节点提醒
-- Knott's Merry Farm | 最后进展 2026-11-10 | 据报 11 月 20 日开幕（仅 Thrillzing 单源）；核实 sixflags.com/knotts 官方日期，11 月 19–20 日可做节点提醒
+- Knott's Merry Farm | 最后进展 2026-11-11 | 最后进展已更新：官方页确认 11 月 20 日起、select dates；11 月 19–20 日可做节点提醒并核对具体开放日
+- Journey Honda Center | 最后进展 2026-11-11 | 11 月 24 日 19:30 演出；11 月 23–24 日可做节点提醒
