@@ -1,30 +1,12 @@
 # local-events-briefing MEMORY
 
 ## 1. 本次运行
-- 运行时刻及检索截止：2026-11-10 11:05 PST（America/Los_Angeles；19:05 UTC）。
-- 实际覆盖窗口：2026-11-09 17:06 PST 至 2026-11-10 11:05 PST（常规）；本次仅新收 The Grove 点灯、South Coast Botanic Garden 假日灯光漫步与 L.A. Zoo Lights 三条，其余方向补搜后无新增。
-- 六方向均已检索；美食饮品与演出方向无可核实的新动态。
+- 运行时刻及检索截止：2026-11-10 17:05 PST（America/Los_Angeles；2026-11-11 01:05 UTC）。
+- 实际覆盖窗口：2026-11-10 11:05 PST 至 2026-11-10 17:05 PST（常规，同日二次运行）；新收 Alanis Morissette 驻唱收官场、Smashing Pumpkins 收官场与 Knott's Merry Farm（单源）三条。Camp Flog Gnaw（11/14–11/15）已售罄，未收。
+- 六方向均已检索；美食饮品方向无可核实的新动态。
 
 ## 2. 已报条目清单
 
-2026-10-19 | Newport Beach Film Festival，至 10/22，Newport Beach / Costa Mesa / Santa Ana | https://newportbeachfilmfest.com/
-2026-10-19 | Cuco 演唱会，10/20 20:00，The Observatory Santa Ana | https://www.livenation.com/event/vv170Z_3GkDj5lgE/cuco
-2026-10-19 | Coast Film & Music Festival，至 10/25，Irvine Bowl Laguna Beach | https://www.coastfilmfestival.com/
-2026-10-19 | Ambitious Ales 橙县新店开业周末，10/24–10/25，The LAB Anti-Mall Costa Mesa | https://hoodline.com/2026/10/award-winning-long-beach-brewery-ambitious-ales-taps-into-costa-mesa-s-lab-anti-mall/
-2026-10-19 | Brodard 长滩新店营业，10/1 起每天 11:00–21:00，2ND & PCH Long Beach | https://longbeachize.com/articles/one-of-californias-best-vietnamese-restaurants-is-opening-in-long-beach-in-2026/
-2026-10-19 | Los Angeles Times Food Bowl 2026，10/23–10/24，Barker Hangar Santa Monica | https://www.tixr.com/groups/latimes/events/l-a-times-food-bowl-2026-195029
-2026-10-19 | Pacific Symphony Shelley Conducts The Sorcerer's Apprentice & Strauss，10/22–10/25，Segerstrom Concert Hall Costa Mesa | https://www.pacificsymphony.org/show-details/shelley-conducts-the-sorcerers-apprentice-and-strauss
-2026-10-19 | Lakers vs. Warriors 与 Clippers vs. Kings 主场揭幕战，10/21，Crypto.com Arena & Intuit Dome | https://www.nba.com/lakers/game/0022600005-warriors-vs-lakers-los-angeles-ca-10-21-2026
-2026-10-19 | Pokémon Night Out（Marshmello & Alison Wonderland），10/24 19:30，Intuit Dome Inglewood | https://30.pokemon.com/en-us/night-out/
-2026-10-19 | My Chemical Romance Hollywood Bowl 本周起连演五场（10/21、10/23、10/24 及 10/30–10/31），Hollywood Bowl | https://www.hollywoodbowl.com/events/performances/4231/2026-10-21/my-chemical-romance
-2026-10-19 | Bowers Museum Picasso Ceramics from the Rosenbaum Collection，10/24–2027-02-28，Bowers Museum Santa Ana | https://www.bowers.org/index.php/exhibitions/upcoming-exhibitions/picasso-ceramics-from-the-rosenbaum-collection
-2026-10-19 | Skirball Cultural Center 三大秋季新展同日开幕，10/22–2027-02-28，Skirball Cultural Center Los Angeles | https://www.skirball.org/programs/exhibition-opening-fall-2026
-2026-10-19 | LACMA The Brockman Gallery: Los Angeles 1967–1990，10/18–2027-01-24，LACMA Los Angeles | https://www.lacma.org/press/brockman-gallery-los-angeles-1967-1990
-2026-10-19 | Anaheim Fall Festival, Classic Car Show & Halloween Parade，10/24，Downtown Anaheim | https://www.anaheimfallfestival.org/
-2026-10-19 | Fall-O-Ween at Heritage Hill Historical Park，10/23–10/25，Lake Forest | https://patch.com/california/lakeforest-ca/get-out-lake-forest-halloween-festivities-nature-hikes-oc-parks-october
-2026-10-19 | Boo at the Zoo at Santa Ana Zoo，10/24–10/25，Santa Ana Zoo | https://www.travelsantaana.com/event/boo-at-the-zoo/2034/
-2026-10-19 | AFI FEST 40 周年单场票开售暨周三开幕提醒，10/21–10/25，TCL Chinese Theatres Hollywood | https://fest.afi.com/tickets/
-2026-10-19 | John Mayer Live at Sphere Las Vegas 2027 驻唱加场至 21 场（2027/4/8–6/12），Sphere Las Vegas | https://johnmayer.com/
 2026-10-26 | Disneyland Oogie Boogie Bash（10/27、10/29、10/31）与全美国家公园免费日（10/27）次日节点提醒 | https://www.nps.gov/planyourvisit/fee-free-parks.htm
 2026-10-26 | Irvine Park Railroad Pumpkin Patch 收官周，至 10/31，Irvine Regional Park Orange | https://www.irvineparkrailroad.com/events/pumpkin-patch/
 2026-10-26 | 百老汇摇滚音乐剧《The Who's Tommy》，10/27–11/15，Hollywood Pantages Theatre | https://www.broadwayinhollywood.com/events/detail/the-whos-tommy
@@ -94,6 +76,9 @@
 2026-11-10 | The Grove 第 25 届圣诞树点灯，11/16 晚，Los Angeles | https://resident.com/los-angeles/2026/11/03/las-holiday-season-begins-with-these-15-things-to-do-in-november-2026
 2026-11-10 | South Coast Botanic Garden 假日灯光漫步，11/13–2027-01-03，Palos Verdes（单源）| https://resident.com/los-angeles/2026/11/03/las-holiday-season-begins-with-these-15-things-to-do-in-november-2026
 2026-11-10 | L.A. Zoo Lights: Animals Aglow，11/20–2027-01-10，Los Angeles Zoo | https://lazoo.org/?p=3867
+2026-11-10 | Alanis Morissette「Butterfly with a Machete」洛杉矶驻唱收官场，11/11 20:00，YouTube Theater Inglewood | https://www.youtubetheater.com/events/detail/alanis-morissette
+2026-11-10 | The Smashing Pumpkins Rats In A Cage Tour 收官场，11/12 20:00，Kia Forum Inglewood | https://blabbermouth.net/news/the-smashing-pumpkins-announce-fall-2026-the-rats-in-a-cage-tour
+2026-11-10 | Knott's Merry Farm 假日季，11/20–2027-01-03，Knott's Berry Farm Buena Park（单源）| https://thrillzing.com/seasonal-events/knotts-merry-farm-2026-knotts-berry-farm/
 
 ## 3. 进行中事件表
 - 《The Who's Tommy》Hollywood Pantages Theatre | 最后进展 2026-10-26 | 11 月 15 日闭幕；11 月 12–13 日前后可做最后周末提醒
@@ -107,8 +92,8 @@
 - 《Water for Elephants》Segerstrom Center for the Arts | 最后进展 2026-11-09 | 11 月 10 日至 11 月 22 日在 Costa Mesa 连演，11 月 20–21 日前后可做收官周末提醒
 - Getty Center《A Light in the Dark: Joseph Wright of Derby》特展 | 最后进展 2026-10-26 | 11 月 24 日开幕前一周可核实收录
 - 《Oh, Mary!》Ahmanson Theatre | 最后进展 2026-11-09 | 11 月 10 日至 12 月 6 日在 Downtown LA 驻演，12 月初可做闭幕周末提醒
-- Great Park Live「Dial Up Festival」延期场 | 最后进展 2026-11-06 | 原定 2026 年 11 月 7 日，已延期至 2027 年 3 月 20 日在 Irvine Great Park Live 举行；临近 2027 年 3 月或阵容变动时再续报
 - Los Angeles Auto Show | 最后进展 2026-11-09 | 11 月 19 日线上提前票价截止、11 月 20 日开幕，11 月 19–20 日可做节点提醒
 - Winter Fest OC 2026 季 | 最后进展 2026-11-09 | 11 月 27 日开幕；待核实官方 2026 页面，11 月 26–27 日可做节点提醒
 - The Grove 圣诞树点灯 | 最后进展 2026-11-10 | 11 月 16 日晚举行；11 月 15–16 日可做提醒并核实钟点
 - L.A. Zoo Lights | 最后进展 2026-11-10 | 11 月 20 日开幕；开幕当日可做节点提醒
+- Knott's Merry Farm | 最后进展 2026-11-10 | 据报 11 月 20 日开幕（仅 Thrillzing 单源）；核实 sixflags.com/knotts 官方日期，11 月 19–20 日可做节点提醒
