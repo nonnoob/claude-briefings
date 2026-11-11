@@ -2,9 +2,9 @@
 
 ## 1. 本次运行
 
-- 运行时刻及检索截止：2026-11-10 10:05 UTC。
-- 实际覆盖窗口：2026-11-09 21:50 UTC 至 2026-11-10 10:05 UTC（常规）。
-- 本期仅收录 Claude Code v2.1.322（Vertex 区域 fast mode）。simonwillison.net 因网络域名未放行本期未能直接抓取（其余方向以 WebSearch 补搜，窗口内无新内容）；Codex rust-v0.168.0 未检索到发布。
+- 运行时刻及检索截止：2026-11-11 10:07 UTC。
+- 实际覆盖窗口：2026-11-10 10:05 UTC 至 2026-11-11 10:07 UTC（常规）。
+- 本期仅收录 Copilot CLI v1.0.109。simonwillison.net 与 langchain.com 因网络域名未放行本期未能直接抓取（其余方向以 WebSearch/其他来源补搜，窗口内无新内容）；Claude Code 无 v2.1.322 之后新版本；Codex 仅有 0.167.1 与 alpha 预发布且无变更说明；Anthropic Engineering 无新文。
 
 ## 2. 已报条目清单（保留最近 14 天）
 
@@ -42,6 +42,7 @@
 - 2026-11-09 | Simon Willison复盘借助Claude Opus 5.5编写并经800万次模糊测试验证C与Rust版SQLite数值解析扩展（基于Clinger快速路径将耗时压至16–19ns） | https://simonwillison.net/2026/Nov/8/sqlite-parse-number-c-vs-rust/
 - 2026-11-09 | 安全机构Apiiro曝出Claude Code「不再询问」配置（.claude/settings.local.json）导致逾1100个公开GitHub仓库泄露明文密钥，官方回应正研发内置敏感信息擦除（secret scrubbing） | https://thehackernews.com/2026/11/claude-codes-dont-ask-again-file-exposes.html
 - 2026-11-10 | Claude Code 发布 v2.1.322：新增 Vertex global/us/eu 区域 fast mode，被拒时回退标准速度 | https://github.com/anthropics/claude-code/releases
+- 2026-11-11 | GitHub Copilot CLI 发布 v1.0.109：加入 Claude Fable 5.2、沙箱规则支持 CIDR，预发布版实验遮罩密码提示应答 | https://github.com/github/copilot-cli/releases
 
 ## 3. 进行中事件表
 
