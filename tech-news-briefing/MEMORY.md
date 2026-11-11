@@ -1,9 +1,9 @@
 ## 1. 本次运行
 
-- 本次运行时刻及检索截止：2026-11-10 10:10 UTC。
-- 上次运行：2026-11-09 21:50 UTC。
-- 覆盖窗口：2026-11-09 21:50 UTC 至 2026-11-10 10:10 UTC（常规，空期）。
-- 窗口仅约12小时，十方向、进行中事件及中英文补搜均未发现新增实质内容；11/10为微软补丁星期二，检索时尚无已索引报道，下次运行留意。
+- 本次运行时刻及检索截止：2026-11-11 10:10 UTC。
+- 上次运行：2026-11-10 10:10 UTC。
+- 覆盖窗口：2026-11-10 10:10 UTC 至 2026-11-11 10:10 UTC（常规）。
+- 本期仅收录微软11月补丁星期二；其余方向补搜未发现窗口内可核实的新动态。CoreWeave Q3财报（11/10）检索时尚无索引报道、Chrome疑似新零日（CVE编号未能核实）未收录，下次运行留意。
 
 ## 2. 已报条目清单
 
@@ -44,6 +44,7 @@
 - 2026-11-09 | Linux内核UDP套接字曝出在野受测高危提权漏洞CVE-2026-98276，Chainalysis披露遭遇AI智能体网络攻击致部分用户资料外泄 | https://almalinux.org/blog/2026-11-06-cve-2026-98276/
 - 2026-11-09 | Linux 7.4-rc2发布带来FAT32预分配优化与AMDGPU修复，AMD提交下一代RDNA 5（GFX13）初步Linux内核驱动补丁 | https://www.phoronix.com/news/Linux-7.4-rc2
 - 2026-11-09 | FTC与多州同租房巨头Progress Residential达成4975万美元反隐形收费和解，中期选举后国会民主党拟强化AI数据中心与安全监管审查 | https://www.ftc.gov/news-events/news/press-releases/2026/11/progress-residential-owner-pretium-partners-pay-49.75-million-settle-ftc-states-charges-over-deceptive
+- 2026-11-11 | 微软11月补丁星期二修复约1093个漏洞，Outlook欺骗漏洞CVE-2026-124194已被在野利用并入CISA KEV | https://www.tenable.com/blog/microsoft-november-2026-patch-tuesday-addresses-1093-cves-cve-2026-124194
 
 ## 3. 进行中事件表
 
