@@ -1,9 +1,9 @@
 # local-events-briefing MEMORY
 
 ## 1. 本次运行
-- 运行时刻及检索截止：2026-11-11 17:04 PST（America/Los_Angeles；2026-11-12 01:04 UTC）。
-- 实际覆盖窗口：2026-11-11 11:04 PST 至 2026-11-11 17:04 PST（常规，同日二次运行）；新收 Enchant Christmas 远期预告与《The Who's Tommy》最后周末提醒两条。
-- 六方向均已检索；美食饮品、全国范围与今明速览方向无可核实的新动态（VACA DTLA 的 11/20 开业为 2025 年旧闻，未收）。
+- 运行时刻及检索截止：2026-11-12 11:03 PST（America/Los_Angeles；2026-11-12 19:03 UTC）。
+- 实际覆盖窗口：2026-11-11 17:04 PST 至 2026-11-12 11:03 PST（常规）；本期仅收三条今明速览提醒与一条开票提醒（Disneyland Holidays、OCMA Hello Again、Smashing Pumpkins 收官场、Fall Out Boy 公售）。
+- 六方向均已检索；综合日历、美食新店、本周末橙县/洛杉矶活动检索结果多为往年内容，无可核实新增，未收（Mess Hall Market Tustin 电影夜、Zov's Costa Mesa 开业日期未能确认年份/日期）。
 
 ## 2. 已报条目清单
 
@@ -83,11 +83,14 @@
 2026-11-11 | Knott's Merry Farm 官方页确认 11/20 起，select dates（续报）| https://www.sixflags.com/knotts/events/merry-farm
 2026-11-11 | 《The Who's Tommy》最后周末提醒，11/12–11/15，Hollywood Pantages Theatre（续报）| https://www.broadwayinhollywood.com/events/detail/the-whos-tommy
 2026-11-11 | Enchant Christmas 圣诞灯光迷宫，11/20–12/27，Santa Anita Park Arcadia | https://www.visitpasadena.com/events/enchant-christmas-los-angeles/
+2026-11-12 | Holidays at the Disneyland Resort 11/13 启幕提醒（续报）| https://www.visitanaheim.org/articles/post/disneyland-resort-reveals-holiday-season-festivities-including-disney-festival-of-holidays/
+2026-11-12 | OCMA《Hello Again》11/13 开展提醒（续报）| https://www.artrabbit.com/events/hello-again-2026
+2026-11-12 | Smashing Pumpkins 11/12 收官场今晚提醒（续报）| https://blabbermouth.net/news/the-smashing-pumpkins-announce-fall-2026-the-rats-in-a-cage-tour
+2026-11-12 | Fall Out Boy 2027 巡演 11/12 10:00 公售提醒（续报）| https://www.ticketnews.com/2026/11/fall-out-boy-announces-36-date-twilight-of-the-punks-world-tour-for-2027/
 
 ## 3. 进行中事件表
-- 《The Who's Tommy》Hollywood Pantages Theatre | 最后进展 2026-11-11 | 已于 11 月 11 日做最后周末提醒；11 月 15 日闭幕，无需再提醒，下次运行移出
-- UC Irvine Langson OCMA 秋季新展《Hello Again》公众开幕庆典 | 最后进展 2026-11-06 | 11 月 13 日开展、11 月 14 日周六全天免费公众开幕庆典，当日或前一日可做今明速览提醒
-- Holidays at the Disneyland Resort（含 Disney Festival of Holidays） | 最后进展 2026-11-06 | 11 月 13 日正式启幕，开幕当日或周末可做今明速览提醒
+- UC Irvine Langson OCMA 秋季新展《Hello Again》公众开幕庆典 | 最后进展 2026-11-06 | 11 月 13 日已做开展提醒；11 月 14 日公众开幕庆典细节与票价待官方核实，无新消息则移出
+- Holidays at the Disneyland Resort（含 Disney Festival of Holidays） | 最后进展 2026-11-06 | 11 月 13 日已做启幕提醒；之后无需再提醒，下次运行移出
 - Starbucks Red Cup Day 2026 | 最后进展 2026-11-06 | 11 月 17 日（周二）全美参与门店买手工假日饮品赠限量可重复使用红杯，11 月 16–17 日可做节点提醒
 - Hilbert Museum《The Art of the Simpsons》与《Otherworldly: Science Fiction Art》双新展 | 最后进展 2026-11-09 | 11 月 18 日在 Orange 正式揭幕，开展当日或前一日可做今明速览提醒
 - The Broad 秋季大展《Has the myth been shattered》与 Hammer Museum《Felipe Baeza: Anima》 | 最后进展 2026-10-26 | 11 月 21 日同日开幕前一周可核实收录
