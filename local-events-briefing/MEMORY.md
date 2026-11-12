@@ -1,9 +1,9 @@
 # local-events-briefing MEMORY
 
 ## 1. 本次运行
-- 运行时刻及检索截止：2026-11-11 11:04 PST（America/Los_Angeles；2026-11-11 19:04 UTC）。
-- 实际覆盖窗口：2026-11-10 17:05 PST 至 2026-11-11 11:04 PST（常规）；新收 Journey Honda Center 11/24 与 Knott's Merry Farm 官方日期续报两条。
-- 六方向均已检索；美食饮品与展览方向无可核实的新动态。
+- 运行时刻及检索截止：2026-11-11 17:04 PST（America/Los_Angeles；2026-11-12 01:04 UTC）。
+- 实际覆盖窗口：2026-11-11 11:04 PST 至 2026-11-11 17:04 PST（常规，同日二次运行）；新收 Enchant Christmas 远期预告与《The Who's Tommy》最后周末提醒两条。
+- 六方向均已检索；美食饮品、全国范围与今明速览方向无可核实的新动态（VACA DTLA 的 11/20 开业为 2025 年旧闻，未收）。
 
 ## 2. 已报条目清单
 
@@ -81,9 +81,11 @@
 2026-11-10 | Knott's Merry Farm 假日季，11/20–2027-01-03，Knott's Berry Farm Buena Park（单源）| https://thrillzing.com/seasonal-events/knotts-merry-farm-2026-knotts-berry-farm/
 2026-11-11 | Journey Final Frontier Tour，11/24 19:30，Honda Center Anaheim | https://www.jambase.com/show/journey-honda-center-20261124
 2026-11-11 | Knott's Merry Farm 官方页确认 11/20 起，select dates（续报）| https://www.sixflags.com/knotts/events/merry-farm
+2026-11-11 | 《The Who's Tommy》最后周末提醒，11/12–11/15，Hollywood Pantages Theatre（续报）| https://www.broadwayinhollywood.com/events/detail/the-whos-tommy
+2026-11-11 | Enchant Christmas 圣诞灯光迷宫，11/20–12/27，Santa Anita Park Arcadia | https://www.visitpasadena.com/events/enchant-christmas-los-angeles/
 
 ## 3. 进行中事件表
-- 《The Who's Tommy》Hollywood Pantages Theatre | 最后进展 2026-10-26 | 11 月 15 日闭幕；11 月 12–13 日前后可做最后周末提醒
+- 《The Who's Tommy》Hollywood Pantages Theatre | 最后进展 2026-11-11 | 已于 11 月 11 日做最后周末提醒；11 月 15 日闭幕，无需再提醒，下次运行移出
 - UC Irvine Langson OCMA 秋季新展《Hello Again》公众开幕庆典 | 最后进展 2026-11-06 | 11 月 13 日开展、11 月 14 日周六全天免费公众开幕庆典，当日或前一日可做今明速览提醒
 - Holidays at the Disneyland Resort（含 Disney Festival of Holidays） | 最后进展 2026-11-06 | 11 月 13 日正式启幕，开幕当日或周末可做今明速览提醒
 - Starbucks Red Cup Day 2026 | 最后进展 2026-11-06 | 11 月 17 日（周二）全美参与门店买手工假日饮品赠限量可重复使用红杯，11 月 16–17 日可做节点提醒
@@ -100,3 +102,4 @@
 - L.A. Zoo Lights | 最后进展 2026-11-10 | 11 月 20 日开幕；开幕当日可做节点提醒
 - Knott's Merry Farm | 最后进展 2026-11-11 | 最后进展已更新：官方页确认 11 月 20 日起、select dates；11 月 19–20 日可做节点提醒并核对具体开放日
 - Journey Honda Center | 最后进展 2026-11-11 | 11 月 24 日 19:30 演出；11 月 23–24 日可做节点提醒
+- Enchant Christmas Santa Anita Park | 最后进展 2026-11-11 | 11 月 20 日开幕；11 月 19–20 日可做节点提醒并核实 2026 官方票价与开放时间
