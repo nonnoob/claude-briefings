@@ -2,9 +2,9 @@
 
 ## 1. 本次运行
 
-- 运行时刻及检索截止：2026-11-11 10:07 UTC。
-- 实际覆盖窗口：2026-11-10 10:05 UTC 至 2026-11-11 10:07 UTC（常规）。
-- 本期仅收录 Copilot CLI v1.0.109。simonwillison.net 与 langchain.com 因网络域名未放行本期未能直接抓取（其余方向以 WebSearch/其他来源补搜，窗口内无新内容）；Claude Code 无 v2.1.322 之后新版本；Codex 仅有 0.167.1 与 alpha 预发布且无变更说明；Anthropic Engineering 无新文。
+- 运行时刻及检索截止：2026-11-12 10:10 UTC。
+- 实际覆盖窗口：2026-11-11 10:07 UTC 至 2026-11-12 10:07 UTC（常规）。
+- 本期仅收录 Copilot CLI v1.0.110 预发布系列。simonwillison.net 因网络域名未放行本期未能直接抓取（其余方向经 WebSearch 补搜，窗口内无新内容）；Claude Code 最新仍为 v2.1.322；Codex 未见 0.168.0；Anthropic Engineering 无窗口内新文。
 
 ## 2. 已报条目清单（保留最近 14 天）
 
@@ -43,6 +43,7 @@
 - 2026-11-09 | 安全机构Apiiro曝出Claude Code「不再询问」配置（.claude/settings.local.json）导致逾1100个公开GitHub仓库泄露明文密钥，官方回应正研发内置敏感信息擦除（secret scrubbing） | https://thehackernews.com/2026/11/claude-codes-dont-ask-again-file-exposes.html
 - 2026-11-10 | Claude Code 发布 v2.1.322：新增 Vertex global/us/eu 区域 fast mode，被拒时回退标准速度 | https://github.com/anthropics/claude-code/releases
 - 2026-11-11 | GitHub Copilot CLI 发布 v1.0.109：加入 Claude Fable 5.2、沙箱规则支持 CIDR，预发布版实验遮罩密码提示应答 | https://github.com/github/copilot-cli/releases
+- 2026-11-12 | GitHub Copilot CLI 发布 v1.0.110-1 至 -3 预发布版：MCP/settings 无效配置保留、/compact 遵守额度上限 | https://github.com/github/copilot-cli/releases
 
 ## 3. 进行中事件表
 
