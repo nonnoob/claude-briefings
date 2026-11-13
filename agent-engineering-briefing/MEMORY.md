@@ -2,9 +2,9 @@
 
 ## 1. 本次运行
 
-- 运行时刻及检索截止：2026-11-12 10:10 UTC。
-- 实际覆盖窗口：2026-11-11 10:07 UTC 至 2026-11-12 10:07 UTC（常规）。
-- 本期仅收录 Copilot CLI v1.0.110 预发布系列。simonwillison.net 因网络域名未放行本期未能直接抓取（其余方向经 WebSearch 补搜，窗口内无新内容）；Claude Code 最新仍为 v2.1.322；Codex 未见 0.168.0；Anthropic Engineering 无窗口内新文。
+- 运行时刻及检索截止：2026-11-13 10:10 UTC。
+- 实际覆盖窗口：2026-11-12 10:10 UTC 至 2026-11-13 10:10 UTC（常规）。
+- 本期仅收录三家 CLI 发布。博客/社区方向经 WebSearch 未见窗口内新文（simonwillison.net 未能直接抓取，搜索未见 11 月 12 日新文）；Anthropic Engineering 无窗口内新文。
 
 ## 2. 已报条目清单（保留最近 14 天）
 
@@ -44,10 +44,13 @@
 - 2026-11-10 | Claude Code 发布 v2.1.322：新增 Vertex global/us/eu 区域 fast mode，被拒时回退标准速度 | https://github.com/anthropics/claude-code/releases
 - 2026-11-11 | GitHub Copilot CLI 发布 v1.0.109：加入 Claude Fable 5.2、沙箱规则支持 CIDR，预发布版实验遮罩密码提示应答 | https://github.com/github/copilot-cli/releases
 - 2026-11-12 | GitHub Copilot CLI 发布 v1.0.110-1 至 -3 预发布版：MCP/settings 无效配置保留、/compact 遵守额度上限 | https://github.com/github/copilot-cli/releases
+- 2026-11-13 | Claude Code v2.1.323 新增实验性 Code Mode 与插件 engines 版本声明 | https://github.com/anthropics/claude-code/releases
+- 2026-11-13 | Codex rust-v0.168.0/v0.169.0 新增提供方选择、侧边对话标签，修复不受信目录 MCP 禁用 | https://github.com/openai/codex/releases
+- 2026-11-13 | Copilot CLI v1.0.110 正式版与 v1.0.111-0：权限规则支持正则、--host-allow-session-creation | https://github.com/github/copilot-cli/releases
 
 ## 3. 进行中事件表
 
-- 事件：Claude Code `.claude/settings.local.json` 内置敏感信息擦除（secret scrubbing）与安全默认保护落地；最后进展日期：2026-11-09（Apiiro 披露「Yes, and don't ask again」将含密钥的明文命令写入 `.claude/settings.local.json` 并在逾 1,100 个公开仓库泄露后，Claude Code 负责人 Boris Cherny 在 HN 回应称正原型验证内置 secret scrubbing 与自动防泄漏机制）；下一步关注点：Claude Code 后续版本（v2.1.323+；v2.1.322 未含此项）变更日志何时上线 `.claude/settings.local.json` 写入前的密钥自动脱敏/拦截及仓库级 `.gitignore` 保护改进。
+- 事件：Claude Code `.claude/settings.local.json` 内置敏感信息擦除（secret scrubbing）与安全默认保护落地；最后进展日期：2026-11-09（Apiiro 披露「Yes, and don't ask again」将含密钥的明文命令写入 `.claude/settings.local.json` 并在逾 1,100 个公开仓库泄露后，Claude Code 负责人 Boris Cherny 在 HN 回应称正原型验证内置 secret scrubbing 与自动防泄漏机制）；下一步关注点：Claude Code 后续版本（v2.1.323 仍未含此项，看 v2.1.324+）变更日志何时上线 `.claude/settings.local.json` 写入前的密钥自动脱敏/拦截及仓库级 `.gitignore` 保护改进。
 - 事件：Claude Code 彻底移除模型上下文中的用户账号邮箱后续版本落地；最后进展日期：2026-11-09（v2.1.319–v2.1.322 均 进一步加固权限与 MCP OAuth 令牌安全，但尚未在变更日志中宣告将登录邮箱彻底移出模型系统上下文）；下一步关注点：Claude Code 后续版本变更日志是否兑现从系统上下文中彻底剥离用户邮箱，以及 `@author` 等场景的替代方案。
-- 事件：OpenAI 收购 Pierre 后的 Code Storage 与 Codex 集成及 Pando 开源/上游回馈进展；最后进展日期：2026-11-04（OpenAI 披露内部 Git 后端 Pando 并宣布收购 Pierre，计划将 Pierre 的分布式机器导向 Git 存储层 Code Storage 深度整合进 Codex）；下一步关注点：Codex CLI（`rust-v0.168.0` 正式版及后续版本）及云端环境何时开放基于 Pierre Code Storage 的多 Agent 并行分支与内联审查功能，以及 Pando 相关补丁是否回馈上游 Git。
+- 事件：OpenAI 收购 Pierre 后的 Code Storage 与 Codex 集成及 Pando 开源/上游回馈进展；最后进展日期：2026-11-04（OpenAI 披露内部 Git 后端 Pando 并宣布收购 Pierre，计划将 Pierre 的分布式机器导向 Git 存储层 Code Storage 深度整合进 Codex）；下一步关注点：Codex CLI（0.168.0/0.169.0 已发布但未见 Pierre 集成；看 0.170.0+）及云端环境何时开放基于 Pierre Code Storage 的多 Agent 并行分支与内联审查功能，以及 Pando 相关补丁是否回馈上游 Git。
 - 事件：Opus 4.8 fast mode 停用；最后进展日期：2026-10-31（v2.1.316 公告，弃用日 10 月 30 日）；下一步关注点：11 月 30 日正式移除前后的客户端报错处理与迁移公告。
