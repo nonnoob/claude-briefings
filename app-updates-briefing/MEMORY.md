@@ -2,10 +2,10 @@
 
 ## 1. 本次运行时刻与实际覆盖窗口
 
-- 本次运行时刻及检索截止：2026-11-09 21:50 UTC（2026-11-09 13:50 PST）。
-- 上次运行时刻：2026-11-06 16:22 UTC。
-- 实际覆盖窗口：2026-11-06 16:22 UTC 至 2026-11-09 21:50 UTC（常规）。
-- 三方向均已完整检索：核实收录 VS Code 1.145.2 维护补丁、VS Code 1.146 Insiders（Compare Models Spotlight 引导与 Worktree 清理内联）、GitHub Copilot Code Review API 管理与归因更新、Anthropic 发布 Claude Fable 5.2 与 Claude Mythos 5.2、Claude Code v2.1.319/v2.1.320/v2.1.321、Claude Enterprise Project Tags（Beta）与 Claude Desktop 3.6556.x 界面更新、Claude Developer Platform IP Allowlisting（Beta），以及 AWS Bedrock、Google Cloud Vertex AI 与 Microsoft Foundry 同步上线 Claude Fable 5.2。
+- 本次运行时刻及检索截止：2026-11-13 10:40 UTC。
+- 上次运行时刻：2026-11-09 21:50 UTC。
+- 实际覆盖窗口：2026-11-09 21:50 UTC 至 2026-11-13 10:40 UTC（常规）。
+- 方向覆盖：Claude Code/Platform/Support 发布说明、VS Code GitHub Releases、Copilot Fable 5.2 已检索；code.visualstudio.com 与 github.blog 本期无法访问（域名未放行），VS Code 1.146 特性清单与 GitHub 官方 changelog 未覆盖。
 
 ## 2. 已报条目清单（最近 21 天）
 
@@ -40,11 +40,17 @@
 - 2026-11-06 | Anthropic 面向 Claude Enterprise 上线项目成本标签 Project Tags（Beta），支持跨项目聊天、Claude Desktop（v3.6556.1+）本地 Cowork 与 Claude Code 按内部成本代码追踪支出，Claude Desktop 3.6556.x 同步重构界面主题布局 | https://support.claude.com/en/articles/track-spend-by-cost-code-with-project-tags
 - 2026-11-07 | Claude Code v2.1.320 与 v2.1.321 发布，将 claude-fable-5-2 设为默认 Fable 模型，新增 claude remote-control --settings 参数，并修复 MCP OAuth 重定向令牌泄露、只读 Bash 绕过沙箱及网络路径文件编辑问题 | https://github.com/anthropics/claude-code/releases/tag/v2.1.321
 - 2026-11-09 | Anthropic 发布旗舰模型 Claude Fable 5.2 与受控准入的 Claude Mythos 5.2（生成速度提升 30%、API 定价下调 20% 至 $8/$40 每百万 token，支持可选 Fast Mode），AWS Bedrock、Google Cloud Vertex AI 与 Microsoft Foundry 同步上线 Fable 5.2 | https://www.anthropic.com/news/introducing-claude-fable-5-2-and-claude-mythos-5-2
+- 2026-11-10 | VS Code 1.145.3 维护补丁与 1.146.0 稳定版（11-11）在 GitHub 发布，特性清单未核实 | https://github.com/microsoft/vscode/releases/tag/1.146.0
+- 2026-11-10 | Claude Code v2.1.322 为 Vertex 增加 fast mode | https://github.com/anthropics/claude-code/releases
+- 2026-11-12 | Claude Code v2.1.323 发布实验性 Code Mode、插件版本范围限制并收紧 Bash 权限检查 | https://github.com/anthropics/claude-code/releases/tag/v2.1.323
+- 2026-11-12 | Claude Meetings（Google Meet）Beta 面向 Team/Enterprise，另有 Whiteboards 与 Sheets Beta | https://support.claude.com/en/articles/12138966-release-notes
+- 2026-11-12 | Claude Developer Platform 推出自托管 Claude Managed Agents | https://platform.claude.com/docs/en/release-notes/overview
+- 2026-11-09 | Claude Fable 5.2 在 GitHub Copilot 正式可用（含 VS Code 模型选择器，需管理员启用策略） | https://letsdatascience.com/news/anthropics-claude-fable-52-reaches-general-availability-in-g-90d9b700
 
 ## 3. 进行中事件表
 
-- 事件：Claude Fable 5.2 与 Claude Mythos 5.2 发布及生态集成；最后进展日期：2026-11-09；下一步关注点：Claude Fable 5.2 已在 Claude 全平台、Claude Code（v2.1.320+ 默认 Fable 模型）及 AWS Bedrock、Vertex AI、Microsoft Foundry 上线，后续关注 GitHub Copilot 与 VS Code 模型选择器何时正式公告接入 Fable 5.2，以及 Mythos 5.2 验证计划与 Claude Security 企业功能扩展情况。
-- 事件：VS Code Agent 会话、Canvases、Compare Models 与改动审核；最后进展日期：2026-11-06；下一步关注点：1.145.2 已完成首轮稳定性修复，1.146 Insiders 已支持 Compare Models 分组集合、Agent 自动发起对比与 Spotlight 引导，后续核实 1.146 正式版发布及 Canvases 何时转 GA、Compare Models 何时支持 Dev Containers、Keep/Undo 实验性工作集何时覆盖终端命令改动。
+- 事件：Claude Fable 5.2 与 Claude Mythos 5.2 发布及生态集成；最后进展日期：2026-11-09；下一步关注点：Claude Fable 5.2 已在 Claude 全平台、Claude Code（v2.1.320+ 默认 Fable 模型）及 AWS Bedrock、Vertex AI、Microsoft Foundry 上线，Copilot 已于 11-09 接入 Fable 5.2（待核实 GitHub 原文），后续关注 Mythos 5.2 验证计划与 Claude Security 企业功能扩展情况。
+- 事件：VS Code Agent 会话、Canvases、Compare Models 与改动审核；最后进展日期：2026-11-06；下一步关注点：1.145.2 已完成首轮稳定性修复，1.146 Insiders 已支持 Compare Models 分组集合、Agent 自动发起对比与 Spotlight 引导，1.146.0 稳定版已于 11-11 发布，后续核实其特性清单及 Canvases 何时转 GA、Compare Models 何时支持 Dev Containers、Keep/Undo 实验性工作集何时覆盖终端命令改动。
 - 事件：Claude Enterprise 安全与治理套件（Security Center、父级组织管理控制台、Project Tags、Developer Platform IP Allowlisting）与 Personal Finance Beta；最后进展日期：2026-11-06；下一步关注点：关注 Security Center、`admin.claude.com` 集中管理控制台、Project Tags 成本标签与 IP Allowlisting 何时由 Beta 转 GA，以及 Personal Finance Beta 何时扩展至非美地区或更多订阅计划。
 - 事件：Microsoft Copilot 集成的 Claude 模型纳入欧盟数据边界（EU Data Boundary）；最后进展日期：2026-11-05；下一步关注点：微软计划于 2026 年底前完成落地，关注年底前正式上线公告及区域租户默认启用策略变化。
 - 事件：Opus 4.8 fast mode 移除与 Copilot Fusion 优惠截止；最后进展日期：2026-10-31；下一步关注点：11 月 30 日旧 fast mode 正式移除及 Copilot Fusion 30% 优惠结束前核对模型配置、收费变化与客户端迁移提示。
