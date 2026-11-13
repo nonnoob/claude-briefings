@@ -1,9 +1,9 @@
 # local-events-briefing MEMORY
 
 ## 1. 本次运行
-- 运行时刻及检索截止：2026-11-12 17:04 PST（America/Los_Angeles；2026-11-13 01:04 UTC）。
-- 实际覆盖窗口：2026-11-12 11:03 PST 至 2026-11-12 17:04 PST（常规）；空期，无新增条目。
-- 综合日历、美食新店、演出开票、全国范围、OCMA 庆典细节均补搜，结果多为往年或无法核实年份/日期，未收（Amar Santana 的 Vaca LA 11/20 开业年份未能确认）。
+- 运行时刻及检索截止：2026-11-13 11:04 PST（America/Los_Angeles；2026-11-13 19:04 UTC）。
+- 实际覆盖窗口：2026-11-12 17:04 PST 至 2026-11-13 11:04 PST（常规）；空期，无新增条目。
+- 本周末综合榜单、橙县与洛杉矶新店、演出开票、全国范围均补搜，结果多为往年或无法核实年份/日期，未收（Twenty Eight Restaurant and Lounge、Vaca LA、Coast Film Festival、NEONIKA 年份或日期未能核实）。
 
 ## 2. 已报条目清单
 
