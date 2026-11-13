@@ -1,9 +1,9 @@
 # local-events-briefing MEMORY
 
 ## 1. 本次运行
-- 运行时刻及检索截止：2026-11-12 11:03 PST（America/Los_Angeles；2026-11-12 19:03 UTC）。
-- 实际覆盖窗口：2026-11-11 17:04 PST 至 2026-11-12 11:03 PST（常规）；本期仅收三条今明速览提醒与一条开票提醒（Disneyland Holidays、OCMA Hello Again、Smashing Pumpkins 收官场、Fall Out Boy 公售）。
-- 六方向均已检索；综合日历、美食新店、本周末橙县/洛杉矶活动检索结果多为往年内容，无可核实新增，未收（Mess Hall Market Tustin 电影夜、Zov's Costa Mesa 开业日期未能确认年份/日期）。
+- 运行时刻及检索截止：2026-11-12 17:04 PST（America/Los_Angeles；2026-11-13 01:04 UTC）。
+- 实际覆盖窗口：2026-11-12 11:03 PST 至 2026-11-12 17:04 PST（常规）；空期，无新增条目。
+- 综合日历、美食新店、演出开票、全国范围、OCMA 庆典细节均补搜，结果多为往年或无法核实年份/日期，未收（Amar Santana 的 Vaca LA 11/20 开业年份未能确认）。
 
 ## 2. 已报条目清单
 
@@ -90,7 +90,6 @@
 
 ## 3. 进行中事件表
 - UC Irvine Langson OCMA 秋季新展《Hello Again》公众开幕庆典 | 最后进展 2026-11-06 | 11 月 13 日已做开展提醒；11 月 14 日公众开幕庆典细节与票价待官方核实，无新消息则移出
-- Holidays at the Disneyland Resort（含 Disney Festival of Holidays） | 最后进展 2026-11-06 | 11 月 13 日已做启幕提醒；之后无需再提醒，下次运行移出
 - Starbucks Red Cup Day 2026 | 最后进展 2026-11-06 | 11 月 17 日（周二）全美参与门店买手工假日饮品赠限量可重复使用红杯，11 月 16–17 日可做节点提醒
 - Hilbert Museum《The Art of the Simpsons》与《Otherworldly: Science Fiction Art》双新展 | 最后进展 2026-11-09 | 11 月 18 日在 Orange 正式揭幕，开展当日或前一日可做今明速览提醒
 - The Broad 秋季大展《Has the myth been shattered》与 Hammer Museum《Felipe Baeza: Anima》 | 最后进展 2026-10-26 | 11 月 21 日同日开幕前一周可核实收录
