@@ -2,20 +2,12 @@
 
 ## 1. 本次运行
 
-- 运行时刻及检索截止：2026-11-13 10:10 UTC。
-- 实际覆盖窗口：2026-11-12 10:10 UTC 至 2026-11-13 10:10 UTC（常规）。
-- 本期仅收录三家 CLI 发布。博客/社区方向经 WebSearch 未见窗口内新文（simonwillison.net 未能直接抓取，搜索未见 11 月 12 日新文）；Anthropic Engineering 无窗口内新文。
+- 运行时刻及检索截止：2026-11-14 10:06 UTC。
+- 实际覆盖窗口：2026-11-13 10:10 UTC 至 2026-11-14 10:06 UTC（常规）。
+- 本期仅收录 Claude Code 与 Copilot CLI 发布。Codex 未见 0.170.0；simonwillison.net 因网络域名未放行无法抓取，博客/社区方向经 WebSearch 未见窗口内新文，本期未充分覆盖。
 
 ## 2. 已报条目清单（保留最近 14 天）
 
-- 2026-10-31 | VS Code 1.144 公布 Agent Host Protocol v1.0 与六种语言库 | https://code.visualstudio.com/updates/v1_144
-- 2026-10-31 | Claude Code v2.1.311 修复压缩后规则文件过期、晚连接 MCP 工具不可见及后台后代 worktree 提前清理 | https://github.com/anthropics/claude-code/releases/tag/v2.1.311
-- 2026-10-31 | Claude Code v2.1.312 阻止部分读取后覆写大指令文件，并修复切换目录后的 Skill 发现 | https://github.com/anthropics/claude-code/releases/tag/v2.1.312
-- 2026-10-31 | Claude Code v2.1.314 新增工作目录外写入限制，非交互启动失败改返回退出码 1 | https://github.com/anthropics/claude-code/releases/tag/v2.1.314
-- 2026-10-31 | Codex rust-v0.166.0 新增队列恢复与网络诊断，修复 resume/fork 权限和计数保留 | https://github.com/openai/codex/releases/tag/rust-v0.166.0
-- 2026-10-31 | Copilot CLI v1.0.105 修复长上下文会话无法选择 Fusion High/Max | https://github.com/github/copilot-cli/releases/tag/v1.0.105
-- 2026-10-31 | VS Code 1.144 实验性 Keep/Undo 工作集不涵盖终端命令改动 | https://code.visualstudio.com/updates/v1_144
-- 2026-10-31 | Claude Code v2.1.316 公告 Opus 4.8 fast mode 将于 11 月 30 日移除且无自动回退 | https://github.com/anthropics/claude-code/releases/tag/v2.1.316
 - 2026-11-06 | LangChain发布《Agents Are Going Async》，在Managed Deep Agents中引入异步子Agent任务管理原语与async配置 | https://www.langchain.com/blog/agents-are-going-async
 - 2026-11-06 | Anthropic将Claude Enterprise服务端推理钩子（Inference Hooks）转为正式版（GA），支持Prompt与工具调用前实时Webhook拦截 | https://claude.com/blog/claude-enterprise-inference-hooks
 - 2026-11-06 | Harrison Chase发表《New context engineering challenges in late 2026》，探讨主动式常驻Agent跨会话状态与共享记忆挑战 | https://www.langchain.com/blog/context-engineering-challenges-late-2026
@@ -47,10 +39,12 @@
 - 2026-11-13 | Claude Code v2.1.323 新增实验性 Code Mode 与插件 engines 版本声明 | https://github.com/anthropics/claude-code/releases
 - 2026-11-13 | Codex rust-v0.168.0/v0.169.0 新增提供方选择、侧边对话标签，修复不受信目录 MCP 禁用 | https://github.com/openai/codex/releases
 - 2026-11-13 | Copilot CLI v1.0.110 正式版与 v1.0.111-0：权限规则支持正则、--host-allow-session-creation | https://github.com/github/copilot-cli/releases
+- 2026-11-14 | Claude Code v2.1.325 修复 zstd 解码安全问题、子 Agent 模型切换错误及第三方网关压缩失败 | https://github.com/anthropics/claude-code/releases
+- 2026-11-14 | Copilot CLI v1.0.111 正式版与 v1.0.112：子 Agent 遵守 --max-ai-credits、默认推荐上下文窗口 | https://github.com/github/copilot-cli/releases
 
 ## 3. 进行中事件表
 
-- 事件：Claude Code `.claude/settings.local.json` 内置敏感信息擦除（secret scrubbing）与安全默认保护落地；最后进展日期：2026-11-09（Apiiro 披露「Yes, and don't ask again」将含密钥的明文命令写入 `.claude/settings.local.json` 并在逾 1,100 个公开仓库泄露后，Claude Code 负责人 Boris Cherny 在 HN 回应称正原型验证内置 secret scrubbing 与自动防泄漏机制）；下一步关注点：Claude Code 后续版本（v2.1.323 仍未含此项，看 v2.1.324+）变更日志何时上线 `.claude/settings.local.json` 写入前的密钥自动脱敏/拦截及仓库级 `.gitignore` 保护改进。
+- 事件：Claude Code `.claude/settings.local.json` 内置敏感信息擦除（secret scrubbing）与安全默认保护落地；最后进展日期：2026-11-09（Apiiro 披露「Yes, and don't ask again」将含密钥的明文命令写入 `.claude/settings.local.json` 并在逾 1,100 个公开仓库泄露后，Claude Code 负责人 Boris Cherny 在 HN 回应称正原型验证内置 secret scrubbing 与自动防泄漏机制）；下一步关注点：Claude Code 后续版本（v2.1.323、v2.1.325 摘要均未见此项，看 v2.1.326+）变更日志何时上线 `.claude/settings.local.json` 写入前的密钥自动脱敏/拦截及仓库级 `.gitignore` 保护改进。
 - 事件：Claude Code 彻底移除模型上下文中的用户账号邮箱后续版本落地；最后进展日期：2026-11-09（v2.1.319–v2.1.322 均 进一步加固权限与 MCP OAuth 令牌安全，但尚未在变更日志中宣告将登录邮箱彻底移出模型系统上下文）；下一步关注点：Claude Code 后续版本变更日志是否兑现从系统上下文中彻底剥离用户邮箱，以及 `@author` 等场景的替代方案。
 - 事件：OpenAI 收购 Pierre 后的 Code Storage 与 Codex 集成及 Pando 开源/上游回馈进展；最后进展日期：2026-11-04（OpenAI 披露内部 Git 后端 Pando 并宣布收购 Pierre，计划将 Pierre 的分布式机器导向 Git 存储层 Code Storage 深度整合进 Codex）；下一步关注点：Codex CLI（0.168.0/0.169.0 已发布但未见 Pierre 集成；看 0.170.0+）及云端环境何时开放基于 Pierre Code Storage 的多 Agent 并行分支与内联审查功能，以及 Pando 相关补丁是否回馈上游 Git。
 - 事件：Opus 4.8 fast mode 停用；最后进展日期：2026-10-31（v2.1.316 公告，弃用日 10 月 30 日）；下一步关注点：11 月 30 日正式移除前后的客户端报错处理与迁移公告。
