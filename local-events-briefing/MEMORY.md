@@ -1,9 +1,9 @@
 # local-events-briefing MEMORY
 
 ## 1. 本次运行
-- 运行时刻及检索截止：2026-11-13 17:04 PST（America/Los_Angeles；2026-11-14 01:04 UTC）。
-- 实际覆盖窗口：2026-11-13 11:04 PST 至 2026-11-13 17:04 PST（常规）；空期，无新增条目。
-- 本周末综合榜单、橙县与洛杉矶新店、演出开票、全国范围均补搜，结果多为往年或无法核实年份/日期，未收（Vaca DTLA 开业日期说法矛盾、Stevie Wonder 12/19 Intuit Dome 已开售且疑似售罄、Twenty Eight、Zov's、H&H Bagels Irvine 日期未核实）。
+- 运行时刻及检索截止：2026-11-14 11:04 PST（America/Los_Angeles；2026-11-14 19:04 UTC）。
+- 实际覆盖窗口：2026-11-13 17:04 PST 至 2026-11-14 11:04 PST（常规）。
+- 补搜：Vaca DTLA 实为 2025-11-20 开业（旧闻，不收）；Coast Film Festival 2026 官方为 10/16–25（不收）；Zov's、Array 36 等新店无确切日期未收；Lakewood Center Night Market 无可靠官方页未收。
 
 ## 2. 已报条目清单
 
@@ -87,9 +87,10 @@
 2026-11-12 | OCMA《Hello Again》11/13 开展提醒（续报）| https://www.artrabbit.com/events/hello-again-2026
 2026-11-12 | Smashing Pumpkins 11/12 收官场今晚提醒（续报）| https://blabbermouth.net/news/the-smashing-pumpkins-announce-fall-2026-the-rats-in-a-cage-tour
 2026-11-12 | Fall Out Boy 2027 巡演 11/12 10:00 公售提醒（续报）| https://www.ticketnews.com/2026/11/fall-out-boy-announces-36-date-twilight-of-the-punks-world-tour-for-2027/
+2026-11-14 | Anaheim Ducks vs. Calgary Flames 11/15 17:00，Honda Center Anaheim（单源）| https://www.tickpick.com/buy-anaheim-ducks-vs-calgary-flames-tickets-honda-center-11-15-26-5pm/8139280/
+2026-11-14 | Los Angeles Autumn Market & Food Truck Festival 11/13–11/15，Los Angeles State Historic Park（单源）| https://happeningnext.com/event/los-angeles-autumn-market-andamp-food-truck-festival-eid1ef0l20x03cr
 
 ## 3. 进行中事件表
-- UC Irvine Langson OCMA 秋季新展《Hello Again》公众开幕庆典 | 最后进展 2026-11-06 | 11 月 13 日已做开展提醒；11 月 14 日公众开幕庆典细节与票价待官方核实，无新消息则移出
 - Starbucks Red Cup Day 2026 | 最后进展 2026-11-06 | 11 月 17 日（周二）全美参与门店买手工假日饮品赠限量可重复使用红杯，11 月 16–17 日可做节点提醒
 - Hilbert Museum《The Art of the Simpsons》与《Otherworldly: Science Fiction Art》双新展 | 最后进展 2026-11-09 | 11 月 18 日在 Orange 正式揭幕，开展当日或前一日可做今明速览提醒
 - The Broad 秋季大展《Has the myth been shattered》与 Hammer Museum《Felipe Baeza: Anima》 | 最后进展 2026-10-26 | 11 月 21 日同日开幕前一周可核实收录
