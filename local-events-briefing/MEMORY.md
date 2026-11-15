@@ -1,9 +1,9 @@
 # local-events-briefing MEMORY
 
 ## 1. 本次运行
-- 运行时刻及检索截止：2026-11-14 11:04 PST（America/Los_Angeles；2026-11-14 19:04 UTC）。
-- 实际覆盖窗口：2026-11-13 17:04 PST 至 2026-11-14 11:04 PST（常规）。
-- 补搜：Vaca DTLA 实为 2025-11-20 开业（旧闻，不收）；Coast Film Festival 2026 官方为 10/16–25（不收）；Zov's、Array 36 等新店无确切日期未收；Lakewood Center Night Market 无可靠官方页未收。
+- 运行时刻及检索截止：2026-11-14 17:04 PST（America/Los_Angeles；2026-11-15 01:04 UTC）。
+- 实际覆盖窗口：2026-11-14 11:04 PST 至 2026-11-14 17:04 PST（常规，同日二次运行）。
+- 补搜：橙县新店无确切 11 月开业日期未收（Zov's、Array 36、Cowboy by Nick's 均待定）；Belcampo Santa Monica、Odys & Penelope 等洛杉矶新店无可靠官方日期未收；全国范围无新增。
 
 ## 2. 已报条目清单
 
@@ -89,11 +89,16 @@
 2026-11-12 | Fall Out Boy 2027 巡演 11/12 10:00 公售提醒（续报）| https://www.ticketnews.com/2026/11/fall-out-boy-announces-36-date-twilight-of-the-punks-world-tour-for-2027/
 2026-11-14 | Anaheim Ducks vs. Calgary Flames 11/15 17:00，Honda Center Anaheim（单源）| https://www.tickpick.com/buy-anaheim-ducks-vs-calgary-flames-tickets-honda-center-11-15-26-5pm/8139280/
 2026-11-14 | Los Angeles Autumn Market & Food Truck Festival 11/13–11/15，Los Angeles State Historic Park（单源）| https://happeningnext.com/event/los-angeles-autumn-market-andamp-food-truck-festival-eid1ef0l20x03cr
+2026-11-14 | Jonas Brothers 两晚（11/18、11/19 19:30）Hollywood Bowl Los Angeles | https://www.hollywoodbowl.com/events/performances/4902/2026-11-18/jonas-brothers
+2026-11-14 | Steve Lacy Oh yeah? 巡演 11/21 20:00 Hollywood Bowl | https://www.hollywoodbowl.com/events/performances/4900/2026-11-21/steve-lacy
+2026-11-14 | The Broad《Has the myth been shattered》11/21–2027-04-04 开幕，Downtown LA，免费（续报）| https://www.timeout.com/los-angeles/news/the-broads-next-free-exhibition-confronts-mass-media-and-memory-082026
+2026-11-14 | South Coast Plaza 第 45 届圣诞树点灯 11/19 19:00 Costa Mesa，免费（单源）| https://www.webull.com/news/15894635432821760
+2026-11-14 | Santa Ana Plaza Navideña 11/21 17:00–20:00 Plaza Calle Cuatro，免费，暂定 | https://www.santa-ana.org/event/plaza-navidena
 
 ## 3. 进行中事件表
 - Starbucks Red Cup Day 2026 | 最后进展 2026-11-06 | 11 月 17 日（周二）全美参与门店买手工假日饮品赠限量可重复使用红杯，11 月 16–17 日可做节点提醒
 - Hilbert Museum《The Art of the Simpsons》与《Otherworldly: Science Fiction Art》双新展 | 最后进展 2026-11-09 | 11 月 18 日在 Orange 正式揭幕，开展当日或前一日可做今明速览提醒
-- The Broad 秋季大展《Has the myth been shattered》与 Hammer Museum《Felipe Baeza: Anima》 | 最后进展 2026-10-26 | 11 月 21 日同日开幕前一周可核实收录
+- Hammer Museum《Felipe Baeza: Anima》 | 最后进展 2026-10-26 | 11 月 21 日开幕前一周可核实收录；The Broad 已于 11-14 收录，开幕当日可提醒
 - Bowers Museum《Art of Mexico and Central America》及《Bowers Legacy》新常设展 | 最后进展 2026-10-26 | 11 月 21 日 Santa Ana 开幕前一周可核实收录
 - Descanso Gardens「Enchanted Forest of Light」夜间灯光秀 | 最后进展 2026-11-06 | 11 月 22 日正式向公众开放（11 月 21 日预览夜），开幕前一周可核实收录
 - 《Water for Elephants》Segerstrom Center for the Arts | 最后进展 2026-11-09 | 11 月 10 日至 11 月 22 日在 Costa Mesa 连演，11 月 20–21 日前后可做收官周末提醒
@@ -106,3 +111,7 @@
 - Knott's Merry Farm | 最后进展 2026-11-11 | 最后进展已更新：官方页确认 11 月 20 日起、select dates；11 月 19–20 日可做节点提醒并核对具体开放日
 - Journey Honda Center | 最后进展 2026-11-11 | 11 月 24 日 19:30 演出；11 月 23–24 日可做节点提醒
 - Enchant Christmas Santa Anita Park | 最后进展 2026-11-11 | 11 月 20 日开幕；11 月 19–20 日可做节点提醒并核实 2026 官方票价与开放时间
+- South Coast Plaza 树点灯 | 最后进展 2026-11-14 | 11 月 19 日 19:00；待核实官方页，11 月 18–19 日可做节点提醒
+- Jonas Brothers Hollywood Bowl | 最后进展 2026-11-14 | 11 月 18–19 日两晚，11 月 17–18 日可做节点提醒
+- Steve Lacy Hollywood Bowl | 最后进展 2026-11-14 | 11 月 21 日，11 月 20–21 日可做节点提醒
+- Santa Ana Plaza Navideña | 最后进展 2026-11-14 | 11 月 21 日暂定，待市府确认节目单
