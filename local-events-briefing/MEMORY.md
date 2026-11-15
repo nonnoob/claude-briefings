@@ -101,9 +101,6 @@
 - Hammer Museum《Felipe Baeza: Anima》 | 最后进展 2026-10-26 | 11 月 21 日开幕前一周可核实收录；The Broad 已于 11-14 收录，开幕当日可提醒
 - Bowers Museum《Art of Mexico and Central America》及《Bowers Legacy》新常设展 | 最后进展 2026-10-26 | 11 月 21 日 Santa Ana 开幕前一周可核实收录
 - Descanso Gardens「Enchanted Forest of Light」夜间灯光秀 | 最后进展 2026-11-06 | 11 月 22 日正式向公众开放（11 月 21 日预览夜），开幕前一周可核实收录
-- 《Water for Elephants》Segerstrom Center for the Arts | 最后进展 2026-11-09 | 11 月 10 日至 11 月 22 日在 Costa Mesa 连演，11 月 20–21 日前后可做收官周末提醒
-- Getty Center《A Light in the Dark: Joseph Wright of Derby》特展 | 最后进展 2026-10-26 | 11 月 24 日开幕前一周可核实收录
-- 《Oh, Mary!》Ahmanson Theatre | 最后进展 2026-11-09 | 11 月 10 日至 12 月 6 日在 Downtown LA 驻演，12 月初可做闭幕周末提醒
 - Los Angeles Auto Show | 最后进展 2026-11-09 | 11 月 19 日线上提前票价截止、11 月 20 日开幕，11 月 19–20 日可做节点提醒
 - Winter Fest OC 2026 季 | 最后进展 2026-11-09 | 11 月 27 日开幕；待核实官方 2026 页面，11 月 26–27 日可做节点提醒
 - The Grove 圣诞树点灯 | 最后进展 2026-11-10 | 11 月 16 日晚举行；11 月 15–16 日可做提醒并核实钟点
@@ -114,4 +111,3 @@
 - South Coast Plaza 树点灯 | 最后进展 2026-11-14 | 11 月 19 日 19:00；待核实官方页，11 月 18–19 日可做节点提醒
 - Jonas Brothers Hollywood Bowl | 最后进展 2026-11-14 | 11 月 18–19 日两晚，11 月 17–18 日可做节点提醒
 - Steve Lacy Hollywood Bowl | 最后进展 2026-11-14 | 11 月 21 日，11 月 20–21 日可做节点提醒
-- Santa Ana Plaza Navideña | 最后进展 2026-11-14 | 11 月 21 日暂定，待市府确认节目单
