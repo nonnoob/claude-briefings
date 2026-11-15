@@ -1,16 +1,12 @@
 ## 1. 本次运行
 
-- 本次运行时刻及检索截止：2026-11-14 10:10 UTC。
-- 上次运行：2026-11-13 10:15 UTC。
-- 覆盖窗口：2026-11-13 10:15 UTC 至 2026-11-14 10:10 UTC（常规）。
-- 本期为空期：各方向补搜均无窗口内可核实的新动态（搜索索引对11/13当天覆盖偏弱）。下期可留意：Starship Flight 15结果（目标11/13，未能核实是否已发射）；英伟达11/17财报与11/18国会闭门简报；Tesla 12/3股东大会；Xiaomi 18 Pro（11/17）、OPPO Reno17（11/16）；11月Pixel Drop（11/10起推送，含Gemini Intelligence，已超出窗口未收录）；FT称Oracle取消约70亿美元腾讯东南亚AI算力协议（日期与原文未核实）；Chrome CVE-2026-85046日期仍未核实。
+- 本次运行时刻及检索截止：2026-11-15 10:10 UTC。
+- 上次运行：2026-11-14 10:10 UTC。
+- 覆盖窗口：2026-11-14 10:10 UTC 至 2026-11-15 10:10 UTC（常规）。
+- 本期为空期：各方向补搜均无窗口内可核实的新动态（搜索索引对11/14当天覆盖偏弱）。下期可留意：Starship Flight 15结果（仍未核实是否已发射）；英伟达11/17财报与11/18国会闭门简报；Tesla 12/3股东大会；Xiaomi 18 Pro（11/17）、OPPO Reno17（11/16）；Chrome 157.0.8103.50修复在野利用零日（本周一，疑已在11/9前后；CVE编号来源不一致，未收录）；CrowdStrike拟4.95亿美元收购Fiddler与Dreadnode（日期未核实）；FT称Oracle取消约70亿美元腾讯东南亚AI算力协议（日期与原文未核实）；Blue Origin推迟New Glenn至2027（日期未核实）。
 
 ## 2. 已报条目清单
 
-- 2026-10-31 | 苹果发布 M5 Pro/Max OLED 触控 MacBook Pro，14/16 英寸售价 2899/3399 美元起，11/6 上市 | https://www.cnbc.com/2026/10/28/apple-mac-touchscreen-launch.html
-- 2026-10-31 | 苹果发布 M6 非触控 14 英寸 MacBook Pro，10/28 预订、11/6 上市 | https://www.apple.com/newsroom/2026/10/apple-introduces-the-new-14-inch-macbook-pro-with-m6/
-- 2026-10-31 | 苹果发布 M6 24 英寸 iMac，升级 Wi-Fi 7/蓝牙 6，可选 2.5 Gb 以太网，11/6 上市 | https://www.apple.com/newsroom/2026/10/apple-unveils-new-imac-with-m6/
-- 2026-10-31 | Chrome 156.0.8078.79/.80 桌面更新修复 21 项漏洞，需重启应用补丁 | https://chromereleases.googleblog.com/2026/10/stable-channel-update-for-desktop_02107719452.html
 - 2026-11-06 | 谷歌发布2026年11月Android安全公告修复逾200个漏洞（含Framework严重RCE漏洞CVE-2026-58868），并在设置中新增Family Hub入口 | https://source.android.com/docs/security/bulletin/2026-11-01
 - 2026-11-06 | 谷歌推送Chrome 157稳定版（157.0.8103.38/.39），修复含7个严重漏洞在内的213项安全问题 | https://chromereleases.googleblog.com/2026/11/stable-channel-update-for-desktop.html
 - 2026-11-06 | 苹果推送iOS 27.3与macOS 27.3（Golden Gate）Beta 1，重构健康应用、新增Apple Music视频K歌并开启国行Apple Intelligence开发者测试 | https://9to5mac.com/2026/11/03/everything-new-in-ios-27-3-beta-1-so-far/
