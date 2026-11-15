@@ -1,8 +1,8 @@
 ## 1. 本次运行
 
-- 运行时刻及检索截止：2026-11-14 10:40 UTC。
-- 实际覆盖窗口：2026-11-13 10:40 UTC 至 2026-11-14 10:40 UTC（常规；空期）。
-- 六方向及热点兜底均已检索并补搜（中英文），窗口内无新增可确认条目；检索结果多为窗口前旧闻或无法确认日期。窗口前未收录：CoreWeave Q3 财报（11/10，营收 36.6 亿美元、同比 +168%，全年指引 130–133 亿美元，积压订单 1325 亿美元，净亏损 7.09 亿美元）。Anthropic 仍无最终定价、英伟达 11/17 财报及 11/18 国会简报尚未发生，均沿用事件表追踪。留待下次：Qwen4-Max Preview、DFA 正式文本 AI 伴侣条款。
+- 运行时刻及检索截止：2026-11-15 10:41 UTC。
+- 实际覆盖窗口：2026-11-14 10:40 UTC 至 2026-11-15 10:41 UTC（常规；周末，近乎空期）。
+- 六方向及热点兜底均已检索并补搜（中英文），仅新增 Fractile 融资一条；未发现 Anthropic 定价结果（CNBC 称计划 11/18 定价、11/19 挂牌 ANT）、英伟达调查及各新模型（Qwen4、Grok 5、Gemini 4 变体）的新进展。英伟达 11/17 财报与 11/18 国会简报尚未发生，沿用事件表追踪。
 
 ## 2. 已报条目清单
 
@@ -52,6 +52,7 @@
 - 2026-11-12 | 【续报】英伟达 11/11 反弹 2.87% 收 173.73 美元，传董事会当晚讨论黄仁勋去留、盘后跌约 8.6%；11/17 财报 | https://www.cnn.com/2026/11/11/business/live-news/nvidia-jensen-huang-investigation-fallout
 - 2026-11-12 | 【续报】欧盟委员会 11/11 正式提出《数字公平法案》（暗黑模式、订阅陷阱、最高 6% 罚款） | https://euperspectives.eu/2026/11/eu-digital-fairness-act-subscription-traps/
 - 2026-11-12 | 【续报】三位众议院共和党主席要求黄仁勋 11/18 闭门简报（非传票） | https://thenextweb.com/news/house-chairs-jensen-huang-briefing-megaspeed
+- 2026-11-15 | 【单源】英国推理芯片初创公司 Fractile 完成 7.2 亿美元 C 轮融资，估值约 70 亿美元 | https://thenextweb.com/news/fractile-7bn-valuation-720m-ai-inference-chips
 
 ## 3. 进行中事件表
 
