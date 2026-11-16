@@ -1,17 +1,11 @@
 ## 1. 本次运行
 
-- 运行时刻及检索截止：2026-11-15 10:41 UTC。
-- 实际覆盖窗口：2026-11-14 10:40 UTC 至 2026-11-15 10:41 UTC（常规；周末，近乎空期）。
-- 六方向及热点兜底均已检索并补搜（中英文），仅新增 Fractile 融资一条；未发现 Anthropic 定价结果（CNBC 称计划 11/18 定价、11/19 挂牌 ANT）、英伟达调查及各新模型（Qwen4、Grok 5、Gemini 4 变体）的新进展。英伟达 11/17 财报与 11/18 国会简报尚未发生，沿用事件表追踪。
+- 运行时刻及检索截止：2026-11-16 10:41 UTC。
+- 实际覆盖窗口：2026-11-15 10:41 UTC 至 2026-11-16 10:41 UTC（常规；周末，空期）。
+- 六方向及热点兜底均已检索并补搜，无新增条目。事件表各项无新进展：Anthropic 预计 11/18 定价、11/19 挂牌 ANT（尚未定价）；英伟达 11/17 财报与 11/18 国会简报尚未发生；Gemini 4 Hydrogen 仍未官宣；深圳“美中 AI 对话”11/18-19 尚未举行。
 
 ## 2. 已报条目清单
 
-- 2026-10-31 | Mistral Large 4 兑现开放权重承诺，并提供 Low/Medium/High 三档推理模式 | https://mistral.ai/news/mistral-large-4-oss/
-- 2026-10-31 | GPT-6.1 Terra 在 Amazon Bedrock 正式可用，支持图文输入与最高 100 万输入 token 上下文 | https://aws.amazon.com/about-aws/whats-new/2026/10/openai-gpt-6-1-terra-on-amazon-bedrock/
-- 2026-10-31 | Google 公布 Gemini 4 Carbon，向部分网络防御人员及 Fairwind 伙伴分阶段开放，尚非全面 GA | https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/
-- 2026-10-31 | Liquid AI 发布约 20 亿参数级 LFM3 多模态模型家族及基础、后训练权重 | https://www.liquid.ai/blog/lfm3
-- 2026-10-31 | Anthropic 招股材料进入公开披露阶段，Semafor 报道 H1 营收同比 14 倍及 1120 亿美元现金储备 | https://www.semafor.com/article/10/27/2026/anthropic-prospectus-cheers-investors-ahead-of-ipo
-- 2026-10-31 | FT 据知情人士称 OpenAI 融资目标由 300 亿降至约 200 亿美元，尚未获公司确认 | https://www.channelnewsasia.com/business/openai-slashes-funding-target-10-billion-amid-tech-rout-ft-reports-6508816
 - 2026-11-06 | 【续报】月之暗面于 11 月 4 日在 Hugging Face 正式开放 2.8 万亿参数 Kimi K3.1 Pro 模型权重（剔除网安双用途语料） | https://huggingface.co/moonshotai/Kimi-K3.1-Pro
 - 2026-11-06 | OpenAI 面向 Daybreak Red 授信安全人员开放网安专精模型 GPT-6 Cyber（ExploitGym 得分 48.5%，列入 Critical 等级） | https://deploymentsafety.openai.com/gpt-6-cyber
 - 2026-11-06 | Google 全面开放多模态视频生成与编辑模型 Gemini Omni 1.2 Flash（时长升至 15 秒，降价约 30%） | https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/
