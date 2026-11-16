@@ -1,36 +1,11 @@
 # MEMORY
 
 ## 1. 本次运行
-- 运行时刻及检索截止：2026-11-15 03:05 PST（2026-11-15 11:05 UTC）。
-- 实际覆盖窗口：2026-11-13 03:05 PST 至 2026-11-15 03:05 PST（补漏：上期未检得 11 月 12 日莫斯科会晤结果）。
-- 六大方向均已检索，检索索引对 11 月 13—14 日覆盖稀薄；仅检得莫斯科会晤续报。Freddie Mac 11 月 12 日数据、美伊海峡最新进展、中国 11 月 12—14 日动态、美股收盘仍未检得；中国 10 月经济数据将于 11 月 16 日发布，下次运行补查。
+- 运行时刻及检索截止：2026-11-16 03:05 PST（2026-11-16 11:05 UTC）。
+- 实际覆盖窗口：2026-11-15 03:05 PST 至 2026-11-16 03:05 PST（常规）。
+- 六大方向均已检索，检索索引对 11 月 15—16 日覆盖稀薄，仅检得霍尔木兹/巴林续报。Freddie Mac 11 月 12 日数据、中国 10 月经济数据（11 月 16 日发布）、中国 11 月 12—15 日动态、美股收盘、美国国内政治与加州本地动态仍未检得，下次运行补查。
 
 ## 2. 已报条目清单
-
-2026-10-26 | 特朗普签署降低美国民众住房成本行政令，财政部同日发布限制大型机构收购独栋住宅拟议规则 | https://www.whitehouse.gov/fact-sheets/2026/10/fact-sheet-president-donald-j-trump-decreases-housing-costs-for-americans/
-2026-10-26 | 美国司法部起诉阿拉斯加州，要求在共和党参议员Sullivan险败给Peltola且票差小于同名候选人得票时禁止认证结果 | https://www.washingtonpost.com/politics/2026/10/25/todd-blanche-defends-doj-lawsuit-over-senate-election-alaska/
-2026-10-26 | USCIS“申报截止日期中‘日’的定义”新规生效，CSPA锁龄等实质资格截止日遇周末假日不再顺延 | https://m.economictimes.com/nri/migrate/us-visa-green-card-applicants-what-changed-under-uscis-filing-deadline-rules-from-october-23/articleshow/135185457.cms
-2026-10-26 | 全美2026年中期选举提前投票突破2,660万张，多州投票进度快于2022年同期 | https://www.theguardian.com/us-news/2026/oct/23/early-voting-data-key-takeaways
-2026-10-26 | 中共中央政治局召开会议审议《关于二十届中央第七轮巡视情况的综合报告》 | https://www.news.cn/politics/leaders/20261023/96c5296dfcc84c06a009d3e7e018e6ac/c.html
-2026-10-26 | 国务院办公厅印发《关于适应人工智能技术发展助力构建就业友好型发展方式的意见》 | http://politics.people.com.cn/n1/2026/1023/c1001-40820518.html
-2026-10-26 | 李强主持召开国务院常务会议研究统筹人口与经济社会发展及推进服务业扩能提质 | https://tyjr.sh.gov.cn/shtyjrswj/sjxx/20261026/c2bac69ecb58433d990d26c5b8a3915c.html
-2026-10-26 | 巴西总统卢拉在第二轮投票中以51.79%对48.21%逆转击败弗拉维奥·博索纳罗赢得第四任期，对手拒认败选 | https://www.theguardian.com/world/2026/oct/26/lula-wins-brazil-election
-2026-10-26 | 特朗普向伊朗发最后通牒，英法部署战机与兵力协助沙特防御胡塞武装袭击 | https://www.cnn.com/2026/10/20/middleeast/uk-military-saudi-arabia-yemen-houthis-intl
-2026-10-26 | 俄乌确认拟于11月上中旬在阿布扎比举行美俄乌三方工作级会谈，阿联酋斡旋俄乌互换540名战俘 | http://www.news.cn/english/20261023/ba2ea2836ed44dadbcc1a3f7ba3d8f3c/c.html
-2026-10-26 | 美联储10月维持利率不变概率升至88%—90%，10年期美债收益率跌破5%，布油升至112—117美元、金价跌破4,000美元 | https://www.tradingkey.com/analysis/stocks/us-stocks/262237588-fomc-october-2026-preview-fed-policy-and-us-stocks-tradingkey
-2026-10-26 | 中国10月LPR连续第17个月维持不变（1年期3.00%、5年期以上3.50%） | https://english.news.cn/20261020/89f430afe69142b98b728fc6b82f52a9/c.html
-2026-10-26 | 中国国有粮商对美大豆2026/27年度累计采购承诺达约1,500万吨，商业买家受关税制约仍观望 | https://www.global-agriculture.com/farming-agriculture/chinas-soybean-buying-picks-up-but-a-tariff-wall-still-blocks-full-trade-recovery/
-2026-10-26 | Freddie Mac 30年期固定房贷利率降至7.32%，加州普通汽油均价回落至6.02美元/加仑，美元兑人民币约6.67 | https://www.freddiemac.com/pmms
-2026-10-26 | 西藏那曲市巴青县发生7.0级地震致至少16人遇难，国家地震应急响应升至三级并下拨8,000万元救灾恢复资金 | https://www.news.cn/politics/20261023/d8bb1ab3f2fe47eaba1734407d9acf66/c.html
-2026-10-26 | CDC通报全美麻疹确诊超4,400例并确认第3例死亡，对佛州坦帕本土登革热疫情启动三级应急响应 | https://www.theguardian.com/us-news/2026/oct/24/measles-outbreak-reporting
-2026-10-26 | 加州最大州府雇员工会SEIU Local 1000举行史上首次不当劳动行为罢工 | https://calmatters.org/economy/2026/10/state-worker-strike-local-1000/
-2026-10-26 | 橙县Norte Fire山火100%控制，Metrolink因异常大潮暂停橙县线Laguna Niguel至Oceanside列车服务 | https://www.latimes.com/california/story/2026-10-23/metrolink-suspends-iconic-coastal-route-due-to-high-tides
-2026-10-26 | 加州州长纽森签署社区安全跨部门协作行政令，要求12月18日前提交公共安全战略报告 | https://www.gov.ca.gov/2026/10/22/governor-newsom-announces-interagency-effort-to-coordinate-californias-public-safety-strategy-into-the-future/
-2026-10-31 | 中国 10 月制造业 PMI 降至 49.3，非制造业与综合产出指数均为 49.7 | https://www.chinanews.com.cn/cj/2026/10-31/10723787.shtml
-2026-10-31 | Reuters 援引伊朗官员称卡塔尔调解人员重返德黑兰推动美伊协议，未确认达成协议 | https://www.usnews.com/news/world/articles/2026-10-30/qatari-mediators-return-to-tehran-to-push-for-us-iran-deal-official-says
-2026-10-31 | FOMC 10 月 28 日以 10 比 2 维持 3.75%—4.00%，两名委员主张加息 25bp | https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm
-2026-10-31 | Freddie Mac 10 月 29 日 30 年期固定房贷均值 7.24%，环比下降 8bp | https://markets.businessinsider.com/news/stocks/mortgage-rates-decline-further-to-7-24-1036686037
-2026-10-31 | USA Today 报道第九巡回法院拒绝隔离约 2 万张加州争议选票的紧急请求，非终局裁决 | https://www.usatoday.com/story/news/state/california/2026/10/30/trump-appeal-rejected-in-california-noncitizen-ballot-fight/92521036007/
 2026-11-06 | 美国 2026 年中期选举民主党夺回参众两院控制权，翻转 7 个参议院席位并锁定众议院逾 250 席，约翰逊宣布不再竞选少数党领袖 | https://www.cbsnews.com/news/2026-midterm-election-results-democrats-win-control-senate-house-schumer-trump/
 2026-11-06 | 阿拉斯加州联邦参议员选举首轮计票佩尔托拉（48.18%）与沙利文（47.88%）均未过半，定于 11 月 18 日进行排序复选制计票 | https://www.cbsnews.com/news/alaska-ranked-choice-voting-dan-sullivan-mary-peltola-senate/
 2026-11-06 | 十四届全国人大常委会第二十五次会议闭幕，通过《反跨境腐败法》等法律并免去李乐成工信部长职务，央行报告提出发挥中央汇金“类平准基金”作用 | https://www.news.cn/politics/20261106/0aa3be2290d944c689d033db78e1b65b/c.html
@@ -67,10 +42,12 @@
 2026-11-12 | 美俄乌阿布扎比三方会谈结束第二天议程，讨论每方 1,000–1,500 人战俘互换，能源与黑海停火未见确认 | https://www.kyivpost.com/post/89761
 2026-11-12 | 美国 10 月 CPI 环比 +0.4%（预期约 0.3%）、核心 +0.3%，12 月加息概率约 84.7%，沃勒称可考虑加 50bp | https://www.housingwire.com/articles/october-cpi-fed-hike/
 2026-11-15 | 威特科夫、库什纳 11 月 12 日莫斯科会晤普京：俄称会谈有用，将提交新考虑；普京拒绝停火后欧洲驻军；欧洲或获谈判席位；普京拟在 APEC 与特朗普续谈 | https://www.npr.org/2026/11/12/nx-s1-6038809/us-envoys-meet-putin-russia-ukraine-war-talks
+2026-11-16 | 伊朗革命卫队称霍尔木兹海峡南侧航道多艘油轮触雷、海峡已关闭，路透社无法核实，UKMTO 将威胁级别升至严重 | https://www.arabnews.com/middle-east/iran-says-supertanker-with-2-million-barrels-of-oil-sank-in-gulf-3012053
+2026-11-16 | 巴林称伊朗无人机 11 月 13、15 日袭击巴林并拦截针对美军基地的袭击，美航母罗斯福号进入中东，伊朗外长将访阿曼 | https://cnbc.com/2026/11/15/bahrain-iran-drone-attacks-tehran-us-base.html
 
 ## 3. 进行中事件表
 - 美国 2026 中期选举后续计票与新国会领导层洗牌 | 最后进展 2026-11-10 | 乔丹以 106 比 73 当选众院共和党少数党领袖，参院民主党内部出现领导层更替呼声；（众院领导层选举已出结果：乔丹当选；赫格塞思弹劾案已搁置，马西称将推动战争权力决议表决）等 11 月 18 日阿拉斯加联邦参议员排序复选制（RCV）计票结果
-- 伊朗霍尔木兹海峡与红海冲突 | 最后进展 2026-11-10 | 伊方称无对话、海峡待七项条件；特朗普与卡塔尔首相会晤后称有积极势头但无协议，维持封锁现状，卢比奥称距突破仍远；伊朗否认与美对话；等美伊是否正式签署停火与海峡复航协议
+- 伊朗霍尔木兹海峡与红海冲突 | 最后进展 2026-11-16 | 革命卫队称海峡触雷关闭、袭击巴林，美第三艘航母抵达，阿拉格齐 11 月 17 日访阿曼；等阿曼斡旋结果、油轮沉没的独立核实及美方回应与油价/美联储 12 月加息定价反应
 - 俄乌阿布扎比三方会谈与对俄制裁豁免 | 最后进展 2026-11-12 | 特使 11 月 12 日会晤普京，俄称有用并将提交新考虑，普京拒绝欧洲驻军；等战俘互换（各 1,000–1,500 人）落地、俄方“新考虑”、欧洲是否正式入席及本月 APEC 峰会特朗普—普京会面
 - 中国高层人事与金融立法、稳股市政策落地 | 最后进展 2026-11-07 | 《金融法（草案二次审议稿）》公开征求意见并将境外机构在华展业升格为行政许可事项；等新任工信部部长任命及资本市场稳市配套细则出台
 - 中美贸易休战与美豆采购 | 最后进展 2026-11-09 | 何立峰与贝森特、格里尔视频通话后，中方宣布自 11 月 10 日起继续暂停对美 24% 加征关税及 16 家美企出口管制措施 2 个月；等美方对应关税延期措施及“300 亿对 300 亿美元”降税与农产品采购后续进展
