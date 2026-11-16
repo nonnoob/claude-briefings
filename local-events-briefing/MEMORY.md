@@ -1,9 +1,9 @@
 # local-events-briefing MEMORY
 
 ## 1. 本次运行
-- 运行时刻及检索截止：2026-11-15 17:04 PST（America/Los_Angeles；2026-11-16 01:04 UTC）。
-- 实际覆盖窗口：2026-11-15 11:04 PST 至 2026-11-15 17:04 PST（常规，空期）。
-- 补搜：橙县/洛杉矶本周汇总与 Eater LA 新店未检索到当期有效页面；2027 巡演（Carly Rae Jepsen、Niall Horan 等 Kia Forum 场）早已公布且超出 8 周展望期，未收；感恩节优惠暂无官宣。
+- 运行时刻及检索截止：2026-11-16 11:04 PST（America/Los_Angeles；2026-11-16 19:04 UTC）。
+- 实际覆盖窗口：2026-11-15 17:04 PST 至 2026-11-16 11:04 PST（常规）。
+- 补搜：橙县本周汇总、Eater LA 新店、Thanksgiving 周演出开票、Pershing Square 滑冰场 2026 开放日均未检索到当期有效页面；Hollywood Christmas Parade（11/29 周日，官网确认，座位票官方未公布）与 Black Friday 免费赠品（Academy、Michaels 等，11/27）未收。
 
 ## 2. 已报条目清单
 
@@ -100,6 +100,7 @@
 2026-11-15 | Teddy Swims The UGLY Tour 收官场 11/18 19:00，Kia Forum Inglewood | https://news.pollstar.com/2026/04/16/teddy-swims-announces-the-ugly-tour-2026-north-american-arena-run/
 2026-11-15 | Descanso Gardens Enchanted Forest of Light，11/22–2027/1/9，La Cañada Flintridge（单源）| https://thrillzing.com/seasonal-events/enchanted-forest-of-light-2026-descanso-gardens/
 2026-11-15 | Starbucks Red Cup Day 11/17 提醒（续报）| https://www.scrippsnews.com/life/food-and-drink/starbucks-announces-2026-red-cup-day-heres-when-to-get-a-free-cup
+2026-11-16 | Newport Beach 第 118 届 Christmas Boat Parade，12/16–12/20，Newport Harbor；Holiday Lights Cruises 11/27 起 | https://visitnewportbeach.com/events/newport-beach-christmas-boat-parade-holiday-lights-cruises-2026/
 
 ## 3. 进行中事件表
 - Hilbert Museum《The Art of the Simpsons》与《Otherworldly: Science Fiction Art》双新展 | 最后进展 2026-11-09 | 11 月 18 日在 Orange 正式揭幕，开展当日或前一日可做今明速览提醒
@@ -116,3 +117,5 @@
 - Jonas Brothers Hollywood Bowl | 最后进展 2026-11-14 | 11 月 18–19 日两晚，11 月 17–18 日可做节点提醒
 - Steve Lacy Hollywood Bowl | 最后进展 2026-11-14 | 11 月 21 日，11 月 20–21 日可做节点提醒
 - Teddy Swims Kia Forum | 最后进展 2026-11-15 | 11 月 18 日 19:00 收官场；11 月 17–18 日可做节点提醒
+- Hollywood Christmas Parade | 最后进展 2026-11-16 | 11 月 29 日 Hollywood Blvd；待官方公布座位票信息，11 月 25–28 日可核实收录
+- Pershing Square Holiday Ice Rink 2026 季 | 最后进展 2026-11-16 | 开放日未核实，11 月 19–21 日定向检索 holidayicerinkdowntownla.com
