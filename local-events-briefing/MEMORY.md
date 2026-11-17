@@ -1,9 +1,9 @@
 # local-events-briefing MEMORY
 
 ## 1. 本次运行
-- 运行时刻及检索截止：2026-11-16 11:04 PST（America/Los_Angeles；2026-11-16 19:04 UTC）。
-- 实际覆盖窗口：2026-11-15 17:04 PST 至 2026-11-16 11:04 PST（常规）。
-- 补搜：橙县本周汇总、Eater LA 新店、Thanksgiving 周演出开票、Pershing Square 滑冰场 2026 开放日均未检索到当期有效页面；Hollywood Christmas Parade（11/29 周日，官网确认，座位票官方未公布）与 Black Friday 免费赠品（Academy、Michaels 等，11/27）未收。
+- 运行时刻及检索截止：2026-11-16 17:04 PST（America/Los_Angeles；2026-11-17 01:04 UTC）。
+- 实际覆盖窗口：2026-11-16 11:04 PST 至 2026-11-16 17:04 PST（常规，同日二次运行，只报增量）。
+- 补搜：橙县本周汇总、LA 新店、Honda Center/Segerstrom 本周场次、Pershing Square 滑冰场 2026 开放日（仍未公布，官方站未核实）、全国优惠均无新增可收内容。
 
 ## 2. 已报条目清单
 
@@ -101,6 +101,9 @@
 2026-11-15 | Descanso Gardens Enchanted Forest of Light，11/22–2027/1/9，La Cañada Flintridge（单源）| https://thrillzing.com/seasonal-events/enchanted-forest-of-light-2026-descanso-gardens/
 2026-11-15 | Starbucks Red Cup Day 11/17 提醒（续报）| https://www.scrippsnews.com/life/food-and-drink/starbucks-announces-2026-red-cup-day-heres-when-to-get-a-free-cup
 2026-11-16 | Newport Beach 第 118 届 Christmas Boat Parade，12/16–12/20，Newport Harbor；Holiday Lights Cruises 11/27 起 | https://visitnewportbeach.com/events/newport-beach-christmas-boat-parade-holiday-lights-cruises-2026/
+2026-11-16 | Jonas Brothers 11/18 Hollywood Bowl 明晚提醒，All Time Low 特邀（续报）| https://www.hollywoodbowl.com/events/performances/4902/2026-11-18/jonas-brothers
+2026-11-16 | Teddy Swims 收官场 11/18 19:00 Kia Forum 明晚提醒（续报）| https://news.pollstar.com/2026/04/16/teddy-swims-announces-the-ugly-tour-2026-north-american-arena-run/
+2026-11-16 | Hilbert Museum 双新展 11/18 揭幕提醒（续报）| https://hilbertmuseum.org/
 
 ## 3. 进行中事件表
 - Hilbert Museum《The Art of the Simpsons》与《Otherworldly: Science Fiction Art》双新展 | 最后进展 2026-11-09 | 11 月 18 日在 Orange 正式揭幕，开展当日或前一日可做今明速览提醒
