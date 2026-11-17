@@ -1,9 +1,9 @@
 # local-events-briefing MEMORY
 
 ## 1. 本次运行
-- 运行时刻及检索截止：2026-11-16 17:04 PST（America/Los_Angeles；2026-11-17 01:04 UTC）。
-- 实际覆盖窗口：2026-11-16 11:04 PST 至 2026-11-16 17:04 PST（常规，同日二次运行，只报增量）。
-- 补搜：橙县本周汇总、LA 新店、Honda Center/Segerstrom 本周场次、Pershing Square 滑冰场 2026 开放日（仍未公布，官方站未核实）、全国优惠均无新增可收内容。
+- 运行时刻及检索截止：2026-11-17 11:10 PST（America/Los_Angeles；2026-11-17 19:10 UTC）。
+- 实际覆盖窗口：2026-11-16 17:04 PST 至 2026-11-17 11:10 PST（常规）。
+- 补搜：橙县/LA 本周汇总、LA 与橙县新店（无确认的 11 月新开）、巡演开票（无新增）、感恩节周末均已检索；Birdie G's 称 10/26 已开，不收。
 
 ## 2. 已报条目清单
 
@@ -104,6 +104,9 @@
 2026-11-16 | Jonas Brothers 11/18 Hollywood Bowl 明晚提醒，All Time Low 特邀（续报）| https://www.hollywoodbowl.com/events/performances/4902/2026-11-18/jonas-brothers
 2026-11-16 | Teddy Swims 收官场 11/18 19:00 Kia Forum 明晚提醒（续报）| https://news.pollstar.com/2026/04/16/teddy-swims-announces-the-ugly-tour-2026-north-american-arena-run/
 2026-11-16 | Hilbert Museum 双新展 11/18 揭幕提醒（续报）| https://hilbertmuseum.org/
+2026-11-17 | Pershing Square Holiday Ice Rink 已开放，11/12–2027-01-03，11/19 17:00 开幕庆典，Downtown LA | https://lamag.com/holiday/pershing-square-ice-rink-opens-for-2026-season/
+2026-11-17 | Laguna Beach Sawdust Winter Fantasy，11/20–12/20 周五至周日 11:00–19:00（单源）| https://enjoyorangecounty.com/?p=7980
+2026-11-17 | LEGOLAND California Christmas Bricktacular，11/21–2027-01-03 部分日期，Carlsbad | https://www.legoland.com/california/things-to-do/theme-park/whats-new/
 
 ## 3. 进行中事件表
 - Hilbert Museum《The Art of the Simpsons》与《Otherworldly: Science Fiction Art》双新展 | 最后进展 2026-11-09 | 11 月 18 日在 Orange 正式揭幕，开展当日或前一日可做今明速览提醒
@@ -121,4 +124,6 @@
 - Steve Lacy Hollywood Bowl | 最后进展 2026-11-14 | 11 月 21 日，11 月 20–21 日可做节点提醒
 - Teddy Swims Kia Forum | 最后进展 2026-11-15 | 11 月 18 日 19:00 收官场；11 月 17–18 日可做节点提醒
 - Hollywood Christmas Parade | 最后进展 2026-11-16 | 11 月 29 日 Hollywood Blvd；待官方公布座位票信息，11 月 25–28 日可核实收录
-- Pershing Square Holiday Ice Rink 2026 季 | 最后进展 2026-11-16 | 开放日未核实，11 月 19–21 日定向检索 holidayicerinkdowntownla.com
+- Pershing Square Holiday Ice Rink 2026 季 | 最后进展 2026-11-17 | 已收录；11 月 19 日 17:00 开幕庆典与点灯，11 月 19 日可做节点提醒
+- Sawdust Winter Fantasy | 最后进展 2026-11-17 | 11 月 20 日开幕；待核实官方单日票价，11 月 19–20 日可做节点提醒
+- LEGOLAND California Christmas Bricktacular | 最后进展 2026-11-17 | 11 月 21 日开始；11 月 20–21 日可做节点提醒
