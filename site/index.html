@@ -78,6 +78,8 @@
   .run { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 4px 18px 10px; margin: 0 0 16px; }
   .run > h2 { font-size: 17px; margin: 14px 0 6px; display: flex; align-items: baseline; gap: 10px; }
   .run > h2 small { color: var(--muted); font-size: 13px; font-weight: 400; }
+  .part + .part { border-top: 2px dashed var(--line); margin-top: 18px; }
+  .part-label { color: var(--accent); font-size: 13px; font-weight: 600; margin: 12px 0 2px; }
   .run h3 { font-size: 16px; margin: 22px 0 6px; padding-bottom: 4px; border-bottom: 1px solid var(--line); }
   .run h4, .run h5, .run h6 { font-size: 15px; margin: 16px 0 4px; }
   .run ul, .run ol { margin: 6px 0; padding-left: 1.3em; }
@@ -227,13 +229,20 @@ async function renderTopic(slug, keepScroll) {
 
   const i = index.topics.indexOf(topic);
   const next = index.topics[i + 1];
+  // 同一天的多次运行（一天两更的任务、手动重跑）并进同一张卡片：读者按"天"读，不按"次"读
+  const days = [];
+  runs.forEach((r, k) => {
+    const last = days[days.length - 1];
+    if (last && last.date === r.date) last.parts.push(html[k]); else days.push({ date: r.date, parts: [html[k]] });
+  });
   const before = document.documentElement.scrollHeight;
   $('main').innerHTML =
     (note ? `<p class="note">${note}</p>` : '') +
     (hasOlder ? '<button type="button" class="older" id="older">加载更早的 7 天</button>' : '') +
-    runs.map((r, k) => `<section class="run">
-      <h2>${fmtDate(r.date)}<small>${r.time ? r.time.slice(0, 2) + ':' + r.time.slice(2) : ago(r.date)}</small></h2>
-      ${html[k]}</section>`).join('') +
+    days.map((d) => `<section class="run">
+      <h2>${fmtDate(d.date)}<small>${ago(d.date)}${d.parts.length > 1 ? ` · 当天运行了 ${d.parts.length} 次` : ''}</small></h2>
+      ${d.parts.map((part, k) => (d.parts.length > 1 ? `<div class="part"><p class="part-label">第 ${k + 1} 次运行</p>${part}</div>` : part)).join('')}
+    </section>`).join('') +
     (next ? `<a class="next" href="#/${esc(next.slug)}">下一个：${esc(next.title)} →</a>` : '<a class="next" href="#/">回到总览 →</a>');
 
   if (keepScroll) {
