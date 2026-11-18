@@ -1,9 +1,10 @@
 # local-events-briefing MEMORY
 
 ## 1. 本次运行
-- 运行时刻及检索截止：2026-11-17 17:03 PST（America/Los_Angeles；2026-11-18 01:03 UTC）。
-- 实际覆盖窗口：2026-11-17 11:10 PST 至 2026-11-17 17:03 PST（常规）。
-- 补搜：橙县/LA 本周汇总、新店（无确认的 11 月新开；Tim Hollingsworth OCVIBE 新店无开业日）、演出开票、感恩节周全国范围均已检索；Mom Made Market 11/18–19 无法核实，未收；South Coast Plaza 树点灯仍单源，留待 11/18–19 提醒。
+- 运行时刻及检索截止：2026-11-18 11:05 PST（America/Los_Angeles；2026-11-18 19:05 UTC）。
+- 实际覆盖窗口：2026-11-17 17:03 PST 至 2026-11-18 11:05 PST（常规）。
+- 补搜：橙县/LA 周末汇总、新店（Little Luck、Beamz、Zov's、HeyTea 等均无开业日，未收）、演出开票（Hilary Duff 2027-11 Honda Center 过远未收）、全国范围（无感恩节/黑五全国免费日）均已检索；Witches Brew 11/21 Santa Ana 无官方时间地点，未收。
+- 上期补搜备注：橙县/LA 本周汇总、新店（无确认的 11 月新开；Tim Hollingsworth OCVIBE 新店无开业日）、演出开票、感恩节周全国范围均已检索；Mom Made Market 11/18–19 无法核实，未收；South Coast Plaza 树点灯仍单源，留待 11/18–19 提醒。
 
 ## 2. 已报条目清单
 
@@ -90,25 +91,29 @@
 2026-11-17 | Jackson Browne Hollywood Pantages 11/19、11/20、11/22 售罄，加开 11/23 | https://www.nederlanderconcerts.com/event/jackson-browne-18
 2026-11-17 | KATSEYE WILDWORLD Tour 11/21–11/22 20:00 Crypto.com Arena | https://www.cryptoarena.com/events/detail/katseye26
 2026-11-17 | Feid Green Star Tour 2027-04-25 Honda Center Anaheim，已开售 | https://www.ticketnews.com/2026/11/feid-anaheim-tickets-on-sale-at-honda-center/
+2026-11-18 | Jonas Brothers 今晚与 Teddy Swims 收官场 11/18 提醒（续报）| https://www.hollywoodbowl.com/events/performances/4902/2026-11-18/jonas-brothers
+2026-11-18 | South Coast Plaza 树点灯 11/19 19:00 官方确认提醒（续报）| https://www.southcoastplaza.com/press-center/press/celebrate-the-season-with-south-coast-plaza/
+2026-11-18 | Los Angeles Union Station 第 11 届树点灯 11/19 18:00–20:00，免费 | https://unionstationla.com/happenings/11th-annual-tree-lighting-ceremony-2026/
+2026-11-18 | HSS Demo Day & Surf Fest 11/21 07:00–14:00，Huntington Beach，免费（单源）| https://enjoyorangecounty.com/whats-happening/
+2026-11-18 | LA Auto Show 11/20 开幕、线上提前票 11/19 截止提醒（续报）| https://laautoshow.com/tickets
 
 ## 3. 进行中事件表
 - Hilbert Museum《The Art of the Simpsons》与《Otherworldly: Science Fiction Art》双新展 | 最后进展 2026-11-09 | 11 月 18 日在 Orange 正式揭幕，开展当日或前一日可做今明速览提醒
 - Hammer Museum《Felipe Baeza: Anima》 | 最后进展 2026-10-26 | 11 月 21 日开幕前一周可核实收录；The Broad 已于 11-14 收录，开幕当日可提醒
 - Bowers Museum《Art of Mexico and Central America》及《Bowers Legacy》新常设展 | 最后进展 2026-10-26 | 11 月 21 日 Santa Ana 开幕前一周可核实收录
 - Descanso Gardens「Enchanted Forest of Light」 | 最后进展 2026-11-15 | 已收录；11 月 21–22 日可做开幕提醒
-- Los Angeles Auto Show | 最后进展 2026-11-09 | 11 月 19 日线上提前票价截止、11 月 20 日开幕，11 月 19–20 日可做节点提醒
+- Los Angeles Auto Show | 最后进展 2026-11-18 | 已做 11-18 提醒；11 月 20 日开幕当日可再提醒一次
 - Winter Fest OC 2026 季 | 最后进展 2026-11-09 | 11 月 27 日开幕；待核实官方 2026 页面，11 月 26–27 日可做节点提醒
 - L.A. Zoo Lights | 最后进展 2026-11-10 | 11 月 20 日开幕；开幕当日可做节点提醒
 - Knott's Merry Farm | 最后进展 2026-11-11 | 最后进展已更新：官方页确认 11 月 20 日起、select dates；11 月 19–20 日可做节点提醒并核对具体开放日
 - Journey Honda Center | 最后进展 2026-11-11 | 11 月 24 日 19:30 演出；11 月 23–24 日可做节点提醒
 - Enchant Christmas Santa Anita Park | 最后进展 2026-11-11 | 11 月 20 日开幕；11 月 19–20 日可做节点提醒并核实 2026 官方票价与开放时间
-- South Coast Plaza 树点灯 | 最后进展 2026-11-14 | 11 月 19 日 19:00；待核实官方页，11 月 18–19 日可做节点提醒
-- Jonas Brothers Hollywood Bowl | 最后进展 2026-11-14 | 11 月 18–19 日两晚，11 月 17–18 日可做节点提醒
 - Steve Lacy Hollywood Bowl | 最后进展 2026-11-14 | 11 月 21 日，11 月 20–21 日可做节点提醒
-- Teddy Swims Kia Forum | 最后进展 2026-11-15 | 11 月 18 日 19:00 收官场；11 月 17–18 日可做节点提醒
 - Hollywood Christmas Parade | 最后进展 2026-11-16 | 11 月 29 日 Hollywood Blvd；待官方公布座位票信息，11 月 25–28 日可核实收录
 - Pershing Square Holiday Ice Rink 2026 季 | 最后进展 2026-11-17 | 已收录；11 月 19 日 17:00 开幕庆典与点灯，11 月 19 日可做节点提醒
 - Sawdust Winter Fantasy | 最后进展 2026-11-17 | 11 月 20 日开幕；待核实官方单日票价，11 月 19–20 日可做节点提醒
 - LEGOLAND California Christmas Bricktacular | 最后进展 2026-11-17 | 11 月 21 日开始；11 月 20–21 日可做节点提醒
 - Jackson Browne Pantages 11/23 加场 | 最后进展 2026-11-17 | 11 月 23 日 20:00 余票不多；11 月 22–23 日可做节点提醒
 - KATSEYE Crypto.com Arena | 最后进展 2026-11-17 | 11 月 21–22 日；11 月 20–21 日可做节点提醒
+- Union Station LA 树点灯 | 最后进展 2026-11-18 | 已收录；11 月 19 日当晚无需再提醒，闭合
+- Jonas Brothers 第二晚 11/19 与 Pershing Square 11/19 17:00 开幕庆典 | 最后进展 2026-11-18 | 11 月 19 日可做当日提醒（Pershing 为节点提醒）
