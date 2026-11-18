@@ -1,32 +1,12 @@
 # local-events-briefing MEMORY
 
 ## 1. 本次运行
-- 运行时刻及检索截止：2026-11-17 11:10 PST（America/Los_Angeles；2026-11-17 19:10 UTC）。
-- 实际覆盖窗口：2026-11-16 17:04 PST 至 2026-11-17 11:10 PST（常规）。
-- 补搜：橙县/LA 本周汇总、LA 与橙县新店（无确认的 11 月新开）、巡演开票（无新增）、感恩节周末均已检索；Birdie G's 称 10/26 已开，不收。
+- 运行时刻及检索截止：2026-11-17 17:03 PST（America/Los_Angeles；2026-11-18 01:03 UTC）。
+- 实际覆盖窗口：2026-11-17 11:10 PST 至 2026-11-17 17:03 PST（常规）。
+- 补搜：橙县/LA 本周汇总、新店（无确认的 11 月新开；Tim Hollingsworth OCVIBE 新店无开业日）、演出开票、感恩节周全国范围均已检索；Mom Made Market 11/18–19 无法核实，未收；South Coast Plaza 树点灯仍单源，留待 11/18–19 提醒。
 
 ## 2. 已报条目清单
 
-2026-10-26 | Disneyland Oogie Boogie Bash（10/27、10/29、10/31）与全美国家公园免费日（10/27）次日节点提醒 | https://www.nps.gov/planyourvisit/fee-free-parks.htm
-2026-10-26 | Irvine Park Railroad Pumpkin Patch 收官周，至 10/31，Irvine Regional Park Orange | https://www.irvineparkrailroad.com/events/pumpkin-patch/
-2026-10-26 | 百老汇摇滚音乐剧《The Who's Tommy》，10/27–11/15，Hollywood Pantages Theatre | https://www.broadwayinhollywood.com/events/detail/the-whos-tommy
-2026-10-26 | Gloria Molina Grand Park Downtown Día de los Muertos 户外祭坛展，10/24–11/2，Downtown LA | https://grandparkla.org/
-2026-10-26 | Blue Box Café by Daniel Boulud 西海岸首店营业，South Coast Plaza Costa Mesa | https://www.southcoastplaza.com/directory/blue-box-cafe/
-2026-10-26 | Maleza 现代墨西哥料理与梅斯卡尔酒吧营业，The CAMP Costa Mesa | https://www.malezarestaurant.co/
-2026-10-26 | 西少爷（Bingz Crispy 'Wich）全美首店营业，Tawa Gateway Plaza San Gabriel | https://lataco.com/
-2026-10-26 | The Black Angels Passover 2026 Tour，10/30 20:00，The Observatory Santa Ana | https://www.livenation.com/
-2026-10-26 | California, Dream On: Aerosmith & Friends，10/29 与 11/1 19:00，Hollywood Bowl | https://www.hollywoodbowl.com/
-2026-10-26 | LA Clippers vs. Lakers（10/28 Intuit Dome）与 LA Kings vs. Sabres 万圣节主场赛（10/31 Crypto.com Arena）| https://intuitdome.com/
-2026-10-26 | My Chemical Romance Hollywood Bowl 万圣节收官两场提醒（10/30–10/31）| https://www.hollywoodbowl.com/events/performances/4231/2026-10-21/my-chemical-romance
-2026-10-26 | Laguna Art Museum 第 14 届 Art + Nature 艺术周，11/1–11/9，Laguna Beach | https://lagunaartmuseum.org/
-2026-10-26 | Hilbert Museum Stone and Scene 闭展周暨十周年展，至 10/31，Orange | https://hilbertmuseum.org/stone-and-scene/
-2026-10-26 | Getty Center Reggie Burrows Hodges: A Theater of Passions，10/20 起，Getty Center Los Angeles | https://www.getty.edu/art/exhibitions/reggie_burrows_hodges/
-2026-10-26 | 橙县亡灵节社区庆典接力（Bowers Museum、Heritage Museum OC 与 Hana Field），11/1，Santa Ana & Costa Mesa | https://www.bowers.org/
-2026-10-26 | Knott's Scary Farm（至 10/31）及三大南瓜灯游园（Hana Field、Magic of the Jack O'Lanterns、Carved，至 11/1）最终收官周末提醒 | https://www.sixflags.com/knotts/events/scary-farm
-2026-10-26 | L.A. Comic Con 2026，10/30–11/1，Los Angeles Convention Center | https://www.comicconla.com/
-2026-10-26 | West Hollywood Halloween Carnaval 2026，10/31 18:00–23:00，Santa Monica Blvd West Hollywood | https://www.weho.org/city-life/special-events/halloween-carnaval
-2026-10-26 | Chipotle Boorito 万圣节 $6 主食夜，10/31 15:00 至打烊，全美门店 | https://newsroom.chipotle.com/
-2026-10-26 | Krispy Kreme 万圣节两日变装免费送甜甜圈，10/30–10/31，全美门店 | https://www.krispykreme.com/
 2026-10-31 | West Hollywood Carnaval 10/31 18:00—23:00 今日开场提醒，免费、透明包要求 | https://www.visitwesthollywood.com/events/halloween-carnaval/
 2026-10-31 | Surf City Spooktacular 10/31 16:00—19:00，Huntington Beach Main Street，免费 | https://www.hbdowntown.com/signature-events
 2026-10-31 | HMOC Día de los Muertos 11/1 17:00—21:00，Santa Ana，免费；次日开场提醒 | https://heritagemuseumoc.org/event/ddlm2026/
@@ -107,6 +87,9 @@
 2026-11-17 | Pershing Square Holiday Ice Rink 已开放，11/12–2027-01-03，11/19 17:00 开幕庆典，Downtown LA | https://lamag.com/holiday/pershing-square-ice-rink-opens-for-2026-season/
 2026-11-17 | Laguna Beach Sawdust Winter Fantasy，11/20–12/20 周五至周日 11:00–19:00（单源）| https://enjoyorangecounty.com/?p=7980
 2026-11-17 | LEGOLAND California Christmas Bricktacular，11/21–2027-01-03 部分日期，Carlsbad | https://www.legoland.com/california/things-to-do/theme-park/whats-new/
+2026-11-17 | Jackson Browne Hollywood Pantages 11/19、11/20、11/22 售罄，加开 11/23 | https://www.nederlanderconcerts.com/event/jackson-browne-18
+2026-11-17 | KATSEYE WILDWORLD Tour 11/21–11/22 20:00 Crypto.com Arena | https://www.cryptoarena.com/events/detail/katseye26
+2026-11-17 | Feid Green Star Tour 2027-04-25 Honda Center Anaheim，已开售 | https://www.ticketnews.com/2026/11/feid-anaheim-tickets-on-sale-at-honda-center/
 
 ## 3. 进行中事件表
 - Hilbert Museum《The Art of the Simpsons》与《Otherworldly: Science Fiction Art》双新展 | 最后进展 2026-11-09 | 11 月 18 日在 Orange 正式揭幕，开展当日或前一日可做今明速览提醒
@@ -127,3 +110,5 @@
 - Pershing Square Holiday Ice Rink 2026 季 | 最后进展 2026-11-17 | 已收录；11 月 19 日 17:00 开幕庆典与点灯，11 月 19 日可做节点提醒
 - Sawdust Winter Fantasy | 最后进展 2026-11-17 | 11 月 20 日开幕；待核实官方单日票价，11 月 19–20 日可做节点提醒
 - LEGOLAND California Christmas Bricktacular | 最后进展 2026-11-17 | 11 月 21 日开始；11 月 20–21 日可做节点提醒
+- Jackson Browne Pantages 11/23 加场 | 最后进展 2026-11-17 | 11 月 23 日 20:00 余票不多；11 月 22–23 日可做节点提醒
+- KATSEYE Crypto.com Arena | 最后进展 2026-11-17 | 11 月 21–22 日；11 月 20–21 日可做节点提醒
