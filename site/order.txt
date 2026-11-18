@@ -1,0 +1,12 @@
+# 阅读站的任务展示顺序（首页卡片与主题标签共用），一行一个任务目录名。
+# 这只是排序偏好，不是白名单：没列在这里的任务照样出现，按目录名排在最后。
+tech-news-briefing
+ai-industry-briefing
+agent-engineering-briefing
+automotive-industry-briefing
+current-affairs-briefing
+science-health-briefing
+local-events-briefing
+cloud-native-briefing
+app-updates-briefing
+threads-review-briefing

@@ -28,7 +28,7 @@ description: <一行中文描述，仅供人阅读>
    若仓库不可达或该文件缺失/为空：不要自行发挥、不要凭印象补写简报，直接停止并说明原因。
    ```
 
-6. **收尾**：创建后按最小权限移除不需要的连接器并确认模型（网页创建的进编辑弹窗移除，创建表单里的移除不会生效；经 API 创建的会默认挂上全部连接器，用一次 `clear_mcp_connections` 更新清掉）；把任务目录名加入 `.github/workflows/auto-merge-briefings.yml` 的目录白名单，并按更新频率登记进 `.github/workflows/briefing-watchdog.yml` 的 `DAILY` / `WEEKLY` 清单，一天跑两次的任务另外登记进 `TWICE_DAILY`（否则缺失与格式告警覆盖不到该任务）。
+6. **收尾**：创建后按最小权限移除不需要的连接器并确认模型（网页创建的进编辑弹窗移除，创建表单里的移除不会生效；经 API 创建的会默认挂上全部连接器，用一次 `clear_mcp_connections` 更新清掉）；把任务目录名加入 `.github/workflows/auto-merge-briefings.yml` 的目录白名单，并按更新频率登记进 `.github/workflows/briefing-watchdog.yml` 的 `DAILY` / `WEEKLY` 清单，一天跑两次的任务另外登记进 `TWICE_DAILY`（否则缺失与格式告警覆盖不到该任务）。阅读站自动发现新任务目录，无需登记；想调整它在站点上的展示顺序，把目录名加进 `site/order.txt`。
 7. **首次运行前不需要造 MEMORY.md 或归档**——archive/ 为空、MEMORY.md 缺失是正常初始态，运行时机制会自举。
 8. 单次手动执行（Run now）与定时执行走同一份正文，无需任何改动。
 

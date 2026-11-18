@@ -1,0 +1,57 @@
+name: reading-site
+
+# 阅读站：把各任务的归档构建成静态站点并部署到 GitHub Pages。
+# 它是归档的只读派生视图（见 CONTEXT.md）——产物只作为 Pages 部署包上传，不提交回仓库；
+# 构建失败只会让站点停在旧内容上，不影响任何一次简报运行，也不影响自动合并。
+#
+# 触发方式为什么是 workflow_run：
+# 简报进 main 靠的是 auto-merge 工作流用 GITHUB_TOKEN 推送，而 GITHUB_TOKEN 触发的 push
+# 不会再触发别的工作流，所以只写 `on: push` 的话日常运行永远不会更新站点。
+# `push` 这一条只覆盖人手动推 main 的情况。
+
+on:
+  workflow_run:
+    workflows: [auto-merge-briefing-runs]
+    types: [completed]
+  push:
+    branches: [main]
+    paths:
+      - '*/archive/**'
+      - 'site/**'
+      - '.github/scripts/build_site.py'
+      - '.github/workflows/reading-site.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# 部署排队执行、不互相取消：中途取消可能留下半截部署；排队中的只保留最新一个
+concurrency:
+  group: reading-site
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          # workflow_run 触发时显式取 main 最新提交，确保读到刚合并进来的归档
+          ref: main
+
+      - name: Build site
+        run: python3 .github/scripts/build_site.py _site
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+      - id: deployment
+        uses: actions/deploy-pages@v4

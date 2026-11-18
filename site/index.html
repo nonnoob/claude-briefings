@@ -1,0 +1,279 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- 仓库本身是公开的，但不希望阅读站被搜索引擎收录 -->
+<meta name="robots" content="noindex, nofollow">
+<title>简报</title>
+<style>
+  :root {
+    --bg: #fbfaf8; --card: #ffffff; --text: #1f2328; --muted: #6b7280; --line: #e5e2dc;
+    --accent: #b4532a; --accent-bg: #f6ece6; --link: #2f6f9f;
+    --follow: #2f6f9f; --rumor: #a15c00; --single: #6b7280; --conflict: #b42318;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #15171a; --card: #1d2024; --text: #e6e4df; --muted: #9aa0a8; --line: #2e3238;
+      --accent: #e08a5f; --accent-bg: #2b221d; --link: #7fb6dc;
+      --follow: #7fb6dc; --rumor: #e0a84f; --single: #9aa0a8; --conflict: #f08a80;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0; background: var(--bg); color: var(--text);
+    font: 16px/1.7 -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB",
+      "Microsoft YaHei", "Noto Sans CJK SC", sans-serif;
+  }
+  a { color: var(--link); }
+  .wrap { max-width: 780px; margin: 0 auto; padding: 0 18px; }
+
+  header { position: sticky; top: 0; z-index: 5; background: var(--bg); border-bottom: 1px solid var(--line); }
+  .bar { display: flex; align-items: center; gap: 12px; padding: 10px 0; }
+  .bar h1 { margin: 0; font-size: 17px; font-weight: 650; white-space: nowrap; }
+  .bar h1 a { color: inherit; text-decoration: none; }
+  .bar .day { color: var(--muted); font-size: 14px; white-space: nowrap; }
+  .range { margin-left: auto; display: flex; border: 1px solid var(--line); border-radius: 8px; overflow: hidden; }
+  .range button {
+    border: 0; background: transparent; color: var(--muted); font: inherit; font-size: 14px;
+    padding: 4px 12px; cursor: pointer; white-space: nowrap;
+  }
+  .range button + button { border-left: 1px solid var(--line); }
+  .range button[aria-pressed="true"] { background: var(--accent-bg); color: var(--accent); font-weight: 600; }
+
+  .tabs { display: flex; gap: 6px; overflow-x: auto; padding: 0 0 10px; scrollbar-width: none; }
+  .tabs::-webkit-scrollbar { display: none; }
+  .tabs[hidden] { display: none; }
+  .tabs a {
+    flex: none; padding: 3px 11px; border: 1px solid var(--line); border-radius: 999px;
+    color: var(--muted); text-decoration: none; font-size: 14px; white-space: nowrap;
+  }
+  .tabs a[aria-current="page"] { background: var(--accent-bg); border-color: transparent; color: var(--accent); font-weight: 600; }
+
+  main { padding: 18px 0 40px; min-height: 60vh; }
+  .cards { display: grid; gap: 12px; }
+  .card {
+    display: block; background: var(--card); border: 1px solid var(--line); border-radius: 12px;
+    padding: 14px 16px; color: inherit; text-decoration: none;
+  }
+  .card:hover { border-color: var(--accent); }
+  .card.stale { opacity: .62; }
+  .card .top { display: flex; align-items: baseline; gap: 10px; }
+  .card .name { font-weight: 650; }
+  .card .when { margin-left: auto; color: var(--muted); font-size: 13px; white-space: nowrap; }
+  .card .headline {
+    margin: 6px 0 0; font-size: 15px; line-height: 1.6;
+    display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;
+  }
+  .card .count { margin: 6px 0 0; color: var(--muted); font-size: 13px; }
+
+  .note { color: var(--muted); font-size: 14px; margin: 0 0 14px; }
+  .older {
+    display: block; width: 100%; margin: 0 0 18px; padding: 8px; font: inherit; font-size: 14px;
+    color: var(--muted); background: transparent; border: 1px dashed var(--line); border-radius: 10px; cursor: pointer;
+  }
+  .older:hover { color: var(--accent); border-color: var(--accent); }
+
+  .run { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 4px 18px 10px; margin: 0 0 16px; }
+  .run > h2 { font-size: 17px; margin: 14px 0 6px; display: flex; align-items: baseline; gap: 10px; }
+  .run > h2 small { color: var(--muted); font-size: 13px; font-weight: 400; }
+  .run h3 { font-size: 16px; margin: 22px 0 6px; padding-bottom: 4px; border-bottom: 1px solid var(--line); }
+  .run h4, .run h5, .run h6 { font-size: 15px; margin: 16px 0 4px; }
+  .run ul, .run ol { margin: 6px 0; padding-left: 1.3em; }
+  .run li { margin: 8px 0; overflow-wrap: anywhere; }
+  .run li.sub { margin-left: 1.3em; }
+  .run p { margin: 10px 0; overflow-wrap: anywhere; }
+  .run p.headline { background: var(--accent-bg); border-radius: 8px; padding: 8px 12px; }
+  .run p.empty { color: var(--muted); }
+  .run blockquote { margin: 6px 0; padding: 0 0 0 10px; border-left: 3px solid var(--line); color: var(--muted); font-size: 13px; }
+  .run a { overflow-wrap: anywhere; font-size: 14px; }
+  .run hr { border: 0; border-top: 1px solid var(--line); margin: 16px 0; }
+  .run code { font-size: 14px; background: var(--accent-bg); padding: 1px 5px; border-radius: 4px; }
+  .table-wrap { overflow-x: auto; margin: 10px 0; }
+  .run table { border-collapse: collapse; font-size: 14px; }
+  .run th, .run td { border: 1px solid var(--line); padding: 5px 9px; text-align: left; vertical-align: top; }
+
+  .tag { display: inline-block; font-size: 12px; line-height: 1.5; padding: 0 6px; margin-right: 6px; border-radius: 4px; border: 1px solid currentColor; vertical-align: 1px; }
+  .tag-follow { color: var(--follow); } .tag-rumor { color: var(--rumor); }
+  .tag-single { color: var(--single); } .tag-conflict { color: var(--conflict); } .tag-other { color: var(--muted); }
+
+  .next { display: block; text-align: right; margin-top: 22px; text-decoration: none; font-weight: 600; color: var(--accent); }
+  footer { border-top: 1px solid var(--line); color: var(--muted); font-size: 13px; padding: 14px 0 28px; }
+  footer a { color: inherit; }
+</style>
+</head>
+<body>
+<header><div class="wrap">
+  <div class="bar">
+    <h1><a href="#/">简报</a></h1>
+    <span class="day" id="day"></span>
+    <div class="range" id="range" role="group" aria-label="显示范围"></div>
+  </div>
+  <nav class="tabs" id="tabs" hidden></nav>
+</div></header>
+<main><div class="wrap" id="main"><p class="note">加载中…</p></div></main>
+<footer><div class="wrap" id="foot"></div></footer>
+
+<script>
+// 归档按运行当天的洛杉矶本地日期命名，所以"今天"也按这个时区算，与读者设备所在时区无关
+const TZ = 'America/Los_Angeles';
+const RANGES = [[1, '今天'], [3, '3 天'], [7, '7 天']];
+const WEEK = '日一二三四五六';
+const $ = (id) => document.getElementById(id);
+const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+
+let index = null;
+const fragments = new Map();   // 归档路径 -> HTML 片段
+const olderStart = new Map();  // 任务 -> 用"加载更早"向前推过的起始日期（刷新即重置）
+
+function today() {
+  const p = Object.fromEntries(new Intl.DateTimeFormat('en-US', { timeZone: TZ, year: 'numeric', month: '2-digit', day: '2-digit' })
+    .formatToParts(new Date()).map((x) => [x.type, x.value]));
+  return `${p.year}-${p.month}-${p.day}`;
+}
+const utc = (d) => new Date(d + 'T00:00:00Z');
+const addDays = (d, n) => { const t = utc(d); t.setUTCDate(t.getUTCDate() + n); return t.toISOString().slice(0, 10); };
+const daysBetween = (a, b) => Math.round((utc(a) - utc(b)) / 864e5);
+const fmtDate = (d) => { const t = utc(d); return `${t.getUTCMonth() + 1} 月 ${t.getUTCDate()} 日 周${WEEK[t.getUTCDay()]}`; };
+const ago = (d) => { const n = daysBetween(today(), d); return n <= 0 ? '今天' : n === 1 ? '昨天' : `${n} 天前`; };
+
+function getRange() {
+  try { const n = Number(localStorage.getItem('range')); if (RANGES.some(([v]) => v === n)) return n; } catch (e) {}
+  return 3;
+}
+function setRange(n) { try { localStorage.setItem('range', String(n)); } catch (e) {} }
+const rangeLabel = (n) => (n === 1 ? '今天' : `近 ${n} 天`);
+const currentSlug = () => decodeURIComponent(location.hash.replace(/^#\/?/, ''));
+
+function renderChrome(slug) {
+  $('day').textContent = fmtDate(today());
+  const n = getRange();
+  $('range').innerHTML = RANGES.map(([v, label]) =>
+    `<button type="button" data-range="${v}" aria-pressed="${v === n}">${label}</button>`).join('');
+  const tabs = $('tabs');
+  tabs.hidden = !slug;
+  if (slug) {
+    tabs.innerHTML = index.topics.map((t) =>
+      `<a href="#/${esc(t.slug)}"${t.slug === slug ? ' aria-current="page"' : ''}>${esc(t.title)}</a>`).join('');
+    const cur = tabs.querySelector('[aria-current]');
+    if (cur) cur.scrollIntoView({ block: 'nearest', inline: 'center' });
+  }
+  const built = new Date(index.built).toLocaleString('zh-CN', { timeZone: TZ, month: 'numeric', day: 'numeric', hour: '2-digit', minute: '2-digit' });
+  $('foot').innerHTML = `站点构建于 ${esc(built)}（洛杉矶时间）` +
+    (index.repo ? ` · <a href="https://github.com/${esc(index.repo)}" rel="noopener noreferrer">归档仓库</a>` : '');
+}
+
+function renderHome() {
+  document.title = '简报';
+  const t = today(), n = getRange(), start = addDays(t, 1 - n);
+  $('main').innerHTML = '<div class="cards">' + index.topics.map((topic) => {
+    const latest = topic.runs[topic.runs.length - 1];
+    const inRange = topic.runs.filter((r) => r.date >= start && r.date <= t).length;
+    let count = inRange ? `${rangeLabel(n)}有 ${inRange} 期` : `${rangeLabel(n)}没有新简报，最近一期是 ${fmtDate(latest.date)}`;
+    // 最近一期是空期时，要闻改取范围内最近一期有内容的——隔几天回来看，不该被今天的空期盖住
+    let headline = topic.headline;
+    if (latest.empty) {
+      const full = topic.runs.filter((r) => r.date >= start && r.date <= t && !r.empty && r.headline).pop();
+      if (full) { headline = full.headline; count += ` · 最近一期没有新内容，要闻取自 ${fmtDate(full.date)}`; }
+    }
+    return `<a class="card${inRange ? '' : ' stale'}" href="#/${esc(topic.slug)}">
+      <div class="top"><span class="name">${esc(topic.title)}</span><span class="when">${ago(latest.date)}</span></div>
+      <p class="headline">${esc(headline)}</p>
+      <p class="count">${count}</p>
+    </a>`;
+  }).join('') + '</div>';
+}
+
+async function loadRun(slug, run) {
+  const path = `data/${slug}/${slug}_${run.date}${run.time ? '_' + run.time : ''}.json`;
+  if (!fragments.has(path)) {
+    const res = await fetch(path);
+    if (!res.ok) throw new Error(`${path}: ${res.status}`);
+    fragments.set(path, (await res.json()).html);
+  }
+  return fragments.get(path);
+}
+
+async function renderTopic(slug, keepScroll) {
+  const topic = index.topics.find((x) => x.slug === slug);
+  if (!topic) { location.hash = '#/'; return; }
+  document.title = `${topic.title} · 简报`;
+
+  const t = today(), n = getRange();
+  const rangeStart = addDays(t, 1 - n);
+  let start = olderStart.get(slug) || rangeStart;
+  if (start > rangeStart) start = rangeStart;
+  let runs = topic.runs.filter((r) => r.date >= start && r.date <= t);
+  let note = '';
+  if (!runs.length) {
+    // 范围内没有运行（周更任务、当天还没跑）：退而显示最近一期，页面永不为空
+    const latest = topic.runs[topic.runs.length - 1];
+    runs = topic.runs.filter((r) => r.date === latest.date);
+    start = latest.date;
+    note = `${rangeLabel(n)}没有新简报，下面是最近一期。`;
+  }
+  const hasOlder = topic.runs.some((r) => r.date < start);
+
+  let html;
+  try {
+    html = await Promise.all(runs.map((r) => loadRun(slug, r)));
+  } catch (e) {
+    $('main').innerHTML = `<p class="note">加载失败：${esc(e.message)}</p>`;
+    return;
+  }
+  if (currentSlug() !== slug) return; // 加载期间已切到别的页面
+
+  const i = index.topics.indexOf(topic);
+  const next = index.topics[i + 1];
+  const before = document.documentElement.scrollHeight;
+  $('main').innerHTML =
+    (note ? `<p class="note">${note}</p>` : '') +
+    (hasOlder ? '<button type="button" class="older" id="older">加载更早的 7 天</button>' : '') +
+    runs.map((r, k) => `<section class="run">
+      <h2>${fmtDate(r.date)}<small>${r.time ? r.time.slice(0, 2) + ':' + r.time.slice(2) : ago(r.date)}</small></h2>
+      ${html[k]}</section>`).join('') +
+    (next ? `<a class="next" href="#/${esc(next.slug)}">下一个：${esc(next.title)} →</a>` : '<a class="next" href="#/">回到总览 →</a>');
+
+  if (keepScroll) {
+    // 更早的内容插在上方，补偿滚动位置，读到一半的地方不跳走
+    window.scrollTo(0, window.scrollY + document.documentElement.scrollHeight - before);
+  } else {
+    window.scrollTo(0, 0);
+  }
+
+  const btn = $('older');
+  if (btn) btn.onclick = () => {
+    let s = addDays(start, -7);
+    // 向前 7 天里一期都没有时，直接跳到再往前的那一期，避免点了没反应
+    if (!topic.runs.some((r) => r.date >= s && r.date < start)) {
+      const prev = topic.runs.filter((r) => r.date < start).pop();
+      if (prev) s = prev.date;
+    }
+    olderStart.set(slug, s);
+    renderTopic(slug, true);
+  };
+}
+
+function route() {
+  const slug = currentSlug();
+  renderChrome(slug);
+  if (slug) renderTopic(slug, false); else { renderHome(); window.scrollTo(0, 0); }
+}
+
+$('range').addEventListener('click', (e) => {
+  const b = e.target.closest('button[data-range]');
+  if (!b) return;
+  setRange(Number(b.dataset.range));
+  olderStart.clear();
+  route();
+});
+window.addEventListener('hashchange', route);
+
+fetch('data/index.json', { cache: 'no-cache' })
+  .then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); })
+  .then((data) => { index = data; route(); })
+  .catch((e) => { $('main').innerHTML = `<p class="note">加载失败：${esc(e.message)}</p>`; });
+</script>
+</body>
+</html>

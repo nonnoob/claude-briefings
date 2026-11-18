@@ -38,11 +38,24 @@ All of these mechanisms live in one task template; each new task is just an inst
 │   ├── MEMORY.md           # Cross-run memory (machine-managed; absent before first run)
 │   └── archive/            # One snapshot per issue, append-only
 ├── skills/new-briefing/    # Claude Code skill: one-line topic → fully assembled new task
-├── .github/workflows/      # auto-merge (branch → main) + briefing-watchdog (missing/format alerts)
-├── .github/scripts/        # lint_archive.py — mechanical format-contract checker
+├── .github/workflows/      # auto-merge (branch → main) + briefing-watchdog (missing/format alerts) + reading-site (site deploy)
+├── .github/scripts/        # lint_archive.py — mechanical format-contract checker; build_site.py — reading-site builder
+├── site/                   # Reading-site page template and topic display order
 ├── CONTEXT.md              # Glossary
 ├── docs/adr/               # Architecture decision records (why it's built this way)
 ```
+
+## Reading site
+
+On GitHub the archive can only be opened one file at a time. The reading site turns it into a browsable page: <https://nonnoob.github.io/claude-briefings/>
+
+- The home page is an overview: one card per task with the headline of its latest issue.
+- A task page reads by topic: every issue in the chosen range (today / 3 days / 7 days) on one page, oldest first, with a button to load earlier archives. If nothing ran in the range, the latest issue is shown.
+- It is a read-only view of the archive: the `reading-site` workflow rebuilds and deploys it to GitHub Pages after each briefing lands on main. Nothing generated is committed, and a failed build only leaves the page stale — briefing runs are unaffected.
+- New tasks appear automatically; adjust the display order in [`site/order.txt`](site/order.txt).
+- Pages carry `noindex` to stay out of search engines.
+
+After forking, set Settings → Pages → Source to **GitHub Actions** for the site to deploy.
 
 ## Watchdog
 

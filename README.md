@@ -38,10 +38,23 @@
 │   ├── MEMORY.md           # 跨运行记忆（机器读写，首次运行前不存在）
 │   └── archive/            # 每期简报快照，只增不改
 ├── skills/new-briefing/    # Claude Code 技能：一句话 topic → 自动装配新任务
-├── .github/workflows/      # auto-merge（分支兜底合并）+ briefing-watchdog（缺失告警）
+├── .github/workflows/      # auto-merge（分支兜底合并）+ briefing-watchdog（缺失告警）+ reading-site（阅读站部署）
+├── site/                   # 阅读站的页面模板与任务展示顺序
 ├── CONTEXT.md              # 术语表
 ├── docs/adr/               # 架构决策记录（为什么这么设计）
 ```
+
+## 阅读站
+
+归档在 GitHub 上只能一个文件一个文件地点开。阅读站把它们变成一个可浏览的页面：<https://nonnoob.github.io/claude-briefings/>
+
+- 首页是总览：每个任务一张卡片，显示最近一期的要闻。
+- 点进任务后按主题读：所选范围（今天 / 3 天 / 7 天）内的各期从旧到新排在一页上，可继续向前加载更早的归档。范围内没有运行时显示最近一期。
+- 它只是归档的只读视图：每次简报并入 main 后由 `reading-site` 工作流重新构建并部署到 GitHub Pages，产物不入库；构建失败只会让页面停在旧内容上，不影响简报运行。
+- 新任务自动出现，无需登记；展示顺序在 [`site/order.txt`](site/order.txt) 里调整。
+- 页面带 `noindex`，不希望被搜索引擎收录。
+
+Fork 后需在仓库 Settings → Pages 把 Source 选为 **GitHub Actions**，站点才会部署。
 
 ## 看门狗
 
