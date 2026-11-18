@@ -166,15 +166,16 @@ function renderChrome(slug) {
 
 function renderHome() {
   document.title = '简报';
+  // 范围只设下界：傍晚手动重跑的归档按 UTC 日期命名，会比洛杉矶的"今天"晚一天，不能被挡在外面
   const t = today(), n = getRange(), start = addDays(t, 1 - n);
   $('main').innerHTML = '<div class="cards">' + index.topics.map((topic) => {
     const latest = topic.runs[topic.runs.length - 1];
-    const inRange = topic.runs.filter((r) => r.date >= start && r.date <= t).length;
+    const inRange = topic.runs.filter((r) => r.date >= start).length;
     let count = inRange ? `${rangeLabel(n)}有 ${inRange} 期` : `${rangeLabel(n)}没有新简报，最近一期是 ${fmtDate(latest.date)}`;
     // 最近一期是空期时，要闻改取范围内最近一期有内容的——隔几天回来看，不该被今天的空期盖住
     let headline = topic.headline;
     if (latest.empty) {
-      const full = topic.runs.filter((r) => r.date >= start && r.date <= t && !r.empty && r.headline).pop();
+      const full = topic.runs.filter((r) => r.date >= start && !r.empty && r.headline).pop();
       if (full) { headline = full.headline; count += ` · 最近一期没有新内容，要闻取自 ${fmtDate(full.date)}`; }
     }
     return `<a class="card${inRange ? '' : ' stale'}" href="#/${esc(topic.slug)}">
@@ -204,7 +205,7 @@ async function renderTopic(slug, keepScroll) {
   const rangeStart = addDays(t, 1 - n);
   let start = olderStart.get(slug) || rangeStart;
   if (start > rangeStart) start = rangeStart;
-  let runs = topic.runs.filter((r) => r.date >= start && r.date <= t);
+  let runs = topic.runs.filter((r) => r.date >= start);
   let note = '';
   if (!runs.length) {
     // 范围内没有运行（周更任务、当天还没跑）：退而显示最近一期，页面永不为空
