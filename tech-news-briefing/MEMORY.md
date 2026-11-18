@@ -1,9 +1,9 @@
 ## 1. 本次运行
 
-- 本次运行时刻及检索截止：2026-11-17 10:12 UTC。
-- 上次运行：2026-11-16 10:11 UTC。
-- 覆盖窗口：2026-11-16 10:11 UTC 至 2026-11-17 10:12 UTC（常规）。
-- 本期为空期：补搜后窗口内无可核实的新动态（搜索索引对最新日期覆盖偏弱）。下期可留意：英伟达11/17财报（检索未见结果）与11/18国会闭门简报；Starship Flight 15结果；Tesla 12/3股东大会；Apple 11/16起对约会类App要求18+分级声明（日期性事项，未核实报道）。
+- 本次运行时刻及检索截止：2026-11-18 01:57 UTC。
+- 上次运行：2026-11-17 10:12 UTC。
+- 覆盖窗口：2026-11-17 10:12 UTC 至 2026-11-18 01:57 UTC（常规）。
+- 窗口较短（约16小时），索引覆盖偏弱；Android/系统更新/开源/政策方向窗口内未检索到可核实的新内容。下期可留意：黄仁勋11/18国会闭门简报是否出席；Anthropic IPO（AI行业简报范围，本简报不收）；Tesla 12/3股东大会；Motorola signature 27 11/19预购。
 
 ## 2. 已报条目清单
 
@@ -42,10 +42,15 @@
 - 2026-11-09 | FTC与多州同租房巨头Progress Residential达成4975万美元反隐形收费和解，中期选举后国会民主党拟强化AI数据中心与安全监管审查 | https://www.ftc.gov/news-events/news/press-releases/2026/11/progress-residential-owner-pretium-partners-pay-49.75-million-settle-ftc-states-charges-over-deceptive
 - 2026-11-11 | 微软11月补丁星期二修复约1093个漏洞，Outlook欺骗漏洞CVE-2026-124194已被在野利用并入CISA KEV | https://www.tenable.com/blog/microsoft-november-2026-patch-tuesday-addresses-1093-cves-cve-2026-124194
 - 2026-11-12 | AI云算力厂商CoreWeave公布2026年Q3财报业绩超预期，带动纳指与标普500收涨（单源） | https://thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-11-2026
+- 2026-11-18 | 英伟达公布2027财年Q3：营收1158亿美元（增103%），Q4指引约1300亿美元且假设无中国数据中心收入 | https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000088/q3fy27pr.htm
+- 2026-11-18 | 黄仁勋11月12日辞任英伟达CEO，Colette Kress任临时CEO、Harvey Jones任董事会主席 | https://www.cnn.com/2026/11/12/tech/jensen-huang-nvidia-resigns
+- 2026-11-18 | 美国BIS发布AI芯片远程访问临时最终规则（新马泰印尼巴西数据中心须许可、堵上代工免许可捷径），三星台积电股价下跌 | https://www.tipranks.com/news/samsung-tsmc-stocks-slide-as-u-s-tightens-ai-chip-curbs-on-china
+- 2026-11-18 | 马斯克称星舰将改用不锈钢丝绒隔热材料（Flight 15上面级11/14首次轨道返回被塔架接住）（单源） | https://teslanorth.com/2026/11/17/musk-starship-stainless-steel-wool-catch/
+- 2026-11-18 | Genesis AI融资5亿美元估值35亿美元；Mercor完成7.5亿美元D轮估值200亿美元（单源） | https://parsers.substack.com/p/funding-rounds-report-weekly-of-november-74f
 
 ## 3. 进行中事件表
 
-1. 事件：英伟达董事会就CEO黄仁勋涉外情报安全隐忧启动独立调查｜最后进展：2026-11-09，因美媒曝出黄仁勋曾与被美方情报机构怀疑替中国国安部门收集情报的新加坡数据中心客户Megaspeed高管存在私人关系，英伟达董事会宣布由独立董事委员会聘请外部律所启动独立调查，黄仁勋致歉但否认泄密｜下一步关注：独立董事委员会调查结论；国会三委员会（Mast/Moolenaar/Crawford）已函请黄仁勋于11/18（英伟达财报次日）自愿出席闭门简报，是否出席尚无报道
+1. 事件：英伟达CEO更替与黄仁勋涉外情报安全调查｜最后进展：2026-11-17，黄仁勋11/12辞任CEO（CNBC称为董事会决定），Kress任临时CEO，英伟达发布离任后首份财报｜下一步关注：永久CEO继任人选；独立董事委员会调查结论；黄仁勋是否出席11/18国会闭门简报
 2. 事件：美光台湾桃园厂劳资争议与暂停新晶圆厂建设｜最后进展：2026-11-06，因桃园厂工会要求将营业利润15%用于员工分红的谈判陷入僵局及抗议台中厂协议透明度问题，美光被曝暂停总投资30亿至45亿美元的桃园新晶圆厂（Fab 11E）建设｜下一步关注：桃园厂劳资调解是否达成协议、Fab 11E何时复工
 3. 事件：美满电子（Marvell）1150亿美元全股票收购Lumentum｜最后进展：2026-11-02，Marvell宣布达成最终协议以隐含企业价值约1150亿美元全股票交易收购光通信厂商Lumentum（含32亿美元反向分手费条款，预计2028年上半年交割）｜下一步关注：双方股东大会表决及中美欧反垄断监管审查进展
 4. 事件：特斯拉与SpaceX董事会特别委员会评估合并及关停Cybertruck产线｜最后进展：2026-11-09，马斯克确认得州工厂Cybertruck产线将于2027年年中关停并向无法交付的预订者退还定金，同时双方董事会特别委员会持续评估合并方案｜下一步关注：特别委员会正式合并方案、国会与监管机构反垄断审查进展
