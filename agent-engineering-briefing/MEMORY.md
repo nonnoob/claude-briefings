@@ -2,9 +2,9 @@
 
 ## 1. 本次运行
 
-- 运行时刻及检索截止：2026-11-18 10:07 UTC。
-- 实际覆盖窗口：2026-11-17 10:15 UTC 至 2026-11-18 10:07 UTC（常规）。
-- 收录 5 条（Claude Code v2.1.327、auto mode 回退移除提示、Codex 0.170.0、Copilot CLI v1.0.113、MCP 发布节奏）。博客/社区方向（simonwillison.net、HN、LangChain 博客）仅经 WebSearch 且未检索到窗口内新帖，覆盖不充分；Cursor/Gemini CLI 未见新动态。
+- 运行时刻及检索截止：2026-11-19 10:20 UTC。
+- 实际覆盖窗口：2026-11-18 10:07 UTC 至 2026-11-19 10:07 UTC（常规）。
+- 收录 3 条（Claude Code v2.1.328、Copilot CLI v1.0.114、Gemini 4 Neon）。Anthropic 工程博客、HN、LangChain/LlamaIndex 博客仅经 WebSearch，窗口内未检索到新帖，覆盖不充分；Cursor/Gemini CLI 未见新动态；Codex 仅有 0.171.0 alpha，无稳定版。
 
 ## 2. 已报条目清单（保留最近 14 天）
 
@@ -47,10 +47,13 @@
 - 2026-11-17 | Codex rust-v0.170.0：WebRTC 语音、OTel 刷新认证头、实验性跨环境同名 MCP | https://github.com/openai/codex/releases/tag/rust-v0.170.0
 - 2026-11-17 | Copilot CLI v1.0.113：features.browserUse 托管开关；传 SDK 改名为 @microsoft/copilot-sdk | https://github.com/github/copilot-cli/releases/tag/v1.0.113
 - 2026-11-11 | MCP 官方宣布每六个月固定发布节奏，当前规范 2026-07-28 | https://blog.modelcontextprotocol.io/posts/mcp-release-cycle/
+- 2026-11-18 | Claude Code v2.1.328：auto mode 扩展至云厂商/网关上的 Opus/Sonnet 4.6、MCP hook onFailure: "block"、OTel 无端点提示 | https://x.com/ClaudeCodeLog/status/2123226990551445634
+- 2026-11-18 | Copilot CLI v1.0.114：mcp enable 容忍无效 mcp-config.json、/settings 窄终端修复 | https://github.com/github/copilot-cli/releases
+- 2026-11-19 | Google 发布 Gemini 4 Neon（$3/$15、100 万上下文、四档思考强度） | https://www.infoworld.com/article/4250618/google-launches-gemini-4-neon-touting-lower-costs-for-complex-ai-coding-tasks.html
 
 ## 3. 进行中事件表
 
-- 事件：Claude Code `.claude/settings.local.json` 内置敏感信息擦除（secret scrubbing）与安全默认保护落地；最后进展日期：2026-11-09（Apiiro 披露「Yes, and don't ask again」将含密钥的明文命令写入 `.claude/settings.local.json` 并在逾 1,100 个公开仓库泄露后，Claude Code 负责人 Boris Cherny 在 HN 回应称正原型验证内置 secret scrubbing 与自动防泄漏机制）；下一步关注点：Claude Code 后续版本（v2.1.323、v2.1.325 摘要均未见此项，v2.1.326 亦未见，v2.1.327 亦未见，看 v2.1.328+）变更日志何时上线 `.claude/settings.local.json` 写入前的密钥自动脱敏/拦截及仓库级 `.gitignore` 保护改进。
-- 事件：Claude Code 彻底移除模型上下文中的用户账号邮箱后续版本落地；最后进展日期：2026-11-09（v2.1.319–v2.1.327 均 进一步加固权限与 MCP OAuth 令牌安全，但尚未在变更日志中宣告将登录邮箱彻底移出模型系统上下文）；下一步关注点：Claude Code 后续版本变更日志是否兑现从系统上下文中彻底剥离用户邮箱，以及 `@author` 等场景的替代方案。
-- 事件：OpenAI 收购 Pierre 后的 Code Storage 与 Codex 集成及 Pando 开源/上游回馈进展；最后进展日期：2026-11-04（OpenAI 披露内部 Git 后端 Pando 并宣布收购 Pierre，计划将 Pierre 的分布式机器导向 Git 存储层 Code Storage 深度整合进 Codex）；下一步关注点：Codex CLI（0.170.0 已发布但未见 Pierre 集成，看 0.171.0+）及云端环境何时开放基于 Pierre Code Storage 的多 Agent 并行分支与内联审查功能，以及 Pando 相关补丁是否回馈上游 Git。
+- 事件：Claude Code `.claude/settings.local.json` 内置敏感信息擦除（secret scrubbing）与安全默认保护落地；最后进展日期：2026-11-09（Apiiro 披露「Yes, and don't ask again」将含密钥的明文命令写入 `.claude/settings.local.json` 并在逾 1,100 个公开仓库泄露后，Claude Code 负责人 Boris Cherny 在 HN 回应称正原型验证内置 secret scrubbing 与自动防泄漏机制）；下一步关注点：Claude Code 后续版本（v2.1.323、v2.1.325 摘要均未见此项，v2.1.326 亦未见，v2.1.327、v2.1.328 亦未见，看 v2.1.329+）变更日志何时上线 `.claude/settings.local.json` 写入前的密钥自动脱敏/拦截及仓库级 `.gitignore` 保护改进。
+- 事件：Claude Code 彻底移除模型上下文中的用户账号邮箱后续版本落地；最后进展日期：2026-11-09（v2.1.319–v2.1.328 均 进一步加固权限与 MCP OAuth 令牌安全，但尚未在变更日志中宣告将登录邮箱彻底移出模型系统上下文）；下一步关注点：Claude Code 后续版本变更日志是否兑现从系统上下文中彻底剥离用户邮箱，以及 `@author` 等场景的替代方案。
+- 事件：OpenAI 收购 Pierre 后的 Code Storage 与 Codex 集成及 Pando 开源/上游回馈进展；最后进展日期：2026-11-04（OpenAI 披露内部 Git 后端 Pando 并宣布收购 Pierre，计划将 Pierre 的分布式机器导向 Git 存储层 Code Storage 深度整合进 Codex）；下一步关注点：Codex CLI（0.170.0 已发布、0.171.0 仅 alpha，均未见 Pierre 集成，看 0.171.0 稳定版+）及云端环境何时开放基于 Pierre Code Storage 的多 Agent 并行分支与内联审查功能，以及 Pando 相关补丁是否回馈上游 Git。
 - 事件：Opus 4.8 fast mode 停用；最后进展日期：2026-10-31（v2.1.316 公告，弃用日 10 月 30 日）；下一步关注点：11 月 30 日正式移除前后的客户端报错处理与迁移公告。
