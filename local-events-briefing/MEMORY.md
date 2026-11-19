@@ -1,10 +1,10 @@
 # local-events-briefing MEMORY
 
 ## 1. 本次运行
-- 运行时刻及检索截止：2026-11-18 11:05 PST（America/Los_Angeles；2026-11-18 19:05 UTC）。
-- 实际覆盖窗口：2026-11-17 17:03 PST 至 2026-11-18 11:05 PST（常规）。
-- 补搜：橙县/LA 周末汇总、新店（Little Luck、Beamz、Zov's、HeyTea 等均无开业日，未收）、演出开票（Hilary Duff 2027-11 Honda Center 过远未收）、全国范围（无感恩节/黑五全国免费日）均已检索；Witches Brew 11/21 Santa Ana 无官方时间地点，未收。
-- 上期补搜备注：橙县/LA 本周汇总、新店（无确认的 11 月新开；Tim Hollingsworth OCVIBE 新店无开业日）、演出开票、感恩节周全国范围均已检索；Mom Made Market 11/18–19 无法核实，未收；South Coast Plaza 树点灯仍单源，留待 11/18–19 提醒。
+- 运行时刻及检索截止：2026-11-18 17:04 PST（America/Los_Angeles；2026-11-19 01:04 UTC）。
+- 实际覆盖窗口：2026-11-18 11:05 PST 至 2026-11-18 17:04 PST（常规，同日二次运行）。
+- 补搜：橙县/LA 周末汇总、新店（HeyTea、Uchi、Bingz 等均无确认开业日，未收）、演出开票（无新官宣）、全国范围（无感恩节周全国免费日）均已检索；Witches Brew 11/21 Santa Ana 仍无官方时间地点，未收。
+- 上期补搜备注：Little Luck、Beamz、Zov's、HeyTea 等无开业日未收。
 
 ## 2. 已报条目清单
 
@@ -96,6 +96,12 @@
 2026-11-18 | Los Angeles Union Station 第 11 届树点灯 11/19 18:00–20:00，免费 | https://unionstationla.com/happenings/11th-annual-tree-lighting-ceremony-2026/
 2026-11-18 | HSS Demo Day & Surf Fest 11/21 07:00–14:00，Huntington Beach，免费（单源）| https://enjoyorangecounty.com/whats-happening/
 2026-11-18 | LA Auto Show 11/20 开幕、线上提前票 11/19 截止提醒（续报）| https://laautoshow.com/tickets
+2026-11-18 | Pacific Symphony《Rachmaninoff's Mighty Third》11/19–11/21 20:00，Segerstrom Concert Hall Costa Mesa | https://pacificsymphony.blog/2026/10/22/nobuyuki-tsujii-and-the-music-you-can-feel/
+2026-11-18 | Dana Point Harbor After Dark 假日夜市 11/19 16:00–20:00，Dana Point Harbor 停车楼，免费 | https://visitdanapoint.com/event/harbor-after-dark:-holiday-night-market-at-the-dana-point-harbor/817/
+2026-11-18 | Jonas Brothers 第二晚 11/19 与 Pershing Square 11/19 17:00 开幕庆典提醒（续报）| https://lamag.com/holiday/pershing-square-ice-rink-opens-for-2026-season/
+2026-11-18 | Fashion Island 圣诞树点灯 11/20 17:00，Newport Beach，免费 | https://visitnewportbeach.com/holiday-event/fashion-islands-tree-lighting-experience-50-nights-of-coastal-lights/
+2026-11-18 | Magnolia Park Holiday in the Park 11/20 17:00–22:00，Burbank，免费 | https://myburbank.com/holiday-in-the-park-returns-november-20-with-new-go-kart-track-boulevard-art-gallery-and-a-mile-of-holiday-fun/
+2026-11-18 | Knott's Merry Farm 11/20 开幕节点提醒（续报）| https://www.sixflags.com/knotts/events/merry-farm
 
 ## 3. 进行中事件表
 - Hilbert Museum《The Art of the Simpsons》与《Otherworldly: Science Fiction Art》双新展 | 最后进展 2026-11-09 | 11 月 18 日在 Orange 正式揭幕，开展当日或前一日可做今明速览提醒
@@ -115,5 +121,5 @@
 - LEGOLAND California Christmas Bricktacular | 最后进展 2026-11-17 | 11 月 21 日开始；11 月 20–21 日可做节点提醒
 - Jackson Browne Pantages 11/23 加场 | 最后进展 2026-11-17 | 11 月 23 日 20:00 余票不多；11 月 22–23 日可做节点提醒
 - KATSEYE Crypto.com Arena | 最后进展 2026-11-17 | 11 月 21–22 日；11 月 20–21 日可做节点提醒
-- Union Station LA 树点灯 | 最后进展 2026-11-18 | 已收录；11 月 19 日当晚无需再提醒，闭合
-- Jonas Brothers 第二晚 11/19 与 Pershing Square 11/19 17:00 开幕庆典 | 最后进展 2026-11-18 | 11 月 19 日可做当日提醒（Pershing 为节点提醒）
+- Fashion Island 树点灯与 Nights of Coastal Lights | 最后进展 2026-11-18 | 11 月 20 日 17:00 点灯；核实官方结束时间（17:00–20:00 vs 17:00–18:00）
+- Pacific Symphony Rachmaninoff | 最后进展 2026-11-18 | 11 月 19–21 日；核实官方票价，11 月 21 日可提醒最后一场
