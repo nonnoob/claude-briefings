@@ -1,7 +1,6 @@
 ## 1. 本次运行
-- 运行时刻及检索截止：2026-11-18 10:56 UTC（2026-11-18 02:56 PST）；实际覆盖窗口：2026-11-17 10:55 UTC 至 2026-11-18 10:56 UTC（常规）。
-- 收录 5 条；PAHO 已正式宣布，其余进行中事件无新进展（SBE 诉讼、埃博拉、佛州听证、Artemis 无新增）。
-- 上次运行（2026-11-17）为空期。
+- 运行时刻及检索截止：2026-11-19 10:55 UTC；实际覆盖窗口：2026-11-18 10:56 UTC 至 2026-11-19 10:55 UTC（常规）。
+- 收录 3 条（医学 2、航天 1）；公共卫生、科学突破、健康与生活、科研政策窗口内未找到未报道的新内容；进行中事件表无新进展。
 
 ## 2. 已报条目清单
 
@@ -60,6 +59,9 @@
 2026-11-18 | Cognito Spectris AD 光声刺激头戴设备 673 人 3 期试验未改善认知 | https://www.nature.com/articles/d41586-026-03770-0
 2026-11-18 | PAHO 11/17 正式撤销美国、墨西哥、玻利维亚麻疹消除地位 | https://www.cnbc.com/2026/11/17/us-measles-elimination-status.html
 2026-11-18 | 加州流感季早发：约 120 例死亡，圣贝纳迪诺县首例儿童死亡 | https://www.cbsnews.com/losangeles/news/san-bernardino-county-pediatric-flu-death-flu-season-2026/
+2026-11-19 | FDA 批准再生元 Livsayis（cemdisiran）用于抗 AChR 阳性成人全身型重症肌无力，首个 C5 siRNA | https://www.mda.org/press-releases/fda-approves-livsayis-cemdisiran-for-adults-living-with-generalized-myasthenia-gravis
+2026-11-19 | FDA 批准赛诺菲 Infilbray（venglustat）用于 3 型戈谢病神经症状（43 人 LEAP2MONO） | https://www.pharmacytimes.com/view/fda-approves-venglustat-first-treatment-for-neurological-symptoms-of-gd3
+2026-11-19 | NASA 通告 Dragon 货运飞船最早 11/20 离开空间站（第 35 次 SpaceX 补给任务） | https://nasa.gov/news-release/nasa-to-cover-35th-spacex-resupply-mission-space-station-departure
 
 ## 3. 进行中事件表
 - 事件：加州与美西 2026–2027 流感季反常提前暴发（甲型 H1N1 D.3.1.1 亚支 G155E 突变株驱动加州流感阳性率飙升，Bloom 实验室证实该突变显著逃避青少年与年轻成人既有中和抗体）｜最后进展：2026-11-17（加州约 120 例死亡，南加首例儿童死亡）｜下一步关注点：CDPH 与洛杉矶县公共卫生局 11 月中下旬急诊就诊率、住院率与死亡人数变化，以及 CDC 对当季流感疫苗针对 G155E 突变株真实世界保护效力（VE）的评估数据。
