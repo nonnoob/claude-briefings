@@ -1,9 +1,9 @@
 ## 1. 本次运行
 
-- 本次运行时刻及检索截止：2026-11-18 10:11 UTC（同日第二次运行）。
-- 上次运行：2026-11-18 01:57 UTC。
-- 覆盖窗口：2026-11-18 01:57 UTC 至 2026-11-18 10:11 UTC（常规）。
-- 窗口仅约8小时，索引偏弱；Android/系统更新（除Chrome）、新品、开源、政策、投融资方向未检索到新的可核实内容。下期可留意：Tesla 12/3股东大会；Motorola signature 27 11/19预购；英伟达董事会对贝森特10天限期（约11/25）的回应；黄仁勋12/1国会问询。
+- 本次运行时刻及检索截止：2026-11-19 10:10 UTC。
+- 上次运行：2026-11-18 10:11 UTC。
+- 覆盖窗口：2026-11-18 10:11 UTC 至 2026-11-19 10:10 UTC（常规）。
+- Android/系统更新、安全、开源、政策方向窗口内未检索到新的可核实内容；Anthropic IPO（11/19上市）按规则归AI行业简报，未收录。下期可留意：Tesla 12/3股东大会；英伟达董事会对贝森特限期（约11/25）的回应；黄仁勋12/1国会问询；Tesla-SpaceX合并12月公告传闻；Motorola Signature 27 11/26开卖。
 
 ## 2. 已报条目清单
 
@@ -52,13 +52,20 @@
 - 2026-11-18 | 黄仁勋同意12月1日接受国会闭门问询（取代11/18简报），英伟达董事会被曝接触Arm CEO Rene Haas | https://www.axios.com/2026/11/17/nvidia-jensen-huang-congress-testify-dates
 - 2026-11-18 | 贝森特限英伟达董事会10天内答复出口管制问询，SEC被曝对英伟达披露展开民事调查（单源） | https://investinglive.com/stocks/sec-reportedly-probes-nvidia-disclosures-as-bessent-demands-answers-within-10-days
 - 2026-11-18 | CISA将Puppet Enterprise漏洞CVE-2026-115731（CVSS 9.4）列入KEV（单源） | https://shattered.io/puppet-enterprise-cve-2026-115731-cisa-kev-cvss-9-4-dec-1-deadline
+- 2026-11-19 | 摩托罗拉Signature 27美国发布，定价1599.99美元，11/19预购 | https://www.androidauthority.com/motorola-signature-27-launch-3731987/
+- 2026-11-19 | 小米18 Pro/Pro Max在巴黎举行全球发布会 | https://www.gsmarena.com/xiaomi_18_pro_18_pro_max_international_launch-news-75505.php
+- 2026-11-19 | 《GTA 6》11月19日全球发售（主机） | https://tech.yahoo.com/gaming/breaking-news/article/gta-6-officially-launches-tomorrow-early-reviews-pricing-and-everything-else-you-need-to-know-about-the-most-anticipated-game-of-the-year-152541726.html
+- 2026-11-19 | Meta在土耳其与泰国测试Instagram独立私信应用Direct | https://www.digitaltrends.com/social-media/metas-new-direct-app-is-instagram-dms-without-the-instagram/
+- 2026-11-19 | 英伟达确认停止向中国出货获许可H200并新设董事会国家安全与出口管制委员会 | https://foxbusiness.com/fox-news-tech/nvidia-halts-china-ai-chip-shipments-despite-us-approval
+- 2026-11-19 | 马斯克在DealBook称特斯拉与SpaceX"可能合并更好"但反对合并触发其薪酬奖励 | https://www.cnbc.com/2026/11/18/dealbook-summit-2026-live-updates.html
+- 2026-11-19 | Palo Alto Networks以45亿美元全股票收购Applied Compute | https://www.securityweek.com/palo-alto-networks-to-buy-ai-startup-applied-compute-for-4-5-billion/
 
 ## 3. 进行中事件表
 
-1. 事件：英伟达CEO更替、涉外情报调查与出口管制问询｜最后进展：2026-11-18，黄仁勋定于12/1接受国会闭门问询、Teter 12/2；贝森特11/15限董事会10天答复Megaspeed转运问题；SEC被曝民事调查（单源）；董事会被曝接触Rene Haas｜下一步关注：永久CEO人选；董事会对贝森特限期（约11/25）的回应；SEC调查是否获官方证实
+1. 事件：英伟达CEO更替、涉外情报调查与出口管制问询｜最后进展：2026-11-18，黄仁勋定于12/1接受国会闭门问询、Teter 12/2；贝森特11/15限董事会10天答复Megaspeed转运问题；SEC被曝民事调查（单源）；董事会被曝接触Rene Haas｜下一步关注：永久CEO人选；H200对华停货是否恢复；董事会对贝森特限期（约11/25）的回应；SEC调查是否获官方证实
 2. 事件：美光台湾桃园厂劳资争议与暂停新晶圆厂建设｜最后进展：2026-11-06，因桃园厂工会要求将营业利润15%用于员工分红的谈判陷入僵局及抗议台中厂协议透明度问题，美光被曝暂停总投资30亿至45亿美元的桃园新晶圆厂（Fab 11E）建设｜下一步关注：桃园厂劳资调解是否达成协议、Fab 11E何时复工
 3. 事件：美满电子（Marvell）1150亿美元全股票收购Lumentum｜最后进展：2026-11-02，Marvell宣布达成最终协议以隐含企业价值约1150亿美元全股票交易收购光通信厂商Lumentum（含32亿美元反向分手费条款，预计2028年上半年交割）｜下一步关注：双方股东大会表决及中美欧反垄断监管审查进展
-4. 事件：特斯拉与SpaceX董事会特别委员会评估合并及关停Cybertruck产线｜最后进展：2026-11-09，马斯克确认得州工厂Cybertruck产线将于2027年年中关停并向无法交付的预订者退还定金，同时双方董事会特别委员会持续评估合并方案｜下一步关注：特别委员会正式合并方案、国会与监管机构反垄断审查进展
+4. 事件：特斯拉与SpaceX董事会特别委员会评估合并及关停Cybertruck产线｜最后进展：2026-11-18，马斯克在DealBook称两家公司"可能合并更好"但反对合并单独触发其薪酬奖励，Bloomberg称最早12月可能公告；此前11/09马斯克确认得州工厂Cybertruck产线将于2027年年中关停并向无法交付的预订者退还定金，同时双方董事会特别委员会持续评估合并方案｜下一步关注：特别委员会正式合并方案、国会与监管机构反垄断审查进展
 5. 事件：国行版Apple Intelligence开发者测试与正式上线｜最后进展：2026-11-04，苹果在iOS 27.3测试版中开启集成阿里通义千问（Qwen）模型的国行Apple Intelligence开发者测试，计划12月随iOS 27.3正式版向公众推送｜下一步关注：iOS 27.3正式版推送及iPadOS/macOS国行版监管审批进展
 6. 事件：马斯克诉OpenAI反垄断案与苹果诉OpenAI商业机密案｜最后进展：2026-11-05，OpenAI向联邦法官申请简易判决驳回马斯克反垄断诉讼剩余指控；苹果诉OpenAI及前高管Tang Tan商业机密盗窃案已排期2027年7月19日开庭｜下一步关注：法庭对OpenAI简易判决动议的裁定、商业机密案取证进展
 7. 事件：澳大利亚联邦法院责令苹果2027年3月1日开放iOS生态｜最后进展：2026-10-22澳洲联邦法院裁定苹果须自2027/3/1起开放第三方应用商店、侧载与替代支付，苹果宣布申请暂缓执行并上诉｜下一步关注：苹果上诉与暂缓执行申请裁定、Epic《堡垒之夜》重返澳洲App Store具体时间
