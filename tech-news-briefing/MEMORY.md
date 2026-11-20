@@ -1,8 +1,9 @@
 ## 1. 本次运行
 
-- 本次运行时刻及检索截止：2026-11-19 10:10 UTC。
-- 上次运行：2026-11-18 10:11 UTC。
-- 覆盖窗口：2026-11-18 10:11 UTC 至 2026-11-19 10:10 UTC（常规）。
+- 本次运行时刻及检索截止：2026-11-20 10:11 UTC。
+- 上次运行：2026-11-19 10:10 UTC。
+- 覆盖窗口：2026-11-19 10:10 UTC 至 2026-11-20 10:11 UTC（常规）。
+- 本期窗口内Google/Android、系统更新、安全、投融资、政策方向未检索到新的可核实内容；Anthropic IPO（11/19）归AI行业简报未收录。
 - Android/系统更新、安全、开源、政策方向窗口内未检索到新的可核实内容；Anthropic IPO（11/19上市）按规则归AI行业简报，未收录。下期可留意：Tesla 12/3股东大会；英伟达董事会对贝森特限期（约11/25）的回应；黄仁勋12/1国会问询；Tesla-SpaceX合并12月公告传闻；Motorola Signature 27 11/26开卖。
 
 ## 2. 已报条目清单
@@ -59,10 +60,15 @@
 - 2026-11-19 | 英伟达确认停止向中国出货获许可H200并新设董事会国家安全与出口管制委员会 | https://foxbusiness.com/fox-news-tech/nvidia-halts-china-ai-chip-shipments-despite-us-approval
 - 2026-11-19 | 马斯克在DealBook称特斯拉与SpaceX"可能合并更好"但反对合并触发其薪酬奖励 | https://www.cnbc.com/2026/11/18/dealbook-summit-2026-live-updates.html
 - 2026-11-19 | Palo Alto Networks以45亿美元全股票收购Applied Compute | https://www.securityweek.com/palo-alto-networks-to-buy-ai-startup-applied-compute-for-4-5-billion/
+- 2026-11-20 | 美国新出口规则生效后台积电暂停16nm及以下中国设计商订单、三星暂停部分对华出货 | https://taipeitimes.com/News/biz/archives/2026/11/20/2003868041
+- 2026-11-20 | 台股加权指数收跌6.23%、台积电跌4.76%，源于黄仁勋离任与英伟达订单融资担忧（单源） | https://www.digitimes.com/news/a20261120VL220/taiwan-nvidia-tsmc-design-ai-server.html
+- 2026-11-20 | PostgreSQL 19发布（单源） | https://www.postgresql.org/
+- 2026-11-20 | 三星"Origin"安卓笔记本被One UI 9.5代码曝光（传闻） | https://www.androidauthority.com/samsung-origin-android-laptops-one-ui-9-5-apk-teardown-3737102/
+- 2026-11-20 | SpaceX称墨西哥海滩碎片无法明确与星舰Flight 15关联 | https://teslanorth.com/2026/11/19/spacex-starship-flight-15-debris-mexico/
 
 ## 3. 进行中事件表
 
-1. 事件：英伟达CEO更替、涉外情报调查与出口管制问询｜最后进展：2026-11-18，黄仁勋定于12/1接受国会闭门问询、Teter 12/2；贝森特11/15限董事会10天答复Megaspeed转运问题；SEC被曝民事调查（单源）；董事会被曝接触Rene Haas｜下一步关注：永久CEO人选；H200对华停货是否恢复；董事会对贝森特限期（约11/25）的回应；SEC调查是否获官方证实
+1. 事件：英伟达CEO更替、涉外情报调查与出口管制问询｜最后进展：2026-11-18，黄仁勋定于12/1接受国会闭门问询、Teter 12/2；贝森特11/15限董事会10天答复Megaspeed转运问题；SEC被曝民事调查（单源）；董事会被曝接触Rene Haas｜下一步关注：台积电/三星对华出货许可获批进展与台股走势；永久CEO人选；H200对华停货是否恢复；董事会对贝森特限期（约11/25）的回应；SEC调查是否获官方证实
 2. 事件：美光台湾桃园厂劳资争议与暂停新晶圆厂建设｜最后进展：2026-11-06，因桃园厂工会要求将营业利润15%用于员工分红的谈判陷入僵局及抗议台中厂协议透明度问题，美光被曝暂停总投资30亿至45亿美元的桃园新晶圆厂（Fab 11E）建设｜下一步关注：桃园厂劳资调解是否达成协议、Fab 11E何时复工
 3. 事件：美满电子（Marvell）1150亿美元全股票收购Lumentum｜最后进展：2026-11-02，Marvell宣布达成最终协议以隐含企业价值约1150亿美元全股票交易收购光通信厂商Lumentum（含32亿美元反向分手费条款，预计2028年上半年交割）｜下一步关注：双方股东大会表决及中美欧反垄断监管审查进展
 4. 事件：特斯拉与SpaceX董事会特别委员会评估合并及关停Cybertruck产线｜最后进展：2026-11-18，马斯克在DealBook称两家公司"可能合并更好"但反对合并单独触发其薪酬奖励，Bloomberg称最早12月可能公告；此前11/09马斯克确认得州工厂Cybertruck产线将于2027年年中关停并向无法交付的预订者退还定金，同时双方董事会特别委员会持续评估合并方案｜下一步关注：特别委员会正式合并方案、国会与监管机构反垄断审查进展
