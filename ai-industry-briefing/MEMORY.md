@@ -1,8 +1,8 @@
 ## 1. 本次运行
 
-- 运行时刻及检索截止：2026-11-19 10:50 UTC（2026-11-19）。
-- 实际覆盖窗口：2026-11-18 10:40 UTC 至 2026-11-19 10:40 UTC（常规）。
-- 六方向及热点兜底已检索（研究与技术方向本期无可核实新内容）。事件表：Anthropic 今日挂牌首日表现待报；深圳会晤成果与中方反制未出；Nvidia 永久 CEO 未定。
+- 运行时刻及检索截止：2026-11-20 10:50 UTC（2026-11-20）。
+- 实际覆盖窗口：2026-11-19 10:40 UTC 至 2026-11-20 10:40 UTC（常规）。
+- 六方向及热点兜底已检索（模型与产品、研究与技术、监管与安全本期无可核实新内容）。深圳会晤成果仍无正式读数；英伟达永久 CEO 未定。
 
 ## 2. 已报条目清单
 
@@ -61,11 +61,17 @@
 - 2026-11-19 | 《财富》称英伟达 5000 亿美元 AI 融资承诺实为虚设，WSJ 称其曾为买不起 GPU 的 AI 公司提供担保 | https://fortune.com/2026/11/19/nvidia-funding-deal-anthropic-ipo/
 - 2026-11-19 | 【续报】英伟达遭 SEC 民事调查，司法部/商务部确认 Megaspeed 刑事调查，国会调查卢特尼克 | https://techcrunch.com/2026/11/17/sec-reportedly-investigating-nvidia-amid-huang-exit/
 - 2026-11-19 | 【续报】深圳会晤开场未公布芯片成果，BIS 海外数据中心许可新规 90 天过渡 | https://en.sedaily.com/world/2026/11/19/xi-praises-trump-at-third-summit-calls-us-china-stability
+- 2026-11-20 | 【续报】Anthropic ANT 挂牌首日收 97.17 美元（+17%），完全稀释市值约 1.76 万亿美元 | https://www.cnbc.com/2026/11/19/anthropic-ipo-ant-live-updates.html
+- 2026-11-20 | 【单源】Mirendil 10 亿美元 A 轮（估值 200 亿）、Mercor 7.5 亿美元 D 轮（估值 200 亿）、LangChain 3 亿美元 C 轮 | https://news.crunchbase.com/venture/biggest-startup-funding-rounds-agentic-ai-infrastructure-mirendil-mercor/
+- 2026-11-20 | Model ML 融资 2.5 亿美元（估值 15 亿） | https://www.bloomberg.com/news/articles/2026-11-17/ai-startup-for-bankers-raises-funds-at-1-5-billion-value
+- 2026-11-20 | 【单源】OpenAI 同意佐治亚电力可削减其 Effingham 园区最多 1000MW 供电 | https://www.techtarget.com/news/ai-data-centers-face-a-test-beyond-securing-power/875142/
+- 2026-11-20 | 【单源】Nscale 上线首个 Vera Rubin NVL72 机架；特斯拉发布数据中心固态变压器 | https://www.datacenterdynamics.com/en/news/?page=2
+- 2026-11-20 | 【传闻】【单源】谷歌 DeepMind 工程师预告视频，疑为 Gemini 4 Helium | https://pasqualepillitteri.it/en/news/35030/gemini-4-helium-coming-next-google-teases-flash-lite
 
 ## 3. 进行中事件表
 
 - 事件：OpenAI/Anthropic/Meta/月之暗面/谷歌 智能体安全与受限网安模型开放（11/09更新：Anthropic 正式发布全面开放的 Claude Fable 5.2 与仅限网安/生命科学验证计划的 Claude Mythos 5.2；OpenAI 与 Hacktron 达成 Daybreak Red 安全合作） | 最后进展日期：2026-11-09 | 下一步关注点：OpenAI 与 Anthropic 对 FTC 50+ 页传票的合规提交与高管作证排期；GPT-6 Cyber 与 Claude Mythos 5.2 在企业安全防御中的实测反馈与准入扩展
-- 事件：AI 巨头 IPO 与巨额私募（11/12更新：路演据报超额认购数倍，或定价高于 78 美元；11/11更新：Anthropic 11/10 定价区间 70–78 美元/股、估值最高约 1.4 万亿美元、路演启动，据报最早 11/19 挂牌“ANT”；OpenAI 以 1.25 万亿美元投前估值完成首批 110 亿美元融资交割） | 最后进展日期：2026-11-19（11/19：定价 83 美元、募资 813 亿美元、当日挂牌） | 下一步关注点：ANT 上市首日收盘表现与市值；OpenAI 约 200 亿美元融资剩余份额交割确认；OpenAI 约 200 亿美元融资剩余份额最终交割确认
+- 事件：AI 巨头 IPO 与巨额私募（11/12更新：路演据报超额认购数倍，或定价高于 78 美元；11/11更新：Anthropic 11/10 定价区间 70–78 美元/股、估值最高约 1.4 万亿美元、路演启动，据报最早 11/19 挂牌“ANT”；OpenAI 以 1.25 万亿美元投前估值完成首批 110 亿美元融资交割） | 最后进展日期：2026-11-20（11/19：ANT 首日收 97.17 美元，+17%，市值约 1.76 万亿） | 下一步关注点：ANT 后续走势与分析师首次评级；OpenAI 约 200 亿美元融资剩余份额交割确认；OpenAI 约 200 亿美元融资剩余份额最终交割确认
 - 事件：英伟达 CEO 黄仁勋涉华情报人员私情指控与董事会独立调查（11/19更新：SEC 民事调查（WSJ）、司法部/商务部确认 Megaspeed 刑事调查、贝森特要求董事会十日内答复、国会调查卢特尼克；11/18更新：黄仁勋 11/12 已辞任，Kress 任临时 CEO，董事会 11/17 称不让其复任，传 SEC 调查；11/12更新：董事会 11/11 晚开会传讨论黄仁勋去留，国会三主席要求 11/18 闭门简报；11/08更新：英伟达独立董事委员会聘请外部律所对黄仁勋与 Megaspeed 前高管 Alice Huang 关系启动调查，黄仁勋承认私情但否认泄密） | 最后进展日期：2026-11-19 | 下一步关注点：十日内董事会对贝森特的答复、卢特尼克参议院银行委员会作证、永久 CEO 遴选、SEC 调查是否获第二来源证实、11/18 黄仁勋国会简报是否成行、董事会对黄仁勋去留的决定、英伟达董事会独立调查结论、美国国会或商务部是否就此介入审查对新加坡 Megaspeed 的芯片流向及出口管制政策
 - 事件：AI 算力基础设施融资潮、自建发电与电网瓶颈（11/09更新：Anthropic 斥资 34 亿美元接手 OnePWR 1.7GW 燃气发电机组订单；微软因并网延误放弃 Nscale 德州 Ward 县扩建选择权，英伟达洽谈担保 Nscale 西弗吉尼亚园区） | 最后进展日期：2026-11-09 | 下一步关注点：英伟达-Nscale 残值担保与 10 亿美元注资交割；英伟达-Brightspeed 电信机房改造进展；博通-OpenAI 500 亿美元芯片信贷与 SB Energy IPO 进展
 - 事件：美国地方与州级反数据中心浪潮及算力厂商应对（11/05更新：美国中期选举近 40 项反数据中心提案通过引发科技股暴跌；OpenAI 发布算力园区《全国社区公约》；旧金山 45 天新建数据中心临时禁令执行中） | 最后进展日期：2026-11-05 | 下一步关注点：德州、俄亥俄、佐治亚等州选后是否出台新建数据中心实质性限制或电价附加规制；旧金山 45 天禁令评估报告与正式分区规则
