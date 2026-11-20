@@ -1,13 +1,9 @@
 ## 1. 本次运行
-- 运行时刻及检索截止：2026-11-19 10:55 UTC；实际覆盖窗口：2026-11-18 10:56 UTC 至 2026-11-19 10:55 UTC（常规）。
-- 收录 3 条（医学 2、航天 1）；公共卫生、科学突破、健康与生活、科研政策窗口内未找到未报道的新内容；进行中事件表无新进展。
+- 运行时刻及检索截止：2026-11-20 10:56 UTC；实际覆盖窗口：2026-11-19 10:55 UTC 至 2026-11-20 10:55 UTC（常规）。
+- 收录 4 条（医学 1、公共卫生 1、科学突破 1、科研政策 1）；航天、健康与生活窗口内未找到未报道的新内容；其余进行中事件无新进展。
 
 ## 2. 已报条目清单
 
-2026-10-31 | FDA 加速批准成人 RRP DNA 免疫疗法 Voceryq，依据 32 人开放标签试验，须上市后确证 | https://www.fda.gov/news-events/press-announcements/fda-approves-first-plasmid-dna-based-immunotherapy-adults-recurrent-respiratory-papillomatosis
-2026-10-31 | CDC 更新截至 10/29 全美麻疹累计 4852 例，比上期增加 264 例，96% 与暴发有关 | https://www.cdc.gov/measles/data-research/index.html
-2026-10-31 | NASA 10/28 完成 Artemis III SLS 芯级与双助推器集成，后续待检查及加注测试 | https://www.nasa.gov/image-article/artemis-iii-sls-core-stage-joins-boosters-at-kennedy/
-2026-10-31 | Reid Wiseman 获任 Caltech associate vice president 兼 JPL 副主任，将于 11/30 履新 | https://www.nasa.gov/centers-and-facilities/jpl/caltech-names-artemis-ii-commander-reid-wiseman-as-nasa-jpl-deputy/
 2026-11-06 | FDA 加速批准皮下双抗 Rybrevant Faspro 用于铂类及免疫治疗后进展的复发或转移性头颈部鳞癌（ORR 42%） | https://www.fda.gov/news-events/press-announcements/fda-grants-accelerated-approval-new-treatment-head-and-neck-squamous-cell-carcinoma
 2026-11-06 | 《NEJM》发表 744 人 PROGRESS 随机对照试验：中度主动脉瓣狭窄伴高危特征患者早期行 TAVR 降低 2 年死亡或心衰复合终点风险 33% | https://doi.org/10.1056/NEJMoa2607326
 2026-11-06 | 《NEJM》发表欧洲 CureCN 联盟 AAV8 基因疗法 GNT0003 治疗克里格勒-纳贾尔综合征 4 年随访证实疗效持久并摆脱光疗 | https://doi.org/10.1056/NEJMc2603129
@@ -62,11 +58,15 @@
 2026-11-19 | FDA 批准再生元 Livsayis（cemdisiran）用于抗 AChR 阳性成人全身型重症肌无力，首个 C5 siRNA | https://www.mda.org/press-releases/fda-approves-livsayis-cemdisiran-for-adults-living-with-generalized-myasthenia-gravis
 2026-11-19 | FDA 批准赛诺菲 Infilbray（venglustat）用于 3 型戈谢病神经症状（43 人 LEAP2MONO） | https://www.pharmacytimes.com/view/fda-approves-venglustat-first-treatment-for-neurological-symptoms-of-gd3
 2026-11-19 | NASA 通告 Dragon 货运飞船最早 11/20 离开空间站（第 35 次 SpaceX 补给任务） | https://nasa.gov/news-release/nasa-to-cover-35th-spacex-resupply-mission-space-station-departure
+2026-11-20 | 白宫撤回 Heidi Overton 的 FDA 局长提名（Mintz 通讯单源）| https://www.mintz.com/insights-center/viewpoints/2791/2026-11-18-fda-flux-november-2026-newsletter
+2026-11-20 | WHO 11/17 第三次 IHR 委员会维持埃博拉 PHEIC，累计确诊逾 11,000 例、死亡约 5,400 例，每周新增 400–500 例 | https://www.who.int/news-room/speeches/item/who-director-general-s-opening-remarks-at-the-third-ihr-emergency-committee-meeting-on-bundibugyo-virus-disease-epidemic-in-the-democratic-republic-of-the-congo---17-november-2026
+2026-11-20 | Nature：鲁卜哈利沙漠考古调查显示早期人类只在同时有淡水与可打制石料处活动 | https://www.nature.com/nature/volumes/659/issues/8141
+2026-11-20 | 美国国家科学院报告呼吁加快论文撤稿与更正处理（STAT 摘要单源）| https://www.statnews.com/
 
 ## 3. 进行中事件表
 - 事件：加州与美西 2026–2027 流感季反常提前暴发（甲型 H1N1 D.3.1.1 亚支 G155E 突变株驱动加州流感阳性率飙升，Bloom 实验室证实该突变显著逃避青少年与年轻成人既有中和抗体）｜最后进展：2026-11-17（加州约 120 例死亡，南加首例儿童死亡）｜下一步关注点：CDPH 与洛杉矶县公共卫生局 11 月中下旬急诊就诊率、住院率与死亡人数变化，以及 CDC 对当季流感疫苗针对 G155E 突变株真实世界保护效力（VE）的评估数据。
 - 事件：美国麻疹疫情与消除状态风险（CDC 截至 11/5 累计确诊升至 5182 例、43 起暴发，连续 13 周三位数增长，美国面临丧失 2000 年以来麻疹消除地位风险）｜最后进展：2026-11-17（PAHO 已正式宣布美国丧失消除地位；CDC 累计 5,412 例）｜下一步关注点：美国恢复消除地位的路径与 CDC/HHS 后续举措、CDC 下一期周报病例与死亡数（死亡数各方 6 与 10 不一）、肯塔基疫情增长。
-- 事件：刚果（金）布本迪布约型埃博拉疫情与 Tumaini 疫苗试验（累计确诊逾 10,800 例、死亡超 5,230 例；肯尼亚与尼日利亚输入关联病例接触者陆续完成 21 天观察无二代传播；ChAdOx1-BDBV 与 mRNA-1469 获推加入 Tumaini 试验）｜最后进展：2026-11-12（CDC 11/8 累计确诊 11,021 例、死亡 5,358 例）｜下一步关注点：刚果（金）国家监管机构对两款专属候选疫苗入组的最终批复、首例受试者接种启动公告，以及尼日利亚全部 62 名接触者医学观察正式清零通报。
+- 事件：刚果（金）布本迪布约型埃博拉疫情与 Tumaini 疫苗试验（累计确诊逾 10,800 例、死亡超 5,230 例；肯尼亚与尼日利亚输入关联病例接触者陆续完成 21 天观察无二代传播；ChAdOx1-BDBV 与 mRNA-1469 获推加入 Tumaini 试验）｜最后进展：2026-11-17（WHO 第三次 IHR 委员会维持 PHEIC；ECDC 累计确诊 11,197 例；CDC 11/8 累计确诊 11,021 例、死亡 5,358 例）｜下一步关注点：刚果（金）国家监管机构对两款专属候选疫苗入组的最终批复、首例受试者接种启动公告，以及尼日利亚全部 62 名接触者医学观察正式清零通报。
 - 事件：佛罗里达取消 4 种入学疫苗要求规则行政诉讼（Rule 64D-3.046，DOAH 法官合并案件并定于 2026 年 12 月 14–18 日举行正式取证听证会，规则暂停落地）｜最后进展：2026-11-03｜下一步关注点：12 月中旬 DOAH 正式听证会审理进展、法官裁决结果，以及佛州卫生部在 2027 年 1 月州政府换届前是否撤回或修改规则。
 - 事件：NASA 阿耳忒弥斯计划与月球南极基地建设（SLS 芯级 10/28 完成与助推器集成；11/7 公布最高 100 亿美元 CLPS 2.0 合同遴选 8 企，并授出蓝色起源 2028 年运送核动力 PROMISE 月球车合同）｜最后进展：2026-11-07｜下一步关注点：Artemis III 猎户座飞船与上面级总装、转运 39B 发射台及加注测试（WDR）排期公告，以及 CLPS 2.0 首批任务订单分配结果。
 - 事件：NASA“ESCAPADE”双星火星探测任务（“蓝”号与“金”号于 11/7 与 11/9 完成近地动力飞越正式踏上奔火转移轨道）｜最后进展：2026-11-09｜下一步关注点：巡航阶段深空轨道修正机动（TCM）状态通报及 2027 年 9 月 7 日与 9 日火星轨道切入（MOI）准备进展。
