@@ -1,9 +1,9 @@
 # local-events-briefing MEMORY
 
 ## 1. 本次运行
-- 运行时刻及检索截止：2026-11-19 11:03 PST（America/Los_Angeles；2026-11-19 19:03 UTC）。
-- 实际覆盖窗口：2026-11-18 17:04 PST 至 2026-11-19 11:03 PST（常规）。
-- 补搜：LA/OC 周末汇总、新店（Texas Roadhouse Laguna Hills 为 2027 年、HeyTea、Uchi 均无开业日，未收；The Win~Dow West Adams 11/19 开业为当日单源，未收）、演出（无新官宣）、Bowers 开幕未复核。全国范围本期无新增。
+- 运行时刻及检索截止：2026-11-19 17:05 PST（America/Los_Angeles；2026-11-20 01:05 UTC），傍晚场，侧重 11/20 周五与周末。
+- 实际覆盖窗口：2026-11-19 11:03 PST 至 2026-11-19 17:05 PST（常规）。
+- 补搜：OC/LA 周末汇总、新店（HeyTea、Din Tai Fung Irvine Spectrum、Kura Orange 均无确切开业日，未收）、SGV 夜市（无 Thanksgiving 周末场次）、演出（无新官宣）、全国范围（无全国性免费日，仅州级 Black Friday 免费公园，非南加，未收）。Enchant Christmas 官方票价仍未核实。
 
 ## 2. 已报条目清单
 
@@ -106,23 +106,30 @@
 2026-11-19 | Project Hail Mary: Live in Concert 11/20 20:00 Dolby Theatre Hollywood，$49.50–$249.50 | https://dolbytheatre.com/events/details/project_hail_mary
 2026-11-19 | Dreamstate SoCal 11/20–11/21 Queen Mary Waterfront Long Beach | https://dreamstate.frontgatetickets.com/
 2026-11-19 | Hammer Museum《Felipe Baeza: Anima》11/21–2027-04-04 Westwood，免费 | https://hammer.ucla.edu/exhibitions/2026/felipe-baeza-anima
+2026-11-19 | Fashion Island 树点灯 11/20 17:00–19:30 及 Nights of Coastal Lights 17:30–20:00 每半小时（续报）| https://www.stayorangecounty.com/post/things-to-do-orange-county-weekend-november-20-22-2026
+2026-11-19 | LA Auto Show 11/20 开幕当日提醒（续报）| https://laautoshow.com/tickets
+2026-11-19 | L.A. Zoo Lights 11/20 开幕提醒（续报）| https://lazoo.org/?p=3867
+2026-11-19 | Nutcracker Craft Boutique 11/20–11/21 Brea Community Center，$3 | https://www.stayorangecounty.com/post/things-to-do-orange-county-weekend-november-20-22-2026
+2026-11-19 | Bowers Museum《Art of Mexico and Central America》与《Bowers Legacy》11/21 开幕，11/22 13:30 讲座，Santa Ana | https://www.bowers.org/exhibitions/upcoming-exhibitions
+2026-11-19 | Great Los Angeles Walk 11/21 09:00 Echo Park Lake 至 Santa Monica Pier，免费 | https://laist.com/news/los-angeles-activities/great-los-angeles-walk-2026-route-66
+2026-11-19 | Patchwork Show Tustin 11/22 11:00–17:00 Old Town Tustin | https://www.stayorangecounty.com/post/things-to-do-orange-county-weekend-november-20-22-2026
 
 ## 3. 进行中事件表
 - Hilbert Museum《The Art of the Simpsons》与《Otherworldly: Science Fiction Art》双新展 | 最后进展 2026-11-09 | 11 月 18 日在 Orange 正式揭幕，开展当日或前一日可做今明速览提醒
 - Hammer Museum《Felipe Baeza: Anima》 | 最后进展 2026-11-19 | 已收录；11 月 21 日开幕、11 月 22 日 13:00 艺术家导览，可做开幕提醒；The Broad 同日 11/21 开幕可一并提醒
-- Bowers Museum《Art of Mexico and Central America》及《Bowers Legacy》新常设展 | 最后进展 2026-10-26 | 11 月 21 日 Santa Ana 开幕前一周可核实收录
+- Bowers Museum《Art of Mexico and Central America》 | 最后进展 2026-11-19 | 已收录；闭合
 - Descanso Gardens「Enchanted Forest of Light」 | 最后进展 2026-11-15 | 已收录；11 月 21–22 日可做开幕提醒
-- Los Angeles Auto Show | 最后进展 2026-11-18 | 已做 11-18 提醒；11 月 20 日开幕当日可再提醒一次
+- Los Angeles Auto Show | 最后进展 2026-11-19 | 已做开幕当日提醒；闭合
 - Winter Fest OC 2026 季 | 最后进展 2026-11-09 | 11 月 27 日开幕；待核实官方 2026 页面，11 月 26–27 日可做节点提醒
-- L.A. Zoo Lights | 最后进展 2026-11-10 | 11 月 20 日开幕；开幕当日可做节点提醒
+- L.A. Zoo Lights | 最后进展 2026-11-19 | 已做开幕提醒；闭合
 - Knott's Merry Farm | 最后进展 2026-11-19 | 已做 11-20 开幕提醒并补票价；闭合
 - Journey Honda Center | 最后进展 2026-11-11 | 11 月 24 日 19:30 演出；11 月 23–24 日可做节点提醒
-- Enchant Christmas Santa Anita Park | 最后进展 2026-11-11 | 11 月 20 日开幕；11 月 19–20 日可做节点提醒并核实 2026 官方票价与开放时间
+- Enchant Christmas Santa Anita Park | 最后进展 2026-11-19 | 11 月 20 日开幕；官方票价未核实（第三方 GA 约 $25–72.5 起，不一）；可在 11/20 做节点提醒
 - Steve Lacy Hollywood Bowl | 最后进展 2026-11-14 | 11 月 21 日，11 月 20–21 日可做节点提醒
 - Hollywood Christmas Parade | 最后进展 2026-11-16 | 11 月 29 日 Hollywood Blvd；待官方公布座位票信息，11 月 25–28 日可核实收录
 - Sawdust Winter Fantasy | 最后进展 2026-11-19 | 11 月 20 日开幕，票价 $12.50 已收；节点提醒已随 11-19 续报发出，闭合
 - LEGOLAND California Christmas Bricktacular | 最后进展 2026-11-17 | 11 月 21 日开始；11 月 20–21 日可做节点提醒
 - Jackson Browne Pantages 11/23 加场 | 最后进展 2026-11-17 | 11 月 23 日 20:00 余票不多；11 月 22–23 日可做节点提醒
 - KATSEYE Crypto.com Arena | 最后进展 2026-11-17 | 11 月 21–22 日；11 月 20–21 日可做节点提醒
-- Fashion Island 树点灯与 Nights of Coastal Lights | 最后进展 2026-11-18 | 11 月 20 日 17:00 点灯；核实官方结束时间（17:00–20:00 / 19:30 / 灯光秀每半小时 17:30–20:00 多说，未定）
+- Fashion Island 树点灯 | 最后进展 2026-11-19 | 已做 11/20 提醒并定结束时间；闭合
 - Pacific Symphony Rachmaninoff | 最后进展 2026-11-18 | 11 月 19–21 日；核实官方票价，11 月 21 日可提醒最后一场
