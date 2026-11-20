@@ -9,14 +9,6 @@
 
 ## 2. 已报条目清单（最近 21 天）
 
-- 2026-10-19 | VS Code 1.143 Insiders 新增新建聊天菜单 Canvas 子菜单、.mcp.json 环境变量展开，并修复便携模式 CLI 状态路径问题 | https://code.visualstudio.com/updates
-- 2026-10-21 | Anthropic 面向美国 Pro 与 Max 用户开放主动式智能体应用 Claude Duet 研究预览（候补名单制） | https://claude.com/blog/claude-duet
-- 2026-10-21 | Claude Code v2.1.305 与 v2.1.306 发布，新增 Linux 沙箱嵌套用户命名空间支持、修复 Vertex/Bedrock 网关拒绝 ToolSearch 请求失败，并新增 @claude review stop 指令 | https://github.com/anthropics/claude-code/releases/tag/v2.1.305
-- 2026-10-21 | Claude Code v2.1.307 发布，新增 /claude-api api-version（迁移至 2026-10-21）与 claude_code.safety_event OpenTelemetry 安全审计事件 | https://github.com/anthropics/claude-code/releases/tag/v2.1.307
-- 2026-10-22 | VS Code 1.143 及 1.143.1 正式版发布，将 Copilot harness 设为新会话默认后端，新增 Compare Models 多模型对比（预览）、本地运行 MAI Code 1.1 Flash、worktree 空间回收及沙箱 CA 证书管理 | https://code.visualstudio.com/updates/v1_143
-- 2026-10-22 | Claude Code v2.1.309 发布，修复多项沙箱与符号链接权限绕过漏洞，claude ultrareview 强制要求工作区信任，VS Code 编辑诊断等待缩至 0.75 秒 | https://github.com/anthropics/claude-code/releases/tag/v2.1.309
-- 2026-10-23 | Claude Code v2.1.310 发布，在 Bedrock/Vertex/Foundry 开放 Monitor 工具，并为 Enterprise 自定义角色新增云会话与远程控制权限管控 | https://github.com/anthropics/claude-code/releases/tag/v2.1.310
-- 2026-10-23 | Anthropic 将 Agent Skills 开放标准捐赠给 Linux 基金会 AAIF；Claude Code 原生支持 MCP Tasks 与 Elicitations；微软发布默认无状态的 MCP C# SDK 2.0 | https://www.linuxfoundation.org
 - 2026-10-31 | VS Code 1.144 发布云端会话与 Cloud Automations 预览，云端不复制未提交本地改动 | https://code.visualstudio.com/updates/v1_144
 - 2026-10-31 | Copilot Fusion GA，High/Max 受方案限制，参与模型分别计费 | https://code.visualstudio.com/updates/v1_144
 - 2026-10-31 | Compare Models 对符合条件新会话默认启用但不支持 Dev Containers，Canvases 仍为预览 | https://code.visualstudio.com/updates/v1_144
@@ -46,12 +38,20 @@
 - 2026-11-12 | Claude Meetings（Google Meet）Beta 面向 Team/Enterprise，另有 Whiteboards 与 Sheets Beta | https://support.claude.com/en/articles/12138966-release-notes
 - 2026-11-12 | Claude Developer Platform 推出自托管 Claude Managed Agents | https://platform.claude.com/docs/en/release-notes/overview
 - 2026-11-09 | Claude Fable 5.2 在 GitHub Copilot 正式可用（含 VS Code 模型选择器，需管理员启用策略） | https://letsdatascience.com/news/anthropics-claude-fable-52-reaches-general-availability-in-g-90d9b700
+- 2026-11-18 | VS Code 1.147 稳定版发布 Send Later、Draft requests、Browser Use 预览、模型路由器与 Dev Container 聊天持久化，Skills over MCP 默认启用，管理员可放行 Claude/Codex harness | https://code.visualstudio.com/updates/v1_147
+- 2026-11-18 | VS Code 1.147 弃用 macOS Ventura/Sonoma 与 32 位 ARM Linux 桌面版并移除状态栏 AI 用量统计 | https://code.visualstudio.com/updates/v1_147
+- 2026-11-11 | VS Code 1.146 特性清单核实：Inbox 模式、聊天独立窗口、Copilot CLI /code 移交、Local harness 将于 2027 年 2 月移除 | https://code.visualstudio.com/updates/v1_146
+- 2026-11-19 | Claude Code v2.1.325–v2.1.329 发布（zstd 安全修复、mcp add-json 标准输入、Opus/Sonnet 4.6 云平台 auto mode、/tasks 汇总、钥匙串登出修复） | https://github.com/anthropics/claude-code/releases
+- 2026-11-17 | Claude Developer Platform 推出关联计费（Linked billing，Beta） | https://releasebot.io/updates/anthropic/claude
+- 2026-11-17 | Claude Desktop 新增 Stable/Latest 更新通道 | https://releasebot.io/updates/anthropic/claude
+- 2026-11-19 | Claude Meetings Beta 因需求高峰无法加入大量会议 | https://releasebot.io/updates/anthropic/claude
 
 ## 3. 进行中事件表
 
 - 事件：Claude Fable 5.2 与 Claude Mythos 5.2 发布及生态集成；最后进展日期：2026-11-09；下一步关注点：Claude Fable 5.2 已在 Claude 全平台、Claude Code（v2.1.320+ 默认 Fable 模型）及 AWS Bedrock、Vertex AI、Microsoft Foundry 上线，Copilot 已于 11-09 接入 Fable 5.2（待核实 GitHub 原文），后续关注 Mythos 5.2 验证计划与 Claude Security 企业功能扩展情况。
-- 事件：VS Code Agent 会话、Canvases、Compare Models 与改动审核；最后进展日期：2026-11-06；下一步关注点：1.145.2 已完成首轮稳定性修复，1.146 Insiders 已支持 Compare Models 分组集合、Agent 自动发起对比与 Spotlight 引导，1.146.0 稳定版已于 11-11 发布，后续核实其特性清单及 Canvases 何时转 GA、Compare Models 何时支持 Dev Containers、Keep/Undo 实验性工作集何时覆盖终端命令改动。
+- 事件：VS Code Agent 会话、Canvases、Compare Models 与改动审核；最后进展日期：2026-11-18；下一步关注点：1.145.2 已完成首轮稳定性修复，1.146 Insiders 已支持 Compare Models 分组集合、Agent 自动发起对比与 Spotlight 引导，1.146 清单已核实、1.147（11-18）已发布，Canvases 仍为预览，后续关注 Canvases 何时转 GA、Compare Models 何时支持 Dev Containers、Keep/Undo 实验性工作集何时覆盖终端命令改动。
 - 事件：Claude Enterprise 安全与治理套件（Security Center、父级组织管理控制台、Project Tags、Developer Platform IP Allowlisting）与 Personal Finance Beta；最后进展日期：2026-11-06；下一步关注点：关注 Security Center、`admin.claude.com` 集中管理控制台、Project Tags 成本标签与 IP Allowlisting 何时由 Beta 转 GA，以及 Personal Finance Beta 何时扩展至非美地区或更多订阅计划。
 - 事件：Microsoft Copilot 集成的 Claude 模型纳入欧盟数据边界（EU Data Boundary）；最后进展日期：2026-11-05；下一步关注点：微软计划于 2026 年底前完成落地，关注年底前正式上线公告及区域租户默认启用策略变化。
 - 事件：Opus 4.8 fast mode 移除与 Copilot Fusion 优惠截止；最后进展日期：2026-10-31；下一步关注点：11 月 30 日旧 fast mode 正式移除及 Copilot Fusion 30% 优惠结束前核对模型配置、收费变化与客户端迁移提示。
 - 事件：Anthropic 开放主动式自主智能体应用 Claude Duet 研究预览（美国 Pro/Max 候补名单）；最后进展日期：2026-10-21；下一步关注点：关注 Claude Duet 何时结束候补名单全量开放或扩展至 Team/Enterprise 与非美地区。
+- 事件：VS Code Local harness 弃用（2027 年 2 月移除）与 Claude/Codex harness 企业放行；最后进展日期：2026-11-18；下一步关注点：关注 1.148 是否新增迁移工具或调整移除日期，以及 `vscode.allowedHarnesses` 的企业落地反馈。
