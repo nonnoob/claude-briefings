@@ -280,10 +280,24 @@ $('range').addEventListener('click', (e) => {
 });
 window.addEventListener('hashchange', route);
 
-fetch('data/index.json', { cache: 'no-cache' })
-  .then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); })
-  .then((data) => { index = data; route(); })
+const loadIndex = () => fetch('data/index.json', { cache: 'no-cache' })
+  .then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); });
+
+let shownDay = '';
+loadIndex()
+  .then((data) => { index = data; shownDay = today(); route(); })
   .catch((e) => { $('main').innerHTML = `<p class="note">加载失败：${esc(e.message)}</p>`; });
+
+// 标签页常常开着好几天不关：切回来时重新取索引，有新归档或已跨天才重绘，否则不动（不打断阅读位置）
+document.addEventListener('visibilitychange', () => {
+  if (document.visibilityState !== 'visible' || !index) return;
+  loadIndex().then((data) => {
+    if (data.built === index.built && shownDay === today()) return;
+    index = data;
+    shownDay = today();
+    route();
+  }).catch(() => {}); // 刷新失败就保留旧内容，下次切回来再试
+});
 </script>
 </body>
 </html>
