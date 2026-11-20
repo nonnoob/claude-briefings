@@ -1,9 +1,9 @@
 # local-events-briefing MEMORY
 
 ## 1. 本次运行
-- 运行时刻及检索截止：2026-11-19 17:05 PST（America/Los_Angeles；2026-11-20 01:05 UTC），傍晚场，侧重 11/20 周五与周末。
-- 实际覆盖窗口：2026-11-19 11:03 PST 至 2026-11-19 17:05 PST（常规）。
-- 补搜：OC/LA 周末汇总、新店（HeyTea、Din Tai Fung Irvine Spectrum、Kura Orange 均无确切开业日，未收）、SGV 夜市（无 Thanksgiving 周末场次）、演出（无新官宣）、全国范围（无全国性免费日，仅州级 Black Friday 免费公园，非南加，未收）。Enchant Christmas 官方票价仍未核实。
+- 运行时刻及检索截止：2026-11-20 11:05 PST（America/Los_Angeles；2026-11-20 19:05 UTC），上午场，侧重 11/20 周五下午起与周末。
+- 实际覆盖窗口：2026-11-19 17:05 PST 至 2026-11-20 11:05 PST（常规）。
+- 补搜：新店（除 Original Pantry 外无确切开业日）、Thanksgiving 周末演出（无新官宣，Cristian Castro 11/28 Peacock Theater 仅单一聚合来源未收）、全国范围（Black Friday 无全国免费日，未收）。Witches Brew Santa Ana 11/21 夜市核实不到日期，未收。Deftones 2027-05-18 Hollywood Bowl 太远未收。
 
 ## 2. 已报条目清单
 
@@ -113,23 +113,36 @@
 2026-11-19 | Bowers Museum《Art of Mexico and Central America》与《Bowers Legacy》11/21 开幕，11/22 13:30 讲座，Santa Ana | https://www.bowers.org/exhibitions/upcoming-exhibitions
 2026-11-19 | Great Los Angeles Walk 11/21 09:00 Echo Park Lake 至 Santa Monica Pier，免费 | https://laist.com/news/los-angeles-activities/great-los-angeles-walk-2026-route-66
 2026-11-19 | Patchwork Show Tustin 11/22 11:00–17:00 Old Town Tustin | https://www.stayorangecounty.com/post/things-to-do-orange-county-weekend-november-20-22-2026
+2026-11-20 | Enchant Christmas 11/20 开幕当日提醒（续报）| https://www.visitpasadena.com/events/enchant-christmas-los-angeles/
+2026-11-20 | Steve Lacy 11/21 20:00 Hollywood Bowl 明晚提醒（续报）| https://www.hollywoodbowl.com/events/performances/4900/2026-11-21/steve-lacy
+2026-11-20 | Aquarium of the Pacific 第 25 届 Autumn Festival 11/21–11/22 09:00–17:00 Long Beach | https://www.aquariumofpacific.org/events/info/autumn_festival/
+2026-11-20 | Best Friends Super Adoption 11/21–11/22 11:00–16:00 Rose Bowl Pasadena，免费入场 | https://bestfriends.org/los-angeles/pet-super-adoption
+2026-11-20 | The Original Pantry Café 11/19 重新开业，Downtown LA 877 S. Figueroa St. | https://www.originalpantryla.com/
+2026-11-20 | KATSEYE 11/21–11/22 Crypto.com Arena 周末提醒，周六场仅剩转售（续报）| https://www.cryptoarena.com/events/detail/katseye26
+2026-11-20 | Silverstein 与 Story of the Year 11/22 18:00 The Wiltern（单源）| https://seatgeek.com/cities/la/this-weekend
+2026-11-20 | USC vs Maryland 11/21 Coliseum 与 Chargers vs Jets 11/22 SoFi Stadium（单源）| https://seatgeek.com/cities/la/this-weekend
+2026-11-20 | Hammer《Felipe Baeza: Anima》与 The Broad 新展 11/21 开幕提醒（续报）| https://hammer.ucla.edu/exhibitions/2026/felipe-baeza-anima
+2026-11-20 | LEGOLAND Christmas Bricktacular 11/21 开始提醒（续报）| https://www.legoland.com/california/things-to-do/theme-park/whats-new/
+2026-11-20 | Tinker Bell's Neverland 11/13–2027-01-03 17:30–20:30 South Coast Botanic Garden，$33 起 | https://secretlosangeles.com/neverland-holiday-light-show/
+2026-11-20 | Descanso Enchanted Forest of Light 11/22 开幕提醒（续报）| https://thrillzing.com/seasonal-events/enchanted-forest-of-light-2026-descanso-gardens/
 
 ## 3. 进行中事件表
 - Hilbert Museum《The Art of the Simpsons》与《Otherworldly: Science Fiction Art》双新展 | 最后进展 2026-11-09 | 11 月 18 日在 Orange 正式揭幕，开展当日或前一日可做今明速览提醒
-- Hammer Museum《Felipe Baeza: Anima》 | 最后进展 2026-11-19 | 已收录；11 月 21 日开幕、11 月 22 日 13:00 艺术家导览，可做开幕提醒；The Broad 同日 11/21 开幕可一并提醒
+- Hammer Museum《Felipe Baeza: Anima》 | 最后进展 2026-11-20 | 开幕提醒已做；闭合
 - Bowers Museum《Art of Mexico and Central America》 | 最后进展 2026-11-19 | 已收录；闭合
-- Descanso Gardens「Enchanted Forest of Light」 | 最后进展 2026-11-15 | 已收录；11 月 21–22 日可做开幕提醒
+- Descanso Gardens「Enchanted Forest of Light」 | 最后进展 2026-11-20 | 开幕提醒已做；闭合
 - Los Angeles Auto Show | 最后进展 2026-11-19 | 已做开幕当日提醒；闭合
 - Winter Fest OC 2026 季 | 最后进展 2026-11-09 | 11 月 27 日开幕；待核实官方 2026 页面，11 月 26–27 日可做节点提醒
 - L.A. Zoo Lights | 最后进展 2026-11-19 | 已做开幕提醒；闭合
 - Knott's Merry Farm | 最后进展 2026-11-19 | 已做 11-20 开幕提醒并补票价；闭合
 - Journey Honda Center | 最后进展 2026-11-11 | 11 月 24 日 19:30 演出；11 月 23–24 日可做节点提醒
-- Enchant Christmas Santa Anita Park | 最后进展 2026-11-19 | 11 月 20 日开幕；官方票价未核实（第三方 GA 约 $25–72.5 起，不一）；可在 11/20 做节点提醒
-- Steve Lacy Hollywood Bowl | 最后进展 2026-11-14 | 11 月 21 日，11 月 20–21 日可做节点提醒
+- Enchant Christmas Santa Anita Park | 最后进展 2026-11-20 | 开幕提醒已做；官方票价仍未核实（第三方 GA 约 $25–72.5 起，不一）；闭合
+- Steve Lacy Hollywood Bowl | 最后进展 2026-11-20 | 提醒已做；闭合
 - Hollywood Christmas Parade | 最后进展 2026-11-16 | 11 月 29 日 Hollywood Blvd；待官方公布座位票信息，11 月 25–28 日可核实收录
 - Sawdust Winter Fantasy | 最后进展 2026-11-19 | 11 月 20 日开幕，票价 $12.50 已收；节点提醒已随 11-19 续报发出，闭合
-- LEGOLAND California Christmas Bricktacular | 最后进展 2026-11-17 | 11 月 21 日开始；11 月 20–21 日可做节点提醒
+- LEGOLAND California Christmas Bricktacular | 最后进展 2026-11-20 | 开始提醒已做；闭合
 - Jackson Browne Pantages 11/23 加场 | 最后进展 2026-11-17 | 11 月 23 日 20:00 余票不多；11 月 22–23 日可做节点提醒
-- KATSEYE Crypto.com Arena | 最后进展 2026-11-17 | 11 月 21–22 日；11 月 20–21 日可做节点提醒
+- KATSEYE Crypto.com Arena | 最后进展 2026-11-20 | 周末提醒已做；闭合
 - Fashion Island 树点灯 | 最后进展 2026-11-19 | 已做 11/20 提醒并定结束时间；闭合
 - Pacific Symphony Rachmaninoff | 最后进展 2026-11-18 | 11 月 19–21 日；核实官方票价，11 月 21 日可提醒最后一场
+- Pacific Symphony Rachmaninoff 补充：11 月 21 日最后一场提醒尚未做（保留上条）
