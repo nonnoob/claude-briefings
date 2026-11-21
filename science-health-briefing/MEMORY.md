@@ -54,7 +54,7 @@
 2026-11-21 | CDC 麻疹累计 5,838 例（截至 11/19），646 人住院 | https://www.contagionlive.com/view/measles-update-november-20-2026
 2026-11-21 | CDC 埃博拉截至 11/17 累计确诊 11,645、死亡 5,683 | https://www.cdc.gov/ebola/situation-summary/index.html
 2026-11-21 | 猎鹰 9 号发射美太空军 USSF-317（单源） | https://space.com/space-exploration/launches-spacecraft/spacex-falcon-9-classified-space-force-launch-ussf-317
-2026-11-21 | Science：扑杀海洋哺乳动物与海鸟不利于西海岸鲑鱼（建模研究） | https://www.natureworldnews.com/articles/73958/20261120/culling-seals-sea-lions-won-t-bring-back-west-coast-salmon-science-study-finds.htm
+2026-11-21 | Science：扑杀海洋哺乳动物与海鸟不利于西海岸鲑鱼（建模研究） | https://www.natureworldnews.com/articles/73958/20261120/culling-seals-sea-lions-wont-bring-back-west-coast-salmon-science-study-finds.htm
 2026-11-21 | 参议院拨款方案 NSF 88.3 亿美元并否决取消 SBE（AIP 单源） | https://www.aip.org/fyi/senate-science-funding-proposals-revealed
 
 ## 3. 进行中事件表

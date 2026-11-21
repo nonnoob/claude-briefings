@@ -20,7 +20,7 @@
 
 ## 科学突破
 
-- NOAA 渔业部门与俄勒冈州立大学团队在《Science》发表建模研究：大规模扑杀海洋哺乳动物与海鸟因食物网间接效应，不太可能使美国西海岸鲑鱼受益（11 月 19 日发表，模型研究非实地试验）。来源：Nature World News https://www.natureworldnews.com/articles/73958/20261120/culling-seals-sea-lions-won-t-bring-back-west-coast-salmon-science-study-finds.htm
+- NOAA 渔业部门与俄勒冈州立大学团队在《Science》发表建模研究：大规模扑杀海洋哺乳动物与海鸟因食物网间接效应，不太可能使美国西海岸鲑鱼受益（11 月 19 日发表，模型研究非实地试验）。来源：Nature World News https://www.natureworldnews.com/articles/73958/20261120/culling-seals-sea-lions-wont-bring-back-west-coast-salmon-science-study-finds.htm
 
 ## 科研政策
 
