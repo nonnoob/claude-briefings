@@ -1,23 +1,9 @@
 ## 1. 本次运行
-- 运行时刻及检索截止：2026-11-20 10:56 UTC；实际覆盖窗口：2026-11-19 10:55 UTC 至 2026-11-20 10:55 UTC（常规）。
-- 收录 4 条（医学 1、公共卫生 1、科学突破 1、科研政策 1）；航天、健康与生活窗口内未找到未报道的新内容；其余进行中事件无新进展。
+- 运行时刻及检索截止：2026-11-21 10:55 UTC；实际覆盖窗口：2026-11-20 10:55 UTC 至 2026-11-21 10:55 UTC（常规）。
+- 收录 7 条（医学 2、公共卫生 2、航天 1、科学突破 1、科研政策 1）；健康与生活窗口内未找到未报道的新内容。
 
 ## 2. 已报条目清单
 
-2026-11-06 | FDA 加速批准皮下双抗 Rybrevant Faspro 用于铂类及免疫治疗后进展的复发或转移性头颈部鳞癌（ORR 42%） | https://www.fda.gov/news-events/press-announcements/fda-grants-accelerated-approval-new-treatment-head-and-neck-squamous-cell-carcinoma
-2026-11-06 | 《NEJM》发表 744 人 PROGRESS 随机对照试验：中度主动脉瓣狭窄伴高危特征患者早期行 TAVR 降低 2 年死亡或心衰复合终点风险 33% | https://doi.org/10.1056/NEJMoa2607326
-2026-11-06 | 《NEJM》发表欧洲 CureCN 联盟 AAV8 基因疗法 GNT0003 治疗克里格勒-纳贾尔综合征 4 年随访证实疗效持久并摆脱光疗 | https://doi.org/10.1056/NEJMc2603129
-2026-11-06 | CDC 更新全美 2026 年麻疹累计确诊突破 5000 例达 5182 例（43 起暴发），超 2025 年全年总数两倍 | https://www.cdc.gov/measles/data-research/index.html
-2026-11-06 | 刚果（金）布本迪布约型埃博拉累计确诊逾 10,700 例（超 5200 死），WHO 推荐 ChAdOx1-BDBV 与 mRNA-1469 两款专属疫苗纳入 Tumaini 临床试验 | https://www.who.int/news/item/04-11-2026-two-new-candidate-vaccines-to-join-ebola-trial-as-treatment-research-advances
-2026-11-06 | 佛州行政听证处（DOAH）合并审理取消 4 种入学疫苗强制要求规则诉讼并排期 12 月 14–18 日举行正式取证听证 | https://wusf.publicradio.org/news/2026-11-03/hearing-for-physicians-challenge-to-end-vaccine-requirements-set-for-dec-14-18
-2026-11-06 | NASA 与加拿大宇航员完成太空行走安装国际空间站第 8 翼（最后一翼）iROSA 太阳翼，空间站总发电能力提升约 30% 至 215 千瓦 | https://www.nasa.gov/blogs/spacestation/2026/11/05/spacewalkers-install-final-roll-out-solar-array/
-2026-11-06 | 在轨近 22 年的 NASA“雨燕”（Neil Gehrels Swift）空间天文台因太阳活动加速轨道衰减于印尼苏门答腊上空再入大气层烧毁 | https://science.nasa.gov/missions/swift-observatory/nasas-swift-observatory-re-entered-atmosphere
-2026-11-06 | 中国长征二号丙发射遥感五十一号 07–09 星完成长征火箭第 675 次飞行；力箭二号遥二“一箭十八星”发射千帆极轨 21 组卫星 | https://www.xinhuanet.com/politics/20261105/9c44569e4d0d469796ff6bf610c3d9b4/c.html
-2026-11-06 | MIT 团队于《Nature Materials》利用超柔性带电聚合物连接件产生“自发价态”，合成全新纳米颗粒开放晶格结构 | https://doi.org/10.1038/s41563-026-02787-0
-2026-11-06 | 上海交通大学团队于《Nature》发表 AI 原生自主生物分子工程实验室 AutoDNA，连续 203 小时自主完成 11,382 个实验步骤 | https://www.nature.com/articles/s41586-026-11228-6
-2026-11-06 | 斯坦福大学团队于《JAMA》发表 13,307 名儿科伤者研究：青少年电动自行车外伤每季度激增 33%，重症及颅脑损伤率为传统自行车两倍 | https://med.stanford.edu/news/all-news/2026/11/e-bike-and-e-scooter-injuries-rise-among-kids-and-teens.html
-2026-11-06 | 卡罗林斯卡医学院等团队于《Neurology》发表观察性研究：女性生育年限较长与 70 岁时较低的脑小血管病负担相关 | https://doi.org/10.1212/WNL.0000000000218706
-2026-11-06 | NIH 发布更新 1998 年版《数据与安全监测政策》征求意见稿（NOT-OD-27-006），拟扩围至全部临床研究并改为按风险分级设立 DSMB | https://grants.nih.gov/grants/guide/notice-files/NOT-OD-27-006.html
 2026-11-09 | FDA 要求所有已上市 GLP-1 受体激动剂类降糖减重药在说明书中统一增补罕见致盲性眼病 NAION（非动脉炎性前部缺血性视神经病变）风险警告 | https://www.fda.gov/drugs/drug-safety-communications/fda-requires-safety-labeling-changes-glucagon-peptide-1-receptor-agonists-glp-1-ras-due-potential
 2026-11-09 | AHA 2026 与《NEJM》公布 8,322 人 3 期 Lp(a)HORIZON 试验：pelacarsen 降低脂蛋白(a)达 78.4% 但未能显著减少主要不良心血管事件（HR 1.02） | https://doi.org/10.1056/NEJMoa2610159
 2026-11-09 | AHA 2026 与《NEJM》公布 6,376 人 3 期 ZEUS 试验：抗 IL-6 单抗 ziltivekimab 大幅降低炎症标志物但未减少心血管复合终点事件（HR 0.99） | https://doi.org/10.1056/NEJMoa2612126
@@ -63,6 +49,14 @@
 2026-11-20 | Nature：鲁卜哈利沙漠考古调查显示早期人类只在同时有淡水与可打制石料处活动 | https://www.nature.com/nature/volumes/659/issues/8141
 2026-11-20 | 美国国家科学院报告呼吁加快论文撤稿与更正处理（STAT 摘要单源）| https://www.statnews.com/
 
+2026-11-21 | Capricor deramiocel（杜氏肌营养不良细胞疗法）收到 FDA 完全回应函（HOPE-3 数据不足） | https://www.capricor.com/investors/news-events/press-releases/detail/360/capricor-therapeutics-provides-regulatory-update-on
+2026-11-21 | 诺和诺德 Sogroya 获 FDA 批准用于特纳综合征儿童生长衰竭 | https://finance.yahoo.com/healthcare/articles/novos-sogroya-receives-fda-approval-164700013.html
+2026-11-21 | CDC 麻疹累计 5,838 例（截至 11/19），646 人住院 | https://www.contagionlive.com/view/measles-update-november-20-2026
+2026-11-21 | CDC 埃博拉截至 11/17 累计确诊 11,645、死亡 5,683 | https://www.cdc.gov/ebola/situation-summary/index.html
+2026-11-21 | 猎鹰 9 号发射美太空军 USSF-317（单源） | https://space.com/space-exploration/launches-spacecraft/spacex-falcon-9-classified-space-force-launch-ussf-317
+2026-11-21 | Science：扑杀海洋哺乳动物与海鸟不利于西海岸鲑鱼（建模研究） | https://www.natureworldnews.com/articles/73958/20261120/culling-seals-sea-lions-won-t-bring-back-west-coast-salmon-science-study-finds.htm
+2026-11-21 | 参议院拨款方案 NSF 88.3 亿美元并否决取消 SBE（AIP 单源） | https://www.aip.org/fyi/senate-science-funding-proposals-revealed
+
 ## 3. 进行中事件表
 - 事件：加州与美西 2026–2027 流感季反常提前暴发（甲型 H1N1 D.3.1.1 亚支 G155E 突变株驱动加州流感阳性率飙升，Bloom 实验室证实该突变显著逃避青少年与年轻成人既有中和抗体）｜最后进展：2026-11-17（加州约 120 例死亡，南加首例儿童死亡）｜下一步关注点：CDPH 与洛杉矶县公共卫生局 11 月中下旬急诊就诊率、住院率与死亡人数变化，以及 CDC 对当季流感疫苗针对 G155E 突变株真实世界保护效力（VE）的评估数据。
 - 事件：美国麻疹疫情与消除状态风险（CDC 截至 11/5 累计确诊升至 5182 例、43 起暴发，连续 13 周三位数增长，美国面临丧失 2000 年以来麻疹消除地位风险）｜最后进展：2026-11-17（PAHO 已正式宣布美国丧失消除地位；CDC 累计 5,412 例）｜下一步关注点：美国恢复消除地位的路径与 CDC/HHS 后续举措、CDC 下一期周报病例与死亡数（死亡数各方 6 与 10 不一）、肯塔基疫情增长。
@@ -72,3 +66,6 @@
 - 事件：NASA“ESCAPADE”双星火星探测任务（“蓝”号与“金”号于 11/7 与 11/9 完成近地动力飞越正式踏上奔火转移轨道）｜最后进展：2026-11-09｜下一步关注点：巡航阶段深空轨道修正机动（TCM）状态通报及 2027 年 9 月 7 日与 9 日火星轨道切入（MOI）准备进展。
 - 事件：NSF 关停社会、行为与经济科学学部（SBE）联邦诉讼与 2027 财年科研拨款博弈（学术界 11/9 起诉 NSF 违法关停 SBE 学部；国会中期选举后民主党接管科学与卫生委员会，临近 12/12 临时拨款到期日）｜最后进展：2026-11-09｜下一步关注点：波士顿联邦法院是否针对 SBE 学部关停签发临时限制令（TRO）或初步禁令，以及 12 月 12 日前国会 2027 财年 NIH/NSF 拨款法案谈判结果。
 - 事件：FDA 近期加速批准抗肿瘤/罕见病新药（Voceryq、Rybrevant Faspro）确证性试验与 GLP-1 类药物 NAION 安全监管（FDA 11/9 要求全部 GLP-1 受体激动剂增补 NAION 说明书警告）｜最后进展：2026-11-09｜下一步关注点：EMA 等其他国际监管机构是否跟进更新 GLP-1 类药物全景安全标签，以及近期加速获批新药三期确证性试验进展。 另：Summit ivonescimab 11/15 收 CRL（已报），下一步关注 Summit 是否公布重新提交/补充 OS 数据计划。
+
+- 事件：Capricor deramiocel CRL｜最后进展：2026-11-20｜下一步关注点：11/23 Capricor 电话会披露后续路径（会前沟通/再次申请）；另 Savara 罕见肺病药 FDA 将错过 11/22 行动日，等新决定日期。
+- 补充：麻疹最后进展 2026-11-20（5,838 例）；埃博拉最后进展 2026-11-20（CDC 11/17 口径 11,645 例）；NSF/SBE 2026-11-21（参议院方案否决取消 SBE，12/11 截止）。
