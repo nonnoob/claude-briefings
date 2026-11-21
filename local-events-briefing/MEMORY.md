@@ -1,11 +1,9 @@
 # local-events-briefing MEMORY
 
 ## 1. 本次运行
-- 运行时刻及检索截止：2026-11-20 17:04 PST（America/Los_Angeles；2026-11-21 01:04 UTC），傍晚场，侧重 11/21 周六与周末。
-- 实际覆盖窗口：2026-11-20 11:05 PST 至 2026-11-20 17:04 PST（常规，同日二次）。
-- 补搜（上一场）：新店（除 Original Pantry 外无确切开业日）、Thanksgiving 周末演出（无新官宣，Cristian Castro 11/28 Peacock Theater 仅单一聚合来源未收）、全国范围（Black Friday 无全国免费日，未收）。Witches Brew Santa Ana 11/21 夜市核实不到日期，未收。Deftones 2027-05-18 Hollywood Bowl 太远未收。
-
-- 本场补搜：Witches Brew Santa Ana 11/21 仍核实不到日期，未收；新店无确切开业日未收；全国范围无新活动。
+- 运行时刻及检索截止：2026-11-21 11:04 PST（America/Los_Angeles；19:04 UTC），上午场，侧重当天下午晚上与周日。
+- 实际覆盖窗口：2026-11-20 17:04 PST 至 2026-11-21 11:04 PST（常规）。
+- 补搜：新店（Ggiata Delicatessen Costa Mesa、HeyTea 等均无确切开业日，未收）、Thanksgiving 周末美食快闪（无 2026 有效结果）、新巡演官宣（无新增）、全国范围（Black Friday 无全国免费日，未收）。Witches Brew Santa Ana 11/21 夜市仍核实不到日期，未收。
 
 ## 2. 已报条目清单
 
@@ -131,6 +129,9 @@
 2026-11-20 | Mandarin Plaza 假日市集 11/21 11:00–16:00，970 N Broadway Chinatown LA（单源）| https://www.welikela.com/things-to-do-this-weekend-in-los-angeles-11-20-2026-to-11-22-2026/
 2026-11-20 | Getty Center《A Light in the Dark: Joseph Wright of Derby》11/24–2027-03-14，免费需预约，Los Angeles | https://www.getty.edu/exhibitions/wright-of-derby/
 2026-11-20 | Hollywood Christmas Parade 11/29 18:00 看台票开售（续报，儿童票价两说）| https://www.funwithkidsinla.com/post/hollywood-christmas-parade-2026-family-guide
+
+2026-11-21 | V-Beyond Concert 11/21 19:00 Honda Center Anaheim，巡演北美首站 | https://www.hondacenter.com/events/v-beyond-concert-1/
+2026-11-21 | Pasadena Doo Dah Love-In 11/22 11:00–16:30 Memorial Park Bandshell，免费 | https://www.coloradoboulevard.net/pasadena-doo-dah-crew-to-host-free-all-ages-love-in-on-november-22/
 
 ## 3. 进行中事件表
 - Hilbert Museum《The Art of the Simpsons》与《Otherworldly: Science Fiction Art》双新展 | 最后进展 2026-11-09 | 11 月 18 日在 Orange 正式揭幕，开展当日或前一日可做今明速览提醒
