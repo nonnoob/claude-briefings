@@ -1,8 +1,8 @@
 ## 1. 本次运行
 
-- 运行时刻及检索截止：2026-11-20 10:50 UTC（2026-11-20）。
-- 实际覆盖窗口：2026-11-19 10:40 UTC 至 2026-11-20 10:40 UTC（常规）。
-- 六方向及热点兜底已检索（模型与产品、研究与技术、监管与安全本期无可核实新内容）。深圳会晤成果仍无正式读数；英伟达永久 CEO 未定。
+- 运行时刻及检索截止：2026-11-21 10:45 UTC（2026-11-21）。
+- 实际覆盖窗口：2026-11-20 10:40 UTC 至 2026-11-21 10:45 UTC（常规）。
+- 六方向及热点兜底已检索（模型与产品、研究与技术、传闻与前瞻本期无可核实新内容）。英伟达永久 CEO 未定。
 
 ## 2. 已报条目清单
 
@@ -67,6 +67,13 @@
 - 2026-11-20 | 【单源】OpenAI 同意佐治亚电力可削减其 Effingham 园区最多 1000MW 供电 | https://www.techtarget.com/news/ai-data-centers-face-a-test-beyond-securing-power/875142/
 - 2026-11-20 | 【单源】Nscale 上线首个 Vera Rubin NVL72 机架；特斯拉发布数据中心固态变压器 | https://www.datacenterdynamics.com/en/news/?page=2
 - 2026-11-20 | 【传闻】【单源】谷歌 DeepMind 工程师预告视频，疑为 Gemini 4 Helium | https://pasqualepillitteri.it/en/news/35030/gemini-4-helium-coming-next-google-teases-flash-lite
+- 2026-11-21 | 【续报】Anthropic ANT 次日跌约 11% 至 86.09 美元，Seaport 中性、William Blair 跑赢大盘 | https://www.benzinga.com/markets/tech/26/11/63487344/why-anthropic-stock-is-sliding-today-after-its-blockbuster-ipo-debut
+- 2026-11-21 | DeepSeek 第二轮千亿级融资完成工商变更，31 家出资方，投后估值约 6155 亿元 | https://finance.sina.com.cn/tech/roll/2026-11-20/doc-inizhvyc0876043.shtml
+- 2026-11-21 | 【传闻】Cognition 洽谈 750 亿美元估值融资 20 亿美元以上；Databricks 早期洽谈 2250 亿美元估值融资 | https://www.techmeme.com/261120/p36
+- 2026-11-21 | 阿波罗/高盛为 SpaceX Vera Rubin GPU 完成约 440 亿美元票据定价 | https://wtvbam.com/2026/11/20/apollo-goldman-lead-44-billion-spacex-gpu-debt-financing/
+- 2026-11-21 | 特朗普威胁对海外建 AI 数据中心的美企征“巨额税” | https://www.axios.com/2026/11/20/us-ai-trump-data-centers-overseas
+- 2026-11-21 | 【续报】贝森特称对华 H200 政策不变、中美同意军事决策人类参与；特朗普望黄仁勋获“第二次机会” | https://www.cnbc.com/2026/11/20/treasury-secretary-scott-bessent.html
+- 2026-11-21 | 加州起诉 OpenAI（安全保障不足）；四家非营利组织起诉五家 AI 公司要求叫停更强模型 | https://abcnews.com/Business/california-sues-openai-alleging-ai-development-lacked-adequate/story?id=138187223
 
 ## 3. 进行中事件表
 
@@ -81,3 +88,6 @@
 - 事件：DeepSeek 美国联邦禁令与州级调查（11/09更新：在美国 DHS 联邦文职机构 60 天禁用令执行窗口期，德州总检察长 Ken Paxton 等启动针对 DeepSeek 数据隐私与能力宣传的州级调查） | 最后进展日期：2026-11-09 | 下一步关注点：美国各联邦机构对 DeepSeek 移除执行与豁免情况及更多州总检察长是否跟进联合调查
 
 - 事件：美国 AI 芯片出口新规（11/18：BIS 要求东南亚数据中心购买先进芯片须特别许可，中方威胁反制，相关贷款受冲击） | 最后进展日期：2026-11-19 | （11/19：深圳会晤开场未公布芯片成果，存量数据中心 90 天过渡） | 下一步关注点：深圳会晤最终成果与中方具体反制（稀土）；国家名单（是否含巴西）
+
+- 事件：AI 独角兽融资洽谈（Cognition 750 亿美元估值、Databricks 2250 亿美元估值，均为早期洽谈） | 最后进展日期：2026-11-20 | 下一步关注点：两家融资正式官宣与最终估值
+- 事件：特朗普海外数据中心征税设想与加州/非营利组织对 AI 公司诉讼 | 最后进展日期：2026-11-20 | 下一步关注点：白宫是否给出税率/实施细则；OpenAI 对加州诉讼的回应与法院排期
