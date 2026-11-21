@@ -1,10 +1,9 @@
 ## 1. 本次运行
 
-- 本次运行时刻及检索截止：2026-11-20 10:11 UTC。
-- 上次运行：2026-11-19 10:10 UTC。
-- 覆盖窗口：2026-11-19 10:10 UTC 至 2026-11-20 10:11 UTC（常规）。
-- 本期窗口内Google/Android、系统更新、安全、投融资、政策方向未检索到新的可核实内容；Anthropic IPO（11/19）归AI行业简报未收录。
-- Android/系统更新、安全、开源、政策方向窗口内未检索到新的可核实内容；Anthropic IPO（11/19上市）按规则归AI行业简报，未收录。下期可留意：Tesla 12/3股东大会；英伟达董事会对贝森特限期（约11/25）的回应；黄仁勋12/1国会问询；Tesla-SpaceX合并12月公告传闻；Motorola Signature 27 11/26开卖。
+- 本次运行时刻及检索截止：2026-11-21 10:10 UTC。
+- 上次运行：2026-11-20 10:11 UTC。
+- 覆盖窗口：2026-11-20 10:11 UTC 至 2026-11-21 10:10 UTC（常规）。
+- 本期Google/Android、科技公司、科技人物、政策方向窗口内未检索到新的可核实内容（Musk-Tesla/SpaceX合并仅为已报事件的延续）。下期可留意：Tesla 12/3股东大会；英伟达董事会对贝森特限期（约11/25）的回应；黄仁勋12/1国会问询；Motorola Signature 27 11/26开卖；VMware CVE-2026-123890是否入CISA KEV。
 
 ## 2. 已报条目清单
 
@@ -65,10 +64,18 @@
 - 2026-11-20 | PostgreSQL 19发布（单源） | https://www.postgresql.org/
 - 2026-11-20 | 三星"Origin"安卓笔记本被One UI 9.5代码曝光（传闻） | https://www.androidauthority.com/samsung-origin-android-laptops-one-ui-9-5-apk-teardown-3737102/
 - 2026-11-20 | SpaceX称墨西哥海滩碎片无法明确与星舰Flight 15关联 | https://teslanorth.com/2026/11/19/spacex-starship-flight-15-debris-mexico/
+- 2026-11-21 | 微软向Windows 11 Beta/Experimental推送Build 26320.10022 | https://blogs.windows.com/windows-insider/2026/11/20/announcing-new-builds-for-20-november-2026/
+- 2026-11-21 | 华为推出星芒子品牌与首款鸿蒙AI手机星芒O1 Pro，海信发布A10系列墨水屏手机（单源） | https://k.sina.com.cn/article_7857201856_1d45362c001908vpv6.html
+- 2026-11-21 | 三星被曝暂停向百度昆仑芯、字节出货AI芯片；贝森特称H200对华政策不变 | https://en.sedaily.com/society/2026/11/21/us-chip-export-curbs-widen-samsung-halts-ai-chip-shipments
+- 2026-11-21 | 贝森特称特朗普与习近平谈过黄仁勋而其本人称未涉及，无需对英伟达旧款芯片追加限制 | https://www.cnbc.com/2026/11/20/treasury-secretary-scott-bessent.html
+- 2026-11-21 | Bending Spoons以36.8亿美元从Intuit收购Mailchimp | https://www.bloomberg.com/news/articles/2026-11-19/bending-spoons-to-buy-mailchimp-from-intuit-for-3-7-billion
+- 2026-11-21 | 英伟达被曝洽谈以逾5亿美元收购Inception（传闻） | https://techfundingnews.com/
+- 2026-11-21 | VMware vCenter零日CVE-2026-123890被中国关联组织自9月利用，博通已修复 | https://www.helpnetsecurity.com/2026/11/20/vmware-vcenter-zero-day-cve-2026-123890-exploited/
+- 2026-11-21 | Rust Coreutils 0.13发布 | https://www.phoronix.com/
 
 ## 3. 进行中事件表
 
-1. 事件：英伟达CEO更替、涉外情报调查与出口管制问询｜最后进展：2026-11-18，黄仁勋定于12/1接受国会闭门问询、Teter 12/2；贝森特11/15限董事会10天答复Megaspeed转运问题；SEC被曝民事调查（单源）；董事会被曝接触Rene Haas｜下一步关注：台积电/三星对华出货许可获批进展与台股走势；永久CEO人选；H200对华停货是否恢复；董事会对贝森特限期（约11/25）的回应；SEC调查是否获官方证实
+1. 事件：英伟达CEO更替、涉外情报调查与出口管制问询｜最后进展：2026-11-20，贝森特称H200政策不变；11/18，黄仁勋定于12/1接受国会闭门问询、Teter 12/2；贝森特11/15限董事会10天答复Megaspeed转运问题；SEC被曝民事调查（单源）；董事会被曝接触Rene Haas｜下一步关注：三星/台积电对华出货许可获批进展（三星被曝暂停百度昆仑芯、字节出货）与台股走势；永久CEO人选；H200对华停货是否恢复；董事会对贝森特限期（约11/25）的回应；SEC调查是否获官方证实
 2. 事件：美光台湾桃园厂劳资争议与暂停新晶圆厂建设｜最后进展：2026-11-06，因桃园厂工会要求将营业利润15%用于员工分红的谈判陷入僵局及抗议台中厂协议透明度问题，美光被曝暂停总投资30亿至45亿美元的桃园新晶圆厂（Fab 11E）建设｜下一步关注：桃园厂劳资调解是否达成协议、Fab 11E何时复工
 3. 事件：美满电子（Marvell）1150亿美元全股票收购Lumentum｜最后进展：2026-11-02，Marvell宣布达成最终协议以隐含企业价值约1150亿美元全股票交易收购光通信厂商Lumentum（含32亿美元反向分手费条款，预计2028年上半年交割）｜下一步关注：双方股东大会表决及中美欧反垄断监管审查进展
 4. 事件：特斯拉与SpaceX董事会特别委员会评估合并及关停Cybertruck产线｜最后进展：2026-11-18，马斯克在DealBook称两家公司"可能合并更好"但反对合并单独触发其薪酬奖励，Bloomberg称最早12月可能公告；此前11/09马斯克确认得州工厂Cybertruck产线将于2027年年中关停并向无法交付的预订者退还定金，同时双方董事会特别委员会持续评估合并方案｜下一步关注：特别委员会正式合并方案、国会与监管机构反垄断审查进展
