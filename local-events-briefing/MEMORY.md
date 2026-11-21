@@ -1,9 +1,11 @@
 # local-events-briefing MEMORY
 
 ## 1. 本次运行
-- 运行时刻及检索截止：2026-11-20 11:05 PST（America/Los_Angeles；2026-11-20 19:05 UTC），上午场，侧重 11/20 周五下午起与周末。
-- 实际覆盖窗口：2026-11-19 17:05 PST 至 2026-11-20 11:05 PST（常规）。
-- 补搜：新店（除 Original Pantry 外无确切开业日）、Thanksgiving 周末演出（无新官宣，Cristian Castro 11/28 Peacock Theater 仅单一聚合来源未收）、全国范围（Black Friday 无全国免费日，未收）。Witches Brew Santa Ana 11/21 夜市核实不到日期，未收。Deftones 2027-05-18 Hollywood Bowl 太远未收。
+- 运行时刻及检索截止：2026-11-20 17:04 PST（America/Los_Angeles；2026-11-21 01:04 UTC），傍晚场，侧重 11/21 周六与周末。
+- 实际覆盖窗口：2026-11-20 11:05 PST 至 2026-11-20 17:04 PST（常规，同日二次）。
+- 补搜（上一场）：新店（除 Original Pantry 外无确切开业日）、Thanksgiving 周末演出（无新官宣，Cristian Castro 11/28 Peacock Theater 仅单一聚合来源未收）、全国范围（Black Friday 无全国免费日，未收）。Witches Brew Santa Ana 11/21 夜市核实不到日期，未收。Deftones 2027-05-18 Hollywood Bowl 太远未收。
+
+- 本场补搜：Witches Brew Santa Ana 11/21 仍核实不到日期，未收；新店无确切开业日未收；全国范围无新活动。
 
 ## 2. 已报条目清单
 
@@ -125,6 +127,10 @@
 2026-11-20 | LEGOLAND Christmas Bricktacular 11/21 开始提醒（续报）| https://www.legoland.com/california/things-to-do/theme-park/whats-new/
 2026-11-20 | Tinker Bell's Neverland 11/13–2027-01-03 17:30–20:30 South Coast Botanic Garden，$33 起 | https://secretlosangeles.com/neverland-holiday-light-show/
 2026-11-20 | Descanso Enchanted Forest of Light 11/22 开幕提醒（续报）| https://thrillzing.com/seasonal-events/enchanted-forest-of-light-2026-descanso-gardens/
+2026-11-20 | Pacific Symphony Rachmaninoff 11/21 20:00 最后一场提醒，Costa Mesa（续报）| https://pacificsymphony.blog/2026/10/22/nobuyuki-tsujii-and-the-music-you-can-feel/
+2026-11-20 | Mandarin Plaza 假日市集 11/21 11:00–16:00，970 N Broadway Chinatown LA（单源）| https://www.welikela.com/things-to-do-this-weekend-in-los-angeles-11-20-2026-to-11-22-2026/
+2026-11-20 | Getty Center《A Light in the Dark: Joseph Wright of Derby》11/24–2027-03-14，免费需预约，Los Angeles | https://www.getty.edu/exhibitions/wright-of-derby/
+2026-11-20 | Hollywood Christmas Parade 11/29 18:00 看台票开售（续报，儿童票价两说）| https://www.funwithkidsinla.com/post/hollywood-christmas-parade-2026-family-guide
 
 ## 3. 进行中事件表
 - Hilbert Museum《The Art of the Simpsons》与《Otherworldly: Science Fiction Art》双新展 | 最后进展 2026-11-09 | 11 月 18 日在 Orange 正式揭幕，开展当日或前一日可做今明速览提醒
@@ -138,11 +144,11 @@
 - Journey Honda Center | 最后进展 2026-11-11 | 11 月 24 日 19:30 演出；11 月 23–24 日可做节点提醒
 - Enchant Christmas Santa Anita Park | 最后进展 2026-11-20 | 开幕提醒已做；官方票价仍未核实（第三方 GA 约 $25–72.5 起，不一）；闭合
 - Steve Lacy Hollywood Bowl | 最后进展 2026-11-20 | 提醒已做；闭合
-- Hollywood Christmas Parade | 最后进展 2026-11-16 | 11 月 29 日 Hollywood Blvd；待官方公布座位票信息，11 月 25–28 日可核实收录
+- Hollywood Christmas Parade | 最后进展 2026-11-20 | 11 月 29 日 18:00；看台票已收录（儿童价两说）；11 月 28–29 日可做当日提醒并核 Ticketmaster 价格
 - Sawdust Winter Fantasy | 最后进展 2026-11-19 | 11 月 20 日开幕，票价 $12.50 已收；节点提醒已随 11-19 续报发出，闭合
 - LEGOLAND California Christmas Bricktacular | 最后进展 2026-11-20 | 开始提醒已做；闭合
 - Jackson Browne Pantages 11/23 加场 | 最后进展 2026-11-17 | 11 月 23 日 20:00 余票不多；11 月 22–23 日可做节点提醒
 - KATSEYE Crypto.com Arena | 最后进展 2026-11-20 | 周末提醒已做；闭合
 - Fashion Island 树点灯 | 最后进展 2026-11-19 | 已做 11/20 提醒并定结束时间；闭合
-- Pacific Symphony Rachmaninoff | 最后进展 2026-11-18 | 11 月 19–21 日；核实官方票价，11 月 21 日可提醒最后一场
-- Pacific Symphony Rachmaninoff 补充：11 月 21 日最后一场提醒尚未做（保留上条）
+- Pacific Symphony Rachmaninoff | 最后进展 2026-11-20 | 最后一场提醒已做；闭合
+- Getty Center Wright of Derby | 最后进展 2026-11-20 | 11 月 24 日开幕；当日可做开幕提醒
