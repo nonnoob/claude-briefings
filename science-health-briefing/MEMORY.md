@@ -1,6 +1,6 @@
 ## 1. 本次运行
-- 运行时刻及检索截止：2026-11-21 10:55 UTC；实际覆盖窗口：2026-11-20 10:55 UTC 至 2026-11-21 10:55 UTC（常规）。
-- 收录 7 条（医学 2、公共卫生 2、航天 1、科学突破 1、科研政策 1）；健康与生活窗口内未找到未报道的新内容。
+- 运行时刻及检索截止：2026-11-22 10:55 UTC；实际覆盖窗口：2026-11-21 10:55 UTC 至 2026-11-22 10:55 UTC（常规）。
+- 收录 3 条（医学 1、航天 1、健康与生活 1）；公共卫生、科学突破、科研政策窗口内未找到未报道的新内容。
 
 ## 2. 已报条目清单
 
@@ -57,6 +57,10 @@
 2026-11-21 | Science：扑杀海洋哺乳动物与海鸟不利于西海岸鲑鱼（建模研究） | https://www.natureworldnews.com/articles/73958/20261120/culling-seals-sea-lions-wont-bring-back-west-coast-salmon-science-study-finds.htm
 2026-11-21 | 参议院拨款方案 NSF 88.3 亿美元并否决取消 SBE（AIP 单源） | https://www.aip.org/fyi/senate-science-funding-proposals-revealed
 
+2026-11-22 | Savara 通报 FDA 将不在 11/22 目标日前对 molgramostim BLA 采取行动，无新日期、非拒批 | https://www.stocktitan.net/news/SVRA/savara-informed-that-fda-will-not-take-action-on-the-molgramostim-0ffyakgpkv26.html
+2026-11-22 | 马斯克称 Ship 42 不再复飞、将作展品保留（单源） | https://www.space.com/space-exploration/launches-spacecraft/spacex-will-retire-1st-starship-upper-stage-ever-caught-by-chopsticks-elon-musk-says
+2026-11-22 | Lancet Psychiatry 115 项试验抗抑郁药长期维持治疗荟萃分析 | https://casrai.org/news/lancet-meta-analysis-115-trials-long-term-antidepressant-maintenance-2026
+
 ## 3. 进行中事件表
 - 事件：加州与美西 2026–2027 流感季反常提前暴发（甲型 H1N1 D.3.1.1 亚支 G155E 突变株驱动加州流感阳性率飙升，Bloom 实验室证实该突变显著逃避青少年与年轻成人既有中和抗体）｜最后进展：2026-11-17（加州约 120 例死亡，南加首例儿童死亡）｜下一步关注点：CDPH 与洛杉矶县公共卫生局 11 月中下旬急诊就诊率、住院率与死亡人数变化，以及 CDC 对当季流感疫苗针对 G155E 突变株真实世界保护效力（VE）的评估数据。
 - 事件：美国麻疹疫情与消除状态风险（CDC 截至 11/5 累计确诊升至 5182 例、43 起暴发，连续 13 周三位数增长，美国面临丧失 2000 年以来麻疹消除地位风险）｜最后进展：2026-11-17（PAHO 已正式宣布美国丧失消除地位；CDC 累计 5,412 例）｜下一步关注点：美国恢复消除地位的路径与 CDC/HHS 后续举措、CDC 下一期周报病例与死亡数（死亡数各方 6 与 10 不一）、肯塔基疫情增长。
@@ -67,5 +71,5 @@
 - 事件：NSF 关停社会、行为与经济科学学部（SBE）联邦诉讼与 2027 财年科研拨款博弈（学术界 11/9 起诉 NSF 违法关停 SBE 学部；国会中期选举后民主党接管科学与卫生委员会，临近 12/12 临时拨款到期日）｜最后进展：2026-11-09｜下一步关注点：波士顿联邦法院是否针对 SBE 学部关停签发临时限制令（TRO）或初步禁令，以及 12 月 12 日前国会 2027 财年 NIH/NSF 拨款法案谈判结果。
 - 事件：FDA 近期加速批准抗肿瘤/罕见病新药（Voceryq、Rybrevant Faspro）确证性试验与 GLP-1 类药物 NAION 安全监管（FDA 11/9 要求全部 GLP-1 受体激动剂增补 NAION 说明书警告）｜最后进展：2026-11-09｜下一步关注点：EMA 等其他国际监管机构是否跟进更新 GLP-1 类药物全景安全标签，以及近期加速获批新药三期确证性试验进展。 另：Summit ivonescimab 11/15 收 CRL（已报），下一步关注 Summit 是否公布重新提交/补充 OS 数据计划。
 
-- 事件：Capricor deramiocel CRL｜最后进展：2026-11-20｜下一步关注点：11/23 Capricor 电话会披露后续路径（会前沟通/再次申请）；另 Savara 罕见肺病药 FDA 将错过 11/22 行动日，等新决定日期。
+- 事件：Capricor deramiocel CRL｜最后进展：2026-11-20｜下一步关注点：11/23 Capricor 电话会披露后续路径（会前沟通/再次申请）；另 Savara 罕见肺病药（molgramostim）FDA 11/22 错过行动日（最后进展 2026-11-22），等 FDA 新决定日期或公司更新。
 - 补充：麻疹最后进展 2026-11-20（5,838 例）；埃博拉最后进展 2026-11-20（CDC 11/17 口径 11,645 例）；NSF/SBE 2026-11-21（参议院方案否决取消 SBE，12/11 截止）。
