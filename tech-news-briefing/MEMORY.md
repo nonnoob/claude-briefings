@@ -1,9 +1,9 @@
 ## 1. 本次运行
 
-- 本次运行时刻及检索截止：2026-11-21 10:10 UTC。
-- 上次运行：2026-11-20 10:11 UTC。
-- 覆盖窗口：2026-11-20 10:11 UTC 至 2026-11-21 10:10 UTC（常规）。
-- 本期Google/Android、科技公司、科技人物、政策方向窗口内未检索到新的可核实内容（Musk-Tesla/SpaceX合并仅为已报事件的延续）。下期可留意：Tesla 12/3股东大会；英伟达董事会对贝森特限期（约11/25）的回应；黄仁勋12/1国会问询；Motorola Signature 27 11/26开卖；VMware CVE-2026-123890是否入CISA KEV。
+- 本次运行时刻及检索截止：2026-11-22 10:15 UTC。
+- 上次运行：2026-11-21 10:10 UTC。
+- 覆盖窗口：2026-11-21 10:10 UTC 至 2026-11-22 10:10 UTC（常规）。
+- 本期窗口内（周末）新内容稀少，多数检索结果为窗口前旧闻；系统更新、新品、投融资、芯片、开源、政策方向未检索到新的未报内容。下期可留意：Tesla 12/3股东大会；英伟达董事会对贝森特限期（约11/25）的回应；黄仁勋12/1国会问询；Motorola Signature 27 11/26开卖；iOS 27.3正式版（预计12月）。
 
 ## 2. 已报条目清单
 
@@ -72,6 +72,9 @@
 - 2026-11-21 | 英伟达被曝洽谈以逾5亿美元收购Inception（传闻） | https://techfundingnews.com/
 - 2026-11-21 | VMware vCenter零日CVE-2026-123890被中国关联组织自9月利用，博通已修复 | https://www.helpnetsecurity.com/2026/11/20/vmware-vcenter-zero-day-cve-2026-123890-exploited/
 - 2026-11-21 | Rust Coreutils 0.13发布 | https://www.phoronix.com/
+- 2026-11-22 | Gemini安卓应用相机改版为底部面板布局 | https://newsbytesapp.com/news/science/googles-gemini-gives-android-in-app-camera-a-bottom-sheet-layout/tldr
+- 2026-11-22 | SpaceX债务贷款方被曝阻止马斯克把AI芯片送上太空的计划（单源） | https://futurism.com/space/spacex-lenders-elon-musk-chips-space-data-centers
+- 2026-11-22 | Cisco Expressway硬编码凭据漏洞CVE-2026-76466（CVSS 9.8）入CISA KEV | https://blog.ostorlab.co/cisco-expressway-root-rce-cve-2026-76466.html
 
 ## 3. 进行中事件表
 
