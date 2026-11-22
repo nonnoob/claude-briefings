@@ -1,8 +1,8 @@
 ## 1. 本次运行
 
-- 运行时刻及检索截止：2026-11-21 10:45 UTC（2026-11-21）。
-- 实际覆盖窗口：2026-11-20 10:40 UTC 至 2026-11-21 10:45 UTC（常规）。
-- 六方向及热点兜底已检索（模型与产品、研究与技术、传闻与前瞻本期无可核实新内容）。英伟达永久 CEO 未定。
+- 运行时刻及检索截止：2026-11-22 10:45 UTC（2026-11-22）。
+- 实际覆盖窗口：2026-11-21 10:45 UTC 至 2026-11-22 10:41 UTC（常规，周末信息稀薄）。
+- 六方向及热点兜底已检索，仅研究与传闻方向有少量新内容。
 
 ## 2. 已报条目清单
 
@@ -74,6 +74,8 @@
 - 2026-11-21 | 特朗普威胁对海外建 AI 数据中心的美企征“巨额税” | https://www.axios.com/2026/11/20/us-ai-trump-data-centers-overseas
 - 2026-11-21 | 【续报】贝森特称对华 H200 政策不变、中美同意军事决策人类参与；特朗普望黄仁勋获“第二次机会” | https://www.cnbc.com/2026/11/20/treasury-secretary-scott-bessent.html
 - 2026-11-21 | 加州起诉 OpenAI（安全保障不足）；四家非营利组织起诉五家 AI 公司要求叫停更强模型 | https://abcnews.com/Business/california-sues-openai-alleging-ai-development-lacked-adequate/story?id=138187223
+- 2026-11-22 | 【单源】arXiv 预印本称开源 27B 模型可改写自身权重获 6.6 分提升（Jiajun Fan 等） | https://aiweekly.co/alerts/open-27b-model-rewrites-its-own-weights-for-66-point-gain
+- 2026-11-22 | 【传闻】【单源】英伟达据 The Information 接近以至少 5 亿美元收购 Inception（扩散语言模型） | https://the-decoder.com/nvidia-bets-at-least-500-million-on-inceptions-diffusion-models-to-strengthen-its-open-source-nemotron-lineup/
 
 ## 3. 进行中事件表
 
@@ -91,3 +93,4 @@
 
 - 事件：AI 独角兽融资洽谈（Cognition 750 亿美元估值、Databricks 2250 亿美元估值，均为早期洽谈） | 最后进展日期：2026-11-20 | 下一步关注点：两家融资正式官宣与最终估值
 - 事件：特朗普海外数据中心征税设想与加州/非营利组织对 AI 公司诉讼 | 最后进展日期：2026-11-20 | 下一步关注点：白宫是否给出税率/实施细则；OpenAI 对加州诉讼的回应与法院排期
+- 事件：英伟达收购 Inception（传闻） | 最后进展日期：2026-11-22 | 下一步关注点：英伟达或 Inception 官宣交易及最终价格
