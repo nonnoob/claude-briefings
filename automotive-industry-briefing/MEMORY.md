@@ -1,30 +1,11 @@
 ## 1. 本次运行时刻与实际覆盖窗口
 
-- 运行时刻及检索截止：2026-11-21 10:25 UTC。
-- 覆盖窗口：2026-11-20 10:20 UTC 至 2026-11-21 10:25 UTC（常规）。
-- 七方向与热点兜底已检索（检索工具对近24小时内容覆盖偏薄）；电动化与供应链、智能驾驶、新车发布、政策监管本期无新增实质内容。
+- 运行时刻及检索截止：2026-11-22 10:30 UTC。
+- 覆盖窗口：2026-11-21 10:25 UTC 至 2026-11-22 10:20 UTC（常规）。
+- 七方向与热点兜底已检索（检索工具对近24小时内容覆盖偏薄）；质量安全方向本期无新增，政策方向仅荷兰法院裁决一条。
 
 ## 2. 已报条目清单（最近 14 天）
 
-- 2026-11-06 | 国内车企披露10月销量：比亚迪49.02万辆创新高、吉利破30万辆，零跑10.61万辆，小鹏与小米首破5万辆，理想跌破3万辆、赛力斯同比降50% | https://www.cls.cn/detail/2522010
-- 2026-11-06 | 乘联分会预估10月全国新能源乘用车批发180万辆（+12%），特斯拉中国批发67,829辆（环比降28.88%）退居第八 | https://feng.ifeng.com/c/8xm4CfGG2cC
-- 2026-11-06 | 第九届进博会：大众展示本土自研技术矩阵VEGA与CEA架构，丰田推介雷克萨斯金山工厂，日产宣布N7与锋坦皮卡在菲律宾上市 | https://www.guancha.cn/qiche/2026_11_04_907053.shtml
-- 2026-11-06 | 加拿大工会Unifor就Stellantis出售Brampton工厂僵局致函联邦与安大略省部长请求紧急召开四方会谈 | https://www.unifor.org/news/all-news/urgent-four-party-meeting-discuss-brampton-assembly-plant
-- 2026-11-06 | 宁德时代宜春枧下窝锂矿采矿项目正式取得宜春市生态环境局环评批复 | https://finance.sina.com.cn/wm/2026-10-30/doc-iniwziit4558465.shtml
-- 2026-11-06 | 大众汽车（中国）向合肥建投转让国轩高科5.30%股权（约23.17亿元）获合肥市国资委批复 | https://www.nbd.com.cn/articles/2026-11-06/4640856.html
-- 2026-11-06 | 天赐材料与亿纬锂能签署2027-2029年45万吨电解液长单；亿纬锂能德国莱比锡VMI仓库投运 | https://www.itdcw.com/news/ycnews/110615Z522026.html
-- 2026-11-06 | 特斯拉Robotaxi在得州沃斯堡开启无安全员运营（全美第7城）；Uber计划2026年底部署约700辆无人车 | https://finance.sina.com.cn/tech/digi/2026-11-03/doc-inixmxcu9881524.shtml
-- 2026-11-06 | 百度AI Day深圳专场首发面向物理AI的智能体驱动世界模型"Apollo World"，云端日测十万公里 | https://www.xinhuanet.com/tech/20261104/38e7bae3b4094da796b3f51e2252cefe/c.html
-- 2026-11-06 | Waymo与丰田深化L4合作拟2027年在日测试bZ4X车队，并宣布2028年1月结束奥斯汀与亚特兰大Uber独家合作 | https://www.smmt.co.uk/toyota-and-waymo-deepen-driverless-vehicle-partnership/
-- 2026-11-06 | 吉利银河上市全球首款量产甲醇插混家轿星耀6 E-fuel，限时焕新价7.68万-9.68万元 | http://www.news.cn/auto/20261104/a563e765171549e7b418beb3afd2e762/c.html
-- 2026-11-06 | 比亚迪第二代海豹07（搭云辇-M，13.99万-20.18万元）与新款领克08 EM-P（标配激光雷达，限时15.98万起）于11/5上市 | https://auto.ifeng.com/c/8xoPBIi72OX
-- 2026-11-06 | 奔驰中国因车门锁微动开关防潮不良召回超18万辆进口及国产车；保时捷召回部分Cayenne及911 | https://www.samrdprc.org.cn/zhxx/jdczh/jdczh/art/2026/art_10d7a4f582ff44d0a3039814a9adddf5.html?type=nFZcuWzfh2c41ylKrWj7k
-- 2026-11-06 | 宝马、大众、理想等多家车企密集发布防诈声明辟谣假冒"高田气囊召回"木马短信 | https://www.cls.cn/detail/2527439
-- 2026-11-06 | 欧盟正式对混动车进口启动WTO全球保障措施调查，国内主流车企密集赴京协商混动出口配额分配 | https://www.yicai.com/news/103420196.html
-- 2026-11-06 | 特斯拉按期向NHTSA提交Cybercab无方向盘自认证调查（AQ26002）答复但对核心合规依据申请全面商业保密 | https://electrek.co/2026/11/05/tesla-cybercab-nhtsa-sworn-answers-confidential/
-- 2026-11-06 | 上汽、长安、广汽三季报：上汽Q3净利降76.7%至4.86亿，长安Q3转亏7.58亿，广汽前三季累计亏69.87亿 | https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12674824&stockid=600104
-- 2026-11-06 | 丰田FY26 Q2营业利润增34%至1.13万亿日元并上调全年指引（在华4-9月销量降25%）；宝马Q3 EBIT降29.7% | https://pressroom.toyota.com/tmc-announces-april-through-september-2026-financial-results/
-- 2026-11-06 | 大众集团前三季营业利润骤降至7100万欧元并宣布310亿欧元降本计划；法拉利Q3上调指引；Rivian Q3营收增38% | https://finance.eastmoney.com/a/202610313917611231.html
 - 2026-11-09 | 乘联分会公布10月狭义乘用车零售164.3万辆（-27.1%），新能源零售110.9万辆、渗透率67.5%创新高，新能源车出口增144.7%至58.2万辆 | https://cnevpost.com/2026/11/09/china-october-nev-retail-sales-fall-13-7-as-penetration-hits-record-67-5-cpca-data-shows/
 - 2026-11-09 | 本田宣布投资30亿美元在美国俄亥俄州新建年产能24万辆的整车装配厂（2029年投产），重点扩大混动产能 | https://hondanews.com/en-US/releases/honda-to-boost-us-hybrid-production-with-new-3-billion-us-auto-plant-and-investments-in-multiple-facilities
 - 2026-11-09 | Stellantis与加拿大装甲车企Roshel正式签署资产购买协议出售Brampton组装厂，Unifor强烈谴责、联邦工业部长呼吁紧急会议 | https://www.unifor.org/news/all-news/sale-brampton-assembly-plant-betrayal-stellantis
@@ -70,6 +51,13 @@
 - 2026-11-21 | 马斯克首访深圳并赴上海工厂，称特斯拉将继续提高在华产量（无具体数字） | https://finance.eastmoney.com/a/202611203935705423.html
 - 2026-11-21 | 广汽丰田铂智3X召回10.02万辆，一汽丰田普拉多混动4.73万辆、雷克萨斯GX550h 8130辆（单源） | https://m.21jingji.com/article/20261121/herald/3cf2a7b77701d2648826cada3e9cdd28.html
 - 2026-11-21 | 蔚来美股11/20收2.45美元跌7.89%，理想、小鹏同步下跌（单源） | https://www.xueqiu.com/S/NIO
+- 2026-11-22 | 零跑与欧宝签署1亿欧元C级纯电SUV开发协议（2028H2上市，萨拉戈萨产） | https://k.sina.cn/article_5953466437_162dab0450670bij48.html
+- 2026-11-22 | 韩国1-10月对华汽车贸易逆差42.31亿美元（+92.7%） | https://k.sina.com.cn/article_7857201856_1d45362c001908vtxk.html
+- 2026-11-22 | 宁德时代发律师函否认催债邮件与阻碍理想MEGA召回（单源） | https://www.sina.cn/weibo/detail/5367630739278190.html
+- 2026-11-22 | 特斯拉更新Robotaxi应急方案，确认Cybercab新硬件（单源） | https://k.sina.com.cn/article_7857201856_1d45362c001908vtxk.html
+- 2026-11-22 | 雷克萨斯新一代ES纯电版上市33.99万-35.99万元；蔚来ES9地平线鎏金特别版上市63.8万起 | https://k.sina.com.cn/article_7857201856_1d45362c001908vtrm.html
+- 2026-11-22 | 海牙法院临时禁令禁比亚迪钛7在欧盟销售（路虎卫士外观设计），比亚迪将上诉 | https://www.sina.cn/weibo/detail/5368061045768931.html
+- 2026-11-22 | 零跑Q3营收317亿元（+63%） | https://www.163.com/dy/article/LC7BQ92P0511U82T.html
 
 ## 3. 进行中事件表
 
@@ -88,4 +76,6 @@
 - 事件：蔚来财务谣言与港股低位 | 最后进展日期：2026-11-21 | 下一步关注点：11/20美股收2.45美元跌7.89%；关注警方对蔚来报案的处理结果、蔚来Q3财报披露时间及现金流与指引表述。
 - 事件：比亚迪第三代唐上市与账期核查 | 最后进展日期：2026-11-17 | 下一步关注点：11月24日第三代唐正式上市定价；关注17家车企1月31日账期报告及工信部后续约谈。
 - 事件：Waymo遭加州DMV禁上州内高速并全美暂停高速服务 | 最后进展日期：2026-11-18 | 下一步关注点：关注Waymo向加州DMV提交纠正措施及禁令解除时间，以及NHTSA校车违规召回审查（RQ26006）进展。
-- 事件：理想与宁德时代供应关系 | 最后进展日期：2026-11-20 | 下一步关注点：关注理想或宁德时代对催款邮件及"切割"说法的正式回应，及理想Q3财报披露时间。
+- 事件：理想与宁德时代供应关系 | 最后进展日期：2026-11-22 | 下一步关注点：宁德时代已发律师函否认催债与阻碍召回（单源），关注理想正式回应、法律追责动作及理想Q3财报披露时间。
+- 事件：比亚迪钛7欧盟禁售与路虎诉讼 | 最后进展日期：2026-11-22 | 下一步关注点：禁令约11月27日生效，关注比亚迪上诉提交、11月25日鹿特丹著作权案开庭及对匈牙利工厂的影响。
+- 事件：零跑-欧宝合作后续 | 最后进展日期：2026-11-22 | 下一步关注点：关注零部件供应正式协议及11月27日广州车展零跑发布。
