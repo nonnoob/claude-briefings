@@ -1,9 +1,9 @@
 # local-events-briefing MEMORY
 
 ## 1. 本次运行
-- 运行时刻及检索截止：2026-11-21 11:04 PST（America/Los_Angeles；19:04 UTC），上午场，侧重当天下午晚上与周日。
-- 实际覆盖窗口：2026-11-20 17:04 PST 至 2026-11-21 11:04 PST（常规）。
-- 补搜：新店（Ggiata Delicatessen Costa Mesa、HeyTea 等均无确切开业日，未收）、Thanksgiving 周末美食快闪（无 2026 有效结果）、新巡演官宣（无新增）、全国范围（Black Friday 无全国免费日，未收）。Witches Brew Santa Ana 11/21 夜市仍核实不到日期，未收。
+- 运行时刻及检索截止：2026-11-21 17:05 PST（America/Los_Angeles；2026-11-22 01:05 UTC），傍晚场，侧重当晚与周日 11/22（同日第二次运行，只报增量）。
+- 实际覆盖窗口：2026-11-21 11:04 PST 至 2026-11-21 17:05 PST（常规）。
+- 补搜：新店（Eater LA 无具体 2026-11 橙县开业日，Uchi Newport Beach、HeyTea 等无确切日期，未收）、Thanksgiving 周美食（仅堂食菜单，无新活动）、新巡演官宣（无新增）、全国范围（11/27 无全国免费日，未收）。Anaheim 11/22 39th 树点灯为 Anaheim White House 付费晚宴，未收；Center Street Promenade Nutcracker Holiday Village 树点灯为 12/6，未核实官方页，未收。
 
 ## 2. 已报条目清单
 
@@ -133,23 +133,15 @@
 2026-11-21 | V-Beyond Concert 11/21 19:00 Honda Center Anaheim，巡演北美首站 | https://www.hondacenter.com/events/v-beyond-concert-1/
 2026-11-21 | Pasadena Doo Dah Love-In 11/22 11:00–16:30 Memorial Park Bandshell，免费 | https://www.coloradoboulevard.net/pasadena-doo-dah-crew-to-host-free-all-ages-love-in-on-november-22/
 
+2026-11-21 | Alter Bridge What Lies Within Tour 11/22 18:00 House of Blues Anaheim | https://www.livenation.com/event/vvG10Z_5pDHCwM/alter-bridge-what-lies-within-tour
+2026-11-21 | Pacific Symphony Sundays at Soka 11/22 15:00 Soka Performing Arts Center Aliso Viejo | https://www.performingarts.soka.edu/calendar-events/pacific-symphony-bach-beethoven-alexander-shelley-cond
+2026-11-21 | Three Days Grace Alienation Tour 11/22 19:00 Intuit Dome Inglewood | https://www.ticketmaster.com/three-days-grace-alienation-tour-inglewood-california-11-22-2026/event/09006365AFE0EDC0
+2026-11-21 | Harland Williams 11/22 18:00 Irvine Improv（单源）| https://www.bandsintown.com/v/10001884-irvine-improv
+
 ## 3. 进行中事件表
-- Hilbert Museum《The Art of the Simpsons》与《Otherworldly: Science Fiction Art》双新展 | 最后进展 2026-11-09 | 11 月 18 日在 Orange 正式揭幕，开展当日或前一日可做今明速览提醒
-- Hammer Museum《Felipe Baeza: Anima》 | 最后进展 2026-11-20 | 开幕提醒已做；闭合
-- Bowers Museum《Art of Mexico and Central America》 | 最后进展 2026-11-19 | 已收录；闭合
-- Descanso Gardens「Enchanted Forest of Light」 | 最后进展 2026-11-20 | 开幕提醒已做；闭合
-- Los Angeles Auto Show | 最后进展 2026-11-19 | 已做开幕当日提醒；闭合
 - Winter Fest OC 2026 季 | 最后进展 2026-11-09 | 11 月 27 日开幕；待核实官方 2026 页面，11 月 26–27 日可做节点提醒
-- L.A. Zoo Lights | 最后进展 2026-11-19 | 已做开幕提醒；闭合
-- Knott's Merry Farm | 最后进展 2026-11-19 | 已做 11-20 开幕提醒并补票价；闭合
 - Journey Honda Center | 最后进展 2026-11-11 | 11 月 24 日 19:30 演出；11 月 23–24 日可做节点提醒
-- Enchant Christmas Santa Anita Park | 最后进展 2026-11-20 | 开幕提醒已做；官方票价仍未核实（第三方 GA 约 $25–72.5 起，不一）；闭合
-- Steve Lacy Hollywood Bowl | 最后进展 2026-11-20 | 提醒已做；闭合
 - Hollywood Christmas Parade | 最后进展 2026-11-20 | 11 月 29 日 18:00；看台票已收录（儿童价两说）；11 月 28–29 日可做当日提醒并核 Ticketmaster 价格
-- Sawdust Winter Fantasy | 最后进展 2026-11-19 | 11 月 20 日开幕，票价 $12.50 已收；节点提醒已随 11-19 续报发出，闭合
-- LEGOLAND California Christmas Bricktacular | 最后进展 2026-11-20 | 开始提醒已做；闭合
 - Jackson Browne Pantages 11/23 加场 | 最后进展 2026-11-17 | 11 月 23 日 20:00 余票不多；11 月 22–23 日可做节点提醒
-- KATSEYE Crypto.com Arena | 最后进展 2026-11-20 | 周末提醒已做；闭合
-- Fashion Island 树点灯 | 最后进展 2026-11-19 | 已做 11/20 提醒并定结束时间；闭合
-- Pacific Symphony Rachmaninoff | 最后进展 2026-11-20 | 最后一场提醒已做；闭合
 - Getty Center Wright of Derby | 最后进展 2026-11-20 | 11 月 24 日开幕；当日可做开幕提醒
+- Newport Beach Christmas Boat Parade / Holiday Lights Cruises | 最后进展 2026-11-16 | Cruises 11 月 27 日起，可在 11 月 26–27 日做节点提醒
