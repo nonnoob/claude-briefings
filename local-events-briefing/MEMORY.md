@@ -1,19 +1,12 @@
 # local-events-briefing MEMORY
 
 ## 1. 本次运行
-- 运行时刻及检索截止：2026-11-21 17:05 PST（America/Los_Angeles；2026-11-22 01:05 UTC），傍晚场，侧重当晚与周日 11/22（同日第二次运行，只报增量）。
-- 实际覆盖窗口：2026-11-21 11:04 PST 至 2026-11-21 17:05 PST（常规）。
-- 补搜：新店（Eater LA 无具体 2026-11 橙县开业日，Uchi Newport Beach、HeyTea 等无确切日期，未收）、Thanksgiving 周美食（仅堂食菜单，无新活动）、新巡演官宣（无新增）、全国范围（11/27 无全国免费日，未收）。Anaheim 11/22 39th 树点灯为 Anaheim White House 付费晚宴，未收；Center Street Promenade Nutcracker Holiday Village 树点灯为 12/6，未核实官方页，未收。
+- 运行时刻及检索截止：2026-11-22 11:05 PST（America/Los_Angeles；2026-11-22 19:05 UTC），上午场，侧重周日下午至周一 11/23。
+- 实际覆盖窗口：2026-11-21 17:05 PST 至 2026-11-22 11:05 PST（常规）。
+- 补搜：新店（Uchi Newport Beach 开业日期仍无官方确认，各来源互相矛盾，未收；Aperitif Fullerton 无日期，未收）、Thanksgiving 周（Turkey Trot 等无官方页，未收）、新巡演官宣（无新增）、全国范围（无 Black Friday 周全国免费日，未收）。
 
 ## 2. 已报条目清单
 
-2026-10-31 | West Hollywood Carnaval 10/31 18:00—23:00 今日开场提醒，免费、透明包要求 | https://www.visitwesthollywood.com/events/halloween-carnaval/
-2026-10-31 | Surf City Spooktacular 10/31 16:00—19:00，Huntington Beach Main Street，免费 | https://www.hbdowntown.com/signature-events
-2026-10-31 | HMOC Día de los Muertos 11/1 17:00—21:00，Santa Ana，免费；次日开场提醒 | https://heritagemuseumoc.org/event/ddlm2026/
-2026-10-31 | Idina Menzel 与 Pacific Symphony 11/6 20:00，Costa Mesa，需购买单场票 | https://www.pacificsymphony.org/show-details/idina-menzel
-2026-10-31 | Laguna Art Museum Flag Walk 11/5 10:00—11:00 免费导览，须核对登记与集合安排 | https://lagunaartmuseum.org/event-calendar/event/6562566
-2026-10-31 | UCI Día de los Muertos 11/2 15:30—19:30，Irvine Barclay Theatre 周边，免费 | https://news.uci.edu/2026/10/27/uc-irvine-to-host-fourth-annual-dia-de-los-muertos-event/
-2026-10-31 | Chipotle Boorito 10/31 15:00 至关店，变装加 Rewards 扫码，店内限一份 6 美元主食 | https://newsroom.chipotle.com/2026-10-20-BOORITO-RETURNS-CHIPOTLE-TO-OFFER-6-ENTREES-ON-HALLOWEEN-2026
 2026-11-06 | Idina Menzel 与 Pacific Symphony 今明两晚（11/6–11/7 20:00）开演提醒，Renée and Henry Segerstrom Concert Hall Costa Mesa | https://www.pacificsymphony.org/show-details/idina-menzel
 2026-11-06 | Irvine Spectrum Center 户外滑冰场（Ice Rink），11/6–2027-01-03，Irvine Spectrum Center | https://www.irvinespectrumcenter.com/entertainment/ice-rink
 2026-11-06 | Noche de Altares 亡灵节封街社区庆典，11/7 12:00–21:00，Downtown Santa Ana 4th Street | https://www.nochedealtares.info/
@@ -137,11 +130,16 @@
 2026-11-21 | Pacific Symphony Sundays at Soka 11/22 15:00 Soka Performing Arts Center Aliso Viejo | https://www.performingarts.soka.edu/calendar-events/pacific-symphony-bach-beethoven-alexander-shelley-cond
 2026-11-21 | Three Days Grace Alienation Tour 11/22 19:00 Intuit Dome Inglewood | https://www.ticketmaster.com/three-days-grace-alienation-tour-inglewood-california-11-22-2026/event/09006365AFE0EDC0
 2026-11-21 | Harland Williams 11/22 18:00 Irvine Improv（单源）| https://www.bandsintown.com/v/10001884-irvine-improv
+2026-11-22 | Getty Center 免费双语拼贴工作坊 11/22 11:00–15:00 Los Angeles | https://www.getty.edu/calendar/images-imagination-collage/
+2026-11-22 | Water for Elephants 11/22 最后一天提醒，Segerstrom Hall Costa Mesa（续报）| https://www.scfta.org/
+2026-11-22 | Jackson Browne 加场 11/23 20:00 明晚提醒，Hollywood Pantages（续报）| https://www.nederlanderconcerts.com/event/jackson-browne-18
+2026-11-22 | LA Kings Holiday Ice Festival 11/27–2027-01-03，Peacock Place L.A. LIVE，$25 起 | https://www.lalive.com/events/detail/holiday-ice-26-27
 
 ## 3. 进行中事件表
 - Winter Fest OC 2026 季 | 最后进展 2026-11-09 | 11 月 27 日开幕；待核实官方 2026 页面，11 月 26–27 日可做节点提醒
 - Journey Honda Center | 最后进展 2026-11-11 | 11 月 24 日 19:30 演出；11 月 23–24 日可做节点提醒
 - Hollywood Christmas Parade | 最后进展 2026-11-20 | 11 月 29 日 18:00；看台票已收录（儿童价两说）；11 月 28–29 日可做当日提醒并核 Ticketmaster 价格
-- Jackson Browne Pantages 11/23 加场 | 最后进展 2026-11-17 | 11 月 23 日 20:00 余票不多；11 月 22–23 日可做节点提醒
+- Jackson Browne Pantages 11/23 加场 | 最后进展 2026-11-22 | 11 月 23 日 20:00；已于 11/22 做提醒，11/23 后移出
 - Getty Center Wright of Derby | 最后进展 2026-11-20 | 11 月 24 日开幕；当日可做开幕提醒
 - Newport Beach Christmas Boat Parade / Holiday Lights Cruises | 最后进展 2026-11-16 | Cruises 11 月 27 日起，可在 11 月 26–27 日做节点提醒
+- LA Kings Holiday Ice Festival | 最后进展 2026-11-22 | 11 月 27 日开幕（一份列表称 11/25 起，待核实）；11 月 26–27 日可做开幕提醒
