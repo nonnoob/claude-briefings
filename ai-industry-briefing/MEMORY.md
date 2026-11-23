@@ -1,8 +1,8 @@
 ## 1. 本次运行
 
-- 运行时刻及检索截止：2026-11-22 10:45 UTC（2026-11-22）。
-- 实际覆盖窗口：2026-11-21 10:45 UTC 至 2026-11-22 10:41 UTC（常规，周末信息稀薄）。
-- 六方向及热点兜底已检索，仅研究与传闻方向有少量新内容。
+- 运行时刻及检索截止：2026-11-23 10:41 UTC。
+- 实际覆盖窗口：2026-11-22 10:45 UTC 至 2026-11-23 10:41 UTC（常规）。
+- 六方向及热点兜底已检索。
 
 ## 2. 已报条目清单
 
@@ -76,6 +76,13 @@
 - 2026-11-21 | 加州起诉 OpenAI（安全保障不足）；四家非营利组织起诉五家 AI 公司要求叫停更强模型 | https://abcnews.com/Business/california-sues-openai-alleging-ai-development-lacked-adequate/story?id=138187223
 - 2026-11-22 | 【单源】arXiv 预印本称开源 27B 模型可改写自身权重获 6.6 分提升（Jiajun Fan 等） | https://aiweekly.co/alerts/open-27b-model-rewrites-its-own-weights-for-66-point-gain
 - 2026-11-22 | 【传闻】【单源】英伟达据 The Information 接近以至少 5 亿美元收购 Inception（扩散语言模型） | https://the-decoder.com/nvidia-bets-at-least-500-million-on-inceptions-diffusion-models-to-strengthen-its-open-source-nemotron-lineup/
+- 2026-11-23 | 【单源】智谱 GLM-5.4 上线 Coding Plan（视觉、1M 上下文，传 7000 亿参数） | https://www.ithome.com/1/030/809.htm
+- 2026-11-23 | OpenAI 首席科学家 Pachocki 呼吁头部实验室共同约定研发上限 | https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/
+- 2026-11-23 | 【单源】数学家称与 Claude 合作给出黎曼猜想论证，待核验 | https://superpowerdaily.com/posts/mathematician-claims-riemann-proof-with-claude
+- 2026-11-23 | 【单源】AMD 完成收购 World Labs | https://www.htx.com/news/financing-weekly-report-on-chain-derivatives-protocol-variat-Kb4Fw9Lo
+- 2026-11-23 | 【续报】英伟达停止向中国出货 Hopper，并拒售租给中企超半数的数据中心 | https://www.bloomberg.com/news/articles/2026-11-18/interim-nvidia-ceo-says-it-s-no-longer-sending-ai-chips-to-china
+- 2026-11-23 | 【续报】NYT：中国国安部两年推动获取受限英伟达 GPU，Alice Huang 与国安部官员联系 | https://abcnews.com/US/woman-center-nvidia-scandal-touch-chinas-top-spy/story?id=138369034
+- 2026-11-23 | 【传闻】【单源】Claude Sonnet 5.5、GPT Astra 6.3/6.4 临近 | https://aitracker.bot/
 
 ## 3. 进行中事件表
 
@@ -94,3 +101,6 @@
 - 事件：AI 独角兽融资洽谈（Cognition 750 亿美元估值、Databricks 2250 亿美元估值，均为早期洽谈） | 最后进展日期：2026-11-20 | 下一步关注点：两家融资正式官宣与最终估值
 - 事件：特朗普海外数据中心征税设想与加州/非营利组织对 AI 公司诉讼 | 最后进展日期：2026-11-20 | 下一步关注点：白宫是否给出税率/实施细则；OpenAI 对加州诉讼的回应与法院排期
 - 事件：英伟达收购 Inception（传闻） | 最后进展日期：2026-11-22 | 下一步关注点：英伟达或 Inception 官宣交易及最终价格
+
+- 事件：智谱 GLM-5.4 官方技术规格与 GLM-5.5（传 12 月约 3 万亿参数） | 最后进展日期：2026-11-23 | 下一步关注点：智谱官方公告规格；12 月 GLM-5.5 发布
+- 事件：黎曼猜想 Claude 协作论证 | 最后进展日期：2026-11-23 | 下一步关注点：专家核验结论
