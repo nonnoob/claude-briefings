@@ -1,7 +1,7 @@
 name: briefing-watchdog
 
 # 简报看门狗：每天两次检查各任务当天（周更任务则为其应跑当天）的归档
-#   1. 是否存在（一天跑两次的任务，傍晚那次检查时应有 2 份）；
+#   1. 是否存在（一天跑两次的任务，傍晚那次检查时应有 2 份；只在工作日下午跑的任务，只在工作日傍晚那次检查）；
 #   2. 是否满足 _template/SKILL.md 第 3 步格式契约中可机械判定的部分。
 # 任一不合格就开 Issue（GitHub 会发邮件），持续不合格只在同一个 Issue 追加评论，
 # 全部恢复后自动评论并关闭。用于兜住三类事故：
@@ -44,8 +44,14 @@ jobs:
           TWICE_DAILY="local-events-briefing"
           # 周更任务，格式 任务名:应跑星期几
           WEEKLY="cloud-native-briefing:1 app-updates-briefing:5 threads-review-briefing:7"
+          # 只在周一至周五下午运行的任务（跟随股市交易日）：周末不要求归档；
+          # 运行时间晚于午间那次检查，所以只在本地 18 点以后的检查里要求当天归档
+          WEEKDAYS_PM="stock-market-briefing"
 
           EXPECTED="$DAILY"
+          if [ "$DOW" -le 5 ] && [ "$HOUR" -ge 18 ]; then
+            EXPECTED="$EXPECTED $WEEKDAYS_PM"
+          fi
           for pair in $WEEKLY; do
             t="${pair%%:*}"
             d="${pair##*:}"

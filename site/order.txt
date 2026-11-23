@@ -5,6 +5,7 @@ ai-industry-briefing
 agent-engineering-briefing
 automotive-industry-briefing
 current-affairs-briefing
+stock-market-briefing
 science-health-briefing
 local-events-briefing
 cloud-native-briefing

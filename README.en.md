@@ -62,7 +62,7 @@ After forking, set Settings → Pages → Source to **GitHub Actions** for the s
 Three kinds of failure never surface on their own: the scheduler silently stops firing, a run starts but dies before writing anything, or a run writes something whose format has drifted.
 `briefing-watchdog` runs at 20:00 and 02:00 UTC (early afternoon and evening in Los Angeles) and checks that each task's archive for that day **exists** (a twice-a-day task must have two by the evening check) and **satisfies the mechanically checkable half of the output contract** (H1 title, coverage-window line, `##` sections, every item carrying a source and a resolvable bare URL, no markdown link syntax — see [`.github/scripts/lint_archive.py`](.github/scripts/lint_archive.py)). Anything failing opens an Issue; repeated failures only add comments to the same Issue, which closes itself once everything is healthy again.
 
-Checks are restricted to regex-decidable structure and **never judge content quality** — a rule that cries wolf gets ignored, and an ignored alert is no alert at all. When adding a task or changing its cadence, update the `DAILY` / `WEEKLY` / `TWICE_DAILY` lists in that workflow.
+Checks are restricted to regex-decidable structure and **never judge content quality** — a rule that cries wolf gets ignored, and an ignored alert is no alert at all. When adding a task or changing its cadence, update the `DAILY` / `WEEKLY` / `TWICE_DAILY` / `WEEKDAYS_PM` lists in that workflow (`WEEKDAYS_PM` holds tasks that run only on weekday afternoons; no archive is expected on weekends).
 
 ## Lifecycle of one run
 

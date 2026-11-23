@@ -65,7 +65,7 @@ Fork 后需在仓库 Settings → Pages 把 Source 选为 **GitHub Actions**，�
 任一不合格就开 Issue，持续不合格只在同一个 Issue 追加评论，恢复后自动关闭。
 
 校验规则一律限定为正则可判定的结构，**绝不涉及内容质量判断**——会误报的规则最终会被无视，那这道防线就等于没有。
-新增或改动任务的更新频率时，同步改该 workflow 里的 `DAILY` / `WEEKLY` / `TWICE_DAILY` 列表。
+新增或改动任务的更新频率时，同步改该 workflow 里的 `DAILY` / `WEEKLY` / `TWICE_DAILY` / `WEEKDAYS_PM` 列表（`WEEKDAYS_PM` 是只在周一至周五下午跑的任务，周末不要求归档）。
 
 ## 一次运行的生命周期
 
