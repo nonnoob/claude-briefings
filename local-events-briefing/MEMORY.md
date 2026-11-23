@@ -1,9 +1,9 @@
 # local-events-briefing MEMORY
 
 ## 1. 本次运行
-- 运行时刻及检索截止：2026-11-22 11:05 PST（America/Los_Angeles；2026-11-22 19:05 UTC），上午场，侧重周日下午至周一 11/23。
-- 实际覆盖窗口：2026-11-21 17:05 PST 至 2026-11-22 11:05 PST（常规）。
-- 补搜：新店（Uchi Newport Beach 开业日期仍无官方确认，各来源互相矛盾，未收；Aperitif Fullerton 无日期，未收）、Thanksgiving 周（Turkey Trot 等无官方页，未收）、新巡演官宣（无新增）、全国范围（无 Black Friday 周全国免费日，未收）。
+- 运行时刻及检索截止：2026-11-22 17:05 PST（America/Los_Angeles；2026-11-23 01:05 UTC），傍晚场（当天第二次），侧重 Thanksgiving 周。
+- 实际覆盖窗口：2026-11-22 11:05 PST 至 2026-11-22 17:05 PST（常规）。
+- 补搜：新店开业（仅得 Thanksgiving 餐厅汇总，无确认开业日）、全国范围（无 Black Friday 周全国免费日，未收）、11/24–11/26 大型场馆演出（无新增）。
 
 ## 2. 已报条目清单
 
@@ -134,10 +134,17 @@
 2026-11-22 | Water for Elephants 11/22 最后一天提醒，Segerstrom Hall Costa Mesa（续报）| https://www.scfta.org/
 2026-11-22 | Jackson Browne 加场 11/23 20:00 明晚提醒，Hollywood Pantages（续报）| https://www.nederlanderconcerts.com/event/jackson-browne-18
 2026-11-22 | LA Kings Holiday Ice Festival 11/27–2027-01-03，Peacock Place L.A. LIVE，$25 起 | https://www.lalive.com/events/detail/holiday-ice-26-27
+2026-11-22 | The Carnaby（Gordon Ramsay，Downtown Disney）Thanksgiving 菜单 11/26，Anaheim（单源）| https://orangecoast.com/ocdining/where-to-dine-on-thanksgiving-in-orange-county/
+2026-11-22 | Journey 11/24 19:30 Honda Center 提醒，18:00 开门，二级市场 $120 起（续报）| https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-anaheim-california-11-24-2026/event/090064A695B5BA92
+2026-11-22 | Cristian Castro 11/28 Peacock Theater 与 Bone Thugs-N-Harmony 11/28 The Belasco，Los Angeles | https://www.discoverlosangeles.com/things-to-do/coming-soon-the-best-of-los-angeles
+2026-11-22 | Thanksgiving 11/26 橙县三场 Turkey Trot（Dana Point 第 49 届、Irvine Valley College、Tustin Rescue Mission）| https://www.stayorangecounty.com/post/thanksgiving-orange-county-2026-turkey-trots-dinners-weekend
+2026-11-22 | Winter Fest OC 11/27 开幕时段与票价（Snow Pass $25.99 起、停车 $15）（续报）| https://www.stayorangecounty.com/post/thanksgiving-orange-county-2026-turkey-trots-dinners-weekend
+2026-11-22 | Turkey Trot Los Angeles 第 14 届 11/26，City Hall 至 Grand Park | https://www.funwithkidsinla.com/post/what-is-open-on-thanksgiving-day-near-me-36-places-and-events-in-los-angeles-for-family-fun-and-tur
+2026-11-22 | A Noise Within《A Christmas Carol》11/28–12/24，Pasadena | https://www.discoverlosangeles.com/things-to-do/coming-soon-the-best-of-los-angeles
 
 ## 3. 进行中事件表
-- Winter Fest OC 2026 季 | 最后进展 2026-11-09 | 11 月 27 日开幕；待核实官方 2026 页面，11 月 26–27 日可做节点提醒
-- Journey Honda Center | 最后进展 2026-11-11 | 11 月 24 日 19:30 演出；11 月 23–24 日可做节点提醒
+- Winter Fest OC 2026 季 | 最后进展 2026-11-22 | 11 月 27 日开幕，票价已收录；11 月 26–27 日可做开幕当日提醒
+- Journey Honda Center | 最后进展 2026-11-22 | 11 月 24 日 19:30 演出；已于 11/22 提醒，24 日后移出
 - Hollywood Christmas Parade | 最后进展 2026-11-20 | 11 月 29 日 18:00；看台票已收录（儿童价两说）；11 月 28–29 日可做当日提醒并核 Ticketmaster 价格
 - Jackson Browne Pantages 11/23 加场 | 最后进展 2026-11-22 | 11 月 23 日 20:00；已于 11/22 做提醒，11/23 后移出
 - Getty Center Wright of Derby | 最后进展 2026-11-20 | 11 月 24 日开幕；当日可做开幕提醒
