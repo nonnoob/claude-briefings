@@ -1,9 +1,9 @@
 # local-events-briefing MEMORY
 
 ## 1. 本次运行
-- 运行时刻及检索截止：2026-11-22 17:05 PST（America/Los_Angeles；2026-11-23 01:05 UTC），傍晚场（当天第二次），侧重 Thanksgiving 周。
-- 实际覆盖窗口：2026-11-22 11:05 PST 至 2026-11-22 17:05 PST（常规）。
-- 补搜：新店开业（仅得 Thanksgiving 餐厅汇总，无确认开业日）、全国范围（无 Black Friday 周全国免费日，未收）、11/24–11/26 大型场馆演出（无新增）。
+- 运行时刻及检索截止：2026-11-23 11:05 PST（America/Los_Angeles；19:05 UTC），上午场，侧重周二 11/24 及感恩节周。
+- 实际覆盖窗口：2026-11-22 17:05 PST 至 2026-11-23 11:05 PST（常规）。
+- 补搜：新店开业（仅得无确切日期的汇总，未收）、全国范围（无感恩节周全国免费日，未收）。
 
 ## 2. 已报条目清单
 
@@ -141,6 +141,10 @@
 2026-11-22 | Winter Fest OC 11/27 开幕时段与票价（Snow Pass $25.99 起、停车 $15）（续报）| https://www.stayorangecounty.com/post/thanksgiving-orange-county-2026-turkey-trots-dinners-weekend
 2026-11-22 | Turkey Trot Los Angeles 第 14 届 11/26，City Hall 至 Grand Park | https://www.funwithkidsinla.com/post/what-is-open-on-thanksgiving-day-near-me-36-places-and-events-in-los-angeles-for-family-fun-and-tur
 2026-11-22 | A Noise Within《A Christmas Carol》11/28–12/24，Pasadena | https://www.discoverlosangeles.com/things-to-do/coming-soon-the-best-of-los-angeles
+2026-11-23 | The Mountain Goats 11/24 20:00 Walt Disney Concert Hall Downtown LA（单源）| https://dolosangeles.com/events/2026/11/24/the-mountain-goats-tickets
+2026-11-23 | tripleS World Tour [ANDLESS] 11/24 The Wiltern Los Angeles | https://www.livenation.com/event/vv1AaZkfNGkdl_CrL/2026-triples-world-tour-andless-in-na
+2026-11-23 | Disneyland 手工糖果手杖 11/27 Candy Palace、11/28–29 Trolley Treats，Anaheim | https://ktla.com/news/disneyland-holiday-candy-cane-dates/
+2026-11-23 | Anime Circuit 11/28 12:00–19:00 Anaheim GardenWalk，免费 | https://www.eventbrite.com/e/anime-circuit-nov-28th-2026-tickets-2004258580367
 
 ## 3. 进行中事件表
 - Winter Fest OC 2026 季 | 最后进展 2026-11-22 | 11 月 27 日开幕，票价已收录；11 月 26–27 日可做开幕当日提醒
@@ -150,3 +154,4 @@
 - Getty Center Wright of Derby | 最后进展 2026-11-20 | 11 月 24 日开幕；当日可做开幕提醒
 - Newport Beach Christmas Boat Parade / Holiday Lights Cruises | 最后进展 2026-11-16 | Cruises 11 月 27 日起，可在 11 月 26–27 日做节点提醒
 - LA Kings Holiday Ice Festival | 最后进展 2026-11-22 | 11 月 27 日开幕（一份列表称 11/25 起，待核实）；11 月 26–27 日可做开幕提醒
+- Disneyland 糖果手杖 | 最后进展 2026-11-23 | 11 月 27 日开卖；价格未公布，11/26–27 可核价并提醒
