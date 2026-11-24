@@ -1,9 +1,9 @@
 # local-events-briefing MEMORY
 
 ## 1. 本次运行
-- 运行时刻及检索截止：2026-11-23 11:05 PST（America/Los_Angeles；19:05 UTC），上午场，侧重周二 11/24 及感恩节周。
-- 实际覆盖窗口：2026-11-22 17:05 PST 至 2026-11-23 11:05 PST（常规）。
-- 补搜：新店开业（仅得无确切日期的汇总，未收）、全国范围（无感恩节周全国免费日，未收）。
+- 运行时刻及检索截止：2026-11-23 17:04 PST（America/Los_Angeles；2026-11-24 01:04 UTC），傍晚场，侧重周二 11/24 与感恩节周。
+- 实际覆盖窗口：2026-11-23 11:05 PST 至 2026-11-23 17:04 PST（常规）。
+- 补搜：新店开业（无确切日期，未收）、全国范围（无新增，未收）。
 
 ## 2. 已报条目清单
 
@@ -146,12 +146,22 @@
 2026-11-23 | Disneyland 手工糖果手杖 11/27 Candy Palace、11/28–29 Trolley Treats，Anaheim | https://ktla.com/news/disneyland-holiday-candy-cane-dates/
 2026-11-23 | Anime Circuit 11/28 12:00–19:00 Anaheim GardenWalk，免费 | https://www.eventbrite.com/e/anime-circuit-nov-28th-2026-tickets-2004258580367
 
+2026-11-23 | Journey 11/24 19:30 Honda Center 明晚提醒（续报）| https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-anaheim-california-11-24-2026/event/090064A695B5BA92
+2026-11-23 | CocoRosie 11/24 Fonda Theatre 与 untitled (halo) 11/24 The Echo（单源）| https://grimygoods.com/2026/11/23/this-weeks-best-shows-la-untitled-halo-emma-ruth-rundle-cocorosie
+2026-11-23 | Getty Wright of Derby 11/24 开展提醒（续报）| https://www.getty.edu/exhibitions/wright-of-derby/
+2026-11-23 | 感恩节 11/26 Zentrl Kitchen（Fashion Island）与 Calla's（Hilton Anaheim）自助餐（单源）| https://funorangecountyparks.com/thanksgiving-buffets-orange-county.html
+2026-11-23 | DJ Quik 11/25 17:00 Garden Amphitheatre Garden Grove（单源）| https://www.tickpick.com/buy-dj-quik-tickets-garden-amphitheatre-11-25-26-5pm/7927000/
+2026-11-23 | Anaheim Ducks vs Kings 11/27 Honda Center（单源）| https://www.sportbusy.com/games/nhl/14173744-los-angeles-kings-at-anaheim-ducks-2026-11-27/
+2026-11-23 | Dweezil Zappa DZ20 11/28 20:00 Orpheum Theatre Downtown LA | https://laorpheum.com/calendar/dweezil-zappa-dz20-like-father-like-son/
+2026-11-23 | LA Auto Show 感恩节照常开放，至 11/29（续报）| https://www.funwithkidsinla.com/post/what-is-open-on-thanksgiving-day-near-me-36-places-and-events-in-los-angeles-for-family-fun-and-tur
+
 ## 3. 进行中事件表
 - Winter Fest OC 2026 季 | 最后进展 2026-11-22 | 11 月 27 日开幕，票价已收录；11 月 26–27 日可做开幕当日提醒
-- Journey Honda Center | 最后进展 2026-11-22 | 11 月 24 日 19:30 演出；已于 11/22 提醒，24 日后移出
+- Journey Honda Center | 最后进展 2026-11-22 | 11 月 24 日 19:30 演出；已于 11/22、11/23 提醒，24 日后移出
 - Hollywood Christmas Parade | 最后进展 2026-11-20 | 11 月 29 日 18:00；看台票已收录（儿童价两说）；11 月 28–29 日可做当日提醒并核 Ticketmaster 价格
 - Jackson Browne Pantages 11/23 加场 | 最后进展 2026-11-22 | 11 月 23 日 20:00；已于 11/22 做提醒，11/23 后移出
-- Getty Center Wright of Derby | 最后进展 2026-11-20 | 11 月 24 日开幕；当日可做开幕提醒
+- Getty Center Wright of Derby | 最后进展 2026-11-23 | 已于 11/23 做开幕提醒，24 日后移出
 - Newport Beach Christmas Boat Parade / Holiday Lights Cruises | 最后进展 2026-11-16 | Cruises 11 月 27 日起，可在 11 月 26–27 日做节点提醒
 - LA Kings Holiday Ice Festival | 最后进展 2026-11-22 | 11 月 27 日开幕（一份列表称 11/25 起，待核实）；11 月 26–27 日可做开幕提醒
 - Disneyland 糖果手杖 | 最后进展 2026-11-23 | 11 月 27 日开卖；价格未公布，11/26–27 可核价并提醒
+- Anaheim Ducks vs Kings | 最后进展 2026-11-23 | 11 月 27 日 Honda Center，开赛时间待官方确认（疑 13:00 PT）；11/26–27 核时间并提醒
