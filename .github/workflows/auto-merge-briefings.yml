@@ -11,8 +11,12 @@ on:
 permissions:
   contents: write
 
+# 并发组按分支划分，不同分支的运行互不排队。
+# 不能全仓库共用一个组：同一个组里排队中的运行只保留最新一个，更早排队的会被直接取消。
+# 一次简报运行会推 2–3 个分支，几个任务同时收尾时，被取消的可能正好是某个任务唯一还没合并的那次，
+# 那份归档就进不了 main。代价是多个运行可能同时推 main，由下面的重试处理。
 concurrency:
-  group: auto-merge-briefings
+  group: auto-merge-${{ github.ref_name }}
   cancel-in-progress: false
 
 jobs:
@@ -21,6 +25,9 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
+          # 检出 main 而不是触发分支：触发分支可能已被同一提交的另一次运行合并并删除，
+          # 直接检出它会让这次运行在检出这一步就失败
+          ref: main
           fetch-depth: 0
 
       - name: Merge briefing branch into main
@@ -31,21 +38,48 @@ jobs:
           ALLOWED='^(agent-engineering-briefing|ai-industry-briefing|app-updates-briefing|automotive-industry-briefing|cloud-native-briefing|current-affairs-briefing|local-events-briefing|tech-news-briefing|science-health-briefing|stock-market-briefing|threads-review-briefing)/'
           git config user.name "briefing-bot"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git checkout main
-          git pull --ff-only origin main
-          base=$(git merge-base HEAD "origin/$BRANCH")
-          changed=$(git diff --name-only "$base" "origin/$BRANCH")
-          if [ -z "$changed" ]; then
-            echo "分支相对 main 无改动，仅删除分支"
-            git push origin --delete "$BRANCH" || true
-            exit 0
+
+          if ! git fetch --quiet origin "+refs/heads/$BRANCH:refs/remotes/origin/$BRANCH"; then
+            rc=0
+            git ls-remote --exit-code --heads origin "refs/heads/$BRANCH" >/dev/null || rc=$?
+            if [ "$rc" = 2 ]; then
+              echo "分支已不存在（已由另一次运行合并并删除），无事可做"
+              exit 0
+            fi
+            echo "::error::取不到分支 $BRANCH"
+            exit 1
           fi
-          bad=$(echo "$changed" | grep -Ev "$ALLOWED" || true)
-          if [ -n "$bad" ]; then
-            echo "改动越界，跳过自动合并："
-            echo "$bad"
-            exit 0
-          fi
-          git merge --no-edit -X theirs "origin/$BRANCH" -m "auto-merge: $BRANCH"
-          git push origin main
-          git push origin --delete "$BRANCH" || true
+          head=$(git rev-parse "origin/$BRANCH")
+
+          # 只在分支仍停在本次处理的提交上时才删除；期间又有新推送的话，留给那次推送触发的运行处理
+          delete_branch() {
+            git push --force-with-lease="refs/heads/$BRANCH:$head" origin ":refs/heads/$BRANCH" || true
+          }
+
+          # 别的分支的运行可能同时在推 main：推送被拒就基于最新的 main 重做一遍
+          for attempt in 1 2 3 4 5; do
+            git fetch --quiet origin "+refs/heads/main:refs/remotes/origin/main"
+            git checkout --quiet -B main origin/main
+            base=$(git merge-base HEAD "$head")
+            changed=$(git diff --name-only "$base" "$head")
+            if [ -z "$changed" ]; then
+              echo "分支相对 main 无改动，仅删除分支"
+              delete_branch
+              exit 0
+            fi
+            bad=$(echo "$changed" | grep -Ev "$ALLOWED" || true)
+            if [ -n "$bad" ]; then
+              echo "改动越界，跳过自动合并："
+              echo "$bad"
+              exit 0
+            fi
+            git merge --no-edit -X theirs "$head" -m "auto-merge: $BRANCH"
+            if git push origin main; then
+              delete_branch
+              exit 0
+            fi
+            echo "main 已被另一次运行更新，重试（第 ${attempt} 次）"
+            sleep $((attempt * 3))
+          done
+          echo "::error::连续 5 次推送 main 被拒，分支 $BRANCH 未合并"
+          exit 1

@@ -33,11 +33,8 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
         with:
@@ -53,5 +50,26 @@ jobs:
         with:
           path: _site
 
+  # 部署单独成一个作业，不和上传放在同一个作业里：
+  # 上传刚完成的部署包，零点几秒后去查偶尔还查不到，部署步骤会报
+  # No artifacts named "github-pages" were found（actions/deploy-pages#451）。
+  # 分成两个作业后，中间隔着一次作业启动的时间（失败的那些运行，间隔都不到 0.6 秒）。
+  # 第一次部署仍失败时等 20 秒再试一次；两次都失败，这次运行才算失败。
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url || steps.retry.outputs.page_url }}
+    steps:
       - id: deployment
+        uses: actions/deploy-pages@v4
+        continue-on-error: true
+
+      - name: Wait before retry
+        if: steps.deployment.outcome == 'failure'
+        run: sleep 20
+
+      - id: retry
+        if: steps.deployment.outcome == 'failure'
         uses: actions/deploy-pages@v4
