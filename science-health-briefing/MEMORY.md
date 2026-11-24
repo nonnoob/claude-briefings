@@ -1,6 +1,6 @@
 ## 1. 本次运行
-- 运行时刻及检索截止：2026-11-23 10:55 UTC；实际覆盖窗口：2026-11-22 10:55 UTC 至 2026-11-23 10:55 UTC（常规）。
-- 空期：六个方向与热点兜底均已检索并补搜，无未报道的新内容；已报条目清单与进行中事件表沿用上期（Capricor 11/23 电话会内容尚未核实，仍待下次定向检索）。
+- 运行时刻及检索截止：2026-11-24 10:56 UTC；实际覆盖窗口：2026-11-23 10:55 UTC 至 2026-11-24 10:56 UTC（常规）。
+- Capricor 11/23 电话会已改期，未检到会上内容，仍待定向检索；麻疹、埃博拉、加州流感本期无新数据。
 
 ## 2. 已报条目清单
 
@@ -60,6 +60,11 @@
 2026-11-22 | Savara 通报 FDA 将不在 11/22 目标日前对 molgramostim BLA 采取行动，无新日期、非拒批 | https://www.stocktitan.net/news/SVRA/savara-informed-that-fda-will-not-take-action-on-the-molgramostim-0ffyakgpkv26.html
 2026-11-22 | 马斯克称 Ship 42 不再复飞、将作展品保留（单源） | https://www.space.com/space-exploration/launches-spacecraft/spacex-will-retire-1st-starship-upper-stage-ever-caught-by-chopsticks-elon-musk-says
 2026-11-22 | Lancet Psychiatry 115 项试验抗抑郁药长期维持治疗荟萃分析 | https://casrai.org/news/lancet-meta-analysis-115-trials-long-term-antidepressant-maintenance-2026
+2026-11-24 | FDA 批准 BridgeBio 分销的 Welgemda（ribitol）用于 LGMD2I/R9，首个肢带型肌营养不良药物 | https://www.statnews.com/2026/11/23/fda-approves-bridgebio-lgmd-drug-welgemda/
+2026-11-24 | FDA 批准 Rinvoq 用于 12 岁以上非节段型白癜风（单源） | https://www.contemporarypediatrics.com/view/fda-approves-upadacitinib-for-nonsegmental-vitiligo-in-patients-12-and-up
+2026-11-24 | SpaceX 目标 11/29 发射 Cygnus XL NG-25 | https://spacecoastdaily.com/2026/11/spacex-targets-nov-29-launch-of-cygnus-xl-cargo-mission-from-cape-canaveral/
+2026-11-24 | 参议院拨款草案 NIH +5 亿至 490 亿美元 | https://science.org/content/article/senate-bill-gives-nih-500-million-raise-2027
+2026-11-24 | NSF 无确认局长、无国家科学委员会，代理局长 12 月初退休（AIP 单源） | https://www.aip.org/fyi/the-week-of-november-23-2026
 
 ## 3. 进行中事件表
 - 事件：加州与美西 2026–2027 流感季反常提前暴发（甲型 H1N1 D.3.1.1 亚支 G155E 突变株驱动加州流感阳性率飙升，Bloom 实验室证实该突变显著逃避青少年与年轻成人既有中和抗体）｜最后进展：2026-11-17（加州约 120 例死亡，南加首例儿童死亡）｜下一步关注点：CDPH 与洛杉矶县公共卫生局 11 月中下旬急诊就诊率、住院率与死亡人数变化，以及 CDC 对当季流感疫苗针对 G155E 突变株真实世界保护效力（VE）的评估数据。
