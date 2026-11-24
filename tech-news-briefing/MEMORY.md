@@ -1,9 +1,9 @@
 ## 1. 本次运行
 
-- 本次运行时刻及检索截止：2026-11-23 10:25 UTC。
-- 上次运行：2026-11-22 10:15 UTC。
-- 覆盖窗口：2026-11-22 10:10 UTC 至 2026-11-23 10:10 UTC（常规）。
-- 本期窗口内（周末）新内容稀少，多数检索结果为窗口前旧闻；谷歌、系统更新、新品、芯片、开源方向未检索到新的未报内容（Gemini 4 Neon 属AI模型发布，按规则排除）。下期可留意：Tesla 12/3股东大会；英伟达董事会对贝森特限期（约11/25）的回应；黄仁勋12/1国会问询；Motorola Signature 27 11/26开卖；iOS 27.3正式版（预计12月）。
+- 本次运行时刻及检索截止：2026-11-24 10:20 UTC。
+- 上次运行：2026-11-23 10:25 UTC。
+- 覆盖窗口：2026-11-23 10:10 UTC 至 2026-11-24 10:10 UTC（常规）。
+- 本期未收录：Amazon以约75亿美元收购Decart技术团队、Sierra 17.5亿美元融资（均属AI公司商业/融资，按规则排除）；谷歌、系统更新、新品、开源方向未检索到新的未报内容。下期可留意：英伟达复任后董事会对贝森特合规问询的答复与12/1国会问询是否照常；Tesla 12/3股东大会；Motorola Signature 27 11/26开卖；iOS 27.3正式版（预计12月）。
 
 ## 2. 已报条目清单
 
@@ -79,9 +79,15 @@
 - 2026-11-23 | 英国国防AI初创Agon完成7000万美元A轮（估值4.5亿美元）（单源） | https://www.bloomberg.com/news/articles/2026-11-23/defense-ai-startup-agon-raises-70-million-series-a-from-vcs-ex-sequoia-boss
 - 2026-11-23 | 贝森特称需要英伟达答案但未排除黄仁勋复任 | https://www.cbsnews.com/news/bessent-nvidia-china-ai-chips-alice-huang-canard/
 
+- 2026-11-24 | 英伟达宣布黄仁勋复任总裁、CEO与董事 | https://www.teslarati.com/tesla-spacexai-ceo-elon-musk-reacts-jensen-huangs-nvidia-return/
+- 2026-11-24 | 马斯克被曝称SpaceX出租AI算力或比自用更赚钱并警告AI研发落后（单源） | https://winbuzzer.com/2026/11/24/musk-told-staff-spacex-could-earn-more-renting-out-ai-computing-power-than-using-it-xcxwbn/
+- 2026-11-24 | CrowdStrike以约439亿美元全股票收购Zscaler | https://techcrunch.com/2026/11/23/crowdstrike-to-acquire-zscaler-for-44-billion/
+- 2026-11-24 | CISA将MONAI Label CVE-2026-133968与N-able Mail Assure CVE-2026-134624列入KEV | https://www.cisa.gov/news-events/alerts/2026/11/23/cisa-adds-two-known-exploited-vulnerabilities-catalog
+- 2026-11-24 | 弗吉尼亚与俄勒冈州起诉SpaceX/xAI over Grok生成性化与儿童性虐待图像 | https://www.cnbc.com/2026/11/23/oregon-virginia-spacex-grok-deepfake-lawsuits.html
+
 ## 3. 进行中事件表
 
-1. 事件：英伟达CEO更替、涉外情报调查与出口管制问询｜最后进展：2026-11-23，特朗普公开呼吁董事会重聘黄仁勋、贝森特称需要答案但未排除复任；11/20，贝森特称H200政策不变；11/18，黄仁勋定于12/1接受国会闭门问询、Teter 12/2；贝森特11/15限董事会10天答复Megaspeed转运问题；SEC被曝民事调查（单源）；董事会被曝接触Rene Haas｜下一步关注：三星/台积电对华出货许可获批进展（三星被曝暂停百度昆仑芯、字节出货）与台股走势；永久CEO人选；H200对华停货是否恢复；董事会对贝森特限期（约11/25）的回应；SEC调查是否获官方证实
+1. 事件：英伟达CEO更替、涉外情报调查与出口管制问询｜最后进展：2026-11-23，英伟达宣布黄仁勋复任CEO（此前特朗普公开呼吁重聘）；此前：特朗普公开呼吁董事会重聘黄仁勋、贝森特称需要答案但未排除复任；11/20，贝森特称H200政策不变；11/18，黄仁勋定于12/1接受国会闭门问询、Teter 12/2；贝森特11/15限董事会10天答复Megaspeed转运问题；SEC被曝民事调查（单源）；董事会被曝接触Rene Haas｜下一步关注：三星/台积电对华出货许可获批进展（三星被曝暂停百度昆仑芯、字节出货）与台股走势；贝森特与国会对复任的反应；H200对华停货是否恢复；董事会对贝森特限期（约11/25）的回应；SEC调查是否获官方证实
 2. 事件：美光台湾桃园厂劳资争议与暂停新晶圆厂建设｜最后进展：2026-11-06，因桃园厂工会要求将营业利润15%用于员工分红的谈判陷入僵局及抗议台中厂协议透明度问题，美光被曝暂停总投资30亿至45亿美元的桃园新晶圆厂（Fab 11E）建设｜下一步关注：桃园厂劳资调解是否达成协议、Fab 11E何时复工
 3. 事件：美满电子（Marvell）1150亿美元全股票收购Lumentum｜最后进展：2026-11-02，Marvell宣布达成最终协议以隐含企业价值约1150亿美元全股票交易收购光通信厂商Lumentum（含32亿美元反向分手费条款，预计2028年上半年交割）｜下一步关注：双方股东大会表决及中美欧反垄断监管审查进展
 4. 事件：特斯拉与SpaceX董事会特别委员会评估合并及关停Cybertruck产线｜最后进展：2026-11-18，马斯克在DealBook称两家公司"可能合并更好"但反对合并单独触发其薪酬奖励，Bloomberg称最早12月可能公告；此前11/09马斯克确认得州工厂Cybertruck产线将于2027年年中关停并向无法交付的预订者退还定金，同时双方董事会特别委员会持续评估合并方案｜下一步关注：特别委员会正式合并方案、国会与监管机构反垄断审查进展
