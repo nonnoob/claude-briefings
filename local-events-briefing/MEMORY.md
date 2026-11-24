@@ -1,9 +1,7 @@
-# local-events-briefing MEMORY
-
 ## 1. 本次运行
-- 运行时刻及检索截止：2026-11-23 17:04 PST（America/Los_Angeles；2026-11-24 01:04 UTC），傍晚场，侧重周二 11/24 与感恩节周。
-- 实际覆盖窗口：2026-11-23 11:05 PST 至 2026-11-23 17:04 PST（常规）。
-- 补搜：新店开业（无确切日期，未收）、全国范围（无新增，未收）。
+- 运行时刻及检索截止：2026-11-24 11:05 PST（America/Los_Angeles；19:05 UTC），上午场，侧重感恩节周末。
+- 实际覆盖窗口：2026-11-23 17:04 PST 至 2026-11-24 11:05 PST（常规）。
+- 补搜：新店开业（无确切日期，未收）、全国范围（无新增；2026 年已无 NPS 免费日，未收）。
 
 ## 2. 已报条目清单
 
@@ -154,14 +152,20 @@
 2026-11-23 | Anaheim Ducks vs Kings 11/27 Honda Center（单源）| https://www.sportbusy.com/games/nhl/14173744-los-angeles-kings-at-anaheim-ducks-2026-11-27/
 2026-11-23 | Dweezil Zappa DZ20 11/28 20:00 Orpheum Theatre Downtown LA | https://laorpheum.com/calendar/dweezil-zappa-dz20-like-father-like-son/
 2026-11-23 | LA Auto Show 感恩节照常开放，至 11/29（续报）| https://www.funwithkidsinla.com/post/what-is-open-on-thanksgiving-day-near-me-36-places-and-events-in-los-angeles-for-family-fun-and-tur
+2026-11-24 | LA Phil Home Alone in Concert 11/27 20:00、11/28 14:00 Walt Disney Concert Hall，$158 起 | https://www.laphil.com/events/instances/1py8126p/2026-11-27/home-alone-in-concert-2026
+2026-11-24 | Elf in Concert 11/28 20:00 Walt Disney Concert Hall（演出方说法不一）| https://waltdisneyconcertshall.com/
+2026-11-24 | Ducks vs Kings 11/27 13:00 Honda Center 开赛时间确认（续报）| https://www.nhl.com/ducks/fans/promotional-schedule
+2026-11-24 | LA Kings vs Anaheim Ducks 11/28 Crypto.com Arena（单源）| https://www.discoverlosangeles.com/things-to-do/the-best-things-to-do-in-la-this-weekend
+2026-11-24 | USC vs UCLA 11/28 12:00 Rose Bowl Pasadena | https://www.discoverlosangeles.com/things-to-do/the-best-things-to-do-in-la-this-weekend
+2026-11-24 | LA Kings Holiday Ice Festival 11/27 开幕官方确认，17:00–00:30（续报）| https://www.lalive.com/events/detail/holiday-ice-26-27
+2026-11-24 | Yuletide Cinemaland 11/28 Heritage Square Museum（单源）| https://www.discoverlosangeles.com/things-to-do/the-best-things-to-do-in-la-this-weekend
+
 
 ## 3. 进行中事件表
 - Winter Fest OC 2026 季 | 最后进展 2026-11-22 | 11 月 27 日开幕，票价已收录；11 月 26–27 日可做开幕当日提醒
-- Journey Honda Center | 最后进展 2026-11-22 | 11 月 24 日 19:30 演出；已于 11/22、11/23 提醒，24 日后移出
 - Hollywood Christmas Parade | 最后进展 2026-11-20 | 11 月 29 日 18:00；看台票已收录（儿童价两说）；11 月 28–29 日可做当日提醒并核 Ticketmaster 价格
-- Jackson Browne Pantages 11/23 加场 | 最后进展 2026-11-22 | 11 月 23 日 20:00；已于 11/22 做提醒，11/23 后移出
-- Getty Center Wright of Derby | 最后进展 2026-11-23 | 已于 11/23 做开幕提醒，24 日后移出
 - Newport Beach Christmas Boat Parade / Holiday Lights Cruises | 最后进展 2026-11-16 | Cruises 11 月 27 日起，可在 11 月 26–27 日做节点提醒
-- LA Kings Holiday Ice Festival | 最后进展 2026-11-22 | 11 月 27 日开幕（一份列表称 11/25 起，待核实）；11 月 26–27 日可做开幕提醒
+- LA Kings Holiday Ice Festival | 最后进展 2026-11-24 | 官方确认 11 月 27 日开幕；11 月 26–27 日可做开幕提醒
 - Disneyland 糖果手杖 | 最后进展 2026-11-23 | 11 月 27 日开卖；价格未公布，11/26–27 可核价并提醒
-- Anaheim Ducks vs Kings | 最后进展 2026-11-23 | 11 月 27 日 Honda Center，开赛时间待官方确认（疑 13:00 PT）；11/26–27 核时间并提醒
+- Anaheim Ducks vs Kings | 最后进展 2026-11-23 | 11 月 27 日 Honda Center，13:00 开赛已确认（11/24）；11/26–27 做当日提醒；另 11/28 Kings 主场回战 Crypto.com Arena
+- LA Phil Home Alone / Elf in Concert | 最后进展 2026-11-24 | 11/27–11/28 Walt Disney Concert Hall；11/26–27 可做提醒并核 Elf 演出方与票价
