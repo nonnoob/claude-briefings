@@ -1,8 +1,8 @@
 ## 1. 本次运行
 
-- 运行时刻及检索截止：2026-11-24 10:45 UTC。
-- 实际覆盖窗口：2026-11-23 10:41 UTC 至 2026-11-24 10:41 UTC（常规）。
-- 六方向及热点兜底已检索。
+- 运行时刻及检索截止：2026-11-25 10:50 UTC。
+- 实际覆盖窗口：2026-11-24 10:45 UTC 至 2026-11-25 10:41 UTC（常规）。
+- 六方向及热点兜底已检索（研究与技术、模型与产品本期窗口内无新增）。
 
 ## 2. 已报条目清单
 
@@ -56,10 +56,15 @@
 - 2026-11-24 | 亚马逊同意收购 Decart 优化栈技术与团队（据报约 75 亿美元，未经亚马逊证实） | https://siliconangle.com/2026/11/23/amazon-acquires-key-assets-of-ai-startup-decart-for-reported-7-5b/
 - 2026-11-24 | Palo Alto Networks 以 45 亿美元全股票收购 Applied Compute | https://www.sec.gov/Archives/edgar/data/0001327567/000132756726000030/ex992pressrelease_november.htm
 - 2026-11-24 | 【续报】新加坡总理称与美方共享信息打击 AI 芯片转运 | https://chinaglobalsouth.com/2026/11/24/singapore-us-ai-chip-export-controls
+- 2026-11-25 | 【续报】Anthropic ANT 周二跌破 83 美元 IPO 价，挂牌以来累计约 -20% | https://www.bloomberg.com/opinion/newsletters/2026-11-24/anthropic-drops
+- 2026-11-25 | 【续报】英伟达周二回落约 5.9%，回吐复任涨幅 | https://www.cnbc.com/2026/11/24/nvidia-stock-jensen-huang-return.html
+- 2026-11-25 | 【传闻】【单源】Nscale 与 Anthropic 洽谈第二笔约 450 亿美元、460MW Vera Rubin 合作 | https://aiweekly.co/alerts/nscale-anthropic-in-talks-for-second-45b-west-virginia-deal
+- 2026-11-25 | Axios：Anthropic/OpenAI 员工称最强未发布模型难以安全发布 | https://www.aa.com.tr/en/world/insiders-say-anthropic-openai-struggle-to-contain-unreleased-ai-models-axios/4136091
+- 2026-11-25 | 【续报】国会三项 AI 芯片出口法案推进；黄仁勋 12/1、12/3 出席听证 | https://www.digitimes.com/news/a20261125PD211/ai-chip-nvidia-chips-equipment.html
 
 ## 3. 进行中事件表
 
-- 事件：英伟达 CEO 黄仁勋事件（11/23：董事会宣布黄仁勋复任 CEO，股价 +31.48%；此前 SEC 民事调查（WSJ）、司法部/商务部 Megaspeed 刑事调查、国会调查卢特尼克） | 最后进展日期：2026-11-23 | 下一步关注点：英伟达董事会正式声明与独立调查结论；SEC/司法部调查是否继续；国会对复任与 Megaspeed 的回应；新加坡对 Megaspeed 的执法进展
+- 事件：英伟达 CEO 黄仁勋事件（11/23：董事会宣布黄仁勋复任 CEO，股价 +31.48%；此前 SEC 民事调查（WSJ）、司法部/商务部 Megaspeed 刑事调查、国会调查卢特尼克） | 最后进展日期：2026-11-23 | 下一步关注点：12/1 众议院、12/3 参议院听证；英伟达董事会正式声明与独立调查结论；SEC/司法部调查是否继续；国会对复任与 Megaspeed 的回应；新加坡对 Megaspeed 的执法进展
 - 事件：AI 巨头 IPO 与巨额私募（Anthropic ANT 11/19 挂牌，11/23 第三日 -1.43%；OpenAI 约 200 亿美元融资余额） | 最后进展日期：2026-11-23 | 下一步关注点：ANT 后续走势与分析师评级；OpenAI 融资剩余份额交割确认
 - 事件：美国 AI 芯片出口新规（BIS 11/16 规则，海外数据中心许可，90 天过渡；新加坡配合执法） | 最后进展日期：2026-11-24 | 下一步关注点：中方具体反制（稀土）；国家名单；深圳会晤后续
 - 事件：AI 独角兽融资洽谈（Cognition 750 亿美元估值、Databricks 2250 亿美元估值，早期洽谈） | 最后进展日期：2026-11-21 | 下一步关注点：两家融资正式官宣与最终估值
@@ -69,3 +74,5 @@
 - 事件：黎曼猜想 Claude 协作证明（Lean 已验证） | 最后进展日期：2026-11-23 | 下一步关注点：数学界对论证的评审与克雷研究所态度
 - 事件：Gemini 4 其余变体（Helium 等）与 Claude Sonnet 5.5、GPT Astra 6.3/6.4（传闻） | 最后进展日期：2026-11-23 | 下一步关注点：官方发布公告
 - 事件：亚马逊收购 Decart 与 Palo Alto 收购 Applied Compute | 最后进展日期：2026-11-23 | 下一步关注点：亚马逊证实价格；两项交易监管批准
+- 事件：Axios 报道的前沿模型安全发布担忧 | 最后进展日期：2026-11-24 | 下一步关注点：Anthropic/OpenAI 进一步声明；Claude Sonnet 5.5、GPT Astra 6.3/6.4 是否推迟
+- 事件：Nscale–Anthropic 第二笔 460MW 合作（传闻） | 最后进展日期：2026-11-24 | 下一步关注点：双方官宣签约
