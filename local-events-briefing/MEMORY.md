@@ -1,7 +1,7 @@
 ## 1. 本次运行
-- 运行时刻及检索截止：2026-11-24 17:04 PST（America/Los_Angeles；2026-11-25 01:04 UTC），傍晚场，侧重 11/25 感恩节前夜与感恩节周末。
-- 实际覆盖窗口：2026-11-24 11:05 PST 至 2026-11-24 17:04 PST（常规）。
-- 补搜：新店开业（仅 Cole's 重开，日期来源矛盾）、新开票巡演（无新增）。
+- 运行时刻及检索截止：2026-11-25 11:04 PST（America/Los_Angeles），上午场，侧重感恩节当天与周末。
+- 实际覆盖窗口：2026-11-24 17:04 PST 至 2026-11-25 11:04 PST（常规）。
+- 补搜：新店开业与新开票巡演（无明确新增）、全国范围（NPS 无黑五免费日）。
 
 ## 2. 已报条目清单
 
@@ -164,6 +164,11 @@
 2026-11-24 | Smoke Me Out 2026（Legado 7 等）11/25 20:00 Peacock Theater Downtown LA | https://www.peacocktheater.com/events/detail/smokemeout26
 2026-11-24 | Cole's French Dip 11 月中旬新东家重开，Downtown LA（重开日期 11/17–11/19 矛盾）| https://mynewsla.com/business/2026/11/18/historic-coles-french-dip-reopens-wednesday-evening-in-downtown-la/
 2026-11-24 | Disneyland Resort 感恩节/黑五 11/26–11/27 营业时间（单源）| https://www.undercovertourist.com/blog/disneyland-thanksgiving/
+
+2026-11-25 | Alicia Villarreal Bendita Locura Tour 11/27 19:00 House of Blues Anaheim | https://www.livenation.com/event/vvG10Z_Gmlp13w/alicia-villarreal-bendita-locura-tour-2026
+2026-11-25 | Grove of Anaheim 《胡桃夹子》11/27 与披头士致敬秀 11/29（单源）| https://www.groveofanaheim.com/events
+2026-11-25 | Academy Museum 无障碍场 Gremlins 11/28，$5，时间 11:00/19:30 矛盾，Los Angeles | https://www.academymuseum.org/programs/detail/gremlins-019fceba-f20a-417b-ed3c-bd5163cf63fa
+2026-11-25 | Universal Studios Hollywood Grinchmas 11/21–2027-01-03 | https://hauntedattractionnetwork.com/universal-studios-hollywood-christmas/
 
 ## 3. 进行中事件表
 - Winter Fest OC 2026 季 | 最后进展 2026-11-22 | 11 月 27 日开幕，票价已收录；11 月 26–27 日可做开幕当日提醒
