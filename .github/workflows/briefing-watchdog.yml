@@ -8,6 +8,10 @@ name: briefing-watchdog
 #   - 调度器静默停摆（Routine 完全不触发，无任何运行记录）；
 #   - 单次运行失败（触发了但中途失败，未落盘）；
 #   - 落盘了但格式漂移（缺链接、粗体当标题、markdown 链接语法等）。
+#
+# 检查哪一天、算上午还是傍晚，按"计划时间"定，不按实际启动时间定：
+# GitHub 的定时触发经常晚 5–10 小时。02:00 UTC 那次（查前一个本地日的傍晚）实际常在
+# 洛杉矶次日凌晨 2–4 点才启动，按启动时间取日期就会去查还没开始跑的新一天，天天误报。
 
 on:
   schedule:
@@ -16,6 +20,11 @@ on:
     # 02:00 UTC = 前一天 19:00 PDT / 18:00 PST，晚于傍晚的运行（本地时间 5:00 PM），本地日期仍是同一天
     - cron: '0 2 * * *'
   workflow_dispatch:
+    inputs:
+      schedule:
+        description: '模拟某次定时检查：填它的 cron 表达式（如 0 2 * * *）；留空则按当前时间检查'
+        required: false
+        default: ''
 
 permissions:
   contents: read
@@ -29,13 +38,30 @@ jobs:
 
       - name: Check today's archives
         id: check
+        env:
+          # 触发本次运行的 cron 表达式；手动触发时为空，或为手动填入的模拟值
+          SCHEDULE: ${{ github.event.schedule || inputs.schedule }}
         run: |
           set -euo pipefail
 
+          # 基准时刻：定时触发取"不晚于现在的最近一次计划时间"，手动触发取现在。
+          # 只支持"分 时"都是固定数字的 cron 表达式（上面两条都是）。
+          NOW=$(date -u +%s)
+          REF=$NOW
+          if [ -n "$SCHEDULE" ]; then
+            read -r CRON_MIN CRON_HOUR _ <<< "$SCHEDULE"
+            printf -v PLAN '%02d:%02d' "$((10#$CRON_HOUR))" "$((10#$CRON_MIN))"
+            REF=$(date -u -d "$(date -u +%F) ${PLAN}:00" +%s)
+            if [ "$REF" -gt "$NOW" ]; then
+              REF=$((REF - 86400))
+            fi
+            echo "计划时间 $(date -u -d "@$REF" +'%F %H:%M') UTC，实际启动 $(date -u -d "@$NOW" +'%F %H:%M') UTC"
+          fi
+
           # 归档按运行当天的本地日期命名，Routine 时区为 America/Los_Angeles
-          TODAY=$(TZ=America/Los_Angeles date +%F)
-          DOW=$(TZ=America/Los_Angeles date +%u)   # 1=周一 … 7=周日
-          HOUR=$(TZ=America/Los_Angeles date +%-H)
+          TODAY=$(TZ=America/Los_Angeles date -d "@$REF" +%F)
+          DOW=$(TZ=America/Los_Angeles date -d "@$REF" +%u)   # 1=周一 … 7=周日
+          HOUR=$(TZ=America/Los_Angeles date -d "@$REF" +%-H)
           echo "本地日期 ${TODAY} (周 ${DOW}) ${HOUR} 点"
 
           # 日更任务
