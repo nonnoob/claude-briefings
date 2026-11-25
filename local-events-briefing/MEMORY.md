@@ -1,7 +1,7 @@
 ## 1. 本次运行
-- 运行时刻及检索截止：2026-11-24 11:05 PST（America/Los_Angeles；19:05 UTC），上午场，侧重感恩节周末。
-- 实际覆盖窗口：2026-11-23 17:04 PST 至 2026-11-24 11:05 PST（常规）。
-- 补搜：新店开业（无确切日期，未收）、全国范围（无新增；2026 年已无 NPS 免费日，未收）。
+- 运行时刻及检索截止：2026-11-24 17:04 PST（America/Los_Angeles；2026-11-25 01:04 UTC），傍晚场，侧重 11/25 感恩节前夜与感恩节周末。
+- 实际覆盖窗口：2026-11-24 11:05 PST 至 2026-11-24 17:04 PST（常规）。
+- 补搜：新店开业（仅 Cole's 重开，日期来源矛盾）、新开票巡演（无新增）。
 
 ## 2. 已报条目清单
 
@@ -160,6 +160,10 @@
 2026-11-24 | LA Kings Holiday Ice Festival 11/27 开幕官方确认，17:00–00:30（续报）| https://www.lalive.com/events/detail/holiday-ice-26-27
 2026-11-24 | Yuletide Cinemaland 11/28 Heritage Square Museum（单源）| https://www.discoverlosangeles.com/things-to-do/the-best-things-to-do-in-la-this-weekend
 
+2026-11-24 | Conjunto Primavera 等 11/25 18:00 Anaheim Convention Center（单源）| https://www.songkick.com/concerts/43400706-conjunto-primavera-at-anaheim-convention-center
+2026-11-24 | Smoke Me Out 2026（Legado 7 等）11/25 20:00 Peacock Theater Downtown LA | https://www.peacocktheater.com/events/detail/smokemeout26
+2026-11-24 | Cole's French Dip 11 月中旬新东家重开，Downtown LA（重开日期 11/17–11/19 矛盾）| https://mynewsla.com/business/2026/11/18/historic-coles-french-dip-reopens-wednesday-evening-in-downtown-la/
+2026-11-24 | Disneyland Resort 感恩节/黑五 11/26–11/27 营业时间（单源）| https://www.undercovertourist.com/blog/disneyland-thanksgiving/
 
 ## 3. 进行中事件表
 - Winter Fest OC 2026 季 | 最后进展 2026-11-22 | 11 月 27 日开幕，票价已收录；11 月 26–27 日可做开幕当日提醒
