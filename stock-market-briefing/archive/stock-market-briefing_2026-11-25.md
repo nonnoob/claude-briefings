@@ -1,0 +1,48 @@
+# 📈 股市复盘简报 · 2026-11-25
+
+> 覆盖窗口：2026-11-24 14:40 至 2026-11-25 14:40（常规）
+
+今日要闻：宁德时代 A 股 -8.33%、H 股 -12.23%，花旗援引排产数据称其 11 月排产下调、去库存或延续至 2027 年一季度，拖累创业板指 -4.19%、科创 50 -5.12%；美股盘中纳指一度跌 4.6% 后收窄至 -0.62%。
+
+## 上期判断回顾
+
+- 恒生指数 hkHSI（2026-11-25）：上期判断偏空，实际 -1.14%，命中。来源：腾讯行情 https://qt.gtimg.cn/q=hkHSI
+- 英伟达 NVDA（2026-11-25）：上期判断偏多，实际 -3.91%，未命中。依据只看了 Dell 盘后的下游需求读数，没有预料到开盘前路透社关于 Alice Huang 关联公司融资的新报道与美国新一轮 301 关税提议，治理与政策风险压过了需求利好。来源：腾讯行情 https://qt.gtimg.cn/q=usNVDA
+- 中芯国际 688981（2026-11-25）：上期判断偏空，实际 -3.56%，命中。来源：腾讯行情 https://qt.gtimg.cn/q=sh688981
+- 累计：方向性判断 4 次，命中 2 次（50%）；中性判断 8 次，命中 5 次。来源：本任务判断记录（无公开链接：内部统计）
+
+## 美股
+
+- 大盘（2026-11-25）：标普 500 -0.25% 报 7182.78，纳斯达克综合 -0.62% 报 23585.8，道琼斯 +0.33% 报 50182.95；盘中道指一度跌逾 1100 点、纳指最深跌 4.6%，尾盘大幅收复（The Motley Fool）；半导体领跌，Yahoo Finance 称费城半导体指数盘中跌逾 6%，美光、Sandisk 领跌。主导因素：Yahoo Finance 称 10 月 PCE 环比 +0.3%、同比 3.8%，均符合预期，核心 PCE 同比 3.3%，高于预期 3.2%；三季度 GDP 修正值年化 4.3%，高于一致预期 3.5%；特朗普政府约 8:19 ET 提议对中国、欧盟等 14 个贸易伙伴加征最高 20% 的 301 关税，半导体、汽车、钢铝不在其列，最早 1 月生效（Yahoo Finance、CNBC）；CME FedWatch 显示 12 月加息 25 个基点的定价约 98%；资金转入债市，10 年期美债收益率下行约 7 个基点至 4.82%；VIX 收于约 28。11-26 感恩节休市，11-27 半日市。来源：Yahoo Finance https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-25-dow-sp-500-nasdaq-pce-inflation-data-091428237.html；The Motley Fool https://www.fool.com/coverage/stock-market-today/2026/11/25/stock-market-today-nov-25-dow-erases-1-100-point-loss-as-wall-street-stages-dramatic-late-day-comeback/；CNBC https://www.cnbc.com/2026/11/25/us-tariffs-trump-section-301.html
+- 英伟达 NVDA -3.91%（纳斯达克综合 -0.62%）。催化剂：ANI 与 The Tribune 转述路透社 11-25 报道，与前 Megaspeed 控制人 Alice Huang 家族相关的公司以约 3.01 亿美元 AI 计算设备（据中国央行登记文件，含至多 764 台 AI 服务器与模块）为抵押为中国数据中心融资，英伟达优选云合作伙伴 Century Litong 是其中核心主体，该公司否认不当行为；报道发布于美股开盘前（GuruFocus 称盘前已跌约 4.5%）。传导：这是 Megaspeed 入实体清单与司法部调查之外的又一条出口管制线索，若坐实可能带来合规处罚或对华销售渠道收紧，抬高估值中的治理与政策风险折价。预期差：11-23 +31.48% 已计入复任利好，GuruFocus 认为投资者仍在质疑 AI 资本开支能否带来足够回报。佐证：量比 1.07，未见异常放量；Yahoo Finance 称开盘一度跌 8%；ABC News 称美光 -4%、Sandisk -5%、甲骨文 -5%，跌势覆盖整个 AI 链，超额 -3.29 个百分点中仅部分属个股因素。来源：The Tribune https://www.tribuneindia.com/news/ai-computing/companies-linked-to-alice-huang-raised-financing-against-usd-301-million-worth-of-ai-equipment-in-china-report；Yahoo Finance（GuruFocus） https://finance.yahoo.com/markets/stocks/articles/nvidia-stock-falls-again-ai-151733005.html；ABC News https://abcnews.com/Business/stocks-tumble-tech-sell-off-resumes-nvidia-falls/story?id=138442070
+- Meta META +3.40%（纳斯达克综合 -0.62%）。催化剂：Fortune 11-25 报道，亚马逊与 Meta 已就恢复 Meta 购物代理 Muse 访问亚马逊商城进行多轮谈判，广告与搜索结果是主要分歧，需双方 CEO 批准，知情人士称达成协议并无保证，两家公司拒绝置评；另据 Investing.com 援引 Bloomberg，银行正准备为 CoreWeave 发行 45 亿美元贷款，以其为 Meta 专用的佐治亚州 GPU 数据中心合同为支撑。传导：若协议达成，Muse 可进入最大电商平台，扩大其购物代理的使用场景与潜在变现；第三方以 Meta 合同融资建算力，减轻 Meta 自身的资本开支压力；两者对盈利的量化影响均未取得可靠信息。预期差：未取得可靠信息。佐证：量比 0.97，未放量；谈判对手方亚马逊同日 -3.12%；Parameter 的转述发布于 18:38 UTC（美股盘中），Fortune 原文发布时刻与股价走势的先后未能确认。来源：The Next Web（转述 Fortune） https://thenextweb.com/news/amazon-and-meta-talks-muse-blockade-ads-fortune；Parameter https://parameter.io/meta-stock-rises-as-amazon-weighs-letting-muse-back-in/；Investing.com https://www.investing.com/news/stock-market-news/coreweave-banks-prepare-45-billion-metatied-loan-sale-next-week-bloomberg-says-5051311
+- 其余关注个股：亚马逊 -3.12%（超额 -2.50 个百分点达门槛但超出 6 条上限；Investing.com 称 Bernstein 指出 AWS 等按用量计费云平台 11 月中下旬网络活跃度较三季度低约 16%）、超威半导体 -1.75%、微软 -1.25%、特斯拉 -1.18%、谷歌 -2.13%、苹果 +0.43%（均未达异动门槛）。来源：腾讯行情 https://qt.gtimg.cn/q=usAMZN,usAMD,usMSFT,usTSLA,usGOOGL,usAAPL；Investing.com https://www.investing.com/news/stock-market-news/why-is-amazon-stock-sliding-today-93CH-5051122
+
+## 港股
+
+- 大盘（2026-11-25）：恒生指数 -1.14% 报 21966.01，失守 22000 点，恒生科技 -2.56% 报 3378.26，国企指数 -0.91%；成交 2299.76 亿港元；早盘恒科一度涨超 2% 后回落，半导体与大模型股领跌，华虹半导体跌超 17%、天数智芯跌超 18%、智谱跌超 15%，宁德时代 H 股 -12.23%。主导因素：东方财富称恒科下跌受隔夜美股科技股下跌拖累（即 11-24 美股芯片股回落，发生在港股 11-24 收市之后）；南向资金逆势净买入 64.34 亿港元，资金主要流向盈富基金等 ETF，港股通（沪）小米集团净卖出 5.29 亿港元居首（FX168）。来源：东方财富 https://finance.eastmoney.com/a/202611253939551465.html；FX168 https://www.fx168news.com/express/fastnews/1475330；界面新闻 https://www.jiemian.com/article/15373259.html
+- 小米集团 1810 +0.23%（恒生科技 -2.56%）。催化剂：11-24 收市后公布三季度业绩，Longbridge 称经调整净利 48.8 亿元、同比 -57%，收入 1072.4 亿元、同比 -5%，毛利率 20.2%，略胜预期；Investing.com 称智能手机收入基本持平，而分析师此前普遍预期下滑约 6%，手机均价同比提升近 40%。传导：均价上行部分对冲了存储芯片涨价对手机毛利的挤压；业绩后摩根士丹利维持增持、目标价 35 港元，里昂维持跑赢大市、目标价 35 港元并认为三季度可能是盈利谷底，美银维持买入、目标价 34 港元。预期差：摩根大通业绩前预测经调整净利同比 -58%，实际 -57% 基本符合，超预期之处在手机收入而非利润。佐证：量比 1.45 放量；Longbridge 称盘中曾涨约 8%，收盘涨幅收窄至 +0.23%，同期南向资金净卖出小米；超额 +2.79 个百分点主要来自恒科成分股普跌中的相对抗跌。来源：Longbridge https://longbridge.com/zh-CN/news/306763282；Investing.com https://cn.investing.com/news/stock-market-news/article-93CH-3685224；财闻网 https://www.caiwennews.com/article/1717417.shtml
+- 比亚迪股份 1211 -3.90%（恒生指数 -1.14%）。催化剂：欧盟委员会 11-24 公布混合动力汽车全球保障措施临时裁定（实施条例 (EU) 2026/2614），12-01 起实施 200 天进口配额，中国产混动车（含插混）配额 191780 辆、年化约 35 万辆，超出不得进口；公布时刻与港股 11-24 收市的先后未能确认，11-25 为首个完整反应交易日。传导：新浪财经此前报道，前 9 月中国插混（含增程）对欧出口 65.4 万辆，其中比亚迪 40.6 万辆，配额年化规模明显低于今年出口节奏，直接约束比亚迪对欧插混出口量，需更多依赖匈牙利工厂本地生产。预期差：中汽协研究员黄心茹称 35 万辆配额低于行业预期（新浪财经）；另一方面配额高于 2025 年对欧出口的 30.2 万辆。佐证：量比 1.47 放量；同业奇瑞汽车 -3.79%、小鹏 -2.83%、长城 -1.28%（星岛环球网 16:09 快讯）；A 股比亚迪盘中跌约 2.00%（新浪财经）；CS 新能车 ETF -5.45%（界面新闻），部分属板块性下跌。来源：新浪财经 https://finance.sina.com.cn/jjxw/2026-11-25/doc-inizxiam1880935.shtml；新浪财经 https://finance.sina.com.cn/stock/hkstock/hkstocknews/2026-11-01/doc-inixetzz6802004.shtml；星岛环球网 https://m.stnn.cc/detail/6b0698508f9d2b19ddd11576.html
+- 其余关注个股：美团 -4.28%（涨跌幅达门槛但超出 6 条上限；11-27 收市后公布三季度业绩）、腾讯控股 -1.23%、阿里巴巴 -1.22%（均未达异动门槛）。来源：腾讯行情 https://qt.gtimg.cn/q=hk03690,hk00700,hk09988
+
+## A股
+
+- 大盘（2026-11-25）：上证指数 -2.03% 报 3476.47，失守 3500 点，深证成指 -3.24%，沪深 300 -1.65%，创业板指 -4.19%，科创 50 -5.12%；沪深两市成交 13830.97 亿元，较前一交易日缩量约 2720 亿元，超 4900 只个股下跌；中证半导 -7.87%、CS 电池 -6.28%、机器人 -5.17% 领跌，酒店餐饮、白酒、旅游及景区、国有大型银行逆势上涨。主导因素：界面新闻称 11-24 费城半导体指数 -7.88%、美光 -10.97%（发生在 A 股 11-24 收盘之后），抛售冲击的是估值与杠杆而非订单，并称 12 月美联储加息定价近 98% 压制长久期成长资产；21 财经称宁德时代大跌拖累创业板；成交额本身不能说明主力资金净流向，未取得可靠的资金流数据。来源：界面新闻 https://www.jiemian.com/article/15373259.html；21 财经 https://m.21jingji.com/article/20261125/herald/6ff465ac236474b39fa45af82c993e65.html
+- 宁德时代 300750 -8.33%（创业板指 -4.19%）。催化剂：新浪财经 11-25 报道，花旗援引 ZE Consulting 排产跟踪称，宁德时代 11 月排产计划由月初 96GWh 下调至 93GWh，减少的 3GWh 全部来自磷酸铁锂，花旗认为去库存周期可能延续至 2027 年一季度；搜狐转引南华早报称其 10 月国内市占率连续第 6 个月下降；花旗报告发布日期未能确认，时间先后未能确认。传导：排产下调直接对应出货量与产能利用率，叠加华兴证券所称三季度毛利率 20.7%、同比降 5.1 个百分点，盈利压力从"单价"扩展到"销量"。预期差：摩根大通 11 月上旬已将 A 股目标价由 310 元降至 300 元，但明确称下调源于单位盈利假设而非出货转弱，本次排产数据指向的正是出货层面；大东时代智库预测 12 月全行业排产环比 -17.6%，但认为属节奏扰动而非终端需求转差，两说并存。佐证：量比 1.67 放量；H 股同日 -12.23%；CS 电池指数 -6.28%、尚太科技跌停（界面新闻）；较 5-7 历史高点回撤超 54%，创 19 个月新低。来源：新浪财经 https://k.sina.cn/article_5953190046_162d6789e06703y9hg.html；搜狐 https://www.sohu.com/a/1106158186_122014422；界面新闻 https://www.jiemian.com/article/15373259.html
+- 贵州茅台 600519 +1.02%（沪深 300 -1.65%）。未找到明确催化剂：窗口内未检索到公司公告或评级变动；新浪财经"酒价内参"显示 11-25 白酒 12 大单品终端零售均价两涨九跌一平、创两个多月新低，批价并未提供支撑；同业泸州老窖控股股东拟增持 5000 万至 1 亿元（界面新闻），属同业事件；量比 1.00 未放量，白酒、食品饮料（+0.57%）、酒店餐饮板块整体逆势上涨，新浪财经分析认为资金由科技成长转向防御性消费（属媒体观点），表现为随板块轮动而非个股驱动。来源：界面新闻 https://www.jiemian.com/article/15373259.html；21 财经 https://m.21jingji.com/article/20261125/herald/6ff465ac236474b39fa45af82c993e65.html；新浪财经 https://finance.sina.com.cn/tech/roll/2026-11-25/doc-inizxpkp4363061.shtml
+- 其余关注个股：中芯国际 -3.56%（涨跌幅达门槛但超出 6 条上限；科创 50 同日 -5.12%，超额 +1.56 个百分点，随半导体板块下跌）。来源：腾讯行情 https://qt.gtimg.cn/q=sh688981
+
+## 下一交易日展望
+
+以下为模型基于公开信息作出的判断，用于事后检验，不构成投资建议。
+
+- 恒生指数：偏多。依据：港股 11-25 收市后，美股从盘中深跌大幅收复（纳指盘中最深 -4.6%、收 -0.62%，道指收涨），纳斯达克中国金龙指数收涨约 1.87%–1.91%，且这一上涨已发生在 301 关税提议公布之后，中概股在美时段的回升尚未反映在港股收盘价中。关注：11-26 港股开盘后科网股能否止住恒科连续 11 个交易日的下跌、南向资金流向、中方对 301 关税提议的进一步回应。证伪条件：中方宣布具体反制措施或关税细节显示对华税率显著上调，或恒科开盘后继续走弱、南向资金转为净卖出，使恒指收跌。来源：Longbridge https://longbridge.com/zh-CN/news/306824859；The Motley Fool https://www.fool.com/coverage/stock-market-today/2026/11/25/stock-market-today-nov-25-dow-erases-1-100-point-loss-as-wall-street-stages-dramatic-late-day-comeback/
+- 沪深 300：不判断。原因：中概股隔夜回升与美国对华 301 关税提议方向相反，A 股 11-25 已大幅缩量下跌，下一交易日无已排定的重要国内数据，没有足以定向的依据。关注：11-26 半导体与电池板块能否企稳、两市成交能否回到 1.4 万亿以上；11-30 两融保证金比例调整生效与 11 月 PMI。来源：新浪新闻（外交部回应） https://news.sina.com.cn/c/2026-11-25/doc-inizxtsc9498492.shtml
+- 标普 500：不判断。原因：11-26 休市，11-27 为半日市（13:00 ET 收盘），期间无已排定的重要经济数据，盘后亦未检索到足以定向的公司事件。关注：11-27 半日市成交、黑色星期五零售数据、12-08 至 12-09 FOMC 前的加息定价。来源：Yahoo Finance https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-25-dow-sp-500-nasdaq-pce-inflation-data-091428237.html
+- 英伟达 NVDA：不判断。原因：盘后未检索到新的公司消息，Alice Huang 关联融资与监管调查的后续时间点未知，没有尚未反映在收盘价中的定向信息。关注：11-27 半日市；SEC、司法部或国会对英伟达对华业务的新动作。来源：The Tribune https://www.tribuneindia.com/news/ai-computing/companies-linked-to-alice-huang-raised-financing-against-usd-301-million-worth-of-ai-equipment-in-china-report
+- Meta META：不判断。原因：上涨所依据的亚马逊谈判尚无协议，且两公司均未置评，下一交易日无已排定事件。关注：亚马逊或 Meta 是否宣布 Muse 访问协议；CoreWeave 45 亿美元贷款发行进展。来源：The Next Web https://thenextweb.com/news/amazon-and-meta-talks-muse-blockade-ads-fortune
+- 宁德时代 300750：不判断。原因：排产下调信息已在 11-25 集中反映，收盘后未检索到新的公告或排产数据，"今天跌多了"不构成依据。关注：公司是否就排产或市占率回应；12 月排产数据；碳酸锂期货走势。来源：新浪财经 https://k.sina.cn/article_5953190046_162d6789e06703y9hg.html
+- 小米集团 1810：不判断。原因：业绩与大行观点已在 11-25 交易中消化，盘中冲高回落显示多空分歧，收市后无新增信息。关注：11-26 南向资金对小米的买卖方向、更多卖方目标价调整。来源：Longbridge https://longbridge.com/zh-CN/news/306763282
+- 比亚迪股份 1211：不判断。原因：欧盟混动配额已于 11-25 反映，配额在中国车企之间如何分配尚无官方信息，没有新的定向依据。关注：12-01 配额生效前出口安排、比亚迪 11 月产销快报（通常 12 月初公布）、中方是否诉诸 WTO。来源：新浪财经 https://finance.sina.com.cn/jjxw/2026-11-25/doc-inizxiam1880935.shtml
+- 贵州茅台 600519：不判断。原因：当日上涨未找到个股催化剂，属板块轮动，下一交易日无已知公司事件。关注：飞天茅台批价、消费板块能否延续逆势。来源：21 财经 https://m.21jingji.com/article/20261125/herald/6ff465ac236474b39fa45af82c993e65.html
+- 美团 3690：不判断。原因：三季度业绩定于 11-27 收市后公布，在下一交易日（11-26）之后，结果未知。关注：11-27 收市后业绩中外卖单位经济效益与即时零售亏损。来源：腾讯行情 https://qt.gtimg.cn/q=hk03690
