@@ -1,6 +1,6 @@
 ## 1. 本次运行
-- 运行时刻及检索截止：2026-11-24 10:56 UTC；实际覆盖窗口：2026-11-23 10:55 UTC 至 2026-11-24 10:56 UTC（常规）。
-- Capricor 11/23 电话会已改期，未检到会上内容，仍待定向检索；麻疹、埃博拉、加州流感本期无新数据。
+- 运行时刻及检索截止：2026-11-25 10:55 UTC；实际覆盖窗口：2026-11-24 10:56 UTC 至 2026-11-25 10:55 UTC（常规）。
+- Capricor 电话会内容仍未检到；麻疹、埃博拉、加州流感本期无新数据。
 
 ## 2. 已报条目清单
 
@@ -65,6 +65,11 @@
 2026-11-24 | SpaceX 目标 11/29 发射 Cygnus XL NG-25 | https://spacecoastdaily.com/2026/11/spacex-targets-nov-29-launch-of-cygnus-xl-cargo-mission-from-cape-canaveral/
 2026-11-24 | 参议院拨款草案 NIH +5 亿至 490 亿美元 | https://science.org/content/article/senate-bill-gives-nih-500-million-raise-2027
 2026-11-24 | NSF 无确认局长、无国家科学委员会，代理局长 12 月初退休（AIP 单源） | https://www.aip.org/fyi/the-week-of-november-23-2026
+
+2026-11-25 | 罗氏 Wilserdly（giredestrant）获 FDA 批准用于早期 ER+/HER2- 乳腺癌辅助治疗（复发风险降 30%） | https://www.foxnews.com/health/fda-approves-first-new-breast-cancer-hormone-therapy-over-two-decades
+2026-11-25 | FDA 批准 Cogent Ekitna（bezuclastinib）联合舒尼替尼用于伊马替尼治疗后晚期 GIST（PFS 16.5 对 9.2 个月） | https://www.cancernetwork.com/view/fda-approves-bezuclastinib-plus-sunitinib-for-imatinib-pretreated-gist
+2026-11-25 | 猎鹰 9 号自范登堡发射太空军 USSF-266（11/24） | https://www.ksby.com/news/launch-tracker/spacex-launch-planned-for-tuesday-from-vandenberg-space-force-base
+2026-11-25 | PLOS Medicine 瑞典队列：夏季低维生素 D 与老年人骨折和死亡风险升高相关（单源） | https://www.archynewsy.com/swedish-study-finds-summer-vitamin-d-deficiency-predicts-higher-fracture-death-risk/
 
 ## 3. 进行中事件表
 - 事件：加州与美西 2026–2027 流感季反常提前暴发（甲型 H1N1 D.3.1.1 亚支 G155E 突变株驱动加州流感阳性率飙升，Bloom 实验室证实该突变显著逃避青少年与年轻成人既有中和抗体）｜最后进展：2026-11-17（加州约 120 例死亡，南加首例儿童死亡）｜下一步关注点：CDPH 与洛杉矶县公共卫生局 11 月中下旬急诊就诊率、住院率与死亡人数变化，以及 CDC 对当季流感疫苗针对 G155E 突变株真实世界保护效力（VE）的评估数据。
