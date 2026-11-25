@@ -2,9 +2,9 @@
 
 ## 1. 本次运行
 
-- 运行时刻及检索截止：2026-11-24 10:07 UTC。
-- 实际覆盖窗口：2026-11-23 10:07 UTC 至 2026-11-24 10:07 UTC（常规）。
-- 收录 4 条（Claude Ship、Claude Code v2.1.331、Codex 0.172.0、Copilot CLI v1.0.115-8）。LangChain/LlamaIndex/OpenAI 博客与 HN/X 社区方向本期检索未见窗口内新帖，覆盖不充分。
+- 运行时刻及检索截止：2026-11-25 10:07 UTC。
+- 实际覆盖窗口：2026-11-24 10:07 UTC 至 2026-11-25 10:07 UTC（常规）。
+- 收录 3 条（Claude Code v2.1.332、Copilot CLI v1.0.116 预发布、Simon Willison 三个拐点）。Codex 仅有 0.173.0-alpha 无内容；Anthropic/LangChain/LlamaIndex/OpenAI 博客与 HN/X 社区方向本期未检出窗口内新帖，覆盖不充分。
 
 ## 2. 已报条目清单（保留最近 14 天）
 
@@ -51,10 +51,13 @@
 - 2026-11-23 | Claude Code v2.1.331：Code Mode 上云厂商终端、MCP 挂起修复、claude doctor 连通性检查、11-30 起托管 marketplace 默认自动更新 | https://github.com/anthropics/claude-code/releases/tag/v2.1.331
 - 2026-11-24 | Codex rust-v0.172.0 稳定版：MCP 惰性启动、exec resume 恢复沙箱权限、GPT-6.2 迁移指引 | https://github.com/openai/codex/releases/tag/rust-v0.172.0
 - 2026-11-23 | Copilot CLI v1.0.115-8：Assisted Permissions 备用审查模型、按子 agent 汇总用量 | https://github.com/github/copilot-cli/releases
+- 2026-11-25 | Claude Code v2.1.332：MCP 服务器可提供 skill（beta）、PreSkillShellCommand hook、Foundry 别名升至 Sonnet 5.5/Opus 5.5 | https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md
+- 2026-11-25 | Copilot CLI v1.0.116-0~-5 预发布：插件/MCP 同端点告警、长会话内存泄漏修复、ACP 上下文大小可选 | https://github.com/github/copilot-cli/releases/tag/v1.0.116-5
+- 2026-11-24 | Simon Willison《Three LLM inflection points in twelve months》 | https://simonwillison.net/2026/Nov/24/llm-inflection-points/
 
 ## 3. 进行中事件表
 
-- 事件：Claude Code `.claude/settings.local.json` 内置敏感信息擦除（secret scrubbing）与安全默认保护落地；最后进展日期：2026-11-09（Apiiro 披露「Yes, and don't ask again」将含密钥的明文命令写入 `.claude/settings.local.json` 并在逾 1,100 个公开仓库泄露后，Claude Code 负责人 Boris Cherny 在 HN 回应称正原型验证内置 secret scrubbing 与自动防泄漏机制）；下一步关注点：Claude Code 后续版本（v2.1.323、v2.1.325 摘要均未见此项，v2.1.326 亦未见，v2.1.327–v2.1.331 亦未见（v2.1.331 于 11-23 发布仍无此项），看 v2.1.332+）变更日志何时上线 `.claude/settings.local.json` 写入前的密钥自动脱敏/拦截及仓库级 `.gitignore` 保护改进。
+- 事件：Claude Code `.claude/settings.local.json` 内置敏感信息擦除（secret scrubbing）与安全默认保护落地；最后进展日期：2026-11-09（Apiiro 披露「Yes, and don't ask again」将含密钥的明文命令写入 `.claude/settings.local.json` 并在逾 1,100 个公开仓库泄露后，Claude Code 负责人 Boris Cherny 在 HN 回应称正原型验证内置 secret scrubbing 与自动防泄漏机制）；下一步关注点：Claude Code 后续版本（v2.1.323、v2.1.325 摘要均未见此项，v2.1.326 亦未见，v2.1.327–v2.1.332 亦未见（v2.1.332 于 11-25 发布仍无此项），看 v2.1.333+）变更日志何时上线 `.claude/settings.local.json` 写入前的密钥自动脱敏/拦截及仓库级 `.gitignore` 保护改进。
 - 事件：Claude Code 彻底移除模型上下文中的用户账号邮箱后续版本落地；最后进展日期：2026-11-09（v2.1.319–v2.1.329 均 进一步加固权限与 MCP OAuth 令牌安全，但尚未在变更日志中宣告将登录邮箱彻底移出模型系统上下文）；下一步关注点：Claude Code 后续版本变更日志是否兑现从系统上下文中彻底剥离用户邮箱，以及 `@author` 等场景的替代方案。
-- 事件：OpenAI 收购 Pierre 后的 Code Storage 与 Codex 集成及 Pando 开源/上游回馈进展；最后进展日期：2026-11-04（OpenAI 披露内部 Git 后端 Pando 并宣布收购 Pierre，计划将 Pierre 的分布式机器导向 Git 存储层 Code Storage 深度整合进 Codex）；下一步关注点：Codex CLI（0.170.0–0.172.0 稳定版均未见 Pierre 集成，看 0.173+）及云端环境何时开放基于 Pierre Code Storage 的多 Agent 并行分支与内联审查功能，以及 Pando 相关补丁是否回馈上游 Git。
+- 事件：OpenAI 收购 Pierre 后的 Code Storage 与 Codex 集成及 Pando 开源/上游回馈进展；最后进展日期：2026-11-04（OpenAI 披露内部 Git 后端 Pando 并宣布收购 Pierre，计划将 Pierre 的分布式机器导向 Git 存储层 Code Storage 深度整合进 Codex）；下一步关注点：Codex CLI（0.170.0–0.172.0 稳定版均未见，0.173 仅有 alpha Pierre 集成，看 0.173+）及云端环境何时开放基于 Pierre Code Storage 的多 Agent 并行分支与内联审查功能，以及 Pando 相关补丁是否回馈上游 Git。
 - 事件：Opus 4.8 fast mode 停用；最后进展日期：2026-10-31（v2.1.316 公告，弃用日 10 月 30 日）；下一步关注点：11 月 30 日正式移除前后的客户端报错处理与迁移公告。
