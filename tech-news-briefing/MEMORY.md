@@ -1,46 +1,12 @@
 ## 1. 本次运行
 
-- 本次运行时刻及检索截止：2026-11-25 10:30 UTC。
-- 上次运行：2026-11-24 10:20 UTC。
-- 覆盖窗口：2026-11-24 10:10 UTC 至 2026-11-25 10:10 UTC（常规）。
-- 本期未收录：谷歌、系统更新、新品、开源、政策方向窗口内未检索到新的未报内容。下期可留意：英伟达董事会对贝森特问询的答复与12/1国会问询；特斯拉/SpaceX合并谈判；Tesla 12/3股东大会；Motorola Signature 27 11/26开卖；iOS 27.3正式版（预计12月）。
+- 本次运行时刻及检索截止：2026-11-26 10:30 UTC。
+- 上次运行：2026-11-25 10:30 UTC。
+- 覆盖窗口：2026-11-25 10:10 UTC 至 2026-11-26 10:10 UTC（常规）。
+- 本期未收录：系统更新、芯片、安全、开源、政策、投融资方向窗口内未检索到新的未报内容。下期可留意：英伟达董事会对贝森特问询的答复与12/1国会问询；特斯拉/SpaceX合并谈判（目标12/31前）；Tesla 12/3股东大会；华为Mate X8 12/4开售；iOS 27.3正式版（预计12月）。
 
 ## 2. 已报条目清单
 
-- 2026-11-06 | 谷歌发布2026年11月Android安全公告修复逾200个漏洞（含Framework严重RCE漏洞CVE-2026-58868），并在设置中新增Family Hub入口 | https://source.android.com/docs/security/bulletin/2026-11-01
-- 2026-11-06 | 谷歌推送Chrome 157稳定版（157.0.8103.38/.39），修复含7个严重漏洞在内的213项安全问题 | https://chromereleases.googleblog.com/2026/11/stable-channel-update-for-desktop.html
-- 2026-11-06 | 苹果推送iOS 27.3与macOS 27.3（Golden Gate）Beta 1，重构健康应用、新增Apple Music视频K歌并开启国行Apple Intelligence开发者测试 | https://9to5mac.com/2026/11/03/everything-new-in-ios-27-3-beta-1-so-far/
-- 2026-11-06 | 小米面向全球启动基于Android 17的澎湃OS 4（HyperOS 4）稳定版推送 | https://www.gizmochina.com/
-- 2026-11-06 | 苹果M5 Pro/Max OLED触控屏MacBook Pro、M6 MacBook Pro、M6 iMac与OLED iPad mini于11月6日正式开售，首批独立评测出炉 | https://www.macrumors.com/2026/11/06/apple-launching-five-new-products-today/
-- 2026-11-06 | 华为发布首款100%国产化元器件供应链台式机擎云HM650，搭载麒麟X90与HarmonyOS V1.0 | https://www.scmp.com/tech/tech-trends/article/3289052/no-intel-no-qualcomm-huawei-unveils-desktop-built-entirely-china-made-components
-- 2026-11-06 | 苹果公布2026财年Q4及全年财报：Q4营收同比增12%至1144.8亿美元，全年总营收达创纪录4790亿美元 | https://www.apple.com/newsroom/2026/11/apple-reports-fourth-quarter-results/
-- 2026-11-06 | 美光因台湾桃园厂工会劳资分红谈判僵局暂停投资30亿至45亿美元的桃园新晶圆厂（Fab 11E）建设 | https://www.thestreet.com/investing/stocks/micron-freezes-taiwan-plant-as-workers-demand-bigger-cut
-- 2026-11-06 | AMD Q3营收同比增45%至134亿美元（数据中心增97%），高通Q4非GAAP营收104.4亿美元，Arm Q2营收14.43亿美元且单季芯片出货首破100亿颗 | https://ir.amd.com/news-events/press-releases/detail/7308/amd-reports-third-quarter-2026-financial-results
-- 2026-11-06 | 台积电被曝应英伟达要求评估制造垂直堆叠3D DRAM等先进存储芯片（传闻） | https://www.investing.com/news/stock-market-news/tsmc-considers-making-advanced-memory-chips-the-information-reports-93CH-3832185
-- 2026-11-06 | 马斯克宣布特斯拉计划逐步关停Cybertruck产线转向Cybercab，中期选举后两日特斯拉与SpaceX市值蒸发逾4110亿美元 | https://decrypt.co/290074/tesla-wind-down-cybertruck-production-elon-musk-robotaxis-ai
-- 2026-11-06 | Marvell宣布以约1150亿美元全股票交易收购光通信厂商Lumentum；Five9宣布以3.25亿美元收购Level AI | https://investor.marvell.com/news-releases/news-release-details/marvell-and-lumentum-combine-creating-category-leader-ai
-- 2026-11-06 | CISA将WordPress核心TOCTOU远程代码执行漏洞CVE-2026-119977列入KEV，Debian与Ubuntu修复APT中间人漏洞 | https://thehackernews.com/2026/11/some-wordpress-sites-can-still-be.html
-- 2026-11-06 | Fedora 45正式版发布（默认启用KMSCON并集成Stratis），systemd正式合并初步Rust语言支持 | https://www.phoronix.com/news/Fedora-45-Released
-- 2026-11-06 | GitHub原生支持仓库概览页展示ACCESSIBILITY.md无障碍声明并启动Game Off 2026挑战赛 | https://github.blog/news-insights/company-news/accessibility-statements-now-have-a-home-on-github/
-- 2026-11-06 | OpenAI向美国联邦法官申请简易判决驳回马斯克X与xAI提起的生成式AI反垄断诉讼剩余指控 | https://www.pymnts.com/artificial-intelligence/2026/openai-says-apple-chatgpt-deal-doesnt-shut-out-ai-rivals/
-- 2026-11-09 | 谷歌Gemini上线Memory summary功能，并确认11月13日起取消Google AI Plus低价档位的Gemini Pro模型权限 | https://9to5google.com/2026/11/09/google-gemini-memory-summary/
-- 2026-11-09 | Google Messages测试版改版主页布局，引入底部搜索栏与右上角Gemini入口 | https://9to5google.com/2026/11/07/google-messages-homepage-redesign/
-- 2026-11-09 | 苹果推送macOS 27.2.1与iOS 27.2.1等安全更新，移除存在弱私钥缺陷的eMudhra证书以修补命令行工具漏洞 | https://www.macrumors.com/2026/11/09/macos-27-2-1-emudhra-fix/
-- 2026-11-09 | 微软推送Windows 11 Beta Build 26320.9876（全面切换至26H2并上线WinUI 3搜索快捷操作）与Experimental Build 26340.9882 | https://blogs.windows.com/windows-insider/2026/11/06/announcing-new-builds-for-6-november-2026/
-- 2026-11-09 | Q.ANT与IONOS联合推出商业光子计算试点项目，通过云端裸金属服务器开放光子处理器算力 | https://www.globenewswire.com/news-release/2026/11/09/3398482/0/en/Q-ANT-and-IONOS-Launch-Photonic-Computing-Pilot.html
-- 2026-11-09 | 英伟达董事会就CEO黄仁勋涉华情报安全隐忧启动独立调查，黄仁勋致歉并否认泄密，股价单日市值蒸发逾3000亿美元 | https://www.theguardian.com/us-news/2026/nov/08/nvidia-investigation-ceo-jensen-huang-foreign-intelligence
-- 2026-11-09 | 字节跳动评估扩建巴西数据中心二期并收紧内部对Claude与Codex等外部AI工具权限，海外算力伙伴DayOne提交纳斯达克IPO招股书 | https://www.tmtpost.com/7581566.html
-- 2026-11-09 | 台积电正式否认应英伟达要求进军3D DRAM制造传闻，重申专注纯逻辑晶圆代工主业 | https://www.tomshardware.com/semiconductors/tsmc-denies-exploring-3d-dram-at-nvidias-request-advanced-memory-tech-is-still-years-from-market-viability
-- 2026-11-09 | 英飞凌宣布利用现有硅制造设备成功加工出全球首批300毫米（12英寸）碳化硅（SiC）功率晶圆 | https://www.techpowerup.com/354619/infineon-starts-worlds-first-300-millimeter-power-silicon-carbide-sic-wafer-production
-- 2026-11-09 | 特斯拉与SpaceX合资芯片企业Terafab目标2032年月产100万片晶圆（含70万片存储晶圆），马斯克软化立场重谈台积电运营角色 | https://www.techpowerup.com/354610/terafab-wants-to-become-one-of-the-largest-memory-makers-by-2032
-- 2026-11-09 | 马斯克确认Cybertruck产线将于2027年年中关停并向未交付预订者退还定金，预计SpaceX年化营收2027年底达5000亿美元 | https://www.cbsnews.com/news/tesla-cybertruck-deposits-production-winds-down-elon-musk/
-- 2026-11-09 | 国防科技公司Shield AI完成25亿美元融资（估值288亿美元）并宣布以最高53亿美元收购超材料雷达厂商Echodyne | https://shield.ai/shield-to-acquire-echodyne-in-a-transaction-valued-at-5-3-billion-and-raise-2-5-billion-at-a-28-8-billion-valuation/
-- 2026-11-09 | 无人机配送企业Zipline完成15亿美元后期融资，投后估值升至215亿美元 | https://www.finsmes.com/2026/11/zipline-raises-1-5b-in-funding.html
-- 2026-11-09 | OpenSSH曝出高危认证绕过漏洞"SSHole"（CVE-2026-123158）且与SonicWall MFA绕过漏洞CVE-2026-19868同被CISA列入KEV | https://www.bleepingcomputer.com/news/security/open-ssh-flaw-lets-attackers-log-into-password-disabled-linux-accounts/
-- 2026-11-09 | Linux内核UDP套接字曝出在野受测高危提权漏洞CVE-2026-98276，Chainalysis披露遭遇AI智能体网络攻击致部分用户资料外泄 | https://almalinux.org/blog/2026-11-06-cve-2026-98276/
-- 2026-11-09 | Linux 7.4-rc2发布带来FAT32预分配优化与AMDGPU修复，AMD提交下一代RDNA 5（GFX13）初步Linux内核驱动补丁 | https://www.phoronix.com/news/Linux-7.4-rc2
-- 2026-11-09 | FTC与多州同租房巨头Progress Residential达成4975万美元反隐形收费和解，中期选举后国会民主党拟强化AI数据中心与安全监管审查 | https://www.ftc.gov/news-events/news/press-releases/2026/11/progress-residential-owner-pretium-partners-pay-49.75-million-settle-ftc-states-charges-over-deceptive
-- 2026-11-11 | 微软11月补丁星期二修复约1093个漏洞，Outlook欺骗漏洞CVE-2026-124194已被在野利用并入CISA KEV | https://www.tenable.com/blog/microsoft-november-2026-patch-tuesday-addresses-1093-cves-cve-2026-124194
 - 2026-11-12 | AI云算力厂商CoreWeave公布2026年Q3财报业绩超预期，带动纳指与标普500收涨（单源） | https://thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-11-2026
 - 2026-11-18 | 英伟达公布2027财年Q3：营收1158亿美元（增103%），Q4指引约1300亿美元且假设无中国数据中心收入 | https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000088/q3fy27pr.htm
 - 2026-11-18 | 黄仁勋11月12日辞任英伟达CEO，Colette Kress任临时CEO、Harvey Jones任董事会主席 | https://www.cnn.com/2026/11/12/tech/jensen-huang-nvidia-resigns
@@ -88,13 +54,19 @@
 - 2026-11-25 | 特斯拉与SpaceX各设独立董事谈判小组推进可能的全股票合并，摩根士丹利、高盛、Evercore任顾问 | https://business-standard.com/amp/world-news/spacex-tesla-set-up-teams-of-directors-to-negotiate-possible-merger-126112500251_1.html
 - 2026-11-25 | SpaceX拒绝约7.38亿美元联邦补贴（单源） | https://teslarati.com/spacex-starlink-rejects-fed-subsidy
 - 2026-11-25 | Drupal核心安装程序漏洞CVE-2026-132165被在野利用并入CISA KEV（11/27修复期限） | https://www.securityweek.com/drupal-flaw-found-by-anthropic-scanner-exploited-in-attacks/
+- 2026-11-26 | 谷歌称Gemini在Chrome中高内存占用问题已修复（单源） | https://wisevoter.com/world/2026/11/26/google-gemini-chrome-ram-issue-resolved
+- 2026-11-26 | 华为Mate X8首拆曝光，12/4开售；折叠屏iPhone Duo上市首月遇冷（单源） | https://k.sina.com.cn/article_7857201856_1d45362c001908w579.html
+- 2026-11-26 | 小米Q3营收1072亿元降5.2%、经调整净利润降56.8% | https://k.sina.com.cn/article_7857201856_1d45362c001908w579.html
+- 2026-11-26 | 11/25美股科技股重挫，英伟达盘中最深跌9.1%收跌3.91%（AI基建信贷忧虑） | https://www.cnbc.com/2026/11/25/nvidia-ai-stock-tech-selloff.html
+- 2026-11-26 | 特斯拉与SpaceX合并目标12/31前达成协议、估值约3.2–3.5万亿美元、换股比例未定（单源） | https://www.tokenpost.com/news/business/62720
+- 2026-11-26 | Gurman称MacBook Air 2027初换M6、推MacBook Neo 2（传闻） | https://k.sina.com.cn/article_7857201856_1d45362c001908w579.html
 
 ## 3. 进行中事件表
 
 1. 事件：英伟达CEO更替、涉外情报调查与出口管制问询｜最后进展：2026-11-23，英伟达宣布黄仁勋复任CEO（此前特朗普公开呼吁重聘）；此前：特朗普公开呼吁董事会重聘黄仁勋、贝森特称需要答案但未排除复任；11/20，贝森特称H200政策不变；11/18，黄仁勋定于12/1接受国会闭门问询、Teter 12/2；贝森特11/15限董事会10天答复Megaspeed转运问题；SEC被曝民事调查（单源）；董事会被曝接触Rene Haas｜下一步关注：三星/台积电对华出货许可获批进展（三星被曝暂停百度昆仑芯、字节出货）与台股走势；贝森特与国会对复任的反应；H200对华停货是否恢复；董事会对贝森特限期（约11/25）的回应；SEC调查是否获官方证实
 2. 事件：美光台湾桃园厂劳资争议与暂停新晶圆厂建设｜最后进展：2026-11-06，因桃园厂工会要求将营业利润15%用于员工分红的谈判陷入僵局及抗议台中厂协议透明度问题，美光被曝暂停总投资30亿至45亿美元的桃园新晶圆厂（Fab 11E）建设｜下一步关注：桃园厂劳资调解是否达成协议、Fab 11E何时复工
 3. 事件：美满电子（Marvell）1150亿美元全股票收购Lumentum｜最后进展：2026-11-02，Marvell宣布达成最终协议以隐含企业价值约1150亿美元全股票交易收购光通信厂商Lumentum（含32亿美元反向分手费条款，预计2028年上半年交割）｜下一步关注：双方股东大会表决及中美欧反垄断监管审查进展
-4. 事件：特斯拉与SpaceX董事会特别委员会评估合并及关停Cybertruck产线｜最后进展：2026-11-24，特斯拉与SpaceX各自设立独立董事特别谈判小组，摩根士丹利、高盛、Evercore任顾问，尚无协议；此前11/18马斯克在DealBook称两家公司"可能合并更好"但反对合并单独触发其薪酬奖励，Bloomberg称最早12月可能公告；此前11/09马斯克确认得州工厂Cybertruck产线将于2027年年中关停并向无法交付的预订者退还定金，同时双方董事会特别委员会持续评估合并方案｜下一步关注：特别委员会正式合并方案、国会与监管机构反垄断审查进展
+4. 事件：特斯拉与SpaceX董事会特别委员会评估合并及关停Cybertruck产线｜最后进展：2026-11-26，报道称目标12/31前达成协议、换股比例未定；11/24，特斯拉与SpaceX各自设立独立董事特别谈判小组，摩根士丹利、高盛、Evercore任顾问，尚无协议；此前11/18马斯克在DealBook称两家公司"可能合并更好"但反对合并单独触发其薪酬奖励，Bloomberg称最早12月可能公告；此前11/09马斯克确认得州工厂Cybertruck产线将于2027年年中关停并向无法交付的预订者退还定金，同时双方董事会特别委员会持续评估合并方案｜下一步关注：特别委员会正式合并方案、国会与监管机构反垄断审查进展
 5. 事件：国行版Apple Intelligence开发者测试与正式上线｜最后进展：2026-11-04，苹果在iOS 27.3测试版中开启集成阿里通义千问（Qwen）模型的国行Apple Intelligence开发者测试，计划12月随iOS 27.3正式版向公众推送｜下一步关注：iOS 27.3正式版推送及iPadOS/macOS国行版监管审批进展
 6. 事件：马斯克诉OpenAI反垄断案与苹果诉OpenAI商业机密案｜最后进展：2026-11-05，OpenAI向联邦法官申请简易判决驳回马斯克反垄断诉讼剩余指控；苹果诉OpenAI及前高管Tang Tan商业机密盗窃案已排期2027年7月19日开庭｜下一步关注：法庭对OpenAI简易判决动议的裁定、商业机密案取证进展
 7. 事件：澳大利亚联邦法院责令苹果2027年3月1日开放iOS生态｜最后进展：2026-10-22澳洲联邦法院裁定苹果须自2027/3/1起开放第三方应用商店、侧载与替代支付，苹果宣布申请暂缓执行并上诉｜下一步关注：苹果上诉与暂缓执行申请裁定、Epic《堡垒之夜》重返澳洲App Store具体时间
