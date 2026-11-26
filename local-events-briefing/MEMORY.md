@@ -1,7 +1,7 @@
 ## 1. 本次运行
-- 运行时刻及检索截止：2026-11-25 17:04 PST（America/Los_Angeles），傍晚场，侧重感恩节当天与黑五周末。
-- 实际覆盖窗口：2026-11-25 11:04 PST 至 2026-11-25 17:04 PST（常规）。
-- 补搜：新店开业、黑五周末演出；全国范围本期无新增。
+- 运行时刻及检索截止：2026-11-26 11:04 PST（America/Los_Angeles），上午场，感恩节当天，侧重周五黑五周末。
+- 实际覆盖窗口：2026-11-25 17:04 PST 至 2026-11-26 11:04 PST（常规）。
+- 补搜：新店开业无新增；全国范围本期无新增（无黑五相关免费日）。
 
 ## 2. 已报条目清单
 
@@ -177,6 +177,13 @@
 2026-11-25 | Imminence 11/28 18:00 The Wiltern Los Angeles（单源）| https://www.livenation.com/venue/KovZpZAEAl6A/the-wiltern-events
 2026-11-25 | Time Warp LA 11/27–11/28 Ace Mission Studios Los Angeles（单源）| https://www.songkick.com/metro-areas/17835-us-los-angeles-la/november-2026
 2026-11-25 | Black Friday Flea Market 11/27 11:00–16:00 Slow Jamz Gallery Los Angeles（单源）| https://ma.to/event/black-friday-flea-market-27-nov-2026
+2026-11-26 | Ducks vs Kings 11/27 13:00 Honda Center 提醒（续报）| https://www.nhl.com/ducks/fans/promotional-schedule
+2026-11-26 | Clippers vs Pelicans NBA Cup 11/27 18:30 Intuit Dome Inglewood | https://www.nba.com/clippers/game/0022600073-pelicans-vs-clippers-inglewood-ca-11-27-2026
+2026-11-26 | Tanaka Farms Hikari 灯光节 11/27–12/27 Irvine | https://tanakafarms.com/pages/hikari
+2026-11-26 | Winter Fest OC 11/27 开幕提醒（续报）| https://enjoyorangecounty.com/winter-fest-oc/
+2026-11-26 | Strawberry Fuzz / Plague Vendor 11/27 Regent Theater Downtown LA | https://www.discoverlosangeles.com/things-to-do/the-best-things-to-do-in-la-this-weekend
+2026-11-26 | The Residents Eskimo Live! 11/27 Ricardo Montalban Theatre Hollywood | https://www.discoverlosangeles.com/things-to-do/the-best-things-to-do-in-la-this-weekend
+2026-11-26 | Great Park Gallery《Grrrl Germs》11/29 闭展，Irvine（单源）| https://thetropicannalife.com/blog/orange-countys-best-things-to-do-over-thanksgiving-weekend-2026/
 
 ## 3. 进行中事件表
 - Winter Fest OC 2026 季 | 最后进展 2026-11-22 | 11 月 27 日开幕，票价已收录；11 月 26–27 日可做开幕当日提醒
