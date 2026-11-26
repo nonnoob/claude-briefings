@@ -1,5 +1,5 @@
 ## 1. 本次运行
-- 运行时刻及检索截止：2026-11-25 10:55 UTC；实际覆盖窗口：2026-11-24 10:56 UTC 至 2026-11-25 10:55 UTC（常规）。
+- 运行时刻及检索截止：2026-11-26 11:00 UTC；实际覆盖窗口：2026-11-25 10:55 UTC 至 2026-11-26 11:00 UTC（常规）。
 - Capricor 电话会内容仍未检到；麻疹、埃博拉、加州流感本期无新数据。
 
 ## 2. 已报条目清单
@@ -71,6 +71,10 @@
 2026-11-25 | 猎鹰 9 号自范登堡发射太空军 USSF-266（11/24） | https://www.ksby.com/news/launch-tracker/spacex-launch-planned-for-tuesday-from-vandenberg-space-force-base
 2026-11-25 | PLOS Medicine 瑞典队列：夏季低维生素 D 与老年人骨折和死亡风险升高相关（单源） | https://www.archynewsy.com/swedish-study-finds-summer-vitamin-d-deficiency-predicts-higher-fracture-death-risk/
 
+2026-11-26 | FDA 批准 PolyPid Bacfenssi（局部缓释多西环素）用于降低结直肠手术部位感染（SHIELD II 798 人） | https://www.drugtopics.com/view/fda-approves-bacfenssi-to-reduce-infections-after-colorectal-surgery
+2026-11-26 | FDA 将 Vertex povetacicept（IgA 肾病）决定日期由 11/30 延至最迟 2027-02-28 | https://pharmashots.com/38137/vertex-povetacicept-pdufa-extension-igan
+2026-11-26 | CDC 麻疹累计 6,039 例（截至 11/24），确认 9 人死亡 | https://nglobenews.com/en/article/us-cdc-measles-nine-deaths-6039-cases-2026-11-26
+
 ## 3. 进行中事件表
 - 事件：加州与美西 2026–2027 流感季反常提前暴发（甲型 H1N1 D.3.1.1 亚支 G155E 突变株驱动加州流感阳性率飙升，Bloom 实验室证实该突变显著逃避青少年与年轻成人既有中和抗体）｜最后进展：2026-11-17（加州约 120 例死亡，南加首例儿童死亡）｜下一步关注点：CDPH 与洛杉矶县公共卫生局 11 月中下旬急诊就诊率、住院率与死亡人数变化，以及 CDC 对当季流感疫苗针对 G155E 突变株真实世界保护效力（VE）的评估数据。
 - 事件：美国麻疹疫情与消除状态风险（CDC 截至 11/5 累计确诊升至 5182 例、43 起暴发，连续 13 周三位数增长，美国面临丧失 2000 年以来麻疹消除地位风险）｜最后进展：2026-11-17（PAHO 已正式宣布美国丧失消除地位；CDC 累计 5,412 例）｜下一步关注点：美国恢复消除地位的路径与 CDC/HHS 后续举措、CDC 下一期周报病例与死亡数（死亡数各方 6 与 10 不一）、肯塔基疫情增长。
@@ -82,4 +86,4 @@
 - 事件：FDA 近期加速批准抗肿瘤/罕见病新药（Voceryq、Rybrevant Faspro）确证性试验与 GLP-1 类药物 NAION 安全监管（FDA 11/9 要求全部 GLP-1 受体激动剂增补 NAION 说明书警告）｜最后进展：2026-11-09｜下一步关注点：EMA 等其他国际监管机构是否跟进更新 GLP-1 类药物全景安全标签，以及近期加速获批新药三期确证性试验进展。 另：Summit ivonescimab 11/15 收 CRL（已报），下一步关注 Summit 是否公布重新提交/补充 OS 数据计划。
 
 - 事件：Capricor deramiocel CRL｜最后进展：2026-11-20｜下一步关注点：11/23 Capricor 电话会披露后续路径（会前沟通/再次申请）；另 Savara 罕见肺病药（molgramostim）FDA 11/22 错过行动日（最后进展 2026-11-22），等 FDA 新决定日期或公司更新。
-- 补充：麻疹最后进展 2026-11-20（5,838 例）；埃博拉最后进展 2026-11-20（CDC 11/17 口径 11,645 例）；NSF/SBE 2026-11-21（参议院方案否决取消 SBE，12/11 截止）。
+- 补充：麻疹最后进展 2026-11-25（6,039 例，9 人死亡）；Vertex povetacicept 2026-11-25 延期至最迟 2/28/2027；Capricor 电话会仍未检到；埃博拉最后进展 2026-11-20（CDC 11/17 口径 11,645 例）；NSF/SBE 2026-11-21（参议院方案否决取消 SBE，12/11 截止）。
