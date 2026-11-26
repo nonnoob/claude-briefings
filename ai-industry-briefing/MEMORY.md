@@ -1,8 +1,8 @@
 ## 1. 本次运行
 
-- 运行时刻及检索截止：2026-11-25 10:50 UTC。
-- 实际覆盖窗口：2026-11-24 10:45 UTC 至 2026-11-25 10:41 UTC（常规）。
-- 六方向及热点兜底已检索（研究与技术、模型与产品本期窗口内无新增）。
+- 运行时刻及检索截止：2026-11-26 10:50 UTC。
+- 实际覆盖窗口：2026-11-25 10:41 UTC 至 2026-11-26 10:41 UTC（常规）。
+- 六方向及热点兜底已检索（监管与安全、传闻与前瞻本期窗口内无新增）。
 
 ## 2. 已报条目清单
 
@@ -61,6 +61,11 @@
 - 2026-11-25 | 【传闻】【单源】Nscale 与 Anthropic 洽谈第二笔约 450 亿美元、460MW Vera Rubin 合作 | https://aiweekly.co/alerts/nscale-anthropic-in-talks-for-second-45b-west-virginia-deal
 - 2026-11-25 | Axios：Anthropic/OpenAI 员工称最强未发布模型难以安全发布 | https://www.aa.com.tr/en/world/insiders-say-anthropic-openai-struggle-to-contain-unreleased-ai-models-axios/4136091
 - 2026-11-25 | 【续报】国会三项 AI 芯片出口法案推进；黄仁勋 12/1、12/3 出席听证 | https://www.digitimes.com/news/a20261125PD211/ai-chip-nvidia-chips-equipment.html
+- 2026-11-26 | 印度发布 Chariot-1 基础模型（11B MoE + TTS） | https://aninews.in/news/business/india-launches-indigenous-chariot-1-foundation-models-to-strengthen-sovereign-ai-capabilities20261126133539/
+- 2026-11-26 | 【单源】Valory 开源权重预测模型 Olas-Predict-Qwen3.8-27B 逼近 GPT-5.6 | https://itbrief.co.nz/story/valory-s-open-weight-model-nears-gpt-5-6-in-forecasts
+- 2026-11-26 | 【续报】科技股回落、英伟达跌约 4%、ANT 涨超 4% | https://www.cnbc.com/2026/11/25/nvidia-ai-stock-tech-selloff.html
+- 2026-11-26 | 【续报】标普将英伟达列入负面信用观察 | https://www.benzinga.com/markets/tech/26/11/63659241/sp-global-ratings-nvidia-negative-credit-watch-moodys-jensen-huang-return
+- 2026-11-26 | 【续报】英伟达暂停向马来西亚/新加坡/泰国/印尼发运服务器（FT） | https://www.usnews.com/news/top-news/articles/2026-11-26/nvidia-halts-server-shipments-to-four-southeast-asian-countries-ft-reports
 
 ## 3. 进行中事件表
 
@@ -76,3 +81,4 @@
 - 事件：亚马逊收购 Decart 与 Palo Alto 收购 Applied Compute | 最后进展日期：2026-11-23 | 下一步关注点：亚马逊证实价格；两项交易监管批准
 - 事件：Axios 报道的前沿模型安全发布担忧 | 最后进展日期：2026-11-24 | 下一步关注点：Anthropic/OpenAI 进一步声明；Claude Sonnet 5.5、GPT Astra 6.3/6.4 是否推迟
 - 事件：Nscale–Anthropic 第二笔 460MW 合作（传闻） | 最后进展日期：2026-11-24 | 下一步关注点：双方官宣签约
+- 事件：英伟达东南亚四国服务器停运与标普信用观察 | 最后进展日期：2026-11-26 | 下一步关注点：英伟达/BIS 澄清是否恢复发货；标普 90 天内评级结论；12/1、12/3 听证
