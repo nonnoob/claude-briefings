@@ -1,7 +1,7 @@
 ## 1. 本次运行
-- 运行时刻及检索截止：2026-11-25 11:04 PST（America/Los_Angeles），上午场，侧重感恩节当天与周末。
-- 实际覆盖窗口：2026-11-24 17:04 PST 至 2026-11-25 11:04 PST（常规）。
-- 补搜：新店开业与新开票巡演（无明确新增）、全国范围（NPS 无黑五免费日）。
+- 运行时刻及检索截止：2026-11-25 17:04 PST（America/Los_Angeles），傍晚场，侧重感恩节当天与黑五周末。
+- 实际覆盖窗口：2026-11-25 11:04 PST 至 2026-11-25 17:04 PST（常规）。
+- 补搜：新店开业、黑五周末演出；全国范围本期无新增。
 
 ## 2. 已报条目清单
 
@@ -170,6 +170,14 @@
 2026-11-25 | Academy Museum 无障碍场 Gremlins 11/28，$5，时间 11:00/19:30 矛盾，Los Angeles | https://www.academymuseum.org/programs/detail/gremlins-019fceba-f20a-417b-ed3c-bd5163cf63fa
 2026-11-25 | Universal Studios Hollywood Grinchmas 11/21–2027-01-03 | https://hauntedattractionnetwork.com/universal-studios-hollywood-christmas/
 
+2026-11-25 | 感恩节 11/26 南加景点开闭情况（Academy Museum、Pacific Park、Disneyland 开放，Griffith Observatory 与 L.A. Zoo 闭馆）（单源）| https://www.timeout.com/los-angeles/things-to-do/thanksgiving-activities-and-events-for-los-angeles
+2026-11-25 | Chubby World 美食广场 Irvine 2646 Dupont Dr 11 月开业（开业状态矛盾）| https://www.ocbj.com/food/restaurants/chubby-world-food-hall-opening-in-irvine/
+2026-11-25 | Miracle 圣诞快闪酒吧 Offshore 9 Huntington Beach，至 12/31（起始日 11/20 或 11/23 矛盾）| https://www.miraclepopup.com/locations-2026
+2026-11-25 | Toxicity（SOAD 致敬）11/27 17:30 Garden Amphitheatre Garden Grove（单源）| https://seatgeek.com/cities/la/this-weekend
+2026-11-25 | Imminence 11/28 18:00 The Wiltern Los Angeles（单源）| https://www.livenation.com/venue/KovZpZAEAl6A/the-wiltern-events
+2026-11-25 | Time Warp LA 11/27–11/28 Ace Mission Studios Los Angeles（单源）| https://www.songkick.com/metro-areas/17835-us-los-angeles-la/november-2026
+2026-11-25 | Black Friday Flea Market 11/27 11:00–16:00 Slow Jamz Gallery Los Angeles（单源）| https://ma.to/event/black-friday-flea-market-27-nov-2026
+
 ## 3. 进行中事件表
 - Winter Fest OC 2026 季 | 最后进展 2026-11-22 | 11 月 27 日开幕，票价已收录；11 月 26–27 日可做开幕当日提醒
 - Hollywood Christmas Parade | 最后进展 2026-11-20 | 11 月 29 日 18:00；看台票已收录（儿童价两说）；11 月 28–29 日可做当日提醒并核 Ticketmaster 价格
@@ -178,3 +186,4 @@
 - Disneyland 糖果手杖 | 最后进展 2026-11-23 | 11 月 27 日开卖；价格未公布，11/26–27 可核价并提醒
 - Anaheim Ducks vs Kings | 最后进展 2026-11-23 | 11 月 27 日 Honda Center，13:00 开赛已确认（11/24）；11/26–27 做当日提醒；另 11/28 Kings 主场回战 Crypto.com Arena
 - LA Phil Home Alone / Elf in Concert | 最后进展 2026-11-24 | 11/27–11/28 Walt Disney Concert Hall；11/26–27 可做提醒并核 Elf 演出方与票价
+- Chubby World 美食广场 Irvine | 最后进展 2026-11-25 | 核实实际开业日（OCBJ 称 11 月开业，Wisevoter 称 11/24 已开）
