@@ -2,10 +2,10 @@
 
 ## 1. 本次运行时刻与实际覆盖窗口
 
-- 本次运行时刻及检索截止：2026-11-13 10:40 UTC。
-- 上次运行时刻：2026-11-09 21:50 UTC。
-- 实际覆盖窗口：2026-11-09 21:50 UTC 至 2026-11-13 10:40 UTC（常规）。
-- 方向覆盖：Claude Code/Platform/Support 发布说明、VS Code GitHub Releases、Copilot Fable 5.2 已检索；code.visualstudio.com 与 github.blog 本期无法访问（域名未放行），VS Code 1.146 特性清单与 GitHub 官方 changelog 未覆盖。
+- 本次运行时刻及检索截止：2026-11-27 10:45 UTC。
+- 上次运行时刻：2026-11-20（据归档）。
+- 实际覆盖窗口：2026-11-20 至 2026-11-27（常规）。
+- 方向覆盖：VS Code 更新页、Claude Code Releases、新闻检索已覆盖；生态与社区动向本期未单独检索。
 
 ## 2. 已报条目清单（最近 21 天）
 
@@ -45,6 +45,12 @@
 - 2026-11-17 | Claude Developer Platform 推出关联计费（Linked billing，Beta） | https://releasebot.io/updates/anthropic/claude
 - 2026-11-17 | Claude Desktop 新增 Stable/Latest 更新通道 | https://releasebot.io/updates/anthropic/claude
 - 2026-11-19 | Claude Meetings Beta 因需求高峰无法加入大量会议 | https://releasebot.io/updates/anthropic/claude
+- 2026-11-25 | VS Code 1.148 稳定版发布（Agent 启动提速、keep-awake、远程 Dev Container 实验、Agent Host Protocol 1.1.0） | https://code.visualstudio.com/updates/v1_148
+- 2026-11-23 | Anthropic 推出 Claude Ship（PR Steward、Claude Approvals Beta） | https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/
+- 2026-11-24 | Claude/Claude Code 公测 Skills over MCP | https://cryptobriefing.com/anthropic-skills-over-mcp-claude-beta
+- 2026-11-25 | Claude Desktop Beta 支持 Artifacts 安装为桌面应用 | https://www.macrumors.com/2026/11/25/claude-install-artifacts-desktop-apps/
+- 2026-11-25 | Claude Code v2.1.330–2.1.332 发布（easel mod、Code Mode 扩展、MCP 技能入菜单、11-30 插件市场默认自动更新） | https://github.com/anthropics/claude-code/releases
+- 2026-11-24 | Claude Desktop 月度回顾转正、/ship 上线 | https://releasebot.io/updates/anthropic/claude
 
 ## 3. 进行中事件表
 
@@ -55,3 +61,4 @@
 - 事件：Opus 4.8 fast mode 移除与 Copilot Fusion 优惠截止；最后进展日期：2026-10-31；下一步关注点：11 月 30 日旧 fast mode 正式移除及 Copilot Fusion 30% 优惠结束前核对模型配置、收费变化与客户端迁移提示。
 - 事件：Anthropic 开放主动式自主智能体应用 Claude Duet 研究预览（美国 Pro/Max 候补名单）；最后进展日期：2026-10-21；下一步关注点：关注 Claude Duet 何时结束候补名单全量开放或扩展至 Team/Enterprise 与非美地区。
 - 事件：VS Code Local harness 弃用（2027 年 2 月移除）与 Claude/Codex harness 企业放行；最后进展日期：2026-11-18；下一步关注点：关注 1.148 是否新增迁移工具或调整移除日期，以及 `vscode.allowedHarnesses` 的企业落地反馈。
+- 事件：Claude Ship（PR Steward、Claude Approvals Beta）与 Skills over MCP 公测；最后进展日期：2026-11-24；下一步关注点：关注二者何时转 GA 或扩展到 GitHub 以外平台。
