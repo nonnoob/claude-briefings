@@ -1,7 +1,7 @@
 ## 1. 本次运行
-- 运行时刻及检索截止：2026-11-26 17:04 PST（America/Los_Angeles），傍晚场（同日第二次），侧重周五黑五与周末。
-- 实际覆盖窗口：2026-11-26 11:04 PST 至 2026-11-26 17:04 PST（常规）。
-- 补搜：Chubby World 开业状态仍矛盾；Disneyland 糖果手杖 2026 价格仍未查到。
+- 运行时刻及检索截止：2026-11-27 11:10 PST（America/Los_Angeles），上午场，侧重今明与周末。
+- 实际覆盖窗口：2026-11-26 17:04 PST 至 2026-11-27 11:10 PST（常规）。
+- 补搜：Disneyland 糖果手杖价格仍未查到；美食新店方向未检索到当期新条目。
 
 ## 2. 已报条目清单
 
@@ -190,14 +190,20 @@
 2026-11-26 | USC vs UCLA 11/28 Rose Bowl 开赛时间 12:00/12:30 矛盾（续报）| https://lamag.com/arts-and-entertainment/la-weekend-guide-rose-bowl-turkey-trot-made-in-la-holiday-market-hollywood-christmas-parade
 2026-11-26 | Passport to Santa LA 11/27–12/26 Beverly Center | https://secretlosangeles.com/passport-to-santa-experience-los-angeles/
 2026-11-26 | Made in L.A. Holiday Market 11/28 10:00–12:00 Wilshire/Fairfax，免费 | https://www.eventbrite.com/e/celebrating-small-business-saturday-made-in-la-holiday-market-tickets-2003686361846
+2026-11-27 | Newport Dunes 第 36 届 Lighting of the Bay 11/27–2027-01-03，开幕夜 11/27 免费，Newport Beach | https://www.newportdunes.com/event/lighting-of-the-bay-and-fire-lights-festival-opening-night-2026/
+2026-11-27 | Irvine Park Railroad Christmas Train 11/27–12/23，$22–$37，Orange | https://www.irvineparkrailroad.com/events/christmas-train/
+2026-11-27 | Home Alone Under the Stars 11/28 18:00 Dodger Stadium Los Angeles | https://www.funwithkidsinla.com/event-details/home-alone-under-the-stars-at-dodger-stadium
+2026-11-27 | LA Kings Holiday Ice Festival 11/27 开幕当日提醒（续报）| https://www.lalive.com/events/detail/holiday-ice-26-27
+2026-11-27 | Disneyland 糖果手杖 11/27 开卖提醒，价格未公布（续报）| https://ktla.com/news/disneyland-holiday-candy-cane-dates/
+2026-11-27 | LA Opera Candide 11/29 14:00 Dorothy Chandler Pavilion Los Angeles | https://www.laopera.org/performances/2026-27/candide
+2026-11-27 | Holiday Carnival 11/29 12:00–15:00 Anaheim Town Square（单源）| https://enjoyorangecounty.com/whats-happening/
+2026-11-27 | Balboa Bay Resort 圣诞树点灯 11/29 17:00 Newport Beach（单源）| https://enjoyorangecounty.com/whats-happening/
 
 
 ## 3. 进行中事件表
-- Winter Fest OC 2026 季 | 最后进展 2026-11-22 | 11 月 27 日开幕，票价已收录；11 月 26–27 日可做开幕当日提醒
 - Hollywood Christmas Parade | 最后进展 2026-11-20 | 11 月 29 日 18:00；看台票已收录（儿童价两说）；11 月 28–29 日可做当日提醒并核 Ticketmaster 价格
-- Newport Beach Christmas Boat Parade / Holiday Lights Cruises | 最后进展 2026-11-16 | Cruises 11 月 27 日起，可在 11 月 26–27 日做节点提醒
-- LA Kings Holiday Ice Festival | 最后进展 2026-11-24 | 官方确认 11 月 27 日开幕；11 月 26–27 日可做开幕提醒
-- Disneyland 糖果手杖 | 最后进展 2026-11-23 | 11 月 27 日开卖；价格未公布，11/26–27 可核价并提醒
-- Anaheim Ducks vs Kings | 最后进展 2026-11-23 | 11 月 27 日 Honda Center，13:00 开赛已确认（11/24）；11/26–27 做当日提醒；另 11/28 Kings 主场回战 Crypto.com Arena
-- LA Phil Home Alone / Elf in Concert | 最后进展 2026-11-24 | 11/27–11/28 Walt Disney Concert Hall；11/26–27 可做提醒并核 Elf 演出方与票价
+- Newport Beach Christmas Boat Parade | 最后进展 2026-11-16 | 12 月 16–20 日；12 月初可做开票/临近提醒
+- Disneyland 糖果手杖 | 最后进展 2026-11-27 | 11/28–29 Trolley Treats；价格仍未公布，可再核价
+- LA Phil Elf in Concert | 最后进展 2026-11-24 | 11/28 20:00 Walt Disney Concert Hall；核演出方与票价
 - Chubby World 美食广场 Irvine | 最后进展 2026-11-25 | 核实实际开业日（OCBJ 称 11 月开业，Wisevoter 称 11/24 已开）
+- LA Opera Candide | 最后进展 2026-11-27 | 11/29 14:00 场次与官方票价待核；演出季至 12/13
