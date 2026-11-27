@@ -1,36 +1,10 @@
 ## 1. 本次运行
-- 运行时刻及检索截止：2026-11-26 11:00 UTC；实际覆盖窗口：2026-11-25 10:55 UTC 至 2026-11-26 11:00 UTC（常规）。
-- Capricor 电话会内容仍未检到；麻疹、埃博拉、加州流感本期无新数据。
+- 运行时刻及检索截止：2026-11-27 10:55 UTC；实际覆盖窗口：2026-11-26 11:00 UTC 至 2026-11-27 10:55 UTC（常规）；本期为空期（感恩节假期，窗口内无未报新内容）。
+- LA 县 RESPWatch 因假期暂停更新至 11/30；Capricor 电话会内容仍未检到；麻疹、埃博拉本期无新数据；SpaceX Cygnus XL NG-25 目标 11/29（备份 11/30）。
 
 ## 2. 已报条目清单
 
-2026-11-09 | FDA 要求所有已上市 GLP-1 受体激动剂类降糖减重药在说明书中统一增补罕见致盲性眼病 NAION（非动脉炎性前部缺血性视神经病变）风险警告 | https://www.fda.gov/drugs/drug-safety-communications/fda-requires-safety-labeling-changes-glucagon-peptide-1-receptor-agonists-glp-1-ras-due-potential
-2026-11-09 | AHA 2026 与《NEJM》公布 8,322 人 3 期 Lp(a)HORIZON 试验：pelacarsen 降低脂蛋白(a)达 78.4% 但未能显著减少主要不良心血管事件（HR 1.02） | https://doi.org/10.1056/NEJMoa2610159
-2026-11-09 | AHA 2026 与《NEJM》公布 6,376 人 3 期 ZEUS 试验：抗 IL-6 单抗 ziltivekimab 大幅降低炎症标志物但未减少心血管复合终点事件（HR 0.99） | https://doi.org/10.1056/NEJMoa2612126
-2026-11-09 | ECDC 通报刚果（金）布本迪布约型埃博拉确诊逾 10,800 例（超 5,230 死），肯尼亚与尼日利亚输入关联病例接触者陆续完成观察且无二代传播 | https://www.ecdc.europa.eu/en/publications-data/ebola-disease-outbreak-caused-bundibugyo-virus-multi-country-2026
-2026-11-09 | Fred Hutch Bloom 实验室与华盛顿大学解析美西早发流感季：甲型 H1N1 D.3.1.1 亚支 G155E 突变株显著逃避青少年与年轻成人既有中和抗体 | https://jbloomlab.github.io/flu-seqneut-2026/summary.html
-2026-11-09 | FDA 召回铅超标 Wise Wife 牌肉桂粉并扩充警示清单；Lidl 旗下受李斯特菌污染的 Gelatelli 意式冰淇淋召回升级为最高风险 Class 1 | https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/slr-food-distribution-inc-recalls-wise-wife-brand-ground-cinnamon-due-elevated-lead-levels
-2026-11-09 | NASA“ESCAPADE”双星火星探测器于 11 月 7 日与 9 日完成近地动力飞越（奥伯特机动），正式进入奔火转移轨道预计 2027 年 9 月抵火 | https://www.nasa.gov/news-release/nasas-escapade-completes-powered-earth-flybys-now-en-route-to-mars/
-2026-11-09 | NASA 公布最高 100 亿美元 CLPS 2.0 商业月球货运主合同（遴选 8 企）并授出月球南极基地核动力“PROMISE”月球车运送合同 | https://www.nasa.gov/news-release/nasa-awards-moon-base-transportation-technology-science-projects/
-2026-11-09 | 中国长征十二号发射卫星互联网低轨 29 组卫星完成长征系列第 676 次飞行；SpaceX 猎鹰 9 号自加州发射美太空军 USSF-432 载荷 | https://www.news.cn/tech/20261109/49c8f93db7d549edb5490a6e36d4dfba/c.html
-2026-11-09 | WMO 于 COP31 开幕发布《2026 年全球气候状况更新报告》：1–9 月全球均温高出工业化前 1.47°C，2015–2026 成为最热 12 年 | https://library.wmo.int/idurl/4/69998
-2026-11-09 | 维尔茨堡大学团队于《Nature Chemistry》首次在常规实验条件下合成并分离出稳定氧代硼烷（oxoboranes），破解 60 年化学难题 | https://doi.org/10.1038/s41557-026-02272-w
-2026-11-09 | 香港科技大学团队于《Nature Photonics》利用手性钙钛矿多量子阱“自旋级联”机制将室温自旋寿命延长约 300 倍 | https://doi.org/10.1038/s41566-026-02027-6
-2026-11-09 | AHA 2026 与《NEJM》发表 OPTIMAL-STROKE 与 OPTIMAL-DIABETES 强化降压试验：卒中人群收缩压 <120 mmHg 降心血管事件 21%，糖尿病组无显著获益且两组肾损均增加 | https://www.acc.org/Latest-in-Cardiology/Articles/2026/11/07/Intensive-BP-Lowering-Yoga-Based-Cardiac-Rehab-Highlight-AHA-2026
-2026-11-09 | AHA 2026 与《NEJM》发表 1,880 人 STREAM 试验：70 岁以上共病老人停用一级预防他汀虽达非劣效界值但心血管事件与死亡风险相对高 38%（HR 1.38） | https://www.acc.org/Latest-in-Cardiology/Articles/2026/11/07/STREAM-eZ-PAVE-Add-New-Insights-Into-Statin-Therapy-Treatment
-2026-11-09 | AHA 2026 公布 REDUCE 试验：血压未控卒中幸存者加用螺内酯 3 个月家庭收缩压多降近 8 mmHg、达标率翻倍至 52% | https://www.acc.org/Latest-in-Cardiology/Articles/2026/11/07/AHA-2026-Trials-Examine-Strategies-to-Improve-Patient-Care-Post-Stroke
-2026-11-09 | 多家科学学会联合科研人员由 Democracy Forward 代理向波士顿联邦法院起诉美国政府与 NSF 越权违法关停社会、行为与经济科学学部（SBE） | https://democracyforward.org/updates/scientists-sue-trump-vance-administration-after-unlawful-move-to-gut-federal-social-and-behavioral-science-research-funding/
-2026-11-09 | 2026 年美国中期选举民主党重夺参众两院多数席位，Zoe Lofgren 与 Frank Pallone 将执掌众议院科学与卫生监督委员会 | https://eos.org/articles/how-science-and-the-environment-fared-in-the-2026-u-s-midterms
-2026-11-10 | FDA 批准拜耳 FXIa 抑制剂 Sunharbo（asundexian）用于预防非心源性缺血性卒中复发，降低缺血性卒中风险 26% | https://www.fda.gov/news-events/press-announcements/fda-approves-first-factor-xla-inhibitor-help-prevent-stroke-certain-adults-high-risk
-2026-11-10 | AHA 2026 公布 SYNCHRONIZE-CVOT：survodutide 心血管安全达非劣效（5-MACE HR≈0.89），同步发表于《The Lancet》 | https://www.boehringer-ingelheim.com/us/human-health/metabolic-diseases/obesity/synchronize-cvot-trial-results-presented-aha
-2026-11-10 | AHA 2026 与《NEJM》公布 Marea MAR001 2b 期 TYDAL-TIMI 78：甘油三酯最多降 72.2% 且不恶化血糖 | https://www.globenewswire.com/news-release/2026/11/09/3398451/18623/en/marea-therapeutics-a-subsidiary-of-lisata-therapeutics-announces-mar001-reduces-triglycerides-without-worsening-glycemic-control-in-phase-2b-tydal-timi-78-trial-results-presented-a.html
 
-2026-11-11 | FDA 批准 Abbisko/默克集团 CSF-1R 抑制剂 Pimjetmi（pimicotinib）用于症状性腱鞘巨细胞瘤，MANEUVER 3 期 ORR 约 54–56% 对 3% | https://www.manilatimes.net/2026/11/11/tmt-newswire/pr-newswire/pimjetmi-pimicotinib-developed-by-abbisko-therapeutics-and-licensed-by-merck-kgaa-darmstadt-germany-receive-us-fda-approval-for-tgct/2467209
-2026-11-11 | 肯塔基州东部麻疹暴发升至 207 例（1991 年以来该州最大），PAHO 本月评估美国麻疹消除地位 | https://wkyt.com/2026/11/10/eastern-kentucky-measles-cases-rise-largest-outbreak-35-years
-2026-11-11 | SpaceX 星舰第 15 次飞行计划 11/13 首次尝试助推器与上面级双回收，FAA 许可待定 | https://www.space.com/space-exploration/launches-spacecraft/spacex-moves-starship-flight-15-booster-to-launch-pad-for-squeeze-test-ahead-of-epic-double-catch-attempt-photos
-2026-11-12 | CDC 通报刚果（金）布本迪布约型埃博拉截至 11/8 累计确诊 11,021 例、死亡 5,358 例 | https://www.cdc.gov/ebola/situation-summary/index.html
-2026-11-12 | Nature：严重干旱与变暖将显著增加仙人掌类物种灭绝风险 | https://www.nature.com/nature/volumes/659/issues/8140
-2026-11-12 | Nature：抑制线粒体蛋白输入促进线粒体 DNA 释放、增强肿瘤免疫原性 | https://www.nature.com/nature/volumes/659/issues/8140
 2026-11-14 | WSJ/CNN 报道 PAHO 委员会裁定美国丧失麻疹消除地位（PAHO 未官宣） | https://www.usnews.com/news/top-news/articles/2026-11-13/us-loses-measles-free-status-after-continued-spread-of-the-disease-wsj-reports
 2026-11-14 | 星舰 Flight 15 升空，Ship 42 入轨部署 26 颗 Starlink V3，助推器回收中止溅落墨西哥湾 | https://www.space.com/space-exploration/launches-spacecraft/spacex-starship-flight-15-chopsticks-double-catch-super-heavy-ship
 2026-11-15 | NPR/KFF 报道 PAHO 专家委员会认定美国丧失麻疹消除地位，CDC 今年累计 5,412 例（正式公告未确认） | https://www.npr.org/2026/11/14/nx-s1-6041119/us-measles-elimination-status-vaccines-cdc-paho
