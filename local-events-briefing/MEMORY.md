@@ -1,7 +1,7 @@
 ## 1. 本次运行
-- 运行时刻及检索截止：2026-11-26 11:04 PST（America/Los_Angeles），上午场，感恩节当天，侧重周五黑五周末。
-- 实际覆盖窗口：2026-11-25 17:04 PST 至 2026-11-26 11:04 PST（常规）。
-- 补搜：新店开业无新增；全国范围本期无新增（无黑五相关免费日）。
+- 运行时刻及检索截止：2026-11-26 17:04 PST（America/Los_Angeles），傍晚场（同日第二次），侧重周五黑五与周末。
+- 实际覆盖窗口：2026-11-26 11:04 PST 至 2026-11-26 17:04 PST（常规）。
+- 补搜：Chubby World 开业状态仍矛盾；Disneyland 糖果手杖 2026 价格仍未查到。
 
 ## 2. 已报条目清单
 
@@ -184,6 +184,13 @@
 2026-11-26 | Strawberry Fuzz / Plague Vendor 11/27 Regent Theater Downtown LA | https://www.discoverlosangeles.com/things-to-do/the-best-things-to-do-in-la-this-weekend
 2026-11-26 | The Residents Eskimo Live! 11/27 Ricardo Montalban Theatre Hollywood | https://www.discoverlosangeles.com/things-to-do/the-best-things-to-do-in-la-this-weekend
 2026-11-26 | Great Park Gallery《Grrrl Germs》11/29 闭展，Irvine（单源）| https://thetropicannalife.com/blog/orange-countys-best-things-to-do-over-thanksgiving-weekend-2026/
+2026-11-26 | Dream Glow Festival 灯光节 11/6–12/30 每晚 17:00 起，Wild Rivers Irvine，$37/$25 | https://enjoyorangecounty.com/dream-glow-festival/
+2026-11-26 | Scrooge! The Musical 11/27 起，Chance Theater Anaheim | https://chancetheater.com/production/scrooge2026/
+2026-11-26 | LA Kings vs Ducks 11/28 18:00 Crypto.com Arena 时间确认（续报）| https://lamag.com/arts-and-entertainment/la-weekend-guide-rose-bowl-turkey-trot-made-in-la-holiday-market-hollywood-christmas-parade
+2026-11-26 | USC vs UCLA 11/28 Rose Bowl 开赛时间 12:00/12:30 矛盾（续报）| https://lamag.com/arts-and-entertainment/la-weekend-guide-rose-bowl-turkey-trot-made-in-la-holiday-market-hollywood-christmas-parade
+2026-11-26 | Passport to Santa LA 11/27–12/26 Beverly Center | https://secretlosangeles.com/passport-to-santa-experience-los-angeles/
+2026-11-26 | Made in L.A. Holiday Market 11/28 10:00–12:00 Wilshire/Fairfax，免费 | https://www.eventbrite.com/e/celebrating-small-business-saturday-made-in-la-holiday-market-tickets-2003686361846
+
 
 ## 3. 进行中事件表
 - Winter Fest OC 2026 季 | 最后进展 2026-11-22 | 11 月 27 日开幕，票价已收录；11 月 26–27 日可做开幕当日提醒
