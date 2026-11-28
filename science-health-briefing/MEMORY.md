@@ -1,6 +1,6 @@
 ## 1. 本次运行
-- 运行时刻及检索截止：2026-11-27 10:55 UTC；实际覆盖窗口：2026-11-26 11:00 UTC 至 2026-11-27 10:55 UTC（常规）；本期为空期（感恩节假期，窗口内无未报新内容）。
-- LA 县 RESPWatch 因假期暂停更新至 11/30；Capricor 电话会内容仍未检到；麻疹、埃博拉本期无新数据；SpaceX Cygnus XL NG-25 目标 11/29（备份 11/30）。
+- 运行时刻及检索截止：2026-11-28 10:55 UTC；实际覆盖窗口：2026-11-27 10:55 UTC 至 2026-11-28 10:55 UTC（常规）；窗口内仅收 2 条（假期低产）。
+- LA 县 RESPWatch 假期暂停至 11/30；Capricor 电话会内容仍未检到；麻疹、埃博拉本期无新官方数据；SpaceX Cygnus XL NG-25 目标 11/29（备份 11/30，天气 60% 适宜）；同日另有 USSF-380 猎鹰 9 号自范登堡 11/29。
 
 ## 2. 已报条目清单
 
@@ -48,6 +48,8 @@
 2026-11-26 | FDA 批准 PolyPid Bacfenssi（局部缓释多西环素）用于降低结直肠手术部位感染（SHIELD II 798 人） | https://www.drugtopics.com/view/fda-approves-bacfenssi-to-reduce-infections-after-colorectal-surgery
 2026-11-26 | FDA 将 Vertex povetacicept（IgA 肾病）决定日期由 11/30 延至最迟 2027-02-28 | https://pharmashots.com/38137/vertex-povetacicept-pdufa-extension-igan
 2026-11-26 | CDC 麻疹累计 6,039 例（截至 11/24），确认 9 人死亡 | https://nglobenews.com/en/article/us-cdc-measles-nine-deaths-6039-cases-2026-11-26
+2026-11-28 | FCC 批准 SpaceX Starmind 最多 100 万颗轨道数据中心卫星（11/25）| https://www.cnbc.com/2026/11/25/spacex-fcc-satellite-approval.html
+2026-11-28 | 观察性研究：地球健康饮食与较低 MASLD 风险相关 | https://www.medicalnewstoday.com/articles/planetary-health-diet-may-lower-risk-of-liver-problems
 
 ## 3. 进行中事件表
 - 事件：加州与美西 2026–2027 流感季反常提前暴发（甲型 H1N1 D.3.1.1 亚支 G155E 突变株驱动加州流感阳性率飙升，Bloom 实验室证实该突变显著逃避青少年与年轻成人既有中和抗体）｜最后进展：2026-11-17（加州约 120 例死亡，南加首例儿童死亡）｜下一步关注点：CDPH 与洛杉矶县公共卫生局 11 月中下旬急诊就诊率、住院率与死亡人数变化，以及 CDC 对当季流感疫苗针对 G155E 突变株真实世界保护效力（VE）的评估数据。
