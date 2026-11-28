@@ -1,28 +1,10 @@
 ## 1. 本次运行
-- 运行时刻及检索截止：2026-11-27 17:04 PST（America/Los_Angeles），傍晚场，侧重今晚、周六与周末。
-- 实际覆盖窗口：2026-11-27 11:10 PST 至 2026-11-27 17:04 PST（常规）。
-- 补搜：Disneyland 糖果手杖价格、Chubby World 开业日本期仍未核到。
+- 运行时刻及检索截止：2026-11-28 11:04 PST（America/Los_Angeles），午前场，侧重今天下午晚间与周日。
+- 实际覆盖窗口：2026-11-27 17:04 PST 至 2026-11-28 11:04 PST（常规）。
+- 补搜：Chubby World 开业日本期未复核；Hollywood Christmas Parade 看台价格两说。
 
 ## 2. 已报条目清单
 
-2026-11-06 | Idina Menzel 与 Pacific Symphony 今明两晚（11/6–11/7 20:00）开演提醒，Renée and Henry Segerstrom Concert Hall Costa Mesa | https://www.pacificsymphony.org/show-details/idina-menzel
-2026-11-06 | Irvine Spectrum Center 户外滑冰场（Ice Rink），11/6–2027-01-03，Irvine Spectrum Center | https://www.irvinespectrumcenter.com/entertainment/ice-rink
-2026-11-06 | Noche de Altares 亡灵节封街社区庆典，11/7 12:00–21:00，Downtown Santa Ana 4th Street | https://www.nochedealtares.info/
-2026-11-06 | Sugar Plum Arts & Crafts Festival，11/6–11/8，OC Fair & Event Center Costa Mesa | https://www.sugarplumfestivals.com/
-2026-11-06 | Orange County Wine Fest，11/7–11/8，The Hangar at OC Fair & Event Center Costa Mesa | https://www.orangecountywinefest.com/
-2026-11-06 | Old World Oktoberfest 最终收官周末，11/6–11/8，Old World Biergarten Huntington Beach | https://www.oldworldhb.com/
-2026-11-06 | 首届 LA Chocolate Festival，11/7–11/8 09:00–17:00，The Magic Box @ The Reef Downtown LA | https://www.lachocolatefestival.com/
-2026-11-06 | Honda Center Dan + Shay（11/6）、Brand New（11/7）演唱会及 Anaheim Ducks 主场赛（11/8、11/11），Honda Center Anaheim | https://www.hondacenter.com/
-2026-11-06 | Great Park Live Dial Up Festival（原定 11/7）延期至 2027-03-20，Great Park Live Irvine | https://www.greatparklive.com/
-2026-11-06 | LA Phil Daniel Harding 执棒伯恩斯坦与勃拉姆斯音乐会，11/6–11/8，Walt Disney Concert Hall Downtown LA | https://www.laphil.com/
-2026-11-06 | Mon Laferte Femme Fatale Tour，11/7–11/8 20:00，Kia Forum Inglewood | https://thekiaforum.com/
-2026-11-06 | Laguna Art Museum Art + Nature 收官周末暨户外旗帜装置展，至 11/9，Laguna Beach | https://lagunaartmuseum.org/
-2026-11-06 | UC Irvine Langson OCMA 秋季大展《Hello Again》开展（11/13）暨免费公众开幕庆典（11/14），Costa Mesa | https://ocma.art/
-2026-11-06 | Fall Brewery Artwalk（11/7–11/8 Lincoln Heights）与 Luminex: The Infinite Between（11/8 Venice Beach）| https://breweryartwalk.org/
-2026-11-06 | Holidays at the Disneyland Resort（含 Disney Festival of Holidays），11/13–2027-01-06，Disneyland Resort Anaheim | https://disneyland.disney.go.com/events-tours/holidays-at-the-disneyland-resort/
-2026-11-06 | Self Help Graphics 第 53 届亡灵节庆典（Boyle Heights）与 Corita Day Festival（Little Tokyo SCI-Arc），11/7，Los Angeles | https://www.discoverlosangeles.com/
-2026-11-06 | Veterans Day 全美国家公园免费开放日，11/11，全美 NPS 收费园区 | https://www.nps.gov/planyourvisit/fee-free-parks.htm
-2026-11-06 | Starbucks 2026 假日菜单上线（11/5 起）、Veterans Day 免费咖啡（11/11，同日含 In-N-Out 免费军人套餐）与 Red Cup Day（11/17）| https://about.starbucks.com/
 2026-11-09 | 百老汇音乐剧《Water for Elephants》（11/10–11/22）与 Orpheus Chamber Orchestra 音乐会（11/10 20:00），Segerstrom Center for the Arts Costa Mesa | https://www.scfta.org/
 2026-11-09 | Daughtry 20 Years Unplugged Tour（City National Grove of Anaheim）与 Periphery 演唱会（House of Blues Anaheim），11/10，Anaheim | https://www.ticketmaster.com/
 2026-11-09 | Jessie Reyez A Little Vengeance Tour，11/9 20:00，Kia Forum Inglewood | https://thekiaforum.com/
@@ -120,10 +102,8 @@
 2026-11-20 | Mandarin Plaza 假日市集 11/21 11:00–16:00，970 N Broadway Chinatown LA（单源）| https://www.welikela.com/things-to-do-this-weekend-in-los-angeles-11-20-2026-to-11-22-2026/
 2026-11-20 | Getty Center《A Light in the Dark: Joseph Wright of Derby》11/24–2027-03-14，免费需预约，Los Angeles | https://www.getty.edu/exhibitions/wright-of-derby/
 2026-11-20 | Hollywood Christmas Parade 11/29 18:00 看台票开售（续报，儿童票价两说）| https://www.funwithkidsinla.com/post/hollywood-christmas-parade-2026-family-guide
-
 2026-11-21 | V-Beyond Concert 11/21 19:00 Honda Center Anaheim，巡演北美首站 | https://www.hondacenter.com/events/v-beyond-concert-1/
 2026-11-21 | Pasadena Doo Dah Love-In 11/22 11:00–16:30 Memorial Park Bandshell，免费 | https://www.coloradoboulevard.net/pasadena-doo-dah-crew-to-host-free-all-ages-love-in-on-november-22/
-
 2026-11-21 | Alter Bridge What Lies Within Tour 11/22 18:00 House of Blues Anaheim | https://www.livenation.com/event/vvG10Z_5pDHCwM/alter-bridge-what-lies-within-tour
 2026-11-21 | Pacific Symphony Sundays at Soka 11/22 15:00 Soka Performing Arts Center Aliso Viejo | https://www.performingarts.soka.edu/calendar-events/pacific-symphony-bach-beethoven-alexander-shelley-cond
 2026-11-21 | Three Days Grace Alienation Tour 11/22 19:00 Intuit Dome Inglewood | https://www.ticketmaster.com/three-days-grace-alienation-tour-inglewood-california-11-22-2026/event/09006365AFE0EDC0
@@ -143,7 +123,6 @@
 2026-11-23 | tripleS World Tour [ANDLESS] 11/24 The Wiltern Los Angeles | https://www.livenation.com/event/vv1AaZkfNGkdl_CrL/2026-triples-world-tour-andless-in-na
 2026-11-23 | Disneyland 手工糖果手杖 11/27 Candy Palace、11/28–29 Trolley Treats，Anaheim | https://ktla.com/news/disneyland-holiday-candy-cane-dates/
 2026-11-23 | Anime Circuit 11/28 12:00–19:00 Anaheim GardenWalk，免费 | https://www.eventbrite.com/e/anime-circuit-nov-28th-2026-tickets-2004258580367
-
 2026-11-23 | Journey 11/24 19:30 Honda Center 明晚提醒（续报）| https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-anaheim-california-11-24-2026/event/090064A695B5BA92
 2026-11-23 | CocoRosie 11/24 Fonda Theatre 与 untitled (halo) 11/24 The Echo（单源）| https://grimygoods.com/2026/11/23/this-weeks-best-shows-la-untitled-halo-emma-ruth-rundle-cocorosie
 2026-11-23 | Getty Wright of Derby 11/24 开展提醒（续报）| https://www.getty.edu/exhibitions/wright-of-derby/
@@ -159,17 +138,14 @@
 2026-11-24 | USC vs UCLA 11/28 12:00 Rose Bowl Pasadena | https://www.discoverlosangeles.com/things-to-do/the-best-things-to-do-in-la-this-weekend
 2026-11-24 | LA Kings Holiday Ice Festival 11/27 开幕官方确认，17:00–00:30（续报）| https://www.lalive.com/events/detail/holiday-ice-26-27
 2026-11-24 | Yuletide Cinemaland 11/28 Heritage Square Museum（单源）| https://www.discoverlosangeles.com/things-to-do/the-best-things-to-do-in-la-this-weekend
-
 2026-11-24 | Conjunto Primavera 等 11/25 18:00 Anaheim Convention Center（单源）| https://www.songkick.com/concerts/43400706-conjunto-primavera-at-anaheim-convention-center
 2026-11-24 | Smoke Me Out 2026（Legado 7 等）11/25 20:00 Peacock Theater Downtown LA | https://www.peacocktheater.com/events/detail/smokemeout26
 2026-11-24 | Cole's French Dip 11 月中旬新东家重开，Downtown LA（重开日期 11/17–11/19 矛盾）| https://mynewsla.com/business/2026/11/18/historic-coles-french-dip-reopens-wednesday-evening-in-downtown-la/
 2026-11-24 | Disneyland Resort 感恩节/黑五 11/26–11/27 营业时间（单源）| https://www.undercovertourist.com/blog/disneyland-thanksgiving/
-
 2026-11-25 | Alicia Villarreal Bendita Locura Tour 11/27 19:00 House of Blues Anaheim | https://www.livenation.com/event/vvG10Z_Gmlp13w/alicia-villarreal-bendita-locura-tour-2026
 2026-11-25 | Grove of Anaheim 《胡桃夹子》11/27 与披头士致敬秀 11/29（单源）| https://www.groveofanaheim.com/events
 2026-11-25 | Academy Museum 无障碍场 Gremlins 11/28，$5，时间 11:00/19:30 矛盾，Los Angeles | https://www.academymuseum.org/programs/detail/gremlins-019fceba-f20a-417b-ed3c-bd5163cf63fa
 2026-11-25 | Universal Studios Hollywood Grinchmas 11/21–2027-01-03 | https://hauntedattractionnetwork.com/universal-studios-hollywood-christmas/
-
 2026-11-25 | 感恩节 11/26 南加景点开闭情况（Academy Museum、Pacific Park、Disneyland 开放，Griffith Observatory 与 L.A. Zoo 闭馆）（单源）| https://www.timeout.com/los-angeles/things-to-do/thanksgiving-activities-and-events-for-los-angeles
 2026-11-25 | Chubby World 美食广场 Irvine 2646 Dupont Dr 11 月开业（开业状态矛盾）| https://www.ocbj.com/food/restaurants/chubby-world-food-hall-opening-in-irvine/
 2026-11-25 | Miracle 圣诞快闪酒吧 Offshore 9 Huntington Beach，至 12/31（起始日 11/20 或 11/23 矛盾）| https://www.miraclepopup.com/locations-2026
@@ -203,12 +179,19 @@
 2026-11-27 | Silverado Music & Tattoo Festival 11/28 12:00–22:00 Oak Canyon Park（单源）| https://www.songkick.com/festivals/3805999-silverado-music-and-tattoo/id/43422651-silverado-music-and-tattoo-festival-2026
 2026-11-27 | Brodard Long Beach 2nd & PCH 新分店（单源）| https://www.theinfatuation.com/los-angeles/guides/new-la-restaurants-openings
 2026-11-27 | The District at Tustin Legacy 五家新店与 Creekside Rancho Mission Viejo（单源）| https://ocfoodies.com/f/new-and-noteworthy-orange-countys-newest-restaurant-openings
-
+2026-11-28 | Hollywood Christmas Parade 11/29 18:00 提醒，看台票售罄、路边免费（续报）| https://www.funwithkidsinla.com/post/hollywood-christmas-parade-2026-family-guide
+2026-11-28 | Sorry, Not Sorry Creamery 橙县首店 11/28 12:00 开业，Rancho Santa Margarita（单源）| https://www.diningandcooking.com/2907771/3-new-orange-county-spots-for-ice-cream-onigiri-and-pizza-orange-county-register/
+2026-11-28 | Disneyland 糖果手杖 $25.99，Trolley Treats 11/28–29 手环发放（续报）| https://mickeyblog.com/2026/11/27/hand-made-candy-canes-are-back-at-disneyland-resort
+2026-11-28 | Elf in Concert 11/28 20:00 Walt Disney Concert Hall $78 起，11/29 14:00 场次官方未证（续报）| https://otbla.com/events/concerts/elf-in-concert-walt-disney-concert-hall-2026/
+2026-11-28 | Meek Mill Dream Chasers Nights 11/29 20:00 Hollywood Palladium | https://news.pollstar.com/2026/10/27/meek-mill-announces-6-city-dream-chasers-nights-tour/
+2026-11-28 | LA Opera Candide 11/29 14:00 官方票价未核（续报）| https://www.laopera.org/performances/2026-27/candide
+2026-11-28 | U2 2027-10-01/02 SoFi Stadium Inglewood，12/4 开票 | https://www.ticketnews.com/2026/11/u2-2027-north-american-stadium-tour/
 
 ## 3. 进行中事件表
-- Hollywood Christmas Parade | 最后进展 2026-11-20 | 11 月 29 日 18:00；看台票已收录（儿童价两说）；11 月 28–29 日可做当日提醒并核 Ticketmaster 价格
+- Hollywood Christmas Parade | 最后进展 2026-11-28 | 11 月 29 日 18:00 开游；活动后闭合
 - Newport Beach Christmas Boat Parade | 最后进展 2026-11-16 | 12 月 16–20 日；12 月初可做开票/临近提醒
-- Disneyland 糖果手杖 | 最后进展 2026-11-27 | 11/28–29 Trolley Treats；价格仍未公布，可再核价
-- LA Phil Elf in Concert | 最后进展 2026-11-24 | 11/28 20:00 Walt Disney Concert Hall；核演出方与票价
+- Disneyland 糖果手杖 | 最后进展 2026-11-28 | Trolley Treats 12/1、6、8、13、15、20、22、24 续售（12/25 是否有售两说）；核 Trolley Treats 价格
+- LA Phil Elf in Concert | 最后进展 2026-11-28 | 核 11/29 14:00 加场是否存在（LA Phil 官方）
 - Chubby World 美食广场 Irvine | 最后进展 2026-11-25 | 核实实际开业日（OCBJ 称 11 月开业，Wisevoter 称 11/24 已开）
-- LA Opera Candide | 最后进展 2026-11-27 | 11/29 14:00 场次与官方票价待核；演出季至 12/13
+- LA Opera Candide | 最后进展 2026-11-28 | 11/29 14:00 官方票价待核；演出季至 12/13
+- U2 SoFi Stadium 2027-10-01/02 | 最后进展 2026-11-28 | 11/30 订阅会员预售、12/4 10:00 大众开票，到点提醒一次
