@@ -1,13 +1,12 @@
 ## 1. 本次运行
 
-- 本次运行时刻及检索截止：2026-11-27 10:10 UTC。
-- 上次运行：2026-11-26 10:30 UTC。
-- 覆盖窗口：2026-11-26 10:10 UTC 至 2026-11-27 10:10 UTC（常规）。
-- 本期未收录：谷歌/安卓、系统更新、新品发布、芯片、开源、政策方向窗口内未检索到新的未报内容。下期可留意：黄仁勋12/1国会问询；特斯拉/SpaceX合并谈判（目标12/31前）；Tesla 12/3股东大会；华为Mate X8 12/4开售；iOS 27.3正式版（预计12月）；标普对英伟达评级的后续。
+- 本次运行时刻及检索截止：2026-11-28 10:10 UTC。
+- 上次运行：2026-11-27 10:10 UTC。
+- 覆盖窗口：2026-11-27 10:10 UTC 至 2026-11-28 10:10 UTC（常规）。
+- 本期未收录：谷歌/安卓、系统更新、新品发布、开源、政策方向窗口内未检索到新的未报内容。下期可留意：黄仁勋12/1国会闭门问询与12/3参议院公开作证；特斯拉/SpaceX合并谈判（目标12/31前）；Tesla 12/3股东大会；华为Mate X8 12/4开售；iOS 27.3正式版（预计12月）；英伟达东南亚暂停发运后续。
 
 ## 2. 已报条目清单
 
-- 2026-11-12 | AI云算力厂商CoreWeave公布2026年Q3财报业绩超预期，带动纳指与标普500收涨（单源） | https://thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-11-2026
 - 2026-11-18 | 英伟达公布2027财年Q3：营收1158亿美元（增103%），Q4指引约1300亿美元且假设无中国数据中心收入 | https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000088/q3fy27pr.htm
 - 2026-11-18 | 黄仁勋11月12日辞任英伟达CEO，Colette Kress任临时CEO、Harvey Jones任董事会主席 | https://www.cnn.com/2026/11/12/tech/jensen-huang-nvidia-resigns
 - 2026-11-18 | 美国BIS发布AI芯片远程访问临时最终规则（新马泰印尼巴西数据中心须许可、堵上代工免许可捷径），三星台积电股价下跌 | https://www.tipranks.com/news/samsung-tsmc-stocks-slide-as-u-s-tightens-ai-chip-curbs-on-china
@@ -68,10 +67,17 @@
 - 2026-11-27 | 1Password内部系统经员工GitHub账号被入侵，客户元数据与源码被取 | https://techcrunch.com/2026/11/25/1password-said-hackers-broke-into-its-internal-systems-but-customer-passwords-are-safe/
 - 2026-11-27 | CISA将10个漏洞列入KEV（含5个Mitel MiCollab） | https://securityonline.info/cisa-kev-catalog-micollab-juniper-danfoss/
 - 2026-11-27 | GeoServer RCE链在野利用未入KEV（单源） | https://rescana.com/post/geoserver-cve-2026-120705-and-cve-2026-129243-exploited-patch-the-unauthenticated-rce-chain-now
+- 2026-11-28 | 美股黑五半日芯片股领涨、纳指涨2.3%，英伟达因出口暂停报道跑输 | https://finance.yahoo.com/markets/article/chip-stocks-lead-a-black-friday-rally-but-nvidia-misses-out-alphacheck-145727185.html
+- 2026-11-28 | FT称英伟达通知厂商暂停向马来西亚、新加坡、泰国、印尼发运服务器 | https://www.aa.com.tr/en/economy/nvidia-halts-chip-shipments-to-4-southeast-asian-countries-report/4138447
+- 2026-11-28 | Bloomberg称Blackwell服务器现身上海数据中心，商务部11/23将Megaspeed列入黑名单 | https://en.sedaily.com/world/2026/11/28/nvidias-blackwell-chips-spotted-at-shanghai-data-center
+- 2026-11-28 | 黄仁勋12/1闭门、12/3参议院银行委员会公开作证（单源） | https://world-today-journal.com/nvidia-ceo-jensen-huang-commerce-secretary-lutnick-summoned-to-congress-over-spy-scandal-and-chip-export-probe/
+- 2026-11-28 | 马斯克称谷歌有意向SpaceX租更多算力（单源） | https://www.investing.com/news/company-news/musk-says-google-interested-in-renting-more-computing-capacity-from-spacex-5054245
+- 2026-11-28 | 马斯克称每年向美国儿童赠送SpaceX股份 | https://www.cnbc.com/2026/11/27/spacex-shares-musk-donations.html
+- 2026-11-28 | CISA将GeoServer CVE-2026-120705与CVE-2026-129243列入KEV | https://www.cisa.gov/news-events/alerts/2026/11/27/cisa-adds-three-known-exploited-vulnerabilities-catalog
 
 ## 3. 进行中事件表
 
-1. 事件：英伟达CEO更替、涉外情报调查与出口管制问询｜最后进展：2026-11-26，标普将英伟达评级列负面观察、贝森特期限届满无公开答复；11/23，英伟达宣布黄仁勋复任CEO（此前特朗普公开呼吁重聘）；此前：特朗普公开呼吁董事会重聘黄仁勋、贝森特称需要答案但未排除复任；11/20，贝森特称H200政策不变；11/18，黄仁勋定于12/1接受国会闭门问询、Teter 12/2；贝森特11/15限董事会10天答复Megaspeed转运问题；SEC被曝民事调查（单源）；董事会被曝接触Rene Haas｜下一步关注：三星/台积电对华出货许可获批进展（三星被曝暂停百度昆仑芯、字节出货）与台股走势；贝森特与国会对复任的反应；H200对华停货是否恢复；董事会对贝森特限期（约11/25）的回应；SEC调查是否获官方证实
+1. 事件：英伟达CEO更替、涉外情报调查与出口管制问询｜最后进展：2026-11-28，FT称英伟达暂停向东南亚四国发运服务器、Bloomberg称Blackwell现身上海、黄仁勋12/1闭门与12/3参议院公开作证；11/26，标普将英伟达评级列负面观察、贝森特期限届满无公开答复；11/23，英伟达宣布黄仁勋复任CEO（此前特朗普公开呼吁重聘）；此前：特朗普公开呼吁董事会重聘黄仁勋、贝森特称需要答案但未排除复任；11/20，贝森特称H200政策不变；11/18，黄仁勋定于12/1接受国会闭门问询、Teter 12/2；贝森特11/15限董事会10天答复Megaspeed转运问题；SEC被曝民事调查（单源）；董事会被曝接触Rene Haas｜下一步关注：英伟达东南亚暂停发运时长与官方回应；12/1、12/3听证；三星/台积电对华出货许可获批进展（三星被曝暂停百度昆仑芯、字节出货）与台股走势；贝森特与国会对复任的反应；H200对华停货是否恢复；董事会对贝森特限期（约11/25）的回应；SEC调查是否获官方证实
 2. 事件：美光台湾桃园厂劳资争议与暂停新晶圆厂建设｜最后进展：2026-11-06，因桃园厂工会要求将营业利润15%用于员工分红的谈判陷入僵局及抗议台中厂协议透明度问题，美光被曝暂停总投资30亿至45亿美元的桃园新晶圆厂（Fab 11E）建设｜下一步关注：桃园厂劳资调解是否达成协议、Fab 11E何时复工
 3. 事件：美满电子（Marvell）1150亿美元全股票收购Lumentum｜最后进展：2026-11-02，Marvell宣布达成最终协议以隐含企业价值约1150亿美元全股票交易收购光通信厂商Lumentum（含32亿美元反向分手费条款，预计2028年上半年交割）｜下一步关注：双方股东大会表决及中美欧反垄断监管审查进展
 4. 事件：特斯拉与SpaceX董事会特别委员会评估合并及关停Cybertruck产线｜最后进展：2026-11-27，谈判董事名单披露；11/26，报道称目标12/31前达成协议、换股比例未定；11/24，特斯拉与SpaceX各自设立独立董事特别谈判小组，摩根士丹利、高盛、Evercore任顾问，尚无协议；此前11/18马斯克在DealBook称两家公司"可能合并更好"但反对合并单独触发其薪酬奖励，Bloomberg称最早12月可能公告；此前11/09马斯克确认得州工厂Cybertruck产线将于2027年年中关停并向无法交付的预订者退还定金，同时双方董事会特别委员会持续评估合并方案｜下一步关注：特别委员会正式合并方案、国会与监管机构反垄断审查进展
