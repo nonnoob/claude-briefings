@@ -2,9 +2,9 @@
 
 ## 1. 本次运行
 
-- 运行时刻及检索截止：2026-11-27 10:07 UTC。
-- 实际覆盖窗口：2026-11-26 10:07 UTC 至 2026-11-27 10:07 UTC（常规）。
-- 收录 2 条（Copilot CLI v1.0.117-2~-5；AgentKit 11-30 停用【单源】）。Claude Code 无新版（仍 v2.1.332）；Codex 仅 0.174 alpha；Simon Willison 仅非 agent 主题；社区方向无实质新内容。
+- 运行时刻及检索截止：2026-11-28 10:07 UTC。
+- 实际覆盖窗口：2026-11-27 10:07 UTC 至 2026-11-28 10:07 UTC（常规）。
+- 收录 2 条（Copilot CLI v1.0.117 正式版与 v1.0.118-0~-2；AgentKit 下线【续报】）。Claude Code 仍 v2.1.332 无新版；Codex 0.173 仍仅 alpha；社区方向无实质新内容。
 
 ## 2. 已报条目清单（保留最近 14 天）
 
@@ -58,10 +58,13 @@
 - 2026-11-27 | Copilot CLI v1.0.117-2~-5 预发布：MCP 工具批准不再连带内置请求、沙箱自定义 CA 证书设置 | https://github.com/github/copilot-cli/releases
 - 2026-11-27 | 【单源】OpenAI AgentKit 部分工作流能力 11-30 起停止运行，建议迁 Agents SDK | https://tech-insider.org/ca/claude-agent-sdk-vs-openai-agentkit-vs-google-adk-2026/
 
+- 2026-11-28 | Copilot CLI v1.0.117 正式版与 v1.0.118-0~-2 预发布：自定义 agent 显式工具暴露、MCP 批准不连带内置权限、沙箱自定义 CA | https://github.com/github/copilot-cli/releases
+- 2026-11-28 | 【续报】OpenAI Agent Builder/Evals/v1 prompts API 11-30 下线获多源确认，迁 Agents SDK | https://forkast.news/openai-agent-builders-nov-30-shutdown-puts-migration-on-a-code-and-validation-path/
+
 ## 3. 进行中事件表
 
-- 事件：Claude Code `.claude/settings.local.json` 内置敏感信息擦除（secret scrubbing）与安全默认保护落地；最后进展日期：2026-11-09（Apiiro 披露「Yes, and don't ask again」将含密钥的明文命令写入 `.claude/settings.local.json` 并在逾 1,100 个公开仓库泄露后，Claude Code 负责人 Boris Cherny 在 HN 回应称正原型验证内置 secret scrubbing 与自动防泄漏机制）；下一步关注点：Claude Code 后续版本（v2.1.323、v2.1.325 摘要均未见此项，v2.1.326 亦未见，v2.1.327–v2.1.332 亦未见（v2.1.332 于 11-24 发布仍无此项；11-27 检索仍无 v2.1.333），看 v2.1.333+）变更日志何时上线 `.claude/settings.local.json` 写入前的密钥自动脱敏/拦截及仓库级 `.gitignore` 保护改进。
+- 事件：Claude Code `.claude/settings.local.json` 内置敏感信息擦除（secret scrubbing）与安全默认保护落地；最后进展日期：2026-11-09（Apiiro 披露「Yes, and don't ask again」将含密钥的明文命令写入 `.claude/settings.local.json` 并在逾 1,100 个公开仓库泄露后，Claude Code 负责人 Boris Cherny 在 HN 回应称正原型验证内置 secret scrubbing 与自动防泄漏机制）；下一步关注点：Claude Code 后续版本（v2.1.323、v2.1.325 摘要均未见此项，v2.1.326 亦未见，v2.1.327–v2.1.332 亦未见（v2.1.332 于 11-24 发布仍无此项；11-27、11-28 检索仍无 v2.1.333），看 v2.1.333+）变更日志何时上线 `.claude/settings.local.json` 写入前的密钥自动脱敏/拦截及仓库级 `.gitignore` 保护改进。
 - 事件：Claude Code 彻底移除模型上下文中的用户账号邮箱后续版本落地；最后进展日期：2026-11-09（v2.1.319–v2.1.329 均 进一步加固权限与 MCP OAuth 令牌安全，但尚未在变更日志中宣告将登录邮箱彻底移出模型系统上下文）；下一步关注点：Claude Code 后续版本变更日志是否兑现从系统上下文中彻底剥离用户邮箱，以及 `@author` 等场景的替代方案。
 - 事件：OpenAI 收购 Pierre 后的 Code Storage 与 Codex 集成及 Pando 开源/上游回馈进展；最后进展日期：2026-11-04（OpenAI 披露内部 Git 后端 Pando 并宣布收购 Pierre，计划将 Pierre 的分布式机器导向 Git 存储层 Code Storage 深度整合进 Codex）；下一步关注点：Codex CLI（0.170.0–0.172.0 稳定版均未见，0.173 仅有 alpha Pierre 集成，看 0.173+）及云端环境何时开放基于 Pierre Code Storage 的多 Agent 并行分支与内联审查功能，以及 Pando 相关补丁是否回馈上游 Git。
 - 事件：Opus 4.8 fast mode 停用；最后进展日期：2026-10-31（v2.1.316 公告，弃用日 10 月 30 日）；下一步关注点：11 月 30 日正式移除前后的客户端报错处理与迁移公告。
-- 事件：OpenAI AgentKit 工作流能力 11-30 停用（单源，未核官方）；最后进展日期：2026-11-27；下一步关注点：核对 OpenAI 官方公告，确认 11-30 前后迁移指引。
+- 事件：OpenAI Agent Builder/Evals/v1 prompts API 11-30 下线（多源二手确认，未核官方页）；最后进展日期：2026-11-28；下一步关注点：核对 OpenAI 官方 deprecation 页，及 11-30 后已发布工作流能否经 ChatKit 继续运行。
