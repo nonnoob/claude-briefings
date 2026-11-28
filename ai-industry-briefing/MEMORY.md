@@ -1,8 +1,8 @@
 ## 1. 本次运行
 
-- 运行时刻及检索截止：2026-11-27 10:45 UTC。
-- 实际覆盖窗口：2026-11-26 10:50 UTC 至 2026-11-27 10:40 UTC（常规）。
-- 六方向及热点兜底已检索（模型与产品、研究与技术、传闻与前瞻本期窗口内无新增）。
+- 运行时刻及检索截止：2026-11-28 10:45 UTC。
+- 实际覆盖窗口：2026-11-27 10:45 UTC 至 2026-11-28 10:40 UTC（常规）。
+- 六方向及热点兜底已检索（传闻与前瞻本期窗口内无新增）。
 
 ## 2. 已报条目清单
 
@@ -69,6 +69,19 @@
 - 2026-11-27 | 【单源】ElevenLabs 据彭博洽谈以约 330 亿美元估值融资（2027 Q1 启动） | https://thenextweb.com/news/elevenlabs-33bn-valuation-funding-talks-2027
 - 2026-11-27 | 美国 AI 芯片新规致亚洲数据中心融资停滞（Digital Halo、Aolani、Bain 马来西亚贷款） | https://finance.yahoo.com/technology/ai/articles/billions-data-center-deals-grind-160100809.html
 - 2026-11-27 | 【续报】黄仁勋 12/3 参议院银行委员会公开听证细节 | https://www.tipranks.com/news/jensen-huangs-nvidia-return-faces-live-dec-3-senate-grilling-over-megaspeed-and-halted-server-shipments
+- 2026-11-28 | OpenAI 修复 GPT-6.2 计费错误，Astra/Sol 限额触达加快 | https://the-decoder.com/gpt-6-2-astra-users-now-hit-limits-40-faster-after-openai-patched-a-pricing-error/
+- 2026-11-28 | 【续报】路透：智谱旗舰延迟、月之暗面称海外算力受限 | https://www.reuters.com/world/china/us-chip-curbs-distillation-crackdown-threaten-chinese-ai-model-development-2026-11-26/
+- 2026-11-28 | 【单源】百度开放 ERNIE 5.5 Flash Preview 权重 | https://decrypt.co/384015/china-google-released-fast-new-ai-model-free-baidu-ernie
+- 2026-11-28 | 【单源】Anthropic 用 Claude 将 API 迁移到 Rust，CPU -70% | https://www.theneuron.ai/news/anthropic-claude-api-rust-migration/
+- 2026-11-28 | 腾讯开源 DFly2 推测解码工具 | https://x.com/TencentAI_News/status/2125968859450802415
+- 2026-11-28 | 【续报】Aaronson 评黎曼猜想 AI 证明 | https://the-decoder.com/former-openai-researcher-says-the-riemann-proof-matters-less-than-the-fact-that-an-ai-system-can-produce-it/
+- 2026-11-28 | 【续报】穆迪下调英伟达展望至稳定 | https://www.semafor.com/article/11/26/2026/nvidias-credit-rating-the-ai-trades-collateral-is-at-risk
+- 2026-11-28 | 【续报】英伟达警告 neocloud 不得租给中企；两家加州客户实为中资 | https://thenextweb.com/news/nvidia-gpu-sellers-neoclouds-no-chinese-renters
+- 2026-11-28 | 【续报】新加坡称英伟达停运报道未证实 | https://www.techinasia.com/news/singapore-reports-nvidia-shipment-halt-unconfirmed
+- 2026-11-28 | SpaceX 获有条件批准部署最多百万颗 AI 计算卫星 | https://www.theneuron.ai/news/spacex-orbital-ai-data-centers/
+- 2026-11-28 | 华为预热下一代 HBM | https://www.bloomberg.com/news/articles/2026-11-26/huawei-teases-next-gen-ai-memory-chip-to-take-on-samsung-hynix
+- 2026-11-28 | 加拿大 AI 算力基金增至 10 亿加元 | https://thenextweb.com/news/canada-ai-compute-access-fund-700m-expansion
+- 2026-11-28 | 微软披露黑客 ARTEX AI 智能体攻击框架；瑞士 5 起 AI 智能体攻击 | https://the-decoder.com/microsoft-details-how-state-backed-hackers-use-the-artex-ai-framework-to-automate-cyberattacks/
 
 ## 3. 进行中事件表
 
@@ -84,4 +97,4 @@
 - 事件：亚马逊收购 Decart 与 Palo Alto 收购 Applied Compute | 最后进展日期：2026-11-23 | 下一步关注点：亚马逊证实价格；两项交易监管批准
 - 事件：Axios 报道的前沿模型安全发布担忧 | 最后进展日期：2026-11-24 | 下一步关注点：Anthropic/OpenAI 进一步声明；Claude Sonnet 5.5、GPT Astra 6.3/6.4 是否推迟
 - 事件：Nscale–Anthropic 第二笔 460MW 合作（传闻） | 最后进展日期：2026-11-24 | 下一步关注点：双方官宣签约
-- 事件：英伟达东南亚四国服务器停运与标普信用观察 | 最后进展日期：2026-11-27（听证细节、亚洲数据中心贷款搁置） | 下一步关注点：英伟达/BIS 澄清是否恢复发货；银行对 Digital Halo/Aolani/Bain 贷款最终决定；标普 90 天内评级结论；12/1、12/3 听证
+- 事件：英伟达东南亚四国服务器停运与标普信用观察 | 最后进展日期：2026-11-27（听证细节、亚洲数据中心贷款搁置） | 下一步关注点：英伟达/BIS 澄清是否恢复发货（11/27 新加坡称停运报道未证实）；银行对 Digital Halo/Aolani/Bain 贷款最终决定；标普 90 天内评级结论；12/1、12/3 听证
