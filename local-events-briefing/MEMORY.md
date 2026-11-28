@@ -1,7 +1,7 @@
 ## 1. 本次运行
-- 运行时刻及检索截止：2026-11-27 11:10 PST（America/Los_Angeles），上午场，侧重今明与周末。
-- 实际覆盖窗口：2026-11-26 17:04 PST 至 2026-11-27 11:10 PST（常规）。
-- 补搜：Disneyland 糖果手杖价格仍未查到；美食新店方向未检索到当期新条目。
+- 运行时刻及检索截止：2026-11-27 17:04 PST（America/Los_Angeles），傍晚场，侧重今晚、周六与周末。
+- 实际覆盖窗口：2026-11-27 11:10 PST 至 2026-11-27 17:04 PST（常规）。
+- 补搜：Disneyland 糖果手杖价格、Chubby World 开业日本期仍未核到。
 
 ## 2. 已报条目清单
 
@@ -198,6 +198,11 @@
 2026-11-27 | LA Opera Candide 11/29 14:00 Dorothy Chandler Pavilion Los Angeles | https://www.laopera.org/performances/2026-27/candide
 2026-11-27 | Holiday Carnival 11/29 12:00–15:00 Anaheim Town Square（单源）| https://enjoyorangecounty.com/whats-happening/
 2026-11-27 | Balboa Bay Resort 圣诞树点灯 11/29 17:00 Newport Beach（单源）| https://enjoyorangecounty.com/whats-happening/
+2026-11-27 | South Coast Repertory《A Christmas Carol》11/28 14:30 起至 12/21，Segerstrom Stage Costa Mesa | https://www.scr.org/plays/productions/26-27-season/a-christmas-carol/
+2026-11-27 | Terranea 圣诞树点灯 11/28 16:30–19:00 Rancho Palos Verdes，免费 | https://www.terranea.com/events/rancho-palos-verdes/tree-lighting-ceremony
+2026-11-27 | Silverado Music & Tattoo Festival 11/28 12:00–22:00 Oak Canyon Park（单源）| https://www.songkick.com/festivals/3805999-silverado-music-and-tattoo/id/43422651-silverado-music-and-tattoo-festival-2026
+2026-11-27 | Brodard Long Beach 2nd & PCH 新分店（单源）| https://www.theinfatuation.com/los-angeles/guides/new-la-restaurants-openings
+2026-11-27 | The District at Tustin Legacy 五家新店与 Creekside Rancho Mission Viejo（单源）| https://ocfoodies.com/f/new-and-noteworthy-orange-countys-newest-restaurant-openings
 
 
 ## 3. 进行中事件表
